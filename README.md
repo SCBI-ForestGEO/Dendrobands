@@ -41,7 +41,7 @@ Data on trees from which cores were taken is available through the core census d
 | -----| ---- | ---- |---- |
 | Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | plot PI |
 | William McShea |  | staff scientist, SCBI | plot PI |
-| Erika Gonzalez-Akre | gonzalezeb | lab manager | |
+| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | |
 | Victoria Meakem |  | research assistant, SCBI |  |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI |  |
 | [MORE]| | | |
