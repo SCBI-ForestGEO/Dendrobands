@@ -44,7 +44,7 @@ Data on trees from which cores were taken is available through the core census d
 | Erika Gonzalez-Akre | | | |
 | Victoria Meakem |  | research assistant, SCBI |  |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI |  |
-| MORE| | | |
+| [MORE]| | | |
  
 *refers to position at time of main contribution to this repository
 
