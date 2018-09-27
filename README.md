@@ -39,9 +39,9 @@ Data on trees from which cores were taken is available through the core census d
 ## Contributors
 | name | GitHub ID| position* | role |
 | -----| ---- | ---- |---- |
-| Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | plot PI, focus on intra-annual measurements |
-| William McShea |  | staff scientist, SCBI | plot PI, focus on bi-annual measurements |
-| Erika Gonzalez-Akre | | | |
+| Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | plot PI |
+| William McShea |  | staff scientist, SCBI | plot PI |
+| Erika Gonzalez-Akre | gonzalezeb | lab manager | |
 | Victoria Meakem |  | research assistant, SCBI |  |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI |  |
 | [MORE]| | | |
