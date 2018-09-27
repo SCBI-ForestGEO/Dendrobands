@@ -2,7 +2,9 @@
 
 ## Overview 
 This repository contains dendrometer bands data for the SCBI ForestGEO plot. There are two sets of measurements: 
+
 *Biannual dendrometer bands* - measured at start and end of growing season
+
 *Intra-annual dendrometer bands* - measured ~ every 2 weeks
 
 ## Sampling location
