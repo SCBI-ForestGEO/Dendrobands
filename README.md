@@ -28,22 +28,6 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 | Species | Species code |
 | ---- | ---- |
-| Carpinus caroliniana | caca |
-| Carya cordiformis | caco |
-| Carya glabra | cagl |
-| Cornus florida | cofl |
-| Fagus grandifolia |fagr |
-| Juglans nigra | juni |
-| Liriodendron tulipifera | litu |
-| Nyssa sylvatica |nysy |
-| Quercus alba |qual |
-| Quercus rubra |quru |
-| Tilia americana |tiam |
-
-*Intra-annual dendrometer bands*
-
-| Species | Species code |
-| --- | --- |
 | Acer rubra |	acru |
 | Carpinus caroliniana |	caca |
 | Carya cordiformis |	caco |
@@ -68,6 +52,21 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 | Tilia americana |	tiam |
 | Ulmus rubra |	ulru |
 
+*Intra-annual dendrometer bands*
+
+| Species | Species code |
+| --- | --- |
+| Carpinus caroliniana | caca |
+| Carya cordiformis | caco |
+| Carya glabra | cagl |
+| Cornus florida | cofl |
+| Fagus grandifolia |fagr |
+| Juglans nigra | juni |
+| Liriodendron tulipifera | litu |
+| Nyssa sylvatica |nysy |
+| Quercus alba |qual |
+| Quercus rubra |quru |
+| Tilia americana |tiam |
 
 
 ## Tree data
