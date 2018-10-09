@@ -24,9 +24,50 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 
 ## Species
-*Biannual dendrometer bands* - [fill in]
+*Biannual dendrometer bands* 
 
-*Intra-annual dendrometer bands* - [fill in]
+| Species | Species code |
+| ---- | ---- |
+| Carpinus caroliniana | caca |
+| Carya cordiformis | caco |
+| Carya glabra | cagl |
+| Cornus florida | cofl |
+| Fagus grandifolia |fagr |
+| Juglans nigra | juni |
+| Liriodendron tulipifera | litu |
+| Nyssa sylvatica |nysy |
+| Quercus alba |qual |
+| Quercus rubra |quru |
+| Tilia americana |tiam |
+
+*Intra-annual dendrometer bands*
+
+| Species | Species code |
+| --- | --- |
+| Acer rubra |	acru |
+| Carpinus caroliniana |	caca |
+| Carya cordiformis |	caco |
+| Carya glabra |	cagl |
+| Carya ovalis |	caovl |
+| Carya tomentosa |	cato |
+| Cercis canadensis |	ceca |
+| Cornus florida |	cofl |
+| Fagus grandifolia |	fagr |
+| Fraxinus americana |	fram |
+| Juglans nigra |	juni |
+| Liriodendron tulipifera |	litu |
+| Nyssa sylvatica |	nysy |
+| Pinus strobus |	pist |
+| Platanus occidentalis |	ploc |
+| Quercus alba |	qual |
+| Quercus prinus |	qupr |
+| Quercus rubra |	quru |
+| Quercus velutina |	quve |
+| Robinia pseudoacacia |	rops |
+| Sassafras albidum |	saal |
+| Tilia americana |	tiam |
+| Ulmus rubra |	ulru |
+
 
 
 ## Tree data
