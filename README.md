@@ -1,5 +1,7 @@
 # SCBI Dendrometer bands
 
+Note: See also the [ForestGEO Dendro repository](https://github.com/forestgeo/dendro).
+
 ## Overview 
 This repository contains dendrometer bands data for the SCBI ForestGEO plot. There are two sets of measurements: 
 
@@ -18,7 +20,7 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 
 ## Protocols
-*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 500 stems of various DBH being monitored as April 2017. Protocols for band installations and remeasurement are published [here](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf).
+*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 500 stems of various DBH being monitored as April 2017. Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
 
 *Intra-annual dendrometer bands* - [fill in]
 
