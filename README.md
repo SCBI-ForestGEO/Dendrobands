@@ -1,6 +1,6 @@
 # SCBI Dendrometer bands
 
-Note: See also the [ForestGEO Dendro repository](https://github.com/forestgeo/dendro).
+Note: Also relevant (for code, cross-site integration) is the [ForestGEO Dendro repository](https://github.com/forestgeo/dendro) (contact @maurolepore for access).
 
 ## Overview 
 This repository contains dendrometer bands data for the SCBI ForestGEO plot. There are two sets of measurements: 
