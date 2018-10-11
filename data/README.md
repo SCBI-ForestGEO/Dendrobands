@@ -1,8 +1,10 @@
-README for field forms
-Whenever you’re printing a new sheet, please make sure the data from the old sheet has been entered already.
-Reminders for printing
-1.	Remember to update the “Last reading” column with the most recent survey data.
-2.	Filter by North or South (“N/S” column)
+# README for field forms
+
+Whenever youâ€™re printing a new sheet, please make sure the data from the old sheet has been entered already.
+
+## Reminders for printing
+1.	Remember to update the â€œLast readingâ€ column with the most recent survey data.
+2.	Filter by North or South (â€œN/Sâ€ column)
 
 Codes for the field form should be followed by the census#, to help with data entry later.
--	For example, if the tree is broken on 2018.8, then the code is B8.
+-	For example, if the tree is broken on census# 2018.8, then the code is B8.
