@@ -9,6 +9,27 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 *Intra-annual dendrometer bands* - dendrometer bands on >150 trees measured ~ every 2 weeks
 
+Active data is found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. The master_data.csv contains thorough data for both biannual and intraannual surveys.
+
+[Data/biannual](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/biannual) contains
+-	field form
+-	species list
+-	map of tree locations
+-	the current year’s csv
+- previous version of biannual master data (to archive at later stage)
+
+[Data/intraanual](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/intraannual) contains
+-	field form
+-	species list
+-	map of tree locations
+-	the current year’s csv
+- previous version of biannual master data (to archive at later stage)
+
+In the interest of keeping survey data entry simplified, each type of survey (biannual and intraannual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the master_data.csv via joining/merging in R. 
+1.	Metadata for these individual forms are consistent with the metadata for the master_data.csv.
+
+2. Metadata for both intraannual and biannual forms are found [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/fieldform_metadata.csv). Potentially fix this.
+
 ## Sampling location
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
 
