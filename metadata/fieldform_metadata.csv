@@ -1,0 +1,23 @@
+1/A,tag,"Tag number, appearing on aluminum tag attached to each tree"
+2/B,stemtag,stem number
+3/C,sp,species of tree
+4/D,quadrat,quadrat number within the plot
+5/E,lx,x position in the quadrat
+6/F,ly,y position in the quadrat
+7/G,dbh.YEAR,recent and relevant dbh for help identifying trees in the field
+,,
+Intraannual,,
+8/H,Last reading:,"date of most recent census# from prior field sheet. Each sheet holds room for data for 5 of the biweekly censuses, so if you filled out the last sheet on census# 2018.10, then you would populate this field with the measurements from then (and then your first field column would be 2018.11)"
+9/I - 13/M,Date: Census#: Collector:,"The date of the survey, the census# as defined in data_metadata.csv, and the initials of the data collector"
+14/N,codes,codes as defined in codes_metadata.csv. Other notes can go here as well
+15/O,N/S,"North - South qualifier to split up the data, to make it easier to print"
+,,
+,,
+Biannual,,
+8/H,dendHT,
+9/I,code.old,codes used from previous biannual survey. Codes defined by codes_metadata.csv
+10/J,Caliper Nov YEAR,Recorded caliper reading of the last biannual of last year's growing season (November). Data recorded in mm
+11/K,Caliper Mar YEAR,Data column for current year's first biannual census (March). Data recorded in mm
+12/L,Caliper Nov YEAR,Data column for current year's last biannual census (November). Data recorded in mm
+13/M,Codes,codes as defined in codes_metadata.csv. Other notes can go here as well
+14/N,N/S,"North - South qualifier to split up the data, to make it easier to print"

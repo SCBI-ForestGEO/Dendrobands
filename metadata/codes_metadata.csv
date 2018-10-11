@@ -1,0 +1,19 @@
+code,description
+A,"alternate POM (point of measurement, different than 1.3m)"
+B,stem broken above 1.3m
+C ,stem dead above 1.3m
+DS,"dead, stem standing"
+DC,"dead, stem fallen"
+DT,"dead, only tag found"
+DN,"dead, no stem or tag found"
+F,inside fence (deer exclosure)
+I,stem irregular where measured
+J,bent stem
+L,leaning stem
+M,multiple stems
+main,main stem
+P,prostrate stem (growing parallel to ground)
+R,dendroband needs replacing
+S,secondary stem
+SC,sap cluster
+X,stem broken below 1.3m
