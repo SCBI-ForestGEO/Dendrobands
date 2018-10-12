@@ -95,6 +95,8 @@ In the interest of keeping survey data entry simplified, each type of survey (bi
 ## Tree data
 Data on trees from which cores were taken is available through the core census data. Please see [this page](https://github.com/EcoClimLab/SCBI-ForestGEO-Data) for links to the data.
 
+Geographic location of tree species by quadrat, lat/lon, and qualified by biannual survey, intraannual survey, and cored trees is available in [tree_sp.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/tree_sp.csv).
+
 ## Data use
 
 [Data are not yet public.]
