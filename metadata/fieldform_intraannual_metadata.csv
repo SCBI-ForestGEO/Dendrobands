@@ -1,11 +1,12 @@
-1/A,tag,"Tag number, appearing on aluminum tag attached to each tree"
-2/B,stemtag,stem number
-3/C,sp,species of tree
-4/D,quadrat,quadrat number within the plot
-5/E,lx,x position in the quadrat
-6/F,ly,y position in the quadrat
-7/G,dbh.YEAR,recent and relevant dbh for help identifying trees in the field
-8/H,Last reading:,"date of most recent census# from prior field sheet. Each sheet holds room for data for 5 of the biweekly censuses, so if you filled out the last sheet on census# 2018.10, then you would populate this field with the measurements from then (and then your first field column would be 2018.11)"
-9/I - 13/M,Date: Census#: Collector:,"The date of the survey, the census# as defined in data_metadata.csv, and the initials of the data collector"
-14/N,codes,codes as defined in codes_metadata.csv. Other notes can go here as well
-15/O,N/S,"North - South qualifier to split up the data, to make it easier to print"
+Column,Field,Description,Storage.Type,Units
+1/A,tag,"Tag number, appearing on aluminum tag attached to each tree",numeric (integer),
+2/B,stemtag,stem number,numeric (integer),
+3/C,sp,species of tree,character (string),
+4/D,quadrat,quadrat number within the plot,numeric (integer),
+5/E,lx,x position in the quadrat,numeric (double),m
+6/F,ly,y position in the quadrat,numeric (double),m
+7/G,dbh.YEAR,recent and relevant dbh for help identifying trees in the field,numeric (double),
+8/H,Last reading:,"date of most recent census# from prior field sheet. Each sheet holds room for data for 5 of the biweekly censuses, so if you filled out the last sheet on census# 2018.10, then you would populate this field with the measurements from then (and then your first field column would be 2018.11)",numeric (double),
+9/I - 13/M,Date: Census#: Collector:,"The date of the survey, the census# as defined in data_metadata.csv, and the initials of the data collector",numeric (double),
+14/N,codes,codes as defined in codes_metadata.csv. Other notes can go here as well,character (string),
+15/O,N/S,"North - South qualifier to split up the data, to make it easier to print",character (string),

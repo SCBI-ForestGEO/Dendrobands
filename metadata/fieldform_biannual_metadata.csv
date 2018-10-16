@@ -1,14 +1,15 @@
-1/A,tag,"Tag number, appearing on aluminum tag attached to each tree"
-2/B,stemtag,stem number
-3/C,sp,species of tree
-4/D,quadrat,quadrat number within the plot
-5/E,lx,x position in the quadrat
-6/F,ly,y position in the quadrat
-7/G,dbh.YEAR,recent and relevant dbh for help identifying trees in the field
-8/H,dendHT,
-9/I,code.old,codes used from previous biannual survey. Codes defined by codes_metadata.csv
-10/J,Caliper Nov YEAR,Recorded caliper reading of the last biannual of last year's growing season (November). Data recorded in mm
-11/K,Caliper Mar YEAR,Data column for current year's first biannual census (March). Data recorded in mm
-12/L,Caliper Nov YEAR,Data column for current year's last biannual census (November). Data recorded in mm
-13/M,Codes,codes as defined in codes_metadata.csv. Other notes can go here as well
-14/N,N/S,"North - South qualifier to split up the data, to make it easier to print"
+Column,Field,Description,Storage.Type,Units
+1/A,tag,"Tag number, appearing on aluminum tag attached to each tree",numeric (integer),
+2/B,stemtag,stem number,numeric (integer),
+3/C,sp,species of tree,character (string),
+4/D,quadrat,quadrat number within the plot,numeric (integer),
+5/E,lx,x position in the quadrat,numeric (double),m
+6/F,ly,y position in the quadrat,numeric (double),m
+7/G,dbh.YEAR,recent and relevant dbh for help identifying trees in the field,numeric (double),
+8/H,dendHT,Height of dendrometer above ground,numeric (double),m
+9/I,code.old,codes used from previous biannual survey. Codes defined by codes_metadata.csv,character (string),
+10/J,Caliper Nov YEAR,Recorded caliper reading of the last biannual of last year's growing season (November). Data recorded in mm,numeric (double),mm
+11/K,Caliper Mar YEAR,Data column for current year's first biannual census (March). Data recorded in mm,numeric (double),mm
+12/L,Caliper Nov YEAR,Data column for current year's last biannual census (November). Data recorded in mm,numeric (double),mm
+13/M,Codes,codes as defined in codes_metadata.csv. Other notes can go here as well,character (string),
+14/N,N/S,"North - South qualifier to split up the data, to make it easier to print",character (string),
