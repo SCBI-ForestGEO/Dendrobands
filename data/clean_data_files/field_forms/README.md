@@ -10,3 +10,13 @@ Codes for the field form should be followed by the census#, to help with data en
 ## Reminders for printing
 1.	Remember to update the “Last reading” column with the most recent survey data.
 2.	Filter by North or South (“N/S” column)
+
+## Checklist for collecting data
+- calipers
+- clipboard
+- datasheet
+- code sheet
+- copy of map
+- flagging tape
+- pencils
+- eraser
