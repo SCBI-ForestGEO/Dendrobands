@@ -16,3 +16,6 @@ P,prostrate stem (growing parallel to ground)
 RD,dendroband needs replacing
 S,secondary stem
 X,stem broken below 1.3m
+,
+"*  If current measurement varies by more than 3mm from the last survey, ",
+"please double check and write ""double-checked"" in this column.",
