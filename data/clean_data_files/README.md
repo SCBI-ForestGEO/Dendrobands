@@ -6,9 +6,9 @@ Each year has its own folder, with the main document in each being the data_YEAR
 
 - field_forms are created from the master list via an R-script, found [here](_________________)
 
-- data_entry_forms for the office are also pulled from the master via an R-script. This form is simplified to allow volunteers and those not familiar with dendroband survey methods to help enter data, if needed.
+- data_entry_forms for the office are also pulled from the master via an R-script. This form is simplified to allow volunteers and those not familiar with dendroband survey methods to help enter data, if needed. Ideally, data should be entered directly after every survey.
 
-- Final updates are run from another R-script, which merges the data_entry_forms into the data_YEAR.csv.
+- Final updates are run from another R-script, which merges the data_entry_forms into the data_YEAR.csv. These merges should be run as soon as the data has been entered.
 
 
 
