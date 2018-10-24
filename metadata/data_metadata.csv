@@ -20,11 +20,11 @@ Column,Field,Site Description,Storage.Type,Units
 19/S,treeID,"Arbitrary numeric identifier for trees, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
 20/T,date,"Date as integer number of days since 1 Jan 1961, for easy calculation of time between measurements",numeric (integer),
 21/U,dendDiam,"Trunk diameter at the dendrometer, measured by a diameter tape, taken when dendrometer is first installed and necessary for converting subsequent dendrometer measures to dbh",numeric (double),
-22/V,dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap",numeric (double),m
+22/V,dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap",numeric (double),cm
 23/W,dendroID,"Arbitrary numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem",numeric (integer),
 24/X,type,Dendrometer type,character (string),
 25/Y,dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.,character (string),
-26/Z,dendHt,Height of dendrometer above ground,numeric (double),m
+26/Z,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
 27/AA,crown,Position of crown of tree: 1 (exposed) to 5 (shaded),numeric (integer),
 28/AB,illum,Illumination of crown: 1 (high) to 4 (low),numeric (integer),
 29/AC,lianas,Liana load in crown: 0 (none) to 5 (heavy),numeric (integer),

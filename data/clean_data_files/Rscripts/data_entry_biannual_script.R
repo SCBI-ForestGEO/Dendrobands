@@ -21,6 +21,6 @@ data_biannual<-data_biannual[,c(1,2,5,6,3,4,7:9,11,12,10)]
 data_biannual<-sapply(data_biannual, as.character)
 data_biannual[is.na(data_biannual)] <- " "
 
-write.csv(data_biannual, "data_entry_biannual.csv")
+write.csv(data_biannual, "data_entry_biannual.csv", row.names=FALSE)
 
 #this form can be used for entering biannual data before it is merged.

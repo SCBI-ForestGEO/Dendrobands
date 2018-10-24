@@ -1,6 +1,7 @@
 # Create field_form_intrannual from master
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018")
+#set it here so you don't overwrite any files
 
 data_2018 <- read.csv("data_2018.csv")
 
