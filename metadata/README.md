@@ -2,7 +2,9 @@
 
 The files here contain descriptions of the headers for the data files, including codes for field data entry.
 
-tree_sp.csv includes the following information:
+All data file headers can be found in data_metadata.csv
+
+### tree_sp.csv includes the following information:
 
 - what species of trees are present overall
 
