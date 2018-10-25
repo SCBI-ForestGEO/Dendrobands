@@ -2,7 +2,7 @@
 
 ## Structure
 
-Each year has its own folder, with the main document in each being the data_YEAR.csv, which is the master file for that year's intraannual and biannual surveys. Headers of the file are pulled from Condit along with some additional, relevant headers. Global and local coordinates for trees are located in [tree_sp.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/tree_sp.csv).
+Each year has its own folder, with the main document in each being the data_YEAR.csv, which is the master file for that year's intraannual and biannual surveys. Headers of the file are pulled from Condit along with some additional, relevant headers. Global and local coordinates for trees are located in dendro_trees.csv.
 
 - field_forms are created from the master list via an R-script, found [here](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/clean_data_files/2018/field_forms). These are created as .xlsx (excel) files to allow for retention of file manipulation for printing.
 
