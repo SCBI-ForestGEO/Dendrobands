@@ -15,7 +15,7 @@ data_install$codes = NA
 data_install$notes = NA
 data_install$dendDiam = NA
 data_install$dendHt = NA
-data_install$installdate = NA
+data_install$install.date = NA
 data_install$surveyor = NA
 data_install$dbhnew = NA
 
