@@ -3,7 +3,7 @@
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018")
 #set it here so you don't overwrite any files
 
-data_2018 <- read.csv("data_2018.csv")
+data_2018 <- read.csv("scbi.dendroAll_2018.csv")
 
 prevmeasin <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by previous survey.ID
 
@@ -13,18 +13,19 @@ data_intra<-data_intra[ ,c(1,2,7:12,15,22)]
 
 data_intra$measure = NA
 data_intra$codes = NA
-data_intra$"Date: SurveyID: Collector2:" = NA
-data_intra$"Date: SurveyID: Collector3:" = NA
-data_intra$"Date: SurveyID: Collector4:" = NA
+data_intra$"Date2: SvID: Name:" = NA
+data_intra$"Date3: SvID: Name:" = NA
+data_intra$"Date4: SvID: Name:" = NA
+data_intra$"Date5: SvID: Name:" = NA
 
 library(dplyr)
-data_intra<-data_intra %>% rename("Date:  SurveyID:   Collector1:" = measure, "codes&notes" = codes)
+data_intra<-data_intra %>% rename("Date1:  SvID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag)
 
 data_intra$prevmeas = prevmeasin$measure
 
 data_intra[is.na(data_intra)&!is.na(data_intra$prevmeas)] <- " "
 
-data_intra<-data_intra[,c(1:3,10,4:6,14,7,11:13,8:9)]
+data_intra<-data_intra[,c(1:3,10,4:6,15,7,11:14,8:9)]
 
 data_intra$location<-gsub("South", "S", data_intra$location)
 data_intra$location<-gsub("North", "N", data_intra$location)
@@ -41,7 +42,7 @@ temp <- matrix(data_intra, table_title=('Intraannual Survey'))
 
 
 library(xlsx)
-write.xlsx(temp, "field_form_intraannual.xlsx")
+write.xlsx(temp, "field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE)
 
 #to add a blank spacer row btwn title and columns, add
 "rep('', ncol(data_intra)), # blank spacer row"
