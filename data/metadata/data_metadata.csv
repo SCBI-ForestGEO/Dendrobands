@@ -22,7 +22,7 @@ Column,Field,Site Description,Storage.Type,Units
 21/U,dendDiam,"Trunk diameter at the dendrometer, measured by a diameter tape, taken when dendrometer is first installed and necessary for converting subsequent dendrometer measures to dbh",numeric (double),
 22/V,dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap",numeric (double),cm
 23/W,dendroID,"Arbitrary numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem",numeric (integer),
-24/X,type,Dendrometer type,character (string),
+24/X,type,"Dendrometer type: 1 = plastic band, 2 = metal band",character (string),
 25/Y,dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.,character (string),
 26/Z,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
 27/AA,crown,Position of crown of tree: 1 (exposed) to 5 (shaded),numeric (integer),
