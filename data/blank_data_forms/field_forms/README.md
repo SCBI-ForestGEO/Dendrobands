@@ -17,7 +17,7 @@ Codes for the field form should be followed by the census#, to help with data en
 
 3. change print margins to "narrow"
 
-4. change orientation to "horizontal"
+4. change orientation to "Landscape"
 
 5. select and define print area as wanted (under "Page Layout")
 

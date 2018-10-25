@@ -21,11 +21,12 @@ Column,Field,Site Description,Storage.Type,Units
 20/T,date,"Date as integer number of days since 1 Jan 1961, for easy calculation of time between measurements",numeric (integer),
 21/U,dendDiam,"Trunk diameter at the dendrometer, measured by a diameter tape, taken when dendrometer is first installed and necessary for converting subsequent dendrometer measures to dbh",numeric (double),
 22/V,dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap",numeric (double),cm
-23/W,dendroID,"Arbitrary, unique numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem. When a dendroband is replaced or moved to a different POM (point of measurement), a new dendroID is given following in numerical order (across all years). See dendroID_chronology.csv for reference",numeric (integer),
-24/X,type,"Dendrometer type: 1 = plastic band, 2 = metal band",character (string),
-25/Y,dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.,character (string),
-26/Z,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
-27/AA,crown,Position of crown of tree: 1 (exposed) to 5 (shaded),numeric (integer),
-28/AB,illum,Illumination of crown: 1 (high) to 4 (low),numeric (integer),
-29/AC,lianas,Liana load in crown: 0 (none) to 5 (heavy),numeric (integer),
-30/AD,measureID,"Arbitrary numeric identifier for measurements, not needed in analyses",numeric (integer),
+23/W,newband,"Quantifier for whether or not the dendroband was changed. Enter 1 if changed, 0 if not.",numeric (integer),
+24/X,dendroID,"Arbitrary, unique numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem. When a dendroband is replaced or moved to a different POM (point of measurement), a new dendroID is given following in numerical order (across all years). This column contains the most recent dendroID number for the year. See dendroID_chronology.csv for previous dendroIDs.",numeric (integer),
+25/Y,type,"Dendrometer type: 1 = plastic band, 2 = metal band",character (string),
+26/Z,dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.,character (string),
+27/AA,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
+28/AB,crown,Position of crown of tree: 1 (exposed) to 5 (shaded),numeric (integer),
+29/AC,illum,Illumination of crown: 1 (high) to 4 (low),numeric (integer),
+30/AD,lianas,Liana load in crown: 0 (none) to 5 (heavy),numeric (integer),
+31/AE,measureID,"Arbitrary numeric identifier for measurements, not needed in analyses",numeric (integer),

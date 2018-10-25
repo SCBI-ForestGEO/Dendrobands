@@ -1,31 +1,34 @@
 # Create field_form_bandreplace forms from master
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018")
+setwd()
 
-data_2018 <- read.csv("data_2018.csv")
+data_2018 <- read.csv("scbi.dendroAll_2018.csv")
 
 data_install<-data_2018[which(data_2018$survey.ID=='2018.01'), ] 
 #when trouble-shooting code, remove: &data_2018$codes=='RD'
 #subset by RD codes and one entry per stem
 
-data_install<-data_install[ ,c(1:2,7:13,15,21,26)]
+data_install<-data_install[ ,c(1:2,7:12,15,21,24,25,27)]
 
 data_install$measure = NA
 data_install$codes = NA
-data_install$notes = NA
 data_install$dendDiam = NA
 data_install$dendHt = NA
-data_install$installdate = NA
-data_install$surveyor = NA
+data_install$type = NA
+data_install$dendroID = NA
+
+data_install$install.date = NA
 data_install$dbhnew = NA
 
-data_install<-data_install[,c(1:6,13,15,12,11,7:9,14,10)]
+library(dplyr)
+data_install<-data_install %>% rename("codes&notes" = codes, "stem" = stemtag)
+
+data_install[is.na(data_install)] <- " "
+
+data_install<-data_install[,c(1:6,14,15,11,12,10,13,7:9)]
 
 data_install$location<-gsub("South", "S", data_install$location)
 data_install$location<-gsub("North", "N", data_install$location)
-
-data_install<-sapply(data_install, as.character)
-data_install[is.na(data_install)] <- " "
 
 matrix <- function(data_install, table_title) {
   
@@ -35,10 +38,7 @@ matrix <- function(data_install, table_title) {
 
   }
 
-temp <- matrix(data_install, table_title=('Dendroband Replacement        Date:'))
+temp <- matrix(data_install, table_title=('Dendroband Replacement        Date:                       Surveyors:'))
 
 library(xlsx)
-write.xlsx(temp, "data_entry_bandreplace.xlsx", row.names = FALSE)
-
-#if this isn't working, do the following and just add in a title later:
-write.xlsx(data_install, "field_form_bandreplace.xlsx", row.names=FALSE)
+write.xlsx(temp, "field_form_bandreplace.xlsx", row.names = FALSE, col.names=FALSE)
