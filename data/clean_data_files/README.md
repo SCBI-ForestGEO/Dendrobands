@@ -14,6 +14,15 @@
 
     a. For anyone trying to replicate this merge and using stem data from the 2013 ForestGEO survey, be aware that two trees (30365 [quad 308] and 131352 [quad 1316]) are not present due to mislabeling. This was caught in the 2018 census, and only appear in 2018 data going forward.
 
+## dendro_trees_dbhcount
+
+This file compares tree species by 
+- type of dendroband survey and 
+- dbh (min, max, and average)
+- a full count of the number of trees in each survey is included
+
+Script to create this is in the [Rscripts](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts) folder.
+
 ## dendroID_chronology
 
 In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new bands, but all were given the same ID as 782. This was only noticed when creating the file in Oct. 2018.

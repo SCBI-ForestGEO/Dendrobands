@@ -20,7 +20,7 @@ Column,Field,Site Description,Storage.Type,Units
 19/S,treeID,"Arbitrary numeric identifier for trees, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
 20/T,date,"Date as integer number of days since 1 Jan 1961, for easy calculation of time between measurements",numeric (integer),
 21/U,dendDiam,"Trunk diameter at the dendrometer, measured by a diameter tape, taken when dendrometer is first installed and necessary for converting subsequent dendrometer measures to dbh",numeric (double),
-22/V,dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap",numeric (double),cm
+22/V,dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap",numeric (double),mm
 23/W,newband,"Quantifier for whether or not the dendroband was changed. Enter 1 if changed, 0 if not.",numeric (integer),
 24/X,dendroID,"Arbitrary, unique numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem. When a dendroband is replaced or moved to a different POM (point of measurement), a new dendroID is given following in numerical order (across all years). This column contains the most recent dendroID number for the year. See dendroID_chronology.csv for previous dendroIDs.",numeric (integer),
 25/Y,type,"Dendrometer type: 1 = plastic band, 2 = metal band",character (string),
