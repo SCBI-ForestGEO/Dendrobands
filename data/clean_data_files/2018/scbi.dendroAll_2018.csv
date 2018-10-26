@@ -20,13 +20,13 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 12025,1,2018.03,4/26/2018,1,1,quru,117,15,16.3,151.54,,,alive,North,Tim McNeil,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.04,5/15/2018,1,1,quru,117,15,16.3,153.64,,,alive,North,Ryan Helcoski,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.05,5/29/2018,1,1,quru,117,15,16.3,157.06,,,alive,North,Ryan Helcoski,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
-12025,1,2018.06,6/14/2018,1,1,quru,117,15,16.3,8.55,,replaced 6/12; need replace from 9/28,alive,North,Maya Prestipino,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
+12025,1,2018.06,6/14/2018,1,1,quru,117,15,16.3,8.55,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,1713,1713,NA,NA,832.5,0,830,2,NA,1.3,3,4,NA,NA
 12025,1,2018.07,6/29/2018,1,1,quru,117,15,16.3,10.89,,,alive,North,Maya Prestipino,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.08,7/12/2018,1,1,quru,117,15,16.3,11.02,,,alive,North,Maya Prestipino,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.09,7/26/2018,1,1,quru,117,15,16.3,15.26,,,alive,North,Mario Morales,Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.1,8/9/2018,1,1,quru,117,15,16.3,15.42,,,alive,North,"Sofia Altamirano, Eliana Garcia (UCSB), Ryan Helcoski",Ryan Helcoski,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.11,8/23/2018,1,1,quru,117,15,16.3,15.92,,,alive,North,Ian McGregor,Ian McGregor,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
-12025,1,2018.12,9/28/2018,1,1,quru,117,15,16.3,NA,,,alive,North,Ian McGregor,Ian McGregor,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
+12025,1,2018.12,9/28/2018,1,1,quru,117,15,16.3,NA,,need replace from 9/28,alive,North,Ian McGregor,Ian McGregor,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12025,1,2018.13,10/18/2018,1,1,quru,117,15,16.3,NA,,,alive,North,Ian McGregor,Ian McGregor,1713,1713,NA,NA,832.5,0,244,2,NA,1.3,3,4,NA,NA
 12101,1,2018.01,3/9/2018,1,0,quru,120,10.7,1.9,NA,DC,,dead,North,Ryan Helcoski,Ryan Helcoski,1786,1786,NA,NA,0,0,5,2,NA,1.42,3,4,NA,NA
 12259,1,2018.01,3/9/2018,1,0,litu,125,16.3,1.5,31.51,I,,alive,North,Ryan Helcoski,Ryan Helcoski,1934,1934,NA,NA,1018.8,0,659,2,NA,1.23,4,4,NA,NA
@@ -147,19 +147,19 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 30339,3,2018.11,8/23/2018,1,1,litu,307,8.6,4.1,37.75,S,,alive,South,Ryan Helcoski,Ian McGregor,37149,3975,NA,NA,153.1,0,547,2,NA,1.3,4,3,NA,NA
 30339,3,2018.12,9/28/2018,1,1,litu,307,8.6,4.1,38.15,S,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,37149,3975,NA,NA,153.1,0,547,2,NA,1.3,4,3,NA,NA
 30339,3,2018.13,10/18/2018,1,1,litu,307,8.6,4.1,37.22,S,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,37149,3975,NA,NA,153.1,0,547,2,NA,1.3,4,3,NA,NA
-30343,1,2018.01,3/9/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Michael Scott,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.02,4/6/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.03,4/26/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.04,5/15/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.05,5/29/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.06,6/14/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.07,6/29/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Alyssa Terrell,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.08,7/12/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Alyssa Terrell,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.09,7/26/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.1,8/9/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.11,8/23/2018,1,1,quru,307,17.9,8,NA,,,dead,South,Ryan Helcoski,Ian McGregor,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.12,9/28/2018,1,1,quru,307,17.9,8,NA,,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
-30343,1,2018.13,10/18/2018,1,1,quru,307,17.9,8,NA,,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.01,3/9/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Michael Scott,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.02,4/6/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.03,4/26/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.04,5/15/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.05,5/29/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.06,6/14/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.07,6/29/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Alyssa Terrell,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.08,7/12/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Alyssa Terrell,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.09,7/26/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.1,8/9/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.11,8/23/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,Ryan Helcoski,Ian McGregor,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.12,9/28/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
+30343,1,2018.13,10/18/2018,1,1,quru,307,17.9,8,NA,D,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,3979,3979,NA,NA,600,0,550,2,NA,1.38,4,5,NA,NA
 30365,1,2018.01,3/9/2018,1,0,fram,308,19.6,1.8,1.8,,,alive,South,Michael Scott,Ryan Helcoski,NA,NA,NA,NA,992,0,782,2,NA,1.3,4,4,NA,NA
 30462,1,2018.01,3/9/2018,1,0,litu,313,16.2,19,104.7,,,alive,South,Michael Scott,Ryan Helcoski,4091,4091,NA,NA,492,0,21,2,NA,1.3,4,4,NA,NA
 30467,1,2018.01,3/9/2018,1,1,litu,314,17.3,3,87.5,,,alive,South,"Ryan Helcoski, Michael Scott",Ryan Helcoski,4096,4096,NA,NA,608,0,22,2,NA,1.3,4,3,NA,NA
@@ -183,7 +183,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 30512,1,2018.06,6/14/2018,1,1,quru,313,2.9,14.3,150.64,,,alive,South,Ryan Helcoski,Ryan Helcoski,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
 30512,1,2018.07,6/29/2018,1,1,quru,313,2.9,14.3,151.91,,,alive,South,Alyssa Terrell,Ryan Helcoski,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
 30512,1,2018.08,7/12/2018,1,1,quru,313,2.9,14.3,152.95,,,alive,South,Alyssa Terrell,Ryan Helcoski,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
-30512,1,2018.09,7/26/2018,1,1,quru,313,2.9,14.3,3.92,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
+30512,1,2018.09,7/26/2018,1,1,quru,313,2.9,14.3,3.92,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,4137,4137,NA,NA,845.5,0,831,2,NA,1.28,4,4,NA,NA
 30512,1,2018.1,8/9/2018,1,1,quru,313,2.9,14.3,3.92,,,alive,South,Ryan Helcoski,Ryan Helcoski,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
 30512,1,2018.11,8/23/2018,1,1,quru,313,2.9,14.3,5.01,,,alive,South,Ryan Helcoski,Ian McGregor,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
 30512,1,2018.12,9/28/2018,1,1,quru,313,2.9,14.3,5.1,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,4137,4137,NA,NA,845.5,0,23,2,NA,1.28,4,4,NA,NA
@@ -228,7 +228,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 40563,1,2018.06,6/14/2018,1,1,fagr,406,3.6,17.8,101.6,,,alive,South,Ryan Helcoski,Ryan Helcoski,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
 40563,1,2018.07,6/29/2018,1,1,fagr,406,3.6,17.8,105.21,,,alive,South,Alyssa Terrell,Ryan Helcoski,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
 40563,1,2018.08,7/12/2018,1,1,fagr,406,3.6,17.8,107.19,,,alive,South,Alyssa Terrell,Ryan Helcoski,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
-40563,1,2018.09,7/26/2018,1,1,fagr,406,3.6,17.8,11.01,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
+40563,1,2018.09,7/26/2018,1,1,fagr,406,3.6,17.8,11.01,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,5040,5040,NA,NA,365,0,832,2,NA,1.44,4,4,NA,NA
 40563,1,2018.1,8/9/2018,1,1,fagr,406,3.6,17.8,11.58,,,alive,South,Ryan Helcoski,Ryan Helcoski,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
 40563,1,2018.11,8/23/2018,1,1,fagr,406,3.6,17.8,13.58,,,alive,South,Ryan Helcoski,Ian McGregor,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
 40563,1,2018.12,9/28/2018,1,1,fagr,406,3.6,17.8,16.01,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,5040,5040,NA,NA,365,0,552,2,NA,1.44,4,4,NA,NA
@@ -264,7 +264,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 40566,1,2018.03,4/26/2018,1,1,cagl,406,1.1,9.4,37.2,,,alive,South,Ryan Helcoski,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
 40566,1,2018.04,5/15/2018,1,1,cagl,406,1.1,9.4,39.71,,,alive,South,Ryan Helcoski,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
 40566,1,2018.05,5/29/2018,1,1,cagl,406,1.1,9.4,42.19,,,alive,South,Ryan Helcoski,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
-40566,1,2018.06,6/14/2018,1,1,cagl,406,1.1,9.4,2.95,,replaced 6/12,alive,South,Ryan Helcoski,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
+40566,1,2018.06,6/14/2018,1,1,cagl,406,1.1,9.4,2.95,,replaced 6/12,alive,South,Ryan Helcoski,Ryan Helcoski,5043,5043,NA,NA,270.2,0,833,2,NA,1.41,4,4,NA,NA
 40566,1,2018.07,6/29/2018,1,1,cagl,406,1.1,9.4,4.27,,,alive,South,Alyssa Terrell,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
 40566,1,2018.08,7/12/2018,1,1,cagl,406,1.1,9.4,4.52,,,alive,South,Alyssa Terrell,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
 40566,1,2018.09,7/26/2018,1,1,cagl,406,1.1,9.4,5.03,,,alive,South,Ryan Helcoski,Ryan Helcoski,5043,5043,NA,NA,270.2,0,555,2,NA,1.41,4,4,NA,NA
@@ -448,7 +448,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 60458,1,2018.06,6/14/2018,1,1,fagr,615,1.9,0,86.68,,,alive,South,Ryan Helcoski,Ryan Helcoski,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
 60458,1,2018.07,6/29/2018,1,1,fagr,615,1.9,0,87.43,,,alive,South,Alyssa Terrell,Ryan Helcoski,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
 60458,1,2018.08,7/12/2018,1,1,fagr,615,1.9,0,90.91,,,alive,South,Alyssa Terrell,Ryan Helcoski,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
-60458,1,2018.09,7/26/2018,1,1,fagr,615,1.9,0,12.46,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
+60458,1,2018.09,7/26/2018,1,1,fagr,615,1.9,0,12.46,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,7443,7443,NA,NA,269.5,0,834,2,NA,1.39,4,4,NA,NA
 60458,1,2018.1,8/9/2018,1,1,fagr,615,1.9,0,13.08,,,alive,South,Ryan Helcoski,Ryan Helcoski,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
 60458,1,2018.11,8/23/2018,1,1,fagr,615,1.9,0,13.27,,,alive,South,Ryan Helcoski,Ian McGregor,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
 60458,1,2018.12,9/28/2018,1,1,fagr,615,1.9,0,12.91,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7443,7443,NA,NA,269.5,0,563,2,NA,1.39,4,4,NA,NA
@@ -596,19 +596,19 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 60569,1,2018.11,8/23/2018,1,1,caca,614,19.4,16.2,31.25,,,alive,South,Ryan Helcoski,Ian McGregor,7548,7548,NA,NA,89.5,0,574,2,NA,1.32,4,2,NA,NA
 60569,1,2018.12,9/28/2018,1,1,caca,614,19.4,16.2,31.38,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7548,7548,NA,NA,89.5,0,574,2,NA,1.32,4,2,NA,NA
 60569,1,2018.13,10/18/2018,1,1,caca,614,19.4,16.2,31.71,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7548,7548,NA,NA,89.5,0,574,2,NA,1.32,4,2,NA,NA
-60570,1,2018.01,3/12/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Michael Scott,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.02,4/6/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.03,4/26/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.04,5/15/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.05,5/29/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.06,6/14/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.07,6/29/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Alyssa Terrell,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.08,7/12/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Alyssa Terrell,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.09,7/26/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.1,8/9/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.11,8/23/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,Ryan Helcoski,Ian McGregor,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.12,9/28/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
-60570,1,2018.13,10/18/2018,1,1,caco,614,15.2,16.7,NA,,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.01,3/12/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Michael Scott,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.02,4/6/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.03,4/26/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.04,5/15/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.05,5/29/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.06,6/14/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.07,6/29/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Alyssa Terrell,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.08,7/12/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Alyssa Terrell,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.09,7/26/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.1,8/9/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.11,8/23/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,Ryan Helcoski,Ian McGregor,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.12,9/28/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
+60570,1,2018.13,10/18/2018,1,1,caco,614,15.2,16.7,NA,D,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7549,7549,NA,NA,396.1,0,707,2,NA,1.41,4,4,NA,NA
 60571,1,2018.01,3/12/2018,1,1,caca,614,12,17.4,16.8,,,alive,South,Michael Scott,Ryan Helcoski,7550,7550,NA,NA,116,0,576,2,NA,1.48,4,2,NA,NA
 60571,1,2018.02,4/6/2018,1,1,caca,614,12,17.4,17.22,,,alive,South,Ryan Helcoski,Ryan Helcoski,7550,7550,NA,NA,116,0,576,2,NA,1.48,4,2,NA,NA
 60571,1,2018.03,4/26/2018,1,1,caca,614,12,17.4,17.19,,,alive,South,Ryan Helcoski,Ryan Helcoski,7550,7550,NA,NA,116,0,576,2,NA,1.48,4,2,NA,NA
@@ -674,19 +674,19 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 60578,1,2018.11,8/23/2018,1,1,caca,615,13.2,9.9,14.31,,,alive,South,Ryan Helcoski,Ian McGregor,7557,7557,NA,NA,78.5,0,580,2,NA,1.36,4,1,NA,NA
 60578,1,2018.12,9/28/2018,1,1,caca,615,13.2,9.9,14.35,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7557,7557,NA,NA,78.5,0,580,2,NA,1.36,4,1,NA,NA
 60578,1,2018.13,10/18/2018,1,1,caca,615,13.2,9.9,14.11,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7557,7557,NA,NA,78.5,0,580,2,NA,1.36,4,1,NA,NA
-60579,1,2018.01,3/12/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Michael Scott,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.02,4/6/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.03,4/26/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.04,5/15/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.05,5/29/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.06,6/14/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.07,6/29/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Alyssa Terrell,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.08,7/12/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Alyssa Terrell,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.09,7/26/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.1,8/9/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.11,8/23/2018,1,1,caca,615,16.8,4,NA,,,dead,South,Ryan Helcoski,Ian McGregor,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.12,9/28/2018,1,1,caca,615,16.8,4,NA,,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
-60579,1,2018.13,10/18/2018,1,1,caca,615,16.8,4,NA,,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.01,3/12/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Michael Scott,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.02,4/6/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.03,4/26/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.04,5/15/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.05,5/29/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.06,6/14/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.07,6/29/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Alyssa Terrell,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.08,7/12/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Alyssa Terrell,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.09,7/26/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.1,8/9/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ryan Helcoski,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.11,8/23/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,Ryan Helcoski,Ian McGregor,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.12,9/28/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
+60579,1,2018.13,10/18/2018,1,1,caca,615,16.8,4,NA,D,,dead,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,7558,7558,NA,NA,76.1,0,581,2,NA,1.32,4,2,NA,NA
 60581,1,2018.01,3/12/2018,1,1,litu,615,19.8,9.3,5.1,,,alive,South,Michael Scott,Ryan Helcoski,7560,7560,NA,NA,685.1,0,582,2,NA,1.54,4,5,NA,NA
 60581,1,2018.02,4/6/2018,1,1,litu,615,19.8,9.3,6.6,,,alive,South,Ryan Helcoski,Ryan Helcoski,7560,7560,NA,NA,685.1,0,582,2,NA,1.54,4,5,NA,NA
 60581,1,2018.03,4/26/2018,1,1,litu,615,19.8,9.3,6.81,,,alive,South,Ryan Helcoski,Ryan Helcoski,7560,7560,NA,NA,685.1,0,582,2,NA,1.54,4,5,NA,NA
@@ -788,7 +788,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 70096,1,2018.03,4/26/2018,1,1,quru,704,3.3,12.7,149.86,,,alive,South,Ryan Helcoski,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
 70096,1,2018.04,5/15/2018,1,1,quru,704,3.3,12.7,153.36,,,alive,South,Ryan Helcoski,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
 70096,1,2018.05,5/29/2018,1,1,quru,704,3.3,12.7,154.54,,,alive,South,Ryan Helcoski,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
-70096,1,2018.06,6/14/2018,1,1,quru,704,3.3,12.7,2.87,,replaced 6/12,alive,South,Ryan Helcoski,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
+70096,1,2018.06,6/14/2018,1,1,quru,704,3.3,12.7,2.87,,replaced 6/12,alive,South,Ryan Helcoski,Ryan Helcoski,8126,8126,NA,NA,866.9,0,835,2,NA,1.33,3,4,NA,NA
 70096,1,2018.07,6/29/2018,1,1,quru,704,3.3,12.7,5.8,,,alive,South,Alyssa Terrell,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
 70096,1,2018.08,7/12/2018,1,1,quru,704,3.3,12.7,7.84,,,alive,South,Alyssa Terrell,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
 70096,1,2018.09,7/26/2018,1,1,quru,704,3.3,12.7,8.01,,,alive,South,Ryan Helcoski,Ryan Helcoski,8126,8126,NA,NA,866.9,0,54,2,NA,1.33,3,4,NA,NA
@@ -839,7 +839,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 70492,1,2018.06,6/14/2018,1,1,nysy,714,0.1,11.2,40.54,,,alive,South,Ryan Helcoski,Ryan Helcoski,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
 70492,1,2018.07,6/29/2018,1,1,nysy,714,0.1,11.2,41.65,,,alive,South,Alyssa Terrell,Ryan Helcoski,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
 70492,1,2018.08,7/12/2018,1,1,nysy,714,0.1,11.2,42.56,,,alive,South,Alyssa Terrell,Ryan Helcoski,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
-70492,1,2018.09,7/26/2018,1,1,nysy,714,0.1,11.2,2.75,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
+70492,1,2018.09,7/26/2018,1,1,nysy,714,0.1,11.2,2.75,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,8495,8495,NA,NA,198.6,0,836,2,NA,1.44,4,4,NA,NA
 70492,1,2018.1,8/9/2018,1,1,nysy,714,0.1,11.2,2.9,,,alive,South,Ryan Helcoski,Ryan Helcoski,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
 70492,1,2018.11,8/23/2018,1,1,nysy,714,0.1,11.2,2.92,,,alive,South,Ryan Helcoski,Ian McGregor,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
 70492,1,2018.12,9/28/2018,1,1,nysy,714,0.1,11.2,3.15,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,8495,8495,NA,NA,198.6,0,587,2,NA,1.44,4,4,NA,NA
@@ -852,7 +852,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 70493,1,2018.06,6/14/2018,1,1,litu,714,0.3,15.2,72.55,,,alive,South,Ryan Helcoski,Ryan Helcoski,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
 70493,1,2018.07,6/29/2018,1,1,litu,714,0.3,15.2,73.28,,,alive,South,Alyssa Terrell,Ryan Helcoski,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
 70493,1,2018.08,7/12/2018,1,1,litu,714,0.3,15.2,74.31,,,alive,South,Alyssa Terrell,Ryan Helcoski,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
-70493,1,2018.09,7/26/2018,1,1,litu,714,0.3,15.2,3.53,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
+70493,1,2018.09,7/26/2018,1,1,litu,714,0.3,15.2,3.53,,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,8496,8496,NA,NA,539.2,0,837,2,NA,1.44,4,5,NA,NA
 70493,1,2018.1,8/9/2018,1,1,litu,714,0.3,15.2,4.79,,,alive,South,Ryan Helcoski,Ryan Helcoski,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
 70493,1,2018.11,8/23/2018,1,1,litu,714,0.3,15.2,4.77,,,alive,South,Ryan Helcoski,Ian McGregor,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
 70493,1,2018.12,9/28/2018,1,1,litu,714,0.3,15.2,6.5,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,8496,8496,NA,NA,539.2,0,588,2,NA,1.44,4,5,NA,NA
@@ -878,7 +878,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 70494,2,2018.06,6/14/2018,1,1,caca,714,0.4,15.7,22.05,S,,alive,South,Ryan Helcoski,Ryan Helcoski,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
 70494,2,2018.07,6/29/2018,1,1,caca,714,0.4,15.7,22.73,S,,alive,South,Alyssa Terrell,Ryan Helcoski,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
 70494,2,2018.08,7/12/2018,1,1,caca,714,0.4,15.7,24.18,S,,alive,South,Alyssa Terrell,Ryan Helcoski,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
-70494,2,2018.09,7/26/2018,1,1,caca,714,0.4,15.7,2.69,S,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
+70494,2,2018.09,7/26/2018,1,1,caca,714,0.4,15.7,2.69,S,replaced 7/26,alive,South,Ryan Helcoski,Ryan Helcoski,31371,181,NA,NA,60,0,838,2,NA,1.42,4,2,NA,NA
 70494,2,2018.1,8/9/2018,1,1,caca,714,0.4,15.7,2.64,S,,alive,South,Ryan Helcoski,Ryan Helcoski,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
 70494,2,2018.11,8/23/2018,1,1,caca,714,0.4,15.7,2.73,S,,alive,South,Ryan Helcoski,Ian McGregor,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
 70494,2,2018.12,9/28/2018,1,1,caca,714,0.4,15.7,2.81,S,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,31371,181,NA,NA,60,0,589,2,NA,1.42,4,2,NA,NA
@@ -933,7 +933,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 70581,1,2018.08,7/12/2018,1,1,quru,714,13.7,1.2,15.35,,,alive,South,Alyssa Terrell,Ryan Helcoski,8580,8580,NA,NA,614.5,0,757,2,NA,1.45,3,4,NA,NA
 70581,1,2018.09,7/26/2018,1,1,quru,714,13.7,1.2,17.51,,,alive,South,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,NA,614.5,0,757,2,NA,1.45,3,4,NA,NA
 70581,1,2018.1,8/9/2018,1,1,quru,714,13.7,1.2,17.67,,,alive,South,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,NA,614.5,0,757,2,NA,1.45,3,4,NA,NA
-70581,1,2018.11,8/23/2018,1,1,quru,714,13.7,1.2,NA,,replaced 8/23,alive,South,Ryan Helcoski,Ian McGregor,8580,8580,NA,NA,614.5,0,757,2,NA,1.45,3,4,NA,NA
+70581,1,2018.11,8/23/2018,1,1,quru,714,13.7,1.2,NA,,replaced 8/23,alive,South,Ryan Helcoski,Ian McGregor,8580,8580,NA,NA,614.5,0,839,2,NA,1.45,3,4,NA,NA
 70581,1,2018.12,9/28/2018,1,1,quru,714,13.7,1.2,2.14,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,8580,8580,NA,NA,614.5,0,757,2,NA,1.45,3,4,NA,NA
 70581,1,2018.13,10/18/2018,1,1,quru,714,13.7,1.2,18.05,,,alive,South,"Alyssa Terrall, Ian McGregor",Ian McGregor,8580,8580,NA,NA,614.5,0,757,2,NA,1.45,3,4,NA,NA
 70588,1,2018.01,3/9/2018,1,0,quve,714,16.2,5.2,NA,,,dead,South,Michael Scott,Ryan Helcoski,8587,8587,NA,NA,520.9,0,69,2,NA,1.42,3,3,NA,NA
@@ -1001,7 +1001,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 72324,1,2018.03,4/26/2018,1,1,litu,726,14.4,6.6,147.94,,,alive,North,Tim McNeil,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
 72324,1,2018.04,5/15/2018,1,1,litu,726,14.4,6.6,148.32,,,alive,North,Ryan Helcoski,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
 72324,1,2018.05,5/29/2018,1,1,litu,726,14.4,6.6,149.84,,,alive,North,Ryan Helcoski,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
-72324,1,2018.06,6/14/2018,1,1,litu,726,14.4,6.6,6.7,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
+72324,1,2018.06,6/14/2018,1,1,litu,726,14.4,6.6,6.7,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,8964,8964,NA,NA,667.2,0,840,2,NA,1.31,4,4,NA,NA
 72324,1,2018.07,6/29/2018,1,1,litu,726,14.4,6.6,10.6,,,alive,North,Maya Prestipino,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
 72324,1,2018.08,7/12/2018,1,1,litu,726,14.4,6.6,11.95,,,alive,North,Maya Prestipino,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
 72324,1,2018.09,7/26/2018,1,1,litu,726,14.4,6.6,14.47,,,alive,North,Mario Morales,Ryan Helcoski,8964,8964,NA,NA,667.2,0,81,2,NA,1.31,4,4,NA,NA
@@ -1131,7 +1131,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 82360,1,2018.03,4/26/2018,1,1,litu,829,2.3,0.7,123.39,,,alive,North,Tim McNeil,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
 82360,1,2018.04,5/15/2018,1,1,litu,829,2.3,0.7,123.4,,,alive,North,Ryan Helcoski,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
 82360,1,2018.05,5/29/2018,1,1,litu,829,2.3,0.7,124.83,,,alive,North,Ryan Helcoski,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
-82360,1,2018.06,6/14/2018,1,1,litu,829,2.3,0.7,8.24,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
+82360,1,2018.06,6/14/2018,1,1,litu,829,2.3,0.7,8.24,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,10198,10198,NA,NA,604.5,0,841,2,NA,1.23,3,4,NA,NA
 82360,1,2018.07,6/29/2018,1,1,litu,829,2.3,0.7,11.1,,,alive,North,Maya Prestipino,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
 82360,1,2018.08,7/12/2018,1,1,litu,829,2.3,0.7,11.68,,,alive,North,Maya Prestipino,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
 82360,1,2018.09,7/26/2018,1,1,litu,829,2.3,0.7,14.15,,,alive,North,Mario Morales,Ryan Helcoski,10198,10198,NA,NA,604.5,0,114,2,NA,1.23,3,4,NA,NA
@@ -1596,7 +1596,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 112482,1,2018.03,4/26/2018,1,1,litu,1131,17.8,15.9,NA,,,alive,North,Tim McNeil,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
 112482,1,2018.04,5/15/2018,1,1,litu,1131,17.8,15.9,NA,,,alive,North,Ryan Helcoski,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
 112482,1,2018.05,5/29/2018,1,1,litu,1131,17.8,15.9,NA,,,alive,North,Ryan Helcoski,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
-112482,1,2018.06,6/14/2018,1,1,litu,1131,17.8,15.9,7.37,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
+112482,1,2018.06,6/14/2018,1,1,litu,1131,17.8,15.9,7.37,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,15189,15189,NA,NA,263.2,0,842,2,NA,1.3,4,3,NA,NA
 112482,1,2018.07,6/29/2018,1,1,litu,1131,17.8,15.9,7.72,,,alive,North,Maya Prestipino,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
 112482,1,2018.08,7/12/2018,1,1,litu,1131,17.8,15.9,8.3,,,alive,North,Maya Prestipino,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
 112482,1,2018.09,7/26/2018,1,1,litu,1131,17.8,15.9,8.56,,,alive,North,Mario Morales,Ryan Helcoski,15189,15189,NA,NA,263.2,0,338,2,NA,1.3,4,3,NA,NA
@@ -1694,7 +1694,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 122136,1,2018.03,4/26/2018,1,1,quru,1220,5.5,7.6,136.31,,,alive,North,Tim McNeil,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
 122136,1,2018.04,5/15/2018,1,1,quru,1220,5.5,7.6,140.07,,,alive,North,Ryan Helcoski,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
 122136,1,2018.05,5/29/2018,1,1,quru,1220,5.5,7.6,140.3,,,alive,North,Ryan Helcoski,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
-122136,1,2018.06,6/14/2018,1,1,quru,1220,5.5,7.6,9.19,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
+122136,1,2018.06,6/14/2018,1,1,quru,1220,5.5,7.6,9.19,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,16665,16665,NA,NA,587.7,0,843,2,NA,1.3,4,4,NA,NA
 122136,1,2018.07,6/29/2018,1,1,quru,1220,5.5,7.6,13.01,,,alive,North,Maya Prestipino,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
 122136,1,2018.08,7/12/2018,1,1,quru,1220,5.5,7.6,12.82,,,alive,North,Maya Prestipino,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
 122136,1,2018.09,7/26/2018,1,1,quru,1220,5.5,7.6,13.21,,,alive,North,Mario Morales,Ryan Helcoski,16665,16665,NA,NA,587.7,0,357,2,NA,1.3,4,4,NA,NA
@@ -1750,7 +1750,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 122427,1,2018.03,4/26/2018,1,1,qual,1227,17,15.6,150.7,,,alive,North,Tim McNeil,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
 122427,1,2018.04,5/15/2018,1,1,qual,1227,17,15.6,150.59,,,alive,North,Ryan Helcoski,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
 122427,1,2018.05,5/29/2018,1,1,qual,1227,17,15.6,151.56,,,alive,North,Ryan Helcoski,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
-122427,1,2018.06,6/14/2018,1,1,qual,1227,17,15.6,7.74,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
+122427,1,2018.06,6/14/2018,1,1,qual,1227,17,15.6,7.74,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,16878,16878,NA,NA,832.7,0,844,2,NA,1.23,4,4,NA,NA
 122427,1,2018.07,6/29/2018,1,1,qual,1227,17,15.6,7.75,,,alive,North,Maya Prestipino,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
 122427,1,2018.08,7/12/2018,1,1,qual,1227,17,15.6,7.7,,,alive,North,Maya Prestipino,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
 122427,1,2018.09,7/26/2018,1,1,qual,1227,17,15.6,14,,,alive,North,Mario Morales,Ryan Helcoski,16878,16878,NA,NA,832.7,0,142,2,NA,1.23,4,4,NA,NA
@@ -1790,7 +1790,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 130838,1,2018.03,4/26/2018,1,1,litu,1305,12.2,1,136.94,,,alive,South,Ryan Helcoski,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
 130838,1,2018.04,5/15/2018,1,1,litu,1305,12.2,1,137.48,,,alive,South,Ryan Helcoski,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
 130838,1,2018.05,5/29/2018,1,1,litu,1305,12.2,1,138.47,,,alive,South,Ryan Helcoski,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
-130838,1,2018.06,6/14/2018,1,1,litu,1305,12.2,1,7.19,,replaced 6/12,alive,South,Ryan Helcoski,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
+130838,1,2018.06,6/14/2018,1,1,litu,1305,12.2,1,7.19,,replaced 6/12,alive,South,Ryan Helcoski,Ryan Helcoski,17779,17779,NA,NA,652.4,0,845,2,NA,1.36,4,4,NA,NA
 130838,1,2018.07,6/29/2018,1,1,litu,1305,12.2,1,9.59,,,alive,South,Alyssa Terrell,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
 130838,1,2018.08,7/12/2018,1,1,litu,1305,12.2,1,11.13,,,alive,South,Alyssa Terrell,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
 130838,1,2018.09,7/26/2018,1,1,litu,1305,12.2,1,12.51,,,alive,South,Ryan Helcoski,Ryan Helcoski,17779,17779,NA,NA,652.4,0,145,2,NA,1.36,4,4,NA,NA
@@ -1997,7 +1997,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 162439,1,2018.03,4/26/2018,1,1,quru,1627,16.3,0.3,146.85,,,alive,North,Tim McNeil,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
 162439,1,2018.04,5/15/2018,1,1,quru,1627,16.3,0.3,149,,,alive,North,Ryan Helcoski,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
 162439,1,2018.05,5/29/2018,1,1,quru,1627,16.3,0.3,151.53,,,alive,North,Ryan Helcoski,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
-162439,1,2018.06,6/14/2018,1,1,quru,1627,16.3,0.3,11.12,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
+162439,1,2018.06,6/14/2018,1,1,quru,1627,16.3,0.3,11.12,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,23778,23778,NA,NA,832.5,0,846,2,NA,1.37,4,5,NA,NA
 162439,1,2018.07,6/29/2018,1,1,quru,1627,16.3,0.3,9.29,,,alive,North,Maya Prestipino,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
 162439,1,2018.08,7/12/2018,1,1,quru,1627,16.3,0.3,11.12,,,alive,North,Maya Prestipino,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
 162439,1,2018.09,7/26/2018,1,1,quru,1627,16.3,0.3,11.5,,,alive,North,Mario Morales,Ryan Helcoski,23778,23778,NA,NA,832.5,0,218,2,NA,1.37,4,5,NA,NA
@@ -2332,7 +2332,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 192619,1,2018.03,4/26/2018,1,1,quru,1926,12.6,8.5,142.7,,,alive,North,Tim McNeil,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
 192619,1,2018.04,5/15/2018,1,1,quru,1926,12.6,8.5,145.65,,,alive,North,Ryan Helcoski,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
 192619,1,2018.05,5/29/2018,1,1,quru,1926,12.6,8.5,147.32,,,alive,North,Ryan Helcoski,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
-192619,1,2018.06,6/14/2018,1,1,quru,1926,12.6,8.5,4.24,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
+192619,1,2018.06,6/14/2018,1,1,quru,1926,12.6,8.5,4.24,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,29017,29017,NA,NA,787,0,847,2,NA,1.4,4,4,NA,NA
 192619,1,2018.07,6/29/2018,1,1,quru,1926,12.6,8.5,4.27,,,alive,North,Maya Prestipino,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
 192619,1,2018.08,7/12/2018,1,1,quru,1926,12.6,8.5,4.56,,,alive,North,Maya Prestipino,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
 192619,1,2018.09,7/26/2018,1,1,quru,1926,12.6,8.5,6.67,,,alive,North,Mario Morales,Ryan Helcoski,29017,29017,NA,NA,787,0,452,2,NA,1.4,4,4,NA,NA
@@ -2397,7 +2397,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 202072,1,2018.03,4/26/2018,1,1,qual,2020,2.1,10.8,148.5,,,alive,North,Tim McNeil,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
 202072,1,2018.04,5/15/2018,1,1,qual,2020,2.1,10.8,151.22,,,alive,North,Ryan Helcoski,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
 202072,1,2018.05,5/29/2018,1,1,qual,2020,2.1,10.8,152.81,,,alive,North,Ryan Helcoski,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
-202072,1,2018.06,6/14/2018,1,1,qual,2020,2.1,10.8,5.58,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
+202072,1,2018.06,6/14/2018,1,1,qual,2020,2.1,10.8,5.58,,replaced 6/12,alive,North,Maya Prestipino,Ryan Helcoski,30457,30457,NA,NA,710.1,0,848,2,NA,1.3,4,4,NA,NA
 202072,1,2018.07,6/29/2018,1,1,qual,2020,2.1,10.8,6.34,,,alive,North,Maya Prestipino,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
 202072,1,2018.08,7/12/2018,1,1,qual,2020,2.1,10.8,4.94,,,alive,North,Maya Prestipino,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
 202072,1,2018.09,7/26/2018,1,1,qual,2020,2.1,10.8,5.81,,,alive,North,Mario Morales,Ryan Helcoski,30457,30457,NA,NA,710.1,0,472,2,NA,1.3,4,4,NA,NA
