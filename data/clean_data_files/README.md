@@ -1,5 +1,10 @@
 # README for data forms
 
+## dendroID_chronology
+
+In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new bands, but all were given the same ID as 782. This was only noticed when creating the file in Oct. 2018.
+- This is noted because dendroID numbers 783-798 were assigned, but not labeled in the [original datasheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/original_data_files/Dendrometry_500Tree_most%20updated.xls) as having a new band.
+
 ## dendro_trees.csv includes the following information:
 
 - what species of trees are present overall
@@ -23,7 +28,3 @@ This file compares tree species by
 
 Script to create this is in the [Rscripts](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts) folder.
 
-## dendroID_chronology
-
-In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new bands, but all were given the same ID as 782. This was only noticed when creating the file in Oct. 2018.
-- This is noted because dendroID numbers 783-798 were assigned, but not labeled in the [original datasheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/original_data_files/Dendrometry_500Tree_most%20updated.xls) as having a new band.
