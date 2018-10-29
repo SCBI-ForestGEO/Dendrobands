@@ -29,61 +29,17 @@ In the interest of keeping survey data entry simplified, each type of survey (bi
 
 
 ## Protocols
-*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 500 stems of various DBH being monitored as April 2017. Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
+*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 570 stems of various DBH (55-1520 mm) being monitored as of October 2018. Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
 
 *Intra-annual dendrometer bands* - [fill in]
-
-
-## Species
-*Biannual dendrometer bands* 
-
-| Species | Species code |
-| ---- | ---- |
-| Acer rubra |	acru |
-| Carpinus caroliniana |	caca |
-| Carya cordiformis |	caco |
-| Carya glabra |	cagl |
-| Carya ovalis |	caovl |
-| Carya tomentosa |	cato |
-| Cercis canadensis |	ceca |
-| Cornus florida |	cofl |
-| Fagus grandifolia |	fagr |
-| Fraxinus americana |	fram |
-| Juglans nigra |	juni |
-| Liriodendron tulipifera |	litu |
-| Nyssa sylvatica |	nysy |
-| Pinus strobus |	pist |
-| Platanus occidentalis |	ploc |
-| Quercus alba |	qual |
-| Quercus prinus |	qupr |
-| Quercus rubra |	quru |
-| Quercus velutina |	quve |
-| Robinia pseudoacacia |	rops |
-| Sassafras albidum |	saal |
-| Tilia americana |	tiam |
-| Ulmus rubra |	ulru |
-
-*Intra-annual dendrometer bands*
-
-| Species | Species code |
-| --- | --- |
-| Carpinus caroliniana | caca |
-| Carya cordiformis | caco |
-| Carya glabra | cagl |
-| Cornus florida | cofl |
-| Fagus grandifolia |fagr |
-| Juglans nigra | juni |
-| Liriodendron tulipifera | litu |
-| Nyssa sylvatica |nysy |
-| Quercus alba |qual |
-| Quercus rubra |quru |
-| Tilia americana |tiam |
-
+As of 2018, 155 stems of DBH ranging from 60-1480 mm are monitored biweekly during the growing season each year.
 
 ## Tree data
+A list of tree species by survey type, full counts of each species, and dbh min, max, and average is available [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees_dbhcount.csv).
+
 Data on trees from which cores were taken is available through the core census data. Please see [this page](https://github.com/EcoClimLab/SCBI-ForestGEO-Data) for links to the data.
 
-Geographic location of tree species by quadrat, lat/lon, and qualified by biannual survey, intraannual survey, and cored trees is available in [tree_sp.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/tree_sp.csv).
+Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been cored is available in [tree_sp.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/tree_sp.csv).
 
 ## Data use
 
