@@ -13,10 +13,9 @@ Active data is found the [clean_data_files](https://github.com/SCBI-ForestGEO/De
 
 - field_forms and data_entry_forms are pulled from the year's master via R-scripts, and data is subsequently merged back to the master in the same way
 
-In the interest of keeping survey data entry simplified, each type of survey (biannual and intraannual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the master_data.csv via joining/merging in R. 
-1.	Metadata for these individual forms are consistent with the metadata for the master_data.csv.
+In the interest of keeping survey data entry simplified, each type of survey (biannual and intraannual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 
+1.	Metadata for these individual forms are consistent with the metadata for the scbi.dendroAll_YEAR.csv (the master).
 
-2. Metadata for both intraannual and biannual forms are found [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/fieldform_metadata.csv). Potentially fix this.
 
 ## Sampling location
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
