@@ -5,6 +5,7 @@ setwd()
 data_2018 <- read.csv("scbi.dendroAll_2018.csv")
 
 data_install<-data_2018[which(data_2018$survey.ID=='2018.01'), ] 
+#when running the code, add: &data_2018$codes=='RD'
 #when trouble-shooting code, remove: &data_2018$codes=='RD'
 #subset by RD codes and one entry per stem
 
