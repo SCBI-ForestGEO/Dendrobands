@@ -9,7 +9,7 @@ Codes for the field form should be followed by the census#, to help with data en
 - Remember to record if there is a discrepancy between the current measurement and the last measurement (see metadata).
 
 
-## Notes on printing new field_forms (after creating files from Rscripts)
+## Notes on printing new field_forms (after creating .xlsx files from Rscripts)
 
 1. add all borders, merge and center title across top
 
@@ -23,9 +23,11 @@ Codes for the field form should be followed by the census#, to help with data en
 
 6. Keep the headers on each print page. Go to "Print Titles," click in "Rows to repeat at top" and then select the title and headers on the sheet. Click ok. 
 
-7. Filter by north/south (location).
+7. Select all the numbers, hover over the warning sign next to the selection, and select "Convert to Number." This is because in creating the file R converts everything to as.character
 
-8. *Double check in print preview before printing!!*
+8. Filter by north/south (location). Then filter by ascending quadrat.
+
+9. *Double check in print preview before printing!!*
 
 
 ## Checklist for collecting data
