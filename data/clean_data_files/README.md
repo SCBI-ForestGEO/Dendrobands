@@ -30,6 +30,11 @@ In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new ban
     *- this should be updated to the 2018 census data as soon as the final file is available*
     
     5. [Mortality_Survey_2018](https://github.com/EcoClimLab/SCBI-ForestGEO-Data_private/blob/master/SCBI_mortality/raw%20data/Mortality_Survey_2018.csv)
+    
+## dendro_trees
+
+This file contains a subset of dendro_cored_full, by only including the cored trees that coincide with the dendroband surveys (however, it does not have the year of coring).
+- Important to note that this file was used to create dendro_cored_full
 
 ## dendro_trees_dbhcount
 
