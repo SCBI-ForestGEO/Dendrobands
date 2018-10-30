@@ -22,6 +22,8 @@ dendro_all$stemID[is.na(dendro_all$stemID)] <- 0
 ##WARNING:assign stemID values for 30365 and 131352 (discrepancy with 2013 census). THIS PART SHOULD BE DELETED once the 2018 census data includes these tags with the appropriate info.
 dendro_all[91,6]=11 
 dendro_all[867,6]=12
+
+
 dendro_all<-dendro_all[!duplicated(dendro_all$stemID),]
 
 ##populate with geographic coordinates
@@ -84,4 +86,4 @@ dendro_all <- dendro_all[c(1:6,11:13,10,7,14:15,8:9,16:19)]
 #get rid of final duplicates now that all rows are the same
 dendro_all <- dendro_all[!duplicated(dendro_all),]
 
-write.csv(dendro_all, "dendro_cored_full.csv")
+write.csv(dendro_all, "dendro_cored_full.csv", row.names=FALSE)
