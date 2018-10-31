@@ -11,11 +11,11 @@ Codes for the field form should be followed by the census#, to help with data en
 
 ## Notes on printing new field_forms (after creating .xlsx files from Rscripts)
 
-1. add all borders, merge and center title across top
+1. add all borders, merge and center title across top, then left align
 
 2. adjust cell dimensions as needed
 
-3. change print margins to "narrow"
+3. change page margins to "narrow"
 
 4. change orientation to "Landscape"
 
