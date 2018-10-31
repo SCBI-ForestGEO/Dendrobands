@@ -1,4 +1,4 @@
-# README for field forms
+# SIGEO Field Forms
 
 If printing the first form for the season, please make sure the correct [R-script](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/clean_data_files/Rscripts) has been run from the master.
 
