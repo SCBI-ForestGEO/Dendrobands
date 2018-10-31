@@ -29,7 +29,9 @@ data_bi$location<-gsub("North", "N", data_bi$location)
 #assign values per tag by survey area (based on biannual map in https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/maps)
 data_bi$area <- ""
 data_bi$area <- 
-  ifelse((data_bi$quadrat %in% c(1501:1515))|
+  ifelse((data_bi$quadrat %in% c(1301:1303))|
+           (data_bi$quadrat %in% c(1401:1404))|
+           (data_bi$quadrat %in% c(1501:1515))|
            (data_bi$quadrat %in% c(1601:1615))|
            (data_bi$quadrat %in% c(1701:1715))|
            (data_bi$quadrat %in% c(1801:1815))|
@@ -51,9 +53,8 @@ data_bi$area <-
                          (data_bi$quadrat %in% c(401:415))|
                          (data_bi$quadrat %in% c(502,514,515,610,611,614
                                                 ,615,701,702,713,714,715
-                                                ,801,1001,1014,1302,1313
-                                                ,1314,1315,1401,1402,1403
-                                                ,1404,1413)), 3,
+                                                ,801,1001,1014,1313,1314
+                                                ,1315,1413)), 3,
                        ifelse((data_bi$quadrat %in% c(116:132))|
                                 (data_bi$quadrat %in% c(216:232))|
                                 (data_bi$quadrat %in% c(316:332))|
