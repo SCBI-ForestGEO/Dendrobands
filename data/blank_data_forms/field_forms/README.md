@@ -31,11 +31,11 @@ Codes for the field form should be followed by the census#, to help with data en
 
 
 ## Checklist for collecting data
+- datasheet (one of the field forms above)
+- [code sheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/metadata/codes_metadata.csv)
+- copy of [map](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/maps)
 - calipers
 - clipboard
-- datasheet
-- code sheet
-- copy of map
 - flagging tape
 - pencils
 - eraser
