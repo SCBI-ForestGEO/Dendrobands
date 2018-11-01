@@ -38,7 +38,7 @@ A list of tree species by survey type, full counts of each species, and dbh min,
 
 Data on trees from which cores were taken is available through the core census data. Please see [this page](https://github.com/EcoClimLab/SCBI-ForestGEO-Data) for links to the data.
 
-Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been cored is available in [tree_sp.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/tree_sp.csv).
+Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been cored is available in [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
 
 ## Data use
 
