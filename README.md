@@ -36,9 +36,9 @@ As of 2018, 155 stems of DBH ranging from 6-148 cm are monitored biweekly during
 ## Tree data
 A list of tree species by survey type, full counts of each species, and dbh min, max, and average is available [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees_dbhcount.csv).
 
-Data on trees from which cores were taken is available through the core census data. Please see [this page](https://github.com/EcoClimLab/SCBI-ForestGEO-Data) for links to the data.
+Data on dendrometer band trees is available through the core census data, and we have collected a wide range of other potentially relevant data. Please see [this page](https://github.com/EcoClimLab/SCBI-ForestGEO-Data) for links to the data.
 
-Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been cored is available in [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
+Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been measured is available in [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
 
 ## Data use
 
