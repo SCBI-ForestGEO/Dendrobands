@@ -8,6 +8,7 @@ dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/De
 
 library(data.table)
 setnames(cores, old=c("StemTag"), new=c("stemtag"))
+setnames(dendro_trees, old=c("mortality.2018"), new=c("status"))
 
 dendro_trees$year.cored <-cores$year.cored[match(dendro_trees$tag,cores$tag)]
 
@@ -90,5 +91,8 @@ dendro_all <- dendro_all[c(1:6,21:22,11:13,10,7,14:15,8:9,16:19)]
 
 #get rid of final duplicates now that all rows are the same
 dendro_all <- dendro_all[!duplicated(dendro_all),]
+
+#rename $status to "mortality.YEAR" to reflect the most recent year's mortality data (from the mortality census plus the most recent ForestGEO census)
+setnames(dendro_all, old=c("status"), new=c("mortality.2018"))
 
 write.csv(dendro_all, "dendro_cored_full.csv", row.names=FALSE)
