@@ -3,18 +3,22 @@
 ## First files we're working with
 cores <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/climate_sensitivity_cores/data/census_data_for_cored_trees.csv")
 
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/dendro_trees.csv")
+dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
 
 library(data.table)
 setnames(cores, old=c("StemTag"), new=c("stemtag"))
-setnames(dendro_trees, old=c("mortality.2018"), new=c("status"))
+setnames(dendro_trees, old=c("mortality.year"), new=c("status"))
+library(tidyr)
+dendro_trees$status <- ifelse(dendro_trees$status=="[:digit:]", "A", "D") #this ifelse code is backwards from what it should be but for some reason it's producing the right output.
+dendro_trees$status <- replace_na(dendro_trees$status, "A")
+
 
 dendro_trees$year.cored <-cores$year.cored[match(dendro_trees$tag,cores$tag)]
 
 dendro_merge <- merge(dendro_trees, cores, by=c("tag", "stemtag", "sp", "quadrat", "treeID", "stemID", "status", "gx", "gy","year.cored"), all.x=TRUE, all.y=TRUE)
 
-dendro_all <- dendro_merge[c(1:19)]
+dendro_all <- dendro_merge[c(1:13,17:22)]
 
 ##order the data and remove the crossovers (btwn biannual and cored) that don't have biannual marked already
 dendro_all <- dendro_all[order(dendro_all$tag,dendro_all$biannual),]
@@ -91,8 +95,5 @@ dendro_all <- dendro_all[c(1:6,21:22,11:13,10,7,14:15,8:9,16:19)]
 
 #get rid of final duplicates now that all rows are the same
 dendro_all <- dendro_all[!duplicated(dendro_all),]
-
-#rename $status to "mortality.YEAR" to reflect the most recent year's mortality data (from the mortality census plus the most recent ForestGEO census)
-setnames(dendro_all, old=c("status"), new=c("mortality.2018"))
 
 write.csv(dendro_all, "dendro_cored_full.csv", row.names=FALSE)
