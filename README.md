@@ -24,7 +24,7 @@ In the interest of keeping survey data entry simplified, each type of survey (bi
 ## Sampling period
 *Biannual dendrometer bands* (measured at start and end of growing season): 2010 - present
 
-*Intra-annual dendrometer bands* (measured ~ every 2 weeks): 2011 - present
+*Intra-annual dendrometer bands* (measured ~ every 2 weeks during growing season): 2011 - present
 
 
 ## Protocols
