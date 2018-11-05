@@ -1,8 +1,8 @@
 # SIGEO Field Forms
 
-If printing the first form for the season, please make sure the correct [R-script](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/clean_data_files/Rscripts) has been run from the master.
+If printing the first form for the season, please make sure the correct [R-script](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts) has been run from the master.
 
-**Please review the [codes_metadata.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/metadata/codes_metadata.csv) _prior_ to surveying.**
+**Please review the [codes_metadata.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/codes_metadata.csv) _prior_ to surveying.**
 
 Codes for the field form should be followed by the census#, to help with data entry later.
 -	For example, if the tree is broken on census# 2018.08, then the code is B8.
@@ -32,8 +32,8 @@ Codes for the field form should be followed by the census#, to help with data en
 
 ## Checklist for collecting data
 - datasheet (one of the field forms above)
-- [code sheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/metadata/codes_metadata.csv)
-- copy of [map](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/maps)
+- [code sheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/codes_metadata.csv)
+- copy of [map](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/protocols_field-resources/maps)
 - calipers
 - clipboard
 - flagging tape
