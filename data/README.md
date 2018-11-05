@@ -6,6 +6,9 @@ Intraannual survey 2018 = 155 trees
 
 The full list of trees (579), including dead trees and those not included in current surveys, is catalogued in dendro_trees.
 
+The scbi.dendroAll_[YEAR] file is used in all field_form and data_entry Rscripts. If any major change is made (e.g. a column is added), then **_all_** the corresponding Rscripts need to be updated.
+
+
 ## Structure
 
 ### blank_data_forms
