@@ -1,7 +1,7 @@
 Column,Field,Site Description,Storage.Type,Units
 1/A,tag,"Tag number, appearing on aluminum tag attached to each tree; also matches dendrometer to plot data, though treeID is more secure",numeric (integer),
 2/B,stemtag,"Tag number, appearing on aluminum tag attached to each stem, matching plot database",numeric (integer),
-3/C,survey.ID,"Survey number, of n measurements per year, written as ""YEAR.n"". For example, the March biannual survey in 2018 is labeled as 2018.01. The biweekly surveys after that are 2018.02, 2018.03, 2018.04, etc. The November biannual survey will be the highest number n, so in this example, it is 2018.14.",numeric (double),
+3/C,survey.ID,"Survey number, of n measurements per year, written as ""YEAR.n"". For example, the March biannual survey in 2018 is labeled as 2018.01. The biweekly surveys after that are 2018.02, 2018.03, 2018.04, etc. The November biannual survey will be the highest number n, so in this example, it is 2018.14. In addition, if band replacements are done outside of a normal survey, that measurement should be given a separate survey number. For example, if 6 trees needed dendroband replacing, and they were replaced between surveys 2019.07 and 2019.08, they should get separate entries in the master with a survey.ID of 2019.071.",numeric (double),
 4/D,exactdate,Date of dendrometer measure as Y-M-D,numeric (double),
 5/E,biannual,"Quantifier if tree belongs to biannual survey. Enter ""1"" if part of biannual survey, ""0"" if not.",numeric (integer),
 6/F,intraannual,"Quantifier if tree belongs to intraannual survey. Enter ""1"" if part of intraannual survey, ""0"" if not.",numeric (integer),
