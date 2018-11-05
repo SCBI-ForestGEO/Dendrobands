@@ -1,34 +1,34 @@
 # Dendroband Data Forms
 
-scbi.dendroAll_2018 contains data for 530 live trees out of 579 trees.
-Biannual survey 2018 = 530 trees
-Intraannual survey 2018 = 155 trees
+2018 numbers include:
+- biannual survey = 530 trees
+- intraannual survey = 155 trees
 
 The full list of trees (579), including dead trees and those not included in current surveys, is catalogued in dendro_trees.
 
+## Year
+
+Each year has its own folder, with the main document in each being the scbi.dendroAll_[YEAR].csv, which is the master file for that year's intraannual and biannual surveys. Headers of the file are pulled from Condit along with some additional, relevant headers.
+
 The scbi.dendroAll_[YEAR] file is used in all field_form and data_entry Rscripts. If any major change is made (e.g. a column is added), then **_all_** the corresponding Rscripts need to be updated.
 
-
-## Structure
-
-### blank_data_forms
-
-Templates for filling out data in field (field_forms) and in office (data_entry_forms). Final updates to the master file for the year are run via R, which merges the data_entry_forms into the data_YEAR.csv. These merges should be run as soon as the data has been entered.
-
-- field_forms are created from the master list via an R-script. These are created as .xlsx (excel) files to allow for retention of file manipulation for printing.
-
-- data_entry_forms for the office are also pulled from the master via an R-script. This form is simplified to allow volunteers and those not familiar with dendroband survey methods to help enter data, if needed. Ideally, data should be entered directly after every survey.
-
-### clean_data_forms
-
-This folder includes current data, in the form of master files for each year, a list of tree species and coordinates, and a chronology of dendroIDs.
-
-- Each year has its own folder, with the main document in each being the data_YEAR.csv, which is the master file for that year's intraannual and biannual surveys. Headers of the file are pulled from Condit along with some additional, relevant headers.
-
-### metadata
-
-Metadata for the different forms.
-
-### original_data_files
+## archive
 
 Archived data pre-2018. 
+
+### dendroID_chronology
+
+This file contains a chronology of dendroID values, by spring and fall of each year since dendroband measurements started in 2010. It was manually created in fall 2018 with the expectation that it can later be used for coding/other analyses. It is expected this will be updated with an Rscript after the main biannual surveys.
+
+In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new bands, but all were given the same ID as 782. This was only noticed when creating the file in Oct. 2018.
+- This is noted because dendroID numbers 783-798 were assigned, but not labeled in the [original datasheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/original_data_files/Dendrometry_500Tree_most%20updated.xls) as having a new band.
+
+### dendro_trees
+
+The relevant information in this file includes:
+- which trees are in the biannual survey
+- which trees are in the intraannual survey
+- which of the biannual/intraannual trees are cored
+- the start and end date of dendroband measurements, plus year of mortality
+- coordinates within quadrat, full plot
+- geographic coordinates (NAD83 UTM and decimal degrees)

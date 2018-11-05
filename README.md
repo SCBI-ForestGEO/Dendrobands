@@ -9,7 +9,7 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 *Intra-annual dendrometer bands* - dendrometer bands on >150 trees measured ~ every 2 weeks
 
-Active data is found the [clean_data_files](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has its own set of files, including a master csv, field_forms, data_entry_forms, and maps.
+Active data is found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has a master list for that year's surveys.
 
 - field_forms and data_entry_forms are pulled from the year's master via R-scripts, and data is subsequently merged back to the master in the same way
 
@@ -38,7 +38,7 @@ A list of tree species by survey type, full counts of each species, and dbh min,
 
 Data on dendrometer band trees is available through the core census data, and we have collected a wide range of other potentially relevant data. Please see [this page](https://github.com/EcoClimLab/SCBI-ForestGEO-Data) for links to the data.
 
-Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been measured is available in [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
+Geographic location of tree species by quadrat, lat/lon, and qualified by survey type and which trees have been measured is available in [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
 
 ## Data use
 
