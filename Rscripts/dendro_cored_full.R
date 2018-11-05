@@ -90,6 +90,9 @@ census_2008 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCB
 dendro_all$dbh2008 <- census_2008$dbh[match(dendro_all$stemID, census_2008$stemID)]
 dendro_all$dbh2013 <- census_2013$dbh[match(dendro_all$stemID, census_2013$stemID)]
 
+dendro_all$dbh2008 <- round(dendro_all$dbh2008,1)
+dendro_all$dbh2013 <- round(dendro_all$dbh2013,1)
+
 ##re-order
 dendro_all <- dendro_all[c(1:6,21:22,11:13,10,7,14:15,8:9,16:19)]
 
