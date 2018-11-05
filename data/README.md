@@ -1,5 +1,11 @@
 # Dendroband Data Forms
 
+scbi.dendroAll_2018 contains data for 530 live trees out of 579 trees.
+Biannual survey 2018 = 530 trees
+Intraannual survey 2018 = 155 trees
+
+The full list of trees (579), including dead trees and those not included in current surveys, is catalogued in dendro_trees.
+
 ## Structure
 
 ### blank_data_forms
