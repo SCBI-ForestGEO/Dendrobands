@@ -1,12 +1,12 @@
 # Create data_intra forms from master
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/data_entry_forms")
 
-data_2018 <- read.csv("data_2018.csv")
+data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
 data_intra<-data_2018[which(data_2018$survey.ID=='2018.01' & data_2018$intraannual=='1'), ] #subset by 2018.01 (one entry per stem)
 
-data_intra<-data_intra[ ,c(1:4,7,8,11:13,15:17)]
+data_intra<-data_intra[ ,c("tag", "stemtag", "survey.ID", "exactdate", "sp", "quadrat", "measure", "codes", "notes", "location", "field.recorders", "data.enter")]
 
 data_intra$survey.ID = NA
 data_intra$exactdate = NA

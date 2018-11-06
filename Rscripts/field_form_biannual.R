@@ -1,14 +1,14 @@
 # Create field_form_biannual from master
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/field_forms")
 
-data_2018 <- read.csv("scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
-prevmeasbi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by previous survey.ID
+prevmeasbi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by previous survey.ID. If printing this for the spring survey, use the last survey.ID from last year.
 
 data_bi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by 2018.01 (one entry per stem)
 
-data_bi<-data_bi[ ,c(1,2,7:12,15,22)]
+data_bi<-data_bi[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dbh")]
 
 data_bi$measure = NA
 data_bi$codes = NA

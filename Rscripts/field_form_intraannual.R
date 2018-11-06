@@ -1,15 +1,14 @@
 # Create field_form_intrannual from master
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018")
-#set it here so you don't overwrite any files
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/field_forms")
 
-data_2018 <- read.csv("scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
-prevmeasin <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by previous survey.ID
+prevmeasin <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by previous survey.ID. Change "2018.01" to be the most recent survey.ID when printing a new field form (to have updated previous measurement)
 
 data_intra <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by 2018.01 (one entry per stem)
 
-data_intra<-data_intra[ ,c(1,2,7:12,15,22)]
+data_intra<-data_intra[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dbh")]
 
 data_intra$measure = NA
 data_intra$codes = NA

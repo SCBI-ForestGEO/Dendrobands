@@ -2,13 +2,14 @@
 
 setwd()
 
-data_2018 <- read.csv("scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
 data_install<-data_2018[which(data_2018$survey.ID=='2018.01'), ] 
+#when running the code, add: &data_2018$codes=='RD'
 #when trouble-shooting code, remove: &data_2018$codes=='RD'
 #subset by RD codes and one entry per stem
 
-data_install<-data_install[ ,c(1:2,7:12,15,21,24,25,27)]
+data_install<-data_install[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
 
 data_install$measure = NA
 data_install$codes = NA

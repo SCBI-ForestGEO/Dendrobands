@@ -1,8 +1,8 @@
 setwd()
 
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/clean_data_files/2018/scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
-data_surveys<- subset(data_2018,data_2018$survey.ID=='2018.01' & data_2018$status=='alive') #get rid of '0' values for min
+data_surveys<- subset(data_2018,data_2018$survey.ID=='2018.01' & data_2018$status=='alive') #get rid of '0' values for minimum
 
 data_trees <- data_2018[!duplicated(data_2018[7]),]
 data_trees <- data_trees[c("sp")] #list that shows all sp alive and dead
