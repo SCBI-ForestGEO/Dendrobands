@@ -1,6 +1,6 @@
 # SCBI Dendroband Maps
 
-The maps here contain plotted trees across the SIGEO plot for the intraannual survey and the biannual survey. They should be updated at least once per year to account for any tree removals or additions for the survey.
+The maps here contain plotted trees across the ForestGEO plot for the intraannual survey and the biannual survey. They should be updated at least once per year to account for any tree removals or additions for the survey.
 
 These maps are meant to be helpful guides in the field for all surveys.
 
