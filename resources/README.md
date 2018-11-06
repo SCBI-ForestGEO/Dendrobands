@@ -1,5 +1,9 @@
 # Protocols and Field Resources
 
+## protocol
+
+Sampling should follow the latest [ForestGEO dendrobands protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit). 
+
 ## data_entry_forms
 
 These forms are meant for office data entry, and are pulled from the year's [master file](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) via an R-script. This form is simplified to allow volunteers and those not familiar with dendroband survey methods to help enter data, if needed. Ideally, data should be entered directly after every survey, and merges (with the master data via scripts) should be run soon after the data has been entered into these forms.
