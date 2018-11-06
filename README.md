@@ -9,9 +9,9 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 *Intra-annual dendrometer bands* - dendrometer bands on >150 trees measured ~ every 2 weeks
 
-Active data is found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has a master list for that year's surveys.
+Data are found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has a master list for that year's surveys.
 
-- field_forms and data_entry_forms are pulled from the year's master via R-scripts, and data is subsequently merged back to the master in the same way
+
 
 In the interest of keeping survey data entry simplified, each type of survey (biannual and intraannual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 
 1.	Metadata for these individual forms are consistent with the metadata for the scbi.dendroAll_YEAR.csv (the master).
@@ -32,6 +32,11 @@ In the interest of keeping survey data entry simplified, each type of survey (bi
 
 *Intra-annual dendrometer bands* - 
 As of 2018, 155 stems of DBH ranging from 6-148 cm are monitored biweekly during the growing season each year.
+
+*Workflow and data management* 
+- [field_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms) and [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) are pulled from the year's master via R-scripts
+- [maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps) are generated based on the [current list of trees with dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv). 
+- data recorded in the field are entered in [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) and immediately merged into the current year's master file using an R script.
 
 ## Tree data
 A list of tree species by survey type, full counts of each species, and dbh min, max, and average is available [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees_dbhcount.csv).
