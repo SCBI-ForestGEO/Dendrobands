@@ -6,11 +6,11 @@
 
 The full list of trees (579), including dead trees and those not included in current surveys, is catalogued in dendro_trees.
 
-## Year
+## [YEAR]
 
 Each year has its own folder, with the main document in each being the scbi.dendroAll_[YEAR].csv, which is the master file for that year's intraannual and biannual surveys. Headers of the file are pulled from Condit along with some additional, relevant headers.
 
-The scbi.dendroAll_[YEAR] file is used in all field_form and data_entry Rscripts. If any major change is made (e.g. a column is added), then **_all_** the corresponding Rscripts need to be updated.
+**Important**: The scbi.dendroAll_[YEAR] file is used in all field_form and data_entry Rscripts. If any major change is made (e.g. a column is added), then **_all_** the corresponding Rscripts need to be updated.
 
 ## archive
 
