@@ -26,6 +26,7 @@ In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new ban
 ### dendro_trees
 
 The relevant information in this file includes:
+- all trees in dendroband surveys (including dead and those removed from survey)
 - which trees are in the biannual survey
 - which trees are in the intraannual survey
 - which of the biannual/intraannual trees are cored
