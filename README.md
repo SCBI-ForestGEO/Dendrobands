@@ -10,8 +10,6 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 *Intra-annual dendrometer bands* - dendrometer bands on >150 trees measured ~ every 2 weeks
 
 
-
-
 ## Sampling location
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
 
@@ -34,9 +32,10 @@ As of 2018, 155 stems of DBH ranging from 6-148 cm are monitored biweekly during
 - data recorded in the field are entered in [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) and immediately merged into the current year's master file using an R script.
 
 *Data organization* 
-Data are found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has a master list for that year's surveys.
 
-In the interest of keeping survey data entry simplified, each type of survey (biannual and intraannual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 
+Data are found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has a master data set including both biannual and intra-annual surveys.
+
+In the interest of keeping survey data entry simplified, each type of survey (biannual and intra-annual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 
 1.	Metadata for these individual forms are consistent with the metadata for the scbi.dendroAll_YEAR.csv (the master).
 
 ## Tree data
