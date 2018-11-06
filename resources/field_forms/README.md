@@ -25,7 +25,7 @@ Codes for the field form should be followed by the census#, to help with data en
 
 7. Select all the numbers, hover over the warning sign next to the selection, and select "Convert to Number." This is because in creating the file R converts everything to as.character
 
-8. Filter by area or location(N/S). Then filter by ascending quadrat.
+8. Filter by ascending quadrat. Then filter by area [biannual] or location(N/S) [intraannual].
 
 9. *Double check in print preview before printing!!*
 
