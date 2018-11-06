@@ -2,7 +2,7 @@
 
 2018 numbers include:
 - biannual survey = 530 trees
-- intraannual survey = 155 trees
+- intraannual survey = 146 trees
 
 The full list of trees (579), including dead trees and those not included in current surveys, is catalogued in dendro_trees.
 
