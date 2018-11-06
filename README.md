@@ -55,10 +55,10 @@ Geographic location of tree species by quadrat, lat/lon, and qualified by survey
 | -----| ---- | ---- |---- |
 | Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | plot PI |
 | William McShea |  | staff scientist, SCBI | plot PI |
-| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | |
-| Victoria Meakem |  | research assistant, SCBI |  |
-| Ryan Helcoski | RHelcoski | research assistant, SCBI |  |
-| Ian McGregor | mcgregorian1 | research assistant, SCBI |  |
+| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | oversight of data collection |
+| Victoria Meakem |  | research assistant, SCBI |  data collection |
+| Ryan Helcoski | RHelcoski | research assistant, SCBI | data collection |
+| Ian McGregor | mcgregorian1 | research assistant, SCBI | data collection, data organization, coding |
 | [MORE]| | | |
  
 *refers to position at time of main contribution to this repository
