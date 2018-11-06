@@ -1,0 +1,42 @@
+Column,Field,Site Description,Storage.Type,Units
+1/A,tag,"Tag number, appearing on aluminum tag attached to each tree; also matches dendrometer to plot data, though treeID is more secure",numeric (integer),
+2/B,stemtag,"Tag number, appearing on aluminum tag attached to each stem, matching plot database",numeric (integer),
+3/C,survey.ID,"Survey number, of n measurements per year, written as ""YEAR.n"". For example, the March biannual survey in 2018 is labeled as 2018.01. The biweekly surveys after that are 2018.02, 2018.03, 2018.04, etc. The November biannual survey will be the highest number n, so in this example, it is 2018.14. In addition, if band replacements are done outside of a normal survey, that measurement should be given a separate survey number. For example, if 6 trees needed dendroband replacing, and they were replaced between surveys 2019.07 and 2019.08, they should get separate entries in the master with a survey.ID of 2019.071.",numeric (double),
+4/D,exactdate,Date of dendrometer measure as Y-M-D,numeric (double),
+5/E,biannual,"Quantifier if tree belongs to biannual survey. Enter ""1"" if part of biannual survey, ""0"" if not.",numeric (integer),
+6/F,intraannual,"Quantifier if tree belongs to intraannual survey. Enter ""1"" if part of intraannual survey, ""0"" if not.",numeric (integer),
+7/G,sp,"Four-letter species code, consisting of the first two letters of each the genus and species of the Latin name. For example, Acer rubra = acru.",character (string),
+8/H,quadrat,"Designation for 20x20 m quadrat, matching those used in main plot database",numeric (integer),
+9/I,lx,X-coordinate within each quadrat,numeric (integer),m
+10/J,ly,Y-coordinate within each quadrat,numeric (integer),m
+11/K,measure,"The principal dendrometer measurement of dendrometer, i.e. the gap between tips (the window), spreading as the tree grows",numeric (double),mm
+12/L,codes,Codes describing the tree. Explained in codes_metadata.csv,character (string),
+13/M,notes,"Notes from field, such as ""dendroband overextended,"" ",character (string),
+14/N,new.band,"Quantifier for if a band was replaced. ""0"" = no replacement, ""1"" = replacement. This should be noted on the particular survey.ID of replacement (see survey.ID description).",numeric (integer),
+15/O,status,"Tree status: alive or dead. Dead trees from previous censuses are removed. Any tree that has a ""dead"" qualifier here was recorded as dead in the current year",character (string),
+16/P,location,"Indicates ""North"" or ""South"" to give general region of plot. Determined from maps in ""clean_data_files"" folder",character (string),
+17/Q,field recorder,Person(s) overseeing and taking data in the field,character (string),
+18/R,data enter,Person(s) entering the data on the computer,character (string),
+19/S,stemID,"Arbitrary numeric identifier for stems, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
+20/T,treeID,"Arbitrary numeric identifier for trees, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
+21/U,dendDiam,"Trunk diameter at the dendrometer, measured by a diameter tape, taken when dendrometer is first installed and necessary for converting subsequent dendrometer measures to dbh",numeric (double),
+22/V,dbh,"Diameter at breast height, taken from most recent ForestGEO census",numeric (double),mm
+23/W,newband,"Quantifier for whether or not the dendroband was changed. Enter 1 if changed, 0 if not.",numeric (integer),
+24/X,dendroID,"Arbitrary, unique numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem. When a dendroband is replaced or moved to a different POM (point of measurement), a new dendroID is given following in numerical order (across all years). This column contains the most recent dendroID number for the year. See dendroID_chronology.csv for previous dendroIDs.",numeric (integer),
+25/Y,type,"Dendrometer type: 1 = plastic band, 2 = metal band",character (string),
+26/Z,dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.,character (string),
+27/AA,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
+28/AB,crown.condition,"Assessment of the crown condition, given as a number for crown health, and only measured in the FALL. The 4-point crown condition scale has the following categories:
+4 = 75-100% of the crown is intact (no or few branches lost)
+3 = 50-75% of the crown is intact
+2 = 25-50% of the crown is intact
+1 = 0-25% of the crown is intact (most of the crown is gone).
+This comes from the updated dendrometer protocol (https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit).",numeric (integer),
+29/AC,illum,"Assessment of the crown illumination index, measured as a number between 1-5, only measured in the FALL. Method taken from Dawkins and Field 1978 (see updated dendrometer protocol). 
+5 = crown completely exposed (to vertical light and to lateral light within the 90 degree inverted cone encompassing the crown)
+4 = full overhead light (>=90% of the vertical projection of the crown exposed to vertical light; later light blocked within some or all of the 90 degree inverted cone encompassing the crown)
+3 = some overhead light (10-90% of the vertical project of the crown exposed to vertical light)
+2 = lateral light (<10% of the vertical project of the crown exposed to vertical light; crown lit laterally)
+1 = no direct light (crown not lit directly either vertically or laterally)",numeric (integer),
+30/AD,lianas,Liana load in crown: 0 (none) to 5 (heavy),numeric (integer),
+31/AE,measureID,"Arbitrary numeric identifier for measurements, not needed in analyses",numeric (integer),

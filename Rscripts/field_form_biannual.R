@@ -8,20 +8,23 @@ prevmeasbi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by 
 
 data_bi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by 2018.01 (one entry per stem)
 
-data_bi<-data_bi[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dbh")]
+data_bi<-data_bi[ ,c("tag", "stemtag", "sp", "dbh", "quadrat", "lx", "ly", "measure", "crown.condition", "illum", "codes", "location")]
 
 data_bi$measure = NA
 data_bi$codes = NA
-data_bi$"Fall Collector:  "= NA
+data_bi$crown.condition = NA
+data_bi$illum = NA
+data_bi$"Fall measure"= NA
 
 library(dplyr)
-data_bi<-data_bi %>% rename("Spring Collector:" = measure, "codes&notes" = codes, "stem" = stemtag)
+data_bi<-data_bi %>% rename("Spring measure" = measure, "codes&notes" = codes, "stem" = stemtag, "crown" = crown.condition)
 
 data_bi$prevmeas = prevmeasbi$measure
 
 data_bi[is.na(data_bi)&!is.na(data_bi$prevmeas)] <- " "
 
-data_bi<-data_bi[,c(1:3,10,4:6,12,7,11,8:9)]
+data_bi<-data_bi[,c("tag", "stem", "sp", "dbh", "quadrat", "lx", "ly", "prevmeas", "Spring measure", "Fall measure", "crown", "illum", "codes&notes", "location")]
+  #c(1:7,14,8,13,9:12)] <- ordering by numbers
 
 data_bi$location<-gsub("South", "S", data_bi$location)
 data_bi$location<-gsub("North", "N", data_bi$location)
@@ -93,7 +96,7 @@ data_bi$area <-
                                                                    (data_bi$quadrat %in% c(1925:1932))|
                                                                    (data_bi$quadrat %in% c(2025:2032)), 9, "")))))))))
 
-data_bi <- data_bi[c(1:11,13,12)]
+data_bi <- data_bi[c(1:13,15,14)]
 
 matrix <- function(data_bi, table_title) {
   
@@ -103,7 +106,7 @@ matrix <- function(data_bi, table_title) {
   
 }
 
-temp <- matrix(data_bi, table_title=('Biannual Survey            SpringDate:                       SpringSurveyID:                             FallDate:                       FallSurveyID:'))
+temp <- matrix(data_bi, table_title=('Biannual Survey       Spr.Date:                       Spr.SurveyID:                  Spr.Recorder:                   |FallDate:                       FallSurveyID:                 FallRecorder:'))
 
 library(xlsx)
 write.xlsx(temp, "field_form_biannual.xlsx", row.names=FALSE, col.names=FALSE) #we write the file to .xlsx to more easily change print settings and cell dimensions

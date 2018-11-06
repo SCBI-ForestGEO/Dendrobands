@@ -6,17 +6,17 @@ data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendr
 
 data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 2018.01 (one entry per stem)
 
-data_biannual<-data_biannual[ ,c("tag", "stemtag", "survey.ID", "exactdate", "sp", "quadrat", "measure", "codes", "notes", "location", "field.recorders", "data.enter")]
+data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "exactdate", "measure", "crown.condition", "illum", "codes", "notes", "field.recorders", "data.enter", "location")]
 
 data_biannual$survey.ID = NA
 data_biannual$exactdate = NA
 data_biannual$measure = NA
+data_biannual$crown.condition = NA
+data_biannual$illum = NA
 data_biannual$codes = NA
 data_biannual$notes = NA
 data_biannual$field.recorders = NA
 data_biannual$data.enter = NA
-
-data_biannual<-data_biannual[,c(1,2,5,6,3,4,7:9,11,12,10)]
 
 data_biannual<-sapply(data_biannual, as.character)
 data_biannual[is.na(data_biannual)] <- " "
