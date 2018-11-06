@@ -6,7 +6,7 @@ Sampling should follow the latest [ForestGEO dendrobands protocol](https://docs.
 
 ## maps
 
-[Maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps) of the biannual and intraannual dendroband trees in the SCBI plotare generated using geographic/coordinate data from [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
+[Maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps) of the biannual and intraannual dendroband trees in the SCBI plot are intended as guides for field measurements. They are generated using geographic/coordinate data from [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
 
 ## field_forms
 
