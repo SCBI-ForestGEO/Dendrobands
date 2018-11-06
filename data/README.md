@@ -32,4 +32,6 @@ The relevant information in this file includes:
 - which of the biannual/intraannual trees are cored
 - the start and end date of dendroband measurements, plus year of mortality
 - coordinates within quadrat, full plot
-- geographic coordinates (NAD83 UTM and decimal degrees)
+- geographic coordinates (NAD83 UTM and decimal degrees; this data comes from Merged_dendroband_utm_lat_lon.csv from the local V drive: V:/SIGEO/GIS_data/dendroband surveys
+
+**Important**: dendro_trees is used to create [dendro_cored_full](https://github.com/SCBI-ForestGEO/tree-growth-and-productivity/tree/master/dendro_cored_full). Please make sure to update the Rscript if any major changes are made (add/delete columns, column names are modified, etc).
