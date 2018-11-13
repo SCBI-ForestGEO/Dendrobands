@@ -20,7 +20,7 @@
       
     b. Fix any data issues that are found.
     
-5. Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) with new records of dead trees.
+5. Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) and [dendro_cored_full](https://github.com/SCBI-ForestGEO/tree-growth-and-productivity/blob/master/dendro_cored_full/dendro_cored_full.csv) with new records of dead trees.
 
 6. After the fall survey, create next year's master file...
 
