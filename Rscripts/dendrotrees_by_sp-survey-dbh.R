@@ -1,10 +1,13 @@
+# create dendro_trees_dbhcount --> give count of each species by survey, plus the min, max, and avg dbh per species
+
 setwd()
 
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
-data_surveys<- subset(data_2018,data_2018$survey.ID=='2018.01' & data_2018$status=='alive') #get rid of '0' values for minimum
+#subset by the last survey from the year
+data_surveys<- subset(data_2018,data_2018$survey.ID=='2018.14' & data_2018$status=='alive') #get rid of '0' values for minimum
 
-data_trees <- data_2018[!duplicated(data_2018[7]),]
+data_trees <- data_2018[!duplicated(data_2018["sp"]),]
 data_trees <- data_trees[c("sp")] #list that shows all sp alive and dead
 
 #make data.frames with the dbhmax,min,mean by sp
@@ -45,6 +48,8 @@ data_num <- list(data_trees,dbhmin,dbhmax,dbhavg) %>% reduce(left_join, by="sp")
 data_merged <- merge(data_count, data_num, by="sp", all.x=TRUE)
 
 data_merged <- data_merged[order(data_merged$sp),]
-data_merged <- data_merged[c(1:21,23,24,22),]
 
-write.csv(data_merged, "dendro_trees_dbhcount.csv", row.names=FALSE)
+##reorder to make "Sum" row be last. These numbers may change depending on if a tree has been fully removed from the survey
+data_merged <- data_merged[c(1:19,21,22,20),]
+
+write.csv(data_merged, "dendro_trees_dbhcount2018.csv", row.names=FALSE)
