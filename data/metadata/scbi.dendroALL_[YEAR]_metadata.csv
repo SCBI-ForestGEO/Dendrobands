@@ -26,7 +26,17 @@ Column,Field,Site Description,Storage.Type,Units
 25/Y,type,"Dendrometer type: 1 = plastic band, 2 = metal band",character (string),
 26/Z,dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.,character (string),
 27/AA,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
-28/AB,crown,Position of crown of tree: 1 (exposed) to 5 (shaded),numeric (integer),
-29/AC,illum,Illumination of crown: 1 (high) to 4 (low),numeric (integer),
+28/AB,crown.condition,"Assessment of the crown condition, given as a number for crown health, and only measured in the FALL. The 4-point crown condition scale has the following categories:
+4 = 75-100% of the crown is intact (no or few branches lost)
+3 = 50-75% of the crown is intact
+2 = 25-50% of the crown is intact
+1 = 0-25% of the crown is intact (most of the crown is gone).
+This comes from the updated dendrometer protocol (https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit).",numeric (integer),
+29/AC,illum,"Assessment of the crown illumination index, measured as a number between 1-5, only measured in the FALL. Method taken from Dawkins and Field 1978 (see updated dendrometer protocol). 
+5 = crown completely exposed (to vertical light and to lateral light within the 90 degree inverted cone encompassing the crown)
+4 = full overhead light (>=90% of the vertical projection of the crown exposed to vertical light; later light blocked within some or all of the 90 degree inverted cone encompassing the crown)
+3 = some overhead light (10-90% of the vertical project of the crown exposed to vertical light)
+2 = lateral light (<10% of the vertical project of the crown exposed to vertical light; crown lit laterally)
+1 = no direct light (crown not lit directly either vertically or laterally)",numeric (integer),
 30/AD,lianas,Liana load in crown: 0 (none) to 5 (heavy),numeric (integer),
 31/AE,measureID,"Arbitrary numeric identifier for measurements, not needed in analyses",numeric (integer),
