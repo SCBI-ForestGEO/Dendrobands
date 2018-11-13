@@ -21,7 +21,7 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 
 ## Protocols and data management
-*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 570 stems of various DBH (5.5-152 cm) being monitored as of October 2018. Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
+*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 515 stems of various DBH (5.5-152 cm) being monitored as of October 2018. Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
 
 *Intra-annual dendrometer bands* - 
 As of 2018, 155 stems of DBH ranging from 6-148 cm are monitored biweekly during the growing season each year.
