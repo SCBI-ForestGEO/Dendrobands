@@ -28,4 +28,4 @@
     
     b. When those are complete, then update [dendroID_chronology](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID_chronology.csv) with current dendroIDs (as the full list is ontingent on dendroband replacements)
 
-    c. In addition, update [dendro_trees_dbhcount.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/results/dendro_trees_dbhcount.csv) using the Rscript.
+    c. In addition, update [dendro_trees_dbhcount2018.csv](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results) using the Rscript.
