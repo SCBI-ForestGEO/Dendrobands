@@ -2,6 +2,19 @@
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 
+dendro11 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2011/scbi.dendroAll_2011.csv")
+
+dendrotrees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+
+dendro11$stemID <- dendrotrees$stemID[match(dendro11$tag, dendro_trees$tag)]
+
+dendro11$treeID <- dendrotrees$treeID[match(dendro11$tag, dendro_trees$tag)]
+
+write.csv(dendro11, "scbi.dendroAll_2011.csv", row.names=FALSE)
+
+####################################################################
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
+
 data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2017/scbi.dendroAll_2017.csv")
 
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
