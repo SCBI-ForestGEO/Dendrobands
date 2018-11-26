@@ -47,11 +47,11 @@ ANPPmerge <- merge(ANPPmerge,dendro, by="sp")
 ggplot(data = ANPPmerge) +
   aes(x = sp, fill = ANPP.ANPP_Mg.C.ha1.y1_10cm, weight = biannual.n) +
   geom_bar() +
-  scale_fill_gradientn(colours=c("purple", "blue", "green", "yellow", "orange", "red", "#990000"), 
+  scale_fill_gradientn(colours=c("black", "orange", "green", "blue", "purple", "yellow", "red", "#990000"), 
                       values=c(0,0.31,1.3), guide="colourbar",
                       name="ANPP in MgC/ha/yr Stems>10cm", 
-                      limits=c(0,1.3), breaks=c(0,0.1,0.15,0.2,0.25,0.31,1.3),
-                      labels=c(0,0.1,0.15,0.2,0.25,0.31,1.3)) +
+                      limits=c(0,1.3), breaks=c(0,0.05,0.1,0.15,0.2,0.25,0.31,1.3),
+                      labels=c(0,0.05,0.1,0.15,0.2,0.25,0.31,1.3)) +
   guides(fill=guide_colourbar(barheight=15, direction="vertical", title.position="top")) +
   labs(title = "Dendroband sp numbers by ANPP >10cm 2018") +
   theme_minimal()
