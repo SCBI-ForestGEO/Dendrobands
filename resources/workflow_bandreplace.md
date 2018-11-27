@@ -7,6 +7,10 @@
 2. Do field work
 
     a. Double-check no tree is missed. If so, go collect the data the same day or soon thereafter.
+    
+    b. While in field, remove dendrobands from dead trees that weren't removed in survey.
+    
+    c. Also, replace any tags that need replacing.
 
 3. Enter data in the [data_entry_form](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms), ideally within the same day.
     
