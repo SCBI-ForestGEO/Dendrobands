@@ -63,4 +63,9 @@ dev.off()
 
 ANPPmerge$ANPP.ratio <- ANPPmerge$biannual.n/ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm
 
+## round to 5 decimal places and 2 decimal places
+ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm <- sprintf(ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm, fmt='%#.5f')
+
+ANPPmerge$ANPP.ratio <- sprintf(ANPPmerge$ANPP.ratio, fmt='%#.2f')
+
 write.csv(ANPPmerge, "dendro_trees_ANPP.csv", row.names=FALSE)
