@@ -1,6 +1,6 @@
 # Workflow for fall dendroband biannual survey
 
-1. Prepare data sheets for field, and make sure you have a blank data entry form for office.
+1. Prepare data sheets for field, and make sure you have a blank data entry form ready for office.
 
     a. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 
@@ -30,7 +30,7 @@
 
 7. After the fall survey, create next year's master file...
 
-    a....only after doing dendroband replacements and gathering that data
+    a....only after doing dendroband replacements, replacing dead trees, and gathering that data (this should happen soon after the last survey to allow time to settle before the next survey in spring).
     
     b. When those are complete, then update [dendroID_chronology](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID_chronology.csv) with current dendroIDs (as the full list is contingent on dendroband replacements)
 

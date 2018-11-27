@@ -1,6 +1,6 @@
 # Workflow for spring dendroband biannual survey
 
-1. Prepare data sheets for field, and make sure you have a blank data entry form for office.
+1. Prepare data sheets for field, and make sure you have a blank data entry form ready for office.
 
     a. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 
