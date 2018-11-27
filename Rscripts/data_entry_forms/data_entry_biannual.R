@@ -7,13 +7,13 @@ data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendr
 
 data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 2018.01 (one entry per stem)
 
-data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "exactdate", "measure", "crown.condition", "illum", "codes", "notes", "field.recorders", "data.enter", "location")]
+data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "exactdate", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "location")]
 
 data_biannual$survey.ID = ""
 data_biannual$exactdate = ""
 data_biannual$measure = ""
 data_biannual$crown.condition = ""
-data_biannual$illum = ""
+data_biannual$crown.illum = ""
 data_biannual$codes = ""
 data_biannual$notes = ""
 data_biannual$field.recorders = ""

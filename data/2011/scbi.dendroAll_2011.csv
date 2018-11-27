@@ -1,4 +1,4 @@
-tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,illum,lianas,measureID
+tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
 10469,1,2011.01,1/15/2011,1,0,litu,109,9.7,1,75.97,,,alive,Jenny McGarvey,JM/LL/CK/LB,1419,1419,NA,810.4,0,1,2,NA,1.4,4,4,NA,NA
 10469,1,2011.23,12/15/2011,1,0,litu,109,9.7,1,103.08,,,alive,Jennifer McGarvey,Jennifer McGarvey,1419,1419,NA,810.4,0,1,2,NA,1.4,4,4,NA,NA
 10587,1,2011.01,1/15/2011,1,0,litu,113,2.6,13,40.51,,,alive,Jenny McGarvey,JM/LL/CK/LB,1526,1526,NA,938.4,0,2,2,NA,1.38,4,4,NA,NA

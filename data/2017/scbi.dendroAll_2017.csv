@@ -1,4 +1,4 @@
-tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,illum,lianas,measureID
+tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
 10469,1,2017.01,4/18/2017,1,0,litu,109,9.7,1,80.9,,,alive,Valentine Herrmann,Caroline Kittle,1419,1419,NA,838.8,0,632,2,NA,1.4,4,4,NA,NA
 10469,1,2017.12,11/16/2017,1,0,litu,109,9.7,1,104.24,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,1419,1419,NA,838.8,0,632,2,NA,1.4,NA,NA,NA,NA
 10587,1,2017.01,4/18/2017,1,0,litu,113,2.6,13,129.89,,,alive,Valentine Herrmann,Caroline Kittle,1526,1526,NA,965,0,2,2,NA,1.38,4,4,NA,NA

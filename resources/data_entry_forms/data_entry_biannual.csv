@@ -1,4 +1,4 @@
-tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,crown.condition,illum,codes,notes,field.recorders,data.enter,location,area
+tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,crown.condition,crown.illum,codes,notes,field.recorders,data.enter,location,area
 10469,1,litu,109,,,,,,,,,,South,3
 10609,1,cagl,111,,,,,,,,,,South,3
 10587,1,litu,113,,,,,,,,,,South,3

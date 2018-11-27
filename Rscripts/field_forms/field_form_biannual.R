@@ -8,16 +8,16 @@ prevmeasbi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by 
 
 data_bi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by 2018.01 (one entry per stem)
 
-data_bi<-data_bi[ ,c("tag", "stemtag", "sp", "dbh", "quadrat", "lx", "ly", "measure", "crown.condition", "illum", "codes", "location")]
+data_bi<-data_bi[ ,c("tag", "stemtag", "sp", "dbh", "quadrat", "lx", "ly", "measure", "crown.condition", "crown.illum", "codes", "location")]
 
 data_bi$measure = NA
 data_bi$codes = NA
 data_bi$crown.condition = NA
-data_bi$illum = NA
+data_bi$crown.illum = NA
 data_bi$"Fall measure"= NA
 
 library(dplyr)
-data_bi<-data_bi %>% rename("Spring measure" = measure, "codes&notes" = codes, "stem" = stemtag, "crown" = crown.condition)
+data_bi<-data_bi %>% rename("Spring measure" = measure, "codes&notes" = codes, "stem" = stemtag, "crown" = crown.condition, "illum" = crown.illum)
 
 data_bi$prevmeas = prevmeasbi$measure
 

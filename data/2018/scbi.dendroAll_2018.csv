@@ -1,4 +1,4 @@
-tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,location,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,illum,lianas,measureID
+tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,location,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
 10469,1,2018.01,3/9/2018,1,0,litu,109,9.7,1,103.98,,,alive,South,Michael Scott,Ryan Helcoski,1419,1419,NA,838.8,0,632,2,NA,1.4,NA,NA,NA,NA
 10469,1,2018.14,11/8/2018,1,0,litu,109,9.7,1,124,,,alive,South,"Abigail Ferson, Caroline Kittle",Ian McGregor,1419,1419,NA,838.8,0,632,2,NA,1.4,4,4,NA,NA
 10587,1,2018.01,3/9/2018,1,0,litu,113,2.6,13,144.85,,,alive,South,Michael Scott,Ryan Helcoski,1526,1526,NA,965,0,2,2,NA,1.38,NA,NA,NA,NA
