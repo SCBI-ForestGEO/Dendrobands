@@ -56,3 +56,11 @@ ggplot(data = ANPPmerge) +
   labs(title = "Dendroband sp numbers by ANPP >10cm 2018") +
   theme_minimal()
 dev.off()
+
+##### 
+#calculate ratio of # dendrobands to ANPP for each species
+#after making ANPPmerge above
+
+ANPPmerge$ANPP.ratio <- ANPPmerge$biannual.n/ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm
+
+write.csv(ANPPmerge, "dendro_trees_ANPP.csv", row.names=FALSE)
