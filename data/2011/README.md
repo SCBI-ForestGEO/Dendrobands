@@ -7,3 +7,5 @@
 - 1 biweekly measurement in August, September, October, and November
 
 For June-November, dendrobands were measured twice. The value in the csv file is taken from the archived excel sheet. Upon comparing the excel sheet measurement with the paper data, it is unclear why one measurement was used over another.
+
+In the raw (Archive) data, the final survey (2011.23) dates were not fully updated in data entry. Dates were assigned to be 12/15/2011 unless otherwise mentioned in the "notes" field.
