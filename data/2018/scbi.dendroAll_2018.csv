@@ -1535,7 +1535,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 102371,1,2018.14,11/8/2018,1,0,qual,1026,1.6,6.6,68,,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,13307,13307,NA,783,0,296,2,NA,1.3,4,5,NA,NA
 102438,1,2018.01,3/9/2018,1,0,litu,1028,8.5,16.6,55.74,M; main,,alive,North,Ryan Helcoski,Ryan Helcoski,13374,13374,NA,468.2,0,600,2,NA,1.34,NA,NA,NA,NA
 102438,2,2018.01,3/9/2018,1,0,litu,1028,8.5,16.6,58.38,S,,alive,North,Ryan Helcoski,Ryan Helcoski,33848,13374,NA,462.6,0,600,2,NA,1.34,NA,NA,NA,NA
-102438,1,2018.14,11/8/2018,1,0,litu,1028,8.5,16.6,64,M;main,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,33848,13374,NA,462.6,0,600,2,NA,1.34,4,4,NA,NA
+102438,1,2018.14,11/8/2018,1,0,litu,1028,8.5,16.6,64,M;main,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,13374,13374,NA,468.2,0,600,2,NA,1.34,4,4,NA,NA
 102438,2,2018.14,11/8/2018,1,0,litu,1028,8.5,16.6,70,S,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,33848,13374,NA,462.6,0,600,2,NA,1.34,4,4,NA,NA
 102439,1,2018.01,3/9/2018,1,0,litu,1028,4.3,19.6,17.43,,,alive,North,Ryan Helcoski,Ryan Helcoski,13375,13375,NA,224,0,298,2,NA,1.3,NA,NA,NA,NA
 102439,1,2018.14,11/8/2018,1,0,litu,1028,4.3,19.6,20,,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,13375,13375,NA,224,0,298,2,NA,1.3,4,3,NA,NA
@@ -1549,7 +1549,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 102444,1,2018.14,11/8/2018,1,0,litu,1029,4.3,5.3,26,,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,13380,13380,NA,630,0,808,2,NA,1.3,4,5,NA,NA
 102446,1,2018.01,3/9/2018,1,0,litu,1029,0.5,3.7,40.06,M; main,,alive,North,Ryan Helcoski,Ryan Helcoski,13382,13382,NA,494,0,602,2,NA,1.3,NA,NA,NA,NA
 102446,2,2018.01,3/9/2018,1,0,litu,1029,0.5,3.7,26.72,S,,alive,North,Ryan Helcoski,Ryan Helcoski,33849,13382,NA,273.2,0,602,2,NA,1.3,NA,NA,NA,NA
-102446,1,2018.14,11/8/2018,1,0,litu,1029,0.5,3.7,47,M;main,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,33849,13382,NA,273.2,0,602,2,NA,1.3,4,4,NA,NA
+102446,1,2018.14,11/8/2018,1,0,litu,1029,0.5,3.7,47,M;main,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,13382,13382,NA,494,0,602,2,NA,1.3,4,4,NA,NA
 102446,2,2018.14,11/8/2018,1,0,litu,1029,0.5,3.7,29,S;B,,alive,North,"Abigail Ferson, Caroline Kittle",Ian McGregor,33849,13382,NA,273.2,0,602,2,NA,1.3,2,3,NA,NA
 102475,1,2018.01,3/9/2018,1,0,litu,1030,20,14.3,107.88,,,alive,North,Ryan Helcoski,Ryan Helcoski,13411,13411,NA,881.1,0,516,2,NA,1.3,NA,NA,NA,NA
 102475,1,2018.14,11/8/2018,1,0,litu,1030,20,14.3,124,,,alive,North,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,13411,13411,NA,881.1,0,516,2,NA,1.3,4,4,NA,NA
@@ -1639,7 +1639,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 111030,1,2018.14,11/8/2018,1,1,litu,1107,15.1,19.9,79.84,,,alive,South,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,14380,14380,NA,600.5,0,313,2,NA,1.4,3,5,NA,NA
 111032,1,2018.01,3/9/2018,1,0,litu,1107,10.3,19,39.13,M; main,,alive,South,Michael Scott,Ryan Helcoski,14382,14382,NA,600,0,605,2,NA,1.3,NA,NA,NA,NA
 111032,2,2018.01,3/9/2018,1,0,litu,1107,10.3,19,39.39,S,,alive,South,Michael Scott,Ryan Helcoski,34073,14382,NA,424.3,0,605,2,NA,1.3,NA,NA,NA,NA
-111032,1,2018.14,11/8/2018,1,0,litu,1107,10.3,19,46.66,,,alive,South,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,34073,14382,NA,424.3,0,605,2,NA,1.3,3,4,NA,NA
+111032,1,2018.14,11/8/2018,1,0,litu,1107,10.3,19,46.66,,,alive,South,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,14382,14382,NA,600,0,605,2,NA,1.3,3,4,NA,NA
 111032,2,2018.14,11/8/2018,1,0,litu,1107,10.3,19,45.43,,,alive,South,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,34073,14382,NA,424.3,0,605,2,NA,1.3,3,4,NA,NA
 111039,1,2018.01,3/9/2018,1,0,litu,1108,19.7,4.1,95.98,,,alive,South,Michael Scott,Ryan Helcoski,14388,14388,NA,450.6,0,315,2,NA,1.35,NA,NA,NA,NA
 111039,1,2018.14,11/8/2018,1,0,litu,1108,19.7,4.1,106.31,,,alive,South,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,14388,14388,NA,450.6,0,315,2,NA,1.35,3,4,NA,NA
@@ -2665,7 +2665,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 192674,1,2018.14,11/8/2018,1,0,litu,1929,9.5,2.8,11.3,,,alive,North,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,29069,29069,NA,467,0,797,2,NA,1.3,4,4,NA,NA
 200038,1,2018.01,3/8/2018,1,0,litu,2001,3.6,9.6,140.42,M; main,,alive,South,"Ryan Helcoski, Michael Scott",Ryan Helcoski,29145,29145,NA,941.2,0,631,2,NA,1.3,NA,NA,NA,NA
 200038,2,2018.01,3/8/2018,1,0,litu,2001,3.6,9.6,93.9,S,,alive,South,"Ryan Helcoski, Michael Scott",Ryan Helcoski,36227,29145,NA,843.8,0,631,2,NA,1.3,NA,NA,NA,NA
-200038,1,2018.14,11/8/2018,1,0,litu,2001,3.6,9.6,160.3,M;main; RD,stems grew together,alive,South,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,36227,29145,NA,843.8,0,631,2,NA,1.3,3,4,NA,NA
+200038,1,2018.14,11/8/2018,1,0,litu,2001,3.6,9.6,160.3,M;main; RD,stems grew together,alive,South,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,29145,29145,NA,941.2,0,631,2,NA,1.3,3,4,NA,NA
 200038,2,2018.14,11/8/2018,1,0,litu,2001,3.6,9.6,114.7,S; RD,stems grew together,alive,South,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,36227,29145,NA,843.8,0,631,2,NA,1.3,3,4,NA,NA
 200142,1,2018.01,3/8/2018,1,1,litu,2002,1.3,3.5,108.42,,,alive,South,"Ryan Helcoski, Michael Scott",Ryan Helcoski,29241,29241,NA,604,0,454,2,NA,1.3,NA,NA,NA,NA
 200142,1,2018.02,4/6/2018,1,1,litu,2002,1.3,3.5,108.42,,,alive,South,Ryan Helcoski,Ryan Helcoski,29241,29241,NA,604,0,454,2,NA,1.3,NA,NA,NA,NA

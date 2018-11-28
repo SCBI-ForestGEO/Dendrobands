@@ -1,8 +1,8 @@
 # Merge data_entry_form with master for intraannual survey
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2011")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012")
 
-file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2011", pattern="data_entry_intraannual")
+file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012", pattern="data_entry_intraannual")
 
 # for intraannual
 for (i in seq(along=file_list)){
@@ -127,8 +127,24 @@ write.csv(test, "scbi.dendroAll_2011.csv", row.names=FALSE)
 #
 
 #for changing date format
+
+## for changing date format
 #####
 ## Krista asked if the dates could be in a Y-m-d format, but I've noticed that R works best for analysis when it's in a simplified format. If we do want to change how the dates are written, then it is here:
 
 ##rewrite the date to be standard format (ONLY if current written dates are in same format) & (ONLY after last biannual survey for year)
 test$exactdate <- format(as.Date(test$exactdate,format="%m/%d/%Y"), "%Y-%m-%d") 
+
+
+## matching dbh and stemID/treeID
+dendro12 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2012/scbi.dendroAll_2012.csv")
+
+dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+
+dendro12$treeID <- dendro_trees$treeID[match(dendro12$tag, dendro_trees$tag)]
+
+dendro12$stemID <- dendro_trees$stemID[match(dendro12$tag, dendro_trees$tag)]
+
+dendro12$dbh <- dendro11$dbh[match(dendro12$tag, dendro11$tag)]
+
+write.csv(dendro12, "scbi.dendroAll_2012.csv", row.names=FALSE)
