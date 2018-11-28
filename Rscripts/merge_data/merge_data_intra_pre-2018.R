@@ -1,22 +1,22 @@
 # Merge data_entry_form with master for intraannual survey
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2013")
 
-file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012", pattern="data_entry_intraannual")
+file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2013", pattern="data_entry_intraannual")
 
 # for intraannual
 for (i in seq(along=file_list)){
   filename = file_list[[i]]
 
-data_2012 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012/scbi.dendroAll_2012.csv")
+data_2013 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2013/scbi.dendroAll_2013.csv", stringsAsFactors = FALSE)
 
 data_intra <- read.csv(filename)
 
-names2012 <- c(colnames(data_2012))
+names2013 <- c(colnames(data_2013))
 namesintra <- c(colnames(data_intra))
 
 ## find the names that are in data_2018 but not in data_biannual
-missing <- setdiff(names2012, namesintra)
+missing <- setdiff(names2013, namesintra)
 
 ## if need be, do the opposite
 # missing <- setdiff(namesbi, names2018)
@@ -26,7 +26,7 @@ data_intra[missing] <- NA
 data_intra$area <- NULL #this column is only relevant for field
 data_intra$location <- NULL #only for when merging data pre-2018
 
-test <- rbind(data_2012, data_intra)
+test <- rbind(data_2013, data_intra)
 
 test <- test[order(test[,"tag"], test[,"survey.ID"]),] #order by tag and survey.ID
 
@@ -58,7 +58,7 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2012.csv", row.names=FALSE)
+write.csv(test, "scbi.dendroAll_2013.csv", row.names=FALSE)
 }
 
 # for biannual
@@ -146,3 +146,12 @@ dendro12$stemID <- dendro_trees$stemID[match(dendro12$tag, dendro_trees$tag)]
 dendro12$dbh <- dendro11$dbh[match(dendro12$tag, dendro11$tag)]
 
 write.csv(dendro12, "scbi.dendroAll_2012.csv", row.names=FALSE)
+
+
+
+
+
+
+
+x15$measure <- as.numeric(x15$measure)
+write.csv(x15, "data_entry_intraannual_2013-15.csv", row.names=FALSE)
