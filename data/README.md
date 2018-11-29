@@ -11,7 +11,10 @@ Each year has its own folder, with the main document in each being the scbi.dend
 
 Notes:
 
+- Until end of 2018, dead trees were kept in the archive survey sheets even though no measurements were taken. In making these standardized files, dead trees have been removed from a year's survey sheet *only* if the tree was designated dead in previous years. If a tree was alive in fall of 2012 but then dead in 2013, for example, it is removed only from 2014 sheet onwards. (see "dendro_trees" for mortality years)
+
 - Surveys from 2010-2017 have crown and illum values, but these are only valid for when the corresponding dendrobands were first installed. Data was not updated with later replacements. In the fall 2018 biannual survey (2018.14), these values were re-assessed and recorded.
+
 - The "dbh" field differs by year:
     
       a. From 2010-2013, dbh is from 2008 ForestGEO census
