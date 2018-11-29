@@ -13,9 +13,12 @@ Notes:
 
 - Surveys from 2010-2017 have crown and illum values, but these are only valid for when the corresponding dendrobands were first installed. Data was not updated with later replacements. In the fall 2018 biannual survey (2018.14), these values were re-assessed and recorded.
 - The "dbh" field differs by year:
-    a. From 2010-2013, dbh is from 2008 ForestGEO census
-    b. From 2014-2018, dbh is from 2013 ForestGEO census
-    c. From 2019-____, dbh is from 2018 ForestGEO census
+    
+      a. From 2010-2013, dbh is from 2008 ForestGEO census
+    
+      b. From 2014-2018, dbh is from 2013 ForestGEO census
+    
+      c. From 2019-____, dbh is from 2018 ForestGEO census
 
 
 ## `dendro_trees`
