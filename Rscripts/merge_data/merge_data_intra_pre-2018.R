@@ -64,15 +64,15 @@ write.csv(test, "scbi.dendroAll_2013.csv", row.names=FALSE)
 # for biannual
 #####
 # for last biannual survey
-data_2012 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012/scbi.dendroAll_2012.csv")
+data_2013 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2013/scbi.dendroAll_2013.csv")
 
-data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2012/data_entry_biannual_2012-18.csv")
+data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2013/data_entry_biannual_2013-16.csv")
 
-names2012 <- c(colnames(data_2012))
+names2013 <- c(colnames(data_2013))
 namesbi <- c(colnames(data_biannual))
 
 ## find the names that are in data_2017 but not in data_biannual
-missing <- setdiff(names2012, namesbi)
+missing <- setdiff(names2013, namesbi)
 
 ## if need be, do the opposite
 # missing <- setdiff(namesbi, names2017)
@@ -82,7 +82,7 @@ data_biannual[missing] <- NA
 data_biannual$area <- NULL #this column is only relevant for field
 data_biannual$location <- NULL
 
-test <- rbind(data_2012, data_biannual)
+test <- rbind(data_2013, data_biannual)
 
 test <- test[order(test[,1], test[,3]),] #order by tag and survey.ID
 
@@ -115,12 +115,12 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2012.csv", row.names=FALSE)
+write.csv(test, "scbi.dendroAll_2013.csv", row.names=FALSE)
 
 
 
 ## for fixing intraannual qualifier (do after last biannual merge)
-test$intraannual <- ifelse(!(test$survey.ID %in% c("2012.01","2012.18")), "1", "0")
+test$intraannual <- ifelse(!(test$survey.ID %in% c("2013.01","2013.16")), "1", "0")
 
 #
 
