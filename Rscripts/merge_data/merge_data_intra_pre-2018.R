@@ -122,11 +122,10 @@ write.csv(test, "scbi.dendroAll_2014.csv", row.names=FALSE)
 ## for fixing intraannual qualifier (do after last biannual merge)
 test$intraannual <- ifelse(!(test$survey.ID %in% c("2014.01","2014.14")), "1", "0")
 
-"1" -> dendro12[which(dendro12$intraannual == "1")-1, "intraannual"]
-"1" -> dendro12[which(dendro12$intraannual == "1")+1, "intraannual"]
+"1" -> dendro14[which(dendro14$intraannual == "1")-1, "intraannual"]
+"1" -> dendro14[which(dendro14$intraannual == "1")+1, "intraannual"]
 
-
-test$intrannual <- ifelse(test$survey.ID %in% )
+## double check in spreadsheet for multistems (sometimes missed with this code)
 
 #
 
@@ -151,25 +150,3 @@ dendro14$stemID <- dendro_trees$stemID[match(dendro14$tag, dendro_trees$tag)]
 
 write.csv(dendro14, "scbi.dendroAll_2014.csv", row.names=FALSE)
 
-
-
-
-
-
-
-
-
-
-
-
-dendro14 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2014/scbi.dendroAll_2014.csv")
-
-
-dendro14$intraannual <- ifelse(!(dendro14$survey.ID %in% c("2014.01","2014.14")), "1", "0")
-
-"1" -> dendro14[which(dendro14$intraannual == "1")-1, "intraannual"]
-"1" -> dendro14[which(dendro14$intraannual == "1")+1, "intraannual"]
-
-
-getwd()
-write.csv(dendro14, "scbi.dendroAll_2014.csv", row.names=FALSE)
