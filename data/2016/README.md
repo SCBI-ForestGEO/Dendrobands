@@ -1,7 +1,7 @@
 # 2016 Dendroband data
 
-\# Surveys:
+\# Surveys: 15
 
-Biannual survey:
+Biannual survey: 545 live trees
 
-Intraannual survey:
+Intraannual survey: 146 live trees
