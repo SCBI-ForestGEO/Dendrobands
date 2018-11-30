@@ -4,4 +4,4 @@
 
 Biannual survey: 545 live trees
 
-Intraannual survey: 146 live trees
+Intraannual survey: 149 live trees
