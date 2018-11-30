@@ -370,7 +370,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 42397,1,2014.01,3/24/2014,1,0,quru,428,10.4,5.5,187,,,alive,Erika Gonzalez,Valentine Herrmann,5881,5881,1449.02,1483,0,37,2,NA,1,3,4,NA,NA
 42397,1,2014.14,10/27/2014,1,0,quru,428,10.4,5.5,231.7,,band too small,alive,Justin Cooper,Maryam Sedaghatpour,5881,5881,NA,1483,0,37,2,NA,1,NA,NA,NA,NA
 42562,1,2014.01,3/24/2014,1,0,quru,431,15.2,0.4,91.85,,,alive,Erika Gonzalez,Valentine Herrmann,5942,5942,883.9,878,0,38,2,NA,1.2,3,3,NA,NA
-42562,1,2014.14,10/27/2014,1,0,quru,431,15.2,0.4,NA,,Dead. band removed; (see hard copy datasheet),alive,Justin Cooper,Maryam Sedaghatpour,5942,5942,NA,878,0,38,2,NA,1.2,NA,NA,NA,NA
+42562,1,2014.14,10/27/2014,1,0,quru,431,15.2,0.4,NA,,Dead. band removed; (see hard copy datasheet),dead,Justin Cooper,Maryam Sedaghatpour,5942,5942,NA,878,0,38,2,NA,1.2,NA,NA,NA,NA
 50160,1,2014.01,3/24/2014,1,0,fram,502,7.4,11,109.99,,,alive,Erika Gonzalez,Valentine Herrmann,6050,6050,872.5,868.0999756,0,39,2,NA,1.36,4,4,NA,NA
 50160,1,2014.14,10/27/2014,1,0,fram,502,7.4,11,133.91,,band adjusted,alive,Valentine Herrmann,Maryam Sedaghatpour,6050,6050,NA,868.0999756,0,39,2,NA,1.36,NA,NA,NA,NA
 50288,1,2014.01,3/24/2014,1,0,quru,505,10.8,10.6,128.15,,,alive,Erika Gonzalez,Valentine Herrmann,6176,6176,877.2,877.7000122,0,40,2,NA,1.34,3,4,NA,NA
@@ -1632,7 +1632,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 102502,1,2014.01,3/24/2014,1,0,ulru,1031,0.1,18.6,27.34,,,alive,Erika Gonzalez,Valentine Herrmann,13438,13438,127.1,126,0,305,2,NA,1.3,4,2,NA,NA
 102502,1,2014.14,10/27/2014,1,0,ulru,1031,0.1,18.6,30.58,,,alive,Amy Lewis,Maryam Sedaghatpour,13438,13438,NA,126,0,305,2,NA,1.3,NA,NA,NA,NA
 102505,1,2014.01,3/24/2014,1,0,ceca,1032,1.3,0.6,NA,D,Band present. DEAD,dead,Erika Gonzalez,Valentine Herrmann,13441,13441,NA,61.29999924,0,306,2,NA,1.3,4,2,NA,NA
-102505,1,2014.14,10/27/2014,1,0,ceca,1032,1.3,0.6,35.08,D,band was not removed; some green leaves present; tree alive,dead,Amy Lewis,Maryam Sedaghatpour,13441,13441,NA,61.29999924,0,306,2,NA,1.3,NA,NA,NA,NA
+102505,1,2014.14,10/27/2014,1,0,ceca,1032,1.3,0.6,35.08,D,band was not removed; some green leaves present; tree alive,alive,Amy Lewis,Maryam Sedaghatpour,13441,13441,NA,61.29999924,0,306,2,NA,1.3,NA,NA,NA,NA
 102509,1,2014.01,3/24/2014,1,0,quve,1032,9.6,0.9,104.57,M; main,,alive,Erika Gonzalez,Valentine Herrmann,13445,13445,862.2,859.2000122,0,132,2,NA,1.4,2,4,NA,NA
 102509,1,2014.14,10/27/2014,1,0,quve,1032,9.6,0.9,124.84,M; main,,alive,Amy Lewis,Maryam Sedaghatpour,13445,13445,NA,859.2000122,0,132,2,NA,1.4,NA,NA,NA,NA
 110061,1,2014.01,3/24/2014,1,1,litu,1101,17,10,72.57,,,alive,Erika Gonzalez,Valentine Herrmann,13507,13507,1189,1185.800049,0,133,2,NA,1.27,3,NA,NA,NA
@@ -2080,7 +2080,7 @@ tag,stemtag,survey.ID,exactdate,biannual,intraannual,sp,quadrat,lx,ly,measure,co
 131233,1,2014.01,3/24/2014,1,0,litu,1313,18.3,19.6,41.87,,,alive,Erika Gonzalez,Valentine Herrmann,18158,18158,298.2,301.6000061,0,154,2,NA,1.31,4,4,NA,NA
 131233,1,2014.14,10/27/2014,1,0,litu,1313,18.3,19.6,47.46,,,alive,Valentine Herrmann,Maryam Sedaghatpour,18158,18158,NA,301.6000061,0,154,2,NA,1.31,NA,NA,NA,NA
 131238,1,2014.01,3/24/2014,1,0,caco,1314,13.6,7.5,3.79,,2 dead limbs,alive,Erika Gonzalez,Valentine Herrmann,18163,18163,458.2,460.2000122,0,155,2,NA,1.51,3,3,NA,NA
-131238,1,2014.14,10/27/2014,1,0,caco,1314,13.6,7.5,3.8,,Dead,alive,Valentine Herrmann,Maryam Sedaghatpour,18163,18163,NA,460.2000122,0,155,2,NA,1.51,NA,NA,NA,NA
+131238,1,2014.14,10/27/2014,1,0,caco,1314,13.6,7.5,3.8,,Dead,dead,Valentine Herrmann,Maryam Sedaghatpour,18163,18163,NA,460.2000122,0,155,2,NA,1.51,NA,NA,NA,NA
 131239,1,2014.01,3/24/2014,1,1,quru,1314,19.5,5.7,99.9,,,alive,Erika Gonzalez,Valentine Herrmann,18164,18164,583.5,587.0999756,0,156,2,NA,1.47,4,4,NA,NA
 131239,1,2014.02,4/14/2014,1,1,quru,1314,19.5,5.7,100.43,,,alive,"Emily, John, Erika","Emily, John, Erika",18164,18164,NA,587.0999756,0,156,2,NA,1.47,NA,NA,NA,NA
 131239,1,2014.03,5/1/2014,1,1,quru,1314,19.5,5.7,104.26,,,alive,"Gonzalez, Bennett","Gonzalez, Bennett",18164,18164,NA,587.0999756,0,156,2,NA,1.47,NA,NA,NA,NA

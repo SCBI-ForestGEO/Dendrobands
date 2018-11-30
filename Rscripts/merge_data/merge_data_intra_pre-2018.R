@@ -1,22 +1,22 @@
 # Merge data_entry_form with master for intraannual survey
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2014")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2015")
 
-file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2014", pattern="data_entry_intraannual")
+file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2015", pattern="data_entry_intraannual")
 
 # for intraannual
 for (i in seq(along=file_list)){
   filename = file_list[[i]]
 
-data_2014 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2014/scbi.dendroAll_2014.csv")
+data_2015 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2015/scbi.dendroAll_2015.csv")
 
 data_intra <- read.csv(filename)
 
-names2014 <- c(colnames(data_2014))
+names2015 <- c(colnames(data_2015))
 namesintra <- c(colnames(data_intra))
 
 ## find the names that are in data_2018 but not in data_biannual
-missing <- setdiff(names2014, namesintra)
+missing <- setdiff(names2015, namesintra)
 
 ## if need be, do the opposite
 # missing <- setdiff(namesbi, names2018)
@@ -26,7 +26,7 @@ data_intra[missing] <- NA
 data_intra$area <- NULL #this column is only relevant for field
 data_intra$location <- NULL #only for when merging data pre-2018
 
-test <- rbind(data_2014, data_intra)
+test <- rbind(data_2015, data_intra)
 
 test <- test[order(test[,"tag"], test[,"survey.ID"]),] #order by tag and survey.ID
 
@@ -58,21 +58,21 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2014.csv", row.names=FALSE)
+write.csv(test, "scbi.dendroAll_2015.csv", row.names=FALSE)
 }
 
 # for biannual
 #####
 # for last biannual survey
-data_2014 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2014/scbi.dendroAll_2014.csv")
+data_2015 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2015/scbi.dendroAll_2015.csv")
 
-data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2014/data_entry_biannual_2014-14.csv")
+data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2015/data_entry_biannual_2015-13.csv")
 
-names2014 <- c(colnames(data_2014))
+names2015 <- c(colnames(data_2015))
 namesbi <- c(colnames(data_biannual))
 
 ## find the names that are in data_2017 but not in data_biannual
-missing <- setdiff(names2014, namesbi)
+missing <- setdiff(names2015, namesbi)
 
 ## if need be, do the opposite
 # missing <- setdiff(namesbi, names2017)
@@ -82,7 +82,7 @@ data_biannual[missing] <- NA
 data_biannual$area <- NULL #this column is only relevant for field
 data_biannual$location <- NULL
 
-test <- rbind(data_2014, data_biannual)
+test <- rbind(data_2015, data_biannual)
 
 test <- test[order(test[,1], test[,3]),] #order by tag and survey.ID
 
@@ -115,16 +115,14 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2014.csv", row.names=FALSE)
-
-
 
 ## for fixing intraannual qualifier (do after last biannual merge)
-test$intraannual <- ifelse(!(test$survey.ID %in% c("2014.01","2014.14")), "1", "0")
+test$intraannual <- ifelse(!(test$survey.ID %in% c("2015.01","2015.13")), "1", "0")
 
-"1" -> dendro14[which(dendro14$intraannual == "1")-1, "intraannual"]
-"1" -> dendro14[which(dendro14$intraannual == "1")+1, "intraannual"]
+"1" -> test[which(test$intraannual == "1")-1, "intraannual"]
+"1" -> test[which(test$intraannual == "1")+1, "intraannual"]
 
+write.csv(test, "scbi.dendroAll_2015.csv", row.names=FALSE)
 ## double check in spreadsheet for multistems (sometimes missed with this code)
 
 #
@@ -140,13 +138,13 @@ test$exactdate <- format(as.Date(test$exactdate,format="%m/%d/%Y"), "%Y-%m-%d")
 
 
 ## matching dbh and stemID/treeID
-dendro14 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2014/scbi.dendroAll_2014.csv")
+dendro15 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2015/scbi.dendroAll_2015.csv")
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
-dendro14$treeID <- dendro_trees$treeID[match(dendro14$tag, dendro_trees$tag)]
+dendro15$treeID <- dendro_trees$treeID[match(dendro15$tag, dendro_trees$tag)]
 
-dendro14$stemID <- dendro_trees$stemID[match(dendro14$tag, dendro_trees$tag)]
+dendro15$stemID <- dendro_trees$stemID[match(dendro15$tag, dendro_trees$tag)]
 
-write.csv(dendro14, "scbi.dendroAll_2014.csv", row.names=FALSE)
+write.csv(dendro15, "scbi.dendroAll_2015.csv", row.names=FALSE)
 
