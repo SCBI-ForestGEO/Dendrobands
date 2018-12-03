@@ -1,16 +1,17 @@
 # create dendro_trees_dbhcount --> give count of each species by survey, plus the min, max, and avg dbh per species
 
-setwd()
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_dbhcount")
 
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
+data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2017/scbi.dendroAll_2017.csv")
 
 #subset by the last survey from the year
-data_surveys<- subset(data_2018,data_2018$survey.ID=='2018.14' & data_2018$status=='alive') #get rid of '0' values for minimum
+data_surveys<- subset(data_2017,data_2017$survey.ID=='2017.12') #& data_2017$status=='alive') #get rid of '0' values for minimum
 
-data_trees <- data_2018[!duplicated(data_2018["sp"]),]
+data_trees <- data_2017[!duplicated(data_2017["sp"]),]
 data_trees <- data_trees[c("sp")] #list that shows all sp alive and dead
 
 #make data.frames with the dbhmax,min,mean by sp
+data_surveys$dbh <- as.numeric(data_surveys$dbh)
 dbhmax <- aggregate(data_surveys$dbh, by=list(data_surveys$sp), max)
 dbhmin <- aggregate(data_surveys$dbh, by=list(data_surveys$sp), min)
 dbhavg <- aggregate(data_surveys$dbh, by=list(data_surveys$sp), mean)
@@ -25,7 +26,7 @@ dbhavg[is.num] <- lapply(dbhavg[is.num], round, 1)
 #create data.frame with count of sp per survey
 library(data.table) 
 
-data_01<-subset(data_2018,data_2018$survey.ID=='2018.01') #get all sp
+data_01<-subset(data_2017,data_2017$survey.ID=='2017.01') #get all sp
 
 countbi<- addmargins(table(data_01$sp, data_01$biannual),1)  
 countbi<- as.data.frame.matrix(countbi)
@@ -50,6 +51,6 @@ data_merged <- merge(data_count, data_num, by="sp", all.x=TRUE)
 data_merged <- data_merged[order(data_merged$sp),]
 
 ##reorder to make "Sum" row be last. These numbers may change depending on if a tree has been fully removed from the survey
-data_merged <- data_merged[c(1:19,21,22,20),]
+data_merged <- data_merged[c(1:20,22,23,21),]
 
-write.csv(data_merged, "dendro_trees_dbhcount2018.csv", row.names=FALSE)
+write.csv(data_merged, "dendro_trees_sp_2017_min_max_mean_dbh.csv", row.names=FALSE)
