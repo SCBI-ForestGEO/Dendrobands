@@ -19,11 +19,13 @@ data_install$dendHt = NA
 data_install$type = NA
 data_install$dendroID = NA
 
-data_install$install.date = NA
+data_install$year = NA
+data_install$month = NA
+data_install$day = NA
 data_install$surveyor = NA
 data_install$dbhnew = NA
 
-data_install<-data_install[,c(1:6,14,16,11,12,10,13,7:9,15)]
+data_install<-data_install[,c(1:6,14:16,18,11,12,10,13,7:9,17)]
 
 data_install<-sapply(data_install, as.character)
 data_install[is.na(data_install)] <- " "

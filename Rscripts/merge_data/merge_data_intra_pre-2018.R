@@ -131,13 +131,33 @@ write.csv(test, "scbi.dendroAll_2016.csv", row.names=FALSE)
 
 ## for changing date format
 #####
-## Krista asked if the dates could be in a Y-m-d format, but I've noticed that R works best for analysis when it's in a simplified format. If we do want to change how the dates are written, then it is here:
+## to split dates into separate columns of year, month, and day from current date column
 
-##rewrite the date to be standard format (ONLY if current written dates are in same format) & (ONLY after last biannual survey for year)
-test$exactdate <- format(as.Date(test$exactdate,format="%m/%d/%Y"), "%Y-%m-%d") 
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018")
 
+dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
-## matching dbh and stemID/treeID
+#convert dates to vector
+datetxt <- dendro18[ ,"exactdate"]
+
+datetxt <- as.Date(datetxt, "%m/%d/%Y")
+
+dates <- data.frame(date = datetxt,
+                 year = as.numeric(format(datetxt, format = "%Y")),
+                 month = as.numeric(format(datetxt, format = "%m")),
+                 day = as.numeric(format(datetxt, format = "%d")))
+
+dendro18$exactdate <- as.Date(dendro18$exactdate, "%m/%d/%Y")
+dendro18$year <- dates$year[match(dendro18$exactdate, dates$date)]
+dendro18$month <- dates$month[match(dendro18$exactdate, dates$date)]
+dendro18$day <- dates$day[match(dendro18$exactdate, dates$date)]
+
+dendro18 <- dendro18[, c(1:3,31:33,5:30)]
+
+write.csv(dendro18, "scbi.dendroAll_2018.csv", row.names=FALSE)
+
+##### 
+# matching dbh and stemID/treeID
 dendro16 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2016/scbi.dendroAll_2016.csv")
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")

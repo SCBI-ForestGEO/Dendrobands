@@ -1,16 +1,18 @@
 # Create data_biannual forms from master
 ## Change file name to reflect year of creation
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/data_entry_forms")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms")
 
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
 
 data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 2018.01 (one entry per stem)
 
-data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "exactdate", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "location")]
+data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "location")]
 
 data_biannual$survey.ID = ""
-data_biannual$exactdate = ""
+data_biannual$year = ""
+data_biannual$month = ""
+data_biannual$day = ""
 data_biannual$measure = ""
 data_biannual$crown.condition = ""
 data_biannual$crown.illum = ""
