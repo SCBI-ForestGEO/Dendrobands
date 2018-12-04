@@ -1,0 +1,25 @@
+R_column,description
+measureID,"Arbitrary numeric identifier for measurements, not needed in analyses"
+sp,"Six-letter species mnemonic, matching that used in main plot database"
+quadrat,"Designation for 20x20 m quadrat, matching those used in main plot database"
+gx,X-coordinate within full plot
+gy,Y-coordinate within full plot
+treeID,"Arbitrary numeric identifier for trees, identical to those used in the main plot database and useful for matching dendrometers to the plot data"
+tag,"Tag number, appearing on aluminum tag attached to each tree; also matches dendrometer to plot data, though treeID is more secure"
+stemID,"Arbitrary numeric identifier for stems, identical to those used in the main plot database and useful for matching dendrometers to the plot data"
+stemtag,"Tag number, appearing on aluminum tag attached to each stem, matching plot database"
+census,"Census number, starting with 1 for first-time dendrometer measurements then 2 etc. for remeasurements"
+measure,"The principal dendrometer measurement of dendrometer, i.e. the gap between tips, spreading as the tree grows"
+type,Dendrometer type
+dir,Orientation of gauge dendrometer on trunk (a cardinal direction); O=oeste=west etc.
+dendroID,"Arbitrary numeric identifier for dendrometer, crucial for identifying when dendrometers change within a stem"
+dendHt,Height of dendrometer above ground
+dendDiam,"Trunk diameter at the dendrometer, measured by a diameter tape, taken when dendrometer is first installed and necessary for converting subsequent dendrometer measures to dbh"
+crown,Position of crown of tree: 1 (exposed) to 5 (shaded)
+illum,Illumination of crown: 1 (high) to 4 (low)
+lianas,Liana load in crown: 0 (none) to 5 (heavy)
+exactdate,Date of dendrometer measure as Y-M-D
+codes,Codes describing features of the trunk
+status,Tree status: alive or dead
+date,"Date as integer number of days since 1 Jan 1961, for easy calculation of time between measurements"
+dbh,"Trunk diameter at dendrometer, = dendDiam on first measurement, subsequently estimated by converting dendrometer gap"
