@@ -3,7 +3,7 @@
 ## metadata folder
 Contains metadata for all files in this folder, excluding those in archive folder.
 
-## [YEAR] folders
+## `scbi.dendroAll_[YEAR]` files
 
 Each year has its own folder, with the main document in each being the scbi.dendroAll_[YEAR].csv, which is the master file for that year's intraannual and biannual surveys. Headers of the file are pulled from Condit along with some additional, relevant headers.
 
