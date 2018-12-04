@@ -61,9 +61,8 @@ test$notes <- ifelse(is.na(test$notes), "", test$notes)
 write.csv(test, "scbi.dendroAll_2016.csv", row.names=FALSE)
 }
 
-# for biannual
-#####
-# for last biannual survey
+
+#for the final biannual survey #####
 data_2016 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
 
 data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016/data_entry_biannual_2016-15.csv")
@@ -130,7 +129,7 @@ write.csv(test, "scbi.dendroAll_2016.csv", row.names=FALSE)
 #for changing date format
 
 ## for changing date format
-#####
+#split dates to columns #####
 ## to split dates into separate columns of year, month, and day from current date column
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018")
@@ -156,8 +155,7 @@ dendro18 <- dendro18[, c(1:3,31:33,5:30)]
 
 write.csv(dendro18, "scbi.dendroAll_2018.csv", row.names=FALSE)
 
-##### 
-# matching dbh and stemID/treeID
+#matching dbh and stemID/treeID ##### 
 dendro16 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2016/scbi.dendroAll_2016.csv")
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
