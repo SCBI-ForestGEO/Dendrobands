@@ -1446,7 +1446,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102502,1,2011.01,2011,3,24,1,0,ulru,1031,0.1,18.6,22.04,,,alive,Jenny McGarvey,JM/LL/CK/LB,13438,13438,121,120,1,305,2,NA,1.3,4,2,NA,NA
 102502,1,2011.23,2011,12,15,1,0,ulru,1031,0.1,18.6,NA,,,alive,Jennifer McGarvey,Jennifer McGarvey,13438,13438,NA,120,0,305,2,NA,1.3,4,2,NA,NA
 102505,1,2011.01,2011,3,24,1,0,ceca,1032,1.3,0.6,33.59,D,Dead,dead,Jenny McGarvey,JM/LL/CK/LB,13441,13441,NA,60,1,306,2,NA,1.3,4,2,NA,NA
-102505,1,2011.23,2011,12,15,1,0,ceca,1032,1.3,0.6,NA,D,Dead,dead,Jennifer McGarvey,Jennifer McGarvey,13441,13441,NA,60,0,306,2,NA,1.3,4,2,NA,NA
+102505,1,2011.23,2011,12,15,1,0,ceca,1032,1.3,0.6,NA,D,"considered dead in all 2011, got measurements in 2012, then no measurements 2013+ ",dead,Jennifer McGarvey,Jennifer McGarvey,13441,13441,NA,60,0,306,2,NA,1.3,4,2,NA,NA
 102509,1,2011.01,2011,1,15,1,0,quve,1032,9.58,0.85,47.72,M; main,"Already banded, only on 1 stem",alive,Jenny McGarvey,JM/LL/CK/LB,13445,13445,NA,833,0,132,2,NA,1.4,2,4,NA,NA
 102509,1,2011.23,2011,12,15,1,0,quve,1032,9.58,0.85,71.81,,,alive,Jennifer McGarvey,Jennifer McGarvey,13445,13445,NA,833,0,132,2,NA,1.4,2,4,NA,NA
 110061,1,2011.01,2011,1,15,1,1,litu,1101,17,10,33.91,,,alive,Jenny McGarvey,JM/LL/CK/LB,13507,13507,NA,1173.8,0,133,2,NA,1.27,3,4,NA,NA
@@ -1802,7 +1802,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 121291,1,2011.01,2011,3,24,1,0,qupr,1210,2.8,9.4,135.81,,,alive,Jenny McGarvey,JM/LL/CK/LB,16386,16386,423,418.3,1,347,2,NA,1.3,4,4,NA,NA
 121291,1,2011.23,2011,12,15,1,0,qupr,1210,2.8,9.4,146.14,,,alive,Jennifer McGarvey,Jennifer McGarvey,16386,16386,NA,418.3,0,347,2,NA,1.3,4,4,NA,NA
 121298,1,2011.01,2011,3,24,1,0,nysy,1211,2.6,1,28.4,D,,dead,Jenny McGarvey,JM/LL/CK/LB,16393,16393,576,575.1,1,348,2,NA,1.3,2,3,NA,NA
-121298,1,2011.23,2011,12,15,1,0,nysy,1211,2.6,1,25.37,D,"Dead; old nail at 1.3m, used as pt",dead,Jennifer McGarvey,Jennifer McGarvey,16393,16393,NA,575.1,0,348,2,NA,1.3,2,3,NA,NA
+121298,1,2011.23,2011,12,15,1,0,nysy,1211,2.6,1,25.37,D,"Dead; old nail at 1.3m, used as pt; considered dead Dec 2011, got measurements 2012, dead 2013+",dead,Jennifer McGarvey,Jennifer McGarvey,16393,16393,NA,575.1,0,348,2,NA,1.3,2,3,NA,NA
 121301,1,2011.01,2011,3,24,1,0,caovl,1211,1.2,2.5,77.53,G,,alive,Jenny McGarvey,JM/LL/CK/LB,16396,16396,236,230.8,1,349,2,NA,1.3,4,3,NA,NA
 121301,1,2011.23,2011,12,15,1,0,caovl,1211,1.2,2.5,79.52,,,alive,Jennifer McGarvey,Jennifer McGarvey,16396,16396,NA,230.8,0,349,2,NA,1.3,4,3,NA,NA
 121305,1,2011.01,2011,3,24,1,1,quru,1211,1.1,11.2,4.73,,,alive,Jenny McGarvey,JM/LL/CK/LB,16400,16400,744,729.8,1,350,2,NA,1.3,4,4,NA,NA
@@ -2687,7 +2687,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 182208,1,2011.01,2011,3,24,1,0,quru,1817,4,10.1,95.13,,,alive,Jenny McGarvey,JM/LL/CK/LB,27119,27119,491,498,1,412,2,NA,1.3,NA,NA,NA,NA
 182208,1,2011.23,2011,12,15,1,0,quru,1817,4,10.1,109.33,,,alive,Jennifer McGarvey,Jennifer McGarvey,27119,27119,NA,498,0,412,2,NA,1.3,4,3,NA,NA
 182248,1,2011.01,2011,3,24,1,0,nysy,1820,0.2,1.2,29.22,B;L;D,Dead; Tree is dead,dead,Jenny McGarvey,JM/LL/CK/LB,27159,27159,43.3,44.3,1,413,2,NA,1.3,NA,NA,NA,NA
-182248,1,2011.23,2011,12,15,1,0,nysy,1820,0.2,1.2,29.17,D,Dead,dead,Jennifer McGarvey,Jennifer McGarvey,27159,27159,NA,44.3,0,413,2,NA,1.3,0,0,NA,NA
+182248,1,2011.23,2011,12,15,1,0,nysy,1820,0.2,1.2,29.17,D,Dead; comes back alive in 2013,dead,Jennifer McGarvey,Jennifer McGarvey,27159,27159,NA,44.3,0,413,2,NA,1.3,0,0,NA,NA
 182376,1,2011.01,2011,3,24,1,0,ploc,1823,2.9,12.6,28.94,L,,alive,Jenny McGarvey,JM/LL/CK/LB,27286,27286,599,570.1,1,414,2,NA,1.3,NA,NA,NA,NA
 182376,1,2011.23,2011,12,15,1,0,ploc,1823,2.9,12.6,46.66,,,alive,Jennifer McGarvey,Jennifer McGarvey,27286,27286,NA,570.1,0,414,2,NA,1.3,4,4,NA,NA
 182451,1,2011.01,2011,3,24,1,0,fram,1829,1.3,1.4,37.44,,,alive,Jenny McGarvey,JM/LL/CK/LB,27358,27358,348,342.3,1,415,2,NA,1.3,NA,NA,NA,NA
