@@ -38,7 +38,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 12025,1,2013.15,2013,10,9,1,1,quru,117,15,16.3,61.48,,,alive,Mike Belovitch,Mike Belovitch,1713,1713,NA,798.1,0,244,2,NA,1.3,NA,NA,NA,NA
 12025,1,2013.16,2013,10,29,1,1,quru,117,15,16.3,59.98,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",1713,1713,NA,798.1,0,244,2,NA,1.3,NA,NA,NA,NA
 12101,1,2013.01,2013,3,19,1,0,quru,120,10.7,1.9,13.72,D,"dbh higher in 2008, confirmed in books",alive,Erika Gonzalez,Mike Belovitch,1786,1786,855.2,875.2,0,5,2,NA,1.42,3,4,NA,NA
-12101,1,2013.16,2013,10,29,1,0,quru,120,10.7,1.9,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",1786,1786,NA,875.2,0,5,2,NA,1.42,NA,NA,NA,NA
+12101,1,2013.16,2013,10,29,1,0,quru,120,10.7,1.9,NA,,,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",1786,1786,NA,875.2,0,5,2,NA,1.42,NA,NA,NA,NA
 12259,1,2013.01,2013,3,19,1,0,litu,125,16.3,1.5,17.31,I,Band replaced in 01/13,alive,Erika Gonzalez,Mike Belovitch,1934,1934,1019.2,1012.3,1,592,2,NA,1.23,4,4,NA,NA
 12259,1,2013.16,2013,10,29,1,0,litu,125,16.3,1.5,22.38,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",1934,1934,NA,1012.3,0,592,2,NA,1.23,NA,NA,NA,NA
 12270,1,2013.01,2013,3,19,1,0,tiam,125,19.4,19.6,51.78,,,alive,Erika Gonzalez,Mike Belovitch,1942,1942,278.5,257.2,0,7,2,NA,1.19,4,4,NA,NA
@@ -1217,8 +1217,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 90311,1,2013.16,2013,10,29,1,0,cagl,905,17.5,15.8,11.61,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",16420,10565,NA,161.7,0,513,2,NA,1.3,NA,NA,NA,NA
 90354,1,2013.01,2013,3,19,1,0,litu,905,10.6,5,93.45,,,alive,Erika Gonzalez,Mike Belovitch,10607,10607,666,664.9,0,248,2,NA,1.3,4,4,NA,NA
 90354,1,2013.16,2013,10,29,1,0,litu,905,10.6,5,102.95,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10607,10607,NA,664.9,0,248,2,NA,1.3,NA,NA,NA,NA
-90413,3,2013.01,2013,3,19,1,0,litu,904,11.7,17.2,NA,"B,M",,alive,Erika Gonzalez,Mike Belovitch,36586,221,NA,1263,0,248,2,NA,1.3,NA,3,NA,NA
-90413,3,2013.16,2013,10,29,1,0,litu,904,11.7,17.2,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",36586,221,NA,1263,0,248,2,NA,1.3,NA,NA,NA,NA
+90413,3,2013.01,2013,3,19,1,0,litu,904,11.7,17.2,NA,"B,M","band was removed, around multiple stems. Replaced by 30339",dead,Erika Gonzalez,Mike Belovitch,36586,221,NA,1263,0,248,2,NA,1.3,NA,3,NA,NA
+90413,3,2013.16,2013,10,29,1,0,litu,904,11.7,17.2,NA,,"band was removed, around multiple stems. Replaced by 30339",dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",36586,221,NA,1263,0,248,2,NA,1.3,NA,NA,NA,NA
 90530,1,2013.01,2013,3,19,1,0,litu,910,10.2,17.8,30.1,,,alive,Erika Gonzalez,Mike Belovitch,10776,10776,644,622,0,251,2,NA,1.45,3,4,NA,NA
 90530,1,2013.16,2013,10,29,1,0,litu,910,10.2,17.8,44.14,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10776,10776,NA,622,0,251,2,NA,1.45,NA,NA,NA,NA
 90533,1,2013.01,2013,3,19,1,0,cagl,911,18.2,2.1,107.29,M;main,,alive,Erika Gonzalez,Mike Belovitch,10779,10779,491,482.7,0,252,2,NA,1.3,3,4,NA,NA
@@ -1355,8 +1355,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 100562,1,2013.16,2013,10,29,1,0,litu,1004,9.1,19.2,72.73,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",12224,12224,NA,608,0,275,2,NA,1.3,NA,NA,NA,NA
 100612,1,2013.01,2013,3,19,1,0,litu,1003,12,4.4,91.51,I,,alive,Erika Gonzalez,Mike Belovitch,12269,12269,1198,1173.2,0,127,2,NA,1.38,4,4,NA,NA
 100612,1,2013.16,2013,10,29,1,0,litu,1003,12,4.4,115.04,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",12269,12269,NA,1173.2,0,127,2,NA,1.38,NA,NA,NA,NA
-100720,2,2013.01,2013,3,19,1,0,litu,1004,1.7,12,NA,M,,alive,Erika Gonzalez,Mike Belovitch,33734,12372,NA,388.6,0,127,2,NA,1.3,NA,4,NA,NA
-100720,2,2013.16,2013,10,29,1,0,litu,1004,1.7,12,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",33734,12372,NA,388.6,0,127,2,NA,1.3,NA,NA,NA,NA
+100720,2,2013.01,2013,3,19,1,0,litu,1004,1.7,12,NA,M,"band removed, around multiple stems; replaced by 110680",dead,Erika Gonzalez,Mike Belovitch,33734,12372,NA,388.6,0,127,2,NA,1.3,NA,4,NA,NA
+100720,2,2013.16,2013,10,29,1,0,litu,1004,1.7,12,NA,,"band removed, around multiple stems; replaced by 110680",dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",33734,12372,NA,388.6,0,127,2,NA,1.3,NA,NA,NA,NA
 100754,1,2013.01,2013,3,19,1,1,quru,1005,3.8,6.8,115.58,,,alive,Erika Gonzalez,Mike Belovitch,12406,12406,428.8,411.7,0,277,2,NA,1.3,4,4,NA,NA
 100754,1,2013.02,2013,4,8,1,1,quru,1005,3.8,6.8,115.25,,,alive,"Belovitch, Chapman","Belovitch, Chapman",12406,12406,NA,411.7,0,277,2,NA,1.3,NA,NA,NA,NA
 100754,1,2013.03,2013,4,23,1,1,quru,1005,3.8,6.8,117.27,,,alive,"Belovitch, Chapman","Belovitch, Chapman",12406,12406,NA,411.7,0,277,2,NA,1.3,NA,NA,NA,NA
@@ -1423,8 +1423,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 100960,1,2013.14,2013,9,23,1,1,quru,1010,13.8,10.5,99.85,,,alive,"Mike, Greg","Mike, Greg",12583,12583,NA,514,0,279,2,NA,1.5,NA,NA,NA,NA
 100960,1,2013.15,2013,10,9,1,1,quru,1010,13.8,10.5,99.91,,,alive,Mike Belovitch,Mike Belovitch,12583,12583,NA,514,0,279,2,NA,1.5,NA,NA,NA,NA
 100960,1,2013.16,2013,10,29,1,1,quru,1010,13.8,10.5,100.78,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",12583,12583,NA,514,0,279,2,NA,1.5,NA,NA,NA,NA
-101082,1,2013.01,2013,3,19,1,0,litu,1009,0,0.7,NA,M,,alive,Erika Gonzalez,Mike Belovitch,12702,12702,NA,798.9,0,279,2,NA,1.3,NA,4,NA,NA
-101082,1,2013.16,2013,10,29,1,0,litu,1009,0,0.7,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",12702,12702,NA,798.9,0,279,2,NA,1.3,NA,NA,NA,NA
+101082,1,2013.01,2013,3,19,1,0,litu,1009,0,0.7,NA,M,"band removed. Was around multiple stems, not replaced due to irregular trunk",dead,Erika Gonzalez,Mike Belovitch,12702,12702,NA,798.9,0,279,2,NA,1.3,NA,4,NA,NA
+101082,1,2013.16,2013,10,29,1,0,litu,1009,0,0.7,NA,,"band removed. Was around multiple stems, not replaced due to irregular trunk",dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",12702,12702,NA,798.9,0,279,2,NA,1.3,NA,NA,NA,NA
 101111,1,2013.01,2013,3,19,1,0,litu,1011,0.1,1.3,22.31,,,alive,Erika Gonzalez,Mike Belovitch,12730,12730,97,95.2,0,281,2,NA,1.5,4,2,NA,NA
 101111,1,2013.16,2013,10,29,1,0,litu,1011,0.1,1.3,23.41,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",12730,12730,NA,95.2,0,281,2,NA,1.5,NA,NA,NA,NA
 101118,1,2013.01,2013,3,19,1,0,litu,1011,0.3,3,122.16,,,alive,Erika Gonzalez,Mike Belovitch,12737,12737,189,173.1,0,282,2,NA,1.4,4,3,NA,NA
@@ -2041,8 +2041,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122522,1,2013.16,2013,10,29,1,0,litu,1232,3.4,17.4,62.4,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",16969,16969,NA,421.7,0,523,2,NA,1.34,NA,NA,NA,NA
 122561,1,2013.01,2013,3,19,1,0,litu,1231,0,7.6,61.82,,,alive,Erika Gonzalez,Mike Belovitch,16983,16983,661.1,641,0,370,2,NA,1.3,4,4,NA,NA
 122561,1,2013.16,2013,10,29,1,0,litu,1231,0,7.6,76.36,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",16983,16983,NA,641,0,370,2,NA,1.3,NA,NA,NA,NA
-122563,2,2013.01,2013,3,19,1,0,litu,1232,1.6,3.7,NA,M,,alive,Erika Gonzalez,Mike Belovitch,34435,16985,NA,484.3,0,370,2,NA,1.3,NA,4,NA,NA
-122563,2,2013.16,2013,10,29,1,0,litu,1232,1.6,3.7,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",34435,16985,NA,484.3,0,370,2,NA,1.3,NA,NA,NA,NA
+122563,2,2013.01,2013,3,19,1,0,litu,1232,1.6,3.7,NA,M,band removed. Was around multiple stems. Not replaced,dead,Erika Gonzalez,Mike Belovitch,34435,16985,NA,484.3,0,370,2,NA,1.3,NA,4,NA,NA
+122563,2,2013.16,2013,10,29,1,0,litu,1232,1.6,3.7,NA,,band removed. Was around multiple stems. Not replaced,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",34435,16985,NA,484.3,0,370,2,NA,1.3,NA,NA,NA,NA
 130348,1,2013.01,2013,3,19,1,0,litu,1302,19.9,1.9,77.68,,,alive,Erika Gonzalez,Mike Belovitch,17329,17329,571,542.1,0,143,2,NA,1.45,NA,NA,NA,NA
 130348,1,2013.16,2013,10,29,1,0,litu,1302,19.9,1.9,96.12,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",17329,17329,NA,542.1,0,143,2,NA,1.45,NA,NA,NA,NA
 130718,1,2013.01,2013,3,19,1,0,litu,1306,7.3,11.3,66.45,M;main,,alive,Erika Gonzalez,Mike Belovitch,17666,17666,997.5,988.2,0,144,2,NA,1.3,4,4,NA,NA
@@ -2301,8 +2301,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 143707,1,2013.16,2013,10,29,1,0,cagl,1426,0.9,1.6,9.87,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",46862,33781,NA,144.5,0,630,2,NA,1.3,NA,NA,NA,NA
 150756,1,2013.01,2013,3,19,1,0,quve,1503,13.6,16.3,18.18,,,alive,Erika Gonzalez,Mike Belovitch,21310,21310,939.5,931,0,208,2,NA,1.29,4,4,NA,NA
 150756,1,2013.16,2013,10,29,1,0,quve,1503,13.6,16.3,21.4,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",21310,21310,NA,931,0,208,2,NA,1.29,NA,NA,NA,NA
-150830,1,2013.01,2013,3,19,1,0,litu,1508,14.6,16.6,NA,,,alive,Erika Gonzalez,Mike Belovitch,21374,21374,NA,901.2,0,208,2,NA,1.3,NA,4,NA,NA
-150830,1,2013.16,2013,10,29,1,0,litu,1508,14.6,16.6,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",21374,21374,NA,901.2,0,208,2,NA,1.3,NA,NA,NA,NA
+150830,1,2013.01,2013,3,19,1,0,litu,1508,14.6,16.6,NA,,band removed. Was around multiple stems. Not replaced due to irregular trunk,dead,Erika Gonzalez,Mike Belovitch,21374,21374,NA,901.2,0,208,2,NA,1.3,NA,4,NA,NA
+150830,1,2013.16,2013,10,29,1,0,litu,1508,14.6,16.6,NA,,band removed. Was around multiple stems. Not replaced due to irregular trunk,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",21374,21374,NA,901.2,0,208,2,NA,1.3,NA,NA,NA,NA
 152153,1,2013.01,2013,3,19,1,0,ploc,1520,6.8,0.3,82.4,,,alive,Erika Gonzalez,Mike Belovitch,21906,21906,956.3,929.5,0,210,2,NA,1.46,4,5,NA,NA
 152153,1,2013.16,2013,10,29,1,0,ploc,1520,6.8,0.3,94.79,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",21906,21906,NA,929.5,0,210,2,NA,1.46,NA,NA,NA,NA
 152673,1,2013.01,2013,3,19,1,0,litu,1530,3.6,18.8,85.66,I,,alive,Erika Gonzalez,Mike Belovitch,22390,22390,904.9,892.3,0,211,2,NA,1.23,4,4,NA,NA
@@ -2545,8 +2545,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 180904,1,2013.16,2013,10,29,1,0,litu,1808,2.8,6.5,69.32,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",26695,26695,NA,361.3,0,525,2,NA,1.2,NA,NA,NA,NA
 180984,1,2013.01,2013,3,19,1,0,litu,1813,4,11.8,88.09,,,alive,Erika Gonzalez,Mike Belovitch,26774,26774,918.5,901.7,0,228,2,NA,1.21,4,5,NA,NA
 180984,1,2013.16,2013,10,29,1,0,litu,1813,4,11.8,108.94,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",26774,26774,NA,901.7,0,228,2,NA,1.21,NA,NA,NA,NA
-180988,3,2013.01,2013,3,19,1,0,acru,1813,3.3,19.5,NA,M,,alive,Erika Gonzalez,Mike Belovitch,38155,26777,NA,176.7,0,228,2,NA,1.3,NA,4,NA,NA
-180988,3,2013.16,2013,10,29,1,0,acru,1813,3.3,19.5,NA,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",38155,26777,NA,176.7,0,228,2,NA,1.3,NA,NA,NA,NA
+180988,3,2013.01,2013,3,19,1,0,acru,1813,3.3,19.5,NA,M,band removed. Was around multiple stems. Replaced by 171456,dead,Erika Gonzalez,Mike Belovitch,38155,26777,NA,176.7,0,228,2,NA,1.3,NA,4,NA,NA
+180988,3,2013.16,2013,10,29,1,0,acru,1813,3.3,19.5,NA,,band removed. Was around multiple stems. Replaced by 171456,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",38155,26777,NA,176.7,0,228,2,NA,1.3,NA,NA,NA,NA
 180991,1,2013.01,2013,3,19,1,0,ploc,1814,1.5,6.7,59.56,,,alive,Erika Gonzalez,Mike Belovitch,26779,26779,936.2,922.9,0,229,2,NA,1.3,4,5,NA,NA
 180991,1,2013.16,2013,10,29,1,0,ploc,1814,1.5,6.7,69.22,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",26779,26779,NA,922.9,0,229,2,NA,1.3,NA,NA,NA,NA
 181030,1,2013.01,2013,3,19,1,1,qual,1816,5.4,10.6,51.3,,,alive,Erika Gonzalez,Mike Belovitch,26817,26817,757.2,744,0,409,2,NA,1.3,4,5,NA,NA
