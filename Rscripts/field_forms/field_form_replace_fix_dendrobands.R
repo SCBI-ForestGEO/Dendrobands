@@ -226,7 +226,7 @@ setnames(newtrees, old=c("codes", "stemtag"), new=c("codes&notes", "stem"))
 
 newtrees <- newtrees[,c(1:6,8,14,15,13,12,10,11,9,7)]
 
-
+#remember to indicate somewhere which trees are going to be added to the intraannual survey. Could do another nested for loop like the one above in step 4 but probably not needed since few intraannual trees die compared to biannual.
 
 matrix <- function(newtrees, table_title) {
   
@@ -237,6 +237,8 @@ matrix <- function(newtrees, table_title) {
 }
 
 temp1 <- matrix(newtrees, table_title=('New Dendroband Trees                    Date:                       Surveyors:'))
+
+
 
 library(xlsx)
 write.xlsx(temp1, "field_form_treereplace.xlsx", row.names = FALSE, col.names=FALSE)
