@@ -43,7 +43,6 @@ data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ] #if did not do st
 data_install<-data_install[grepl("RD",data_install[["codes"]]), ]
 
 ##rest of code is for making the field_form
-recensus2018 <- read.csv("I:/recensus2018.csv")
 
 ##dbh column is included here to help know what size dendroband to make. For taking out in the field, don't necessarily have to include this column.
 data_install<-data_install[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "dbh", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
