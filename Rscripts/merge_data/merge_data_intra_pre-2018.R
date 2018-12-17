@@ -156,7 +156,7 @@ dendro18 <- dendro18[, c(1:3,31:33,5:30)]
 write.csv(dendro18, "scbi.dendroAll_2018.csv", row.names=FALSE)
 
 #matching dbh and stemID/treeID ##### 
-dendro16 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2016/scbi.dendroAll_2016.csv")
+dendro16 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2016.csv")
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
