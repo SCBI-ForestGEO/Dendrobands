@@ -1,6 +1,6 @@
 # Determine both dendrobands that need to be fixed, and new trees that will replace dead ones.
 
-setwd("C:\Users\mcgregori\Dropbox (Smithsonian)\Github_Ian\Dendrobands\resources\field_forms")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
 
 dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
@@ -43,7 +43,11 @@ data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ] #if did not do st
 data_install<-data_install[grepl("RD",data_install[["codes"]]), ]
 
 ##rest of code is for making the field_form
-data_install<-data_install[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
+recensus2018 <- read.csv("I:/recensus2018.csv")
+
+##dbh column is included here to help know what size dendroband to make. For taking out in the field, don't necessarily have to include this column.
+data_install<-data_install[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "dbh", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
+
 
 data_install$measure = NA
 data_install$codes = NA
@@ -55,12 +59,12 @@ data_install$dendroID = NA
 data_install$install.date = NA
 data_install$dbhnew = NA
 
-library(dplyr)
+library(data.table)
 setnames(data_install, old=c("codes", "stemtag"), new=c("codes&notes", "stem"))
 
 data_install[is.na(data_install)] <- " "
 
-data_install<-data_install[,c(1:6,14,15,11,12,10,13,7:9)]
+data_install<-data_install[,c(1:7,15,16,12,13,11,14,8:10)]
 
 data_install$location<-gsub("South", "S", data_install$location)
 data_install$location<-gsub("North", "N", data_install$location)
