@@ -2,7 +2,7 @@
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_dbhcount")
 
-data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2017/scbi.dendroAll_2017.csv")
+data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
 
 #subset by the last survey from the year
 data_surveys<- subset(data_2017,data_2017$survey.ID=='2017.12') #& data_2017$status=='alive') #get rid of '0' values for minimum
