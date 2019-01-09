@@ -1,8 +1,8 @@
 # script to work with dendrobands in format to match McMahon's code
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4314258/
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+setwd("E:/Github_SCBI/Dendrobands/data")
+band18 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 library(chron)
 band18$doy <- paste0(band18$month, sep="/", band18$day, sep="/", band18$year)
@@ -35,7 +35,7 @@ for (i in names(intraannual)){
          x = "Date 2018",
          y = "Caliper measurements") +
     theme_minimal() +
-    facet_wrap(c("tag", "stemtag"))
+    facet_wrap(c("tag", "stemtag"), labeller="label_both")
   print(q)
 }
 dev.off()
