@@ -1,7 +1,7 @@
 # Dendroband Data Overview
 
 ## metadata folder
-Contains metadata for all files in this folder, excluding those in archive folder.
+Contains [metadata](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/metadata) for all files in this folder, excluding those in archive folder.
 
 ## `scbi.dendroAll_[YEAR]` files
 
@@ -35,14 +35,12 @@ The relevant information in this file includes:
 - coordinates within quadrat, full plot
 - geographic coordinates (NAD83 UTM and decimal degrees; this data comes from Merged_dendroband_utm_lat_lon.csv from the local V drive: V:/SIGEO/GIS_data/dendroband surveys
 
-**Important**: dendro_trees is used to create [dendro_cored_full](https://github.com/SCBI-ForestGEO/tree-growth-and-productivity/tree/master/dendro_cored_full). Please make sure to update the Rscript if any major changes are made (add/delete columns, column names are modified, etc).
+**Important**: dendro_trees is used to create [dendro_cored_full](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_dimensions/tree_crowns/cored_dendroband_crown_position_data/dendro_cored_full.csv). Please make sure to update the Rscript if any major changes are made (add/delete columns, column names are modified, etc).
 
 ## `dendroID_chronology`
 
-This file contains a chronology of dendroID values, by spring and fall of each year since dendroband measurements started in 2010. It was manually created in fall 2018 with the expectation that it can later be used for coding/other analyses. It is expected this will be updated with an Rscript after the main biannual surveys.
+This file contains a chronology of dendroID values, by spring and fall of each year. It was manually created in fall 2018 with the expectation that it can later be used for coding/other analyses. It is expected this will be updated with an Rscript after the main biannual surveys. Remember, a "dendroId" is a unique numeric identifier for a dendroband, crucial for identifying when a dendroband has been replaced within a stem.
 
-In the "2018.spring" column, dendroID numbers 782 and 799-829 were given new bands, but all were given the same ID as 782. This was only noticed when creating the file in Oct. 2018.
-- This is noted because dendroID numbers 783-798 were assigned, but not labeled in the [original datasheet](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/original_data_files/Dendrometry_500Tree_most%20updated.xls) as having a new band.
 
 ## archive folder
 
