@@ -21,13 +21,13 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 
 
 ## Protocols and data management
-*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, with more than 515 stems of various DBH (5.5-152 cm) being monitored as of October 2018. Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
+*Biannual dendrometer bands* - In 2010, 243 bands were initially installed, currently more than 515 stems of various DBH (5.5-152 cm) are being monitored (as October 2018). Protocols for band installations and remeasurement are published here ([original protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf); [latest protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
 
 *Intra-annual dendrometer bands* - 
 As of 2018, 155 stems of DBH ranging from 6-148 cm are monitored biweekly during the growing season each year.
 
 *Workflow* 
-- [field_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms) and [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) are pulled from the year's master via R-scripts
+- [field_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms) and [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) are pulled from the year's master file via R-scripts
 - [maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps) are generated based on the [current list of trees with dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv). 
 - data recorded in the field are entered in [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) and immediately merged into the current year's master file using an R script.
 
