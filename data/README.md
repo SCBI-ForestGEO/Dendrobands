@@ -39,7 +39,7 @@ The relevant information in this file includes:
 
 ## `dendroID_chronology`
 
-This file contains a chronology of dendroID values, by spring and fall of each year. It was manually created in fall 2018 with the expectation that it can later be used for coding/other analyses. It is expected this will be updated with an Rscript after the main biannual surveys. Remember, a "dendroId" is a unique numeric identifier for a dendroband, crucial for identifying when a dendroband has been replaced within a stem.
+This file contains a chronology of dendroID values, by spring and fall of each year. It was manually created in fall 2018 with the expectation that it can later be used for coding/other analyses. It is expected this will be updated with an Rscript after the main biannual surveys. Remember, a "dendroID" is a unique numeric identifier for a dendroband, crucial for identifying when a dendroband has been replaced within a stem.
 
 
 ## archive folder
