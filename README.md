@@ -33,7 +33,7 @@ As of 2018, 155 stems of DBH ranging from 6-148 cm are monitored biweekly during
 
 *Data organization* 
 
-Data are found the [data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) folder. Each year has a master data set including both biannual and intra-annual surveys.
+A dataset for each year of collection is found in the [data folder](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data). Each year has a master data set that includes both biannual and intra-annual surveys.
 
 In the interest of keeping survey data entry simplified, each type of survey (biannual and intra-annual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 
 1.	Metadata for these individual forms are consistent with the metadata for the scbi.dendroAll_YEAR.csv (the master).
