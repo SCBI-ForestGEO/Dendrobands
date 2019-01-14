@@ -38,10 +38,10 @@ A dataset for each year of collection is found in the [data folder](https://gith
 In the interest of keeping survey data entry simplified, each type of survey (biannual and intra-annual) has its own .csv for data entry for the current year. This is where the current year’s data will be entered during the growing season (March – November). When the growing season is finished and the November biannual survey is complete, data should be transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 
 1.	Metadata for these individual forms are consistent with the scbi.dendroAll_YEAR.csv [metadata](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/metadata/scbi.dendroALL_%5BYEAR%5D_metadata.csv) (the master).
 
-## Tree data fr dendro trees
+## Tree data for dendro trees
 A summary of tree species by survey type per year (ie. dbh range) are available [here](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results/dendro_trees_dbhcount).
 
-Some relevant data on dendrometer banded trees is available here [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
+Some relevant data on dendrometer banded trees (geographic location, date started/end, mortalitity year, etc) is available here [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
 
 ## Data use
 
