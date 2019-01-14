@@ -1,6 +1,6 @@
-# Dendroband Survey Numbers by Year
+# Dendroband number of surveys per Year
 
-|Year|\# Surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|
+|Year|\n.surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|
 |----|:--------:|:------------:|:--------------:|:-----------:|:--------------:|
 |2010|    1     |     243      |      0         |     243     |       0        |
 |2011|    23    |     505      |      105       |     505     |       105      |
@@ -12,8 +12,8 @@
 |2017|    12    |     579      |      155       |     542     |       148      |
 |2018|    14    |     579      |      155       |     523     |       146      |
 
-#### ".all" means includes both live and dead
-#### ".live" are the numbers in each year's spreadsheet
+#### ".all" includes both live and dead trees
+#### ".live" are the number of live trees in each year's spreadsheet
 
 ## Notes for certain years:
 
@@ -31,7 +31,7 @@ For June-November, dendrobands were measured twice. The value in the csv file is
 In the raw (Archive) data, the final survey (2011.23) dates were not fully updated in data entry. Dates were assigned to be 12/15/2011 unless otherwise mentioned in the "notes" field.
 
 ### 2012
-In 2012, some trees were added while others died. Overall numbers changed little.
+In 2012, some trees were added while others died. Overall number of trrees changed a little.
 
 ### 2013
 2013 is the first year where the number of dendrobands matches what we see in recent years. 50 more trees were added to the intraannual and biannual survey as part of a sap flow cluster study, bringing the total trees to 155 (intraannual) and 579 (biannual), including dead. Because dead trees weren't removed from survey sheets until 2018, these numbers are the ones seen in the archive sheets for 2013- spring 2018. 
