@@ -1,6 +1,6 @@
 # Dendroband number of surveys per Year
 
-|Year|\n.surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|
+|Year| n.surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|
 |----|:--------:|:------------:|:--------------:|:-----------:|:--------------:|
 |2010|    1     |     243      |      0         |     243     |       0        |
 |2011|    23    |     505      |      105       |     505     |       105      |
@@ -13,7 +13,7 @@
 |2018|    14    |     579      |      155       |     523     |       146      |
 
 #### ".all" includes both live and dead trees
-#### ".live" are the number of live trees in each year's spreadsheet
+#### ".live" number of live trees in each year's spreadsheet
 
 ## Notes for certain years:
 
