@@ -4,13 +4,15 @@
 
     a. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 
-2. Do field work
+2. Do field work (see [updated dendroband instructions]() for exact steps)
 
-    a. Double-check no tree is missed. If so, go collect the data the same day or soon thereafter.
+    a. After collecting data, be sure to tie flagging tape around the entire tree.
+
+    b. Double-check no tree is missed. If so, go collect the data the same day or soon thereafter.
     
-    b. While in field, remove dendrobands from dead trees that weren't removed in survey.
+    c. While in field, remove dendrobands from dead trees that weren't removed in survey.
     
-    c. Also, replace any tags that need replacing.
+    d. Also, replace any tags that need replacing.
 
 3. Enter data in the [data_entry_form](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms), ideally within the same day.
     
@@ -38,4 +40,6 @@
     
     a. Assign new dendroIDs and update [dendroID_chronology](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID_chronology.csv) with current dendroIDs (as the full list is contingent on dendroband replacements)
 
-    c. In addition, update [dendro_trees_dbhcount2018.csv](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results) using the Rscript.
+    b. In addition, update [dendro_trees_dbhcount2018.csv](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results) using the Rscript.
+    
+    c. Update the maps for the biannual and intraannual surveys.
