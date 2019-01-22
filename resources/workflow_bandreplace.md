@@ -34,8 +34,8 @@
  
 6. Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) with any new records.
 
-7. After the fall survey,
+7. After the fall survey and after installing/replacing,
     
-    a. Update [dendroID_chronology](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID_chronology.csv) with current dendroIDs (as the full list is contingent on dendroband replacements)
+    a. Assign new dendroIDs and update [dendroID_chronology](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID_chronology.csv) with current dendroIDs (as the full list is contingent on dendroband replacements)
 
     c. In addition, update [dendro_trees_dbhcount2018.csv](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results) using the Rscript.
