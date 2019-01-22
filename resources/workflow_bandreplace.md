@@ -6,7 +6,7 @@
 
     a. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 
-3. Do field work (see [how_to_make_dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/how_to_make_dendrobands.docx) for exact steps)
+3. Do field work (see instructions above in Step 1 for exact steps).
 
     a. After collecting data, be sure to tie flagging tape around the entire tree.
 
