@@ -11,5 +11,5 @@ Column,Field,Site Description,Storage.Type,Units
 10/J,dendHt,Height of dendrometer above ground. Default location – 10 cm above the main census measurement point.,numeric (double),m
 11/K,measure,"The principal dendrometer measurement of dendrometer, i.e. the gap between tips (the window), spreading as the tree grows",numeric (double),mm
 12/L,codes,Codes describing the tree. Explained in codes_metadata.csv,character (string),
-13/M,notes,"Notes from field, such as ""dendroband overextended,"" ",character (string),
+13/M,notes,"Notes from field, such as ""dendroband overextended,"" etc.",character (string),
 14/N,surveyor,Person(s) replacing dendroband,character (string),
