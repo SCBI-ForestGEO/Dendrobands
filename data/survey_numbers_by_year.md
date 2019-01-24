@@ -10,7 +10,7 @@
 |2015|    13    |     579      |      155       |     554     |       149      |
 |2016|    15    |     579      |      155       |     545     |       149      |
 |2017|    12    |     579      |      155       |     542     |       148      |
-|2018|    14    |     579      |      155       |     523     |       146      |
+|2018|    14    |     579      |      155       |     524     |       146      |
 
 #### ".all" includes both live and dead trees
 #### ".live" number of live trees in each year's spreadsheet
