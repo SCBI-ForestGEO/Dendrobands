@@ -4,12 +4,14 @@ The maps here contain plotted trees across the ForestGEO plot for the intraannua
 
 These maps are meant to be helpful guides in the field for all surveys.
 
-Numbered areas on the biannual map have been used as survey areas since 2012, as they were drawn by Gonzalez-Akre. In 2018 these were converted to a GIS map, and in the updated [biannual_field_form.xlsx](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/protocols_field-resources/field_forms/field_form_biannual.xlsx) as of Oct. 2018, these areas were coded to be a separate column by which surveyors can filter for easier data collecting.
+Numbered areas on the biannual map have been used as survey areas since 2012, as they were drawn by Gonzalez-Akre. In 2018 these were converted to a GIS map, and in 2019 they were converted to an Rscript. In the updated [biannual_field_form.xlsx](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/protocols_field-resources/field_forms/field_form_biannual.xlsx) as of Oct. 2018, these survey areas were coded to be a separate column by which surveyors can filter for easier data collecting.
 
 
 ## Editing
 
-These maps were originally created with the geographic location data from this file in the V drive location below ("Merged_dendroband_utm_lat_lon.csv""), though now they are made from  [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
+The code for making the biannual and intraannual maps is found at [survey_maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts). The main data source is dendro_trees.csv.
+
+The ArcGIS maps were originally created with the geographic location data from this file in the V drive location below ("Merged_dendroband_utm_lat_lon.csv""), though now they are made from  [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
 - New maps should be made with this file, only looking at live trees.
 
 The .mxd and associated shapefiles are located on the SI V drive: V:\SIGEO\GIS_data\dendroband surveys
