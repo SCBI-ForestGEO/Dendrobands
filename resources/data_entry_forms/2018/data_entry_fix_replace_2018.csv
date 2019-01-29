@@ -1,12 +1,12 @@
 tag,stemtag,sp,quadrat,lx,ly,year,month,day,dbhnew,dendroID,type,dendDiam,dendHt,measure,codes,notes,surveyor
-10587,1,litu,113,2.6,13,2019,January,28,98.5, ,2,98.6,1.35,48.42, , , 
-30233,1,fagr,306,15.6,16.2,2019,January,28,107.2, ,2,106.3,1.4,6.91, , , 
-32097,1,litu,320,17.9,3,2019,January,28,65.1, ,2,64.7,1.4,21.43, , , 
+10587,1,litu,113,2.6,13,2019,January,28,98.5, ,2,98.6,1.35,48.42, , ,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor"
+30233,1,fagr,306,15.6,16.2,2019,January,28,107.2, ,2,106.3,1.4,6.91, , ,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor"
+32097,1,litu,320,17.9,3,2019,January,28,65.1, ,2,64.7,1.4,21.43, , ,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor"
 40941,1,litu,414,6,15.4,2019, , , , ,2, , , , ,check dual stem, 
-40972,1,litu,415,7.2,9.6,2019,January,28,84.7, ,2,86.9,1.32,6.9, , , 
+40972,1,litu,415,7.2,9.6,2019,January,28,84.7, ,2,86.9,1.32,6.9, , ,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor"
 70096,1,quru,704,3.3,12.7,2019, , , , ,2, , , , , , 
 72448,1,litu,732,18.9,4.7,2019, , , , ,2, , , , , , 
-80100,1,litu,804,3.4,12.6,2019,January,23,58.2, ,2,58.6,1.4,17.24, , , 
+80100,1,litu,804,3.4,12.6,2019,January,23,58.2, ,2,58.6,1.4,17.24, , ,"Alyssa Terrell, Ian McGregor"
 90043,1,quve,901,12.5,17.6,2019, , , , ,2, , , , , , 
 90084,1,quve,902,16.2,19.3,2019, , , , ,2, , , , , , 
 110061,1,litu,1101,17,10,2019, , , , ,2, , , , , , 
