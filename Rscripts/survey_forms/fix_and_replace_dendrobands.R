@@ -1,0 +1,107 @@
+# Determine both dendrobands that need to be fixed, and new trees that will replace dead ones.
+
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
+
+dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+
+#Quick: number of bands that need to be fixed
+length(c(grep("RD", dendro18$codes)))
+
+#1 Create field and data_entry forms for trees that need fixing ####
+##Either do 1a or 1b, then move to step 2.
+
+#1a If don't have much time, focus on fixing the bands that need to be fixed ####
+##these bands were marked as "RD" already from the field survey.
+data_fix <- dendro18[grep("RD", dendro18$codes), ]
+data_fix <- data_fix[which(data_fix$survey.ID>= 2018.14), ] #in case any fixes have been done since the fall survey
+
+##1b if have more time, determine # of dendrobands whose window is too large. These will ultimately need to be changed at some point if not done now. ####
+trends <- dendro18[,c("tag", "stemtag", "survey.ID", "sp", "measure")]
+trends <- trends[which(trends$survey.ID==c('2018.01', '2018.14')), ] 
+
+##determine which trees will need to have dendroband replaced based on measurements. The max a caliper can measure is 153.71 mm.
+##if don't have much time, then focus first on those bands that really need fixing 
+library(data.table)
+growth <- data.table(trends)
+growth<-growth[,list(band.growth=diff(measure)),list(tag,sp)]
+
+##range of measurement values over the growing season
+range <- c(sort(growth$band.growth, decreasing=TRUE))
+range <- range[range >=0]
+range
+mean(range)
+sd(range)
+
+##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 133 to have a code of RD.
+data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ]
+data_install$codes <- as.character(data_install$codes)
+data_install$codes <- ifelse(data_install$measure >= 133 & !grepl("RD", data_install$codes), paste(data_install$codes, "RD", sep = ";"), data_install$codes)
+data_install$codes <- gsub("^;", "", data_install$codes)
+data_fix_all <- data_install[grep("RD", data_install$codes), ]
+
+######################################################################################
+#2 Create forms ####
+##pay attention to whether or not you're doing data_fix from 1a or data_fix_all from 1b!!!!!!
+
+#2a. Create the field form ####
+##dbh column is included here to help know what size dendroband to make. For taking out in the field, don't necessarily have to include this column.
+
+data_field<-data_fix[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "dbh", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
+
+data_field$measure = NA
+data_field$codes = NA
+data_field$dendDiam = NA
+data_field$dendHt = NA
+data_field$type = NA
+data_field$dendroID = NA
+
+data_field$field.date = NA
+data_field$dbhnew = NA
+
+library(data.table)
+setnames(data_field, old=c("codes", "stemtag"), new=c("codes&notes", "stem"))
+
+data_field[is.na(data_field)] <- " "
+
+data_field<-data_field[,c(1:7,15,16,12,13,11,14,8:10)]
+
+data_field$location<-gsub("South", "S", data_field$location)
+data_field$location<-gsub("North", "N", data_field$location)
+
+matrix <- function(data_field, table_title) {
+  
+  rbind(c(table_title, rep('', ncol(data_field)-1)), # title
+        names(data_field), # column names
+        unname(sapply(data_field, as.character))) # data
+  
+}
+
+temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       Surveyors:'))
+
+library(xlsx)
+write.xlsx(temp, "field_form_fix_replace_2018.xlsx", row.names = FALSE, col.names=FALSE)
+
+
+#2b. Create data_entry form ####
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms")
+
+data_entry<-data_fix[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "notes", "dendDiam", "dendroID", "type", "dendHt")]
+
+data_entry$measure = NA
+data_entry$codes = NA
+data_entry$notes = NA
+data_entry$dendDiam = NA
+data_entry$dendHt = NA
+data_entry$type = NA
+data_entry$dendroID = NA
+
+data_entry$year = NA
+data_entry$month = NA
+data_entry$day = NA
+data_entry$surveyor = NA
+data_entry$dbhnew = NA
+
+data_entry<-data_entry[ ,c(1:6,14:16,18,11,12,10,13,7:9,17)]
+data_entry[is.na(data_entry)] <- " "
+
+write.csv(data_entry, "data_entry_fix_replace_2018.csv", row.names=FALSE)

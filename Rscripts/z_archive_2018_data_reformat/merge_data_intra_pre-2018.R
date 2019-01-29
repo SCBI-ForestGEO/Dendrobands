@@ -1,4 +1,5 @@
-# Merge data_entry_form with master for intraannual survey
+# Merge intraannual data_entry_form with master pre-2018 data
+##this code is kept for archival purposes. Current forms are found in "survey_forms" folder of the Dendrobands repository.
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016")
 

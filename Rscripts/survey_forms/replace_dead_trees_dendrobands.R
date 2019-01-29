@@ -1,87 +1,24 @@
-# Determine both dendrobands that need to be fixed, and new trees that will replace dead ones.
+#replacing dead trees in dendroband surveys
+
+#1 quick check of the number of trees to be replaced
+#2 list of dead trees that need to be replaced
+#3 determine composition of replacement species
+#4 determine the actual trees to be the replacements
+#5 get local and global coordinates for those trees
+#6 make field_form for new trees
+#7 make data_entry form for new trees
+#8 merge data_entry form to the next year's master file
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
 
 dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
-##Quick numbers
-#bands that need to be fixed
-length(c(grep("RD", dendro18$codes)))
-
-#number of trees that need to be replaced
+#1 quick check of number of trees that need to be replaced ####
 q <- dendro18[which(dendro18$survey.ID==c('2018.14')), ] 
 length(c(grep("dead", q$status)))
 rm(q)
 
-#1 Create field_form_bandreplace forms for trees that need fixing ####
-##1a determine # of dendrobands whose window is too large. These will need to be changed out at some point. ####
-trends <- dendro18[,c("tag", "stemtag", "survey.ID", "sp", "measure")]
-trends <- trends[which(trends$survey.ID==c('2018.01', '2018.14')), ] 
-
-##determine which trees will need to have dendroband replaced based on measurements. The max a caliper can measure is 153.71 mm.
-library(data.table)
-growth <- data.table(trends)
-growth<-growth[,list(band.growth=diff(measure)),list(tag,sp)]
-
-##range of measurement values over the growing season
-range <- c(sort(growth$band.growth, decreasing=TRUE))
-range <- range[range >=0]
-range
-mean(range)
-sd(range)
-
-##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 133 to have a code of RD.
-data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ]
-data_install$codes <- as.character(data_install$codes)
-data_install$codes <- ifelse(data_install$measure >= 133 & !grepl("RD", data_install$codes), paste(data_install$codes, "RD", sep = ";"), data_install$codes)
-data_install$codes <- gsub("^;", "", data_install$codes) 
-
-##1b if don't have much time, then focus first on those bands that really need fixing ####
-
-##subset by RD codes (having subset by 2018.14 already above)
-data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ] #if did not do step 1a above then run this line before going on
-data_install<-data_install[grepl("RD",data_install[["codes"]]), ]
-
-##rest of code is for making the field_form
-
-##dbh column is included here to help know what size dendroband to make. For taking out in the field, don't necessarily have to include this column.
-data_install<-data_install[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "dbh", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
-
-
-data_install$measure = NA
-data_install$codes = NA
-data_install$dendDiam = NA
-data_install$dendHt = NA
-data_install$type = NA
-data_install$dendroID = NA
-
-data_install$install.date = NA
-data_install$dbhnew = NA
-
-library(data.table)
-setnames(data_install, old=c("codes", "stemtag"), new=c("codes&notes", "stem"))
-
-data_install[is.na(data_install)] <- " "
-
-data_install<-data_install[,c(1:7,15,16,12,13,11,14,8:10)]
-
-data_install$location<-gsub("South", "S", data_install$location)
-data_install$location<-gsub("North", "N", data_install$location)
-
-matrix <- function(data_install, table_title) {
-  
-  rbind(c(table_title, rep('', ncol(data_install)-1)), # title
-        names(data_install), # column names
-        unname(sapply(data_install, as.character))) # data
-  
-}
-
-temp <- matrix(data_install, table_title=('Dendroband Replacement                       Date:                       Surveyors:'))
-
-library(xlsx)
-write.xlsx(temp, "field_form_bandreplace.xlsx", row.names = FALSE, col.names=FALSE)
-
-
+#############################################################################
 #2 list of dead trees that need to be replaced ####
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
@@ -96,10 +33,11 @@ dead$dbhdead <- dendrofull$dbhall[match(dead$stemID, dendrofull$stemID)]
 dead <- dead[, c(1:7,22,8:21)]
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-write.csv(dead, "dead_to_replace.csv", row.names=FALSE)
+write.csv(dead, "dead_to_replace_2018.csv", row.names=FALSE)
 
 
 
+#############################################################################
 #3 determine composition of replacement species ####
 ANPP <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_ANPP.csv")
 ANPP <- ANPP[with(ANPP, order(-ANPP.ANPP_Mg.C.ha1.y1_10cm)), ]
@@ -134,12 +72,7 @@ replace$is.intraannual.o350 <- c(3,2,2,0,0,1)
 
 replace <- replace[, c(1:7,9,8,10)]
 
-
-
-
-
-
-
+#############################################################################
 #4 determine the actual trees to replace ####
 recensus2018 <- read.csv("I:/recensus2018.csv")
 recensus2018$DBH <- recensus2018$DBH*10
@@ -196,6 +129,7 @@ for (i in seq(along=sp)){
 fulltrees <- rbind(test.o350, test.u350)
 fulltrees <- fulltrees[, c("tag", "stemtag", "quadrat", "sp", "dbh18", "codes")]
 
+#############################################################################
 #5 get the local and global coordinates ####
 stem_coords <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/census3_coord_local_plot.csv")
 
@@ -208,6 +142,7 @@ fulltreesgeo <- fulltreesgeo[with(fulltreesgeo, order(tag)), ]
 ##if want coordinates for arcmap or mapping, use this
 #geo_stems <- read.csv("V:/SIGEO/GIS_data/R-script_Convert local-global coord/scbi_stem_utm_lat_long.csv")
 
+#############################################################################
 #6 make field form for new trees ####
 ##rest of code is for making the field_form
 newtrees<-fulltreesgeo[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "codes", "dbh18")] #depending on what data is being added, can add in location column
@@ -244,4 +179,9 @@ temp1 <- matrix(newtrees, table_title=('New Dendroband Trees                    
 
 
 library(xlsx)
-write.xlsx(temp1, "field_form_treereplace.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp1, "field_form_new_trees_2018.xlsx", row.names = FALSE, col.names=FALSE)
+
+#############################################################################
+#7 make data_entry form for new trees ####
+
+#8 merge data_entry form to the next year's master file
