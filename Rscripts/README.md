@@ -7,6 +7,7 @@ This folder contains code for analyzing the data, for example looking at crown p
 ## survey_forms
 
 This folder has codes to create the forms used in biannual and intraannual surveys, plus forms used for replacing dendrobands and replacing dead trees.
+- the code to produce survey maps is also found here
 
 ## z_archive_2018
 
