@@ -9,9 +9,14 @@ Numbered areas on the biannual map have been used as survey areas since 2012, as
 
 ## Editing
 
-The code for making the biannual and intraannual maps is found at [survey_maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts). The main data source is dendro_trees.csv.
+We are using [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv) to provide the data for these maps as opposed to "scbi.dendroAll_YEAR.csv" because 
 
-The ArcGIS maps were originally created with the geographic location data from this file in the V drive location below ("Merged_dendroband_utm_lat_lon.csv""), though now they are made from  [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv).
-- New maps should be made with this file, only looking at live trees.
+1. dendro_trees reflects the data in the all of the YEAR files and
 
-The .mxd and associated shapefiles are located on the SI V drive: V:\SIGEO\GIS_data\dendroband surveys
+2. dendro_trees has the necessary mapping information in lx/ly, gx/gy, NAD83X/Y, AND lat/lon in decimal degrees.
+
+The code for making the biannual and intraannual maps is found at [survey_maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts).
+- This code only looks at live trees (since we survey only live trees).
+
+The ArcGIS maps were originally created with the geographic location data from the file "Merged_dendroband_utm_lat_lon.csv" in the V drive location: V:\SIGEO\GIS_data\dendroband surveys.
+- .mxd and associated shapefiles are also located on the SI V drive.
