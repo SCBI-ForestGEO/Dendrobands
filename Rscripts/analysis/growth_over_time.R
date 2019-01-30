@@ -1,9 +1,9 @@
 # determine ideal length of dendroband per dbh measurement
 
-setwd("E:/Github_SCBI/Dendrobands/data")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
   
 #2010 not included because only one measurement
-dirs <- dir("E:/Github_SCBI/Dendrobands/data", pattern="_201[1-9]*.csv")
+dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-9]*.csv")
 
 library(data.table)
 date <- c(2011:2018)
@@ -60,8 +60,31 @@ step2$mingrowth_mm <- apply(step2[, 2:9], 1, min, na.rm=TRUE)
 step2$maxgrowth_mm <- apply(step2[, 2:9], 1, max, na.rm=TRUE)
 step2$avg_growth_range_mm <- step2[, "maxgrowth_mm"] - step2[, "mingrowth_mm"]
 
-setwd("E:/Github_SCBI/Dendrobands/results")
-write.csv(step2, "mean_growth_by_sp.csv", row.names=FALSE)
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
+write.csv(step2, "growth_variability_by_sp.csv", row.names=FALSE)
+
+
+#####################################################################################
+#convert intraannual growth to dbh####
+intra <- dendro18[dendro18$intraannual==1, ]
+intra$dbh2 <- NA
+
+x10671 <- intra[intra$tag==10671, ]
+cal <- c(x10671$measure)
+x10671$dbh2[[1]] <- x10671$dbh[[1]]
+#x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.01), x10671$dbh, x10671$dbh2)
+x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.02, findDendroDBH(x10671$dbh, cal[[1]], cal[[2]]), x10671$dbh2)
+
+x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.03, findDendroDBH(x10671$dbh2[[2]], cal[[2]], cal[[3]]), x10671$dbh2)
+
+x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.04, findDendroDBH(x10671$dbh2[[3]], cal[[3]], cal[[4]]), x10671$dbh2)
+
+###NEXT THING IS TO MAKE A FOR-LOOP OUT OF THIS
+#questions
+1. this will skip over smaller numbers, eg 2018.031
+2. what happens to NA values in this iteration
+3. how to account for jumps in measurements (e.g. 150.32 to 6.23)
+
 
 
 #graphs ####
