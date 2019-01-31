@@ -2,7 +2,12 @@
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
 
-dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv") 
+
+#be aware of the dbh differences
+##2011-2013 data: dbh is from 2008
+##2014-2018 data: dbh is from 2013
+##2019-     data: dbh is from 2018
 
 #Quick: number of bands that need to be fixed
 length(c(grep("RD", dendro18$codes)))
