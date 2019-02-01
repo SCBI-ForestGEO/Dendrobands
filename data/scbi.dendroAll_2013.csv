@@ -2407,7 +2407,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 171348,1,2013.16,2013,10,29,1,0,ceca,1714,19.4,2.4,52.12,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",25171,25171,NA,139.1,0,381,2,NA,1.4,NA,NA,NA,NA
 171358,1,2013.01,2013,3,19,1,0,fram,1714,16,14.1,52.58,,,alive,Erika Gonzalez,Mike Belovitch,25179,25179,911,887.8,0,223,2,NA,1.33,3,5,NA,NA
 171358,1,2013.16,2013,10,29,1,0,fram,1714,16,14.1,64.59,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",25179,25179,NA,887.8,0,223,2,NA,1.33,NA,NA,NA,NA
-171456,1,2013.01,2013,3,19,1,0,acru,1714,0.8,13.4,22.29,I,,alive,Erika Gonzalez,Mike Belovitch,25273,25273,705.8,699.5,0,617,2,NA,1.35,NA,NA,NA,NA
+171456,1,2013.01,2013,3,19,1,0,acru,1714,0.8,13.4,22.29,I,,alive,Erika Gonzalez,Mike Belovitch,25273,25273,705.8,699.5,1,617,2,NA,1.35,NA,NA,NA,NA
 171456,1,2013.16,2013,10,29,1,0,acru,1714,0.8,13.4,18.88,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",25273,25273,NA,699.5,0,617,2,NA,1.35,NA,NA,NA,NA
 171462,1,2013.01,2013,3,19,1,0,qual,1715,7.9,7.5,74.31,,,alive,Erika Gonzalez,Mike Belovitch,25278,25278,820,796,0,382,2,NA,1.3,4,5,NA,NA
 171462,1,2013.16,2013,10,29,1,0,qual,1715,7.9,7.5,88.02,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",25278,25278,NA,796,0,382,2,NA,1.3,NA,NA,NA,NA
