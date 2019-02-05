@@ -125,50 +125,50 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 30339,1,2013.01,2013,3,19,1,1,litu,307,8.6,4.1,3.47,M;main,From sap flow cluster; Installed 03/13. Only tree of sap cluster to be measured in March,alive,Erika Gonzalez,Mike Belovitch,3975,3975,587.6,573.2,1,547,2,NA,1.3,NA,NA,NA,NA
 30339,2,2013.01,2013,3,19,1,1,litu,307,8.6,4.1,80.37,S,From sap flow cluster; Installed 03/13. Only tree of sap cluster to be measured in March,alive,Erika Gonzalez,Mike Belovitch,32681,3975,504,482.7,1,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.01,2013,3,19,1,1,litu,307,8.6,4.1,16.97,S,From sap flow cluster; Installed 03/13. Only tree of sap cluster to be measured in March,alive,Erika Gonzalez,Mike Belovitch,37149,3975,156,148.3,1,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.02,2013,4,8,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.02,2013,4,8,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.02,2013,4,8,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.02,2013,4,8,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.02,2013,4,8,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.03,2013,4,23,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.03,2013,4,23,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.03,2013,4,23,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.03,2013,4,23,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.03,2013,4,23,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.04,2013,5,6,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.04,2013,5,6,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.04,2013,5,6,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.04,2013,5,6,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.04,2013,5,6,1,1,litu,307,8.6,4.1,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.05,2013,5,20,1,1,litu,307,8.6,4.1,NA,,,alive,"Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.05,2013,5,20,1,1,litu,307,8.6,4.1,NA,,,alive,"Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.05,2013,5,20,1,1,litu,307,8.6,4.1,NA,,,alive,"Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.05,2013,5,20,1,1,litu,307,8.6,4.1,NA,,,alive,"Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.05,2013,5,20,1,1,litu,307,8.6,4.1,NA,,,alive,"Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.06,2013,6,3,1,1,litu,307,8.6,4.1,0.56,,,alive,Erika Gonzalez,Janise Park,3975,3975,NA,148.3,1,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.06,2013,6,3,1,1,litu,307,8.6,4.1,80.39,,,alive,Erika Gonzalez,Janise Park,32681,3975,NA,148.3,1,549,2,NA,1.3,NA,NA,NA,NA
-30339,3,2013.06,2013,6,3,1,1,litu,307,8.6,4.1,16.59,,,alive,Erika Gonzalez,Janise Park,37149,3975,NA,148.3,1,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.07,2013,6,17,1,1,litu,307,8.6,4.1,2.15,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.07,2013,6,17,1,1,litu,307,8.6,4.1,82.06,,,alive,"Ryan, Kelsey","Ryan, Kelsey",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.06,2013,6,3,1,1,litu,307,8.6,4.1,0.56,,,alive,Erika Gonzalez,Janise Park,3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.06,2013,6,3,1,1,litu,307,8.6,4.1,80.39,,,alive,Erika Gonzalez,Janise Park,32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
+30339,3,2013.06,2013,6,3,1,1,litu,307,8.6,4.1,16.59,,,alive,Erika Gonzalez,Janise Park,37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.07,2013,6,17,1,1,litu,307,8.6,4.1,2.15,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.07,2013,6,17,1,1,litu,307,8.6,4.1,82.06,,,alive,"Ryan, Kelsey","Ryan, Kelsey",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.07,2013,6,17,1,1,litu,307,8.6,4.1,17.49,,,alive,"Ryan, Kelsey","Ryan, Kelsey",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.08,2013,7,1,1,1,litu,307,8.6,4.1,4.43,,,alive,"Mike, Kelsey","Mike, Kelsey",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.08,2013,7,1,1,1,litu,307,8.6,4.1,84.62,,,alive,"Mike, Kelsey","Mike, Kelsey",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.08,2013,7,1,1,1,litu,307,8.6,4.1,4.43,,,alive,"Mike, Kelsey","Mike, Kelsey",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.08,2013,7,1,1,1,litu,307,8.6,4.1,84.62,,,alive,"Mike, Kelsey","Mike, Kelsey",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.08,2013,7,1,1,1,litu,307,8.6,4.1,17.78,,,alive,"Mike, Kelsey","Mike, Kelsey",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.09,2013,7,15,1,1,litu,307,8.6,4.1,8.68,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.09,2013,7,15,1,1,litu,307,8.6,4.1,89.26,,,alive,"Ryan, Kelsey","Ryan, Kelsey",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.09,2013,7,15,1,1,litu,307,8.6,4.1,8.68,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.09,2013,7,15,1,1,litu,307,8.6,4.1,89.26,,,alive,"Ryan, Kelsey","Ryan, Kelsey",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.09,2013,7,15,1,1,litu,307,8.6,4.1,19.18,,,alive,"Ryan, Kelsey","Ryan, Kelsey",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.1,2013,7,29,1,1,litu,307,8.6,4.1,10.31,,,alive,"Mike, Kelsey","Mike, Kelsey",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.1,2013,7,29,1,1,litu,307,8.6,4.1,90.73,,,alive,"Mike, Kelsey","Mike, Kelsey",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.1,2013,7,29,1,1,litu,307,8.6,4.1,10.31,,,alive,"Mike, Kelsey","Mike, Kelsey",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.1,2013,7,29,1,1,litu,307,8.6,4.1,90.73,,,alive,"Mike, Kelsey","Mike, Kelsey",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.1,2013,7,29,1,1,litu,307,8.6,4.1,19.28,,,alive,"Mike, Kelsey","Mike, Kelsey",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.11,2013,8,12,1,1,litu,307,8.6,4.1,11.35,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.11,2013,8,12,1,1,litu,307,8.6,4.1,91.62,,,alive,"Ryan, Kelsey","Ryan, Kelsey",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.11,2013,8,12,1,1,litu,307,8.6,4.1,11.35,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.11,2013,8,12,1,1,litu,307,8.6,4.1,91.62,,,alive,"Ryan, Kelsey","Ryan, Kelsey",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.11,2013,8,12,1,1,litu,307,8.6,4.1,19.35,,,alive,"Ryan, Kelsey","Ryan, Kelsey",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.12,2013,8,26,1,1,litu,307,8.6,4.1,12.16,,,alive,"Mike, Greg","Mike, Greg",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.12,2013,8,26,1,1,litu,307,8.6,4.1,93.27,,,alive,"Mike, Greg","Mike, Greg",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.12,2013,8,26,1,1,litu,307,8.6,4.1,12.16,,,alive,"Mike, Greg","Mike, Greg",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.12,2013,8,26,1,1,litu,307,8.6,4.1,93.27,,,alive,"Mike, Greg","Mike, Greg",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.12,2013,8,26,1,1,litu,307,8.6,4.1,19.49,,,alive,"Mike, Greg","Mike, Greg",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.13,2013,9,9,1,1,litu,307,8.6,4.1,12.16,,,alive,"Mike, Erika","Mike, Erika",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.13,2013,9,9,1,1,litu,307,8.6,4.1,93.24,,,alive,"Mike, Erika","Mike, Erika",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.13,2013,9,9,1,1,litu,307,8.6,4.1,12.16,,,alive,"Mike, Erika","Mike, Erika",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.13,2013,9,9,1,1,litu,307,8.6,4.1,93.24,,,alive,"Mike, Erika","Mike, Erika",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.13,2013,9,9,1,1,litu,307,8.6,4.1,19.62,,,alive,"Mike, Erika","Mike, Erika",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.14,2013,9,23,1,1,litu,307,8.6,4.1,12.13,,,alive,"Mike, Greg","Mike, Greg",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.14,2013,9,23,1,1,litu,307,8.6,4.1,93.21,,,alive,"Mike, Greg","Mike, Greg",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.14,2013,9,23,1,1,litu,307,8.6,4.1,12.13,,,alive,"Mike, Greg","Mike, Greg",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.14,2013,9,23,1,1,litu,307,8.6,4.1,93.21,,,alive,"Mike, Greg","Mike, Greg",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.14,2013,9,23,1,1,litu,307,8.6,4.1,19.56,,,alive,"Mike, Greg","Mike, Greg",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.15,2013,10,9,1,1,litu,307,8.6,4.1,12.18,,,alive,Mike Belovitch,Mike Belovitch,3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.15,2013,10,9,1,1,litu,307,8.6,4.1,93.27,,,alive,Mike Belovitch,Mike Belovitch,32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.15,2013,10,9,1,1,litu,307,8.6,4.1,12.18,,,alive,Mike Belovitch,Mike Belovitch,3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.15,2013,10,9,1,1,litu,307,8.6,4.1,93.27,,,alive,Mike Belovitch,Mike Belovitch,32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.15,2013,10,9,1,1,litu,307,8.6,4.1,19.59,,,alive,Mike Belovitch,Mike Belovitch,37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,1,2013.16,2013,10,29,1,1,litu,307,8.6,4.1,12.55,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",3975,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
-30339,2,2013.16,2013,10,29,1,1,litu,307,8.6,4.1,93.55,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",32681,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
+30339,1,2013.16,2013,10,29,1,1,litu,307,8.6,4.1,12.55,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",3975,3975,NA,148.3,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2013.16,2013,10,29,1,1,litu,307,8.6,4.1,93.55,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",32681,3975,NA,148.3,0,548,2,NA,1.3,NA,NA,NA,NA
 30339,3,2013.16,2013,10,29,1,1,litu,307,8.6,4.1,19.66,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",37149,3975,NA,148.3,0,549,2,NA,1.3,NA,NA,NA,NA
 30343,1,2013.06,2013,6,3,1,1,quru,307,17.9,8,15.04,,From sap flow cluster. DBH 2013,alive,Erika Gonzalez,Janise Park,3979,3979,NA,600,1,550,2,NA,1.38,NA,NA,NA,NA
 30343,1,2013.07,2013,6,17,1,1,quru,307,17.9,8,14.45,,,alive,"Ryan, Kelsey","Ryan, Kelsey",3979,3979,NA,600,0,550,2,NA,1.38,NA,NA,NA,NA
@@ -219,8 +219,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 30512,1,2013.16,2013,10,29,1,1,quru,313,2.9,14.3,61.71,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",4137,4137,NA,826.2,0,23,2,NA,1.28,NA,NA,NA,NA
 30584,1,2013.01,2013,3,19,1,0,quve,316,2.2,14.4,90.96,,,alive,Erika Gonzalez,Mike Belovitch,4207,4207,869.1,843.9,0,24,2,NA,1.32,4,4,NA,NA
 30584,1,2013.16,2013,10,29,1,0,quve,316,2.2,14.4,106.48,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",4207,4207,NA,843.9,0,24,2,NA,1.32,NA,NA,NA,NA
-32084,1,2013.01,2013,3,19,1,0,litu,319,6.5,11.5,37.6,,"dbh higher in 2008, confirmed in books",alive,Erika Gonzalez,Mike Belovitch,8257,4313,1127,1135.1,0,25,2,NA,1.3,2,4,NA,NA
-32084,1,2013.16,2013,10,29,1,0,litu,319,6.5,11.5,40.45,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",8257,4313,NA,1135.1,0,25,2,NA,1.3,NA,NA,NA,NA
+32084,1,2013.01,2013,3,19,1,0,litu,319,6.5,11.5,37.6,,"dbh higher in 2008, confirmed in books",alive,Erika Gonzalez,Mike Belovitch,4313,4313,1127,1135.1,0,25,2,NA,1.3,2,4,NA,NA
+32084,1,2013.16,2013,10,29,1,0,litu,319,6.5,11.5,40.45,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",4313,4313,NA,1135.1,0,25,2,NA,1.3,NA,NA,NA,NA
 32097,1,2013.01,2013,3,19,1,0,litu,320,17.9,3,13.43,,Band replaced in 01/13,alive,Erika Gonzalez,Mike Belovitch,4326,4326,634,617,1,593,2,NA,1.42,4,5,NA,NA
 32097,1,2013.16,2013,10,29,1,0,litu,320,17.9,3,22.97,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",4326,4326,NA,617,0,593,2,NA,1.42,NA,NA,NA,NA
 32126,1,2013.01,2013,3,19,1,1,litu,321,9.6,5,66.85,,,alive,Erika Gonzalez,Mike Belovitch,4355,4355,961,956.6,0,27,2,NA,1.48,4,4,NA,NA
@@ -339,7 +339,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 40941,1,2013.16,2013,10,29,1,0,litu,414,6,15.4,80.03,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",9757,5402,NA,663.1,0,33,2,NA,0.7,NA,NA,NA,NA
 40942,1,2013.01,2013,3,19,1,0,acru,414,2.2,2,41.93,,,alive,Erika Gonzalez,Mike Belovitch,5403,5403,396.2,385,0,34,2,NA,1.32,4,3,NA,NA
 40942,1,2013.16,2013,10,29,1,0,acru,414,2.2,2,47.82,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",5403,5403,NA,385,0,34,2,NA,1.32,NA,NA,NA,NA
-40972,1,2013.16,2013,10,29,1,0,litu,415,2.2,2,89.75,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",5403,5403,NA,788.7,0,34,2,NA,1.32,NA,NA,NA,NA
+40972,1,2013.01,2013,3,19,1,0,litu,415,2.2,2,67.8,,"two stems, band in one",alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",5432,5432,NA,788.7,0,246,2,NA,1.32,NA,NA,NA,NA
+40972,1,2013.16,2013,10,29,1,0,litu,415,2.2,2,89.75,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",5432,5432,NA,788.7,0,246,2,NA,1.32,NA,NA,NA,NA
 42009,1,2013.01,2013,3,19,1,0,ploc,417,4.1,19.2,43.18,,,alive,Erika Gonzalez,Mike Belovitch,5499,5499,575.2,563.3,0,35,2,NA,1.3,NA,NA,NA,NA
 42009,1,2013.16,2013,10,29,1,0,ploc,417,4.1,19.2,50.92,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",5499,5499,NA,563.3,0,35,2,NA,1.3,NA,NA,NA,NA
 42397,1,2013.01,2013,3,19,1,0,quru,428,10.4,5.5,155.5,,,alive,Erika Gonzalez,Mike Belovitch,5881,5881,1447.5,1418.3,0,37,2,NA,1,3,4,NA,NA
@@ -1057,7 +1058,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72375,1,2013.16,2013,10,29,1,0,litu,728,13.7,17.1,38.18,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",9015,9015,NA,669.8,0,85,2,NA,1.28,NA,NA,NA,NA
 72377,1,2013.01,2013,3,19,1,0,litu,728,10.6,16.1,60.39,,,alive,Erika Gonzalez,Mike Belovitch,9016,9016,746.7,725.8,0,86,2,NA,1.3,4,4,NA,NA
 72377,1,2013.16,2013,10,29,1,0,litu,728,10.6,16.1,74.84,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",9016,9016,NA,725.8,0,86,2,NA,1.3,NA,NA,NA,NA
-72427,1,2013.01,2013,3,19,1,1,litu,730,3.6,19.4,NA,,,alive,Erika Gonzalez,Mike Belovitch,9066,9066,1416.1,1365.2,0,595,2,NA,1.35,4,4,NA,NA
+72427,1,2013.01,2013,3,19,1,1,litu,730,3.6,19.4,NA,,,alive,Erika Gonzalez,Mike Belovitch,9066,9066,1416.1,1365.2,1,595,2,NA,1.35,4,4,NA,NA
 72427,1,2013.02,2013,4,8,1,1,litu,730,3.6,19.4,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",9066,9066,NA,1365.2,0,595,2,NA,1.35,NA,NA,NA,NA
 72427,1,2013.03,2013,4,23,1,1,litu,730,3.6,19.4,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",9066,9066,NA,1365.2,0,595,2,NA,1.35,NA,NA,NA,NA
 72427,1,2013.04,2013,5,6,1,1,litu,730,3.6,19.4,NA,,,alive,"Belovitch, Chapman","Belovitch, Chapman",9066,9066,NA,1365.2,0,595,2,NA,1.35,NA,NA,NA,NA
@@ -1213,8 +1214,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 90084,1,2013.16,2013,10,29,1,0,quve,902,16.2,19.3,112.18,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10351,10351,NA,1092.1,0,122,2,NA,1.4,NA,NA,NA,NA
 90162,1,2013.01,2013,3,19,1,0,litu,904,16.9,11.1,21.14,,,alive,Erika Gonzalez,Mike Belovitch,10426,10426,652.5,640.8,1,596,2,NA,1.35,4,4,NA,NA
 90162,1,2013.16,2013,10,29,1,0,litu,904,16.9,11.1,32.69,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10426,10426,NA,640.8,0,596,2,NA,1.35,NA,NA,NA,NA
-90311,1,2013.01,2013,3,19,1,0,cagl,905,17.5,15.8,8.29,,,alive,Erika Gonzalez,Mike Belovitch,16420,10565,167,161.7,0,513,2,NA,1.3,NA,NA,NA,NA
-90311,1,2013.16,2013,10,29,1,0,cagl,905,17.5,15.8,11.61,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",16420,10565,NA,161.7,0,513,2,NA,1.3,NA,NA,NA,NA
+90311,1,2013.01,2013,3,19,1,0,cagl,905,17.5,15.8,8.29,,,alive,Erika Gonzalez,Mike Belovitch,10565,10565,167,161.7,0,513,2,NA,1.3,NA,NA,NA,NA
+90311,1,2013.16,2013,10,29,1,0,cagl,905,17.5,15.8,11.61,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10565,10565,NA,161.7,0,513,2,NA,1.3,NA,NA,NA,NA
 90354,1,2013.01,2013,3,19,1,0,litu,905,10.6,5,93.45,,,alive,Erika Gonzalez,Mike Belovitch,10607,10607,666,664.9,0,248,2,NA,1.3,4,4,NA,NA
 90354,1,2013.16,2013,10,29,1,0,litu,905,10.6,5,102.95,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10607,10607,NA,664.9,0,248,2,NA,1.3,NA,NA,NA,NA
 90413,3,2013.01,2013,3,19,1,0,litu,904,11.7,17.2,NA,"B,M","band was removed, around multiple stems. Replaced by 30339",dead,Erika Gonzalez,Mike Belovitch,36586,221,NA,1263,0,248,2,NA,1.3,NA,3,NA,NA
@@ -1607,7 +1608,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 110061,1,2013.14,2013,9,23,1,1,litu,1101,17,10,73.6,,,alive,"Mike, Greg","Mike, Greg",13507,13507,NA,1173.8,0,133,2,NA,1.27,NA,NA,NA,NA
 110061,1,2013.15,2013,10,9,1,1,litu,1101,17,10,73.62,,,alive,Mike Belovitch,Mike Belovitch,13507,13507,NA,1173.8,0,133,2,NA,1.27,NA,NA,NA,NA
 110061,1,2013.16,2013,10,29,1,1,litu,1101,17,10,73.3,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",13507,13507,NA,1173.8,0,133,2,NA,1.27,NA,NA,NA,NA
-110680,1,2013.01,2013,3,19,1,0,litu,1104,2,6.5,45.43,,,alive,Erika Gonzalez,Mike Belovitch,14057,14057,670.9,683.3,0,604,2,NA,1.3,NA,NA,NA,NA
+110680,1,2013.01,2013,3,19,1,0,litu,1104,2,6.5,45.43,,,alive,Erika Gonzalez,Mike Belovitch,14057,14057,670.9,683.3,1,604,2,NA,1.3,NA,NA,NA,NA
 110680,1,2013.16,2013,10,29,1,0,litu,1104,2,6.5,58.04,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",14057,14057,NA,683.3,0,604,2,NA,1.3,NA,NA,NA,NA
 110788,1,2013.01,2013,3,19,1,1,litu,1104,19.9,11.7,36.92,,,alive,Erika Gonzalez,Mike Belovitch,14155,14155,633.5,620.9,0,307,2,NA,1.5,4,4,NA,NA
 110788,1,2013.02,2013,4,8,1,1,litu,1104,19.9,11.7,35.93,,,alive,"Belovitch, Chapman","Belovitch, Chapman",14155,14155,NA,620.9,0,307,2,NA,1.5,NA,NA,NA,NA
@@ -2297,8 +2298,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 142733,1,2013.16,2013,10,29,1,0,litu,1432,0.5,5.4,83.22,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",20624,20624,NA,584.3,0,206,2,NA,1.34,NA,NA,NA,NA
 142735,1,2013.01,2013,3,19,1,0,qual,1432,5.4,9.6,22.76,,,alive,Erika Gonzalez,Mike Belovitch,20626,20626,636.8,628.1,0,207,2,NA,1.3,3,4,NA,NA
 142735,1,2013.16,2013,10,29,1,0,qual,1432,5.4,9.6,29.41,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",20626,20626,NA,628.1,0,207,2,NA,1.3,NA,NA,NA,NA
-143707,1,2013.01,NA,NA,NA,1,0,cagl,1426,0.9,1.6,NA,,,alive,Erika Gonzalez,Mike Belovitch,46862,33781,144.5,144.5,0,630,2,NA,1.3,NA,NA,NA,NA
-143707,1,2013.16,2013,10,29,1,0,cagl,1426,0.9,1.6,9.87,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",46862,33781,NA,144.5,0,630,2,NA,1.3,NA,NA,NA,NA
+143707,1,2013.01,NA,NA,NA,1,0,cagl,1426,0.9,1.6,NA,,,alive,Erika Gonzalez,Mike Belovitch,46862,33781,NA,144.5,0,NA,2,NA,1.3,NA,NA,NA,NA
+143707,1,2013.16,2013,10,29,1,0,cagl,1426,0.9,1.6,9.87,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",46862,33781,144.5,144.5,1,630,2,NA,1.3,NA,NA,NA,NA
 150756,1,2013.01,2013,3,19,1,0,quve,1503,13.6,16.3,18.18,,,alive,Erika Gonzalez,Mike Belovitch,21310,21310,939.5,931,0,208,2,NA,1.29,4,4,NA,NA
 150756,1,2013.16,2013,10,29,1,0,quve,1503,13.6,16.3,21.4,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",21310,21310,NA,931,0,208,2,NA,1.29,NA,NA,NA,NA
 150830,1,2013.01,2013,3,19,1,0,litu,1508,14.6,16.6,NA,,band removed. Was around multiple stems. Not replaced due to irregular trunk,dead,Erika Gonzalez,Mike Belovitch,21374,21374,NA,901.2,0,208,2,NA,1.3,NA,4,NA,NA
@@ -2583,8 +2584,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 182491,1,2013.16,2013,10,29,1,0,litu,1831,7.6,7.9,91.82,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",27397,27397,NA,395.5,0,416,2,NA,1.35,NA,NA,NA,NA
 182498,1,2013.01,2013,3,19,1,0,fram,1831,0.9,18.3,13.01,,,alive,Erika Gonzalez,Mike Belovitch,27403,27403,149.5,142,0,417,2,NA,1.3,3,3,NA,NA
 182498,1,2013.16,2013,10,29,1,0,fram,1831,0.9,18.3,16.28,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",27403,27403,NA,142,0,417,2,NA,1.3,NA,NA,NA,NA
-182570,1,2013.01,2013,3,19,1,0,juni,1822,2.7,13.5,28.41,,,alive,Erika Gonzalez,Mike Belovitch,38806,27471,527.1,514.6,0,509,2,NA,1.3,4,4,NA,NA
-182570,1,2013.16,2013,10,29,1,0,juni,1822,2.7,13.5,38.57,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",38806,27471,NA,514.6,0,509,2,NA,1.3,NA,NA,NA,NA
+182570,1,2013.01,2013,3,19,1,0,juni,1822,2.7,13.5,28.41,,,alive,Erika Gonzalez,Mike Belovitch,27471,27471,527.1,514.6,0,509,2,NA,1.3,4,4,NA,NA
+182570,1,2013.16,2013,10,29,1,0,juni,1822,2.7,13.5,38.57,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",27471,27471,NA,514.6,0,509,2,NA,1.3,NA,NA,NA,NA
 182681,1,2013.01,2013,3,19,1,0,litu,1829,13,1,64.4,,,alive,Erika Gonzalez,Mike Belovitch,27575,27575,592.3,565.5,0,418,2,NA,1.4,4,4,NA,NA
 182681,1,2013.16,2013,10,29,1,0,litu,1829,13,1,78.95,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",27575,27575,NA,565.5,0,418,2,NA,1.4,NA,NA,NA,NA
 182693,1,2013.01,2013,3,19,1,0,litu,1830,15.3,13.2,98.5,,,alive,Erika Gonzalez,Mike Belovitch,27584,27584,815,798.7,0,419,2,NA,1.15,4,4,NA,NA
@@ -2901,8 +2902,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 200822,1,2013.16,2013,10,29,1,0,litu,2008,8.7,10.3,118.08,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",29869,29869,NA,786.8,0,463,2,NA,1.3,NA,NA,NA,NA
 201207,1,2013.01,2013,3,19,1,0,litu,2012,10,17.3,106.54,I,,alive,Erika Gonzalez,Mike Belovitch,30211,30211,1302,1279.8,0,538,2,NA,1.35,3,5,NA,NA
 201207,1,2013.16,2013,10,29,1,0,litu,2012,10,17.3,130.51,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",30211,30211,NA,1279.8,0,538,2,NA,1.35,NA,NA,NA,NA
-201208,1,2013.01,2013,3,19,1,0,fram,2011,19.2,10,NA,B;L,,dead,Erika Gonzalez,Mike Belovitch,42566,30212,NA,959.6,0,242,2,NA,1.4,1,4,NA,NA
-201208,1,2013.16,2013,10,29,1,0,fram,2011,19.2,10,NA,D,DEAD,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",42566,30212,NA,959.6,0,242,2,NA,1.4,NA,NA,NA,NA
+201208,1,2013.01,2013,3,19,1,0,fram,2011,19.2,10,NA,B;L,,dead,Erika Gonzalez,Mike Belovitch,30212,30212,NA,959.6,0,242,2,NA,1.4,1,4,NA,NA
+201208,1,2013.16,2013,10,29,1,0,fram,2011,19.2,10,NA,D,DEAD,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",30212,30212,NA,959.6,0,242,2,NA,1.4,NA,NA,NA,NA
 201248,1,2013.01,2013,3,19,1,0,fram,2013,7.8,4.6,11.17,,,alive,Erika Gonzalez,Mike Belovitch,30243,30243,953,930,0,243,2,NA,1.05,1,4,NA,NA
 201248,1,2013.16,2013,10,29,1,0,fram,2013,7.8,4.6,16.31,,,alive,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",30243,30243,NA,930,0,243,2,NA,1.05,NA,NA,NA,NA
 201261,1,2013.01,2013,3,19,1,0,juni,2013,0.3,17.3,107.9,I;Q,,alive,Erika Gonzalez,Mike Belovitch,30255,30255,470.5,454.1,0,540,2,NA,1.3,4,4,NA,NA

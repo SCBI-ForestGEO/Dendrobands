@@ -221,8 +221,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 30512,1,2014.14,2014,10,27,1,1,quru,313,2.9,14.3,78.22,,,alive,Erika Gonzalez,Maryam Sedaghatpour,4137,4137,NA,845.5,0,23,2,NA,1.28,NA,NA,NA,NA
 30584,1,2014.01,2014,3,24,1,0,quve,316,2.2,14.4,109,,,alive,Erika Gonzalez,Valentine Herrmann,4207,4207,872.2,873.5,0,24,2,NA,1.32,4,4,NA,NA
 30584,1,2014.14,2014,10,27,1,0,quve,316,2.2,14.4,131.3,,,alive,Justin Cooper,Maryam Sedaghatpour,4207,4207,NA,873.5,0,24,2,NA,1.32,NA,NA,NA,NA
-32084,1,2014.01,2014,3,24,1,0,litu,319,6.5,11.5,35.01,,Band adjusted,alive,Erika Gonzalez,Valentine Herrmann,8257,4313,1128.2,1139.099976,0,25,2,NA,1.3,2,4,NA,NA
-32084,1,2014.14,2014,10,27,1,0,litu,319,6.5,11.5,49.3,,needed adjustment,alive,Justin Cooper,Maryam Sedaghatpour,8257,4313,NA,1139.099976,0,25,2,NA,1.3,NA,NA,NA,NA
+32084,1,2014.01,2014,3,24,1,0,litu,319,6.5,11.5,35.01,,Band adjusted,alive,Erika Gonzalez,Valentine Herrmann,4313,4313,1128.2,1139.099976,0,25,2,NA,1.3,2,4,NA,NA
+32084,1,2014.14,2014,10,27,1,0,litu,319,6.5,11.5,49.3,,needed adjustment,alive,Justin Cooper,Maryam Sedaghatpour,4313,4313,NA,1139.099976,0,25,2,NA,1.3,NA,NA,NA,NA
 32097,1,2014.01,2014,3,24,1,0,litu,320,17.9,3,21.98,,,alive,Erika Gonzalez,Valentine Herrmann,4326,4326,635,633.5,0,593,2,NA,1.42,4,5,NA,NA
 32097,1,2014.14,2014,10,27,1,0,litu,320,17.9,3,35.61,,,alive,Justin Cooper,Maryam Sedaghatpour,4326,4326,NA,633.5,0,593,2,NA,1.42,NA,NA,NA,NA
 32126,1,2014.01,2014,3,24,1,1,litu,321,9.6,5,97.76,,,alive,Erika Gonzalez,Valentine Herrmann,4355,4355,993.2,995.5,0,27,2,NA,1.48,4,4,NA,NA
@@ -363,8 +363,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 40941,1,2014.14,2014,10,27,1,0,litu,414,6,15.4,104.54,M; main,band adjusted ,alive,Erika Gonzalez,Maryam Sedaghatpour,9757,5402,NA,653,0,33,2,NA,0.7,NA,NA,NA,NA
 40942,1,2014.01,2014,3,24,1,0,acru,414,2.2,2,46.7,,,alive,Erika Gonzalez,Valentine Herrmann,5403,5403,397,395.8999939,0,34,2,NA,1.32,4,3,NA,NA
 40942,1,2014.14,2014,10,27,1,0,acru,414,2.2,2,57,,,alive,Erika Gonzalez,Maryam Sedaghatpour,5403,5403,NA,395.8999939,0,34,2,NA,1.32,NA,NA,NA,NA
-40972,1,2014.01,2014,3,24,1,0,litu,415,7.2,9.6,90.4,M; main,,alive,Erika Gonzalez,Valentine Herrmann,32871,5432,816,827.1,0,246,2,NA,1.3,3,4,NA,NA
-40972,1,2014.14,2014,10,27,1,0,litu,415,7.2,9.6,110.27,M; main,,alive,Justin Cooper,Maryam Sedaghatpour,32871,5432,NA,827.1,0,246,2,NA,1.3,NA,NA,NA,NA
+40972,1,2014.01,2014,3,24,1,0,litu,415,7.2,9.6,90.4,M; main,,alive,Erika Gonzalez,Valentine Herrmann,5432,5432,816,827.1,0,246,2,NA,1.3,3,4,NA,NA
+40972,1,2014.14,2014,10,27,1,0,litu,415,7.2,9.6,110.27,M; main,,alive,Justin Cooper,Maryam Sedaghatpour,5432,5432,NA,827.1,0,246,2,NA,1.3,NA,NA,NA,NA
 42009,1,2014.01,2014,3,24,1,0,ploc,417,4.1,19.2,51.66,,,alive,Erika Gonzalez,Valentine Herrmann,5499,5499,580,576.7999878,0,35,2,NA,1.4,NA,NA,NA,NA
 42009,1,2014.14,2014,10,27,1,0,ploc,417,4.1,19.2,64.87,,,alive,Justin Cooper,Maryam Sedaghatpour,5499,5499,NA,576.7999878,0,35,2,NA,1.4,NA,NA,NA,NA
 42397,1,2014.01,2014,3,24,1,0,quru,428,10.4,5.5,187,,,alive,Erika Gonzalez,Valentine Herrmann,5881,5881,1449.02,1483,0,37,2,NA,1,3,4,NA,NA
@@ -1289,8 +1289,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 90084,1,2014.14,2014,10,27,1,0,quve,902,16.2,19.3,121.07,,,alive,Valentine Herrmann,Maryam Sedaghatpour,10351,10351,NA,1117.099976,0,122,2,NA,1.4,NA,NA,NA,NA
 90162,1,2014.01,2014,3,24,1,0,litu,904,16.9,11.1,32.59,,,alive,Erika Gonzalez,Valentine Herrmann,10426,10426,656.5,655.9000244,0,596,2,NA,1.35,4,4,NA,NA
 90162,1,2014.14,2014,10,27,1,0,litu,904,16.9,11.1,41.54,,,alive,Valentine Herrmann,Maryam Sedaghatpour,10426,10426,NA,655.9000244,0,596,2,NA,1.35,NA,NA,NA,NA
-90311,1,2014.01,2014,3,24,1,0,cagl,905,17.5,15.8,7.83,,,alive,Erika Gonzalez,Valentine Herrmann,16420,10565,167.9,167.8000031,0,513,2,NA,1.3,NA,NA,NA,NA
-90311,1,2014.14,2014,10,27,1,0,cagl,905,17.5,15.8,10.9,,,alive,Valentine Herrmann,Maryam Sedaghatpour,16420,10565,NA,167.8000031,0,513,2,NA,1.3,NA,NA,NA,NA
+90311,1,2014.01,2014,3,24,1,0,cagl,905,17.5,15.8,7.83,,,alive,Erika Gonzalez,Valentine Herrmann,10565,10565,167.9,167.8000031,0,513,2,NA,1.3,NA,NA,NA,NA
+90311,1,2014.14,2014,10,27,1,0,cagl,905,17.5,15.8,10.9,,,alive,Valentine Herrmann,Maryam Sedaghatpour,10565,10565,NA,167.8000031,0,513,2,NA,1.3,NA,NA,NA,NA
 90354,1,2014.01,2014,3,24,1,0,litu,905,10.6,5,103.21,I,,alive,Erika Gonzalez,Valentine Herrmann,10607,10607,673,670.9000244,0,248,2,NA,1.3,4,4,NA,NA
 90354,1,2014.14,2014,10,27,1,0,litu,905,10.6,5,111.89,I,,alive,Valentine Herrmann,Maryam Sedaghatpour,10607,10607,NA,670.9000244,0,248,2,NA,1.3,NA,NA,NA,NA
 90413,3,2014.01,2014,3,27,1,0,litu,904,11.7,17.2,NA,"B,S",Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,36586,221,NA,267.7999878,0,248,2,NA,1.3,NA,3,NA,NA
@@ -2531,8 +2531,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 182491,1,2014.14,2014,10,27,1,0,litu,1831,7.6,7.9,100.3,,,alive,Amy Lewis,Maryam Sedaghatpour,27397,27397,NA,410,0,416,2,NA,1.35,NA,NA,NA,NA
 182498,1,2014.01,2014,3,27,1,0,fram,1831,0.9,18.3,14.44,,,alive,Erika Gonzalez,Valentine Herrmann,27403,27403,148,145.6999969,0,417,2,NA,1.3,3,3,NA,NA
 182498,1,2014.14,2014,10,27,1,0,fram,1831,0.9,18.3,18.63,,,alive,Amy Lewis,Maryam Sedaghatpour,27403,27403,NA,145.6999969,0,417,2,NA,1.3,NA,NA,NA,NA
-182570,1,2014.01,2014,3,27,1,0,juni,1822,2.7,13.5,33.98,,,alive,Erika Gonzalez,Valentine Herrmann,38806,27471,532,530,0,509,2,NA,1.3,4,4,NA,NA
-182570,1,2014.14,2014,10,27,1,0,juni,1822,2.7,13.5,44.57,,band adjusted,alive,Amy Lewis,Maryam Sedaghatpour,38806,27471,NA,530,0,509,2,NA,1.3,NA,NA,NA,NA
+182570,1,2014.01,2014,3,27,1,0,juni,1822,2.7,13.5,33.98,,,alive,Erika Gonzalez,Valentine Herrmann,27471,27471,532,530,0,509,2,NA,1.3,4,4,NA,NA
+182570,1,2014.14,2014,10,27,1,0,juni,1822,2.7,13.5,44.57,,band adjusted,alive,Amy Lewis,Maryam Sedaghatpour,27471,27471,NA,530,0,509,2,NA,1.3,NA,NA,NA,NA
 182681,1,2014.01,2014,3,27,1,0,litu,1829,13,1,78.79,,,alive,Erika Gonzalez,Valentine Herrmann,27575,27575,590.1,590.0999756,0,418,2,NA,1.4,4,4,NA,NA
 182681,1,2014.14,2014,10,27,1,0,litu,1829,13,1,94.33,,,alive,Amy Lewis,Maryam Sedaghatpour,27575,27575,NA,590.0999756,0,418,2,NA,1.4,NA,NA,NA,NA
 182693,1,2014.01,2014,3,27,1,0,litu,1830,15.3,13.2,129.01,,,alive,Erika Gonzalez,Valentine Herrmann,27584,27584,822,821.0999756,0,419,2,NA,1.15,4,4,NA,NA
