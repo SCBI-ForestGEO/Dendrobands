@@ -90,23 +90,31 @@ write.xlsx(temp, "field_form_fix_replace_2018.xlsx", row.names = FALSE, col.name
 #2b. Create data_entry form ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms")
 
-data_entry<-data_fix[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "notes", "dendDiam", "dendroID", "type", "dendHt")]
+data_entry<-data_fix[ ,c(1:2,9:12,3:6,23:26,22,27:28,13:15,18:19,7:8,16:17,20:21,29:32)]
+  
+cols <- c("survey.ID", "year", "month", "day", "dbh", "measure", "codes", "notes", "field.recorders", "data.enter", "dendDiam", "dendroID", "type", "dendHt")
 
-data_entry$measure = NA
-data_entry$codes = NA
-data_entry$notes = NA
-data_entry$dendDiam = NA
-data_entry$dendHt = NA
-data_entry$type = NA
-data_entry$dendroID = NA
-
-data_entry$year = NA
-data_entry$month = NA
-data_entry$day = NA
-data_entry$surveyor = NA
-data_entry$dbhnew = NA
-
-data_entry<-data_entry[ ,c(1:6,14:16,18,11,12,10,13,7:9,17)]
-data_entry[is.na(data_entry)] <- " "
+data_entry[, cols] <- ""
+data_entry$new.band <- 1
+data_entry$dir <- NA
+data_entry$crown.condition <- NA
+data_entry$crown.illum <- NA
 
 write.csv(data_entry, "data_entry_fix_replace_2018.csv", row.names=FALSE)
+
+#######################################################################################
+#3. Merge data with year form.
+#3a. Merging if bands replaced after fall biannual ####
+#3b. Merging if bands replaces before spring biannual ####
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
+
+data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
+
+install_late <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_fix_replace_2019.csv")
+
+install_late <- install_late[, c("tag", "stemtag", "survey.ID", "year", "month", "day", "biannual", "intraannual", "sp", "quadrat", "lx", "ly", "measure", "codes", "notes", "status", "location", "field.recorders", "data.enter", "stemID", "treeID", "dendDiam", "dbh", "new.band", "dendroID", "type", "dir", "dendHt", "crown.condition", "crown.illum", "lianas", "measureID")]
+
+data_2019 <- rbind(data_2019, install_late)
+data_2019 <- data_2019[order(data_2019$tag, data_2019$stemtag), ]
+
+write.csv(data_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
