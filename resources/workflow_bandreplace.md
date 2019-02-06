@@ -1,6 +1,6 @@
 # Workflow for dendroband replacement and installation
 
-1. Determine which bands need fixing and which trees should be added to surveys to replace dead ones (using available [scripts](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts/survey_forms). Build dendrobands (see instructions [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/how_to_make_dendrobands.docx)).
+1. Determine which bands need fixing and which trees should be added to surveys to replace dead ones (using available [scripts](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts/survey_forms)). Build dendrobands (see instructions [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/how_to_make_dendrobands.docx)).
 
 2. Prepare the forms for the field, and make sure you have data entry forms ready for office.
 
@@ -24,7 +24,7 @@
     
     - if this is happening after the fall biannual survey, the number will be the number *after* that survey's. For example, if the fall survey was 2018.14, then any installation day between the end of the fall survey and the end of that calendar year would be given a survey.ID of 2018.15.
     
-    - *not advised but sometimes unavoidable:* if replacing dead trees / fixing dendrobands is pushed into the next year before that year's spring biannual survey, then the survey.ID of all replacements should be the year itself (eg. only 2019). For example, in 2019 there were several days of replacements that were carried over from 2018. Even though these all had different dates, they all have the same survey.ID of 2019.
+    - *not advised but sometimes unavoidable:* if replacing dead trees / fixing dendrobands is pushed into the next year before that year's spring biannual survey, then the survey.ID of all replacements should be the year itself. For example, in 2019 there were several days of replacements that were carried over from 2018. Even though these all had different dates, they all have the same survey.ID of 2019.
 
 5. Save the form in the year folder within [resources](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms), calling it "data_entry_bandreplace_[SURVEYID]".
     
