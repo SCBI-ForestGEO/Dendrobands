@@ -1,12 +1,12 @@
-#script to update the install.csv with new band information#
+#script to update the dendroID.csv with new band information#
 
-#1. update install.csv ####
+#1. update dendroID.csv ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 
 #read in year's data
 dendro2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
-install <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/install.csv")
+install <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendroID.csv")
 
 #subset by new.band=1 and then subset by columns to match install
 dendro2019 <- dendro2019[dendro2019$new.band==1, ]
