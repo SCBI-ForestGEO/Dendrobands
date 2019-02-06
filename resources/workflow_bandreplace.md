@@ -1,8 +1,8 @@
 # Workflow for dendroband replacement and installation
 
-1. Build dendrobands (see instructions [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/how_to_make_dendrobands.docx)).
+1. Determine which bands need fixing and which trees should be added to surveys to replace dead ones (using available [scripts](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts/survey_forms). Build dendrobands (see instructions [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/how_to_make_dendrobands.docx)).
 
-2. Prepare the bandreplace form for the field, and make sure you have a blank data entry form ready for office.
+2. Prepare the forms for the field, and make sure you have data entry forms ready for office.
 
     a. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 
