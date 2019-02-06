@@ -152,6 +152,7 @@ ggplot(data = step2) +
 
 dev.off()
 
+######################################################################################
 #4 troubleshooting for-loop ##############################################
 dendro_2018 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
 
