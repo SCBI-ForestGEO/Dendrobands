@@ -26,16 +26,16 @@
 
 5. Once merged, delete the data_entry_form you made but keep the folder.
     
-6. After the fall survey, create next year's master file...
-
-    a....only after doing dendroband replacements, replacing dead trees, and gathering that data (this should happen soon after the last survey to allow time to settle before the next survey in spring).
+6. Replace dead trees and fix bands that need fixing (this should happen soon after the last survey to allow time to settle before the next survey in spring).
     
-    b. When those are complete, then update [dendroID_chronology](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID_chronology.csv) with current dendroIDs (as the full list is contingent on dendroband replacements)
+    a. When those are complete, then update [dendroID.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendroID.csv) to keep track of all dendroband changes in one place.
 
-    c. In addition, update [dendro_trees_dbhcount2018.csv](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results) using the Rscript.
+    b. In addition, can update [dendro_trees_dbhcount](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/results/dendro_trees_dbhcount) using the Rscript.
     
-    d. When creating the next master file, remove all trees that have been labeled as dead within the current year (and validated with that year's mortality as in Step 4a).
+7. Then, create next year's master file.    
+   
+   a. When creating the next master file, remove all trees that have been labeled as dead within the current year (and validated with that year's mortality as in Step 4a).
 
-7. Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) with new records of dead trees.
+8. Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) with new records of dead trees.
 
     a. Then update [maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps) via the [script](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts).
