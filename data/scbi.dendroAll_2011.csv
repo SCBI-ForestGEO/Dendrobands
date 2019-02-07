@@ -1427,8 +1427,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102365,1,2011.23,2011,12,15,1,0,litu,1025,1.1,13.4,6.16,,,alive,Jennifer McGarvey,Jennifer McGarvey,13301,13301,NA,219.5,0,295,2,NA,1.3,4,3,NA,NA
 102371,1,2011.01,2011,3,24,1,0,qual,1026,1.6,6.6,2.18,,,alive,Jenny McGarvey,JM/LL/CK/LB,13307,13307,773,767.3,1,296,2,NA,1.3,4,4,NA,NA
 102371,1,2011.23,2011,12,15,1,0,qual,1026,1.6,6.6,8.01,,,alive,Jennifer McGarvey,Jennifer McGarvey,13307,13307,NA,767.3,0,296,2,NA,1.3,4,4,NA,NA
-102438,2,2011.01,2011,3,24,1,0,litu,1028,8.5,16.6,19.64,M,,alive,Jenny McGarvey,JM/LL/CK/LB,13374,13374,861,452,1,297,2,NA,1.34,NA,4,NA,NA
-102438,2,2011.23,2011,12,15,1,0,litu,1028,8.5,16.6,25.63,,,alive,Jennifer McGarvey,Jennifer McGarvey,13374,13374,NA,452,0,297,2,NA,1.34,NA,4,NA,NA
+102438,2,2011.01,2011,3,24,1,0,litu,1028,8.5,16.6,19.64,M,,alive,Jenny McGarvey,JM/LL/CK/LB,33848,13374,861,452,1,297,2,NA,1.34,NA,4,NA,NA
+102438,2,2011.23,2011,12,15,1,0,litu,1028,8.5,16.6,25.63,,,alive,Jennifer McGarvey,Jennifer McGarvey,33848,13374,NA,452,0,297,2,NA,1.34,NA,4,NA,NA
 102439,1,2011.01,2011,3,24,1,0,litu,1028,4.3,19.6,7.67,,,alive,Jenny McGarvey,JM/LL/CK/LB,13375,13375,222,218.8,1,298,2,NA,1.3,4,3,NA,NA
 102439,1,2011.23,2011,12,15,1,0,litu,1028,4.3,19.6,8.92,,,alive,Jennifer McGarvey,Jennifer McGarvey,13375,13375,NA,218.8,0,298,2,NA,1.3,4,3,NA,NA
 102441,1,2011.01,2011,3,24,1,0,litu,1029,1.3,3,114.51,,,alive,Jenny McGarvey,JM/LL/CK/LB,13377,13377,479,465.9,1,299,2,NA,1.3,4,4,NA,NA
@@ -1439,8 +1439,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102443,1,2011.23,2011,12,15,1,0,litu,1029,4.1,7,43.87,,,alive,Jennifer McGarvey,Jennifer McGarvey,13379,13379,NA,506,0,301,2,NA,1.3,4,4,NA,NA
 102444,1,2011.01,2011,3,24,1,0,litu,1029,4.3,5.3,21.16,,,alive,Jenny McGarvey,JM/LL/CK/LB,13380,13380,615,598.7,1,302,2,NA,1.3,4,4,NA,NA
 102444,1,2011.23,2011,12,15,1,0,litu,1029,4.3,5.3,41.11,,,alive,Jennifer McGarvey,Jennifer McGarvey,13380,13380,NA,598.7,0,302,2,NA,1.3,4,4,NA,NA
-102446,2,2011.01,2011,3,24,1,0,litu,1029,0.5,3.7,62.55,,,alive,Jenny McGarvey,JM/LL/CK/LB,13382,13382,679,472,1,303,2,NA,1.3,NA,4,NA,NA
-102446,2,2011.23,2011,12,15,1,0,litu,1029,0.5,3.7,68.79,,,alive,Jennifer McGarvey,Jennifer McGarvey,13382,13382,NA,472,0,303,2,NA,1.3,NA,4,NA,NA
+102446,2,2011.01,2011,3,24,1,0,litu,1029,0.5,3.7,62.55,,,alive,Jenny McGarvey,JM/LL/CK/LB,33849,13382,679,472,1,303,2,NA,1.3,NA,4,NA,NA
+102446,2,2011.23,2011,12,15,1,0,litu,1029,0.5,3.7,68.79,,,alive,Jennifer McGarvey,Jennifer McGarvey,33849,13382,NA,472,0,303,2,NA,1.3,NA,4,NA,NA
 102501,1,2011.01,2011,3,24,1,0,litu,1031,9.8,17.3,40.92,,,alive,Jenny McGarvey,JM/LL/CK/LB,13437,13437,629,615.5,1,304,2,NA,1.3,4,4,NA,NA
 102501,1,2011.23,2011,12,15,1,0,litu,1031,9.8,17.3,49.96,,,alive,Jennifer McGarvey,Jennifer McGarvey,13437,13437,NA,615.5,0,304,2,NA,1.3,4,4,NA,NA
 102502,1,2011.01,2011,3,24,1,0,ulru,1031,0.1,18.6,22.04,,,alive,Jenny McGarvey,JM/LL/CK/LB,13438,13438,121,120,1,305,2,NA,1.3,4,2,NA,NA
@@ -1572,8 +1572,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 111030,1,2011.21,2011,11,1,1,1,litu,1107,15.1,19.9,25.79,,,alive,Caroline/Lorien/Leah,Caroline/Lorien/Leah,14380,14380,NA,581.5,0,313,2,NA,1.3,NA,NA,NA,NA
 111030,1,2011.22,2011,11,17,1,1,litu,1107,15.1,19.9,25.23,,,alive,John/Lulu/Leah,John/Lulu/Leah,14380,14380,NA,581.5,0,313,2,NA,1.3,NA,NA,NA,NA
 111030,1,2011.23,2011,12,15,1,1,litu,1107,15.1,19.9,25.54,,,alive,Jennifer McGarvey,Jennifer McGarvey,14380,14380,NA,581.5,0,313,2,NA,1.3,4,4,NA,NA
-111032,2,2011.01,2011,3,24,1,0,litu,1107,10.3,19,50.92,M,,alive,Jenny McGarvey,JM/LL/CK/LB,14382,14382,607,585,1,314,2,NA,1.3,NA,4,NA,NA
-111032,2,2011.23,2011,12,15,1,0,litu,1107,10.3,19,64.26,,,alive,Jennifer McGarvey,Jennifer McGarvey,14382,14382,NA,585,0,314,2,NA,1.3,NA,4,NA,NA
+111032,2,2011.01,2011,3,24,1,0,litu,1107,10.3,19,50.92,M,,alive,Jenny McGarvey,JM/LL/CK/LB,34073,14382,607,585,1,314,2,NA,1.3,NA,4,NA,NA
+111032,2,2011.23,2011,12,15,1,0,litu,1107,10.3,19,64.26,,,alive,Jennifer McGarvey,Jennifer McGarvey,34073,14382,NA,585,0,314,2,NA,1.3,NA,4,NA,NA
 111039,1,2011.01,2011,3,24,1,0,litu,1108,19.7,4.1,47.5,,,alive,Jenny McGarvey,JM/LL/CK/LB,14388,14388,444,436,1,315,2,NA,1.3,4,3,NA,NA
 111039,1,2011.23,2011,12,15,1,0,litu,1108,19.7,4.1,53.74,,,alive,Jennifer McGarvey,Jennifer McGarvey,14388,14388,NA,436,0,315,2,NA,1.3,4,3,NA,NA
 111041,1,2011.01,2011,1,15,1,0,quru,1108,16.5,5.7,66.93,,,alive,Jenny McGarvey,JM/LL/CK/LB,14390,14390,NA,965.8,0,135,2,NA,1.27,4,4,NA,NA

@@ -1127,8 +1127,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102365,1,2012.18,2012,11,29,1,0,litu,1025,1.1,13.35,16.3,,,alive,Erika Gonzalez,EG/CH,13301,13301,NA,219.5,0,295,2,NA,1.3,NA,NA,NA,NA
 102371,1,2012.01,2012,3,15,1,0,qual,1026,1.55,6.6,7.21,,,alive,Caroline Johnson,CJ/LC/BB,13307,13307,NA,767.3,0,296,2,NA,1.3,4,4,NA,NA
 102371,1,2012.18,2012,11,29,1,0,qual,1026,1.55,6.6,15.22,,,alive,Erika Gonzalez,EG/CH,13307,13307,NA,767.3,0,296,2,NA,1.3,NA,NA,NA,NA
-102438,2,2012.01,2012,3,15,1,0,litu,1028,8.51,16.6,22.03,M; main,,alive,Caroline Johnson,CJ/LC/BB,13374,13374,861,452,0,296,2,NA,1.34,NA,4,NA,NA
-102438,2,2012.18,2012,11,29,1,0,litu,1028,8.51,16.6,22.08,,Band across multiple stems,alive,Erika Gonzalez,EG/CH,13374,13374,NA,452,0,296,2,NA,1.34,NA,NA,NA,NA
+102438,2,2012.01,2012,3,15,1,0,litu,1028,8.51,16.6,22.03,M; main,,alive,Caroline Johnson,CJ/LC/BB,33848,13374,861,452,0,296,2,NA,1.34,NA,4,NA,NA
+102438,2,2012.18,2012,11,29,1,0,litu,1028,8.51,16.6,22.08,,Band across multiple stems,alive,Erika Gonzalez,EG/CH,33848,13374,NA,452,0,296,2,NA,1.34,NA,NA,NA,NA
 102439,1,2012.01,2012,3,15,1,0,litu,1028,4.26,19.58,8.14,,,alive,Caroline Johnson,CJ/LC/BB,13375,13375,NA,218.8,0,298,2,NA,1.3,4,3,NA,NA
 102439,1,2012.18,2012,11,29,1,0,litu,1028,4.26,19.58,10.65,,,alive,Erika Gonzalez,EG/CH,13375,13375,NA,218.8,0,298,2,NA,1.3,NA,NA,NA,NA
 102441,1,2012.01,2012,3,15,1,0,litu,1029,1.34,2.98,123.99,,,alive,Caroline Johnson,CJ/LC/BB,13377,13377,NA,465.9,0,299,2,NA,1.3,4,4,NA,NA
@@ -1139,8 +1139,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102443,1,2012.18,2012,11,29,1,0,litu,1029,4.05,7.01,47.69,,,alive,Erika Gonzalez,EG/CH,13379,13379,NA,506,0,301,2,NA,1.3,NA,NA,NA,NA
 102444,1,2012.01,2012,3,15,1,0,litu,1029,4.33,5.32,40.05,,,alive,Caroline Johnson,CJ/LC/BB,13380,13380,NA,598.7,0,302,2,NA,1.3,4,4,NA,NA
 102444,1,2012.18,2012,11,29,1,0,litu,1029,4.33,5.32,63.61,,,alive,Erika Gonzalez,EG/CH,13380,13380,NA,598.7,0,302,2,NA,1.3,NA,NA,NA,NA
-102446,2,2012.01,2012,3,15,1,0,litu,1029,0.5,3.66,67.06,M,,alive,Caroline Johnson,CJ/LC/BB,13382,13382,679,472,0,302,2,NA,1.3,NA,4,NA,NA
-102446,2,2012.18,2012,11,29,1,0,litu,1029,0.5,3.66,66.89,,Band across multiple stems,alive,Erika Gonzalez,EG/CH,13382,13382,NA,472,0,302,2,NA,1.3,NA,NA,NA,NA
+102446,2,2012.01,2012,3,15,1,0,litu,1029,0.5,3.66,67.06,M,,alive,Caroline Johnson,CJ/LC/BB,33849,13382,679,472,0,302,2,NA,1.3,NA,4,NA,NA
+102446,2,2012.18,2012,11,29,1,0,litu,1029,0.5,3.66,66.89,,Band across multiple stems,alive,Erika Gonzalez,EG/CH,33849,13382,NA,472,0,302,2,NA,1.3,NA,NA,NA,NA
 102475,1,2012.01,2012,3,15,1,0,litu,1030,20,14.3,27.45,,,alive,Caroline Johnson,CJ/LC/BB,13411,13411,NA,472,1,516,2,NA,1.3,NA,NA,NA,NA
 102475,1,2012.18,2012,11,29,1,0,litu,1030,20,14.3,40.92,,,alive,Erika Gonzalez,EG/CH,13411,13411,NA,472,0,516,2,NA,1.3,NA,NA,NA,NA
 102501,1,2012.01,2012,3,15,1,0,litu,1031,9.76,17.3,46.46,,,alive,Caroline Johnson,CJ/LC/BB,13437,13437,NA,615.5,0,304,2,NA,1.3,4,4,NA,NA
@@ -1247,8 +1247,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 111030,1,2012.16,2012,10,23,1,1,litu,1107,15.1,19.9,32.01,,,alive,"Caity, Gonzalez, Teixeira",CH,14380,14380,NA,581.5,0,313,2,NA,1.3,NA,NA,NA,NA
 111030,1,2012.17,2012,11,26,1,1,litu,1107,15.1,19.9,31.97,,,alive,"Gonzalez, Woltz",CH,14380,14380,NA,581.5,0,313,2,NA,1.3,NA,NA,NA,NA
 111030,1,2012.18,2012,11,29,1,1,litu,1107,15.1,19.9,31.98,,,alive,Erika Gonzalez,EG/CH,14380,14380,NA,581.5,0,313,2,NA,1.3,NA,NA,NA,NA
-111032,2,2012.01,2012,3,15,1,0,litu,1107,10.3,19,62.11,M; main,,alive,Caroline Johnson,CJ/LC/BB,14382,14382,607,585,0,313,2,NA,1.3,NA,4,NA,NA
-111032,2,2012.18,2012,11,29,1,0,litu,1107,10.3,19,62.23,,Band bent. Band across multiple stems,alive,Erika Gonzalez,EG/CH,14382,14382,NA,585,0,313,2,NA,1.3,NA,NA,NA,NA
+111032,2,2012.01,2012,3,15,1,0,litu,1107,10.3,19,62.11,M; main,,alive,Caroline Johnson,CJ/LC/BB,34073,14382,607,585,0,313,2,NA,1.3,NA,4,NA,NA
+111032,2,2012.18,2012,11,29,1,0,litu,1107,10.3,19,62.23,,Band bent. Band across multiple stems,alive,Erika Gonzalez,EG/CH,34073,14382,NA,585,0,313,2,NA,1.3,NA,NA,NA,NA
 111039,1,2012.01,2012,3,15,1,0,litu,1108,19.7,4.1,51.88,,,alive,Caroline Johnson,CJ/LC/BB,14388,14388,NA,436,0,315,2,NA,1.3,4,3,NA,NA
 111039,1,2012.18,2012,11,29,1,0,litu,1108,19.7,4.1,62.13,,,alive,Erika Gonzalez,EG/CH,14388,14388,NA,436,0,315,2,NA,1.3,NA,NA,NA,NA
 111041,1,2012.01,2012,3,15,1,0,quru,1108,16.5,5.7,89.1,,,alive,Caroline Johnson,CJ/LC/BB,14390,14390,NA,965.8,0,135,2,NA,1.27,4,4,NA,NA
