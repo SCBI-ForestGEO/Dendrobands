@@ -50,6 +50,9 @@ data_fix_all <- data_install[grep("RD", data_install$codes), ]
 
 #2a. Create the field form ####
 ##dbh column is included here to help know what size dendroband to make. For taking out in the field, don't necessarily have to include this column.
+dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+
+data_fix$location <- dendro_trees$location[match(data_fix$stemID, dendro_trees$stemID)]
 
 data_field<-data_fix[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "dbh", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
 
@@ -100,7 +103,7 @@ data_entry$dir <- NA
 data_entry$crown.condition <- NA
 data_entry$crown.illum <- NA
 
-write.csv(data_entry, "data_entry_fix_replace_2018.csv", row.names=FALSE)
+write.csv(data_entry, "data_entry_fix_replace_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #3. Merge data with year form.

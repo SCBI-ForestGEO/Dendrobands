@@ -5,13 +5,17 @@
 #3 merge data_entry form intraannual with the year's master file
 
 #1 Create field_form intraannual ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/field_forms")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
 
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+
+dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
 prevmeasin <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by previous survey.ID. Change "2018.01" to be the most recent survey.ID when printing a new field form (to have updated previous measurement)
 
 data_intra <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by 2018.01 (one entry per stem)
+
+data_intra$location <- dendro_trees$location[match(data_intra$stemID, dendro_trees$stemID)]
 
 data_intra<-data_intra[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dbh")]
 
@@ -68,6 +72,8 @@ setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 data_intra<-data_2018[which(data_2018$survey.ID=='2018.01' & data_2018$intraannual=='1'), ] #subset by 2018.01 (one entry per stem)
+
+data_intra$location <- dendro_trees$location[match(data_intra$stemID, dendro_trees$stemID)]
 
 data_intra<-data_intra[ ,c("tag", "stemtag", "survey.ID", "year", "month", "day", "sp", "quadrat", "measure", "codes", "notes", "location", "field.recorders", "data.enter")]
 
