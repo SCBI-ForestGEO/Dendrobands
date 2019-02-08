@@ -87,10 +87,10 @@ n.u350 <- c(replace$under.350)
 dendrobands <- c(dendrofull$tag) #trees that are already in dendroband survey
 
 ##subset by trees not already in dendrobands, by our target species, by alive trees over 350 dbh
-trees.o350 <- subset(recensus2018, !(recensus2018$tag %in% dendrobands) & (recensus2018$sp %in% sp) & !(recensus2018$codes %in% c("D", "DS", "DC", "DN", "DT")) & (recensus2018$dbh18 > 350))
+trees.o350 <- subset(recensus2018, !(recensus2018$tag %in% dendrobands) & (recensus2018$sp %in% sp) & !(grepl("D", recensus2018$Codes)) & (recensus2018$dbh18 > 350))
 
 #same for under 350 but above 100 (based on range(under.350$dbhdead))
-trees.u350 <- subset(recensus2018, !(recensus2018$tag %in% dendrobands) & (recensus2018$sp %in% sp) & !(recensus2018$codes %in% c("D", "DS", "DC", "DN", "DT")) & (recensus2018$dbh18 <= 350) & (recensus2018$dbh18 >100))
+trees.u350 <- subset(recensus2018, !(recensus2018$tag %in% dendrobands) & (recensus2018$sp %in% sp) & !(grepl("D", recensus2018$Codes)) & (recensus2018$dbh18 <= 350) & (recensus2018$dbh18 >100))
 
 ##this nest loop says: for each replacement sp and the number of trees, generate random trees based on DBH values. The duplicated function is there because it sometimes includes duplicate tags, so be cautious for the number within the output df
 test.o350 <- NULL
@@ -184,4 +184,5 @@ write.xlsx(temp1, "field_form_new_trees_2018.xlsx", row.names = FALSE, col.names
 #############################################################################
 #7 make data_entry form for new trees ####
 
-#8 merge data_entry form to the next year's master file
+############################################################################
+#8 merge data_entry form to the next year's master file ####
