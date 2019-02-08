@@ -49,7 +49,6 @@ dendro2015 <- dendro2015[dendro2015$new.band==1, ]
 dendro2016 <- dendro2016[dendro2016$new.band==1, ]
 dendro2017 <- dendro2017[dendro2017$new.band==1, ]
 dendro2018 <- dendro2018[dendro2018$new.band==1, ]
-dendro2018 <- dendro2018[ , -17]
 
 install <- rbind(dendro2010, dendro2011, dendro2012, dendro2013, dendro2014, dendro2015, dendro2016, dendro2017, dendro2018)
 
@@ -57,10 +56,10 @@ install <- install[ ,colnames(install) %in% c("tag", "stemtag", "sp", "quadrat",
 
 install <- install[order(install$tag, install$stemtag), ]
 
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+#dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
-length(unique(install$stemID))
-length(unique(dendro_trees$stemID))
-setdiff(dendro_trees$stemID, install$stemID)
+#length(unique(install$stemID))
+#length(unique(dendro_trees$stemID))
+#setdiff(dendro_trees$stemID, install$stemID)
 
 write.csv(install, "dendroID.csv", row.names=FALSE)
