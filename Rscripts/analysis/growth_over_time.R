@@ -6,43 +6,96 @@ setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-8]*.csv")
 years <- c(2011:2018)
 
+#1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID
 all_years <- list()
 
 for (k in seq(along=dirs)){
-
     file <- dirs[[k]]
     yr <- read.csv(file)
     yr_intra <- yr[yr$intraannual==1, ]
-    tent_name <- paste0(years, sep="_", "trees")
 
-      #years[[j]] <- ifelse(dirs[[k]]=="scbi.dendroAll_2010.csv", 
-                           #split(yr, yr$stemID),
-                           #split(yr_intra, yr_intra$stemID))
-      tent <- split(yr_intra, yr_intra$stemID)
-
-  all_years[[k]] <- tent
+    all_years[[k]] <- split(yr_intra, yr_intra$stemID)
 }
+tent_name <- paste0("trees", sep="_", years)
 names(all_years) <- tent_name
 
-#NEXT STEPS 
-2. rbind trees by stemID throughout all years, so have full chronology from 2010
-3. Run a variation of the for-loop below to find growth
-4. Make growth graphs of each stemID like I tried before.
+#the below loop takes all the unique stemIDs from each year and rbinds them.
+all_stems <- list()
+
+for(stemID in sort(unique(unlist(sapply(all_years, names))))) {
+  all_stems[[paste0("stemID_", stemID)]] <-  do.call(rbind, lapply(years, function(year) all_years[[paste0("trees", sep="_", year)]][[stemID]]))
+}
+
+#sort(unique(unlist(sapply(all_years, names)))) -> an explainer:
+#sapply says find all the names within all_years
+#unlist says take all those names (all those stemIDS) and dump them all together
+#unique gets rid of the duplicates, and sort sorts them
 
 
+#need to call in Condit's functions (also saved in separate R code) for the next bit
+objectiveFuncDendro= function(diameter2,diameter1,gap1,gap2){
+  if(gap1>diameter1) return(20)
+  if(gap2>diameter2) return(20)
+  
+  delta=abs(diameter1 - diameter2 + (1/pi) * diameter2 * asin(gap2/diameter2) - (1/pi) * diameter1 * asin(gap1/diameter1))
+  
+  return(return(delta))
+}
+findOneDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
+  if(is.na(dbh1)|is.na(m1)|is.na(m2)|dbh1<=0) return(NA)
+  
+  if(m2>0) upper=dbh1+m2
+  else upper=dbh1+1
+  if(m2<m1) lower=0
+  else lower=dbh1
+  
+  result=optimize(f=func,interval=c(lower,upper),diameter1=dbh1,gap1=m1,gap2=m2)
+  return(result$minimum)
+}
+findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
+  records=max(length(dbh1),length(m1),length(m2))
+  
+  if(length(dbh1)==1) dbh1=rep(dbh1,records)
+  if(length(m1)==1) m1=rep(m1,records)
+  if(length(m2)==1) m2=rep(m2,records)
+  
+  dbh2=numeric()
+  for(i in 1:records) dbh2[i]=findOneDendroDBH(dbh1[i],m1[i],m2[i],func)
+  return(dbh2)
+}
 
-test <- intra[intra$tag==30512, ]
-test$dbh2 <- NA
-stems <- c(unique(intra$stemID))
-
-trees <- split(intra, intra$stemID) #split data into list of dataframes
-
-
-#for-loop for each stem in a single year's intraannual survey to determine dbh growth
-
-#this loop says the following:
+#1b. this loop says the following:
 ##1. Assigns the first dbh of the growth column as the first dbh.
 ##2. Says if new.band=0 (no band change), use Condit's function to determine next dbh based on caliper measurement. If new.band=1 (band and measurement change) and the dbh in the original column is unchanged (indicating a new dbh wasn't recorded when the band was changed), then find the avg of the previous rows in the growth column and add to the previous dbh. Otherwise, if new.band=1 and the dbh in the original column was newly recorded, use Condit's function.
+
+for(stems in names(all_stems)) {
+  tree.n <- all_stems[[stems]]
+  tree.n$dbh2 <- ""
+  
+  for (i in 2:(nrow(tree.n))){
+    cal <- c(tree.n$measure)
+    tree.n$dbh2[[1]] <- tree.n$dbh[[1]]
+    tree.n$dbh2 <- as.numeric(tree.n$dbh2)
+    tree.n$dbh2[[i]] <- ifelse(tree.n$new.band[[i]] ==0, 
+                         findDendroDBH(tree.n$dbh2[[i-1]], cal[[i-1]], cal[[i]]),
+                         ifelse(tree.n$dbh[[i]] == tree.n$dbh[[i-1]], 
+                                mean(diff(tree.n$dbh2[1:i-1])) + tree.n$dbh2[[i-1]],
+                                findDendroDBH(tree.n$dbh2[[i-1]], cal[[i-1]], cal[[i]])))
+  }
+  all_stems[[stems]] <- tree.n
+}
+
+
+
+
+###QUESTIONS
+2. what happens to NA values in this iteration
+
+######################################################################################
+#1c. troubleshoot #####
+dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+intra <- dendro_2018[dendro_2018$intraannual==1, ]
+test <- intra[intra$tag==12025, ] #12025 has band replaced
 
 for (i in 2:nrow(test)){
   cal <- c(test$measure)
@@ -55,31 +108,94 @@ for (i in 2:nrow(test)){
                                 findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]])))
 }
 
+dendro_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
+intra <- dendro_2017[dendro_2017$intraannual==1, ]
+test <- intra[intra$tag==10671, ] #10671 has band replaced but with NAs for a few measurements
 
+for (i in 2:nrow(test)){
+  cal <- c(test$measure)
+  test$dbh2[1] <- test$dbh[1]
+  
+  test$dbh2[i] <- 
+    ifelse(test$new.band[[i]] ==0 & !is.na(test$measure[[i]]), 
+     findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]]),
+     
+     ifelse(test$new.band[[i]] == 0 & is.na(test$measure[[i]]),
+      is.na(test$db2[[i]]),
+      
+      ifelse(test$new.band[[i]]==1 & is.na(test$dbh2[[i-1]]) & test$dbh[[i]] == test$dbh[[i-1]],
+        mean(diff(test$dbh2[1:max(which(!is.na(test$dbh2)))])) + (max(which(!is.na(test$dbh2)))),
+        
+        ifelse(test$new.band[[i]]==1 & !is.na(test$dbh2[[i-1]]) & test$dbh[[i]] == test$dbh[[i-1]]),
+        mean(diff(test$dbh2[1:i-1])) + test$dbh2[[i-1]],
+        findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]]))))
+}
 
-###QUESTIONS
-2. what happens to NA values in this iteration
-4. Because dbh and dendDiam are so close, we approximate them to be the same. Ideally, we have data for dendDiam AND dbh for each band replacement, so it doesnt matter which one we use. But thats not the case.
+##trying to figure out lines 126-132 to account for when measurements have any number of rows of NA
+##after that, next step is to bring in the 2010 data
 
-#1a. troubleshoot ##################
-band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
-intra <- band18[band18$intraannual==1, ]
-intra$dbh2 <- NA
-
-x10671 <- intra[intra$tag==10671, ]
-cal <- c(x10671$measure)
-x10671$dbh2[[1]] <- x10671$dbh[[1]]
-#x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.01), x10671$dbh, x10671$dbh2)
-
-x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.02, findDendroDBH(x10671$dbh, cal[[1]], cal[[2]]), x10671$dbh2)
-
-x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.03, findDendroDBH(x10671$dbh2[[2]], cal[[2]], cal[[3]]), x10671$dbh2)
-
-x10671$dbh2 <- ifelse(x10671$survey.ID == 2018.04, findDendroDBH(x10671$dbh2[[3]], cal[[3]], cal[[4]]), x10671$dbh2)
 
 
 #######################################################################################
-#2 find variability of tree growth by species by year #####
+#2 Graph the dbh growth per stem in a given year #####
+## based off McMahon code: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4314258/
+
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
+band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+
+library(chron)
+band18$date <- paste0(band18$month, sep="/", band18$day, sep="/", band18$year)
+band18$doy <- julian(band18$month, band18$day, band18$year, origin=c(01,01,2018))
+
+band18$date <- as.Date(band18$date, format="%m/%d/%Y")
+band18$date <- factor(band18$date, ordered=TRUE)
+
+
+
+
+#2a. for-loop graphs ####
+#this code makes graphs for every dendroband stemID
+library(ggplot2)
+
+pdf(file = "DBH_growth_Dendrobands.pdf")
+for (j in names(all_stems)){
+  dendro <- all_stems[[j]]
+  
+  dendro$date <- paste0(dendro$month, sep="/", dendro$day, sep="/", dendro$year)
+  dendro$date <- as.Date(dendro$date, format="%m/%d/%Y")
+  #dendro$date <- factor(dendro$date, ordered=TRUE)
+  
+  #dendro$doy <- julian(dendro$month, dendro$day, dendro$year, origin=c(01,01,2018))
+  
+  q <- ggplot(dendro, aes(x = date, y = dbh2)) +
+    geom_line(color = "#0c4c8a") +
+    labs(title = "Tree Growth from Dendrobands 2011-2018",
+         x = "Date",
+         y = "DBH in mm") +
+    theme_minimal()
+    #facet_wrap(c("tag", "stemtag"), labeller="label_both")
+  print(q)
+}
+dev.off()
+
+###
+test <- subset(intra, intra$tag == 10671)
+plot(test$doy, test$measure, xlab = "Day of the year", ylab = "DBH (cm)", pch = 18, 
+     col = "red", main = "Cumulative annual growth")
+###
+
+test <- subset(intra, intra$tag == 10671)
+p <- ggplot(test) +
+  aes(x = doy, y = measure) +
+  geom_line(color = "#0c4c8a") +
+  labs(title = paste0("Dendroband Growth 2018 ", "_10671"),
+       x = "Date 2018",
+       y = "Caliper measurements") +
+  theme_minimal()
+print(p)
+dev.off()
+########################################################################################
+#3 find variability of tree growth by species by year #####
 
 #2010 not included because only one measurement
 dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-8]*.csv")
@@ -142,7 +258,7 @@ step2$avg_growth_range_mm <- step2[, "maxgrowth_mm"] - step2[, "mingrowth_mm"]
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
 write.csv(step2, "growth_variability_by_sp.csv", row.names=FALSE)
 #########################################################################################
-#3. growth variability graphs ####
+#4. growth variability graphs ####
 library(ggplot2)
 library(RColorBrewer)
 
@@ -169,7 +285,7 @@ ggplot(data = step2) +
 dev.off()
 
 ######################################################################################
-#4 troubleshooting for-loop ##############################################
+#5. troubleshooting for-loop ##############################################
 dendro_2018 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 dendro_2018$sp <- as.character(dendro_2018$sp)
@@ -209,61 +325,3 @@ library(data.table)
 file <- rbindlist(all_sp)
 colnames(file) <- c("sp", "avg_range")
 file$avg_range <- round(file$avg_range, digits=2)
-######################################################################################
-#5 Graph the dbh growth per stem in a given year #####
-## based off McMahon code: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4314258/
-
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
-
-library(chron)
-band18$date <- paste0(band18$month, sep="/", band18$day, sep="/", band18$year)
-band18$doy <- julian(band18$month, band18$day, band18$year, origin=c(01,01,2018))
-
-intra <- subset(band18, band18$intraannual == 1)
-
-tagsintra <- c(unique(intra$tag))
-surveys <- c(unique(intra$survey.ID))
-
-intra$date <- as.Date(intra$date, format="%m/%d/%Y")
-intra$date <- factor(intra$date, ordered=TRUE)
-
-intraannual <- split(intra, f=c(intra$tag))
-
-library(ggplot2)
-
-##5a. for-loop graphs ####
-#this code makes graphs for every dendroband individual, with sub-graphs for those trees with multiple stems. The next bit is to do this same graph but be able to show the dendroband measurements but in dbh changes.
-pdf(file = "Dendroband_caliper_growth_2018.pdf")
-for (i in names(intraannual)){
-  
-  dendro <- intraannual[[i]]
-  
-  q <- ggplot(data = dendro) +
-    aes(x = doy, y = measure, group=1) +
-    geom_line(color = "#0c4c8a") +
-    labs(title = paste0("Dendroband Growth 2018 ",sep="_", i),
-         x = "Date 2018",
-         y = "Caliper measurements") +
-    theme_minimal() +
-    facet_wrap(c("tag", "stemtag"), labeller="label_both")
-  print(q)
-}
-dev.off()
-
-###
-test <- subset(intra, intra$tag == 10671)
-plot(test$doy, test$measure, xlab = "Day of the year", ylab = "DBH (cm)", pch = 18, 
-     col = "red", main = "Cumulative annual growth")
-###
-
-test <- subset(intra, intra$tag == 10671)
-p <- ggplot(test) +
-  aes(x = doy, y = measure) +
-  geom_line(color = "#0c4c8a") +
-  labs(title = paste0("Dendroband Growth 2018 ", "_10671"),
-       x = "Date 2018",
-       y = "Caliper measurements") +
-  theme_minimal()
-print(p)
-dev.off()
