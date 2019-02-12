@@ -176,16 +176,16 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 32097,1,2017.01,2017,4,18,1,0,litu,320,17.9,3,59.9,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,4326,4326,NA,633.5,0,593,2,NA,1.42,4,5,NA,NA
 32097,1,2017.12,2017,11,14,1,0,litu,320,17.9,3,60.3,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,4326,4326,NA,633.5,0,593,2,NA,1.42,NA,NA,NA,NA
 32126,1,2017.01,2017,4,18,1,1,litu,321,9.6,5,165.4,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,4355,4355,NA,995.5,0,699,2,NA,1.48,4,4,NA,NA
-32126,1,2017.02,2017,5,18,1,1,litu,321,9.6,5,24.65,,,alive,Victoria Meakem,Victoria Meakem,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.03,2017,6,2,1,1,litu,321,9.6,5,26.81,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.04,2017,6,21,1,1,litu,321,9.6,5,30.27,,,alive,Abigail Ferson,Abigail Ferson,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.05,2017,6,30,1,1,litu,321,9.6,5,31.22,,,alive,Abigail Ferson,Abigail Ferson,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.06,2017,7,13,1,1,litu,321,9.6,5,33.41,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.07,2017,7,31,1,1,litu,321,9.6,5,37.2,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.09,2017,8,17,1,1,litu,321,9.6,5,39.3,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.1,2017,9,11,1,1,litu,321,9.6,5,41,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.11,2017,9,21,1,1,litu,321,9.6,5,40.97,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,699,2,NA,1.48,NA,NA,NA,NA
-32126,1,2017.12,2017,11,14,1,1,litu,321,9.6,5,42.08,,band replaced 04/21/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,4355,4355,NA,995.5,1,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.02,2017,5,18,1,1,litu,321,9.6,5,24.65,,band replaced 4/21/2017,alive,Victoria Meakem,Victoria Meakem,4355,4355,NA,995.5,1,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.03,2017,6,2,1,1,litu,321,9.6,5,26.81,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.04,2017,6,21,1,1,litu,321,9.6,5,30.27,,,alive,Abigail Ferson,Abigail Ferson,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.05,2017,6,30,1,1,litu,321,9.6,5,31.22,,,alive,Abigail Ferson,Abigail Ferson,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.06,2017,7,13,1,1,litu,321,9.6,5,33.41,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.07,2017,7,31,1,1,litu,321,9.6,5,37.2,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.09,2017,8,17,1,1,litu,321,9.6,5,39.3,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.1,2017,9,11,1,1,litu,321,9.6,5,41,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.11,2017,9,21,1,1,litu,321,9.6,5,40.97,,,alive,Ryan Helcoski,Ryan Helcoski,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+32126,1,2017.12,2017,11,14,1,1,litu,321,9.6,5,42.08,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
 32381,1,2017.01,2017,4,18,1,0,qupr,327,4.6,12.8,167.2,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,4606,4606,NA,834,0,28,2,NA,1.34,2,4,NA,NA
 32381,1,2017.12,2017,11,14,1,0,qupr,327,4.6,12.8,39.2,,band replaced 04/21/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,4606,4606,NA,834,1,754,2,NA,1.34,NA,NA,NA,NA
 32423,1,2017.01,2017,4,18,1,0,litu,329,17.6,13.1,149.9,A;I,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,4647,4647,NA,914,0,29,2,NA,1.31,4,4,NA,NA
@@ -385,11 +385,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60459,1,2017.04,2017,6,21,1,1,fagr,615,2,3,NA,,,alive,Abigail Ferson,Abigail Ferson,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
 60459,1,2017.05,2017,6,30,1,1,fagr,615,2,3,NA,,,alive,Abigail Ferson,Abigail Ferson,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
 60459,1,2017.06,2017,7,13,1,1,fagr,615,2,3,NA,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
-60459,1,2017.07,2017,7,31,1,1,fagr,615,2,3,6.96,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
-60459,1,2017.09,2017,8,17,1,1,fagr,615,2,3,7.62,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
-60459,1,2017.1,2017,9,11,1,1,fagr,615,2,3,7.78,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
-60459,1,2017.11,2017,9,21,1,1,fagr,615,2,3,8.14,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,691,2,NA,1.36,NA,NA,NA,NA
-60459,1,2017.12,2017,11,16,1,1,fagr,615,2,3,8.45,,band replaced in 07/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,7444,7444,NA,99.7,1,755,2,NA,1.36,NA,NA,NA,NA
+60459,1,2017.07,2017,7,31,1,1,fagr,615,2,3,6.96,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,1,755,2,NA,1.36,NA,NA,NA,NA
+60459,1,2017.09,2017,8,17,1,1,fagr,615,2,3,7.62,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,755,2,NA,1.36,NA,NA,NA,NA
+60459,1,2017.1,2017,9,11,1,1,fagr,615,2,3,7.78,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,755,2,NA,1.36,NA,NA,NA,NA
+60459,1,2017.11,2017,9,21,1,1,fagr,615,2,3,8.14,,,alive,Ryan Helcoski,Ryan Helcoski,7444,7444,NA,99.7,0,755,2,NA,1.36,NA,NA,NA,NA
+60459,1,2017.12,2017,11,16,1,1,fagr,615,2,3,8.45,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,7444,7444,NA,99.7,0,755,2,NA,1.36,NA,NA,NA,NA
 60462,1,2017.01,2017,4,18,1,1,fagr,615,5.6,7.6,36.02,,,alive,Valentine Herrmann,Caroline Kittle,7447,7447,NA,209.5,0,704,2,NA,1.43,4,3,NA,NA
 60462,1,2017.02,2017,5,18,1,1,fagr,615,5.6,7.6,36.02,,,alive,Victoria Meakem,Victoria Meakem,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
 60462,1,2017.03,2017,6,2,1,1,fagr,615,5.6,7.6,36.93,,,alive,Ryan Helcoski,Ryan Helcoski,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
@@ -408,10 +408,10 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60463,1,2017.05,2017,6,30,1,1,juni,615,7.2,8,51.14,,,alive,Abigail Ferson,Abigail Ferson,7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2017.06,2017,7,13,1,1,juni,615,7.2,8,51.4,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2017.07,2017,7,31,1,1,juni,615,7.2,8,52.75,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
-60463,1,2017.09,2017,8,17,1,1,juni,615,7.2,8,32.53,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
-60463,1,2017.1,2017,9,11,1,1,juni,615,7.2,8,31.01,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
-60463,1,2017.11,2017,9,21,1,1,juni,615,7.2,8,31.24,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
-60463,1,2017.12,2017,11,16,1,1,juni,615,7.2,8,32.24,,band replaced in 07/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,7448,7448,NA,468,1,756,2,NA,1.43,NA,NA,NA,NA
+60463,1,2017.09,2017,8,17,1,1,juni,615,7.2,8,32.53,,band replaced in 07/2017,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,1,756,2,NA,1.43,NA,NA,NA,NA
+60463,1,2017.1,2017,9,11,1,1,juni,615,7.2,8,31.01,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,756,2,NA,1.43,NA,NA,NA,NA
+60463,1,2017.11,2017,9,21,1,1,juni,615,7.2,8,31.24,,,alive,Ryan Helcoski,Ryan Helcoski,7448,7448,NA,468,0,756,2,NA,1.43,NA,NA,NA,NA
+60463,1,2017.12,2017,11,16,1,1,juni,615,7.2,8,32.24,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,7448,7448,NA,468,0,756,2,NA,1.43,NA,NA,NA,NA
 60468,1,2017.01,2017,4,18,1,1,caca,615,5.4,9.6,23.39,,,alive,Valentine Herrmann,Caroline Kittle,7453,7453,NA,67.3,0,567,2,NA,1.38,4,2,NA,NA
 60468,1,2017.02,2017,5,18,1,1,caca,615,5.4,9.6,23.68,,,alive,Victoria Meakem,Victoria Meakem,7453,7453,NA,67.3,0,567,2,NA,1.38,NA,NA,NA,NA
 60468,1,2017.03,2017,6,2,1,1,caca,615,5.4,9.6,24.56,,,alive,Ryan Helcoski,Ryan Helcoski,7453,7453,NA,67.3,0,567,2,NA,1.38,NA,NA,NA,NA
@@ -651,11 +651,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 62224,1,2017.04,2017,6,21,1,1,litu,622,3.2,17.3,102.35,,,alive,Abigail Ferson,Abigail Ferson,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
 62224,1,2017.05,2017,6,30,1,1,litu,622,3.2,17.3,123.8,,,alive,Abigail Ferson,Abigail Ferson,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
 62224,1,2017.06,2017,7,13,1,1,litu,622,3.2,17.3,123.93,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
-62224,1,2017.07,2017,7,31,1,1,litu,622,3.2,17.3,93.7,,band fixed and adjusted 7/31 ,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
-62224,1,2017.09,2017,8,17,1,1,litu,622,3.2,17.3,93.78,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
-62224,1,2017.1,2017,9,11,1,1,litu,622,3.2,17.3,93.79,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
-62224,1,2017.11,2017,9,21,1,1,litu,622,3.2,17.3,93.44,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
-62224,1,2017.12,2017,11,14,1,1,litu,622,3.2,17.3,95.01,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,7801,7801,NA,1040.5,0,49,2,NA,1.3,NA,NA,NA,NA
+62224,1,2017.07,2017,7,31,1,1,litu,622,3.2,17.3,93.7,,band fixed and adjusted 7/31 ,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,1,849,2,NA,1.3,NA,NA,NA,NA
+62224,1,2017.09,2017,8,17,1,1,litu,622,3.2,17.3,93.78,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,849,2,NA,1.3,NA,NA,NA,NA
+62224,1,2017.1,2017,9,11,1,1,litu,622,3.2,17.3,93.79,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,849,2,NA,1.3,NA,NA,NA,NA
+62224,1,2017.11,2017,9,21,1,1,litu,622,3.2,17.3,93.44,,,alive,Ryan Helcoski,Ryan Helcoski,7801,7801,NA,1040.5,0,849,2,NA,1.3,NA,NA,NA,NA
+62224,1,2017.12,2017,11,14,1,1,litu,622,3.2,17.3,95.01,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,7801,7801,NA,1040.5,0,849,2,NA,1.3,NA,NA,NA,NA
 62241,1,2017.01,2017,4,18,1,0,litu,623,13.9,0.7,105.1,M; main,Box turtle (12m E),alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,7818,7818,NA,928.5,0,50,2,NA,1.26,3,4,NA,NA
 62241,1,2017.12,2017,11,14,1,0,litu,623,13.9,0.7,112.94,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,7818,7818,NA,928.5,0,50,2,NA,1.26,NA,NA,NA,NA
 62417,1,2017.01,2017,4,18,1,0,quve,630,8.9,17,68.8,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,7992,7992,NA,944,0,51,2,NA,1.4,3,4,NA,NA
@@ -800,11 +800,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 70581,1,2017.04,2017,6,21,1,1,quru,714,13.7,1.2,168,,,alive,Abigail Ferson,Abigail Ferson,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
 70581,1,2017.05,2017,6,30,1,1,quru,714,13.7,1.2,167.22,,,alive,Abigail Ferson,Abigail Ferson,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
 70581,1,2017.06,2017,7,13,1,1,quru,714,13.7,1.2,167.27,,Replace band,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
-70581,1,2017.07,2017,7,31,1,1,quru,714,13.7,1.2,5.95,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
-70581,1,2017.09,2017,8,17,1,1,quru,714,13.7,1.2,6.12,,,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
-70581,1,2017.1,2017,9,11,1,1,quru,714,13.7,1.2,6.14,,,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
-70581,1,2017.11,2017,9,21,1,1,quru,714,13.7,1.2,6.43,,,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
-70581,1,2017.12,2017,11,16,1,1,quru,714,13.7,1.2,6.51,,band replaced in 07/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,8580,8580,NA,614.5,1,757,2,NA,1.45,NA,NA,NA,NA
+70581,1,2017.07,2017,7,31,1,1,quru,714,13.7,1.2,5.95,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,1,757,2,NA,1.45,NA,NA,NA,NA
+70581,1,2017.09,2017,8,17,1,1,quru,714,13.7,1.2,6.12,,,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,757,2,NA,1.45,NA,NA,NA,NA
+70581,1,2017.1,2017,9,11,1,1,quru,714,13.7,1.2,6.14,,,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,757,2,NA,1.45,NA,NA,NA,NA
+70581,1,2017.11,2017,9,21,1,1,quru,714,13.7,1.2,6.43,,,alive,Ryan Helcoski,Ryan Helcoski,8580,8580,NA,614.5,0,757,2,NA,1.45,NA,NA,NA,NA
+70581,1,2017.12,2017,11,16,1,1,quru,714,13.7,1.2,6.51,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,8580,8580,NA,614.5,0,757,2,NA,1.45,NA,NA,NA,NA
 70588,1,2017.01,2017,4,18,1,0,quve,714,16.2,5.2,1.35,,,alive,Valentine Herrmann,Caroline Kittle,8580,8580,NA,520.9,0,69,2,NA,1.42,3,3,NA,NA
 70588,1,2017.12,2017,11,16,1,0,quve,714,16.2,5.2,NA,,dead,dead,"Lauren Bowman, Mario Morales",Lauren Bowman,8580,8580,NA,520.9,0,69,2,NA,1.42,NA,NA,NA,NA
 72024,1,2017.01,2017,4,18,1,0,quve,717,20,9.6,134.09,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,8670,8670,NA,482.3,0,70,2,NA,1.4,4,4,NA,NA
@@ -830,11 +830,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72124,1,2017.04,2017,6,21,1,1,quru,719,12.5,19.4,65.69,,,alive,Abigail Ferson,Abigail Ferson,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
 72124,1,2017.05,2017,6,30,1,1,quru,719,12.5,19.4,66.07,,,alive,Abigail Ferson,Abigail Ferson,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
 72124,1,2017.06,2017,7,13,1,1,quru,719,12.5,19.4,NA,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
-72124,1,2017.07,2017,7,31,1,1,quru,719,12.5,19.4,71.22,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
-72124,1,2017.09,2017,8,17,1,1,quru,719,12.5,19.4,71.67,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
-72124,1,2017.1,2017,9,11,1,1,quru,719,12.5,19.4,72.37,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
-72124,1,2017.11,2017,9,21,1,1,quru,719,12.5,19.4,72.35,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
-72124,1,2017.12,2017,11,14,1,1,quru,719,12.5,19.4,73.02,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,8769,8769,NA,747.2,0,663,2,NA,1.54,NA,NA,NA,NA
+72124,1,2017.07,2017,7,31,1,1,quru,719,12.5,19.4,71.22,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,1,850,2,NA,1.54,NA,NA,NA,NA
+72124,1,2017.09,2017,8,17,1,1,quru,719,12.5,19.4,71.67,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
+72124,1,2017.1,2017,9,11,1,1,quru,719,12.5,19.4,72.37,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
+72124,1,2017.11,2017,9,21,1,1,quru,719,12.5,19.4,72.35,,,alive,Ryan Helcoski,Ryan Helcoski,8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
+72124,1,2017.12,2017,11,14,1,1,quru,719,12.5,19.4,73.02,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
 72149,1,2017.01,2017,4,18,1,0,litu,720,13.8,0.7,149.4,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,8794,8794,NA,554.1,0,75,2,NA,1.45,4,4,NA,NA
 72149,1,2017.12,2017,11,14,1,0,litu,720,13.8,0.7,158.04,,"window too large, replace band; band replaced after Nov survey",alive,"Lauren Bowman, Mario Morales",Mario Morales,8794,8794,NA,554.1,0,75,2,NA,1.45,NA,NA,NA,NA
 72210,1,2017.01,2017,4,18,1,1,qual,721,5.2,11.5,107.7,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,8853,8853,NA,853.1,0,76,2,NA,1.33,2,4,NA,NA
@@ -882,33 +882,33 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72337,1,2017.04,2017,6,21,1,1,quru,727,7.9,2.6,159.5,,,alive,Abigail Ferson,Abigail Ferson,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
 72337,1,2017.05,2017,6,30,1,1,quru,727,7.9,2.6,160.08,,,alive,Abigail Ferson,Abigail Ferson,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
 72337,1,2017.06,2017,7,13,1,1,quru,727,7.9,2.6,163.17,,change band,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
-72337,1,2017.07,2017,7,31,1,1,quru,727,7.9,2.6,8.99,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
-72337,1,2017.09,2017,8,17,1,1,quru,727,7.9,2.6,9.41,,,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
-72337,1,2017.1,2017,9,11,1,1,quru,727,7.9,2.6,10.26,,,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
-72337,1,2017.11,2017,9,21,1,1,quru,727,7.9,2.6,10.46,,,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,82,2,NA,1.36,NA,NA,NA,NA
-72337,1,2017.12,2017,11,14,1,1,quru,727,7.9,2.6,11.53,,band replaced 7/28/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,8977,8977,NA,905.8,1,759,2,NA,1.36,NA,NA,NA,NA
+72337,1,2017.07,2017,7,31,1,1,quru,727,7.9,2.6,8.99,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,1,759,2,NA,1.36,NA,NA,NA,NA
+72337,1,2017.09,2017,8,17,1,1,quru,727,7.9,2.6,9.41,,,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,759,2,NA,1.36,NA,NA,NA,NA
+72337,1,2017.1,2017,9,11,1,1,quru,727,7.9,2.6,10.26,,,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,759,2,NA,1.36,NA,NA,NA,NA
+72337,1,2017.11,2017,9,21,1,1,quru,727,7.9,2.6,10.46,,,alive,Ryan Helcoski,Ryan Helcoski,8977,8977,NA,905.8,0,759,2,NA,1.36,NA,NA,NA,NA
+72337,1,2017.12,2017,11,14,1,1,quru,727,7.9,2.6,11.53,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,8977,8977,NA,905.8,0,759,2,NA,1.36,NA,NA,NA,NA
 72348,1,2017.01,2017,4,18,1,1,quru,727,12,15.1,156.6,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,8988,8988,NA,946.6,0,83,2,NA,1.5,3,4,NA,NA
 72348,1,2017.02,2017,5,18,1,1,quru,727,12,15.1,157.53,,,alive,Victoria Meakem,Victoria Meakem,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
 72348,1,2017.03,2017,6,2,1,1,quru,727,12,15.1,158.01,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
 72348,1,2017.04,2017,6,21,1,1,quru,727,12,15.1,162,,,alive,Abigail Ferson,Abigail Ferson,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
 72348,1,2017.05,2017,6,30,1,1,quru,727,12,15.1,162.36,,,alive,Abigail Ferson,Abigail Ferson,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
 72348,1,2017.06,2017,7,13,1,1,quru,727,12,15.1,163.76,,change band,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
-72348,1,2017.07,2017,7,31,1,1,quru,727,12,15.1,132.12,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
-72348,1,2017.09,2017,8,17,1,1,quru,727,12,15.1,132.12,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
-72348,1,2017.1,2017,9,11,1,1,quru,727,12,15.1,131.98,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
-72348,1,2017.11,2017,9,21,1,1,quru,727,12,15.1,131.78,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,83,2,NA,1.5,NA,NA,NA,NA
-72348,1,2017.12,2017,11,14,1,1,quru,727,12,15.1,132.16,,band replaced 7/28/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,8988,8988,NA,946.6,1,760,2,NA,1.5,NA,NA,NA,NA
+72348,1,2017.07,2017,7,31,1,1,quru,727,12,15.1,132.12,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,1,760,2,NA,1.5,NA,NA,NA,NA
+72348,1,2017.09,2017,8,17,1,1,quru,727,12,15.1,132.12,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,760,2,NA,1.5,NA,NA,NA,NA
+72348,1,2017.1,2017,9,11,1,1,quru,727,12,15.1,131.98,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,760,2,NA,1.5,NA,NA,NA,NA
+72348,1,2017.11,2017,9,21,1,1,quru,727,12,15.1,131.78,,,alive,Ryan Helcoski,Ryan Helcoski,8988,8988,NA,946.6,0,760,2,NA,1.5,NA,NA,NA,NA
+72348,1,2017.12,2017,11,14,1,1,quru,727,12,15.1,132.16,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,8988,8988,NA,946.6,0,760,2,NA,1.5,NA,NA,NA,NA
 72357,1,2017.01,2017,4,18,1,1,quru,728,1.7,2,159.5,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,8997,8997,NA,881.3,0,594,2,NA,1.4,4,4,NA,NA
-72357,1,2017.02,2017,5,18,1,1,quru,728,1.7,2,52.69,,double checked 5/18,alive,Victoria Meakem,Victoria Meakem,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.03,2017,6,2,1,1,quru,728,1.7,2,56.58,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.04,2017,6,21,1,1,quru,728,1.7,2,58.01,,,alive,Abigail Ferson,Abigail Ferson,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.05,2017,6,30,1,1,quru,728,1.7,2,61.68,,,alive,Abigail Ferson,Abigail Ferson,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.06,2017,7,13,1,1,quru,728,1.7,2,63.82,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.07,2017,7,31,1,1,quru,728,1.7,2,68.22,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.09,2017,8,17,1,1,quru,728,1.7,2,70.17,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.1,2017,9,11,1,1,quru,728,1.7,2,72.99,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.11,2017,9,21,1,1,quru,728,1.7,2,72.99,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,594,2,NA,1.4,NA,NA,NA,NA
-72357,1,2017.12,2017,11,14,1,1,quru,728,1.7,2,75.7,,band replaced 4/21/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,8997,8997,NA,881.3,1,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.02,2017,5,18,1,1,quru,728,1.7,2,52.69,,band replaced 4/21/2017,alive,Victoria Meakem,Victoria Meakem,8997,8997,NA,881.3,1,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.03,2017,6,2,1,1,quru,728,1.7,2,56.58,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.04,2017,6,21,1,1,quru,728,1.7,2,58.01,,,alive,Abigail Ferson,Abigail Ferson,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.05,2017,6,30,1,1,quru,728,1.7,2,61.68,,,alive,Abigail Ferson,Abigail Ferson,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.06,2017,7,13,1,1,quru,728,1.7,2,63.82,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.07,2017,7,31,1,1,quru,728,1.7,2,68.22,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.09,2017,8,17,1,1,quru,728,1.7,2,70.17,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.1,2017,9,11,1,1,quru,728,1.7,2,72.99,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.11,2017,9,21,1,1,quru,728,1.7,2,72.99,,,alive,Ryan Helcoski,Ryan Helcoski,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
+72357,1,2017.12,2017,11,14,1,1,quru,728,1.7,2,75.7,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,8997,8997,NA,881.3,0,761,2,NA,1.4,NA,NA,NA,NA
 72375,1,2017.01,2017,4,18,1,0,litu,728,13.7,17.1,67.9,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,9015,9015,NA,669.1,0,85,2,NA,1.28,3,4,NA,NA
 72375,1,2017.12,2017,11,14,1,0,litu,728,13.7,17.1,76.05,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,9015,9015,NA,669.1,0,85,2,NA,1.28,NA,NA,NA,NA
 72377,1,2017.01,2017,4,18,1,0,litu,728,10.6,16.1,118.4,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,9016,9016,NA,746.9,0,86,2,NA,1.3,4,4,NA,NA
@@ -919,11 +919,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72427,1,2017.04,2017,6,21,1,1,litu,730,3.6,19.4,33.77,,adj needed 6/22,alive,Abigail Ferson,Abigail Ferson,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2017.05,2017,6,30,1,1,litu,730,3.6,19.4,35.37,,,alive,Abigail Ferson,Abigail Ferson,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2017.06,2017,7,13,1,1,litu,730,3.6,19.4,36.31,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2017.07,2017,7,31,1,1,litu,730,3.6,19.4,42.73,,adjusted 7/27,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2017.09,2017,8,17,1,1,litu,730,3.6,19.4,42.86,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2017.1,2017,9,11,1,1,litu,730,3.6,19.4,43.07,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2017.11,2017,9,21,1,1,litu,730,3.6,19.4,41.87,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2017.12,2017,11,14,1,1,litu,730,3.6,19.4,42.51,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+72427,1,2017.07,2017,7,31,1,1,litu,730,3.6,19.4,42.73,,adjusted 7/27,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,851,2,NA,1.35,NA,NA,NA,NA
+72427,1,2017.09,2017,8,17,1,1,litu,730,3.6,19.4,42.86,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,851,2,NA,1.35,NA,NA,NA,NA
+72427,1,2017.1,2017,9,11,1,1,litu,730,3.6,19.4,43.07,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,851,2,NA,1.35,NA,NA,NA,NA
+72427,1,2017.11,2017,9,21,1,1,litu,730,3.6,19.4,41.87,,,alive,Ryan Helcoski,Ryan Helcoski,9066,9066,NA,1422.3,0,851,2,NA,1.35,NA,NA,NA,NA
+72427,1,2017.12,2017,11,14,1,1,litu,730,3.6,19.4,42.51,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,9066,9066,NA,1422.3,0,851,2,NA,1.35,NA,NA,NA,NA
 72447,1,2017.01,2017,4,18,1,0,litu,732,14.9,4.1,26.32,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,9085,9085,NA,591.3,0,710,2,NA,1.31,3,4,NA,NA
 72447,1,2017.12,2017,11,14,1,0,litu,732,14.9,4.1,36.07,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,9085,9085,NA,591.3,0,710,2,NA,1.31,NA,NA,NA,NA
 72448,1,2017.01,2017,4,18,1,0,litu,732,18.9,4.7,110.2,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,9086,9086,NA,457.8,0,636,2,NA,1.34,1,4,NA,NA
@@ -1062,11 +1062,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 90660,1,2017.04,2017,6,21,1,1,quru,913,4.9,7.9,199.02,,,alive,Abigail Ferson,Abigail Ferson,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
 90660,1,2017.05,2017,6,30,1,1,quru,913,4.9,7.9,199.41,,,alive,Abigail Ferson,Abigail Ferson,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
 90660,1,2017.06,2017,7,13,1,1,quru,913,4.9,7.9,200.28,,Replace band,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
-90660,1,2017.07,2017,7,31,1,1,quru,913,4.9,7.9,26.07,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
-90660,1,2017.09,2017,8,17,1,1,quru,913,4.9,7.9,27.59,,,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
-90660,1,2017.1,2017,9,11,1,1,quru,913,4.9,7.9,32.12,,,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
-90660,1,2017.11,2017,9,21,1,1,quru,913,4.9,7.9,31.92,,,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,123,2,NA,1.22,NA,NA,NA,NA
-90660,1,2017.12,2017,11,15,1,1,quru,913,4.9,7.9,32.12,,band replaced in 07/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,10904,10904,NA,947.4,1,763,2,NA,1.22,NA,NA,NA,NA
+90660,1,2017.07,2017,7,31,1,1,quru,913,4.9,7.9,26.07,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,1,763,2,NA,1.22,NA,NA,NA,NA
+90660,1,2017.09,2017,8,17,1,1,quru,913,4.9,7.9,27.59,,,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,763,2,NA,1.22,NA,NA,NA,NA
+90660,1,2017.1,2017,9,11,1,1,quru,913,4.9,7.9,32.12,,,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,763,2,NA,1.22,NA,NA,NA,NA
+90660,1,2017.11,2017,9,21,1,1,quru,913,4.9,7.9,31.92,,,alive,Ryan Helcoski,Ryan Helcoski,10904,10904,NA,947.4,0,763,2,NA,1.22,NA,NA,NA,NA
+90660,1,2017.12,2017,11,15,1,1,quru,913,4.9,7.9,32.12,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,10904,10904,NA,947.4,0,763,2,NA,1.22,NA,NA,NA,NA
 90752,1,2017.01,2017,4,18,1,1,qual,916,12.4,7.4,26.71,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,10963,10963,NA,510.1,0,642,2,NA,1.3,4,4,NA,NA
 90752,1,2017.02,2017,5,18,1,1,qual,916,12.4,7.4,31.64,,,alive,Victoria Meakem,Victoria Meakem,10963,10963,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
 90752,1,2017.03,2017,6,2,1,1,qual,916,12.4,7.4,33.16,,,alive,Ryan Helcoski,Ryan Helcoski,10963,10963,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
@@ -1153,16 +1153,16 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 100612,1,2017.01,2017,4,18,1,0,litu,1003,12,4.4,33.63,I,,alive,Valentine Herrmann,Caroline Kittle,12269,12269,NA,1200.9,0,714,2,NA,1.38,4,4,NA,NA
 100612,1,2017.12,2017,11,15,1,0,litu,1003,12,4.4,49.47,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12269,12269,NA,1200.9,0,714,2,NA,1.38,NA,NA,NA,NA
 100754,1,2017.01,2017,4,18,1,1,quru,1005,3.8,6.8,159,,measured with tape,alive,Valentine Herrmann,Caroline Kittle,12406,12406,NA,430.2,0,277,2,NA,1.35,4,4,NA,NA
-100754,1,2017.02,2017,5,18,1,1,quru,1005,3.8,6.8,12.14,,,alive,Victoria Meakem,Victoria Meakem,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.03,2017,6,2,1,1,quru,1005,3.8,6.8,13.22,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.04,2017,6,21,1,1,quru,1005,3.8,6.8,13.73,,,alive,Abigail Ferson,Abigail Ferson,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.05,2017,6,30,1,1,quru,1005,3.8,6.8,14.31,,,alive,Abigail Ferson,Abigail Ferson,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.06,2017,7,13,1,1,quru,1005,3.8,6.8,14.86,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.07,2017,7,31,1,1,quru,1005,3.8,6.8,15.47,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.09,2017,8,17,1,1,quru,1005,3.8,6.8,15.48,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.1,2017,9,11,1,1,quru,1005,3.8,6.8,15.89,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.11,2017,9,21,1,1,quru,1005,3.8,6.8,15.88,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,277,2,NA,1.35,NA,NA,NA,NA
-100754,1,2017.12,2017,11,15,1,1,quru,1005,3.8,6.8,17.27,,band replaced in 04/21/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12406,12406,NA,430.2,1,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.02,2017,5,18,1,1,quru,1005,3.8,6.8,12.14,,band replaced in 04/21/2017,alive,Victoria Meakem,Victoria Meakem,12406,12406,NA,430.2,1,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.03,2017,6,2,1,1,quru,1005,3.8,6.8,13.22,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.04,2017,6,21,1,1,quru,1005,3.8,6.8,13.73,,,alive,Abigail Ferson,Abigail Ferson,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.05,2017,6,30,1,1,quru,1005,3.8,6.8,14.31,,,alive,Abigail Ferson,Abigail Ferson,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.06,2017,7,13,1,1,quru,1005,3.8,6.8,14.86,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.07,2017,7,31,1,1,quru,1005,3.8,6.8,15.47,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.09,2017,8,17,1,1,quru,1005,3.8,6.8,15.48,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.1,2017,9,11,1,1,quru,1005,3.8,6.8,15.89,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.11,2017,9,21,1,1,quru,1005,3.8,6.8,15.88,,,alive,Ryan Helcoski,Ryan Helcoski,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
+100754,1,2017.12,2017,11,15,1,1,quru,1005,3.8,6.8,17.27,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12406,12406,NA,430.2,0,764,2,NA,1.35,NA,NA,NA,NA
 100771,1,2017.01,2017,4,18,1,1,quru,1005,8.5,17,87.57,,Double checked,alive,Valentine Herrmann,Caroline Kittle,12422,12422,NA,921.1,0,666,2,NA,1.4,4,4,NA,NA
 100771,1,2017.02,2017,5,18,1,1,quru,1005,8.5,17,92.52,,,alive,Victoria Meakem,Victoria Meakem,12422,12422,NA,921.1,0,666,2,NA,1.4,NA,NA,NA,NA
 100771,1,2017.03,2017,6,2,1,1,quru,1005,8.5,17,95.99,,,alive,Ryan Helcoski,Ryan Helcoski,12422,12422,NA,921.1,0,666,2,NA,1.4,NA,NA,NA,NA
@@ -1188,16 +1188,16 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 100906,1,2017.01,2017,4,18,1,0,litu,1008,9.3,1.1,15.5,,,alive,Valentine Herrmann,Caroline Kittle,12530,12530,NA,497,0,598,2,NA,1.3,4,4,NA,NA
 100906,1,2017.12,2017,11,15,1,0,litu,1008,9.3,1.1,20.35,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12530,12530,NA,497,0,598,2,NA,1.3,NA,NA,NA,NA
 100960,1,2017.01,2017,4,18,1,1,quru,1010,13.8,10.5,178.5,,measured with tape,alive,Valentine Herrmann,Caroline Kittle,12583,12583,NA,563.5,0,279,2,NA,1.5,4,4,NA,NA
-100960,1,2017.02,2017,5,18,1,1,quru,1010,13.8,10.5,8.74,,,alive,Victoria Meakem,Victoria Meakem,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.03,2017,6,2,1,1,quru,1010,13.8,10.5,10.06,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.04,2017,6,21,1,1,quru,1010,13.8,10.5,11.65,,,alive,Abigail Ferson,Abigail Ferson,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.05,2017,6,30,1,1,quru,1010,13.8,10.5,12.65,,,alive,Abigail Ferson,Abigail Ferson,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.06,2017,7,13,1,1,quru,1010,13.8,10.5,13.24,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.07,2017,7,31,1,1,quru,1010,13.8,10.5,16.65,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.09,2017,8,17,1,1,quru,1010,13.8,10.5,17.61,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.1,2017,9,11,1,1,quru,1010,13.8,10.5,18.78,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.11,2017,9,21,1,1,quru,1010,13.8,10.5,18.94,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,279,2,NA,1.5,NA,NA,NA,NA
-100960,1,2017.12,2017,11,15,1,1,quru,1010,13.8,10.5,19.86,,band replaced in 04/21/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12583,12583,NA,563.5,1,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.02,2017,5,18,1,1,quru,1010,13.8,10.5,8.74,,band replaced in 04/21/2017,alive,Victoria Meakem,Victoria Meakem,12583,12583,NA,563.5,1,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.03,2017,6,2,1,1,quru,1010,13.8,10.5,10.06,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.04,2017,6,21,1,1,quru,1010,13.8,10.5,11.65,,,alive,Abigail Ferson,Abigail Ferson,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.05,2017,6,30,1,1,quru,1010,13.8,10.5,12.65,,,alive,Abigail Ferson,Abigail Ferson,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.06,2017,7,13,1,1,quru,1010,13.8,10.5,13.24,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.07,2017,7,31,1,1,quru,1010,13.8,10.5,16.65,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.09,2017,8,17,1,1,quru,1010,13.8,10.5,17.61,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.1,2017,9,11,1,1,quru,1010,13.8,10.5,18.78,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.11,2017,9,21,1,1,quru,1010,13.8,10.5,18.94,,,alive,Ryan Helcoski,Ryan Helcoski,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
+100960,1,2017.12,2017,11,15,1,1,quru,1010,13.8,10.5,19.86,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12583,12583,NA,563.5,0,765,2,NA,1.5,NA,NA,NA,NA
 101111,1,2017.01,2017,4,18,1,0,litu,1011,0.1,1.3,27.9,,,alive,Valentine Herrmann,Caroline Kittle,12730,12730,NA,96.2,0,281,2,NA,1.5,4,2,NA,NA
 101111,1,2017.12,2017,11,15,1,0,litu,1011,0.1,1.3,29.37,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,12730,12730,NA,96.2,0,281,2,NA,1.5,NA,NA,NA,NA
 101118,1,2017.01,2017,4,18,1,0,litu,1011,0.3,3,68.67,,,alive,Valentine Herrmann,Caroline Kittle,12737,12737,NA,190.7,0,643,2,NA,1.4,4,3,NA,NA
@@ -1452,11 +1452,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 112336,1,2017.04,2017,6,21,1,1,qual,1125,17,13.8,39.22,,,alive,Abigail Ferson,Abigail Ferson,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
 112336,1,2017.05,2017,6,30,1,1,qual,1125,17,13.8,35.23,,,alive,Abigail Ferson,Abigail Ferson,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
 112336,1,2017.06,2017,7,13,1,1,qual,1125,17,13.8,33.98,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
-112336,1,2017.07,2017,7,31,1,1,qual,1125,17,13.8,11.53,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
-112336,1,2017.09,2017,8,17,1,1,qual,1125,17,13.8,11.32,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
-112336,1,2017.1,2017,9,11,1,1,qual,1125,17,13.8,10.94,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
-112336,1,2017.11,2017,9,21,1,1,qual,1125,17,13.8,11.08,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,330,2,NA,1.3,NA,NA,NA,NA
-112336,1,2017.12,2017,11,14,1,1,qual,1125,17,13.8,13.22,,band replaced after survey on 7/27/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,15051,15051,NA,516,1,767,2,NA,1.3,NA,NA,NA,NA
+112336,1,2017.07,2017,7,31,1,1,qual,1125,17,13.8,11.53,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,1,767,2,NA,1.3,NA,NA,NA,NA
+112336,1,2017.09,2017,8,17,1,1,qual,1125,17,13.8,11.32,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
+112336,1,2017.1,2017,9,11,1,1,qual,1125,17,13.8,10.94,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
+112336,1,2017.11,2017,9,21,1,1,qual,1125,17,13.8,11.08,,,alive,Ryan Helcoski,Ryan Helcoski,15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
+112336,1,2017.12,2017,11,14,1,1,qual,1125,17,13.8,13.22,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
 112342,1,2017.01,2017,4,18,1,0,nysy,1125,14.2,16.7,3.6,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,15055,15055,NA,196.7,0,332,2,NA,1.3,4,3,NA,NA
 112342,1,2017.12,2017,11,14,1,0,nysy,1125,14.2,16.7,5.27,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,15055,15055,NA,196.7,0,332,2,NA,1.3,NA,NA,NA,NA
 112350,1,2017.01,2017,4,18,1,0,cagl,1126,11.7,5.6,41.95,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,15063,15063,NA,602,0,333,2,NA,1.3,4,4,NA,NA
@@ -1527,10 +1527,10 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 121221,1,2017.05,2017,6,30,1,1,litu,1207,1.7,19.3,86.3,,,alive,Abigail Ferson,Abigail Ferson,16317,16317,NA,117.2,0,345,2,NA,1.3,NA,NA,NA,NA
 121221,1,2017.06,2017,7,13,1,1,litu,1207,1.7,19.3,85.97,,,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,345,2,NA,1.3,NA,NA,NA,NA
 121221,1,2017.07,2017,7,31,1,1,litu,1207,1.7,19.3,86.75,,,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,345,2,NA,1.3,NA,NA,NA,NA
-121221,1,2017.09,2017,8,17,1,1,litu,1207,1.7,19.3,5.87,,replaced 8/17,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,345,2,NA,1.3,NA,NA,NA,NA
-121221,1,2017.1,2017,9,11,1,1,litu,1207,1.7,19.3,5.71,,,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,345,2,NA,1.3,NA,NA,NA,NA
-121221,1,2017.11,2017,9,21,1,1,litu,1207,1.7,19.3,5.78,,,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,345,2,NA,1.3,NA,NA,NA,NA
-121221,1,2017.12,2017,11,15,1,1,litu,1207,1.7,19.3,5.44,,band replaced in 07/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,16317,16317,NA,117.2,1,768,2,NA,1.3,NA,NA,NA,NA
+121221,1,2017.09,2017,8,17,1,1,litu,1207,1.7,19.3,5.87,,replaced 8/17,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,1,768,2,NA,1.3,NA,NA,NA,NA
+121221,1,2017.1,2017,9,11,1,1,litu,1207,1.7,19.3,5.71,,,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,768,2,NA,1.3,NA,NA,NA,NA
+121221,1,2017.11,2017,9,21,1,1,litu,1207,1.7,19.3,5.78,,,alive,Ryan Helcoski,Ryan Helcoski,16317,16317,NA,117.2,0,768,2,NA,1.3,NA,NA,NA,NA
+121221,1,2017.12,2017,11,15,1,1,litu,1207,1.7,19.3,5.44,,band replaced in 07/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,16317,16317,NA,117.2,0,768,2,NA,1.3,NA,NA,NA,NA
 121275,1,2017.01,2017,4,18,1,0,qupr,1209,1.7,16.9,19.66,L,,alive,Valentine Herrmann,Caroline Kittle,16370,16370,NA,256,0,518,2,NA,1.15,4,3,NA,NA
 121275,1,2017.12,2017,11,15,1,0,qupr,1209,1.7,16.9,20.93,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,16370,16370,NA,256,0,518,2,NA,1.15,NA,NA,NA,NA
 121291,1,2017.01,2017,4,18,1,0,qupr,1210,2.8,9.4,68.88,,,alive,Valentine Herrmann,Caroline Kittle,16386,16386,NA,439.2,0,611,2,NA,1.4,4,4,NA,NA
@@ -1678,16 +1678,16 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 131086,1,2017.01,2017,4,18,1,0,quru,1310,18.1,15.5,16.68,,Band replaced 4/4/2017,alive,Valentine Herrmann,Caroline Kittle,18012,18012,NA,582,1,734,2,NA,1.35,4,4,NA,NA
 131086,1,2017.12,2017,11,15,1,0,quru,1310,18.1,15.5,29.34,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,18012,18012,NA,582,0,734,2,NA,1.35,NA,NA,NA,NA
 131087,1,2017.01,2017,4,18,1,1,quru,1310,17.3,17.8,131.6,,Need to expand window,alive,Valentine Herrmann,Caroline Kittle,18013,18013,NA,665,0,148,2,NA,1.21,3,4,NA,NA
-131087,1,2017.02,2017,5,18,1,1,quru,1310,17.3,17.8,14.29,,,alive,Victoria Meakem,Victoria Meakem,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.03,2017,6,2,1,1,quru,1310,17.3,17.8,15.72,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.04,2017,6,21,1,1,quru,1310,17.3,17.8,17.57,,,alive,Abigail Ferson,Abigail Ferson,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.05,2017,6,30,1,1,quru,1310,17.3,17.8,18.28,,,alive,Abigail Ferson,Abigail Ferson,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.06,2017,7,13,1,1,quru,1310,17.3,17.8,19.25,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.07,2017,7,31,1,1,quru,1310,17.3,17.8,20.76,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.09,2017,8,17,1,1,quru,1310,17.3,17.8,21.62,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.1,2017,9,11,1,1,quru,1310,17.3,17.8,22.26,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.11,2017,9,21,1,1,quru,1310,17.3,17.8,22.3,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,148,2,NA,1.21,NA,NA,NA,NA
-131087,1,2017.12,2017,11,15,1,1,quru,1310,17.3,17.8,23.11,,band replaced in 04/18/2017,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,18013,18013,NA,665,1,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.02,2017,5,18,1,1,quru,1310,17.3,17.8,14.29,,band replaced in 04/18/2017,alive,Victoria Meakem,Victoria Meakem,18013,18013,NA,665,1,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.03,2017,6,2,1,1,quru,1310,17.3,17.8,15.72,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.04,2017,6,21,1,1,quru,1310,17.3,17.8,17.57,,,alive,Abigail Ferson,Abigail Ferson,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.05,2017,6,30,1,1,quru,1310,17.3,17.8,18.28,,,alive,Abigail Ferson,Abigail Ferson,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.06,2017,7,13,1,1,quru,1310,17.3,17.8,19.25,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.07,2017,7,31,1,1,quru,1310,17.3,17.8,20.76,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.09,2017,8,17,1,1,quru,1310,17.3,17.8,21.62,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.1,2017,9,11,1,1,quru,1310,17.3,17.8,22.26,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.11,2017,9,21,1,1,quru,1310,17.3,17.8,22.3,,,alive,Ryan Helcoski,Ryan Helcoski,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+131087,1,2017.12,2017,11,15,1,1,quru,1310,17.3,17.8,23.11,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
 131092,1,2017.01,2017,4,18,1,0,litu,1311,13.1,2.7,127.13,,,alive,Valentine Herrmann,Caroline Kittle,18018,18018,NA,472.9,0,149,2,NA,1.3,3,4,NA,NA
 131092,1,2017.12,2017,11,15,1,0,litu,1311,13.1,2.7,131.7,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,18018,18018,NA,472.9,0,149,2,NA,1.3,NA,NA,NA,NA
 131096,1,2017.01,2017,4,18,1,0,litu,1311,19,4.7,12.61,,,alive,Valentine Herrmann,Caroline Kittle,18022,18022,NA,280.8,0,150,2,NA,1.22,3,3,NA,NA
@@ -1720,16 +1720,16 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 132028,1,2017.01,2017,4,18,1,0,fram,1317,17,6.7,50.9,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18369,18369,NA,595.7,0,160,2,NA,1.4,3,4,NA,NA
 132028,1,2017.12,2017,11,14,1,0,fram,1317,17,6.7,57.01,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,18369,18369,NA,595.7,0,160,2,NA,1.4,NA,NA,NA,NA
 132077,1,2017.01,2017,4,18,1,1,qual,1319,9.9,15.9,160.3,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18414,18414,NA,592.4,0,161,2,NA,1.45,4,4,NA,NA
-132077,1,2017.02,2017,5,18,1,1,qual,1319,9.9,15.9,15.99,,,alive,Victoria Meakem,Victoria Meakem,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.03,2017,6,2,1,1,qual,1319,9.9,15.9,18.06,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.04,2017,6,21,1,1,qual,1319,9.9,15.9,20.76,,,alive,Abigail Ferson,Abigail Ferson,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.05,2017,6,30,1,1,qual,1319,9.9,15.9,24.53,,,alive,Abigail Ferson,Abigail Ferson,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.06,2017,7,13,1,1,qual,1319,9.9,15.9,23.37,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.07,2017,7,31,1,1,qual,1319,9.9,15.9,25.9,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.09,2017,8,17,1,1,qual,1319,9.9,15.9,27.12,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.1,2017,9,11,1,1,qual,1319,9.9,15.9,27.32,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.11,2017,9,21,1,1,qual,1319,9.9,15.9,27.04,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,161,2,NA,1.45,NA,NA,NA,NA
-132077,1,2017.12,2017,11,14,1,1,qual,1319,9.9,15.9,27.91,,band replaced 4/26/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,18414,18414,NA,592.4,1,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.02,2017,5,18,1,1,qual,1319,9.9,15.9,15.99,,band replaced 4/26/2017,alive,Victoria Meakem,Victoria Meakem,18414,18414,NA,592.4,1,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.03,2017,6,2,1,1,qual,1319,9.9,15.9,18.06,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.04,2017,6,21,1,1,qual,1319,9.9,15.9,20.76,,,alive,Abigail Ferson,Abigail Ferson,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.05,2017,6,30,1,1,qual,1319,9.9,15.9,24.53,,,alive,Abigail Ferson,Abigail Ferson,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.06,2017,7,13,1,1,qual,1319,9.9,15.9,23.37,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.07,2017,7,31,1,1,qual,1319,9.9,15.9,25.9,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.09,2017,8,17,1,1,qual,1319,9.9,15.9,27.12,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.1,2017,9,11,1,1,qual,1319,9.9,15.9,27.32,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.11,2017,9,21,1,1,qual,1319,9.9,15.9,27.04,,,alive,Ryan Helcoski,Ryan Helcoski,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2017.12,2017,11,14,1,1,qual,1319,9.9,15.9,27.91,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 132171,1,2017.01,2017,4,18,1,0,litu,1320,13.7,6.7,163.03,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18501,18501,NA,522.3,0,162,2,NA,1.39,4,4,NA,NA
 132171,1,2017.12,2017,11,14,1,0,litu,1320,13.7,6.7,30.56,,band replaced 4/26/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,18501,18501,NA,522.3,1,772,2,NA,1.39,NA,NA,NA,NA
 132302,1,2017.01,2017,4,18,1,0,quru,1321,13,14.4,110.1,I,Band replaced 4/3/2017; wrong measurement in the field,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18624,18624,NA,907.9,1,736,2,NA,1.31,4,4,NA,NA
@@ -1756,11 +1756,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 132539,1,2017.04,2017,6,21,1,1,litu,1331,15,15.9,110.35,,,alive,Abigail Ferson,Abigail Ferson,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
 132539,1,2017.05,2017,6,30,1,1,litu,1331,15,15.9,111.23,,,alive,Abigail Ferson,Abigail Ferson,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
 132539,1,2017.06,2017,7,13,1,1,litu,1331,15,15.9,111.52,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
-132539,1,2017.07,2017,7,31,1,1,litu,1331,15,15.9,10.6,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
-132539,1,2017.09,2017,8,17,1,1,litu,1331,15,15.9,10.79,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
-132539,1,2017.1,2017,9,11,1,1,litu,1331,15,15.9,10.68,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
-132539,1,2017.11,2017,9,21,1,1,litu,1331,15,15.9,10.59,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,172,2,NA,1.37,NA,NA,NA,NA
-132539,1,2017.12,2017,11,14,1,1,litu,1331,15,15.9,11.27,,band replaced 7/27/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,18832,18832,NA,604.5,1,773,2,NA,1.37,NA,NA,NA,NA
+132539,1,2017.07,2017,7,31,1,1,litu,1331,15,15.9,10.6,,replaced 7/27,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,1,773,2,NA,1.37,NA,NA,NA,NA
+132539,1,2017.09,2017,8,17,1,1,litu,1331,15,15.9,10.79,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,773,2,NA,1.37,NA,NA,NA,NA
+132539,1,2017.1,2017,9,11,1,1,litu,1331,15,15.9,10.68,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,773,2,NA,1.37,NA,NA,NA,NA
+132539,1,2017.11,2017,9,21,1,1,litu,1331,15,15.9,10.59,,,alive,Ryan Helcoski,Ryan Helcoski,18832,18832,NA,604.5,0,773,2,NA,1.37,NA,NA,NA,NA
+132539,1,2017.12,2017,11,14,1,1,litu,1331,15,15.9,11.27,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,18832,18832,NA,604.5,0,773,2,NA,1.37,NA,NA,NA,NA
 132542,1,2017.01,2017,4,18,1,0,quve,1332,15.4,2.9,98.7,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18835,18835,NA,718,0,173,2,NA,1.37,3,3,NA,NA
 132542,1,2017.12,2017,11,14,1,0,quve,1332,15.4,2.9,107.82,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,18835,18835,NA,718,0,173,2,NA,1.37,NA,NA,NA,NA
 132545,1,2017.01,2017,4,18,1,0,litu,1332,9.5,11.2,81.4,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18838,18838,NA,446,0,174,2,NA,1.29,4,4,NA,NA
@@ -2184,16 +2184,16 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 192133,1,2017.01,2017,4,18,1,0,caovl,1923,11.7,2.3,131.71,G,,alive,"Victoria Meakem, Aaron",Caroline Kittle,28553,28553,NA,552,0,437,2,NA,1.3,4,4,NA,NA
 192133,1,2017.12,2017,11,15,1,0,caovl,1923,11.7,2.3,148.39,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,28553,28553,NA,552,0,437,2,NA,1.3,NA,NA,NA,NA
 192244,1,2017.01,2017,4,18,1,1,qual,1919,18.1,16.8,134.34,,Replace band,alive,"Victoria Meakem, Aaron",Caroline Kittle,28661,28661,NA,443.5,0,438,2,NA,1.3,4,4,NA,NA
-192244,1,2017.02,2017,5,18,1,1,qual,1919,18.1,16.8,11.24,,double checked 5/18,alive,Victoria Meakem,Victoria Meakem,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.03,2017,6,2,1,1,qual,1919,18.1,16.8,11.85,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.04,2017,6,21,1,1,qual,1919,18.1,16.8,12.27,,,alive,Abigail Ferson,Abigail Ferson,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.05,2017,6,30,1,1,qual,1919,18.1,16.8,12.28,,,alive,Abigail Ferson,Abigail Ferson,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.06,2017,7,13,1,1,qual,1919,18.1,16.8,12.96,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.07,2017,7,31,1,1,qual,1919,18.1,16.8,14.01,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.09,2017,8,17,1,1,qual,1919,18.1,16.8,14.42,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.1,2017,9,11,1,1,qual,1919,18.1,16.8,14.16,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.11,2017,9,21,1,1,qual,1919,18.1,16.8,14.18,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,438,2,NA,1.3,NA,NA,NA,NA
-192244,1,2017.12,2017,11,15,1,1,qual,1919,18.1,16.8,14.59,,band replaced 4/26/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,28661,28661,NA,443.5,1,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.02,2017,5,18,1,1,qual,1919,18.1,16.8,11.24,,band replaced 4/26/2017,alive,Victoria Meakem,Victoria Meakem,28661,28661,NA,443.5,1,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.03,2017,6,2,1,1,qual,1919,18.1,16.8,11.85,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.04,2017,6,21,1,1,qual,1919,18.1,16.8,12.27,,,alive,Abigail Ferson,Abigail Ferson,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.05,2017,6,30,1,1,qual,1919,18.1,16.8,12.28,,,alive,Abigail Ferson,Abigail Ferson,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.06,2017,7,13,1,1,qual,1919,18.1,16.8,12.96,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.07,2017,7,31,1,1,qual,1919,18.1,16.8,14.01,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.09,2017,8,17,1,1,qual,1919,18.1,16.8,14.42,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.1,2017,9,11,1,1,qual,1919,18.1,16.8,14.16,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.11,2017,9,21,1,1,qual,1919,18.1,16.8,14.18,,,alive,Ryan Helcoski,Ryan Helcoski,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2017.12,2017,11,15,1,1,qual,1919,18.1,16.8,14.59,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
 192437,1,2017.01,2017,4,18,1,1,litu,1925,17,11.5,43.91,,,alive,"Victoria Meakem, Aaron",Caroline Kittle,28848,28848,NA,436.9,0,653,2,NA,1.3,4,4,NA,NA
 192437,1,2017.02,2017,5,18,1,1,litu,1925,17,11.5,44.33,,,alive,Victoria Meakem,Victoria Meakem,28848,28848,NA,436.9,0,653,2,NA,1.3,NA,NA,NA,NA
 192437,1,2017.03,2017,6,2,1,1,litu,1925,17,11.5,46.7,,,alive,Ryan Helcoski,Ryan Helcoski,28848,28848,NA,436.9,0,653,2,NA,1.3,NA,NA,NA,NA
