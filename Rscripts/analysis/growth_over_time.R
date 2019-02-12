@@ -2,8 +2,8 @@
 
 #1 convert intraannual growth to dbh####
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-8]*.csv")
+setwd("E:/Github_SCBI/Dendrobands/data")
+dirs <- dir("E:/Github_SCBI/Dendrobands/data", pattern="_201[1-8]*.csv")
 years <- c(2011:2018)
 
 #1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID
@@ -93,7 +93,7 @@ for(stems in names(all_stems)) {
 
 ######################################################################################
 #1c. troubleshoot #####
-dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro_2018 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
 intra <- dendro_2018[dendro_2018$intraannual==1, ]
 test <- intra[intra$tag==12025, ] #12025 has band replaced
 
@@ -108,9 +108,9 @@ for (i in 2:nrow(test)){
                                 findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]])))
 }
 
-dendro_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
+dendro_2017 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2017.csv")
 intra <- dendro_2017[dendro_2017$intraannual==1, ]
-test <- intra[intra$tag==10671, ] #10671 has band replaced but with NAs for a few measurements
+test <- intra[intra$tag==60459, ] #60459 has band replaced but with NAs for a few measurements. The following code was also tried with tag 10671 that had one NA measurement and it worked.
 
 for (i in 2:nrow(test)){
   cal <- c(test$measure)
@@ -124,24 +124,29 @@ for (i in 2:nrow(test)){
       is.na(test$db2[[i]]),
       
       ifelse(test$new.band[[i]]==1 & is.na(test$dbh2[[i-1]]) & test$dbh[[i]] == test$dbh[[i-1]],
-        mean(diff(test$dbh2[1:max(which(!is.na(test$dbh2)))])) + (max(which(!is.na(test$dbh2)))),
+        sum(mean(diff(test$dbh2[1:max(which(!is.na(test$dbh2)))])), test$dbh2[[max(which(!is.na(test$dbh2)))]]),
         
-        ifelse(test$new.band[[i]]==1 & !is.na(test$dbh2[[i-1]]) & test$dbh[[i]] == test$dbh[[i-1]]),
-        mean(diff(test$dbh2[1:i-1])) + test$dbh2[[i-1]],
-        findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]]))))
+        ifelse(test$new.band[[i]]==1 & !is.na(test$dbh2[[i-1]]) & test$dbh[[i]]==test$dbh[[i-1]],
+          sum(mean(diff(test$dbh2[1:i-1])), test$dbh2[[i-1]]),
+        findDendroDBH(test$dbh2[[max(which(!is.na(test$dbh2)))]], cal[[max(which(!is.na(test$dbh2)))]], cal[[i]])))))
 }
+
+NonNAindex <- which(as.numeric(!is.na(test$dbh2)))
+firstNonNA <- min(NonNAindex)
+lapply(!is.na(test$dbh2), tail, 1)
+sapply(test$dbh2, function(x) max(which(!is.na(x))))
 
 ##trying to figure out lines 126-132 to account for when measurements have any number of rows of NA
 ##after that, next step is to bring in the 2010 data
 
-
+max(which(complete.cases(test$dbh2)))
 
 #######################################################################################
 #2 Graph the dbh growth per stem in a given year #####
 ## based off McMahon code: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4314258/
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+setwd("E:/Github_SCBI/Dendrobands/data")
+band18 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 library(chron)
 band18$date <- paste0(band18$month, sep="/", band18$day, sep="/", band18$year)
@@ -198,7 +203,7 @@ dev.off()
 #3 find variability of tree growth by species by year #####
 
 #2010 not included because only one measurement
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-8]*.csv")
+dirs <- dir("E:/Github_SCBI/Dendrobands/data", pattern="_201[1-8]*.csv")
 
 library(data.table)
 date <- c(2011:2018)
@@ -255,7 +260,7 @@ step2$mingrowth_mm <- apply(step2[, 2:9], 1, min, na.rm=TRUE)
 step2$maxgrowth_mm <- apply(step2[, 2:9], 1, max, na.rm=TRUE)
 step2$avg_growth_range_mm <- step2[, "maxgrowth_mm"] - step2[, "mingrowth_mm"]
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
+setwd("E:/Github_SCBI/Dendrobands/results")
 write.csv(step2, "growth_variability_by_sp.csv", row.names=FALSE)
 #########################################################################################
 #4. growth variability graphs ####
