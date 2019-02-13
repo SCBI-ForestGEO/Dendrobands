@@ -66,7 +66,12 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
 
 #1b. this loop says the following:
 ##1. Assigns the first dbh of the growth column as the first dbh.
-##2. Says if new.band=0 (no band change), use Condit's function to determine next dbh based on caliper measurement. If new.band=1 (band and measurement change) and the dbh in the original column is unchanged (indicating a new dbh wasn't recorded when the band was changed), then find the avg of the previous rows in the growth column and add to the previous dbh. Otherwise, if new.band=1 and the dbh in the original column was newly recorded, use Condit's function.
+##2. Says the following:
+#i.If new.band=0 (no band change), use Condit's function to determine next dbh based on caliper measurement. 
+#ii. If new.band=0 and the previous measure is NA, give dbh2 a value of NA.
+#iii. If new.band=1 (band and measurement change), dbh2 value is NA, and the dbh in the original column is unchanged (indicating a new dbh wasn't recorded when the band was changed), then dbh2 = find the avg of the previous rows in the growth column and add to the previous dbh. 
+#iv. If new.band=1, dbh2 value is NA, and dbh is different, then dbh2 = Condit's function. 
+#iii. Otherwise, if new.band=1 and the dbh in the original column was newly recorded, use Condit's function.
 
 for(stems in names(all_stems)) {
   tree.n <- all_stems[[stems]]
@@ -86,57 +91,49 @@ for(stems in names(all_stems)) {
 }
 
 
-
-
 ###QUESTIONS
 2. what happens to NA values in this iteration
 
 ######################################################################################
-#1c. troubleshoot #####
+##1c. troubleshoot with individual tags
 dendro_2018 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
 intra <- dendro_2018[dendro_2018$intraannual==1, ]
 test <- intra[intra$tag==12025, ] #12025 has band replaced
 
-for (i in 2:nrow(test)){
-  cal <- c(test$measure)
-  test$dbh2[1] <- test$dbh[1]
-  
-  test$dbh2[i] <- ifelse(test$new.band[[i]] ==0, 
-                         findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]]),
-                         ifelse(test$dbh[[i]] == test$dbh[[i-1]], 
-                                mean(diff(test$dbh2[1:i-1])) + test$dbh2[[i-1]],
-                                findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]])))
-}
-
 dendro_2017 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2017.csv")
 intra <- dendro_2017[dendro_2017$intraannual==1, ]
-test <- intra[intra$tag==60459, ] #60459 has band replaced but with NAs for a few measurements. The following code was also tried with tag 10671 that had one NA measurement and it worked.
+test <- intra[intra$tag==10671, ] #60459 has band replaced but with NAs for a few measurements. The following code should be tried with 10671 as well.
 
-for (i in 2:nrow(test)){
-  cal <- c(test$measure)
-  test$dbh2[1] <- test$dbh[1]
-  
-  test$dbh2[i] <- 
-    ifelse(test$new.band[[i]] ==0 & !is.na(test$measure[[i]]), 
-     findDendroDBH(test$dbh2[[i-1]], cal[[i-1]], cal[[i]]),
+test$dbh2 <- NA
+test$dbh2[1] <- test$dbh[1]
+
+for(i in 2:nrow(test)) {
+  test$dbh2[[i]] <- 
+
+    ifelse(test$new.band[[i]] == 0 & !is.na(test$measure[[i]]) & !is.na(test$dbh2[[i-1]]), 
+    findDendroDBH(test$dbh2[[i-1]], test$measure[[i-1]], test$measure[[i]]),
+    
+    ifelse(test$new.band[[i]] == 0 & !is.na(test$measure[[i]]) & is.na(test$dbh2[[i-1]]), 
+    findDendroDBH(tail(na.locf(test$dbh2[1:i-1]), n=1), tail(na.locf(test$measure[1:i-1]), n=1), test$measure[[i]]),
+    
+    ifelse(test$new.band[[i]] == 0 & is.na(test$measure[[i]]),
+    NA,
      
-     ifelse(test$new.band[[i]] == 0 & is.na(test$measure[[i]]),
-      is.na(test$db2[[i]]),
+    ifelse(test$new.band[[i]]==1 & !is.na(test$measure[[i]]) & !identical(test$dbh[[i]], test$dbh[[i-1]]),
+    test$dbh[[i]],
       
-      ifelse(test$new.band[[i]]==1 & is.na(test$dbh2[[i-1]]) & test$dbh[[i]] == test$dbh[[i-1]],
-        sum(mean(diff(test$dbh2[1:max(which(!is.na(test$dbh2)))])), test$dbh2[[max(which(!is.na(test$dbh2)))]]),
-        
-        ifelse(test$new.band[[i]]==1 & !is.na(test$dbh2[[i-1]]) & test$dbh[[i]]==test$dbh[[i-1]],
-          sum(mean(diff(test$dbh2[1:i-1])), test$dbh2[[i-1]]),
-        findDendroDBH(test$dbh2[[max(which(!is.na(test$dbh2)))]], cal[[max(which(!is.na(test$dbh2)))]], cal[[i]])))))
+    ifelse(test$new.band[[i]] == 1 & !is.na(test$measure[[i]]) & identical(test$dbh[[i]], test$dbh[[i-1]]),
+    sum(mean(diff(test$dbh2[1: i-1]), na.rm = T), max(test$dbh2[1: i-1], na.rm = T)),
+   
+    ifelse(test$new.band[[i]] == 1 & is.na(test$measure[[i]]) & identical(test$dbh[[i]], test$dbh[[i-1]]),
+    max(test$dbh2[1: i-1], na.rm = T) + mean(diff(test$dbh2[1:(i-1)]), na.rm=T),
+          
+    ifelse(test$new.band[[i]] == 1 & is.na(test$measure[[i]]) & !identical(test$dbh[[i]], test$dbh[[i-1]]),
+    test$dbh[i] + mean(diff(test$dbh2[1:(i-1)]), na.rm=TRUE),
+    test$dbh2)))))))
 }
 
-NonNAindex <- which(as.numeric(!is.na(test$dbh2)))
-firstNonNA <- min(NonNAindex)
-lapply(!is.na(test$dbh2), tail, 1)
-sapply(test$dbh2, function(x) max(which(!is.na(x))))
 
-##trying to figure out lines 126-132 to account for when measurements have any number of rows of NA
 ##after that, next step is to bring in the 2010 data
 
 max(which(complete.cases(test$dbh2)))
