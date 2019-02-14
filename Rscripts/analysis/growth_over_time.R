@@ -173,24 +173,14 @@ for(i in 2:nrow(test)) {
 
 
 #######################################################################################
-#2 Graph the dbh growth per stem in a given year #####
+#2. Graph the dbh growth per stem in a given year
 ## based off McMahon code: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4314258/
-
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
-
-library(chron)
-band18$date <- paste0(band18$month, sep="/", band18$day, sep="/", band18$year)
-band18$doy <- julian(band18$month, band18$day, band18$year, origin=c(01,01,2018))
-
-band18$date <- as.Date(band18$date, format="%m/%d/%Y")
-band18$date <- factor(band18$date, ordered=TRUE)
-
-
-
 
 #2a. for-loop graphs ####
 #this code makes graphs for every dendroband stemID
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
+
+library(chron)
 library(ggplot2)
 
 pdf(file = "dbh_growth_dendrobands.pdf")
