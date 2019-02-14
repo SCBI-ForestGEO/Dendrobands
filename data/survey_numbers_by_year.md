@@ -2,7 +2,7 @@
 
 |Year| n.surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|
 |----|:--------:|:------------:|:--------------:|:-----------:|:--------------:|
-|2010|    1     |     243      |      0         |     243     |       0        |
+|2010|    1     |     243      |      0 (55)    |     243     |       0 (55)   |
 |2011|    23    |     505      |      105       |     505     |       105      |
 |2012|    18    |     524      |      105       |     515     |       105      |
 |2013|    16    |     579      |      155       |     566     |       150      |
@@ -19,6 +19,7 @@
 
 ### 2010
 2010 is the first year for which we have dendroband survey data. Trees were measured once in late January.
+- Because there was only one measurement for the year, the 55 intraannual trees are only marked for consistency with later years (and for calculating dbh growth over time). In the original data, no trees were marked as intraannual.
 
 ### 2011
 2011 is the first year for which we have intraannual data for the dendrobands. The file is much bigger than later years due to how often measurements were recorded. Although the protocol calls for biweekly measurements, 2011 had a mixture of the following: 
