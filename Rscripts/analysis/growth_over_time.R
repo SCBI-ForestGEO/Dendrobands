@@ -125,9 +125,6 @@ for(stems in names(all_stems)) {
   all_stems[[stems]] <- tree.n
 }
 
-#REMAINING QUESTIONS
-#1. Some trees had their dbh changed in 2014.01 to reflect the new dbh from the 2013 census. Do we want to include this?
-
 
 ######################################################################################
 ##1c. troubleshoot with individual tags
@@ -209,6 +206,9 @@ for (j in names(all_stems)){
   q <- ggplot(dendro, aes(x = date, y = dbh2)) +
     geom_line(color = "#0c4c8a") +
     labs(title = "Tree Growth from Dendrobands 2011-2018",
+         subtitle = paste0("Tag: ", dendro$tag, sep=", ", 
+                           "Stemtag:", dendro$stemtag, sep=", ",
+                           "StemID: ", dendro$stemID),
          x = "Date",
          y = "DBH in mm") +
     theme_minimal()
