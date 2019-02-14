@@ -1458,7 +1458,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102258,1,2018.11,2018,8,23,1,1,qual,1022,10.3,17.4,119.35,,,alive,Ian McGregor,Ian McGregor,13195,13195,NA,430,0,290,2,NA,1.3,NA,NA,NA,NA
 102258,1,2018.12,2018,9,28,1,1,qual,1022,10.3,17.4,119.52,,,alive,Ian McGregor,Ian McGregor,13195,13195,NA,430,0,290,2,NA,1.3,NA,NA,NA,NA
 102258,1,2018.13,2018,10,18,1,1,qual,1022,10.3,17.4,119.34,,,alive,Ian McGregor,Ian McGregor,13195,13195,NA,430,0,290,2,NA,1.3,NA,NA,NA,NA
-102258,1,2018.14,2018,11,8,1,1,qual,1022,10.3,17.4,12,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13195,13195,NA,430,0,290,2,NA,1.3,4,3,NA,NA
+102258,1,2018.14,2018,11,8,1,1,qual,1022,10.3,17.4,120,,"measurement taken in cm in field, changed to mm in office for consistency",alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13195,13195,NA,430,0,290,2,NA,1.3,4,3,NA,NA
 102261,1,2018.01,2018,3,9,1,1,qual,1022,5.3,20.1,130.73,,,alive,Ryan Helcoski,Ryan Helcoski,13198,13198,NA,651.5,0,291,2,NA,1.4,NA,NA,NA,NA
 102261,1,2018.02,2018,4,6,1,1,qual,1022,5.3,20.1,130.5,,,alive,Ryan Helcoski,Ryan Helcoski,13198,13198,NA,651.5,0,291,2,NA,1.4,NA,NA,NA,NA
 102261,1,2018.03,2018,4,26,1,1,qual,1022,5.3,20.1,131.44,,,alive,Tim McNeil,Ryan Helcoski,13198,13198,NA,651.5,0,291,2,NA,1.4,NA,NA,NA,NA
@@ -1472,7 +1472,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102261,1,2018.11,2018,8,23,1,1,qual,1022,5.3,20.1,142.04,,,alive,Ian McGregor,Ian McGregor,13198,13198,NA,651.5,0,291,2,NA,1.4,NA,NA,NA,NA
 102261,1,2018.12,2018,9,28,1,1,qual,1022,5.3,20.1,142.27,,,alive,Ian McGregor,Ian McGregor,13198,13198,NA,651.5,0,291,2,NA,1.4,NA,NA,NA,NA
 102261,1,2018.13,2018,10,18,1,1,qual,1022,5.3,20.1,141.42,,,alive,Ian McGregor,Ian McGregor,13198,13198,NA,651.5,0,291,2,NA,1.4,NA,NA,NA,NA
-102261,1,2018.14,2018,11,8,1,1,qual,1022,5.3,20.1,14.1,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13198,13198,NA,651.5,0,291,2,NA,1.4,4,5,NA,NA
+102261,1,2018.14,2018,11,8,1,1,qual,1022,5.3,20.1,141,,"measurement taken in cm in field, changed to mm in office for consistency",alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13198,13198,NA,651.5,0,291,2,NA,1.4,4,5,NA,NA
 102262,1,2018.01,2018,3,9,1,1,qual,1022,1.8,20,80.55,,,alive,Ryan Helcoski,Ryan Helcoski,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
 102262,1,2018.02,2018,4,6,1,1,qual,1022,1.8,20,80.2,,,alive,Ryan Helcoski,Ryan Helcoski,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
 102262,1,2018.03,2018,4,26,1,1,qual,1022,1.8,20,81.01,,,alive,Tim McNeil,Ryan Helcoski,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
@@ -1486,7 +1486,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102262,1,2018.11,2018,8,23,1,1,qual,1022,1.8,20,86.56,,,alive,Ian McGregor,Ian McGregor,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
 102262,1,2018.12,2018,9,28,1,1,qual,1022,1.8,20,87.06,,,alive,Ian McGregor,Ian McGregor,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
 102262,1,2018.13,2018,10,18,1,1,qual,1022,1.8,20,86.33,,,alive,Ian McGregor,Ian McGregor,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
-102262,1,2018.14,2018,11,8,1,1,qual,1022,1.8,20,8.6,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13199,13199,NA,532.8,0,292,2,NA,1.3,4,4,NA,NA
+102262,1,2018.14,2018,11,8,1,1,qual,1022,1.8,20,86,,"measurement taken in cm in field, changed to mm in office for consistency",alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13199,13199,NA,532.8,0,292,2,NA,1.3,4,4,NA,NA
 102264,1,2018.01,2018,3,9,1,1,qual,1022,1.5,14.2,29.96,,,alive,Ryan Helcoski,Ryan Helcoski,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102264,1,2018.02,2018,4,6,1,1,qual,1022,1.5,14.2,29.91,,,alive,Ryan Helcoski,Ryan Helcoski,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102264,1,2018.03,2018,4,26,1,1,qual,1022,1.5,14.2,30.6,,,alive,Tim McNeil,Ryan Helcoski,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
@@ -1500,9 +1500,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102264,1,2018.11,2018,8,23,1,1,qual,1022,1.5,14.2,34.43,,,alive,Ian McGregor,Ian McGregor,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102264,1,2018.12,2018,9,28,1,1,qual,1022,1.5,14.2,35.14,,,alive,Ian McGregor,Ian McGregor,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102264,1,2018.13,2018,10,18,1,1,qual,1022,1.5,14.2,34.64,,,alive,Ian McGregor,Ian McGregor,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
-102264,1,2018.14,2018,11,8,1,1,qual,1022,1.5,14.2,2.4,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13201,13201,NA,464.4,0,293,2,NA,1.3,4,4,NA,NA
+102264,1,2018.14,2018,11,8,1,1,qual,1022,1.5,14.2,24,,"measurement taken in cm in field, changed to mm in office for consistency",alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13201,13201,NA,464.4,0,293,2,NA,1.3,4,4,NA,NA
 102303,1,2018.01,2018,3,9,1,0,quve,1024,8.2,0.9,137.94,,,alive,Ryan Helcoski,Ryan Helcoski,13239,13239,NA,880.3,0,130,2,NA,1.44,NA,NA,NA,NA
-102303,1,2018.14,2018,11,8,1,0,quve,1024,8.2,0.9,15.4,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13239,13239,NA,880.3,0,130,2,NA,1.44,4,5,NA,NA
+102303,1,2018.14,2018,11,8,1,0,quve,1024,8.2,0.9,154,,"measurement taken in cm in field, changed to mm in office for consistency",alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,13239,13239,NA,880.3,0,130,2,NA,1.44,4,5,NA,NA
 102348,1,2018.01,2018,3,9,1,1,qual,1025,16.5,11.5,131.69,,,alive,Ryan Helcoski,Ryan Helcoski,13284,13284,NA,862.7,0,131,2,NA,1.41,NA,NA,NA,NA
 102348,1,2018.02,2018,4,6,1,1,qual,1025,16.5,11.5,131.55,,,alive,Ryan Helcoski,Ryan Helcoski,13284,13284,NA,862.7,0,131,2,NA,1.41,NA,NA,NA,NA
 102348,1,2018.03,2018,4,26,1,1,qual,1025,16.5,11.5,132,,,alive,Tim McNeil,Ryan Helcoski,13284,13284,NA,862.7,0,131,2,NA,1.41,NA,NA,NA,NA
