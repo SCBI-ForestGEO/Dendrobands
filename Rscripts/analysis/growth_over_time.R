@@ -193,7 +193,7 @@ band18$date <- factor(band18$date, ordered=TRUE)
 #this code makes graphs for every dendroband stemID
 library(ggplot2)
 
-pdf(file = "DBH_growth_Dendrobands.pdf")
+pdf(file = "dbh_growth_dendrobands.pdf")
 for (j in names(all_stems)){
   dendro <- all_stems[[j]]
   
