@@ -2,9 +2,9 @@
 
 #1 convert intraannual growth to dbh####
 
-setwd("E:/Github_SCBI/Dendrobands/data")
-dirs <- dir("E:/Github_SCBI/Dendrobands/data", pattern="_201[1-8]*.csv")
-years <- c(2011:2018)
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
+dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[0-8]*.csv")
+years <- c(2010:2018)
 
 #1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID
 all_years <- list()
@@ -15,6 +15,12 @@ for (k in seq(along=dirs)){
     yr_intra <- yr[yr$intraannual==1, ]
 
     all_years[[k]] <- split(yr_intra, yr_intra$stemID)
+  #  if (file == dirs[[1]]){
+  #   all_years[[k]] <- split(yr, yr$stemID)
+  #  }
+  #  else{
+  #    all_years[[k]] <- split(yr_intra, yr_intra$stemID)
+  #  }
 }
 tent_name <- paste0("trees", sep="_", years)
 names(all_years) <- tent_name
@@ -67,45 +73,77 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
 #1b. this loop says the following:
 ##1. Assigns the first dbh of the growth column as the first dbh.
 ##2. Says the following:
-#i.If new.band=0 (no band change), use Condit's function to determine next dbh based on caliper measurement. 
-#ii. If new.band=0 and the previous measure is NA, give dbh2 a value of NA.
-#iii. If new.band=1 (band and measurement change), dbh2 value is NA, and the dbh in the original column is unchanged (indicating a new dbh wasn't recorded when the band was changed), then dbh2 = find the avg of the previous rows in the growth column and add to the previous dbh. 
-#iv. If new.band=1, dbh2 value is NA, and dbh is different, then dbh2 = Condit's function. 
-#iii. Otherwise, if new.band=1 and the dbh in the original column was newly recorded, use Condit's function.
+##2i.If new.band=0 (no band change), we have a measure, and we have a previous dbh2, use Condit's function to determine next dbh2 based on caliper measurement. 
+##2ii. If new.band=0, we have a measure, and the previous dbh2 is NA, use Condit's function by comparing the new measure with the most recent non-NA dbh2.
+##2iii. If new.band=0 and the previous measure is NA, give dbh2 a value of NA.
+##2iv. If new.band=1 (band and measurement change), we have a measure, and there's a new dbh, assign that dbh to dbh2.
+##2v. If new.band=1, we have a measure, and there's no new dbh (indicating a new dbh wasn't recorded when the band was changed), dbh2 is the sum of the differences of the previous dbh2's added to the most recent dbh2.
+##2vi. UNCOMMON If new.band=1 , measure is NA, and the dbh in the original column is unchanged , dbh2 is the sum of the differences of the previous dbh2's added to the most recent dbh2.
+##2vii. UNCOMMON If new.band=1, measure is NA, and dbh is different, dbh2 is the new dbh plus the mean of the differences of the previous dbh2's. 
+
+
+library(zoo)
 
 for(stems in names(all_stems)) {
   tree.n <- all_stems[[stems]]
-  tree.n$dbh2 <- ""
+  tree.n$dbh2 <- NA
+  tree.n$dbh2[1] <- tree.n$dbh[1]
   
-  for (i in 2:(nrow(tree.n))){
-    cal <- c(tree.n$measure)
-    tree.n$dbh2[[1]] <- tree.n$dbh[[1]]
-    tree.n$dbh2 <- as.numeric(tree.n$dbh2)
-    tree.n$dbh2[[i]] <- ifelse(tree.n$new.band[[i]] ==0, 
-                         findDendroDBH(tree.n$dbh2[[i-1]], cal[[i-1]], cal[[i]]),
-                         ifelse(tree.n$dbh[[i]] == tree.n$dbh[[i-1]], 
-                                mean(diff(tree.n$dbh2[1:i-1])) + tree.n$dbh2[[i-1]],
-                                findDendroDBH(tree.n$dbh2[[i-1]], cal[[i-1]], cal[[i]])))
+  tree.n$dbh2 <- as.numeric(tree.n$dbh2)
+  tree.n$measure <- as.numeric(tree.n$measure)
+  tree.n$dbh <- as.numeric(tree.n$dbh)
+  
+  q <- mean(unlist(tapply(tree.n$measure, tree.n$dendroID, diff)), na.rm=TRUE)
+    
+  for(i in 2:(nrow(tree.n))){
+    tree.n$dbh2[[i]] <- 
+      
+      ifelse(tree.n$new.band[[i]] == 0 & tree.n$survey.ID[[i]] == 2014.01 & !identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+      tree.n$dbh[[i]],
+      
+      ifelse(tree.n$new.band[[i]] == 0 & !is.na(tree.n$measure[[i]]) & !is.na(tree.n$dbh2[[i-1]]),
+      findDendroDBH(tree.n$dbh2[[i-1]], tree.n$measure[[i-1]], tree.n$measure[[i]]),
+               
+      ifelse(tree.n$new.band[[i]] == 0 & !is.na(tree.n$measure[[i]]) & is.na(tree.n$dbh2[[i-1]]), 
+      findDendroDBH(tail(na.locf(tree.n$dbh2[1:i-1]), n=1), tail(na.locf(tree.n$measure[1:i-1]), n=1), tree.n$measure[[i]]),
+                      
+      ifelse(tree.n$new.band[[i]] == 0 & is.na(tree.n$measure[[i]]), NA,
+                             
+      ifelse(tree.n$new.band[[i]]==1 & !is.na(tree.n$measure[[i]]) & !identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+       tree.n$dbh[[i]],
+                                    
+       ifelse(tree.n$new.band[[i]] == 1 & !is.na(tree.n$measure[[i]]) & identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+        max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1: i-1]), na.rm = T),
+                                           
+       ifelse(tree.n$new.band[[i]] == 1 & is.na(tree.n$measure[[i]]) & identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+       max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=T),
+                                                  
+       ifelse(tree.n$new.band[[i]] == 1 & is.na(tree.n$measure[[i]]) & !identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+       tree.n$dbh[i] + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=TRUE),
+       tree.n$dbh2))))))))
   }
   all_stems[[stems]] <- tree.n
 }
 
+#REMAINING QUESTIONS
+#1. Some trees had their dbh changed in 2014.01 to reflect the new dbh from the 2013 census. Do we want to include this?
 
-###QUESTIONS
-2. what happens to NA values in this iteration
 
 ######################################################################################
 ##1c. troubleshoot with individual tags
-dendro_2018 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 intra <- dendro_2018[dendro_2018$intraannual==1, ]
 test <- intra[intra$tag==12025, ] #12025 has band replaced
 
-dendro_2017 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2017.csv")
+dendro_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
 intra <- dendro_2017[dendro_2017$intraannual==1, ]
-test <- intra[intra$tag==10671, ] #60459 has band replaced but with NAs for a few measurements. The following code should be tried with 10671 as well.
+test <- intra[intra$tag==60459, ] #60459 has band replaced but with NAs for a few measurements. The following code should be tried with 10671 as well.
+
+library(zoo)
 
 test$dbh2 <- NA
 test$dbh2[1] <- test$dbh[1]
+q <- mean(unlist(tapply(test$measure, test$dendroID, diff)), na.rm=TRUE)
 
 for(i in 2:nrow(test)) {
   test$dbh2[[i]] <- 
@@ -123,7 +161,7 @@ for(i in 2:nrow(test)) {
     test$dbh[[i]],
       
     ifelse(test$new.band[[i]] == 1 & !is.na(test$measure[[i]]) & identical(test$dbh[[i]], test$dbh[[i-1]]),
-    sum(mean(diff(test$dbh2[1: i-1]), na.rm = T), max(test$dbh2[1: i-1], na.rm = T)),
+    max(test$dbh2[1: i-1], na.rm = T) + mean(diff(test$dbh2[1: i-1]), na.rm = T),
    
     ifelse(test$new.band[[i]] == 1 & is.na(test$measure[[i]]) & identical(test$dbh[[i]], test$dbh[[i-1]]),
     max(test$dbh2[1: i-1], na.rm = T) + mean(diff(test$dbh2[1:(i-1)]), na.rm=T),
@@ -136,14 +174,13 @@ for(i in 2:nrow(test)) {
 
 ##after that, next step is to bring in the 2010 data
 
-max(which(complete.cases(test$dbh2)))
 
 #######################################################################################
 #2 Graph the dbh growth per stem in a given year #####
 ## based off McMahon code: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4314258/
 
-setwd("E:/Github_SCBI/Dendrobands/data")
-band18 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
+band18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 library(chron)
 band18$date <- paste0(band18$month, sep="/", band18$day, sep="/", band18$year)
@@ -200,7 +237,7 @@ dev.off()
 #3 find variability of tree growth by species by year #####
 
 #2010 not included because only one measurement
-dirs <- dir("E:/Github_SCBI/Dendrobands/data", pattern="_201[1-8]*.csv")
+dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-8]*.csv")
 
 library(data.table)
 date <- c(2011:2018)
@@ -257,14 +294,14 @@ step2$mingrowth_mm <- apply(step2[, 2:9], 1, min, na.rm=TRUE)
 step2$maxgrowth_mm <- apply(step2[, 2:9], 1, max, na.rm=TRUE)
 step2$avg_growth_range_mm <- step2[, "maxgrowth_mm"] - step2[, "mingrowth_mm"]
 
-setwd("E:/Github_SCBI/Dendrobands/results")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
 write.csv(step2, "growth_variability_by_sp.csv", row.names=FALSE)
 #########################################################################################
 #4. growth variability graphs ####
 library(ggplot2)
 library(RColorBrewer)
 
-setwd("E:/Github_SCBI/Dendrobands/results")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
 pdf("mean_growth_by_species.pdf", width=12)
 
 #this graph shows the average range of growth per species. The lower numbers means the avg max and avg min are closer together. Almost all species are under 10mm, which means on average each species grows less than 1cm per growing season (1 cm according to dendroband measurements).
@@ -288,7 +325,7 @@ dev.off()
 
 ######################################################################################
 #5. troubleshooting for-loop ##############################################
-dendro_2018 <- read.csv("E:/Github_SCBI/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 dendro_2018$sp <- as.character(dendro_2018$sp)
 sp <- c(unique(dendro_2018$sp))
