@@ -839,20 +839,20 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 62449,1,2014.14,2014,10,27,1,0,qual,632,18.7,3.9,75.33,,,alive,Justin Cooper,Maryam Sedaghatpour,8020,8020,NA,891,0,52,2,NA,1.25,NA,NA,NA,NA
 62454,1,2014.01,2014,3,24,1,0,quve,632,14.7,18.8,80.42,,,alive,Erika Gonzalez,Valentine Herrmann,8025,8025,925.2,926.0999756,0,53,2,NA,1.39,2,4,NA,NA
 62454,1,2014.14,2014,10,27,1,0,quve,632,14.7,18.8,92.13,,,alive,Justin Cooper,Maryam Sedaghatpour,8025,8025,NA,926.0999756,0,53,2,NA,1.39,NA,NA,NA,NA
-70096,1,2014.01,2014,3,24,1,1,quru,704,3.3,12.7,87.37,,,alive,Erika Gonzalez,Valentine Herrmann,8126,8126,865.8,866.9000244,0,54,2,NA,1.33,3,4,NA,NA
-70096,1,2014.02,2014,4,14,1,1,quru,704,3.3,12.7,84.54,,,alive,"Emily, John, Erika","Emily, John, Erika",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.03,2014,5,1,1,1,quru,704,3.3,12.7,90.39,,,alive,"Gonzalez, Bennett","Gonzalez, Bennett",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.04,2014,5,13,1,1,quru,704,3.3,12.7,90.88,,,alive,"Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.05,2014,5,27,1,1,quru,704,3.3,12.7,93.21,,,alive,"Gonzalez, Lavelle, Ross","Gonzalez, Lavelle, Ross",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.06,2014,6,10,1,1,quru,704,3.3,12.7,99.22,,,alive,"Erika Gonzalez, Amy Lewis","Erika Gonzalez, Amy Lewis",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.07,2014,6,23,1,1,quru,704,3.3,12.7,95.56,,,alive,"Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.08,2014,7,7,1,1,quru,704,3.3,12.7,96.75,,,alive,"Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.09,2014,7,21,1,1,quru,704,3.3,12.7,97.5,,,alive,"Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.1,2014,8,4,1,1,quru,704,3.3,12.7,97.41,,,alive,Amy Lewis,Amy Lewis,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.11,2014,8,18,1,1,quru,704,3.3,12.7,98.41,,,alive,"Amy Lewis, Anne Marie","Amy Lewis, Anne Marie",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.12,2014,9,2,1,1,quru,704,3.3,12.7,98.62,,,alive,"Amy Lewis, Brandon","Amy Lewis, Brandon",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.13,2014,9,15,1,1,quru,704,3.3,12.7,98.69,,,alive,"Justin C., Amy Lewis","Justin C., Amy Lewis",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2014.14,2014,10,27,1,1,quru,704,3.3,12.7,99.33,,,alive,Valentine Herrmann,Maryam Sedaghatpour,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.01,2014,3,24,1,1,quru,704,3.3,12.7,87.37,,,alive,Erika Gonzalez,Valentine Herrmann,8126,8126,865.8,866.9000244,0,860,2,NA,1.33,3,4,NA,NA
+70096,1,2014.02,2014,4,14,1,1,quru,704,3.3,12.7,84.54,,,alive,"Emily, John, Erika","Emily, John, Erika",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.03,2014,5,1,1,1,quru,704,3.3,12.7,90.39,,,alive,"Gonzalez, Bennett","Gonzalez, Bennett",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.04,2014,5,13,1,1,quru,704,3.3,12.7,90.88,,,alive,"Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.05,2014,5,27,1,1,quru,704,3.3,12.7,93.21,,,alive,"Gonzalez, Lavelle, Ross","Gonzalez, Lavelle, Ross",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.06,2014,6,10,1,1,quru,704,3.3,12.7,99.22,,,alive,"Erika Gonzalez, Amy Lewis","Erika Gonzalez, Amy Lewis",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.07,2014,6,23,1,1,quru,704,3.3,12.7,95.56,,,alive,"Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.08,2014,7,7,1,1,quru,704,3.3,12.7,96.75,,,alive,"Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.09,2014,7,21,1,1,quru,704,3.3,12.7,97.5,,,alive,"Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.1,2014,8,4,1,1,quru,704,3.3,12.7,97.41,,,alive,Amy Lewis,Amy Lewis,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.11,2014,8,18,1,1,quru,704,3.3,12.7,98.41,,,alive,"Amy Lewis, Anne Marie","Amy Lewis, Anne Marie",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.12,2014,9,2,1,1,quru,704,3.3,12.7,98.62,,,alive,"Amy Lewis, Brandon","Amy Lewis, Brandon",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.13,2014,9,15,1,1,quru,704,3.3,12.7,98.69,,,alive,"Justin C., Amy Lewis","Justin C., Amy Lewis",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2014.14,2014,10,27,1,1,quru,704,3.3,12.7,99.33,,,alive,Valentine Herrmann,Maryam Sedaghatpour,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
 70126,1,2014.01,2014,3,24,1,1,quru,705,9.3,12.5,103.9,,,alive,Erika Gonzalez,Valentine Herrmann,8152,8152,819.2,821,0,247,2,NA,1.3,3,4,NA,NA
 70126,1,2014.02,2014,4,14,1,1,quru,705,9.3,12.5,104.37,,,alive,"Emily, John, Erika","Emily, John, Erika",8152,8152,NA,821,0,247,2,NA,1.3,NA,NA,NA,NA
 70126,1,2014.03,2014,5,1,1,1,quru,705,9.3,12.5,108.44,,,alive,"Gonzalez, Bennett","Gonzalez, Bennett",8152,8152,NA,821,0,247,2,NA,1.3,NA,NA,NA,NA
@@ -2271,8 +2271,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 143707,1,2014.14,2014,10,27,1,0,cagl,1426,0.9,1.6,11.15,,,alive,Amy Lewis,Maryam Sedaghatpour,46862,33781,NA,144.5,0,630,2,NA,1.35,NA,NA,NA,NA
 150756,1,2014.01,2014,3,24,1,0,quve,1503,13.6,16.3,20.08,,,alive,Erika Gonzalez,Valentine Herrmann,21310,21310,937.5,939.0999756,0,208,2,NA,1.29,4,4,NA,NA
 150756,1,2014.14,2014,10,27,1,0,quve,1503,13.6,16.3,22.65,,,alive,Erika Gonzalez,Maryam Sedaghatpour,21310,21310,NA,939.0999756,0,208,2,NA,1.29,NA,NA,NA,NA
-150830,1,2014.01,2014,3,27,1,0,litu,1508,14.6,16.6,NA,,Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,21374,21374,NA,949.7999878,0,208,2,NA,1.3,4,4,NA,NA
-150830,1,2014.14,2014,10,27,1,0,litu,1508,14.6,16.6,NA,,Band removed in 2013,alive,Justin Cooper,Maryam Sedaghatpour,21374,21374,NA,949.7999878,0,208,2,NA,1.3,NA,NA,NA,NA
+150830,1,2014.01,2014,3,27,1,0,litu,1508,14.6,16.6,NA,,Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,21374,21374,NA,949.7999878,0,209,2,NA,1.3,4,4,NA,NA
+150830,1,2014.14,2014,10,27,1,0,litu,1508,14.6,16.6,NA,,Band removed in 2013,alive,Justin Cooper,Maryam Sedaghatpour,21374,21374,NA,949.7999878,0,209,2,NA,1.3,NA,NA,NA,NA
 152153,1,2014.01,2014,3,27,1,0,ploc,1520,6.8,0.3,96.78,,Need a tag,alive,Erika Gonzalez,Valentine Herrmann,21906,21906,969.5,961.5999756,0,210,2,NA,1.46,4,5,NA,NA
 152153,1,2014.14,2014,10,27,1,0,ploc,1520,6.8,0.3,116,,tag is missing; band was adjusted,alive,Amy Lewis,Maryam Sedaghatpour,21906,21906,NA,961.5999756,0,210,2,NA,1.46,NA,NA,NA,NA
 152673,1,2014.01,2014,3,27,1,0,litu,1530,3.6,18.8,102.84,I,,alive,Erika Gonzalez,Valentine Herrmann,22390,22390,912,932.7000122,0,211,2,NA,1.23,4,4,NA,NA
@@ -2408,7 +2408,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 172203,1,2014.11,2014,8,18,1,1,qual,1717,15.5,0.3,106.62,,,alive,"Amy Lewis, Anne Marie","Amy Lewis, Anne Marie",25505,25505,NA,368.5,0,387,2,NA,1.3,NA,NA,NA,NA
 172203,1,2014.12,2014,9,2,1,1,qual,1717,15.5,0.3,106.83,,,alive,"Amy Lewis, Brandon","Amy Lewis, Brandon",25505,25505,NA,368.5,0,387,2,NA,1.3,NA,NA,NA,NA
 172203,1,2014.13,2014,9,15,1,1,qual,1717,15.5,0.3,106.63,,,alive,"Justin C., Amy Lewis","Justin C., Amy Lewis",25505,25505,NA,368.5,0,387,2,NA,1.3,NA,NA,NA,NA
-172203,1,2014.14,2014,10,27,1,1,qual,1717,15.5,0.3,117,,band was adjusted,alive,Amy Lewis,Maryam Sedaghatpour,25505,25505,NA,852,1,387,2,NA,1.3,NA,NA,NA,NA
+172203,1,2014.14,2014,10,27,1,1,qual,1717,15.5,0.3,117,,band was adjusted,alive,Amy Lewis,Maryam Sedaghatpour,25505,25505,NA,852,1,678,2,NA,1.3,NA,NA,NA,NA
 172205,1,2014.01,2014,3,27,1,0,qual,1717,16.1,3.5,89.6,,,alive,Erika Gonzalez,Valentine Herrmann,25507,25507,493.5,493,0,388,2,NA,1.3,4,4,NA,NA
 172205,1,2014.14,2014,10,27,1,0,qual,1717,16.1,3.5,96.4,,band was adjusted,alive,Amy Lewis,Maryam Sedaghatpour,25507,25507,NA,493,0,388,2,NA,1.3,NA,NA,NA,NA
 172248,1,2014.01,2014,3,27,1,0,cato,1719,19.2,19.3,12.8,G,,alive,Erika Gonzalez,Valentine Herrmann,25549,25549,274,274.2000122,0,389,2,NA,1.3,4,2,NA,NA

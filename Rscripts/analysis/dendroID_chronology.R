@@ -20,7 +20,7 @@ install_new <- install_new[order(install_new$tag, install_new$stemtag), ]
 write.csv(install_new, "dendroID.csv", row.names=FALSE)
 
 ############################################################################################
-#2. troubleshooting for all previous years / original code to make install.csv ####
+#2. original code to make dendroID.csv / troubleshooting for all previous years ####
 ##this could have been easily done with a for-loop but it was easier doing separate
 
 dendro2010 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2010.csv")

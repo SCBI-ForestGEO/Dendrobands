@@ -350,22 +350,22 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 40567,1,2016.14,2016,10,27,1,1,fagr,406,1.6,7.2,25.67,,,alive,"Tori, Kate","Tori, Kate",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40567,1,2016.15,2016,11,10,1,1,fagr,406,1.6,7.2,25.97,,From sap flow cluster,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40568,1,2016.01,2016,4,5,1,1,fagr,406,0.1,5.2,60.01,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,5045,5045,180,169.8999939,0,557,2,NA,1.39,4,3,NA,NA
-40568,1,2016.02,2016,5,12,1,1,fagr,406,0.1,5.2,12.62,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.03,2016,5,26,1,1,fagr,406,0.1,5.2,12.66,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.04,2016,6,9,1,1,fagr,406,0.1,5.2,14.02,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.05,2016,6,23,1,1,fagr,406,0.1,5.2,15.66,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.06,2016,7,7,1,1,fagr,406,0.1,5.2,17.09,,,alive,"Tom, Tori","Tom, Tori",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.07,2016,7,21,1,1,fagr,406,0.1,5.2,18.03,,,alive,"Tom, Tori","Tom, Tori",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.08,2016,8,4,1,1,fagr,406,0.1,5.2,NA,,8/4 band broken - needs new band,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.09,2016,8,18,1,1,fagr,406,0.1,5.2,NA,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.1,2016,9,1,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.11,2016,9,13,1,1,fagr,406,0.1,5.2,NA,,,alive,"Erika, Tori","Erika, Tori",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.12,2016,9,29,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.13,2016,10,13,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.14,2016,10,27,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40568,1,2016.15,2016,11,10,1,1,fagr,406,0.1,5.2,NA,,From sap flow cluster; replace band,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,5045,5045,NA,169.8999939,1,700,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.02,2016,5,12,1,1,fagr,406,0.1,5.2,12.62,,new band,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,1,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.03,2016,5,26,1,1,fagr,406,0.1,5.2,12.66,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.04,2016,6,9,1,1,fagr,406,0.1,5.2,14.02,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.05,2016,6,23,1,1,fagr,406,0.1,5.2,15.66,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.06,2016,7,7,1,1,fagr,406,0.1,5.2,17.09,,,alive,"Tom, Tori","Tom, Tori",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.07,2016,7,21,1,1,fagr,406,0.1,5.2,18.03,,,alive,"Tom, Tori","Tom, Tori",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.08,2016,8,4,1,1,fagr,406,0.1,5.2,NA,,8/4 band broken - needs new band,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.09,2016,8,18,1,1,fagr,406,0.1,5.2,NA,,,alive,Tori Meakem,Tori Meakem,5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.1,2016,9,1,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.11,2016,9,13,1,1,fagr,406,0.1,5.2,NA,,,alive,"Erika, Tori","Erika, Tori",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.12,2016,9,29,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.13,2016,10,13,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.14,2016,10,27,1,1,fagr,406,0.1,5.2,NA,,,alive,"Tori, Kate","Tori, Kate",5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
+40568,1,2016.15,2016,11,10,1,1,fagr,406,0.1,5.2,NA,,From sap flow cluster; replace band,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,5045,5045,NA,169.8999939,0,854,2,NA,1.39,NA,NA,NA,NA
 40569,1,2016.01,2016,4,5,1,1,litu,407,5.6,1.7,59.51,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,5046,5046,297,280,0,558,2,NA,1.41,4,4,NA,NA
-40569,1,2016.02,2016,5,12,1,1,litu,407,5.6,1.7,15.23,,,alive,Tori Meakem,Tori Meakem,5046,5046,NA,280,1,701,2,NA,1.41,NA,NA,NA,NA
+40569,1,2016.02,2016,5,12,1,1,litu,407,5.6,1.7,15.23,,band replaced,alive,Tori Meakem,Tori Meakem,5046,5046,NA,280,1,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2016.03,2016,5,26,1,1,litu,407,5.6,1.7,15.3,,,alive,Tori Meakem,Tori Meakem,5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2016.04,2016,6,9,1,1,litu,407,5.6,1.7,18.52,,,alive,Tori Meakem,Tori Meakem,5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2016.05,2016,6,23,1,1,litu,407,5.6,1.7,22.62,,,alive,Tori Meakem,Tori Meakem,5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
@@ -522,7 +522,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60459,1,2016.14,2016,10,27,1,1,fagr,615,2,3,35.61,,,alive,"Tori, Kate","Tori, Kate",7444,7444,NA,99.69999695,0,691,2,NA,1.36,NA,NA,NA,NA
 60459,1,2016.15,2016,11,10,1,1,fagr,615,2,3,36.56,,From sap flow cluster,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,7444,7444,NA,99.69999695,0,691,2,NA,1.36,NA,NA,NA,NA
 60462,1,2016.01,2016,4,5,1,1,fagr,615,5.6,7.6,46.88,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,7447,7447,225,209.5,0,565,2,NA,1.43,4,3,NA,NA
-60462,1,2016.02,2016,5,12,1,1,fagr,615,5.6,7.6,20.85,,,alive,Tori Meakem,Tori Meakem,7447,7447,NA,209.5,1,704,2,NA,1.43,NA,NA,NA,NA
+60462,1,2016.02,2016,5,12,1,1,fagr,615,5.6,7.6,20.85,,band replaced,alive,Tori Meakem,Tori Meakem,7447,7447,NA,209.5,1,704,2,NA,1.43,NA,NA,NA,NA
 60462,1,2016.03,2016,5,26,1,1,fagr,615,5.6,7.6,20.83,,,alive,Tori Meakem,Tori Meakem,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
 60462,1,2016.04,2016,6,9,1,1,fagr,615,5.6,7.6,23.2,,,alive,Tori Meakem,Tori Meakem,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
 60462,1,2016.05,2016,6,23,1,1,fagr,615,5.6,7.6,25.93,,,alive,Tori Meakem,Tori Meakem,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
@@ -627,7 +627,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60566,1,2016.14,2016,10,27,1,1,fagr,614,10,11,50.53,,,alive,"Tori, Kate","Tori, Kate",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60566,1,2016.15,2016,11,10,1,1,fagr,614,10,11,NA,,From sap flow cluster; replace band,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60567,1,2016.01,2016,4,5,1,1,litu,614,11.6,11.2,51.99,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,7546,7546,542.5,536.7999878,0,572,2,NA,1.54,4,5,NA,NA
-60567,1,2016.02,2016,5,12,1,1,litu,614,11.6,11.2,23.86,,,alive,Tori Meakem,Tori Meakem,7546,7546,NA,536.7999878,1,706,2,NA,1.54,NA,NA,NA,NA
+60567,1,2016.02,2016,5,12,1,1,litu,614,11.6,11.2,23.86,,band replaced,alive,Tori Meakem,Tori Meakem,7546,7546,NA,536.7999878,1,706,2,NA,1.54,NA,NA,NA,NA
 60567,1,2016.03,2016,5,26,1,1,litu,614,11.6,11.2,23.65,,,alive,Tori Meakem,Tori Meakem,7546,7546,NA,536.7999878,0,706,2,NA,1.54,NA,NA,NA,NA
 60567,1,2016.04,2016,6,9,1,1,litu,614,11.6,11.2,24.34,,,alive,Tori Meakem,Tori Meakem,7546,7546,NA,536.7999878,0,706,2,NA,1.54,NA,NA,NA,NA
 60567,1,2016.05,2016,6,23,1,1,litu,614,11.6,11.2,27.59,,,alive,Tori Meakem,Tori Meakem,7546,7546,NA,536.7999878,0,706,2,NA,1.54,NA,NA,NA,NA
@@ -672,7 +672,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60569,1,2016.14,2016,10,27,1,1,caca,614,19.4,16.2,18.16,,,alive,"Tori, Kate","Tori, Kate",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60569,1,2016.15,2016,11,10,1,1,caca,614,19.4,16.2,17.82,,From sap flow cluster,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60570,1,2016.01,2016,4,5,1,1,caco,614,15.2,16.7,56.58,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,7549,7549,403,396.1000061,0,575,2,NA,1.41,4,4,NA,NA
-60570,1,2016.02,2016,5,12,1,1,caco,614,15.2,16.7,8.39,,,alive,Tori Meakem,Tori Meakem,7549,7549,NA,396.1000061,1,707,2,NA,1.41,NA,NA,NA,NA
+60570,1,2016.02,2016,5,12,1,1,caco,614,15.2,16.7,8.39,,band replaced,alive,Tori Meakem,Tori Meakem,7549,7549,NA,396.1000061,1,707,2,NA,1.41,NA,NA,NA,NA
 60570,1,2016.03,2016,5,26,1,1,caco,614,15.2,16.7,9.37,,,alive,Tori Meakem,Tori Meakem,7549,7549,NA,396.1000061,0,707,2,NA,1.41,NA,NA,NA,NA
 60570,1,2016.04,2016,6,9,1,1,caco,614,15.2,16.7,12.65,,,alive,Tori Meakem,Tori Meakem,7549,7549,NA,396.1000061,0,707,2,NA,1.41,NA,NA,NA,NA
 60570,1,2016.05,2016,6,23,1,1,caco,614,15.2,16.7,17.93,,,alive,Tori Meakem,Tori Meakem,7549,7549,NA,396.1000061,0,707,2,NA,1.41,NA,NA,NA,NA
@@ -702,7 +702,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60571,1,2016.14,2016,10,27,1,1,caca,614,12,17.4,12.67,,,alive,"Tori, Kate","Tori, Kate",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60571,1,2016.15,2016,11,10,1,1,caca,614,12,17.4,13.17,,From sap flow cluster,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60573,1,2016.01,2016,4,5,1,1,tiam,614,8.5,16.3,35.5,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,7552,7552,266.7,258.5,0,577,2,NA,1.45,4,4,NA,NA
-60573,1,2016.02,2016,5,12,1,1,tiam,614,8.5,16.3,21.1,,,alive,Tori Meakem,Tori Meakem,7552,7552,NA,258.5,1,708,2,NA,1.45,NA,NA,NA,NA
+60573,1,2016.02,2016,5,12,1,1,tiam,614,8.5,16.3,21.1,,band replaced,alive,Tori Meakem,Tori Meakem,7552,7552,NA,258.5,1,708,2,NA,1.45,NA,NA,NA,NA
 60573,1,2016.03,2016,5,26,1,1,tiam,614,8.5,16.3,20.77,,,alive,Tori Meakem,Tori Meakem,7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
 60573,1,2016.04,2016,6,9,1,1,tiam,614,8.5,16.3,20.3,,,alive,Tori Meakem,Tori Meakem,7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
 60573,1,2016.05,2016,6,23,1,1,tiam,614,8.5,16.3,20.73,,,alive,Tori Meakem,Tori Meakem,7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
@@ -717,7 +717,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60573,1,2016.14,2016,10,27,1,1,tiam,614,8.5,16.3,21.56,,,alive,"Tori, Kate","Tori, Kate",7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
 60573,1,2016.15,2016,11,10,1,1,tiam,614,8.5,16.3,21.52,,From sap flow cluster,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
 60576,1,2016.01,2016,4,5,1,1,caca,615,17.1,1,NA,,From sap flow cluster. Band need replac.,alive,Erika Gonzalez,Thomas Blair,7555,7555,NA,95.09999847,0,578,2,NA,1.37,4,2,NA,NA
-60576,1,2016.02,2016,5,12,1,1,caca,615,17.1,1,8.64,,,alive,Tori Meakem,Tori Meakem,7555,7555,NA,95.09999847,1,709,2,NA,1.37,NA,NA,NA,NA
+60576,1,2016.02,2016,5,12,1,1,caca,615,17.1,1,8.64,,band replaced,alive,Tori Meakem,Tori Meakem,7555,7555,NA,95.09999847,1,709,2,NA,1.37,NA,NA,NA,NA
 60576,1,2016.03,2016,5,26,1,1,caca,615,17.1,1,8.78,,,alive,Tori Meakem,Tori Meakem,7555,7555,NA,95.09999847,0,709,2,NA,1.37,NA,NA,NA,NA
 60576,1,2016.04,2016,6,9,1,1,caca,615,17.1,1,9.04,,,alive,Tori Meakem,Tori Meakem,7555,7555,NA,95.09999847,0,709,2,NA,1.37,NA,NA,NA,NA
 60576,1,2016.05,2016,6,23,1,1,caca,615,17.1,1,9.6,,,alive,Tori Meakem,Tori Meakem,7555,7555,NA,95.09999847,0,709,2,NA,1.37,NA,NA,NA,NA
@@ -891,21 +891,21 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 62449,1,2016.15,2016,11,10,1,0,qual,632,18.7,3.9,92.26,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,8020,8020,NA,891,0,52,2,NA,1.25,NA,NA,NA,NA
 62454,1,2016.01,2016,4,6,1,0,quve,632,14.7,18.8,105.9,,Band adjusted,alive,"Valentine Herrmann, Avery Parmiter",Thomas Blair,8025,8025,921,926.0999756,0,53,2,NA,1.39,2,4,NA,NA
 62454,1,2016.15,2016,11,10,1,0,quve,632,14.7,18.8,112.91,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,8025,8025,NA,926.0999756,0,53,2,NA,1.39,NA,NA,NA,NA
-70096,1,2016.01,2016,4,5,1,1,quru,704,3.3,12.7,115.6,,,alive,Erika Gonzalez,Thomas Blair,8126,8126,874,866.9000244,0,54,2,NA,1.33,3,4,NA,NA
-70096,1,2016.02,2016,5,12,1,1,quru,704,3.3,12.7,121.62,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.03,2016,5,26,1,1,quru,704,3.3,12.7,122.81,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.04,2016,6,9,1,1,quru,704,3.3,12.7,123.54,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.05,2016,6,23,1,1,quru,704,3.3,12.7,125.78,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.06,2016,7,7,1,1,quru,704,3.3,12.7,127.59,,,alive,"Tom, Tori","Tom, Tori",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.07,2016,7,21,1,1,quru,704,3.3,12.7,128.19,,,alive,"Tom, Tori","Tom, Tori",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.08,2016,8,4,1,1,quru,704,3.3,12.7,129.26,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.09,2016,8,18,1,1,quru,704,3.3,12.7,130.11,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.1,2016,9,1,1,1,quru,704,3.3,12.7,130.58,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.11,2016,9,13,1,1,quru,704,3.3,12.7,129.69,,,alive,"Erika, Tori","Erika, Tori",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.12,2016,9,29,1,1,quru,704,3.3,12.7,130.52,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.13,2016,10,13,1,1,quru,704,3.3,12.7,130.52,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.14,2016,10,27,1,1,quru,704,3.3,12.7,130.81,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
-70096,1,2016.15,2016,11,10,1,1,quru,704,3.3,12.7,131.21,,,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,8126,8126,NA,866.9000244,0,54,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.01,2016,4,5,1,1,quru,704,3.3,12.7,115.6,,,alive,Erika Gonzalez,Thomas Blair,8126,8126,874,866.9000244,0,860,2,NA,1.33,3,4,NA,NA
+70096,1,2016.02,2016,5,12,1,1,quru,704,3.3,12.7,121.62,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.03,2016,5,26,1,1,quru,704,3.3,12.7,122.81,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.04,2016,6,9,1,1,quru,704,3.3,12.7,123.54,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.05,2016,6,23,1,1,quru,704,3.3,12.7,125.78,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.06,2016,7,7,1,1,quru,704,3.3,12.7,127.59,,,alive,"Tom, Tori","Tom, Tori",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.07,2016,7,21,1,1,quru,704,3.3,12.7,128.19,,,alive,"Tom, Tori","Tom, Tori",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.08,2016,8,4,1,1,quru,704,3.3,12.7,129.26,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.09,2016,8,18,1,1,quru,704,3.3,12.7,130.11,,,alive,Tori Meakem,Tori Meakem,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.1,2016,9,1,1,1,quru,704,3.3,12.7,130.58,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.11,2016,9,13,1,1,quru,704,3.3,12.7,129.69,,,alive,"Erika, Tori","Erika, Tori",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.12,2016,9,29,1,1,quru,704,3.3,12.7,130.52,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.13,2016,10,13,1,1,quru,704,3.3,12.7,130.52,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.14,2016,10,27,1,1,quru,704,3.3,12.7,130.81,,,alive,"Tori, Kate","Tori, Kate",8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
+70096,1,2016.15,2016,11,10,1,1,quru,704,3.3,12.7,131.21,,,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,8126,8126,NA,866.9000244,0,860,2,NA,1.33,NA,NA,NA,NA
 70126,1,2016.01,2016,4,5,1,1,quru,705,9.3,12.5,142.18,,,alive,Erika Gonzalez,Thomas Blair,8152,8152,830.5,821,0,247,2,NA,1.3,3,4,NA,NA
 70126,1,2016.02,2016,5,12,1,1,quru,705,9.3,12.5,147.16,,,alive,Tori Meakem,Tori Meakem,8152,8152,NA,821,0,247,2,NA,1.3,NA,NA,NA,NA
 70126,1,2016.03,2016,5,26,1,1,quru,705,9.3,12.5,148.64,,,alive,Tori Meakem,Tori Meakem,8152,8152,NA,821,0,247,2,NA,1.3,NA,NA,NA,NA
@@ -1669,10 +1669,10 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102348,1,2016.09,2016,8,18,1,1,qual,1025,16.5,11.5,117.18,,,alive,Tori Meakem,Tori Meakem,13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
 102348,1,2016.1,2016,9,1,1,1,qual,1025,16.5,11.5,116.97,,,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
 102348,1,2016.11,2016,9,13,1,1,qual,1025,16.5,11.5,116.53,,,alive,"Erika, Tori","Erika, Tori",13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
-102348,1,2016.12,2016,9,29,1,1,qual,1025,16.5,11.5,127.47,,band adjusted 9/29,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
-102348,1,2016.13,2016,10,13,1,1,qual,1025,16.5,11.5,126.97,,band adjusted 10/13,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
-102348,1,2016.14,2016,10,27,1,1,qual,1025,16.5,11.5,126.67,,,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
-102348,1,2016.15,2016,11,10,1,1,qual,1025,16.5,11.5,126.24,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,13284,13284,NA,862.7000122,0,131,2,NA,1.41,NA,NA,NA,NA
+102348,1,2016.12,2016,9,29,1,1,qual,1025,16.5,11.5,127.47,,band adjusted 9/29,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,1,700,2,NA,1.41,NA,NA,NA,NA
+102348,1,2016.13,2016,10,13,1,1,qual,1025,16.5,11.5,126.97,,band adjusted 10/13,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,0,700,2,NA,1.41,NA,NA,NA,NA
+102348,1,2016.14,2016,10,27,1,1,qual,1025,16.5,11.5,126.67,,,alive,"Tori, Kate","Tori, Kate",13284,13284,NA,862.7000122,0,700,2,NA,1.41,NA,NA,NA,NA
+102348,1,2016.15,2016,11,10,1,1,qual,1025,16.5,11.5,126.24,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,13284,13284,NA,862.7000122,0,700,2,NA,1.41,NA,NA,NA,NA
 102364,1,2016.01,2016,4,5,1,1,qual,1025,2.1,18,62.26,,,alive,"Valentine Herrmann, Avery Parmiter",Thomas Blair,13300,13300,638,630.5,0,294,2,NA,1.3,4,4,NA,NA
 102364,1,2016.02,2016,5,12,1,1,qual,1025,2.1,18,66.73,,,alive,Tori Meakem,Tori Meakem,13300,13300,NA,630.5,0,294,2,NA,1.3,NA,NA,NA,NA
 102364,1,2016.03,2016,5,26,1,1,qual,1025,2.1,18,66.37,,,alive,Tori Meakem,Tori Meakem,13300,13300,NA,630.5,0,294,2,NA,1.3,NA,NA,NA,NA
@@ -1899,20 +1899,20 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 112481,1,2016.01,2016,4,5,1,0,litu,1131,14.9,14.4,56.33,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,15188,15188,462,460.1000061,0,337,2,NA,1.3,4,4,NA,NA
 112481,1,2016.15,2016,11,10,1,0,litu,1131,14.9,14.4,60.35,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,15188,15188,NA,460.1000061,0,337,2,NA,1.3,NA,NA,NA,NA
 112482,1,2016.01,2016,4,5,1,1,litu,1131,17.76,15.92,49.77,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,15189,15189,269.3,263.2000122,0,338,2,NA,1.3,4,3,NA,NA
-112482,1,2016.02,2016,5,12,1,1,litu,1131,17.76,15.92,55.48,,band adjusted 5/12,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.03,2016,5,26,1,1,litu,1131,17.76,15.92,54.08,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.04,2016,6,9,1,1,litu,1131,17.76,15.92,54.13,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.05,2016,6,23,1,1,litu,1131,17.76,15.92,54.32,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.06,2016,7,7,1,1,litu,1131,17.76,15.92,54.57,,,alive,"Tom, Tori","Tom, Tori",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.07,2016,7,21,1,1,litu,1131,17.76,15.92,54.22,,,alive,"Tom, Tori","Tom, Tori",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.08,2016,8,4,1,1,litu,1131,17.76,15.92,54.07,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.09,2016,8,18,1,1,litu,1131,17.76,15.92,54.15,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.1,2016,9,1,1,1,litu,1131,17.76,15.92,54.21,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.11,2016,9,13,1,1,litu,1131,17.76,15.92,53.86,,,alive,"Erika, Tori","Erika, Tori",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.12,2016,9,29,1,1,litu,1131,17.76,15.92,54.11,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.13,2016,10,13,1,1,litu,1131,17.76,15.92,54.05,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.14,2016,10,27,1,1,litu,1131,17.76,15.92,53.94,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
-112482,1,2016.15,2016,11,10,1,1,litu,1131,17.76,15.92,53.88,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,15189,15189,NA,263.2000122,0,338,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.02,2016,5,12,1,1,litu,1131,17.76,15.92,55.48,,band adjusted 5/12,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,1,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.03,2016,5,26,1,1,litu,1131,17.76,15.92,54.08,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.04,2016,6,9,1,1,litu,1131,17.76,15.92,54.13,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.05,2016,6,23,1,1,litu,1131,17.76,15.92,54.32,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.06,2016,7,7,1,1,litu,1131,17.76,15.92,54.57,,,alive,"Tom, Tori","Tom, Tori",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.07,2016,7,21,1,1,litu,1131,17.76,15.92,54.22,,,alive,"Tom, Tori","Tom, Tori",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.08,2016,8,4,1,1,litu,1131,17.76,15.92,54.07,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.09,2016,8,18,1,1,litu,1131,17.76,15.92,54.15,,,alive,Tori Meakem,Tori Meakem,15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.1,2016,9,1,1,1,litu,1131,17.76,15.92,54.21,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.11,2016,9,13,1,1,litu,1131,17.76,15.92,53.86,,,alive,"Erika, Tori","Erika, Tori",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.12,2016,9,29,1,1,litu,1131,17.76,15.92,54.11,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.13,2016,10,13,1,1,litu,1131,17.76,15.92,54.05,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.14,2016,10,27,1,1,litu,1131,17.76,15.92,53.94,,,alive,"Tori, Kate","Tori, Kate",15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
+112482,1,2016.15,2016,11,10,1,1,litu,1131,17.76,15.92,53.88,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,15189,15189,NA,263.2000122,0,855,2,NA,1.3,NA,NA,NA,NA
 112485,1,2016.01,2016,4,5,1,0,quve,1132,19.56,6.15,55.44,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,15192,15192,672,665.5999756,0,339,2,NA,1.3,3,4,NA,NA
 112485,1,2016.15,2016,11,10,1,0,quve,1132,19.56,6.15,63.34,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,15192,15192,NA,665.5999756,0,339,2,NA,1.3,NA,NA,NA,NA
 112698,1,2016.01,2016,4,5,1,0,ulru,1128,17.86,18.22,16.98,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,15205,15205,109,106.5,0,340,2,NA,1.3,4,2,NA,NA
@@ -2075,21 +2075,21 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122343,1,2016.13,2016,10,13,1,1,qual,1225,10.7,14.42,83.83,,,alive,"Tori, Kate","Tori, Kate",16851,16851,NA,623.9000244,0,361,2,NA,1.3,NA,NA,NA,NA
 122343,1,2016.14,2016,10,27,1,1,qual,1225,10.7,14.42,82.91,,,alive,"Tori, Kate","Tori, Kate",16851,16851,NA,623.9000244,0,361,2,NA,1.3,NA,NA,NA,NA
 122343,1,2016.15,2016,11,10,1,1,qual,1225,10.7,14.42,82.52,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,16851,16851,NA,623.9000244,0,361,2,NA,1.3,NA,NA,NA,NA
-122427,1,2016.01,2016,4,5,1,1,qual,1227,17,15.64,117.93,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,16878,16878,844.5,832.7000122,0,142,2,NA,1.23,4,4,NA,NA
-122427,1,2016.02,2016,5,12,1,1,qual,1227,17,15.64,122.26,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.03,2016,5,26,1,1,qual,1227,17,15.64,122.91,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.04,2016,6,9,1,1,qual,1227,17,15.64,124.01,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.05,2016,6,23,1,1,qual,1227,17,15.64,127.31,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.06,2016,7,7,1,1,qual,1227,17,15.64,128.22,,,alive,"Tom, Tori","Tom, Tori",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.07,2016,7,21,1,1,qual,1227,17,15.64,128.72,,,alive,"Tom, Tori","Tom, Tori",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.08,2016,8,4,1,1,qual,1227,17,15.64,130.29,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.09,2016,8,18,1,1,qual,1227,17,15.64,130.83,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.1,2016,9,1,1,1,qual,1227,17,15.64,130.91,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.11,2016,9,13,1,1,qual,1227,17,15.64,130.54,,,alive,"Erika, Tori","Erika, Tori",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.12,2016,9,29,1,1,qual,1227,17,15.64,131.28,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.13,2016,10,13,1,1,qual,1227,17,15.64,131.93,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.14,2016,10,27,1,1,qual,1227,17,15.64,142.49,,band adj. 10/27,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
-122427,1,2016.15,2016,11,10,1,1,qual,1227,17,15.64,135.95,,band adjusted,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,16878,16878,NA,832.7000122,0,142,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.01,2016,4,5,1,1,qual,1227,17,15.64,117.93,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,16878,16878,844.5,832.7000122,0,851,2,NA,1.23,4,4,NA,NA
+122427,1,2016.02,2016,5,12,1,1,qual,1227,17,15.64,122.26,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.03,2016,5,26,1,1,qual,1227,17,15.64,122.91,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.04,2016,6,9,1,1,qual,1227,17,15.64,124.01,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.05,2016,6,23,1,1,qual,1227,17,15.64,127.31,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.06,2016,7,7,1,1,qual,1227,17,15.64,128.22,,,alive,"Tom, Tori","Tom, Tori",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.07,2016,7,21,1,1,qual,1227,17,15.64,128.72,,,alive,"Tom, Tori","Tom, Tori",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.08,2016,8,4,1,1,qual,1227,17,15.64,130.29,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.09,2016,8,18,1,1,qual,1227,17,15.64,130.83,,,alive,Tori Meakem,Tori Meakem,16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.1,2016,9,1,1,1,qual,1227,17,15.64,130.91,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.11,2016,9,13,1,1,qual,1227,17,15.64,130.54,,,alive,"Erika, Tori","Erika, Tori",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.12,2016,9,29,1,1,qual,1227,17,15.64,131.28,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.13,2016,10,13,1,1,qual,1227,17,15.64,131.93,,,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,0,851,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.14,2016,10,27,1,1,qual,1227,17,15.64,142.49,,band adj. 10/27,alive,"Tori, Kate","Tori, Kate",16878,16878,NA,832.7000122,1,856,2,NA,1.23,NA,NA,NA,NA
+122427,1,2016.15,2016,11,10,1,1,qual,1227,17,15.64,135.95,,band adjusted,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,16878,16878,NA,832.7000122,1,857,2,NA,1.23,NA,NA,NA,NA
 122439,1,2016.01,2016,4,5,1,0,cagl,1228,12.6,13,26,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,16889,16889,181,179,0,522,2,NA,1.3,4,3,NA,NA
 122439,1,2016.15,2016,11,10,1,0,cagl,1228,12.6,13,27.23,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,16889,16889,NA,179,0,522,2,NA,1.3,NA,NA,NA,NA
 122450,1,2016.01,2016,4,5,1,0,ulru,1225,2.6,18.7,43.2,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,44444,31862,253.8,246,0,542,2,NA,1.3,4,4,NA,NA
@@ -2327,10 +2327,10 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 142380,1,2016.09,2016,8,18,1,1,qual,1425,6.8,13.1,118.11,,,alive,Tori Meakem,Tori Meakem,20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
 142380,1,2016.1,2016,9,1,1,1,qual,1425,6.8,13.1,117.65,,,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
 142380,1,2016.11,2016,9,13,1,1,qual,1425,6.8,13.1,117.82,,,alive,"Erika, Tori","Erika, Tori",20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
-142380,1,2016.12,2016,9,29,1,1,qual,1425,6.8,13.1,126.24,,band adjusted 9/29,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
-142380,1,2016.13,2016,10,13,1,1,qual,1425,6.8,13.1,129.18,,band adjusted 10/13,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
-142380,1,2016.14,2016,10,27,1,1,qual,1425,6.8,13.1,126.01,,band adjusted 10/27,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
-142380,1,2016.15,2016,11,10,1,1,qual,1425,6.8,13.1,125.74,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,20329,20329,NA,574.9000244,0,194,2,NA,1.33,NA,NA,NA,NA
+142380,1,2016.12,2016,9,29,1,1,qual,1425,6.8,13.1,126.24,,band adjusted 9/29,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,1,858,2,NA,1.33,NA,NA,NA,NA
+142380,1,2016.13,2016,10,13,1,1,qual,1425,6.8,13.1,129.18,,band adjusted 10/13,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,0,858,2,NA,1.33,NA,NA,NA,NA
+142380,1,2016.14,2016,10,27,1,1,qual,1425,6.8,13.1,126.01,,band adjusted 10/27,alive,"Tori, Kate","Tori, Kate",20329,20329,NA,574.9000244,0,858,2,NA,1.33,NA,NA,NA,NA
+142380,1,2016.15,2016,11,10,1,1,qual,1425,6.8,13.1,125.74,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,20329,20329,NA,574.9000244,0,858,2,NA,1.33,NA,NA,NA,NA
 142521,1,2016.01,2016,4,5,1,0,pist,1422,6.4,11.1,123.53,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,20457,20457,460,452,0,195,2,NA,1.42,4,4,NA,NA
 142521,1,2016.15,2016,11,10,1,0,pist,1422,6.4,11.1,NA,,"needs new band, outgrown",alive,"Kate Aldrich, Sally Bowers",Tori Meakem,20457,20457,NA,452,0,195,2,NA,1.42,NA,NA,NA,NA
 142527,1,2016.01,2016,4,5,1,0,cagl,1422,1.9,18.4,23.86,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,20461,20461,165.1,159.8000031,0,196,2,NA,1.35,4,2,NA,NA
@@ -2499,21 +2499,21 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 172202,1,2016.13,2016,10,13,1,1,quru,1717,17.1,1.8,35.14,,,alive,"Tori, Kate","Tori, Kate",25504,25504,NA,555.0999756,0,649,2,NA,1.3,NA,NA,NA,NA
 172202,1,2016.14,2016,10,27,1,1,quru,1717,17.1,1.8,35.04,,,alive,"Tori, Kate","Tori, Kate",25504,25504,NA,555.0999756,0,649,2,NA,1.3,NA,NA,NA,NA
 172202,1,2016.15,2016,11,10,1,1,quru,1717,17.1,1.8,35.39,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,25504,25504,NA,555.0999756,0,649,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.01,2016,4,5,1,1,qual,1717,15.5,0.3,6.19,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,25505,25505,369,368.5,0,678,2,NA,1.3,4,3,NA,NA
-172203,1,2016.02,2016,5,12,1,1,qual,1717,15.5,0.3,7.65,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.03,2016,5,26,1,1,qual,1717,15.5,0.3,7.66,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.04,2016,6,9,1,1,qual,1717,15.5,0.3,7.46,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.05,2016,6,23,1,1,qual,1717,15.5,0.3,8.44,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.06,2016,7,7,1,1,qual,1717,15.5,0.3,8.7,,,alive,"Tom, Tori","Tom, Tori",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.07,2016,7,21,1,1,qual,1717,15.5,0.3,8.43,,,alive,"Tom, Tori","Tom, Tori",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.08,2016,8,4,1,1,qual,1717,15.5,0.3,8.82,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.09,2016,8,18,1,1,qual,1717,15.5,0.3,8.83,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.1,2016,9,1,1,1,qual,1717,15.5,0.3,8.51,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.11,2016,9,13,1,1,qual,1717,15.5,0.3,8.45,,,alive,"Erika, Tori","Erika, Tori",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.12,2016,9,29,1,1,qual,1717,15.5,0.3,8.89,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.13,2016,10,13,1,1,qual,1717,15.5,0.3,9.12,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.14,2016,10,27,1,1,qual,1717,15.5,0.3,8.7,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
-172203,1,2016.15,2016,11,10,1,1,qual,1717,15.5,0.3,8.55,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,25505,25505,NA,368.5,0,678,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.01,2016,4,5,1,1,qual,1717,15.5,0.3,6.19,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,25505,25505,369,368.5,0,852,2,NA,1.3,4,3,NA,NA
+172203,1,2016.02,2016,5,12,1,1,qual,1717,15.5,0.3,7.65,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.03,2016,5,26,1,1,qual,1717,15.5,0.3,7.66,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.04,2016,6,9,1,1,qual,1717,15.5,0.3,7.46,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.05,2016,6,23,1,1,qual,1717,15.5,0.3,8.44,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.06,2016,7,7,1,1,qual,1717,15.5,0.3,8.7,,,alive,"Tom, Tori","Tom, Tori",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.07,2016,7,21,1,1,qual,1717,15.5,0.3,8.43,,,alive,"Tom, Tori","Tom, Tori",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.08,2016,8,4,1,1,qual,1717,15.5,0.3,8.82,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.09,2016,8,18,1,1,qual,1717,15.5,0.3,8.83,,,alive,Tori Meakem,Tori Meakem,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.1,2016,9,1,1,1,qual,1717,15.5,0.3,8.51,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.11,2016,9,13,1,1,qual,1717,15.5,0.3,8.45,,,alive,"Erika, Tori","Erika, Tori",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.12,2016,9,29,1,1,qual,1717,15.5,0.3,8.89,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.13,2016,10,13,1,1,qual,1717,15.5,0.3,9.12,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.14,2016,10,27,1,1,qual,1717,15.5,0.3,8.7,,,alive,"Tori, Kate","Tori, Kate",25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2016.15,2016,11,10,1,1,qual,1717,15.5,0.3,8.55,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
 172205,1,2016.01,2016,4,5,1,0,qual,1717,16.1,3.5,104.19,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,25507,25507,500,493,0,388,2,NA,1.3,4,4,NA,NA
 172205,1,2016.15,2016,11,10,1,0,qual,1717,16.1,3.5,111.01,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,25507,25507,NA,493,0,388,2,NA,1.3,NA,NA,NA,NA
 172248,1,2016.01,2016,4,6,1,0,cato,1719,19.2,19.3,21.78,G,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,25549,25549,277,274.2000122,0,389,2,NA,1.3,4,2,NA,NA
@@ -2548,7 +2548,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 172423,1,2016.01,2016,4,6,1,0,litu,1726,18.4,1.6,39.3,,,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,25714,25714,346,322,0,679,2,NA,1.25,4,5,NA,NA
 172423,1,2016.15,2016,11,10,1,0,litu,1726,18.4,1.6,65.56,,,alive,"Kate Aldrich, Sally Bowers",Tori Meakem,25714,25714,NA,322,0,679,2,NA,1.25,NA,NA,NA,NA
 172470,1,2016.01,2016,4,6,1,1,quru,1728,11.1,12,173,,Band window too big. Need new band,alive,"Tori Meakem, Kate Aldrich",Thomas Blair,25755,25755,736.8,710,0,399,2,NA,1.25,4,4,NA,NA
-172470,1,2016.02,2016,5,12,1,1,quru,1728,11.1,12,7.43,,,alive,Tori Meakem,Tori Meakem,25755,25755,NA,710,1,721,2,NA,1.25,NA,NA,NA,NA
+172470,1,2016.02,2016,5,12,1,1,quru,1728,11.1,12,7.43,,band replaced,alive,Tori Meakem,Tori Meakem,25755,25755,NA,710,1,721,2,NA,1.25,NA,NA,NA,NA
 172470,1,2016.03,2016,5,26,1,1,quru,1728,11.1,12,7.75,,,alive,Tori Meakem,Tori Meakem,25755,25755,NA,710,0,721,2,NA,1.25,NA,NA,NA,NA
 172470,1,2016.04,2016,6,9,1,1,quru,1728,11.1,12,9,,,alive,Tori Meakem,Tori Meakem,25755,25755,NA,710,0,721,2,NA,1.25,NA,NA,NA,NA
 172470,1,2016.05,2016,6,23,1,1,quru,1728,11.1,12,11.76,,,alive,Tori Meakem,Tori Meakem,25755,25755,NA,710,0,721,2,NA,1.25,NA,NA,NA,NA
@@ -2691,20 +2691,20 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 190670,1,2016.01,2016,4,6,1,0,litu,1908,8,3.2,40.05,,,alive,"Valentine Herrmann, Avery Parmiter",Thomas Blair,28234,28234,549,548.9000244,0,426,2,NA,1.45,4,4,NA,NA
 190670,1,2016.15,2016,11,10,1,0,litu,1908,8,3.2,49.77,,,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,28234,28234,NA,548.9000244,0,426,2,NA,1.45,NA,NA,NA,NA
 190694,1,2016.01,2016,4,6,1,1,quru,1909,18.2,14.7,68.03,,,alive,"Valentine Herrmann, Avery Parmiter",Thomas Blair,28251,28251,1254.5,1265.5,0,235,2,NA,1.42,3,4,NA,NA
-190694,1,2016.02,2016,5,12,1,1,quru,1909,18.2,14.7,83.74,,band adjusted 5/12,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.03,2016,5,26,1,1,quru,1909,18.2,14.7,83.11,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.04,2016,6,9,1,1,quru,1909,18.2,14.7,85.03,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.05,2016,6,23,1,1,quru,1909,18.2,14.7,85.83,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.06,2016,7,7,1,1,quru,1909,18.2,14.7,87.01,,,alive,"Tom, Tori","Tom, Tori",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.07,2016,7,21,1,1,quru,1909,18.2,14.7,87.43,,,alive,"Tom, Tori","Tom, Tori",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.08,2016,8,4,1,1,quru,1909,18.2,14.7,88.05,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.09,2016,8,18,1,1,quru,1909,18.2,14.7,88.88,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.1,2016,9,1,1,1,quru,1909,18.2,14.7,89.03,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.11,2016,9,13,1,1,quru,1909,18.2,14.7,88.95,,,alive,"Erika, Tori","Erika, Tori",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.12,2016,9,29,1,1,quru,1909,18.2,14.7,89.68,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.13,2016,10,13,1,1,quru,1909,18.2,14.7,90.72,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.14,2016,10,27,1,1,quru,1909,18.2,14.7,92.08,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
-190694,1,2016.15,2016,11,10,1,1,quru,1909,18.2,14.7,91.04,,,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,28251,28251,NA,1265.5,0,235,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.02,2016,5,12,1,1,quru,1909,18.2,14.7,83.74,,band adjusted 5/12,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,1,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.03,2016,5,26,1,1,quru,1909,18.2,14.7,83.11,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.04,2016,6,9,1,1,quru,1909,18.2,14.7,85.03,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.05,2016,6,23,1,1,quru,1909,18.2,14.7,85.83,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.06,2016,7,7,1,1,quru,1909,18.2,14.7,87.01,,,alive,"Tom, Tori","Tom, Tori",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.07,2016,7,21,1,1,quru,1909,18.2,14.7,87.43,,,alive,"Tom, Tori","Tom, Tori",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.08,2016,8,4,1,1,quru,1909,18.2,14.7,88.05,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.09,2016,8,18,1,1,quru,1909,18.2,14.7,88.88,,,alive,Tori Meakem,Tori Meakem,28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.1,2016,9,1,1,1,quru,1909,18.2,14.7,89.03,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.11,2016,9,13,1,1,quru,1909,18.2,14.7,88.95,,,alive,"Erika, Tori","Erika, Tori",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.12,2016,9,29,1,1,quru,1909,18.2,14.7,89.68,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.13,2016,10,13,1,1,quru,1909,18.2,14.7,90.72,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.14,2016,10,27,1,1,quru,1909,18.2,14.7,92.08,,,alive,"Tori, Kate","Tori, Kate",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2016.15,2016,11,10,1,1,quru,1909,18.2,14.7,91.04,,,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
 190793,1,2016.01,2016,4,6,1,0,litu,1914,12.2,1.3,85.47,,,alive,"Valentine Herrmann, Avery Parmiter",Thomas Blair,28335,28335,612,601,0,427,2,NA,1.3,4,4,NA,NA
 190793,1,2016.15,2016,11,10,1,0,litu,1914,12.2,1.3,98.84,,,alive,"Tori Meakem, Maru Losada, Lauren Brown",Tori Meakem,28335,28335,NA,601,0,427,2,NA,1.3,NA,NA,NA,NA
 190794,1,2016.01,2016,4,6,1,0,quru,1914,10.6,1.4,75.76,,,alive,"Valentine Herrmann, Avery Parmiter",Thomas Blair,28336,28336,653,639.7999878,0,428,2,NA,1.3,4,4,NA,NA
