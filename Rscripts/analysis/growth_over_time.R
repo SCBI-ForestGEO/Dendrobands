@@ -125,7 +125,19 @@ for(stems in names(all_stems)) {
   all_stems[[stems]] <- tree.n
 }
 
+#correction factor for 2013 census data
+for(stems in names(all_stems)) {
+  tree.n <- all_stems[[stems]]
 
+  tree.nsub <- tree.n[tree.n$survey.ID %in% c(2010:2014.01), ]
+  tree.n$dbh2 <- ifelse(unique(tree.nsub$dbh2[!tail(tree.nsub$dbh2, n=1)]), tree.n$dbh2,
+                        ifelse(tree.n$survey.ID == 2013.16 & tree.n$survey.ID == 2014.01, 
+                               
+                               abs(diff(tail(tree.n$dbh, n=2))) + tree.n$dbh2)....
+  #Dendrobands: if dbh 2010:2013.16 same, then take difference of 2014.01 and 2013.06, and add to entire 2010:2013.16 measurements.
+                        
+  all_stems[[stems]] <- tree.n
+}
 ######################################################################################
 ##1c. troubleshoot with individual tags
 dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
