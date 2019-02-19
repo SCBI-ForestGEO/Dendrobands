@@ -1,4 +1,4 @@
-#Simple plots for dendroband dbh
+#create dendro_trees_ANPP.csv plus make graphs
 ## these were made to help determine what trees to add to replace dead ones
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
@@ -9,7 +9,23 @@ ANPP <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-Fores
 
 data_dbh<-data_2018[which(data_2018$survey.ID=='2018.14'), ]
 
+#calculate ratio of # dendrobands to ANPP for each species ####
 library(data.table)
+ANPPmerge <- data.frame(ANPP$species, ANPP$ANPP_Mg.C.ha1.y1_10cm)
+setnames(ANPPmerge, old="ANPP.species", new="sp")
+ANPPmerge <- merge(ANPPmerge,dendro, by="sp")
+
+ANPPmerge$ANPP.ratio <- ANPPmerge$biannual.n/ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm
+
+## round to 5 decimal places and 2 decimal places
+ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm <- sprintf(ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm, fmt='%#.5f')
+
+ANPPmerge$ANPP.ratio <- sprintf(ANPPmerge$ANPP.ratio, fmt='%#.2f')
+
+write.csv(ANPPmerge, "dendro_trees_ANPP.csv", row.names=FALSE)
+
+#################################################################################
+#make graphs of dbh and ANPP
 library(ggplot2)
 
 ##when running this whole script at once, plots won't show up in "plots" window because they're being directly written to the pdf. For troubleshooting, ignore this pdf code.
@@ -40,10 +56,6 @@ ggplot(data=dendro) +
   theme_minimal()
 
 ## plot ANPP contribution (>10cm) by dendroband sp numbers
-ANPPmerge <- data.frame(ANPP$species, ANPP$ANPP_Mg.C.ha1.y1_10cm)
-setnames(ANPPmerge, old="ANPP.species", new="sp")
-ANPPmerge <- merge(ANPPmerge,dendro, by="sp")
-
 ggplot(data = ANPPmerge) +
   aes(x = sp, fill = ANPP.ANPP_Mg.C.ha1.y1_10cm, weight = biannual.n) +
   geom_bar() +
@@ -56,16 +68,3 @@ ggplot(data = ANPPmerge) +
   labs(title = "Dendroband sp numbers by ANPP >10cm 2018") +
   theme_minimal()
 dev.off()
-
-##### 
-#calculate ratio of # dendrobands to ANPP for each species
-#after making ANPPmerge above
-
-ANPPmerge$ANPP.ratio <- ANPPmerge$biannual.n/ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm
-
-## round to 5 decimal places and 2 decimal places
-ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm <- sprintf(ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm, fmt='%#.5f')
-
-ANPPmerge$ANPP.ratio <- sprintf(ANPPmerge$ANPP.ratio, fmt='%#.2f')
-
-write.csv(ANPPmerge, "dendro_trees_ANPP.csv", row.names=FALSE)
