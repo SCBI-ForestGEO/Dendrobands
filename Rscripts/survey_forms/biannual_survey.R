@@ -135,6 +135,9 @@ data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 201
 
 data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "location")]
 
+#instead of the below code, can also do:
+data_biannual[is.na(data_biannual)] <- ""
+
 data_biannual$survey.ID = ""
 data_biannual$year = ""
 data_biannual$month = ""
