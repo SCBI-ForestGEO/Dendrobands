@@ -38,6 +38,7 @@ In 2012, some trees were added while others died. Overall number of trrees chang
 2013 is the first year where the number of dendrobands matches what we see in recent years. 50 more trees were added to the intraannual and biannual survey as part of a sap flow cluster study, bringing the total trees to 155 (intraannual) and 579 (biannual), including dead. Because dead trees weren't removed from survey sheets until 2018, these numbers are the ones seen in the archive sheets for 2013- spring 2018. 
 
 All the new trees were added in the middle of the growing season, thus for these 50 trees, records only begin at survey 2013.06. The one exception is 30339 (three stems), which was the only new tree measured distinctly in 2013.01.
+- Prior to 2013, intraannual trees were only comprised of litu, qual, and quru. With the addition of sap cluster trees in 2013.06, diversity was increased.
 
 ### 2015
 Although 2015 was the final year of the sap flow cluster study, the trees involved were kept in the dendroband surveys. There were comments in the archive data about changing some values (e.g. 40792 should be stem 2, not stem 1). These comments were applied when converting to new format.
