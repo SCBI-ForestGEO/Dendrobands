@@ -1,4 +1,4 @@
-# Dendroband number of surveys per Year
+# Dendroband survey numbers per year
 
 |Year| n.surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|n.dead|n.replaced|
 |----|:--------:|:------------:|:--------------:|:-----------:|:--------------:|:----:|:--------:|
