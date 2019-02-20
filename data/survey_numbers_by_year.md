@@ -11,7 +11,7 @@
 |2016|    15    |     579      |      155       |     545     |       149      |  3   |     0    |
 |2017|    12    |     579      |      155       |     542     |       148      |  8   |     0    |
 |2018|    14    |     579      |      155       |     524     |       146      | 11   |     0    |
-|2019|          |              |                |     547     |       146      |      |    34    | 
+|2019|          |     613      |      155       |     547     |       146      |      |    34    | 
 
 ##### *this table should be made using R; these values until then should be treated as approximate*
 
