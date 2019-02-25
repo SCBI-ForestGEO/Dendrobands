@@ -1,40 +1,36 @@
 tag,stem,sp,quadrat,lx,ly,year,month,day,biannual,intraannual,dbhnew,dendroID,type,dendDiam,dendHt,measure,codes,notes,field.recorders,data.enter
-12416,1,cato,129,17.1,16.1,,,,1,0,,,,,,,,,,
-22315,1,caco,225,11,4,,,,1,0,,,,,,,,,,
-30347,1,caco,307,17.7,12.4,,,,1,0,,,,,,,,,,
-40550,1,cato,406,18.9,2,,,,1,0,,,,,,,F,,,
-40465,1,qupr,404,8.2,12.5,2019,February,8,1,0,45.1,862,2,43.7,1.4,7.3,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-50525,1,qual,512,8.3,7.4,2019,February,15,1,0,51.4,863,2,50.8,1.4,10.09,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-50562,1,quru,514,6.9,12.5,2019,February,15,1,0,69.5,864,2,68.2,1.4,3.98,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-50622,1,qual,513,16.8,9.4,2019,February,15,1,0,65,865,2,64.4,1.4,5.03,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-50646,1,quru,514,19.6,9.4,2019,February,5,1,0,35.1,866,2,35.2,1.4,3.8,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-52344,1,cagl,528,14.3,5.9,2019,February,15,1,0,26.9,867,2,26.7,1.4,6.55,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-60266,1,cato,604,5.5,9.2,,,,1,0,,,,,,,F,,,
-60410,1,fram,610,7.3,15.7,2019,February,5,1,0,46.8,868,2,46.6,1.4,3.69,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-62114,1,quve,619,18.7,12.6,2019,February,5,1,0,30.6,869,2,30.6,1.4,11.2,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-62285,1,quru,625,4.8,2,2019,February,15,1,0,71.4,870,2,71,1.4,6.37,M;main,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-62300,1,quve,625,13.8,17.5,2019,February,15,1,0,45,871,2,45.3,1.4,6.49,,cylindrical,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-62312,1,cato,626,14.3,0.4,,,,1,0,,,,,,,,,,
-70146,1,quve,706,8.8,7.2,2019,February,8,1,0,66.2,872,2,66,1.4,6.77,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-72104,1,qual,718,6.2,17.8,2019,February,5,1,0,26,873,2,25.5,1.4,7.1,M;main,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-80121,1,quve,801,8.8,19.2,2019,February,5,1,0,11.4,874,2,11.3,1.4,7.06,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-92347,1,quru,923,1.4,14.5,2019,February,15,1,0,57.6,875,2,57,1.4,7.12,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-100955,1,quru,1010,16.7,6.8,2019,February,8,1,0,32.1,876,2,30.4,1.4,4.44,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-101223,1,qupr,1013,9.4,17.8,2019,February,15,1,0,67.9,877,2,67.3,1.4,8.92,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-102199,1,cagl,1021,1.3,8,2019,February,15,1,0,44.9,878,2,44.4,1.4,11.74,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-121307,1,cato,1211,0.4,13.5,,,,1,0,,,,,,,F,,,
-121438,1,caco,1215,19.1,6.5,,,,1,0,,,,,,,,,,
-132280,1,fram,1324,6.1,18.2,2019,February,15,1,0,10.6,879,2,10.2,1.4,10.17,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-140850,1,caco,1412,7.2,7.7,,,,1,0,,,,,,,I,,,
-141088,1,fram,1415,13,0.6,2019,February,5,1,0,77,,2,76.5,1.4,5.61,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-141216,1,caco,1415,2.1,6.2,,,,1,0,,,,,,,M;main,,,
-142399,1,qual,1427,14.4,0.5,2019,February,15,1,0,62.8,880,2,62.4,1.4,5.3,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-142548,1,qual,1424,4,4.7,2019,February,15,1,0,61.3,881,2,61.3,1.4,7.93,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-152513,1,qupr,1525,4.6,19.2,2019,February,15,1,0,61.5,882,2,61.2,1.4,6.39,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-160814,1,cato,1611,14.3,5.7,,,,1,0,,,,,,,,,,
-161578,1,qual,1616,5.6,14.7,2019,February,5,1,0,22.8,883,2,23.1,1.4,3.9,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-162446,1,quru,1630,14.1,2.9,2019,February,15,1,0,80.3,884,2,79.9,1.4,7.78,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-162541,1,qupr,1627,3.4,15.4,2019,February,15,1,0,40.9,885,2,40.8,1.4,6.56,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-171454,1,caco,1714,1.6,13.8,,,,1,0,,,,,,,,,,
-180791,1,cagl,1811,9.6,4.1,2019,February,15,1,0,39.6,886,2,39.6,1.4,7.03,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
-201331,1,qupr,2015,14.3,9.5,2019,February,5,1,0,43.2,887,2,42.7,1.4,4.2,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+12416,1,cato,129,17.1,16.1,2019,February,22,1,0,12.6,862,2,12.3,1.4,4.65,,,"Becky Banbury Morgan, Ian McGregor",Ian McGregor
+22315,1,caco,225,11,4,2019,February,22,1,0,55,863,2,54.1,1.4,5.42,,,"Becky Banbury Morgan, Ian McGregor",Ian McGregor
+40465,1,qupr,404,8.2,12.5,2019,February,8,1,0,45.1,864,2,43.7,1.4,7.3,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+50525,1,qual,512,8.3,7.4,2019,February,15,1,0,51.4,865,2,50.8,1.4,10.09,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+50562,1,quru,514,6.9,12.5,2019,February,15,1,0,69.5,866,2,68.2,1.4,3.98,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+50622,1,qual,513,16.8,9.4,2019,February,15,1,0,65,867,2,64.4,1.4,5.03,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+50646,1,quru,514,19.6,9.4,2019,February,5,1,0,35.1,868,2,35.2,1.4,3.8,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+52344,1,cagl,528,14.3,5.9,2019,February,15,1,0,26.9,869,2,26.7,1.4,6.55,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+60266,1,cato,604,5.5,9.2,2019,February,21,1,0,49.6,870,2,49.5,1.4,5.97,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+60410,1,fram,610,7.3,15.7,2019,February,5,1,0,46.8,871,2,46.6,1.4,3.69,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+62114,1,quve,619,18.7,12.6,2019,February,5,1,0,30.6,872,2,30.6,1.4,11.2,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+62285,1,quru,625,4.8,2,2019,February,15,1,0,71.4,873,2,71,1.4,6.37,M;main,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+62300,1,quve,625,13.8,17.5,2019,February,15,1,0,45,874,2,45.3,1.4,6.49,,cylindrical,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+62312,1,cato,626,14.3,0.4,2019,February,21,1,0,12.9,875,2,12.7,1.4,6.59,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+70146,1,quve,706,8.8,7.2,2019,February,8,1,0,66.2,876,2,66,1.4,6.77,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+72104,1,qual,718,6.2,17.8,2019,February,5,1,0,26,877,2,25.5,1.4,7.1,M;main,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+80121,1,quve,801,8.8,19.2,2019,February,5,1,0,11.4,878,2,11.3,1.4,7.06,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+92347,1,quru,923,1.4,14.5,2019,February,15,1,0,57.6,879,2,57,1.4,7.12,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+100955,1,quru,1010,16.7,6.8,2019,February,8,1,0,32.1,880,2,30.4,1.4,4.44,F,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+101223,1,qupr,1013,9.4,17.8,2019,February,15,1,0,67.9,881,2,67.3,1.4,8.92,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+102199,1,cagl,1021,1.3,8,2019,February,15,1,0,44.9,882,2,44.4,1.4,11.74,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+121438,1,caco,1215,19.1,6.5,2019,February,21,1,0,39.3,883,2,39.1,1.4,6.25,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+132280,1,fram,1324,6.1,18.2,2019,February,15,1,0,10.6,884,2,10.2,1.4,10.17,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+141088,1,fram,1415,13,0.6,2019,February,5,1,0,77,885,2,76.5,1.4,5.61,,"replacing 131272, replacement decided in field","Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+141216,1,caco,1415,2.1,6.2,2019,February,21,1,0,14.7,886,2,14.4,1.4,6.14,M;main,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+142399,1,qual,1427,14.4,0.5,2019,February,15,1,0,62.8,887,2,62.4,1.4,5.3,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+142548,1,qual,1424,4,4.7,2019,February,15,1,0,61.3,888,2,61.3,1.4,7.93,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+152513,1,qupr,1525,4.6,19.2,2019,February,15,1,0,61.5,889,2,61.2,1.4,6.39,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+160814,1,cato,1611,14.3,5.7,2019,February,21,1,0,44.1,890,2,43.8,1.4,7.06,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+161578,1,qual,1616,5.6,14.7,2019,February,5,1,0,22.8,891,2,23.1,1.4,3.9,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+162446,1,quru,1630,14.1,2.9,2019,February,15,1,0,80.3,892,2,79.9,1.4,7.78,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+162541,1,qupr,1627,3.4,15.4,2019,February,15,1,0,40.9,893,2,40.8,1.4,6.56,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+171454,1,caco,1714,1.6,13.8,2019,February,21,1,0,11.8,894,2,11.7,1.4,5.25,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+180791,1,cagl,1811,9.6,4.1,2019,February,15,1,0,39.6,895,2,39.6,1.4,7.03,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor
+201331,1,qupr,2015,14.3,9.5,2019,February,5,1,0,43.2,896,2,42.7,1.4,4.2,,,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor

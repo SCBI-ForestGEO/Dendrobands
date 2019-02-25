@@ -261,9 +261,10 @@ write.csv(newtrees, "data_entry_new_trees_2019.csv", row.names=FALSE)
 #7 merge data_entry form to the next year's master file ####
 
 #the next year's file should already be created from the script "new_scbidendroAll_[YEAR].R". The lines of code below are for merging into the file created from that script.
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 library(data.table)
 
-dendro_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
+dendro_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv", stringsAsFactors = FALSE)
 
 tree_replace <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
 
@@ -286,6 +287,9 @@ tree_replace[,extra] <- NA
 dendro_2019 <- rbind(dendro_2019, tree_replace)
 dendro_2019 <- dendro_2019[order(dendro_2019$tag, dendro_2019$stemtag), ]
 
+dendro_2019$codes <- ifelse(is.na(dendro_2019$codes), "", dendro_2019$codes)
+dendro_2019$notes <- ifelse(is.na(dendro_2019$notes), "", dendro_2019$notes)
+
 write.csv(dendro_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
 
 ##############################################################################
@@ -300,7 +304,7 @@ recensus2013 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SC
 
 geo_stems <- read.csv("V:/SIGEO/GIS_data/R-script_Convert local-global coord/scbi_stem_utm_lat_long.csv")
 
-stem_coords <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/census3_coord_local_plot.csv")
+tree_coord <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/tree_coord_local_plot.csv")
 
 library(data.table)
 tree_replace <- setnames(tree_replace, old=c("stem", "dbhnew"), new=c("stemtag", "dbh"))
@@ -320,9 +324,9 @@ remove_cols <- setdiff(colnames(tree_replace), colnames(dendro_trees))
 tree_replace[,remove_cols] <- NULL
 
 #add in coordinates
-stem_coords <- setnames(stem_coords, old=c("qx","qy","px","py"), new=c("lx","ly","gx","gy"))
-tree_replace$gx <- stem_coords$gx[match(tree_replace$tag, stem_coords$tag)]
-tree_replace$gy <- stem_coords$gy[match(tree_replace$tag, stem_coords$tag)]
+tree_coord <- setnames(tree_coord, old=c("qx","qy","px","py"), new=c("lx","ly","gx","gy"))
+tree_replace$gx <- tree_coord$gx[match(tree_replace$tag, tree_coord$tag)]
+tree_replace$gy <- tree_coord$gy[match(tree_replace$tag, tree_coord$tag)]
 
 tree_replace$lon <- geo_stems$lon[match(tree_replace$tag, geo_stems$tag)]
 tree_replace$lat <- geo_stems$lat[match(tree_replace$tag, geo_stems$tag)]
