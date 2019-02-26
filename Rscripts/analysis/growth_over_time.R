@@ -11,8 +11,9 @@ all_years <- list()
 
 for (k in seq(along=dirs)){
     file <- dirs[[k]]
-    yr <- read.csv(file)
+    yr <- read.csv(file, stringsAsFactors = FALSE)
     yr_intra <- yr[yr$intraannual==1, ]
+    yr_intra$dbh <- as.numeric(yr_intra$dbh)
 
     all_years[[k]] <- split(yr_intra, yr_intra$stemID)
   #  if (file == dirs[[1]]){
@@ -71,8 +72,8 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
 }
 
 #1b. this loop says the following:
-##1. Assigns the first dbh of the growth column as the first dbh.
-##2. Says the following:
+##1. First, assigns the first dbh of the growth column as the first dbh.
+##2. Second, is conditional:
 ##2i.If new.band=0 (no band change), we have a measure, and we have a previous dbh2, use Condit's function to determine next dbh2 based on caliper measurement. 
 ##2ii. If new.band=0, we have a measure, and the previous dbh2 is NA, use Condit's function by comparing the new measure with the most recent non-NA dbh2.
 ##2iii. If new.band=0 and the previous measure is NA, give dbh2 a value of NA.
@@ -371,24 +372,21 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+test_intra <- all_stems$stemID_10045
 
 library(data.table)
-dendro_2018 <- setnames(dendro_2018, 
+test_intra <- setnames(test_intra, 
       old=c("treeID", "dendroID", "stemID", "sp", "dbh", "measure", "year", "new.band"), 
       new=c("TREE_ID", "BAND_NUM", "UNIQUE_ID", "SP", "ORG_DBH", "GAP_WIDTH", "YEAR", "NEW_BAND"))
 
 newcols <- c("SKIP", "ADJUST", "REMOVE")
-dendro_2018[,newcols] <- 0
+test_intra[,newcols] <- 0
 
 library(lubridate)
-dendro_2018$DOY <- as.Date(with(dendro_2018, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
-dendro_2018$DOY <- yday(dendro_2018$DOY)
+test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
+test_intra$DOY <- yday(test_intra$DOY)
 
-intra <- dendro_2018[dendro_2018$intraannual == 1, ]
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
-get.optimized.dendro(intra, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+get.optimized.dendro(test_intra, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
 
-View(INPUT.dendro)
 get.optimized.dendro(INPUT.dendro, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
