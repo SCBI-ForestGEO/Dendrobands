@@ -139,7 +139,7 @@ for(stems in names(all_stems)) {
   all_stems[[stems]] <- tree.n
 }
 ######################################################################################
-##1c. troubleshoot with individual tags
+##1c. troubleshoot with individual tags ####
 dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 intra <- dendro_2018[dendro_2018$intraannual==1, ]
 test <- intra[intra$tag==12025, ] #12025 has band replaced
@@ -366,3 +366,29 @@ library(data.table)
 file <- rbindlist(all_sp)
 colnames(file) <- c("sp", "avg_range")
 file$avg_range <- round(file$avg_range, digits=2)
+#####################################################################################
+#6. McMahon RDendrom package
+
+devtools::install_github("seanmcm/RDendrom")
+library(RDendrom)
+dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+
+library(data.table)
+dendro_2018 <- setnames(dendro_2018, 
+      old=c("treeID", "dendroID", "stemID", "sp", "dbh", "measure", "year", "new.band"), 
+      new=c("TREE_ID", "BAND_NUM", "UNIQUE_ID", "SP", "ORG_DBH", "GAP_WIDTH", "YEAR", "NEW_BAND"))
+
+newcols <- c("SKIP", "ADJUST", "REMOVE")
+dendro_2018[,newcols] <- 0
+
+library(lubridate)
+dendro_2018$DOY <- as.Date(with(dendro_2018, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
+dendro_2018$DOY <- yday(dendro_2018$DOY)
+
+intra <- dendro_2018[dendro_2018$intraannual == 1, ]
+
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+get.optimized.dendro(intra, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+
+View(INPUT.dendro)
+get.optimized.dendro(INPUT.dendro, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
