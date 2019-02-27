@@ -8,15 +8,20 @@ Column,Field,Field Description,Storage.Type,Units
 7/G,cored,"Quantifier if tree has been cored. Enter ""1"" if cored, ""0"" if not",numeric (integer),
 8/H,treeID,"Arbitrary numeric identifier for trees, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
 9/I,stemID,"Arbitrary numeric identifier for stems, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
-10/J,dendro.start.date,First date of dendroband measurements for a particular tree,character (string),dd-mm--yyyy
-11/K,dendro.end.date,Last date of dendroband measurements for a particular tree,character (string),dd-mm--yyyy
-12/L,mortality.year,"Year that a particular tree was considered dead. If a tree's dendro.end.date was in fall of 2013, though the tree wasn't called dead until spring 2014, the mortality.year = 2014. NB: some trees have had dendrobands removed but were not dead. This is clarified in tree.notes",character (string),yyyy
-13/M,tree.notes,Notes on overall band condition in the context of major changes (e.g. regarding start and end dates),character (string),
-14/N,lx,X-coordinate within each quadrat,numeric (integer),m
-15/O,ly,Y-coordinate within each quadrat,numeric (integer),m
-16/P,gx,X-coordinate within the entire plot,numeric (integer),m
-17/Q,gy,Y-coordinate within the entire plot,numeric (integer),m
-18/R,NAD83_X,X-coordinate of stem in context of UTM Zone 17N,numeric (integer),m
-19/S,NAD83_Y,Y-coordinate of stem in context of UTM Zone 17N,numeric (integer),m
-20/T,lat,latitude of stem in decimal degrees,numeric (integer),decimal degrees
-21/U,lon,longitude of stem in decimal degrees,numeric (integer),decimal degrees
+10/J,dendro.start.year,Year in which a dendroband was installed on a tree and measurements were first taken,character (string),dd-mm--yyyy
+11/K,dendro.start.month,Month in which a dendroband was installed on a tree and measurements were first taken,character (string),dd-mm--yyyy
+12/L,dendro.start.day,Day in which a dendroband was installed on a tree and measurements were first taken,character (string),yyyy
+13/M,dendro.end.year,Year in which the final dendroband measurement was taken for a tree,character (string),
+14/N,dendro.end.month,Month in which the final dendroband measurement was taken for a tree,numeric (integer),m
+15/O,dendro.end.day,Day in which the final dendroband measurement was taken for a tree,numeric (integer),m
+16/P,mortality.year,"Year that a particular tree was considered dead. If a tree's dendro.end.date was in fall of 2013, though the tree wasn't called dead until spring 2014, the mortality.year = 2014. NB: some trees have had dendrobands removed but were not dead. This is clarified in tree.notes",numeric (integer),m
+17/Q,tree.notes,Notes on overall band condition in the context of major changes (e.g. regarding start and end dates),numeric (integer),m
+18/R,location,"General location within the plot, given as North (>row 15) or South (<= row 15)",,
+19/S,lx,X-coordinate within each quadrat,numeric (integer),m
+20/T,ly,Y-coordinate within each quadrat,numeric (integer),m
+21/U,gx,X-coordinate within the entire plot,numeric (integer),decimal degrees
+22/V,gy,Y-coordinate within the entire plot,numeric (integer),decimal degrees
+23/W,NAD83_X,X-coordinate of stem in context of UTM Zone 17N,,
+24/X,NAD83_Y,Y-coordinate of stem in context of UTM Zone 17N,,
+25/Y,lat,latitude of stem in decimal degrees,,
+26/Z,lon,longitude of stem in decimal degrees,,

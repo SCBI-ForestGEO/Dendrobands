@@ -1,0 +1,11 @@
+Column,Field,Field Description,Storage.Type,Units
+1/A,year,year of survey,character (string),
+2/B,n.surveys,"number of total intraannual surveys (there are always 2 biannual surveys). This does not include survey.ID = XXXX.00 or XXXX.99, as these are for replacing trees/fixing broken bands",numeric (integer),
+3/C,biannual.all,"the total number of trees used for biannual dendrobands. This number includes both live and dead trees, and can be seen as biannual.all = biannual.all[year-1] + biannual.added",numeric (integer),
+4/D,biannual.live,number of live biannual trees in a year's survey. This is calculated by counting all trees at survey.ID = XXXX.01,numeric (integer),
+5/E,biannual.dead,number of dead biannual trees from a year's survey. This is calculated by counting all dead trees at max(survey.ID),numeric (integer),
+6/F,biannual.added,number of trees added to the biannual survey. This is determined from the total number of new trees for the start year in the dendro_trees file,numeric (integer),
+7/G,intraannual.all,"the total number of trees used for intraannual dendrobands. This number includes both live and dead trees, and can be seen as intraannual.all = intraannual.all[year-1] + intraannual.added",numeric (integer),
+8/H,intraannual.live,number of live intraannual trees in a year's survey. This is calculated by counting all trees at survey.ID = XXXX.01,numeric (integer),
+9/I,intraannual.dead,number of dead intraannual trees from a year's survey. This is calculated by counting all dead trees at max(survey.ID),numeric (integer),
+10/J,intraannual.added,number of trees added to the intraannual survey. This is determined from the total number of new trees for the start year in the dendro_trees file,numeric (integer),
