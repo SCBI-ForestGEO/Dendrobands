@@ -63,42 +63,4 @@ for (k in seq(along=dirs)){
   }
 }
     
-    
-
-########################################
-dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
-for (i in seq(along=survey$year)){
-  
-  #n.surveys
-  survey$n.surveys <- ifelse(survey$year %in% survey$year[[i]], length(unique(dendro_2018$survey.ID)), survey$n.surveys)
-  
-  #__.all
-  all_bi <- dendro_trees[!dendro_trees$dendro.start.year > 2018, ]
-  survey$biannual.all <- ifelse(survey$year %in% survey$year[[i]], length(unique(all_bi$stemID)), survey$biannual.all)
-
-  all_intra <- all_bi[all_bi$intraannual == 1, ]
-  survey$intraannual.all <- ifelse(survey$year %in% survey$year[[i]], length(unique(all_intra$stemID)), survey$intraannual.all)
-  
-  #___.live
-  #the min is here because we're interested in seeing the survey numbers as they were at when the growing season started. The only reason to use the max survey.ID is for calculating dead trees and additions.
-  alive <- dendro_2018[dendro_2018$status == "alive" & dendro_2018$survey.ID == min(dendro_2018$survey.ID), ]
-  survey$biannual.live <- ifelse(survey$year %in% survey$year[[i]], length(unique(alive$stemID)), survey$biannual.live)
-  
-  alive_intra <- intra[intra$status == "alive" & intra$survey.ID == min(intra$survey.ID), ]
-  survey$intraannual.live <- ifelse(survey$year %in% survey$year[[i]], length(unique(alive_intra$stemID)), survey$intraannual.live)
-  
-  #___.dead
-  dead <- dendro_2018[dendro_2018$status == "dead" & dendro_2018$survey.ID == max(dendro_2018$survey.ID), ]
-  survey$biannual.dead <- ifelse(survey$year %in% survey$year[[i]], length(unique(dead$stemID)), survey$biannual.dead)
-  
-  dead_intra <- dendro_2018[dendro_2018$status == "dead" & dendro_2018$survey.ID == max(dendro_2018$survey.ID) & dendro_2018$intraannual == 1, ]
-  survey$intraannual.dead <- ifelse(survey$year %in% survey$year[[i]], length(unique(dead_intra$stemID)), survey$intraannual.dead)
-  
-  #___.added
-  new <- dendro_trees[dendro_trees$dendro.start.year %in% survey$year[[i]], ]
-  survey$biannual.added <- ifelse(survey$year %in% survey$year[[i]],length(unique(new$stemID)), survey$biannual.added)
-  
-  new_intra <- dendro_trees[dendro_trees$dendro.start.year %in% survey$year[[i]] & dendro_trees$intraannual == 1, ]
-  survey$intraannual.added <- ifelse(survey$year %in% survey$year[[i]],length(unique(new_intra$stemID)), survey$intraannual.added)
-  
-}
+write.csv(survey, "survey_numbers_by_year.csv", row.names=FALSE)
