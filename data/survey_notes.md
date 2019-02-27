@@ -1,26 +1,8 @@
-# Dendroband survey numbers per year
-
-|Year| n.surveys| biannual.all |intraannual.all |biannual.live|intraannual.live|n.dead|n.added|
-|----|:--------:|:------------:|:--------------:|:-----------:|:--------------:|:----:|:-----:|
-|2010|    1     |     243      |      0 (55)    |     243     |       0 (55)   |  0   |   NA  |
-|2011|    23    |     505      |      105       |     505     |       105      |  9   |  262  |
-|2012|    18    |     523      |      105       |     515     |       105      |  4   |   19  |
-|2013|    16    |     579      |      155       |     566     |       150      | 10   |   55  |
-|2014|    14    |     579      |      155       |     561     |       149      |  7   |    0  | 
-|2015|    13    |     579      |      155       |     554     |       149      |  9   |    0  |
-|2016|    15    |     579      |      155       |     545     |       149      |  3   |    0  |
-|2017|    12    |     579      |      155       |     542     |       148      |  8   |    0  |
-|2018|    14    |     579      |      155       |     524     |       146      | 11   |    0  |
-|2019|          |     614      |      155       |     548     |       146      |      |   35  | 
-
-##### *this table should be made using R; these values until then should be treated as approximate*
-
-#### ".all" includes both live and dead trees
-#### ".live" number of live trees in each year's spreadsheet
-
-#### as of 2019, goal is to have ~545-550 live biannual trees and ~145-150 intraannual trees
+# Dendroband survey notes
 
 ## Notes for certain years:
+
+#### as of 2019, goal is to have ~545-550 live biannual trees and ~145-150 intraannual trees
 
 ### 2010
 2010 is the first year for which we have dendroband survey data. Trees were measured once in late January.
