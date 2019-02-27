@@ -381,7 +381,7 @@ test_intra <- setnames(test_intra,
 
 newcols <- c("SKIP", "ADJUST", "REMOVE")
 test_intra[,newcols] <- 0
-test_intra$SITE <- "SCBI"
+
 
 library(lubridate)
 test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
