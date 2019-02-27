@@ -372,7 +372,7 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems$stemID_10045
+test_intra <- all_stems$stemID_10198
 
 library(data.table)
 test_intra <- setnames(test_intra, 
@@ -381,12 +381,37 @@ test_intra <- setnames(test_intra,
 
 newcols <- c("SKIP", "ADJUST", "REMOVE")
 test_intra[,newcols] <- 0
+test_intra$SITE <- "SCBI"
 
 library(lubridate)
 test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
 test_intra$DOY <- yday(test_intra$DOY)
 
 
-get.optimized.dendro(test_intra, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+get.optimized.dendro(data, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output/test")
 
-get.optimized.dendro(INPUT.dendro, no.neg.growth=FALSE, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+param.table.name = "Param_table.csv"
+Dendro.data.name = "Dendro_data.Rdata"
+Dendro.split.name = "Dendro_data_split.Rdata"
+OUTPUT.folder <- "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output"
+
+param.table <- read.csv(file = paste(OUTPUT.folder, param.table.name, sep = "/"))
+load(file = paste(OUTPUT.folder, Dendro.data.name, sep = "/")) # loads Dendro.complete
+load(file = paste(OUTPUT.folder, Dendro.split.name, sep = "/")) #loads Dendro.split
+load(file = paste(OUTPUT.folder, "Dendro_Tree.Rdata", sep = "/")) #loads Dendro.tree
+
+get.extra.metrics(param.table, Dendro.split, OUTPUT.folder = OUTPUT)
+
+plot(Dendro.tree, params=param.table)
+
+library(ggplot2)
+q <- ggplot(Dendro.complete, aes(x = YEAR, y = DBH_TRUE)) +
+  geom_line(color = "#0c4c8a") +
+  labs(title = "Tree Growth from Dendrobands 2011-2018",
+       subtitle = paste0("Tag: ", Dendro.complete$tag, sep=", ", 
+                         "Stemtag:", Dendro.complete$stemtag, sep=", ",
+                         "StemID: ", Dendro.complete$UNIQUE_ID),
+       x = "Date",
+       y = "DBH in mm") +
+  theme_minimal()
+print(q)
