@@ -372,7 +372,7 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems$stemID_10198
+test_intra <- all_stems$stemID_7444
 
 library(data.table)
 test_intra <- setnames(test_intra, 
@@ -381,14 +381,14 @@ test_intra <- setnames(test_intra,
 
 newcols <- c("SKIP", "ADJUST", "REMOVE")
 test_intra[,newcols] <- 0
-
+test_intra$ORG_DBH <- test_intra$ORG_DBH/10
 
 library(lubridate)
 test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
 test_intra$DOY <- yday(test_intra$DOY)
+test_intra$SITE <- "SCBI"
 
-
-get.optimized.dendro(data, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output/test")
+get.optimized.dendro(test_intra, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
 
 param.table.name = "Param_table.csv"
 Dendro.data.name = "Dendro_data.Rdata"
@@ -400,7 +400,7 @@ load(file = paste(OUTPUT.folder, Dendro.data.name, sep = "/")) # loads Dendro.co
 load(file = paste(OUTPUT.folder, Dendro.split.name, sep = "/")) #loads Dendro.split
 load(file = paste(OUTPUT.folder, "Dendro_Tree.Rdata", sep = "/")) #loads Dendro.tree
 
-get.extra.metrics(param.table, Dendro.split, OUTPUT.folder = OUTPUT)
+get.extra.metrics(param.table, Dendro.split, OUTPUT.folder = OUTPUT.folder)
 
 plot(Dendro.tree, params=param.table)
 

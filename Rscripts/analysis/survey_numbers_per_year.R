@@ -5,7 +5,7 @@ dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/dat
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv", stringsAsFactors=FALSE)
 
-survey <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/survey_numbers_per_year.csv")
+survey <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/survey_numbers_by_year.csv")
 
 for (k in seq(along=dirs)){
   path <- dirs[[k]]
@@ -33,7 +33,6 @@ for (k in seq(along=dirs)){
       } else {
         alive <- file[file$survey.ID == min(file$survey.ID), ]
       }
-
       survey$biannual.live <- ifelse(survey$year %in% survey$year[[i]], length(unique(alive$stemID)), survey$biannual.live)
       
       if (year == 2013){
@@ -42,7 +41,6 @@ for (k in seq(along=dirs)){
       } else {
         alive_intra <- file[file$intraannual == 1 & file$survey.ID == min(file$survey.ID), ]
       }
-      
       survey$intraannual.live <- ifelse(survey$year %in% survey$year[[i]], length(unique(alive_intra$stemID)), survey$intraannual.live)
       
       #___.dead

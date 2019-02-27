@@ -143,8 +143,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 30339,1,2017.12,2017,11,16,1,1,litu,307,8.6,4.1,61.27,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
 30339,2,2017.12,2017,11,16,1,1,litu,307,8.6,4.1,12.04,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
 30339,3,2017.12,2017,11,16,1,1,litu,307,8.6,4.1,34.01,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
-30365,1,2017.01,2017,4,18,1,0,fram,308,19.6,1.8,143.52,,,alive,Valentine Herrmann,Caroline Kittle,NA,3975,NA,992,0,20,2,NA,1.3,4,4,NA,NA
-30365,1,2017.12,2017,11,16,1,0,fram,308,19.6,1.8,150.98,,"window too large, replace band; band replaced after Nov survey",alive,"Lauren Bowman, Mario Morales",Lauren Bowman,NA,3975,NA,992,0,20,2,NA,1.3,NA,NA,NA,NA
+30365,1,2017.01,2017,4,18,1,0,fram,308,19.6,1.8,143.52,,,alive,Valentine Herrmann,Caroline Kittle,NA,NA,NA,992,0,20,2,NA,1.3,4,4,NA,NA
+30365,1,2017.12,2017,11,16,1,0,fram,308,19.6,1.8,150.98,,"window too large, replace band; band replaced after Nov survey",alive,"Lauren Bowman, Mario Morales",Lauren Bowman,NA,NA,NA,992,0,20,2,NA,1.3,NA,NA,NA,NA
 30462,1,2017.01,2017,4,18,1,0,litu,313,16.2,19,97.15,,,alive,Valentine Herrmann,Caroline Kittle,4091,4091,NA,492,0,21,2,NA,1.3,4,4,NA,NA
 30462,1,2017.12,2017,11,16,1,0,litu,313,16.2,19,130.91,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,4091,4091,NA,492,0,21,2,NA,1.3,NA,NA,NA,NA
 30467,1,2017.01,2017,4,18,1,1,litu,314,17.3,3,80.74,,,alive,Valentine Herrmann,Caroline Kittle,4096,4096,NA,608,0,22,2,NA,1.3,4,3,NA,NA
@@ -1713,8 +1713,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 131239,1,2017.12,2017,11,15,1,1,quru,1314,19.5,5.7,90.08,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,18164,18164,NA,587.1,0,735,2,NA,1.47,NA,NA,NA,NA
 131272,1,2017.01,2017,4,18,1,0,fram,1315,18.5,2.2,113.76,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18195,18195,NA,927.8,0,157,2,NA,1.47,4,4,NA,NA
 131272,1,2017.12,2017,11,14,1,0,fram,1315,18.5,2.2,125.01,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
-131352,1,2017.01,2017,4,18,1,0,fram,1316,5.5,3.3,130.43,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,NA,18195,NA,992.5,0,158,2,NA,1.35,4,4,NA,NA
-131352,1,2017.12,2017,11,14,1,0,fram,1316,5.5,3.3,141.15,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,NA,18195,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA
+131352,1,2017.01,2017,4,18,1,0,fram,1316,5.5,3.3,130.43,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,NA,NA,NA,992.5,0,158,2,NA,1.35,4,4,NA,NA
+131352,1,2017.12,2017,11,14,1,0,fram,1316,5.5,3.3,141.15,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,NA,NA,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA
 131364,1,2017.01,2017,4,18,1,0,acru,1316,12,12.9,106.08,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18286,18286,NA,421.1,0,159,2,NA,1.42,4,4,NA,NA
 131364,1,2017.12,2017,11,14,1,0,acru,1316,12,12.9,127.34,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,18286,18286,NA,421.1,0,159,2,NA,1.42,NA,NA,NA,NA
 132028,1,2017.01,2017,4,18,1,0,fram,1317,17,6.7,50.9,,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,18369,18369,NA,595.7,0,160,2,NA,1.4,3,4,NA,NA
