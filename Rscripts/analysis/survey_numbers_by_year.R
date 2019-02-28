@@ -16,7 +16,7 @@ for (k in seq(along=dirs)){
     
     if (k==i){
       #n.surveys
-      survey$n.surveys <- ifelse(survey$year %in% survey$year[[i]], length(unique(file$survey.ID)), survey$n.surveys)
+      survey$n.surveys <- ifelse(survey$year %in% year, length(unique(round(file$survey.ID[!file$survey.ID %in% c("00", "99")], 2))), survey$n.surveys)
       
       #__.all
       all_bi <- dendro_trees[!dendro_trees$dendro.start.year > year, ]
@@ -31,7 +31,7 @@ for (k in seq(along=dirs)){
         alive <- file[file$survey.ID == max(file$survey.ID), ] 
         #because 2013 new plants added in middle of season
       } else {
-        alive <- file[file$survey.ID == min(file$survey.ID), ]
+        alive <- file[!file$survey.ID %in% "00" & file$survey.ID == min(file$survey.ID), ]
       }
       survey$biannual.live <- ifelse(survey$year %in% survey$year[[i]], length(unique(alive$stemID)), survey$biannual.live)
       
@@ -39,15 +39,15 @@ for (k in seq(along=dirs)){
         alive_intra <- file[file$intraannual == 1 & file$survey.ID == max(file$survey.ID), ] 
         #because 2013 new plants added in middle of season
       } else {
-        alive_intra <- file[file$intraannual == 1 & file$survey.ID == min(file$survey.ID), ]
+        alive_intra <- file[file$intraannual == 1 & !file$survey.ID %in% "00" & file$survey.ID == min(file$survey.ID), ]
       }
       survey$intraannual.live <- ifelse(survey$year %in% survey$year[[i]], length(unique(alive_intra$stemID)), survey$intraannual.live)
       
       #___.dead
-      dead <- file[file$status == "dead" & file$survey.ID == max(file$survey.ID), ]
+      dead <- file[file$status == "dead" & !file$survey.ID %in% "99" & file$survey.ID == max(file$survey.ID), ]
       survey$biannual.dead <- ifelse(survey$year %in% survey$year[[i]], length(unique(dead$stemID)), survey$biannual.dead)
       
-      dead_intra <- file[file$status == "dead" & file$survey.ID == max(file$survey.ID) & file$intraannual == 1, ]
+      dead_intra <- file[file$status == "dead" & !file$survey.ID %in% "99" & file$survey.ID == max(file$survey.ID) & file$intraannual == 1, ]
       survey$intraannual.dead <- ifelse(survey$year %in% survey$year[[i]], length(unique(dead_intra$stemID)), survey$intraannual.dead)
       
       #___.added
