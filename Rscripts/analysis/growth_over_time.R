@@ -6,7 +6,7 @@ setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[0-8]*.csv")
 years <- c(2010:2018)
 
-#1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID
+#1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID ####
 all_years <- list()
 
 for (k in seq(along=dirs)){
@@ -70,8 +70,8 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
   for(i in 1:records) dbh2[i]=findOneDendroDBH(dbh1[i],m1[i],m2[i],func)
   return(dbh2)
 }
-
-#1b. this loop says the following:
+###############################################################################
+#1b. this loop says the following ####
 ##1. First, assigns the first dbh of the growth column as the first dbh.
 ##2. Second, is conditional:
 ##2i.If new.band=0 (no band change), we have a measure, and we have a previous dbh2, use Condit's function to determine next dbh2 based on caliper measurement. 
@@ -180,9 +180,6 @@ for(i in 2:nrow(test)) {
     test$dbh[i] + mean(diff(test$dbh2[1:(i-1)]), na.rm=TRUE),
     test$dbh2)))))))
 }
-
-
-##after that, next step is to bring in the 2010 data
 
 
 #######################################################################################
@@ -372,7 +369,7 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems$stemID_7444
+test_intra <- all_stems$stemID_10045
 
 library(data.table)
 test_intra <- setnames(test_intra, 
@@ -381,6 +378,7 @@ test_intra <- setnames(test_intra,
 
 newcols <- c("SKIP", "ADJUST", "REMOVE")
 test_intra[,newcols] <- 0
+test_intra$SITE <- "SCBI"
 test_intra$ORG_DBH <- test_intra$ORG_DBH/10
 
 library(lubridate)
@@ -388,7 +386,21 @@ test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%
 test_intra$DOY <- yday(test_intra$DOY)
 test_intra$SITE <- "SCBI"
 
-get.optimized.dendro(test_intra, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+
+
+
+sample <- INPUT.data
+extracols <- setdiff(colnames(test_intra), colnames(sample))
+
+default <- colnames(sample)
+test_intra[,extracols] <- NULL
+test_intra <- test_intra[,default]
+
+sample$DBH <- NULL
+sample$DATA_SET <- NULL
+
+
+get.optimized.dendro(sample, units="cm", OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
 
 param.table.name = "Param_table.csv"
 Dendro.data.name = "Dendro_data.Rdata"
