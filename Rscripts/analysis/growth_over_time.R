@@ -369,7 +369,7 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems$stemID_10045
+test_intra <- all_stems$stemID_7444
 
 library(data.table)
 test_intra <- setnames(test_intra, 
@@ -400,7 +400,7 @@ sample$DBH <- NULL
 sample$DATA_SET <- NULL
 
 
-get.optimized.dendro(sample, units="cm", OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+get.optimized.dendro(test_intra, units="cm", OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
 
 param.table.name = "Param_table.csv"
 Dendro.data.name = "Dendro_data.Rdata"
