@@ -369,12 +369,13 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems$stemID_7444
+test_intra <- all_stems$stemID_10045
 
+##6a. format data and run code
 library(data.table)
 test_intra <- setnames(test_intra, 
-      old=c("treeID", "dendroID", "stemID", "sp", "dbh", "measure", "year", "new.band"), 
-      new=c("TREE_ID", "BAND_NUM", "UNIQUE_ID", "SP", "ORG_DBH", "GAP_WIDTH", "YEAR", "NEW_BAND"))
+      old=c("treeID", "stemID", "sp", "dbh", "measure", "year", "new.band"), 
+      new=c("TREE_ID", "UNIQUE_ID", "SP", "ORG_DBH", "GAP_WIDTH", "YEAR", "NEW_BAND"))
 
 newcols <- c("SKIP", "ADJUST", "REMOVE")
 test_intra[,newcols] <- 0
@@ -386,21 +387,14 @@ test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%
 test_intra$DOY <- yday(test_intra$DOY)
 test_intra$SITE <- "SCBI"
 
+#creates separate column creating band numbers starting at 1, then increasing by 1 for each NEW_BAND=1 change
+band.index <- as.numeric(table(test_intra$dendroID))
+test_intra$BAND_NUM <- unlist(mapply(rep, seq(length(band.index)), length.out = band.index))
 
+#remove NAs in caliper measurements
+test_intra <- subset(test_intra, complete.cases(test_intra$GAP_WIDTH))
 
-
-sample <- INPUT.data
-extracols <- setdiff(colnames(test_intra), colnames(sample))
-
-default <- colnames(sample)
-test_intra[,extracols] <- NULL
-test_intra <- test_intra[,default]
-
-sample$DBH <- NULL
-sample$DATA_SET <- NULL
-
-
-get.optimized.dendro(test_intra, units="cm", OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+get.optimized.dendro(test_intra, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
 
 param.table.name = "Param_table.csv"
 Dendro.data.name = "Dendro_data.Rdata"
@@ -413,6 +407,15 @@ load(file = paste(OUTPUT.folder, Dendro.split.name, sep = "/")) #loads Dendro.sp
 load(file = paste(OUTPUT.folder, "Dendro_Tree.Rdata", sep = "/")) #loads Dendro.tree
 
 get.extra.metrics(param.table, Dendro.split, OUTPUT.folder = OUTPUT.folder)
+param.table.extended <- read.csv(file = paste(OUTPUT.folder, param.table.name, sep = "/"))
+
+
+##6b. graphs
+make.dendro.plot.ts(ts.data = Dendro.split[[3]], params = param.table[3, ], day = seq(365))
+
+make.dendro.plot.tree(Dendro.ind = Dendro.tree[[1]], param.tab = subset(param.table, TREE_ID == Dendro.tree[[1]]$TREE_ID[1]))
+
+
 
 plot(Dendro.tree, params=param.table)
 
