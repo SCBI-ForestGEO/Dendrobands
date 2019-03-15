@@ -31,6 +31,7 @@ survey_areas <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Den
 NS_divide <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/maps/shapefiles/NS_divide1.shp")
 
 #convert all shp to dataframe so that it can be used by ggplot
+#if tidy isn't working, can also do: xxx_df <- as(xxx, "data.frame")
 scbi_plot_df <- tidy(scbi_plot)
 deer_df <- tidy(deer)
 roads_df <- tidy(roads)
