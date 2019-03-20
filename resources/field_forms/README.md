@@ -28,9 +28,9 @@ Codes for the field form should be followed by the census#, to help with data en
 
 4. change orientation to "Landscape"
 
-5. select and define print area as wanted (under "Page Layout"); this should be rows 1 and 2.
+5. select and define print area as wanted (under "Page Layout").
 
-6. Keep the headers on each print page. Go to "Print Titles," click in "Rows to repeat at top" and then select the title and headers on the sheet. Click ok. 
+6. Keep the headers on each print page. Go to "Print Titles," click in "Rows to repeat at top" and then select the title and headers on the sheet (rows 1 and 2). Click ok. 
 
 7. Select all the numbers, hover over the warning sign next to the selection, and select "Convert to Number." This is because in creating the file R converts everything to as.character
 
