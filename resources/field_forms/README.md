@@ -17,6 +17,9 @@ Codes for the field form should be followed by the census#, to help with data en
 2. If a tree looks dead but the survey is being done before leaves are evident or after leaves have begun falling, put "check status, looks unhealthy" in notes. Then, cross-reference with mortality or other census during data entry.
 
 3. For timing reference, the 2018 fall biannual (2018.14) survey took about 5 hours, with 7 people in 3 teams.
+- One team of three in Areas 1, 6, 9
+- One team of two in Areas 2, 5, 8
+- One team of two in Areas 3, 4, 7
 
 ## Notes on printing new field_forms (after creating .xlsx files from Rscripts)
 
