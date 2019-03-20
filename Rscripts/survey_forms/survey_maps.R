@@ -12,8 +12,10 @@ setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
 #to start off, filter by all the trees that are alive as of the end of last year's fall survey.
-bands_2018 <- dendro_trees[is.na(dendro_trees$mortality.year), ]
-bands_2018 <- bands_2018[complete.cases(bands_2018[, c("NAD83_X", "NAD83_Y")]),] # remove one tree with missing coordinates
+bands_2019 <- dendro_trees[is.na(dendro_trees$mortality.year), ]
+bands_2019 <- bands_2019[complete.cases(bands_2019[, c("NAD83_X", "NAD83_Y")]),] # remove one tree with missing coordinates
+
+
 ##this should be fixed when 131352 is found with 2018 data!!!!
 
 library(ggplot2)
@@ -64,8 +66,8 @@ map <- ggplot() +
             color="#996600", linetype=2)+
   geom_path(data=streams_df, aes(x=long, y=lat, group=group), color="blue")+
   geom_path(data=survey_areas_df, aes(x=long, y=lat, group=group), size=1.1)+
-  geom_point(data=bands_2018, aes(x=NAD83_X, y=NAD83_Y), shape=19)+
-  geom_text(data=bands_2018, aes(x=NAD83_X, y=NAD83_Y, label=tag), 
+  geom_point(data=bands_2019, aes(x=NAD83_X, y=NAD83_Y), shape=19)+
+  geom_text(data=bands_2019, aes(x=NAD83_X, y=NAD83_Y, label=tag), 
             size=3, hjust=1.25, nudge_y=-1, nudge_x=1, check_overlap=TRUE)+
   labs(title="Dendrobands_Biannual_2019")+
   theme(plot.title=element_text(vjust=0.1))+
@@ -84,7 +86,7 @@ map +
 dev.off() #when printing, choose "fit to page"
 
 #intraannual survey map ####
-intra <- subset(bands_2018, intraannual==1)
+intra <- subset(bands_2019, intraannual==1)
 
 map_intra <- ggplot() +
   geom_path(data = scbi_plot_df, aes(x = long, y = lat, group = group))+
@@ -119,15 +121,15 @@ dev.off() #when printing, choose "fit to page"
 #the below code makes a basic plot as well, but overlapping labels (with each other) were an issue.
 ##It seems the best way to avoid overlapping labels is in ggplot
 
-coordinates(bands_2018) <- c("NAD83_X", "NAD83_Y")
+coordinates(bands_2019) <- c("NAD83_X", "NAD83_Y")
 
 plot(scbi_plot)+
   plot(deer, add = T, border = "black")+
   plot(streams, add = T, col = "blue")+
   plot(roads, add = T, col = "#996600", lty=2)+
   plot(survey_areas, add=T, col = "#000000", lwd=2)+
-  plot(bands_2018, add = T, pch = 21, cex = 0.5)+
-  text(bands_2018, labels=bands_2018$tag, cex=0.6, pos = 4) 
+  plot(bands_2019, add = T, pch = 21, cex = 0.5)+
+  text(bands_2019, labels=bands_2019$tag, cex=0.6, pos = 4) 
 
 #the immediate code below is another way to add text, but does so only for ggplot when calling coord_cartesian
 
@@ -143,9 +145,9 @@ grob_vert <- grobTree(textGrob("01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 
 
 devtools::install_github("forestgeo/fgeo", upgrade = "never")
 
-bands_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+bands_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
-map_bands <- bands_2018 %>%
+map_bands <- bands_2019 %>%
   filter(survey.ID >= 2018.14)
 
 #autoplot(sp(map_bands))

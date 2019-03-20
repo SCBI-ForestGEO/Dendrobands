@@ -5,11 +5,46 @@
 #3 merge data_entry form biannual with the year's master file
 
 #1 Create field_form biannual ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/field_forms")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
+
+##1a. if new trees added between last fall survey and spring survey, do this ####
+data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
-prevmeasbi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by previous survey.ID. If printing this for the spring survey, use the last survey.ID from last year.
+prevmeasbi <- subset(data_2018,survey.ID=="2018.14" & biannual=="1") #subset by previous survey.ID to get previous measure. If printing this for the spring survey, use the last survey.ID from last year.
+
+data_bi <- data_2019
+
+data_bi$prevmeas <- prevmeasbi$measure[match(data_bi$stemID, prevmeasbi$stemID)]
+
+data_bi<-data_bi[ ,c("tag", "stemtag", "sp", "dbh", "quadrat", "lx", "ly", "measure", "crown.condition", "crown.illum", "codes", "prevmeas")]
+
+data_bi$prevmeas <- ifelse(!is.na(data_bi$measure), data_bi$measure, data_bi$prevmeas)
+check <- data_bi[is.na(data_bi$prevmeas), ]
+
+data_bi$measure = NA
+data_bi$codes = NA
+data_bi$crown.condition = NA
+data_bi$crown.illum = NA
+data_bi$"Fall measure"= NA
+
+library(dplyr)
+data_bi<-data_bi %>% rename("Spring measure" = measure, "codes&notes_spr" = codes, "stem" = stemtag, "crown" = crown.condition, "illum" = crown.illum)
+
+
+
+cols <- colnames(data_bi[,c(8:11,13)])
+data_bi[,cols] <- " "
+data_bi$"codes&notes_fall" <- ""
+
+data_bi<-data_bi[,c("tag", "stem", "sp", "dbh", "quadrat", "lx", "ly", "prevmeas", "Spring measure", "Fall measure", "crown", "illum", "codes&notes_spr", "codes&notes_fall")]
+
+
+##1b. if no new trees added between fall and spring survey, do this ####
+data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+
+prevmeasbi <- subset(data_2018,survey.ID=="2018.14" & biannual=="1") #subset by previous survey.ID. If printing this for the spring survey, use the last survey.ID from last year.
 
 data_bi <- subset(data_2018,survey.ID=="2018.01" & biannual=="1") #subset by 2018.01 (one entry per stem)
 
@@ -31,9 +66,7 @@ data_bi[is.na(data_bi)&!is.na(data_bi$prevmeas)] <- " "
 data_bi<-data_bi[,c("tag", "stem", "sp", "dbh", "quadrat", "lx", "ly", "prevmeas", "Spring measure", "Fall measure", "crown", "illum", "codes&notes", "location")]
   #c(1:7,14,8,13,9:12)] <- ordering by numbers
 
-data_bi$location<-gsub("South", "S", data_bi$location)
-data_bi$location<-gsub("North", "N", data_bi$location)
-
+##1c. continue with code from either 1a. or 1b. ####
 #assign values per tag by survey area (based on biannual map in https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/maps)
 data_bi$area <- ""
 data_bi$area <- 
@@ -101,8 +134,6 @@ data_bi$area <-
                                                                    (data_bi$quadrat %in% c(1925:1932))|
                                                                    (data_bi$quadrat %in% c(2025:2032)), 9, "")))))))))
 
-data_bi <- data_bi[c(1:13,15,14)]
-
 matrix <- function(data_bi, table_title) {
   
   rbind(c(table_title, rep('', ncol(data_bi)-1)), # title
@@ -114,7 +145,7 @@ matrix <- function(data_bi, table_title) {
 temp <- matrix(data_bi, table_title=('Biannual Survey       Spr.Date:                       Spr.SurveyID:                  Spr.Recorder:                   |FallDate:                       FallSurveyID:                 FallRecorder:'))
 
 library(xlsx)
-write.xlsx(temp, "field_form_biannual.xlsx", row.names=FALSE, col.names=FALSE) #we write the file to .xlsx to more easily change print settings and cell dimensions
+write.xlsx(temp, "field_form_biannual_2019.xlsx", row.names=FALSE, col.names=FALSE) #we write the file to .xlsx to more easily change print settings and cell dimensions
 
 #before printing, please consult README in the field_forms folder.
 
@@ -129,6 +160,22 @@ write.xlsx(temp, "field_form_biannual.xlsx", row.names=FALSE, col.names=FALSE) #
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms")
 
+##2a. spring survey data entry ####
+data_biannual <- data_bi
+
+library(data.table)
+setnames(data_biannual, old=c("stem", "Spring measure", "codes&notes_spr", "crown", "illum"), new=c("stemtag", "measure", "codes", "crown.condition", "crown.illum"))
+
+data_biannual <- data_biannual[!colnames(data_biannual) %in% c("Fall measure", "codes&notes_fall", "dbh", "lx", "ly")]
+
+newcols <- c("survey.ID", "year", "month", "day", "notes", "field.recorders", "data.enter")
+data_biannual[,newcols] <- ""
+
+data_biannual <- data_biannual[, c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "area")]
+
+write.csv(data_biannual, "data_entry_biannual_spr2019.csv", row.names=FALSE)
+
+##2b. fall survey data entry ####
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
 data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 2018.01 (one entry per stem)
