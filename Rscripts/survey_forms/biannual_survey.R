@@ -12,7 +12,7 @@ data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendr
 
 data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
 
-prevmeasbi <- subset(data_2018,survey.ID=="2018.14" & biannual=="1") #subset by previous survey.ID to get previous measure. If printing this for the spring survey, use the last survey.ID from last year.
+prevmeasbi <- subset(data_2018,survey.ID=="2018.14") #subset by previous survey.ID to get previous measure. If printing this for the spring survey, use the last survey.ID from last year.
 
 data_bi <- data_2019
 
@@ -24,7 +24,6 @@ data_bi$prevmeas <- ifelse(!is.na(data_bi$measure), data_bi$measure, data_bi$pre
 check <- data_bi[is.na(data_bi$prevmeas), ]
 
 data_bi$measure = NA
-data_bi$codes = NA
 data_bi$crown.condition = NA
 data_bi$crown.illum = NA
 data_bi$"Fall measure"= NA
@@ -34,9 +33,9 @@ data_bi<-data_bi %>% rename("Spring measure" = measure, "codes&notes_spr" = code
 
 
 
-cols <- colnames(data_bi[,c(8:11,13)])
+cols <- colnames(data_bi[,c(8:10,13)])
 data_bi[,cols] <- " "
-data_bi$"codes&notes_fall" <- ""
+data_bi$"codes&notes_fall" <- data_bi$`codes&notes_spr`
 
 data_bi<-data_bi[,c("tag", "stem", "sp", "dbh", "quadrat", "lx", "ly", "prevmeas", "Spring measure", "Fall measure", "crown", "illum", "codes&notes_spr", "codes&notes_fall")]
 
@@ -78,8 +77,9 @@ data_bi$area <-
            (data_bi$quadrat %in% c(1801:1815))|
            (data_bi$quadrat %in% c(1901:1915))|
            (data_bi$quadrat %in% c(2001:2015)), 1,
-         ifelse((data_bi$quadrat %in% c(504:507))|
-                  (data_bi$quadrat %in% c(608))|
+         ifelse((data_bi$quadrat %in% c(404:405))|
+                  (data_bi$quadrat %in% c(504:507))|
+                  (data_bi$quadrat %in% c(603:609))|
                   (data_bi$quadrat %in% c(703:712))|
                   (data_bi$quadrat %in% c(803:813))|
                   (data_bi$quadrat %in% c(901:913))|
@@ -91,11 +91,12 @@ data_bi$area <-
                 ifelse((data_bi$quadrat %in% c(101:115))|
                          (data_bi$quadrat %in% c(201:215))|
                          (data_bi$quadrat %in% c(301:315))|
-                         (data_bi$quadrat %in% c(401:415))|
-                         (data_bi$quadrat %in% c(502,514,515,610,611,614
-                                                ,615,701,702,713,714,715
-                                                ,801,1001,1014,1313,1314
-                                                ,1315,1413)), 3,
+                         (data_bi$quadrat %in% c(401:403, 406:415))|
+                         (data_bi$quadrat %in% c(502,512:515))|
+                         (data_bi$quadrat %in% c(610,611,614,615,
+                                                 701,702,713,714,715
+                                                ,801,1001,1013,1014,1215,
+                                                1313,1314,1315,1413,1415)), 3,
                        ifelse((data_bi$quadrat %in% c(116:132))|
                                 (data_bi$quadrat %in% c(216:232))|
                                 (data_bi$quadrat %in% c(316:332))|
@@ -109,7 +110,7 @@ data_bi$area <-
                                        (data_bi$quadrat %in% c(1116:1124))|
                                        (data_bi$quadrat %in% c(1216:1224))|
                                        (data_bi$quadrat %in% c(1316:1324))|
-                                       (data_bi$quadrat %in% c(1416,1417,1422)), 5,
+                                       (data_bi$quadrat %in% c(1416:1418,1420:1424)), 5,
                                      ifelse((data_bi$quadrat %in% c(1419))|
                                               (data_bi$quadrat %in% c(1516:1524))|
                                               (data_bi$quadrat %in% c(1616:1624))|
@@ -133,6 +134,8 @@ data_bi$area <-
                                                                    (data_bi$quadrat %in% c(1825:1832))|
                                                                    (data_bi$quadrat %in% c(1925:1932))|
                                                                    (data_bi$quadrat %in% c(2025:2032)), 9, "")))))))))
+
+need.area <- data_bi[data_bi$area == "", ] 
 
 matrix <- function(data_bi, table_title) {
   
@@ -199,72 +202,74 @@ data_biannual$data.enter = ""
 
 
 data_biannual$area <- ""
-data_biannual$area <- 
-  ifelse((data_biannual$quadrat %in% c(1301:1303))|
-           (data_biannual$quadrat %in% c(1401:1404))|
-           (data_biannual$quadrat %in% c(1501:1515))|
-           (data_biannual$quadrat %in% c(1601:1615))|
-           (data_biannual$quadrat %in% c(1701:1715))|
-           (data_biannual$quadrat %in% c(1801:1815))|
-           (data_biannual$quadrat %in% c(1901:1915))|
-           (data_biannual$quadrat %in% c(2001:2015)), 1,
-         ifelse((data_biannual$quadrat %in% c(504:507))|
-                  (data_biannual$quadrat %in% c(608))|
-                  (data_biannual$quadrat %in% c(703:712))|
-                  (data_biannual$tag %in% 70579)|
-                  (data_biannual$quadrat %in% c(803:813))|
-                  (data_biannual$quadrat %in% c(901:913))|
-                  (data_biannual$quadrat %in% c(1003:1012))|
-                  (data_biannual$quadrat %in% c(1101:1112))|
-                  (data_biannual$quadrat %in% c(1201:1212))|
-                  (data_biannual$quadrat %in% c(1304:1311))|
-                  (data_biannual$quadrat %in% c(1405:1411)), 2,
-                ifelse((data_biannual$quadrat %in% c(101:115))|
-                         (data_biannual$quadrat %in% c(201:215))|
-                         (data_biannual$quadrat %in% c(301:315))|
-                         (data_biannual$quadrat %in% c(401:415))|
-                         (data_biannual$quadrat %in% 714 & data_biannual$tag %in% c(70492:70495,70581))|
-                         (data_biannual$quadrat %in% c(502,514,515,610,611,614
-                                                       ,615,701,702,713,715
-                                                       ,801,1001,1014,1313,1314
-                                                       ,1315,1413)), 3,
-                       ifelse((data_biannual$quadrat %in% c(116:132))|
-                                (data_biannual$quadrat %in% c(216:232))|
-                                (data_biannual$quadrat %in% c(316:332))|
-                                (data_biannual$quadrat %in% c(416:432))|
-                                (data_biannual$quadrat %in% c(516:532))|
-                                (data_biannual$quadrat %in% c(616:624))|
-                                (data_biannual$quadrat %in% c(716:724))|
-                                (data_biannual$quadrat %in% c(816:824)), 4,
-                              ifelse((data_biannual$quadrat %in% c(916:924))|
-                                       (data_biannual$quadrat %in% c(1016:1024))|
-                                       (data_biannual$quadrat %in% c(1116:1124))|
-                                       (data_biannual$quadrat %in% c(1216:1224))|
-                                       (data_biannual$quadrat %in% c(1316:1324))|
-                                       (data_biannual$quadrat %in% c(1416,1417,1422)), 5,
-                                     ifelse((data_biannual$quadrat %in% c(1419))|
-                                              (data_biannual$quadrat %in% c(1516:1524))|
-                                              (data_biannual$quadrat %in% c(1616:1624))|
-                                              (data_biannual$quadrat %in% c(1716:1724))|
-                                              (data_biannual$quadrat %in% c(1816:1824))|
-                                              (data_biannual$quadrat %in% c(1916:1924))|
-                                              (data_biannual$quadrat %in% c(2016:2024)), 6,
-                                            ifelse((data_biannual$quadrat %in% c(625:632))|
-                                                     (data_biannual$quadrat %in% c(725:732))|
-                                                     (data_biannual$quadrat %in% c(825:832))|
-                                                     (data_biannual$quadrat %in% c(925:932))|
-                                                     (data_biannual$quadrat %in% c(1025:1029,1031,1032)), 7,
-                                                   ifelse((data_biannual$quadrat %in% c(1030))|
-                                                            (data_biannual$quadrat %in% c(1125:1132))|
-                                                            (data_biannual$quadrat %in% c(1225:1232))|
-                                                            (data_biannual$quadrat %in% c(1325:1332))|
-                                                            (data_biannual$quadrat %in% c(1425:1432)), 8,
-                                                          ifelse((data_biannual$quadrat %in% c(1525:1532))|
-                                                                   (data_biannual$quadrat %in% c(1625:1632))|
-                                                                   (data_biannual$quadrat %in% c(1725:1732))|
-                                                                   (data_biannual$quadrat %in% c(1825:1832))|
-                                                                   (data_biannual$quadrat %in% c(1925:1932))|
-                                                                   (data_biannual$quadrat %in% c(2025:2032)), 9, "")))))))))
+data_bi$area <- 
+  ifelse((data_bi$quadrat %in% c(1301:1303))|
+           (data_bi$quadrat %in% c(1401:1404))|
+           (data_bi$quadrat %in% c(1501:1515))|
+           (data_bi$quadrat %in% c(1601:1615))|
+           (data_bi$quadrat %in% c(1701:1715))|
+           (data_bi$quadrat %in% c(1801:1815))|
+           (data_bi$quadrat %in% c(1901:1915))|
+           (data_bi$quadrat %in% c(2001:2015)), 1,
+         ifelse((data_bi$quadrat %in% c(404:405))|
+                  (data_bi$quadrat %in% c(504:507))|
+                  (data_bi$quadrat %in% c(603:609))|
+                  (data_bi$quadrat %in% c(703:712))|
+                  (data_bi$quadrat %in% c(803:813))|
+                  (data_bi$quadrat %in% c(901:913))|
+                  (data_bi$quadrat %in% c(1003:1012))|
+                  (data_bi$quadrat %in% c(1101:1112))|
+                  (data_bi$quadrat %in% c(1201:1212))|
+                  (data_bi$quadrat %in% c(1304:1311))|
+                  (data_bi$quadrat %in% c(1405:1411)), 2,
+                ifelse((data_bi$quadrat %in% c(101:115))|
+                         (data_bi$quadrat %in% c(201:215))|
+                         (data_bi$quadrat %in% c(301:315))|
+                         (data_bi$quadrat %in% c(401:403, 406:415))|
+                         (data_bi$quadrat %in% c(502,512:515))|
+                         (data_bi$quadrat %in% c(610,611,614,615,
+                                                 701,702,713,714,715
+                                                 ,801,1001,1013,1014,1215,
+                                                 1313,1314,1315,1413,1415)), 3,
+                       ifelse((data_bi$quadrat %in% c(116:132))|
+                                (data_bi$quadrat %in% c(216:232))|
+                                (data_bi$quadrat %in% c(316:332))|
+                                (data_bi$quadrat %in% c(416:432))|
+                                (data_bi$quadrat %in% c(516:532))|
+                                (data_bi$quadrat %in% c(616:624))|
+                                (data_bi$quadrat %in% c(716:724))|
+                                (data_bi$quadrat %in% c(816:824)), 4,
+                              ifelse((data_bi$quadrat %in% c(916:924))|
+                                       (data_bi$quadrat %in% c(1016:1024))|
+                                       (data_bi$quadrat %in% c(1116:1124))|
+                                       (data_bi$quadrat %in% c(1216:1224))|
+                                       (data_bi$quadrat %in% c(1316:1324))|
+                                       (data_bi$quadrat %in% c(1416:1418,1420:1424)), 5,
+                                     ifelse((data_bi$quadrat %in% c(1419))|
+                                              (data_bi$quadrat %in% c(1516:1524))|
+                                              (data_bi$quadrat %in% c(1616:1624))|
+                                              (data_bi$quadrat %in% c(1716:1724))|
+                                              (data_bi$quadrat %in% c(1816:1824))|
+                                              (data_bi$quadrat %in% c(1916:1924))|
+                                              (data_bi$quadrat %in% c(2016:2024)), 6,
+                                            ifelse((data_bi$quadrat %in% c(625:632))|
+                                                     (data_bi$quadrat %in% c(725:732))|
+                                                     (data_bi$quadrat %in% c(825:832))|
+                                                     (data_bi$quadrat %in% c(925:932))|
+                                                     (data_bi$quadrat %in% c(1025:1029,1031,1032)), 7,
+                                                   ifelse((data_bi$quadrat %in% c(1030))|
+                                                            (data_bi$quadrat %in% c(1125:1132))|
+                                                            (data_bi$quadrat %in% c(1225:1232))|
+                                                            (data_bi$quadrat %in% c(1325:1332))|
+                                                            (data_bi$quadrat %in% c(1425:1432)), 8,
+                                                          ifelse((data_bi$quadrat %in% c(1525:1532))|
+                                                                   (data_bi$quadrat %in% c(1625:1632))|
+                                                                   (data_bi$quadrat %in% c(1725:1732))|
+                                                                   (data_bi$quadrat %in% c(1825:1832))|
+                                                                   (data_bi$quadrat %in% c(1925:1932))|
+                                                                   (data_bi$quadrat %in% c(2025:2032)), 9, "")))))))))
+
+need.area <- data_bi[data_bi$area == "", ]
 
 ##this part only necessary if getting rid of specific NAs
 #data_biannual<-sapply(data_biannual, as.character)
