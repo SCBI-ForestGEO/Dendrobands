@@ -7,7 +7,9 @@ dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/dat
 years <- c(2010:2018)
 
 #1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID ####
-all_years <- list()
+
+##grouping by intraannual ####
+all_years_intra <- list()
 
 for (k in seq(along=dirs)){
     file <- dirs[[k]]
@@ -15,7 +17,7 @@ for (k in seq(along=dirs)){
     yr_intra <- yr[yr$intraannual==1, ]
     yr_intra$dbh <- as.numeric(yr_intra$dbh)
 
-    all_years[[k]] <- split(yr_intra, yr_intra$stemID)
+    all_years_intra[[k]] <- split(yr_intra, yr_intra$stemID)
   #  if (file == dirs[[1]]){
   #   all_years[[k]] <- split(yr, yr$stemID)
   #  }
@@ -24,13 +26,13 @@ for (k in seq(along=dirs)){
   #  }
 }
 tent_name <- paste0("trees", sep="_", years)
-names(all_years) <- tent_name
+names(all_years_intra) <- tent_name
 
 #the below loop takes all the unique stemIDs from each year and rbinds them.
-all_stems <- list()
+all_stems_intra <- list()
 
-for(stemID in sort(unique(unlist(sapply(all_years, names))))) {
-  all_stems[[paste0("stemID_", stemID)]] <-  do.call(rbind, lapply(years, function(year) all_years[[paste0("trees", sep="_", year)]][[stemID]]))
+for(stemID in sort(unique(unlist(sapply(all_years_intra, names))))) {
+  all_stems_intra[[paste0("stemID_", stemID)]] <-  do.call(rbind, lapply(years, function(year) all_years_intra[[paste0("trees", sep="_", year)]][[stemID]]))
 }
 
 #sort(unique(unlist(sapply(all_years, names)))) -> an explainer:
@@ -38,7 +40,28 @@ for(stemID in sort(unique(unlist(sapply(all_years, names))))) {
 #unlist says take all those names (all those stemIDS) and dump them all together
 #unique gets rid of the duplicates, and sort sorts them
 
+##grouping by biannual ####
+all_years_bi <- list()
 
+for (k in seq(along=dirs)){
+  file <- dirs[[k]]
+  yr <- read.csv(file, stringsAsFactors = FALSE)
+  yr_bi <- yr[yr$intraannual == 0, ]
+  yr_bi$dbh <- as.numeric(yr_bi$dbh)
+  
+  all_years_bi[[k]] <- split(yr_bi, yr_bi$stemID)
+}
+tent_name <- paste0("trees", sep="_", years)
+names(all_years_bi) <- tent_name
+
+#the below loop takes all the unique stemIDs from each year and rbinds them.
+all_stems_bi <- list()
+
+for(stemID in sort(unique(unlist(sapply(all_years_bi, names))))) {
+  all_stems_bi[[paste0("stemID_", stemID)]] <-  do.call(rbind, lapply(years, function(year) all_years_bi[[paste0("trees", sep="_", year)]][[stemID]]))
+}
+
+##Condit functions ####
 #need to call in Condit's functions (also saved in separate R code) for the next bit
 objectiveFuncDendro= function(diameter2,diameter1,gap1,gap2){
   if(gap1>diameter1) return(20)
@@ -82,11 +105,11 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
 ##2vi. UNCOMMON If new.band=1 , measure is NA, and the dbh in the original column is unchanged , dbh2 is the sum of the differences of the previous dbh2's added to the most recent dbh2.
 ##2vii. UNCOMMON If new.band=1, measure is NA, and dbh is different, dbh2 is the new dbh plus the mean of the differences of the previous dbh2's. 
 
-
+##intraannual data ####
 library(zoo)
 
-for(stems in names(all_stems)) {
-  tree.n <- all_stems[[stems]]
+for(stems in names(all_stems_intra)) {
+  tree.n <- all_stems_intra[[stems]]
   tree.n$dbh2 <- NA
   tree.n$dbh2[1] <- tree.n$dbh[1]
   
@@ -123,22 +146,69 @@ for(stems in names(all_stems)) {
        tree.n$dbh[i] + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=TRUE),
        tree.n$dbh2))))))))
   }
-  all_stems[[stems]] <- tree.n
+  all_stems_intra[[stems]] <- tree.n
 }
 
-#correction factor for 2013 census data
-for(stems in names(all_stems)) {
-  tree.n <- all_stems[[stems]]
+#correction factor for 2013 census data. was going to complete this, but then Sean McMahon figured out his code.
+# for(stems in names(all_stems)) {
+#   tree.n <- all_stems[[stems]]
+# 
+#   tree.nsub <- tree.n[tree.n$survey.ID %in% c(2010:2014.01), ]
+#   tree.n$dbh2 <- ifelse(unique(tree.nsub$dbh2[!tail(tree.nsub$dbh2, n=1)]), tree.n$dbh2,
+#                         ifelse(tree.n$survey.ID == 2013.16 & tree.n$survey.ID == 2014.01, 
+#                                
+#                                abs(diff(tail(tree.n$dbh, n=2))) + tree.n$dbh2)....
+#   #Dendrobands: if dbh 2010:2013.16 same, then take difference of 2014.01 and 2013.06, and add to entire 2010:2013.16 measurements.
+#                         
+#   all_stems[[stems]] <- tree.n
+# }
 
-  tree.nsub <- tree.n[tree.n$survey.ID %in% c(2010:2014.01), ]
-  tree.n$dbh2 <- ifelse(unique(tree.nsub$dbh2[!tail(tree.nsub$dbh2, n=1)]), tree.n$dbh2,
-                        ifelse(tree.n$survey.ID == 2013.16 & tree.n$survey.ID == 2014.01, 
-                               
-                               abs(diff(tail(tree.n$dbh, n=2))) + tree.n$dbh2)....
-  #Dendrobands: if dbh 2010:2013.16 same, then take difference of 2014.01 and 2013.06, and add to entire 2010:2013.16 measurements.
-                        
-  all_stems[[stems]] <- tree.n
+##biannual data ####
+library(zoo)
+
+for(stems in names(all_stems_bi)) {
+  tree.n <- all_stems_bi[[stems]]
+  tree.n$dbh2 <- NA
+  tree.n$dbh2[1] <- tree.n$dbh[1]
+  
+  tree.n$dbh2 <- as.numeric(tree.n$dbh2)
+  tree.n$measure <- as.numeric(tree.n$measure)
+  tree.n$dbh <- as.numeric(tree.n$dbh)
+  
+  q <- mean(unlist(tapply(tree.n$measure, tree.n$dendroID, diff)), na.rm=TRUE)
+  
+  for(i in 2:(nrow(tree.n))){
+    tree.n$dbh2[[i]] <- 
+      
+      ifelse(tree.n$new.band[[i]] == 0 & tree.n$survey.ID[[i]] == 2014.01 & !identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+             tree.n$dbh[[i]],
+             
+             ifelse(tree.n$new.band[[i]] == 0 & !is.na(tree.n$measure[[i]]) & !is.na(tree.n$dbh2[[i-1]]),
+                    findDendroDBH(tree.n$dbh2[[i-1]], tree.n$measure[[i-1]], tree.n$measure[[i]]),
+                    
+                    ifelse(tree.n$new.band[[i]] == 0 & !is.na(tree.n$measure[[i]]) & is.na(tree.n$dbh2[[i-1]]), 
+                           findDendroDBH(tail(na.locf(tree.n$dbh2[1:i-1]), n=1), tail(na.locf(tree.n$measure[1:i-1]), n=1), tree.n$measure[[i]]),
+                           
+                           ifelse(tree.n$new.band[[i]] == 0 & is.na(tree.n$measure[[i]]), NA,
+                                  
+                                  ifelse(tree.n$new.band[[i]]==1 & !is.na(tree.n$measure[[i]]) & !identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+                                         tree.n$dbh[[i]],
+                                         
+                                         ifelse(tree.n$new.band[[i]] == 1 & !is.na(tree.n$measure[[i]]) & identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+                                                max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1: i-1]), na.rm = T),
+                                                
+                                                ifelse(tree.n$new.band[[i]] == 1 & is.na(tree.n$measure[[i]]) & identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+                                                       max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=T),
+                                                       
+                                                       ifelse(tree.n$new.band[[i]] == 1 & is.na(tree.n$measure[[i]]) & !identical(tree.n$dbh[[i]], tree.n$dbh[[i-1]]),
+                                                              tree.n$dbh[i] + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=TRUE),
+                                                              tree.n$dbh2))))))))
+  }
+  all_stems_bi[[stems]] <- tree.n
 }
+
+#correction factor for 2013 census data: see above in intraannual code
+
 ######################################################################################
 ##1c. troubleshoot with individual tags ####
 dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
