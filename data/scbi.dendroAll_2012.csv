@@ -2175,8 +2175,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 180904,1,2012.18,2012,11,29,1,0,litu,1808,2.8,6.5,60.43,,,alive,Erika Gonzalez,EG/CH,26695,26695,NA,305.4,0,525,2,NA,1.3,NA,NA,NA,NA
 180984,1,2012.01,2012,3,15,1,0,litu,1813,4,11.8,66.25,,,alive,Caroline Johnson,CJ/LC/BB,26774,26774,NA,901.7,0,228,2,NA,1.21,4,5,NA,NA
 180984,1,2012.18,2012,11,29,1,0,litu,1813,4,11.8,88.58,,,alive,Erika Gonzalez,EG/CH,26774,26774,NA,901.7,0,228,2,NA,1.21,NA,NA,NA,NA
-180988,3,2012.01,2012,3,15,1,0,acru,1813,3.3,19.5,32,M,,alive,Caroline Johnson,CJ/LC/BB,26777,26777,706,na,0,228,2,NA,1.3,NA,4,NA,NA
-180988,3,2012.18,2012,11,29,1,0,acru,1813,3.3,19.5,32.04,,Band across multiple stems,alive,Erika Gonzalez,EG/CH,26777,26777,NA,na,0,228,2,NA,1.3,NA,NA,NA,NA
+180988,3,2012.01,2012,3,15,1,0,acru,1813,3.3,19.5,32,M,,alive,Caroline Johnson,CJ/LC/BB,26777,26777,706,NA,0,228,2,NA,1.3,NA,4,NA,NA
+180988,3,2012.18,2012,11,29,1,0,acru,1813,3.3,19.5,32.04,,Band across multiple stems,alive,Erika Gonzalez,EG/CH,26777,26777,NA,NA,0,228,2,NA,1.3,NA,NA,NA,NA
 180991,1,2012.01,2012,3,15,1,0,ploc,1814,1.5,6.7,40.31,,,alive,Caroline Johnson,CJ/LC/BB,26779,26779,NA,922.9,0,229,2,NA,1.3,4,5,NA,NA
 180991,1,2012.18,2012,11,29,1,0,ploc,1814,1.5,6.7,51.82,,,alive,Erika Gonzalez,EG/CH,26779,26779,NA,922.9,0,229,2,NA,1.3,NA,NA,NA,NA
 181030,1,2012.01,2012,3,15,1,1,qual,1816,5.4,10.6,40.07,,,alive,Caroline Johnson,CJ/LC/BB,26817,26817,NA,744,0,409,2,NA,1.3,4,5,NA,NA
