@@ -171,10 +171,10 @@ setnames(data_biannual, old=c("stem", "Spring measure", "codes&notes_spr", "crow
 
 data_biannual <- data_biannual[!colnames(data_biannual) %in% c("Fall measure", "codes&notes_fall", "dbh", "lx", "ly")]
 
-newcols <- c("survey.ID", "year", "month", "day", "notes", "field.recorders", "data.enter")
+newcols <- c("survey.ID", "year", "month", "day", "notes", "field.recorders", "data.enter", "new.band")
 data_biannual[,newcols] <- ""
 
-data_biannual <- data_biannual[, c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "area")]
+data_biannual <- data_biannual[, c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "new.band", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "area")]
 
 write.csv(data_biannual, "data_entry_biannual_spr2019.csv", row.names=FALSE)
 
@@ -183,7 +183,7 @@ data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendr
 
 data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 2018.01 (one entry per stem)
 
-data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "location")]
+data_biannual<-data_biannual[ ,c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "new.band", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter"), ]
 
 #instead of the below code, can also do:
 data_biannual[is.na(data_biannual)] <- ""
