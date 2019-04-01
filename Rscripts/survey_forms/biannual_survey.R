@@ -287,24 +287,24 @@ write.csv(data_biannual, "data_entry_biannual_2018.csv", row.names=FALSE)
 #3 Merge data_entry form biannual with the year's master file ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/")
 
-data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
+data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
-data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2017/data_entry_biannual_2017.csv")
+data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_biannual_spr2019.csv")
 
-names2017 <- c(colnames(data_2017))
+names2019 <- c(colnames(data_2019))
 namesbi <- c(colnames(data_biannual))
 
-## find the names that are in data_2017 but not in data_biannual
-missing <- setdiff(names2017, namesbi)
+## find the names that are in data_2019 but not in data_biannual
+missing <- setdiff(names2019, namesbi)
 
 ## if need be, do the opposite
-# missing <- setdiff(namesbi, names2017)
+# missing <- setdiff(namesbi, names2019)
 
 ## add these missed names to data_biannual in order to combine to the master
 data_biannual[missing] <- NA
 data_biannual$area <- NULL #this column is only relevant for field
 
-test <- rbind(data_2017, data_biannual)
+test <- rbind(data_2019, data_biannual)
 
 test <- test[order(test[,1], test[,3]),] #order by tag and survey.ID
 
@@ -323,6 +323,30 @@ test$dbh <- na.locf(test$dbh)
 test$type <- na.locf(test$type)
 test$dendHt <- na.locf(test$dendHt)
 
+new <- test[test$new.band == 1 & is.na(test$dendroID), ]
+new <- new[-3, ] #specific to 2019
+new$dendroID <- 898:907 #get next numbers above the max from dendroID.csv
+new_tags <- new$tag
+
+for (i in seq(along = new$tag)){
+  sub <- new[new$tag == new$tag[[i]], ]
+  test$dendroID <- ifelse(test$tag == new$tag[[i]] & !is.na(test$survey.ID), sub$dendroID, na.locf(test$dendroID))
+}
+
+#this is done to get rid of any placeholders. Essentially, the full 2019 form was created to make the 2019 spring biannual field form. However, there were also new trees added to the survey with a survey.ID of 2019.00, so now we can get rid of these extra placeholders now that we've shifted the data above using na.locf.
+test <- test[!(is.na(test$survey.ID)), ]
+
+dendroID <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendroID.csv")
+
+multi <- test[test$stemtag>1, ]
+multi_ID <- dendroID[dendroID$stemtag>1, ]
+
+for (i in seq(along = multi$stemID)){
+  sub <- multi_ID[multi_ID$stemID == multi$stemID[[i]], ]
+  test$dendroID <- ifelse(test$tag
+}
+
+
 ## these values are not always constant
 test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
 deadcodes <- c("DS", "DC", "DN", "DT")
@@ -333,8 +357,5 @@ test$codes <- as.character(test$codes)
 test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
-
-##rewrite the date to be standard format (ONLY if current written dates are in same format) & (ONLY after last biannual survey for year)
-test$exactdate <- format(as.Date(test$exactdate,format="%m/%d/%Y"), "%Y-%m-%d")
 
 write.csv(test, "scbi.dendroAll_2017.csv", row.names=FALSE)
