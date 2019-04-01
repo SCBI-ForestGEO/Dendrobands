@@ -4,10 +4,6 @@ If printing the first form for the season, please make sure the correct [R-scrip
 
 **Please review the [codes_metadata.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/metadata/codes_metadata.csv) _prior_ to surveying.**
 
-Codes for the field form should be followed by the census#, to help with data entry later.
--	For example, if the tree is broken on census# 2018.08, then the code is B8.
-- Remember to record if there is a discrepancy between the current measurement and the last measurement (see metadata).
-
 ## Notes for field
 
 **REMEMBER** 
@@ -16,7 +12,9 @@ Codes for the field form should be followed by the census#, to help with data en
 
 2. If a tree looks dead but the survey is being done before leaves are evident or after leaves have begun falling, put "check status, looks unhealthy" in notes. Then, cross-reference with mortality or other census during data entry.
 
-3. For timing reference, the 2018 fall biannual (2018.14) survey took about 5 hours, with 7 people in 3 teams. The 2019 spring biannual (2019.01) was done in 9 hours with 2 teams of 2 people (1 half-day had only 2 people, the full day had all 4). With three teams, the areas are generally split up in this way:
+3. In general, if a measurement is >6mm difference compared to the previous measurement, double check in field, then if need be write "check previous measure" in notes column.
+
+4. For timing reference, the 2018 fall biannual (2018.14) survey took about 5 hours, with 7 people in 3 teams. The 2019 spring biannual (2019.01) was done in 9 hours with 2 teams of 2 people (1 half-day had only 2 people, the full day had all 4). With three teams, the areas are generally split up in this way:
 - One team in Areas 1, 6, 9
 - One team in Areas 2, 5, 8
 - One team in Areas 3, 4, 7
