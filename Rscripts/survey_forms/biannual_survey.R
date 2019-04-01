@@ -81,6 +81,7 @@ data_bi$area <-
                   (data_bi$quadrat %in% c(504:507))|
                   (data_bi$quadrat %in% c(603:609))|
                   (data_bi$quadrat %in% c(703:712))|
+                  (data_bi$tag == 70579)|
                   (data_bi$quadrat %in% c(803:813))|
                   (data_bi$quadrat %in% c(901:913))|
                   (data_bi$quadrat %in% c(1003:1012))|
@@ -93,8 +94,9 @@ data_bi$area <-
                          (data_bi$quadrat %in% c(301:315))|
                          (data_bi$quadrat %in% c(401:403, 406:415))|
                          (data_bi$quadrat %in% c(502,512:515))|
+                         (data_bi$quadrat == 714 & data_bi$tag != 70579)|
                          (data_bi$quadrat %in% c(610,611,614,615,
-                                                 701,702,713,714,715
+                                                 701,702,713,715
                                                 ,801,1001,1013,1014,1215,
                                                 1313,1314,1315,1413,1415)), 3,
                        ifelse((data_bi$quadrat %in% c(116:132))|
@@ -215,6 +217,7 @@ data_bi$area <-
                   (data_bi$quadrat %in% c(504:507))|
                   (data_bi$quadrat %in% c(603:609))|
                   (data_bi$quadrat %in% c(703:712))|
+                  (data_bi$tag == 70579)|
                   (data_bi$quadrat %in% c(803:813))|
                   (data_bi$quadrat %in% c(901:913))|
                   (data_bi$quadrat %in% c(1003:1012))|
@@ -227,8 +230,9 @@ data_bi$area <-
                          (data_bi$quadrat %in% c(301:315))|
                          (data_bi$quadrat %in% c(401:403, 406:415))|
                          (data_bi$quadrat %in% c(502,512:515))|
+                         (data_bi$quadrat == 714 & data_bi$tag != 70579)|
                          (data_bi$quadrat %in% c(610,611,614,615,
-                                                 701,702,713,714,715
+                                                 701,702,713,715
                                                  ,801,1001,1013,1014,1215,
                                                  1313,1314,1315,1413,1415)), 3,
                        ifelse((data_bi$quadrat %in% c(116:132))|
