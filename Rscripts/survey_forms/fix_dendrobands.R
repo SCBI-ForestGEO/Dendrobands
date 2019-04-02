@@ -2,7 +2,7 @@
 
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
 
-dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv") 
+dendro19 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv") 
 
 #be aware of the dbh differences
 ##2011-2013 data: dbh is from 2008
@@ -10,15 +10,15 @@ dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendro
 ##2019-     data: dbh is from 2018
 
 #Quick: number of bands that need to be fixed
-length(c(grep("RD", dendro18$codes)))
+length(c(grep("RE", dendro19$codes)))
 
 #1 Create field and data_entry forms for trees that need fixing
 ##Either do 1a or 1b, then move to step 2.
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
 ##these bands were marked as "RD" already from the field survey.
-data_fix <- dendro18[grep("RD", dendro18$codes), ]
-data_fix <- data_fix[which(data_fix$survey.ID>= 2018.14), ] #in case any fixes have been done since the fall survey
+data_fix <- dendro19[grep("RE", dendro19$codes), ]
+data_fix <- data_fix[which(data_fix$survey.ID == 2019.01), ] #in case any fixes have been done since the fall survey
 
 ##1b if have more time, determine # of dendrobands whose window is too large. These will ultimately need to be changed at some point if not done now. ####
 trends <- dendro18[,c("tag", "stemtag", "survey.ID", "sp", "measure")]
@@ -87,13 +87,13 @@ matrix <- function(data_field, table_title) {
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       Surveyors:'))
 
 library(xlsx)
-write.xlsx(temp, "field_form_fix_replace_2018.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp, "field_form_fix_2019.xlsx", row.names = FALSE, col.names=FALSE)
 
 
 #2b. Create data_entry form ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms")
 
-data_entry<-data_fix[ ,c(1:2,9:12,3:6,23:26,22,27:28,13:15,18:19,7:8,16:17,20:21,29:32)]
+data_entry<-data_fix[ ,c(1:2,9:12,3:6,22:25,21,27,13:18,7:8,19:20,26,28:31)]
   
 cols <- c("survey.ID", "year", "month", "day", "dbh", "measure", "codes", "notes", "field.recorders", "data.enter", "dendDiam", "dendroID", "type", "dendHt")
 
@@ -105,9 +105,9 @@ data_entry$crown.illum <- NA
 data_entry$location <- NULL #we don't need this column for data entry
 
 library(data.table)
-data_entry <- setnames(old=c("dbh", "dendDiam"), new=c("dbh(mm)", "dendDiam(mm)"))
+data_entry <- setnames(data_entry, old=c("dbh", "dendDiam"), new=c("dbh(mm)", "dendDiam(mm)"))
 
-write.csv(data_entry, "data_entry_fix_replace_2019.csv", row.names=FALSE)
+write.csv(data_entry, "data_entry_fix_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM
