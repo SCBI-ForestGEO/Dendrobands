@@ -126,47 +126,47 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 30333,1,2018.13,2018,10,18,1,1,fagr,306,14,19.3,36.96,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,3969,3969,NA,222,0,726,2,NA,1.52,NA,NA,NA,NA
 30333,1,2018.14,2018,11,8,1,1,fagr,306,14,19.3,37,,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,3969,3969,NA,222,0,726,2,NA,1.52,4,3,NA,NA
 30339,1,2018.01,2018,3,9,1,1,litu,307,8.6,4.1,59.5,M; main,,alive,Michael Scott,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.01,2018,3,9,1,1,litu,307,8.6,4.1,9.96,S,,alive,Michael Scott,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.01,2018,3,9,1,1,litu,307,8.6,4.1,33.94,S,,alive,Michael Scott,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.01,2018,3,9,1,1,litu,307,8.6,4.1,9.96,S,,alive,Michael Scott,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.01,2018,3,9,1,1,litu,307,8.6,4.1,33.94,S,,alive,Michael Scott,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.02,2018,4,6,1,1,litu,307,8.6,4.1,59.49,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.02,2018,4,6,1,1,litu,307,8.6,4.1,9.69,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.02,2018,4,6,1,1,litu,307,8.6,4.1,33.93,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.02,2018,4,6,1,1,litu,307,8.6,4.1,9.69,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.02,2018,4,6,1,1,litu,307,8.6,4.1,33.93,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.03,2018,4,26,1,1,litu,307,8.6,4.1,60.29,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.03,2018,4,26,1,1,litu,307,8.6,4.1,10.18,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.03,2018,4,26,1,1,litu,307,8.6,4.1,34.11,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.03,2018,4,26,1,1,litu,307,8.6,4.1,10.18,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.03,2018,4,26,1,1,litu,307,8.6,4.1,34.11,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.04,2018,5,15,1,1,litu,307,8.6,4.1,59.98,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.04,2018,5,15,1,1,litu,307,8.6,4.1,10.2,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.04,2018,5,15,1,1,litu,307,8.6,4.1,34.19,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.04,2018,5,15,1,1,litu,307,8.6,4.1,10.2,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.04,2018,5,15,1,1,litu,307,8.6,4.1,34.19,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.05,2018,5,29,1,1,litu,307,8.6,4.1,60.6,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.05,2018,5,29,1,1,litu,307,8.6,4.1,13.93,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.05,2018,5,29,1,1,litu,307,8.6,4.1,34.54,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.05,2018,5,29,1,1,litu,307,8.6,4.1,13.93,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.05,2018,5,29,1,1,litu,307,8.6,4.1,34.54,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.06,2018,6,14,1,1,litu,307,8.6,4.1,62.24,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.06,2018,6,14,1,1,litu,307,8.6,4.1,17.34,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.06,2018,6,14,1,1,litu,307,8.6,4.1,35.63,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.06,2018,6,14,1,1,litu,307,8.6,4.1,17.34,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.06,2018,6,14,1,1,litu,307,8.6,4.1,35.63,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.07,2018,6,29,1,1,litu,307,8.6,4.1,64.82,M; main,,alive,Alyssa Terrell,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.07,2018,6,29,1,1,litu,307,8.6,4.1,22.05,S,,alive,Alyssa Terrell,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.07,2018,6,29,1,1,litu,307,8.6,4.1,37.06,S,,alive,Alyssa Terrell,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.07,2018,6,29,1,1,litu,307,8.6,4.1,22.05,S,,alive,Alyssa Terrell,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.07,2018,6,29,1,1,litu,307,8.6,4.1,37.06,S,,alive,Alyssa Terrell,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.08,2018,7,12,1,1,litu,307,8.6,4.1,65.68,M; main,,alive,Alyssa Terrell,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.08,2018,7,12,1,1,litu,307,8.6,4.1,24.35,S,,alive,Alyssa Terrell,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.08,2018,7,12,1,1,litu,307,8.6,4.1,36.57,S,,alive,Alyssa Terrell,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.08,2018,7,12,1,1,litu,307,8.6,4.1,24.35,S,,alive,Alyssa Terrell,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.08,2018,7,12,1,1,litu,307,8.6,4.1,36.57,S,,alive,Alyssa Terrell,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.09,2018,7,26,1,1,litu,307,8.6,4.1,67.52,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.09,2018,7,26,1,1,litu,307,8.6,4.1,28.21,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.09,2018,7,26,1,1,litu,307,8.6,4.1,38.13,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.09,2018,7,26,1,1,litu,307,8.6,4.1,28.21,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.09,2018,7,26,1,1,litu,307,8.6,4.1,38.13,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.1,2018,8,9,1,1,litu,307,8.6,4.1,68.93,M; main,,alive,Ryan Helcoski,Ryan Helcoski,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.1,2018,8,9,1,1,litu,307,8.6,4.1,31.2,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.1,2018,8,9,1,1,litu,307,8.6,4.1,37.35,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.1,2018,8,9,1,1,litu,307,8.6,4.1,31.2,S,,alive,Ryan Helcoski,Ryan Helcoski,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.1,2018,8,9,1,1,litu,307,8.6,4.1,37.35,S,,alive,Ryan Helcoski,Ryan Helcoski,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.11,2018,8,23,1,1,litu,307,8.6,4.1,70.2,M; main,,alive,Ryan Helcoski,Ian McGregor,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.11,2018,8,23,1,1,litu,307,8.6,4.1,32.6,S,,alive,Ryan Helcoski,Ian McGregor,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.11,2018,8,23,1,1,litu,307,8.6,4.1,37.75,S,,alive,Ryan Helcoski,Ian McGregor,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.11,2018,8,23,1,1,litu,307,8.6,4.1,32.6,S,,alive,Ryan Helcoski,Ian McGregor,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.11,2018,8,23,1,1,litu,307,8.6,4.1,37.75,S,,alive,Ryan Helcoski,Ian McGregor,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.12,2018,9,28,1,1,litu,307,8.6,4.1,71.56,M; main,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.12,2018,9,28,1,1,litu,307,8.6,4.1,33.73,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.12,2018,9,28,1,1,litu,307,8.6,4.1,38.15,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.12,2018,9,28,1,1,litu,307,8.6,4.1,33.73,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.12,2018,9,28,1,1,litu,307,8.6,4.1,38.15,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.13,2018,10,18,1,1,litu,307,8.6,4.1,70.83,M; main,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,3975,3975,NA,588,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,2,2018.13,2018,10,18,1,1,litu,307,8.6,4.1,32.63,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,32681,3975,NA,504,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,3,2018.13,2018,10,18,1,1,litu,307,8.6,4.1,37.22,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,37149,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,2,2018.13,2018,10,18,1,1,litu,307,8.6,4.1,32.63,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,32681,3975,NA,504,0,752,2,NA,1.3,NA,NA,NA,NA
+30339,3,2018.13,2018,10,18,1,1,litu,307,8.6,4.1,37.22,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,1,2018.14,2018,11,8,1,1,litu,307,8.6,4.1,71,M;main,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,3975,3975,NA,153.1,0,547,2,NA,1.3,4,5,NA,NA
-30339,2,2018.14,2018,11,8,1,1,litu,307,8.6,4.1,33,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,32681,3975,NA,153.1,0,547,2,NA,1.3,4,5,NA,NA
-30339,3,2018.14,2018,11,8,1,1,litu,307,8.6,4.1,37,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,37149,3975,NA,153.1,0,547,2,NA,1.3,4,2,NA,NA
+30339,2,2018.14,2018,11,8,1,1,litu,307,8.6,4.1,33,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,32681,3975,NA,153.1,0,752,2,NA,1.3,4,5,NA,NA
+30339,3,2018.14,2018,11,8,1,1,litu,307,8.6,4.1,37,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,37149,3975,NA,153.1,0,549,2,NA,1.3,4,2,NA,NA
 30365,1,2018.01,2018,3,9,1,0,fram,308,19.6,1.8,1.8,,,alive,Michael Scott,Ryan Helcoski,NA,NA,NA,992,1,799,2,NA,1.3,NA,NA,NA,NA
 30365,1,2018.14,2018,11,8,1,0,fram,308,19.6,1.8,NA,DS,,dead,"Abigail Ferson, Caroline Kittle",Ian McGregor,NA,NA,NA,992,0,799,2,NA,1.3,3,5,NA,NA
 30462,1,2018.01,2018,3,9,1,0,litu,313,16.2,19,104.7,,,alive,Michael Scott,Ryan Helcoski,4091,4091,NA,492,0,21,2,NA,1.3,NA,NA,NA,NA
@@ -874,21 +874,21 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 70493,1,2018.13,2018,10,18,1,1,litu,714,0.3,15.2,6.36,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,8496,8496,NA,539.2,0,837,2,NA,1.44,NA,NA,NA,NA
 70493,1,2018.14,2018,11,8,1,1,litu,714,0.3,15.2,3,,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,8496,8496,NA,539.2,0,837,2,NA,1.44,4,5,NA,NA
 70494,1,2018.01,2018,3,9,1,1,caca,714,0.4,15.7,11.92,M; main,,alive,Michael Scott,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.01,2018,3,9,1,1,caca,714,0.4,15.7,20.9,S,,alive,Michael Scott,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.01,2018,3,9,1,1,caca,714,0.4,15.7,20.9,S,,alive,Michael Scott,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.02,2018,4,6,1,1,caca,714,0.4,15.7,11.88,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.02,2018,4,6,1,1,caca,714,0.4,15.7,21.18,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.02,2018,4,6,1,1,caca,714,0.4,15.7,21.18,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.03,2018,4,26,1,1,caca,714,0.4,15.7,12,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.03,2018,4,26,1,1,caca,714,0.4,15.7,21.27,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.03,2018,4,26,1,1,caca,714,0.4,15.7,21.27,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.04,2018,5,15,1,1,caca,714,0.4,15.7,12.2,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.04,2018,5,15,1,1,caca,714,0.4,15.7,21.21,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.04,2018,5,15,1,1,caca,714,0.4,15.7,21.21,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.05,2018,5,29,1,1,caca,714,0.4,15.7,12.35,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.05,2018,5,29,1,1,caca,714,0.4,15.7,21.58,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.05,2018,5,29,1,1,caca,714,0.4,15.7,21.58,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.06,2018,6,14,1,1,caca,714,0.4,15.7,12.31,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.06,2018,6,14,1,1,caca,714,0.4,15.7,22.05,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.06,2018,6,14,1,1,caca,714,0.4,15.7,22.05,S,,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.07,2018,6,29,1,1,caca,714,0.4,15.7,13.28,M; main,,alive,Alyssa Terrell,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.07,2018,6,29,1,1,caca,714,0.4,15.7,22.73,S,,alive,Alyssa Terrell,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.07,2018,6,29,1,1,caca,714,0.4,15.7,22.73,S,,alive,Alyssa Terrell,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.08,2018,7,12,1,1,caca,714,0.4,15.7,13.58,M; main,,alive,Alyssa Terrell,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2018.08,2018,7,12,1,1,caca,714,0.4,15.7,24.18,S,,alive,Alyssa Terrell,Ryan Helcoski,31371,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
+70494,2,2018.08,2018,7,12,1,1,caca,714,0.4,15.7,24.18,S,,alive,Alyssa Terrell,Ryan Helcoski,31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.09,2018,7,26,1,1,caca,714,0.4,15.7,13.48,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
 70494,2,2018.09,2018,7,26,1,1,caca,714,0.4,15.7,2.69,S,replaced 7/26,alive,Ryan Helcoski,Ryan Helcoski,31371,181,NA,60,1,838,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.1,2018,8,9,1,1,caca,714,0.4,15.7,15.49,M; main,,alive,Ryan Helcoski,Ryan Helcoski,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
@@ -899,7 +899,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 70494,2,2018.12,2018,9,28,1,1,caca,714,0.4,15.7,2.81,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
 70494,1,2018.13,2018,10,18,1,1,caca,714,0.4,15.7,17.08,M; main,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,181,181,NA,77.3,0,589,2,NA,1.47,NA,NA,NA,NA
 70494,2,2018.13,2018,10,18,1,1,caca,714,0.4,15.7,2.86,S,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
-70494,1,2018.14,2018,11,8,1,1,caca,714,0.4,15.7,18,M:main,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,181,181,NA,60,0,838,2,NA,1.42,4,2,NA,NA
+70494,1,2018.14,2018,11,8,1,1,caca,714,0.4,15.7,18,M:main,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,181,181,NA,60,0,539,2,NA,1.42,4,2,NA,NA
 70494,2,2018.14,2018,11,8,1,1,caca,714,0.4,15.7,3,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,31371,181,NA,60,0,838,2,NA,1.42,4,2,NA,NA
 70495,1,2018.01,2018,3,9,1,1,caca,714,1.7,18.6,22.18,,,alive,Michael Scott,Ryan Helcoski,8497,8497,NA,67.9,0,591,2,NA,1.43,NA,NA,NA,NA
 70495,1,2018.02,2018,4,6,1,1,caca,714,1.7,18.6,22.51,,,alive,Ryan Helcoski,Ryan Helcoski,8497,8497,NA,67.9,0,591,2,NA,1.43,NA,NA,NA,NA
@@ -1536,9 +1536,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102371,1,2018.01,2018,3,9,1,0,qual,1026,1.6,6.6,58.9,,,alive,Ryan Helcoski,Ryan Helcoski,13307,13307,NA,783,0,296,2,NA,1.3,NA,NA,NA,NA
 102371,1,2018.14,2018,11,8,1,0,qual,1026,1.6,6.6,68,,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,13307,13307,NA,783,0,296,2,NA,1.3,4,5,NA,NA
 102438,1,2018.01,2018,3,9,1,0,litu,1028,8.5,16.6,55.74,M; main,,alive,Ryan Helcoski,Ryan Helcoski,13374,13374,NA,468.2,0,600,2,NA,1.34,NA,NA,NA,NA
-102438,2,2018.01,2018,3,9,1,0,litu,1028,8.5,16.6,58.38,S,,alive,Ryan Helcoski,Ryan Helcoski,33848,13374,NA,462.6,0,600,2,NA,1.34,NA,NA,NA,NA
+102438,2,2018.01,2018,3,9,1,0,litu,1028,8.5,16.6,58.38,S,,alive,Ryan Helcoski,Ryan Helcoski,33848,13374,NA,462.6,0,601,2,NA,1.34,NA,NA,NA,NA
 102438,1,2018.14,2018,11,8,1,0,litu,1028,8.5,16.6,64,M;main,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,13374,13374,NA,468.2,0,600,2,NA,1.34,4,4,NA,NA
-102438,2,2018.14,2018,11,8,1,0,litu,1028,8.5,16.6,70,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,33848,13374,NA,462.6,0,600,2,NA,1.34,4,4,NA,NA
+102438,2,2018.14,2018,11,8,1,0,litu,1028,8.5,16.6,70,S,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,33848,13374,NA,462.6,0,601,2,NA,1.34,4,4,NA,NA
 102439,1,2018.01,2018,3,9,1,0,litu,1028,4.3,19.6,17.43,,,alive,Ryan Helcoski,Ryan Helcoski,13375,13375,NA,224,0,298,2,NA,1.3,NA,NA,NA,NA
 102439,1,2018.14,2018,11,8,1,0,litu,1028,4.3,19.6,20,,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,13375,13375,NA,224,0,298,2,NA,1.3,4,3,NA,NA
 102441,1,2018.01,2018,3,9,1,0,litu,1029,1.3,3,45.385,,,alive,Ryan Helcoski,Ryan Helcoski,13377,13377,NA,484,0,667,2,NA,1.3,NA,NA,NA,NA
@@ -1550,9 +1550,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102444,1,2018.01,2018,3,9,1,0,litu,1029,4.3,5.3,6.97,,,alive,Ryan Helcoski,Ryan Helcoski,13380,13380,NA,630,1,808,2,NA,1.3,NA,NA,NA,NA
 102444,1,2018.14,2018,11,8,1,0,litu,1029,4.3,5.3,26,,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,13380,13380,NA,630,0,808,2,NA,1.3,4,5,NA,NA
 102446,1,2018.01,2018,3,9,1,0,litu,1029,0.5,3.7,40.06,M; main,,alive,Ryan Helcoski,Ryan Helcoski,13382,13382,NA,494,0,602,2,NA,1.3,NA,NA,NA,NA
-102446,2,2018.01,2018,3,9,1,0,litu,1029,0.5,3.7,26.72,S,,alive,Ryan Helcoski,Ryan Helcoski,33849,13382,NA,273.2,0,602,2,NA,1.3,NA,NA,NA,NA
+102446,2,2018.01,2018,3,9,1,0,litu,1029,0.5,3.7,26.72,S,,alive,Ryan Helcoski,Ryan Helcoski,33849,13382,NA,273.2,0,603,2,NA,1.3,NA,NA,NA,NA
 102446,1,2018.14,2018,11,8,1,0,litu,1029,0.5,3.7,47,M;main,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,13382,13382,NA,494,0,602,2,NA,1.3,4,4,NA,NA
-102446,2,2018.14,2018,11,8,1,0,litu,1029,0.5,3.7,29,S;B,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,33849,13382,NA,273.2,0,602,2,NA,1.3,2,3,NA,NA
+102446,2,2018.14,2018,11,8,1,0,litu,1029,0.5,3.7,29,S;B,,alive,"Abigail Ferson, Caroline Kittle",Ian McGregor,33849,13382,NA,273.2,0,603,2,NA,1.3,2,3,NA,NA
 102475,1,2018.01,2018,3,9,1,0,litu,1030,20,14.3,107.88,,,alive,Ryan Helcoski,Ryan Helcoski,13411,13411,NA,881.1,0,516,2,NA,1.3,NA,NA,NA,NA
 102475,1,2018.14,2018,11,8,1,0,litu,1030,20,14.3,124,,,alive,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,13411,13411,NA,881.1,0,516,2,NA,1.3,4,4,NA,NA
 102501,1,2018.01,2018,3,9,1,0,litu,1031,9.8,17.3,96.02,,,alive,Ryan Helcoski,Ryan Helcoski,13437,13437,NA,634.2,0,304,2,NA,1.3,NA,NA,NA,NA
@@ -1640,9 +1640,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 111030,1,2018.13,2018,10,18,1,1,litu,1107,15.1,19.9,79.68,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,14380,14380,NA,600.5,0,313,2,NA,1.4,NA,NA,NA,NA
 111030,1,2018.14,2018,11,8,1,1,litu,1107,15.1,19.9,79.84,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,14380,14380,NA,600.5,0,313,2,NA,1.4,3,5,NA,NA
 111032,1,2018.01,2018,3,9,1,0,litu,1107,10.3,19,39.13,M; main,,alive,Michael Scott,Ryan Helcoski,14382,14382,NA,600,0,605,2,NA,1.3,NA,NA,NA,NA
-111032,2,2018.01,2018,3,9,1,0,litu,1107,10.3,19,39.39,S,,alive,Michael Scott,Ryan Helcoski,34073,14382,NA,424.3,0,605,2,NA,1.3,NA,NA,NA,NA
+111032,2,2018.01,2018,3,9,1,0,litu,1107,10.3,19,39.39,S,,alive,Michael Scott,Ryan Helcoski,34073,14382,NA,424.3,0,606,2,NA,1.3,NA,NA,NA,NA
 111032,1,2018.14,2018,11,8,1,0,litu,1107,10.3,19,46.66,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,14382,14382,NA,600,0,605,2,NA,1.3,3,4,NA,NA
-111032,2,2018.14,2018,11,8,1,0,litu,1107,10.3,19,45.43,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,34073,14382,NA,424.3,0,605,2,NA,1.3,3,4,NA,NA
+111032,2,2018.14,2018,11,8,1,0,litu,1107,10.3,19,45.43,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,34073,14382,NA,424.3,0,606,2,NA,1.3,3,4,NA,NA
 111039,1,2018.01,2018,3,9,1,0,litu,1108,19.7,4.1,95.98,,,alive,Michael Scott,Ryan Helcoski,14388,14388,NA,450.6,0,315,2,NA,1.35,NA,NA,NA,NA
 111039,1,2018.14,2018,11,8,1,0,litu,1108,19.7,4.1,106.31,,,alive,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,14388,14388,NA,450.6,0,315,2,NA,1.35,3,4,NA,NA
 111041,1,2018.01,2018,3,9,1,0,quru,1108,16.5,5.7,78.73,,,alive,Michael Scott,Ryan Helcoski,14390,14390,NA,1004.3,0,669,2,NA,1.27,NA,NA,NA,NA
@@ -2666,9 +2666,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 192674,1,2018.01,2018,3,8,1,0,litu,1929,9.5,2.8,2.45,,band replaced 3/14/2018,alive,Ryan Helcoski,Ryan Helcoski,29069,29069,NA,467,1,797,2,NA,1.3,NA,NA,NA,NA
 192674,1,2018.14,2018,11,8,1,0,litu,1929,9.5,2.8,11.3,,,alive,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,29069,29069,NA,467,0,797,2,NA,1.3,4,4,NA,NA
 200038,1,2018.01,2018,3,8,1,0,litu,2001,3.6,9.6,140.42,M; main,,alive,"Ryan Helcoski, Michael Scott",Ryan Helcoski,29145,29145,NA,941.2,0,631,2,NA,1.3,NA,NA,NA,NA
-200038,2,2018.01,2018,3,8,1,0,litu,2001,3.6,9.6,93.9,S,,alive,"Ryan Helcoski, Michael Scott",Ryan Helcoski,36227,29145,NA,843.8,0,631,2,NA,1.3,NA,NA,NA,NA
+200038,2,2018.01,2018,3,8,1,0,litu,2001,3.6,9.6,93.9,S,,alive,"Ryan Helcoski, Michael Scott",Ryan Helcoski,36227,29145,NA,843.8,0,629,2,NA,1.3,NA,NA,NA,NA
 200038,1,2018.14,2018,11,8,1,0,litu,2001,3.6,9.6,160.3,M;main;RD,stems grew together,alive,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,29145,29145,NA,941.2,0,631,2,NA,1.3,3,4,NA,NA
-200038,2,2018.14,2018,11,8,1,0,litu,2001,3.6,9.6,114.7,S;RD,stems grew together,alive,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,36227,29145,NA,843.8,0,631,2,NA,1.3,3,4,NA,NA
+200038,2,2018.14,2018,11,8,1,0,litu,2001,3.6,9.6,114.7,S;RD,stems grew together,alive,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,36227,29145,NA,843.8,0,629,2,NA,1.3,3,4,NA,NA
 200142,1,2018.01,2018,3,8,1,1,litu,2002,1.3,3.5,108.42,,,alive,"Ryan Helcoski, Michael Scott",Ryan Helcoski,29241,29241,NA,604,0,454,2,NA,1.3,NA,NA,NA,NA
 200142,1,2018.02,2018,4,6,1,1,litu,2002,1.3,3.5,108.42,,,alive,Ryan Helcoski,Ryan Helcoski,29241,29241,NA,604,0,454,2,NA,1.3,NA,NA,NA,NA
 200142,1,2018.03,2018,4,26,1,1,litu,2002,1.3,3.5,108.12,,,alive,Ryan Helcoski,Ryan Helcoski,29241,29241,NA,604,0,454,2,NA,1.3,NA,NA,NA,NA
