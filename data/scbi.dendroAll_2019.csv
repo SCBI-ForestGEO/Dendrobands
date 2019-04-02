@@ -373,8 +373,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 131232,1,2019.01,2019,March,28,1,0,litu,1313,14.4,19.2,98.43,,,alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18157,18157,NA,430.7,0,153,2,NA,1.32,NA,NA,NA,NA
 131233,1,2019.01,2019,March,28,1,0,litu,1313,18.3,19.6,67.5,,,alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18158,18158,NA,301.6,0,154,2,NA,1.31,NA,NA,NA,NA
 131239,1,2019.01,2019,March,28,1,1,quru,1314,19.5,5.7,105.08,,,alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18164,18164,NA,587.1,0,735,2,NA,1.47,NA,NA,NA,NA
-131272,1,2019,2019,February,5,1,0,fram,1315,18.5,2.2,NA,,band removed due to large flaking bark; tree replaced by 141088,alive,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
-131272,1,2019.01,2019,March,28,1,0,fram,1315,18.5,2.2,NA,,band removed in 2019.00,alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
+131272,1,2019,2019,February,5,1,0,fram,1315,18.5,2.2,NA,,band removed due to large flaking bark; tree replaced by 141088,dead,"Alyssa Terrell, Becky Banbury Morgan, Ian McGregor",Ian McGregor,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
+131272,1,2019.01,2019,March,28,1,0,fram,1315,18.5,2.2,NA,,band removed in 2019.00,dead,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
 131352,1,2019.01,2019,March,28,1,0,fram,1316,5.5,3.3,NA,,"band removed, massive flecking",alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18195,18195,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA
 131364,1,2019.01,2019,March,28,1,0,acru,1316,12,12.9,132.79,RE,,alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18286,18286,NA,421.1,0,159,2,NA,1.42,NA,NA,NA,NA
 132028,1,2019.01,2019,March,28,1,0,fram,1317,17,6.7,59.4,,,alive,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18369,18369,NA,595.7,0,160,2,NA,1.4,NA,NA,NA,NA
