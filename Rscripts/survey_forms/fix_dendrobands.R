@@ -57,11 +57,11 @@ data_fix$location <- dendro_trees$location[match(data_fix$stemID, dendro_trees$s
 data_field<-data_fix[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "dbh", "measure", "codes", "location", "dendDiam", "dendroID", "type", "dendHt")]
 
 data_field$measure = NA
-data_field$codes = NA
 data_field$dendDiam = NA
 data_field$dendHt = NA
 data_field$type = NA
 data_field$dendroID = NA
+data_field$codes <- gsub("[[:punct:]]*RE[[:punct:]]*", "", data_field$codes)
 
 data_field$field.date = NA
 data_field$dbhnew = NA
