@@ -116,21 +116,13 @@ setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 
 data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
-install <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
+install <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_fix_2019-011.csv")
+
+library(data.table)
+setnames(install, old=c("dbh.mm.", "dendDiam.mm."), new=c("dbh", "dendDiam"))
+install$codes <- as.character(install$notes)
 
 data_2019 <- rbind(data_2019, install)
-data_2019 <- data_2019[order(data_2019$tag, data_2019$stemtag), ]
-
-write.csv(data_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
-
-#3b. Merging if bands replaces before spring biannual ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-
-data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
-
-install_late <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_fix_replace_2019.csv")
-
-data_2019 <- rbind(data_2019, install_late)
 data_2019 <- data_2019[order(data_2019$tag, data_2019$stemtag), ]
 
 write.csv(data_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
@@ -139,3 +131,5 @@ write.csv(data_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
 #4. Merge data with dendroID.csv ####
 
 ##there is no code here. Merging with dendroID.csv happens only after the full year's data is complete to avoid duplication. The code for this is in "dendroID_chronology.R"
+
+##if this is deemed unnecessary then merging each time with dendroID shouldn't be difficult, and the script can just be added here.
