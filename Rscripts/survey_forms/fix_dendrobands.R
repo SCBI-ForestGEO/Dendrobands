@@ -84,7 +84,7 @@ matrix <- function(data_field, table_title) {
   
 }
 
-temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       Surveyors:'))
+temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
 library(xlsx)
 write.xlsx(temp, "field_form_fix_2019.xlsx", row.names = FALSE, col.names=FALSE)
