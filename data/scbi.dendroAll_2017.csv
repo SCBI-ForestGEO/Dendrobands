@@ -45,8 +45,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 20617,1,2017.12,2017,11,16,1,0,litu,209,6.9,7.6,162.69,,"window too large, replace band; band replaced after Nov survey",alive,"Lauren Bowman, Mario Morales",Lauren Bowman,2807,2807,NA,851,0,13,2,NA,1.32,NA,NA,NA,NA
 20712,1,2017.01,2017,4,18,1,0,litu,212,1.5,8.3,10.3,,Double checked,alive,Valentine Herrmann,Caroline Kittle,2897,2897,NA,896.2,1,725,2,NA,1.45,4,4,NA,NA
 20712,1,2017.12,2017,11,16,1,0,litu,212,1.5,8.3,27.58,,,alive,"Lauren Bowman, Mario Morales",Lauren Bowman,2897,2897,NA,896.2,0,725,2,NA,1.45,NA,NA,NA,NA
-22004,2,2017.01,2017,4,18,1,0,litu,217,11.4,1.7,120.6,M; main,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,32560,3037,NA,810,0,245,2,NA,1.3,3,4,NA,NA
-22004,2,2017.12,2017,11,14,1,0,litu,217,11.4,1.7,131.35,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,32560,3037,NA,810,0,245,2,NA,1.3,NA,NA,NA,NA
+22004,1,2017.01,2017,4,18,1,0,litu,217,11.4,1.7,120.6,M; main,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,3037,3037,NA,810,0,245,2,NA,1.3,3,4,NA,NA
+22004,1,2017.12,2017,11,14,1,0,litu,217,11.4,1.7,131.35,,,alive,"Lauren Bowman, Mario Morales",Mario Morales,3037,3037,NA,810,0,245,2,NA,1.3,NA,NA,NA,NA
 22041,1,2017.01,2017,4,18,1,0,litu,217,1.8,19,157.1,,Replace band,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,3072,3072,NA,817,0,15,2,NA,1.32,3,4,NA,NA
 22041,1,2017.12,2017,11,14,1,0,litu,217,1.8,19,27.33,,band replaced 04/21/2017,alive,"Lauren Bowman, Mario Morales",Mario Morales,3072,3072,NA,817,1,751,2,NA,1.32,NA,NA,NA,NA
 22170,1,2017.01,2017,4,18,1,0,litu,221,7.9,13.8,11.3,I,,alive,"Erika Gonzalez-Akre, Joe Kolowski",Caroline Kittle,3197,3197,NA,1128,0,697,2,NA,1.2,3,4,NA,NA

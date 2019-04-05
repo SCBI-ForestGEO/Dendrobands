@@ -15,7 +15,7 @@ tag,stemtag,sp,quadrat,biannual,intraannual,cored,treeID,stemID,dendro.start.yea
 20603,1,fram,208,1,0,0,2793,2793,2010,January,27,NA,NA,NA,NA,,South,6,12.8,26,152.8000031,747407.9692,4308659.8,38.89199395,-78.147407
 20617,1,litu,209,1,0,0,2807,2807,2010,January,27,NA,NA,NA,NA,,South,6.9,7.6,26.89999962,167.6000061,747408.5256,4308674.617,38.89212715,-78.14739526
 20712,1,litu,212,1,0,0,2897,2897,2010,January,27,NA,NA,NA,NA,,South,1.5,8.3,21.5,228.3000031,747401.7188,4308735.175,38.89267411,-78.14745183
-22004,1,litu,217,1,0,0,3037,3037,2011,March,24,NA,NA,NA,NA,tree was labeled as stem 2 for years even though the original measurement of dbh was for stem 1. This has been corrected (along with stem ID) in all current versions of the data,North,11.4,1.7,28.60000038,321.7000122,747406.6501,4308828.715,38.89351461,-78.14736133
+22004,1,litu,217,1,0,0,3037,3037,2011,March,24,NA,NA,NA,NA,"tree was labeled as stem 2 from 2011-2018 even though the dbh measurements were for stem 1. This was flagged starting in 2012 in the archive data, and has now been corrected (along with stem ID) in all current versions of the data",North,11.4,1.7,28.60000038,321.7000122,747406.6501,4308828.715,38.89351461,-78.14736133
 22041,1,litu,217,1,0,0,3072,3072,2010,January,27,NA,NA,NA,NA,,North,1.8,19,21.79999924,339,747399.4506,4308845.853,38.89367088,-78.14743807
 22170,1,litu,221,1,0,0,3197,3197,2010,January,27,NA,NA,NA,NA,,North,7.9,13.8,27.89999962,413.7999878,747403.8136,4308920.774,38.89434397,-78.14736083
 22315,1,caco,225,1,0,0,3338,3338,2019,February,22,NA,NA,NA,NA,,North,11,4,31,484,747405.2842,4308991.027,38.89497586,-78.14731858

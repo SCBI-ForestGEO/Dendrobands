@@ -1,6 +1,6 @@
 tag,stemtag,sp,quadrat,lx,ly,survey.ID,year,month,day,dbh(mm),new.band,dendroID,type,dendDiam(mm),dendHt,measure,codes,notes,status,field.recorders,data.enter,biannual,intraannual,stemID,treeID,dir,crown.condition,crown.illum,lianas,measureID
 12508,1,litu,131,10.7,10.4,2019.011,2019,April,4,920,1,,2,925,1.25,7.88,,,alive,"Norbert Kunert, Ian McGregor",Ian McGregor,1,0,2157,2157,NA,NA,NA,NA,NA
-22004,2,litu,217,11.4,1.7,2019.011,2019,April,4,841,1,,2,840,1.4,12.92,,,alive,"Norbert Kunert, Ian McGregor",Ian McGregor,1,0,32560,3037,NA,NA,NA,NA,NA
+22004,1,litu,217,11.4,1.7,2019.011,2019,April,4,841,1,,2,840,1.4,12.92,,,alive,"Norbert Kunert, Ian McGregor",Ian McGregor,1,0,3037,3037,NA,NA,NA,NA,NA
 30234,1,fagr,306,15.3,18.5,2019.011,2019,April,3,81,1,,2,80,1.4,10.62,,,alive,"Valentine Herrmann, Ian McGregor",Ian McGregor,1,1,3875,3875,NA,NA,NA,NA,NA
 42397,1,quru,428,10.4,5.5,2019.011,2019,April,4,1531,1,,2,1569,1.1,7.47,,,alive,"Norbert Kunert, Ian McGregor",Ian McGregor,1,0,5881,5881,NA,NA,NA,NA,NA
 60468,1,caca,615,5.4,9.6,2019.011,2019,April,3,74,1,,2,74,1.25,7.19,,,alive,"Valentine Herrmann, Ian McGregor",Ian McGregor,1,1,7453,7453,NA,NA,NA,NA,NA
