@@ -5,22 +5,41 @@
 #3 merge data_entry form intraannual with the year's master file
 
 #1 Create field_form intraannual ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms/2019")
 
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
-prevmeasin <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by previous survey.ID. Change "2018.01" to be the most recent survey.ID when printing a new field form (to have updated previous measurement)
+#subset by what's in intraannual survey
+intra <- data_2019[data_2019$intraannual == "1", ]
 
-data_intra <- subset(data_2018,survey.ID=="2018.01" & intraannual=="1") #subset by 2018.01 (one entry per stem)
+#subset by max survey.ID
+prevmeasin <- NULL
+for (i in seq(along=unique(intra$stemID))){
+  sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
+  sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  
+  prevmeasin <- rbind(prevmeasin, sub)
+}
+
+data_intra <- NULL
+for (i in seq(along=unique(intra$stemID))){
+  sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
+  sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  
+  data_intra <- rbind(data_intra, sub)
+}
 
 data_intra$location <- dendro_trees$location[match(data_intra$stemID, dendro_trees$stemID)]
 
 data_intra<-data_intra[ ,c("tag", "stemtag", "sp", "quadrat", "lx", "ly", "measure", "codes", "location", "dbh")]
 
 data_intra$measure = NA
-data_intra$codes = NA
+for (i in 1:nrow(data_intra)){
+  data_intra$codes <- ifelse(grepl("F", data_intra$codes), "F", "")
+}
+
 data_intra$"Date2: SvID: Name:" = NA
 data_intra$"Date3: SvID: Name:" = NA
 data_intra$"Date4: SvID: Name:" = NA
@@ -57,21 +76,28 @@ write.xlsx(temp, "field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE
 #as the second line of the rbind function
 
 #after writing new file to excel, need to 
-  #1 delete the first row and first column
-  #2 add all borders, merge and center title across top
-  #3 adjust cell dimensions as needed
-  #4 change print margins to "narrow"
+  #1 add all borders, merge and center title across top
+  #2 adjust cell dimensions as needed
+  #3 change print margins to "narrow"
   #4 make sure print area is defined as wanted ("Page Layout")
 
 ####################################################################################
 #2 Create data_entry forms intraannual ####
 # Create data_intra forms from master
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/protocols_field-resources/data_entry_forms")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019")
 
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
-data_intra<-data_2018[which(data_2018$survey.ID=='2018.01' & data_2018$intraannual=='1'), ] #subset by 2018.01 (one entry per stem)
+intra <- data_2019[data_2019$intraannual == "1", ]
+
+data_intra <- NULL
+for (i in seq(along=unique(intra$stemID))){
+  sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
+  sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  
+  data_intra <- rbind(data_intra, sub)
+}
 
 data_intra$location <- dendro_trees$location[match(data_intra$stemID, dendro_trees$stemID)]
 
@@ -82,14 +108,15 @@ data_intra$year = NA
 data_intra$month = NA
 data_intra$day = NA
 data_intra$measure = NA
-data_intra$codes = NA
+for (i in 1:nrow(data_intra)){
+  data_intra$codes <- ifelse(grepl("F", data_intra$codes), "F", "")
+}
 data_intra$notes = NA
 data_intra$field.recorders = NA
 data_intra$data.enter = NA
 
 data_intra<-data_intra[,c(1,2,7,8,3:6,9:11,13:14,12)]
 
-data_intra<-sapply(data_intra, as.character)
 data_intra[is.na(data_intra)] <- " "
 
 write.csv(data_intra, "data_entry_intraannual.csv", row.names=FALSE)
