@@ -10,11 +10,14 @@ If printing the first form for the season, please make sure the correct [R-scrip
 
 1. Data is collected in mm to 2 decimals!! E.g. 74.89
 
-2. If a tree looks dead but the survey is being done before leaves are evident or after leaves have begun falling, put "check status, looks unhealthy" in notes. Then, cross-reference with mortality or other census during data entry.
+2. *Important!* For both intraannual and biannual surveys, write the surveyID next to codes/notes. This way it will be easier to tell for data entry.
+- e.g. a tree measured 4 times on a datasheet, and has codes F, F, F;RE (2019.04), F
 
-3. In general, if a measurement is >6mm difference compared to the previous measurement, double check in field, then if need be write "check previous measure" in notes column.
+3. If a tree looks dead but the survey is being done before leaves are evident or after leaves have begun falling, put "check status, looks unhealthy" in notes. Then, cross-reference with mortality or other census during data entry.
 
-4. For timing reference, the 2018 fall biannual (2018.14) survey took about 5 hours, with 7 people in 3 teams. The 2019 spring biannual (2019.01) was done in 9 hours with 2 teams of 2 people (1 half-day had only 2 people, the full day had all 4). With three teams, the areas are generally split up in this way:
+4. In general, if a measurement is >6mm difference compared to the previous measurement, double check in field, then if need be write "check previous measure" in notes column.
+
+5. For timing reference, the 2018 fall biannual (2018.14) survey took about 5 hours, with 7 people in 3 teams. The 2019 spring biannual (2019.01) was done in 9 hours with 2 teams of 2 people (1 half-day had only 2 people, the full day had all 4). With three teams, the areas are generally split up in this way:
 - One team in Areas 1, 6, 9
 - One team in Areas 2, 5, 8
 - One team in Areas 3, 4, 7
