@@ -16,9 +16,10 @@ length(c(grep("RE", dendro19$codes)))
 ##Either do 1a or 1b, then move to step 2.
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
-##these bands were marked as "RD" already from the field survey.
-data_fix <- dendro19[grep("RE", dendro19$codes), ]
-data_fix <- data_fix[which(data_fix$survey.ID == 2019.01), ] #in case any fixes have been done since the fall survey
+##these bands were marked as "RE" already from the field survey.
+data_fix <- dendro19[which(dendro19$survey.ID == 2019.02), ]
+data_fix <- data_fix[grep("RE", data_fix$codes), ]
+ #in case any fixes have been done since the fall survey
 
 ##1b if have more time, determine # of dendrobands whose window is too large. These will ultimately need to be changed at some point if not done now. ####
 trends <- dendro18[,c("tag", "stemtag", "survey.ID", "sp", "measure")]
