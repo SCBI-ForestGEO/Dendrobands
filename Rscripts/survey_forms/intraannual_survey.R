@@ -125,15 +125,15 @@ write.csv(data_intra, "data_entry_intraannual.csv", row.names=FALSE)
 #3 Merge data_entry form intraannual with the year's master file ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 
-data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
+data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
 
-data_intra <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2017/data_entry_intraannual_2017-11.csv")
+data_intra <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_intraannual_2019-02.csv")
 
-names2017 <- c(colnames(data_2017))
+names2019 <- c(colnames(data_2019))
 namesintra <- c(colnames(data_intra))
 
 ## find the names that are in data_2018 but not in data_biannual
-missing <- setdiff(names2017, namesintra)
+missing <- setdiff(names2019, namesintra)
 
 ## if need be, do the opposite
 # missing <- setdiff(namesbi, names2018)
@@ -143,9 +143,9 @@ data_intra[missing] <- NA
 data_intra$area <- NULL #this column is only relevant for field
 data_intra$location <- NULL #only for when merging data pre-2018
 
-test <- rbind(data_2017, data_intra)
+test <- rbind(data_2019, data_intra)
 
-test <- test[order(test[,"tag"], test[,"survey.ID"]),] #order by tag and survey.ID
+test <- test[order(test[,"tag"], test[,"stemtag"], test[,"survey.ID"]),] #order by tag and survey.ID
 
 ## these values are constant from the previous survey.ID
 library(zoo)
@@ -163,15 +163,15 @@ test$type <- na.locf(test$type)
 test$dendHt <- na.locf(test$dendHt)
 
 ## these values are not always constant
+library(dplyr)
 test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
-deadcodes <- c("DS", "DC", "DN", "DT")
-test$status <- ifelse((is.na(test$status))&(test$codes %in% deadcodes), "dead", "alive")
+test$status <- as.character(test$status)
+test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
 
 #to troubleshoot. Added this bc noticed discrepancy above
-test$status <- ifelse(test$codes %in% deadcodes, "dead", test$status)
 test$codes <- as.character(test$codes)
 test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2017.csv", row.names=FALSE)
+write.csv(test, "scbi.dendroAll_2019.csv", row.names=FALSE)
