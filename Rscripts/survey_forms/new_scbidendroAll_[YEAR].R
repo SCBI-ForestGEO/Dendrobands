@@ -1,8 +1,6 @@
 # Create new scbi.dendroAll_[YEAR].csv
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 #subset by the most recent survey and live trees
 data_2019 <- subset(data_2018,survey.ID=="2018.14" & status=="alive")
@@ -13,6 +11,6 @@ data_2019[,cols] <- ""
 data_2019$crown.condition <- NA
 data_2019$crown.illum <- NA
 
-write.csv(data_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
+write.csv(data_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
 

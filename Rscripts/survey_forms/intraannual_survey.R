@@ -5,11 +5,9 @@
 #3 merge data_entry form intraannual with the year's master file
 
 #1 Create field_form intraannual ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms/2019")
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
-
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+dendro_trees <- read.csv("data/dendro_trees.csv")
 
 #subset by what's in intraannual survey
 intra <- data_2019[data_2019$intraannual == "1", ]
@@ -69,7 +67,7 @@ temp <- matrix(data_intra, table_title=('Intraannual Survey'))
 
 
 library(xlsx)
-write.xlsx(temp, "field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE)
+write.xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE)
 
 #to add a blank spacer row btwn title and columns, add
 "rep('', ncol(data_intra)), # blank spacer row"
@@ -85,9 +83,7 @@ write.xlsx(temp, "field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE
 #2 Create data_entry forms intraannual ####
 # Create data_intra forms from master
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019")
-
-data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 intra <- data_2019[data_2019$intraannual == "1", ]
 
@@ -119,15 +115,13 @@ data_intra<-data_intra[,c(1,2,7,8,3:6,9:11,13:14,12)]
 
 data_intra[is.na(data_intra)] <- " "
 
-write.csv(data_intra, "data_entry_intraannual.csv", row.names=FALSE)
+write.csv(data_intra, "resources/data_entry_forms/2019/data_entry_intraannual.csv", row.names=FALSE)
 
 ####################################################################################
 #3 Merge data_entry form intraannual with the year's master file ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
-
-data_intra <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_intraannual_2019-02.csv")
+data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-02.csv")
 
 names2019 <- c(colnames(data_2019))
 namesintra <- c(colnames(data_intra))
@@ -174,4 +168,4 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2019.csv", row.names=FALSE)
+write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)

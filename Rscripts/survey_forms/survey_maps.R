@@ -1,15 +1,13 @@
 # code for making dendroband maps
 ##this can potentially be done with the fgeo package for the main census data. It is not being used here, but is referenced at bottom.
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/maps")
-
 #we are using dendro_trees for this code as opposed to "scbi.dendroAll_YEAR.csv" because 
 #1. dendro_trees reflects the data in the all of the YEAR files and 
 #2. dendro_trees has the necessary mapping information in lx/ly, gx/gy, NAD83X/Y, AND lat/lon in decimal degrees.
 
 ##THUS make sure dendro_trees is updated when making new maps
 
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+dendro_trees <- read.csv("data/dendro_trees.csv")
 
 #to start off, filter by all the trees that are alive as of the end of last year's fall survey.
 bands_2019 <- dendro_trees[is.na(dendro_trees$mortality.year), ]
@@ -24,7 +22,7 @@ library(broom) #for the tidy function
 library(sf) #for mapping
 library(ggthemes) #for removing graticules when making pdf
 
-scbi_plot <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp")
+scbi_plot <- readOGR(getURL("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp"))
 deer <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
 roads <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_edits.shp")
 streams <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_streams_edits.shp")
@@ -76,7 +74,7 @@ map <- ggplot() +
 #now, we add the row and column labels
 ##to get rid of the graticules (the lat/lon labels and lines), you need to have both "theme" calls in the following function. 
 
-pdf("dendroband_biannual_map.pdf", width = 8.5, height=11)
+pdf("resources/maps/dendroband_biannual_map.pdf", width = 8.5, height=11)
 map + 
   rows + 
   cols +
@@ -106,7 +104,7 @@ map_intra <- ggplot() +
 north <- annotate(geom="text", x=747793, y=4308810, label="N", colour="black", size=5, fontface=2)
 south <- annotate(geom="text", x=747795, y=4308775, label="S", colour="black", size=5, fontface=2)
 
-pdf("dendroband_intraannual_map.pdf", width = 8.5, height=11)
+pdf("resources/maps/dendroband_intraannual_map.pdf", width = 8.5, height=11)
 map_intra + 
   rows + 
   cols +
@@ -145,7 +143,7 @@ grob_vert <- grobTree(textGrob("01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 
 
 devtools::install_github("forestgeo/fgeo", upgrade = "never")
 
-bands_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+bands_2019 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 map_bands <- bands_2019 %>%
   filter(survey.ID >= 2018.14)

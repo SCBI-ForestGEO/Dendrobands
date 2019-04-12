@@ -11,9 +11,7 @@
 #7 merge data_entry form to year file
 #8 merge data_entry form with dendro_trees and dendroID
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
-
-dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro18 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 #1 quick check of number of trees that need to be replaced ####
 q <- dendro18[which(dendro18$survey.ID==c('2018.14')), ] 
@@ -22,9 +20,12 @@ rm(q)
 
 #############################################################################
 #2 list of dead trees that need to be replaced ####
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+library(httr)
+library(RCurl)
 
-dendrofull <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/cored_dendroband_crown_position_data/dendro_cored_full.csv")
+dendro_trees <- read.csv("data/dendro_trees.csv")
+
+dendrofull <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_dimensions/tree_crowns/cored_dendroband_crown_position_data/dendro_cored_full.csv"))
 
 dead <- dendro_trees[which(!(is.na(dendro_trees$mortality.year))), ]
 
@@ -34,8 +35,7 @@ dead$dbhdead <- dendrofull$dbhall[match(dead$stemID, dendrofull$stemID)]
 
 dead <- dead[, c(1:7,23,8:22)]
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-write.csv(dead, "dead_to_replace_2018.csv", row.names=FALSE)
+write.csv(dead, "data/dead_to_replace_2018.csv", row.names=FALSE)
 
 
 
@@ -43,7 +43,7 @@ write.csv(dead, "dead_to_replace_2018.csv", row.names=FALSE)
 #3 determine composition of replacement species
 
 #3a. determine composition based on ANPP contribution ####
-ANPP <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_ANPP.csv")
+ANPP <- read.csv("results/dendro_trees_ANPP.csv")
 ANPP <- ANPP[with(ANPP, order(-ANPP.ANPP_Mg.C.ha1.y1_10cm)), ]
 
 ##find the % ANPP contribution for each species
@@ -77,7 +77,7 @@ replace$is.intraannual.o350 <- c(3,2,2,0,0,1)
 replace <- replace[, c(1:7,9,8,10)]
 
 #3b. determine composition based on species ####
-ANPP <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_ANPP.csv")
+ANPP <- read.csv("results/dendro_trees_ANPP.csv")
 ANPP <- ANPP[with(ANPP, order(-ANPP.ANPP_Mg.C.ha1.y1_10cm)), ]
 
 #subset to exclude litu (over-represented) and fram (all dying soon from pest)
@@ -89,7 +89,7 @@ ANPP <- ANPP[!(ANPP$sp %in% c("litu", "fram")), ]
 #4 determine the actual trees to replace
 
 #4a. determine trees from ANPP contribution (from 3a) ####
-recensus2018 <- read.csv("I:/recensus2018.csv")
+recensus2018 <- read.csv("")
 recensus2018$DBH <- recensus2018$DBH*10
 library(data.table)
 recensus2018 <- setnames(recensus2018, old=c("Tag", "StemTag", "QuadratName", "Mnemonic", "DBH","Codes"),new=c("tag", "stemtag", "quadrat", "sp", "dbh18", "codes"))
@@ -150,7 +150,9 @@ fulltrees <- fulltrees[, c("tag", "stemtag", "quadrat", "sp", "dbh18", "codes")]
 
 #############################################################################
 #5 get the local and global coordinates ####
-stem_coords <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/census3_coord_local_plot.csv")
+library(httr)
+
+stem_coords <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/tree_coord_local_plot.csv"))
 
 fulltreesgeo <- merge(fulltrees, stem_coords, by.x=c("tag", "stemtag","quadrat"), by.y=c("tag", "stemtag","quadratname"))
 
@@ -236,7 +238,7 @@ temp1 <- matrix(newtrees, table_title=('New Dendroband Trees                    
 
 
 library(xlsx)
-write.xlsx(temp1, "field_form_new_trees_2019.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp1, "resources/field_forms/2019/field_form_new_trees_2019.xlsx", row.names = FALSE, col.names=FALSE)
 
 #6b. Create data_entry form ####
 
@@ -254,21 +256,19 @@ newtrees <- setnames(newtrees, old=c("intra", "codes&notes"), new=c("intraannual
 newtrees <- newtrees[ ,c(1:6,17:19,8:16,20:22)]
 newtrees[is.na(newtrees)] <- ""
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019")
-write.csv(newtrees, "data_entry_new_trees_2019.csv", row.names=FALSE)
+write.csv(newtrees, "resources/data_entry_forms/2019/data_entry_new_trees_2019.csv", row.names=FALSE)
 
 ############################################################################
 #7 merge data_entry form to the next year's master file ####
 
 #the next year's file should already be created from the script "new_scbidendroAll_[YEAR].R". The lines of code below are for merging into the file created from that script.
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
 library(data.table)
 
-dendro_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv", stringsAsFactors = FALSE)
+dendro_2019 <- read.csv("data/scbi.dendroAll_2019.csv", stringsAsFactors = FALSE)
 
-tree_replace <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
+tree_replace <- read.csv("resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
 
-recensus2013 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem2.csv")
+recensus2013 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"))
 
 tree_replace <- setnames(tree_replace, old=c("stem", "dbhnew"), new=c("stemtag", "dbh"))
 
@@ -290,21 +290,21 @@ dendro_2019 <- dendro_2019[order(dendro_2019$tag, dendro_2019$stemtag), ]
 dendro_2019$codes <- ifelse(is.na(dendro_2019$codes), "", dendro_2019$codes)
 dendro_2019$notes <- ifelse(is.na(dendro_2019$notes), "", dendro_2019$notes)
 
-write.csv(dendro_2019, "scbi.dendroAll_2019.csv", row.names=FALSE)
+write.csv(dendro_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
 ##############################################################################
 #8 merge data_entry form with dendro_trees.csv and dendroID.csv
 
 ##8a. dendro_trees ####
-tree_replace <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
+tree_replace <- read.csv("resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
 
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+dendro_trees <- read.csv("data/dendro_trees.csv")
 
-recensus2013 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem2.csv")
+recensus2013 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"))
 
 geo_stems <- read.csv("V:/SIGEO/GIS_data/R-script_Convert local-global coord/scbi_stem_utm_lat_long.csv")
 
-tree_coord <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/tree_coord_local_plot.csv")
+tree_coord <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/tree_coord_local_plot.csv"))
 
 library(data.table)
 tree_replace <- setnames(tree_replace, old=c("stem", "dbhnew"), new=c("stemtag", "dbh"))
@@ -339,11 +339,11 @@ dendro_trees <- dendro_trees[order(dendro_trees$tag, dendro_trees$stemtag), ]
 write.csv(dendro_trees, "dendro_trees.csv", row.names=FALSE)
 
 ##8b. dendroID ####
-tree_replace <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
+tree_replace <- read.csv("resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
 
-dendroID <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendroID.csv")
+dendroID <- read.csv("data/dendroID.csv")
 
-recensus2013 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem2.csv")
+recensus2013 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"))
 
 library(data.table)
 tree_replace <- setnames(tree_replace, old=c("stem", "dbhnew"), new=c("stemtag", "dbh"))
@@ -364,5 +364,5 @@ tree_replace[,add_cols] <- NA
 dendroID <- rbind(dendroID, tree_replace)
 dendroID <- dendroID[order(dendroID$tag, dendroID$stemtag), ]
 
-write.csv(dendroID, "dendroID.csv", row.names=FALSE)
+write.csv(dendroID, "data/dendroID.csv", row.names=FALSE)
 

@@ -4,13 +4,11 @@
 #2 create data_entry form biannual
 #3 merge data_entry form biannual with the year's master file
 
-#1 Create field_form biannual ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/field_forms")
-
+#1 Create field_form biannual
 ##1a. if new trees added between last fall survey and spring survey, do this ####
-data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 prevmeasbi <- subset(data_2018,survey.ID=="2018.14") #subset by previous survey.ID to get previous measure. If printing this for the spring survey, use the last survey.ID from last year.
 
@@ -41,7 +39,7 @@ data_bi<-data_bi[,c("tag", "stem", "sp", "dbh", "quadrat", "lx", "ly", "prevmeas
 
 
 ##1b. if no new trees added between fall and spring survey, do this ####
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 prevmeasbi <- subset(data_2018,survey.ID=="2018.14" & biannual=="1") #subset by previous survey.ID. If printing this for the spring survey, use the last survey.ID from last year.
 
@@ -163,8 +161,6 @@ write.xlsx(temp, "field_form_biannual_2019.xlsx", row.names=FALSE, col.names=FAL
 # Create data_biannual forms from master
 ## Change file name to reflect year of creation
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms")
-
 ##2a. spring survey data entry ####
 data_biannual <- data_bi
 
@@ -178,10 +174,10 @@ data_biannual[,newcols] <- ""
 
 data_biannual <- data_biannual[, c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "new.band", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "area")]
 
-write.csv(data_biannual, "data_entry_biannual_spr2019.csv", row.names=FALSE)
+write.csv(data_biannual, "resources/data_entry_forms/data_entry_biannual_spr2019.csv", row.names=FALSE)
 
 ##2b. fall survey data entry ####
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 data_biannual<-data_2018[which(data_2018$survey.ID=='2018.01'), ] #subset by 2018.01 (one entry per stem)
 
@@ -279,20 +275,16 @@ need.area <- data_bi[data_bi$area == "", ]
 #data_biannual<-sapply(data_biannual, as.character)
 #data_biannual[is.na(data_biannual)] <- " "
 
-write.csv(data_biannual, "data_entry_biannual_2018.csv", row.names=FALSE)
+write.csv(data_biannual, "resources/data_entry_forms/data_entry_biannual_2018.csv", row.names=FALSE)
 
 #this form can be used for entering biannual data before it is merged.
 
 #####################################################################################
 #3 Merge data_entry form biannual with the year's master file ####
 
-#IMPORTANT. If there have been band fixes or new trees added to 
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/")
-
-data_2019 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2019.csv")
-
-data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2019/data_entry_biannual_spr2019.csv")
+data_biannual <- read.csv("resources/data_entry_forms/2019/data_entry_biannual_spr2019.csv")
 
 names2019 <- c(colnames(data_2019))
 namesbi <- c(colnames(data_biannual))
@@ -336,4 +328,4 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2019.csv", row.names=FALSE)
+write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
