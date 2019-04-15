@@ -2,8 +2,7 @@
 
 #1 convert intraannual growth to dbh####
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[0-8]*.csv")
+dirs <- dir("data", pattern="_201[0-8]*.csv")
 years <- c(2010:2018)
 
 #1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID ####
@@ -211,11 +210,11 @@ for(stems in names(all_stems_bi)) {
 
 ######################################################################################
 ##1c. troubleshoot with individual tags ####
-dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 intra <- dendro_2018[dendro_2018$intraannual==1, ]
 test <- intra[intra$tag==12025, ] #12025 has band replaced
 
-dendro_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
+dendro_2017 <- read.csv("data/scbi.dendroAll_2017.csv")
 intra <- dendro_2017[dendro_2017$intraannual==1, ]
 test <- intra[intra$tag==60459, ] #60459 has band replaced but with NAs for a few measurements. The following code should be tried with 10671 as well.
 
@@ -258,12 +257,11 @@ for(i in 2:nrow(test)) {
 
 #2a. for-loop graphs ####
 #this code makes graphs for every dendroband stemID
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
 
 library(chron)
 library(ggplot2)
 
-pdf(file = "dbh_growth_dendrobands.pdf")
+pdf(file = "results/dbh_growth_dendrobands.pdf")
 for (j in names(all_stems)){
   dendro <- all_stems[[j]]
   
@@ -307,7 +305,7 @@ dev.off()
 #3 find variability of tree growth by species by year #####
 
 #2010 not included because only one measurement
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[1-8]*.csv")
+dirs <- dir("data", pattern="_201[1-8]*.csv")
 
 library(data.table)
 date <- c(2011:2018)
@@ -364,15 +362,13 @@ step2$mingrowth_mm <- apply(step2[, 2:9], 1, min, na.rm=TRUE)
 step2$maxgrowth_mm <- apply(step2[, 2:9], 1, max, na.rm=TRUE)
 step2$avg_growth_range_mm <- step2[, "maxgrowth_mm"] - step2[, "mingrowth_mm"]
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
-write.csv(step2, "growth_variability_by_sp.csv", row.names=FALSE)
+write.csv(step2, "results/growth_variability_by_sp.csv", row.names=FALSE)
 #########################################################################################
 #4. growth variability graphs ####
 library(ggplot2)
 library(RColorBrewer)
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
-pdf("mean_growth_by_species.pdf", width=12)
+pdf("results/mean_growth_by_species.pdf", width=12)
 
 #this graph shows the average range of growth per species. The lower numbers means the avg max and avg min are closer together. Almost all species are under 10mm, which means on average each species grows less than 1cm per growing season (1 cm according to dendroband measurements).
 ggplot(data = step2) +
@@ -395,7 +391,7 @@ dev.off()
 
 ######################################################################################
 #5. troubleshooting for-loop ##############################################
-dendro_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
+dendro_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 dendro_2018$sp <- as.character(dendro_2018$sp)
 sp <- c(unique(dendro_2018$sp))
@@ -464,12 +460,12 @@ test_intra$BAND_NUM <- unlist(mapply(rep, seq(length(band.index)), length.out = 
 #remove NAs in caliper measurements
 test_intra <- subset(test_intra, complete.cases(test_intra$GAP_WIDTH))
 
-get.optimized.dendro(test_intra, OUTPUT.folder = "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output")
+get.optimized.dendro(test_intra, OUTPUT.folder = "results/McMahon_code_output")
 
 param.table.name = "Param_table.csv"
 Dendro.data.name = "Dendro_data.Rdata"
 Dendro.split.name = "Dendro_data_split.Rdata"
-OUTPUT.folder <- "C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/McMahon_code_output"
+OUTPUT.folder <- "results/McMahon_code_output"
 
 param.table <- read.csv(file = paste(OUTPUT.folder, param.table.name, sep = "/"))
 load(file = paste(OUTPUT.folder, Dendro.data.name, sep = "/")) # loads Dendro.complete

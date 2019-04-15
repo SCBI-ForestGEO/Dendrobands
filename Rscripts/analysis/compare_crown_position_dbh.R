@@ -2,7 +2,9 @@
 
 ## this script is to compare canopy position with trees that are bigger/smaller than 35cm dbh, and to compare dbh by canopy position (dominant/codominant; intermediate/suppressed)
 
-mort18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/SCBI_mortality/data/mortality_2018.csv")
+library(RCurl)
+
+mort18 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/master/SCBI_mortality/data/mortality_2018.csv?token=AlsQkX-i6epvExyZODvtRjSxUqfr2mfXks5cvbFcwA%3D%3D"))
 
 mortcanopy <- subset(mort18, mort18$crown.position==c("A","CD","CR","D","I","OG","S"))
 

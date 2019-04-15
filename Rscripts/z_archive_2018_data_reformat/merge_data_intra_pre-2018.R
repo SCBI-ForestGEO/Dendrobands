@@ -1,15 +1,13 @@
 # Merge intraannual data_entry_form with master pre-2018 data
 ##this code is kept for archival purposes. Current forms are found in "survey_forms" folder of the Dendrobands repository.
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016")
-
-file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016", pattern="data_entry_intraannual")
+file_list <- list.files("resources/data_entry_forms/2016", pattern="data_entry_intraannual")
 
 # for intraannual
 for (i in seq(along=file_list)){
   filename = file_list[[i]]
 
-data_2016 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
+data_2016 <- read.csv("resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
 
 data_intra <- read.csv(filename)
 
@@ -59,14 +57,14 @@ test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "scbi.dendroAll_2016.csv", row.names=FALSE)
+write.csv(test, "data/scbi.dendroAll_2016.csv", row.names=FALSE)
 }
 
 
 #for the final biannual survey #####
-data_2016 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
+data_2016 <- read.csv("resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
 
-data_biannual <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/data_entry_forms/2016/data_entry_biannual_2016-15.csv")
+data_biannual <- read.csv("resources/data_entry_forms/2016/data_entry_biannual_2016-15.csv")
 
 names2016 <- c(colnames(data_2016))
 namesbi <- c(colnames(data_biannual))
@@ -122,7 +120,7 @@ test$intraannual <- ifelse(!(test$survey.ID %in% c("2016.01","2016.15")), "1", "
 "1" -> test[which(test$intraannual == "1")-1, "intraannual"]
 "1" -> test[which(test$intraannual == "1")+1, "intraannual"]
 
-write.csv(test, "scbi.dendroAll_2016.csv", row.names=FALSE)
+write.csv(test, "data/scbi.dendroAll_2016.csv", row.names=FALSE)
 ## double check in spreadsheet for multistems (sometimes missed with this code)
 
 #
@@ -133,9 +131,8 @@ write.csv(test, "scbi.dendroAll_2016.csv", row.names=FALSE)
 #split dates to columns #####
 ## to split dates into separate columns of year, month, and day from current date column
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018")
 
-dendro18 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/2018/scbi.dendroAll_2018.csv")
+dendro18 <- read.csv("data/scbi.dendroAll_2018.csv")
 
 #convert dates to vector
 datetxt <- dendro18[ ,"exactdate"]
@@ -154,16 +151,16 @@ dendro18$day <- dates$day[match(dendro18$exactdate, dates$date)]
 
 dendro18 <- dendro18[, c(1:3,31:33,5:30)]
 
-write.csv(dendro18, "scbi.dendroAll_2018.csv", row.names=FALSE)
+write.csv(dendro18, "data/scbi.dendroAll_2018.csv", row.names=FALSE)
 
 #matching dbh and stemID/treeID ##### 
-dendro16 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2016.csv")
+dendro16 <- read.csv("data/scbi.dendroAll_2016.csv")
 
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+dendro_trees <- read.csv("data/dendro_trees.csv")
 
 dendro16$treeID <- dendro_trees$treeID[match(dendro16$tag, dendro_trees$tag)]
 
 dendro16$stemID <- dendro_trees$stemID[match(dendro16$tag, dendro_trees$tag)]
 
-write.csv(dendro16, "scbi.dendroAll_2016.csv", row.names=FALSE)
+write.csv(dendro16, "data/scbi.dendroAll_2016.csv", row.names=FALSE)
 

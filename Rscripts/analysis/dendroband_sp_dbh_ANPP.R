@@ -1,11 +1,10 @@
 #create dendro_trees_ANPP.csv plus make graphs
 ## these were made to help determine what trees to add to replace dead ones
+library(RCurl)
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results")
-
-data_2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2018.csv")
-dendro <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_dbhcount2018.csv")
-ANPP <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/summary_data/ANPP_total_and_by_species.csv")
+data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
+dendro <- read.csv("results/dendro_trees_dbhcount2018.csv")
+ANPP <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/summary_data/ANPP_total_and_by_species.csv"))
 
 data_dbh<-data_2018[which(data_2018$survey.ID=='2018.14'), ]
 
@@ -22,14 +21,14 @@ ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_10cm <- sprintf(ANPPmerge$ANPP.ANPP_Mg.C.ha1.y1_
 
 ANPPmerge$ANPP.ratio <- sprintf(ANPPmerge$ANPP.ratio, fmt='%#.2f')
 
-write.csv(ANPPmerge, "dendro_trees_ANPP.csv", row.names=FALSE)
+write.csv(ANPPmerge, "results/dendro_trees_ANPP.csv", row.names=FALSE)
 
 #################################################################################
 #make graphs of dbh and ANPP
 library(ggplot2)
 
 ##when running this whole script at once, plots won't show up in "plots" window because they're being directly written to the pdf. For troubleshooting, ignore this pdf code.
-pdf(file="Dendroband_sp_dbh_ANPP.pdf", width=12)
+pdf(file="results/Dendroband_sp_dbh_ANPP.pdf", width=12)
 
 ## basic distribution of dbh size classes
 hist(data_dbh$dbh, 

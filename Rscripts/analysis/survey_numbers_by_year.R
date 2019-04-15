@@ -1,11 +1,10 @@
 # dendroband survey numbers per year
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data")
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data", pattern="_201[0-8]*.csv")
+dirs <- dir("data", pattern="_201[0-8]*.csv")
 
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv", stringsAsFactors=FALSE)
+dendro_trees <- read.csv("data/dendro_trees.csv", stringsAsFactors=FALSE)
 
-survey <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/survey_numbers_by_year.csv")
+survey <- read.csv("data/survey_numbers_by_year.csv")
 
 for (k in seq(along=dirs)){
   path <- dirs[[k]]
@@ -61,4 +60,4 @@ for (k in seq(along=dirs)){
   }
 }
     
-write.csv(survey, "survey_numbers_by_year.csv", row.names=FALSE)
+write.csv(survey, "data/survey_numbers_by_year.csv", row.names=FALSE)

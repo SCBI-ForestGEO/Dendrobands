@@ -1,8 +1,7 @@
 # create dendro_trees_dbhcount --> give count of each species by survey, plus the min, max, and avg dbh per species
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/results/dendro_trees_dbhcount")
 
-data_2017 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/scbi.dendroAll_2017.csv")
+data_2017 <- read.csv("data/scbi.dendroAll_2017.csv")
 
 #subset by the last survey from the year
 data_surveys<- subset(data_2017,data_2017$survey.ID=='2017.12') #& data_2017$status=='alive') #get rid of '0' values for minimum
@@ -53,4 +52,4 @@ data_merged <- data_merged[order(data_merged$sp),]
 ##reorder to make "Sum" row be last. These numbers may change depending on if a tree has been fully removed from the survey
 data_merged <- data_merged[c(1:20,22,23,21),]
 
-write.csv(data_merged, "dendro_trees_sp_2017_min_max_mean_dbh.csv", row.names=FALSE)
+write.csv(data_merged, "results/dendro_trees_dbhcount/dendro_trees_sp_2017_min_max_mean_dbh.csv", row.names=FALSE)
