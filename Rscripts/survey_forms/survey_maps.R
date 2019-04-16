@@ -22,13 +22,16 @@ library(broom) #for the tidy function
 library(sf) #for mapping
 library(ggthemes) #for removing graticules when making pdf
 
-scbi_plot <- readOGR(getURL("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp"))
-deer <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
-roads <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_edits.shp")
-streams <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_streams_edits.shp")
-contour_10m <- readOGR("V:/SIGEO/GIS_data/dendroband surveys/dendroband intraannual/contour10m_SIGEO_clipped.shp")
-survey_areas <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/maps/shapefiles/biannual_survey_areas.shp")
-NS_divide <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/maps/shapefiles/NS_divide1.shp")
+## the source for these files is the ForestGEO-Data repo in Github
+scbi_plot <- readOGR(getURL("~SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp"))
+deer <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
+roads <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_edits.shp")
+streams <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_streams_edits.shp")
+contour_10m <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/contour10m_SIGEO_clipped.shp")
+
+## the source for these files is in the dendrobands repo
+survey_areas <- readOGR("resources/maps/shapefiles/biannual_survey_areas.shp")
+NS_divide <- readOGR("resources/maps/shapefiles/NS_divide1.shp")
 
 #convert all shp to dataframe so that it can be used by ggplot
 #if tidy isn't working, can also do: xxx_df <- as(xxx, "data.frame")
