@@ -1,4 +1,8 @@
-# dendroband survey numbers per year
+######################################################
+# Purpose: Make table of number of trees in dendroband surveys by year
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created February 2019
+######################################################
 
 dirs <- dir("data", pattern="_201[0-8]*.csv")
 

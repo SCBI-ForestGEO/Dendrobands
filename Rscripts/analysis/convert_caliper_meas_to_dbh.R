@@ -1,4 +1,9 @@
-# How to convert from dendrometer band measurements to DBH
+######################################################
+# Purpose: Provide local copy of dendroband functions from Condit, how to convert dendrometer band measurements to dbh
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created January 2019
+######################################################
+
 ##taken from Condit: http://richardcondit.org/data/dendrometer/calculation/Dendrometer.php
 
 #first, functions are defined to resemble the equations described on the website. Each function is used in the following one.

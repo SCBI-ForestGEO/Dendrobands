@@ -1,7 +1,8 @@
-# canopy positions
-
-## this script is to compare canopy position with trees that are bigger/smaller than 35cm dbh, and to compare dbh by canopy position (dominant/codominant; intermediate/suppressed)
-
+######################################################
+# Purpose: compare canopy position with trees that are bigger/smaller than 35cm dbh, and to compare dbh by canopy position (dominant/codominant; intermediate/suppressed)
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created January 2019
+######################################################
 library(RCurl)
 
 mort18 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/master/SCBI_mortality/data/mortality_2018.csv?token=AlsQkX-i6epvExyZODvtRjSxUqfr2mfXks5cvbFcwA%3D%3D"))

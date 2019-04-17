@@ -1,4 +1,8 @@
-# determine growth over time with dbh
+######################################################
+# Purpose: Determine growth over time from dendroband measurements
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created March 2018
+######################################################
 
 #1 convert intraannual growth to dbh####
 

@@ -1,5 +1,8 @@
-# create dendro_trees_dbhcount --> give count of each species by survey, plus the min, max, and avg dbh per species
-
+######################################################
+# Purpose: give count of each species by survey, plus the min, max, and avg dbh per species
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created February 2019
+######################################################
 
 data_2017 <- read.csv("data/scbi.dendroAll_2017.csv")
 

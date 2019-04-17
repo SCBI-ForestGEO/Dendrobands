@@ -1,4 +1,9 @@
-# Determine both dendrobands that need to be fixed, and new trees that will replace dead ones.
+######################################################
+# Purpose: Determine trees that need bands replaced or fixed, create field forms, data_entry forms, and merge to master
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created October 2018
+######################################################
+
 
 dendro19 <- read.csv("data/scbi.dendroAll_2019.csv") 
 

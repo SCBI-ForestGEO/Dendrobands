@@ -1,4 +1,9 @@
-# This code builds survey forms for intraannual survey, and then merges the data to the master
+######################################################
+# Purpose: Dendroband intraannual survey: create field forms, create data_entry forms, and merge data_entry form with year master
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created October 2018
+######################################################
+
 
 #1 create field_form intraannual
 #2 create data_entry form intraannual

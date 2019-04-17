@@ -1,4 +1,9 @@
-# This code builds survey forms for biannual survey, and then merges the data to the master
+######################################################
+# Purpose: Dendroband biannual survey: create field form, create data_entry forms, and merge to master
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created October 2018
+######################################################
+
 
 #1 create field_form biannual
 #2 create data_entry form biannual

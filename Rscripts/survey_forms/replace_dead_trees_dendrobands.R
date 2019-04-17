@@ -1,5 +1,8 @@
-#replacing dead trees in dendroband surveys
-
+######################################################
+# Purpose: Determine which trees should replace the dead trees in the dendroband surveys. Create field forms, create data_entry forms, merge to master
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created November 2018
+######################################################
 ##each step here uses data from previous steps
 
 #1 quick check of the number of trees to be replaced

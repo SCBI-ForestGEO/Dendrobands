@@ -1,5 +1,8 @@
-#create dendro_trees_ANPP.csv plus make graphs
-## these were made to help determine what trees to add to replace dead ones
+######################################################
+# Purpose: Create csv showing ANPP ratio in dendroband survey by species distribution, then make graphs to help determine which trees to add to replace dead ones in surveys.
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created October 2018
+######################################################
 library(RCurl)
 
 data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")

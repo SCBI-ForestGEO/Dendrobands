@@ -1,4 +1,9 @@
-# code for making dendroband maps
+######################################################
+# Purpose: Create field maps for dendroband surveys
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created January 2019
+######################################################
+
 ##this can potentially be done with the fgeo package for the main census data. It is not being used here, but is referenced at bottom.
 
 #we are using dendro_trees for this code as opposed to "scbi.dendroAll_YEAR.csv" because 
@@ -23,7 +28,7 @@ library(sf) #for mapping
 library(ggthemes) #for removing graticules when making pdf
 
 ## the source for these files is the ForestGEO-Data repo in Github
-scbi_plot <- readOGR(getURL("~SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp"))
+scbi_plot <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp")
 deer <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
 roads <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_edits.shp")
 streams <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_streams_edits.shp")

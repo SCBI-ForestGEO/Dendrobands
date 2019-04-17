@@ -1,5 +1,8 @@
-#script to update the dendroID.csv with new band information#
-
+######################################################
+# Purpose: update the dendroID.csv with new band information
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created March 2019
+######################################################
 #1. update dendroID.csv ####
 #read in year's data
 dendro2019 <- read.csv("data/scbi.dendroAll_2019.csv")

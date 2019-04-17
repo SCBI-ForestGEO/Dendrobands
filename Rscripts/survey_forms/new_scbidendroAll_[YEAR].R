@@ -1,4 +1,9 @@
-# Create new scbi.dendroAll_[YEAR].csv
+######################################################
+# Purpose: Create new year's master file (scbi.dendroAll_[YEAR].csv)
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created October 2018
+######################################################
+
 
 data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
 
