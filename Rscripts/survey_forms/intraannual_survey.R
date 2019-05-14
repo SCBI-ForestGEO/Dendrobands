@@ -89,6 +89,7 @@ write.xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", row.n
 # Create data_intra forms from master
 
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
+dendro_trees <- read.csv("data/dendro_trees.csv")
 
 intra <- data_2019[data_2019$intraannual == "1", ]
 
@@ -126,7 +127,7 @@ write.csv(data_intra, "resources/data_entry_forms/2019/data_entry_intraannual.cs
 #3 Merge data_entry form intraannual with the year's master file ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-02.csv")
+data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-04.csv")
 
 names2019 <- c(colnames(data_2019))
 namesintra <- c(colnames(data_intra))
@@ -137,7 +138,7 @@ missing <- setdiff(names2019, namesintra)
 ## if need be, do the opposite
 # missing <- setdiff(namesbi, names2018)
 
-## add these missed names to data_biannual in order to combine to the master
+## add these missed names to data_intra in order to combine to the master
 data_intra[missing] <- NA
 data_intra$area <- NULL #this column is only relevant for field
 data_intra$location <- NULL #only for when merging data pre-2018
@@ -167,10 +168,12 @@ test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
 test$status <- as.character(test$status)
 test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
 
+write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
+
 #to troubleshoot. Added this bc noticed discrepancy above
 test$codes <- as.character(test$codes)
 test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
-write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
+
