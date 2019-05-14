@@ -20,7 +20,7 @@ length(c(grep("RE", dendro19$codes)))
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
 ##these bands were marked as "RE" already from the field survey.
-data_fix <- dendro19[which(dendro19$survey.ID == 2019.02), ]
+data_fix <- dendro19[which(dendro19$survey.ID ==2019.04), ]
 data_fix <- data_fix[grep("RE", data_fix$codes), ]
  #in case any fixes have been done since the fall survey
 
@@ -41,12 +41,12 @@ range
 mean(range)
 sd(range)
 
-##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 133 to have a code of RD.
+##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 140 to have a code of RE.
 data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ]
 data_install$codes <- as.character(data_install$codes)
-data_install$codes <- ifelse(data_install$measure >= 133 & !grepl("RD", data_install$codes), paste(data_install$codes, "RD", sep = ";"), data_install$codes)
+data_install$codes <- ifelse(data_install$measure >= 140 & !grepl("RE", data_install$codes), paste(data_install$codes, "RE", sep = ";"), data_install$codes)
 data_install$codes <- gsub("^;", "", data_install$codes)
-data_fix_all <- data_install[grep("RD", data_install$codes), ]
+data_fix_all <- data_install[grep("RE", data_install$codes), ]
 
 ######################################################################################
 #2 Create forms
@@ -68,7 +68,7 @@ data_field$dendroID = NA
 data_field$codes <- gsub("[[:punct:]]*RE[[:punct:]]*", "", data_field$codes)
 
 data_field$field.date = NA
-data_field$dbhnew(cm) = NA
+data_field$dbhnew.cm = NA
 
 library(data.table)
 setnames(data_field, old=c("codes", "stemtag", "dendDiam", "dendHt", "measure"), new=c("codes&notes", "stem", "dendDiam.cm", "dendHt.m", "measure.mm"))
@@ -91,7 +91,7 @@ matrix <- function(data_field, table_title) {
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
 library(xlsx)
-write.xlsx(temp, "resources/field_forms/field_form_fix_2019.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-041.xlsx", row.names = FALSE, col.names=FALSE)
 
 
 #2b. Create data_entry form ####
@@ -109,7 +109,7 @@ data_entry$location <- NULL #we don't need this column for data entry
 library(data.table)
 data_entry <- setnames(data_entry, old=c("dbh", "dendDiam", "dendHt", "measure"), new=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"))
 
-write.csv(data_entry, "resources/data_entry_forms/data_entry_fix_2019.csv", row.names=FALSE)
+write.csv(data_entry, "resources/data_entry_forms/2019/data_entry_fix_2019-041.csv", row.names=FALSE)
 
 #######################################################################################
 #3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM

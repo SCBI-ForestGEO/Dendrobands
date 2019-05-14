@@ -1,0 +1,7 @@
+"tag","stemtag","sp","quadrat","lx","ly","survey.ID","year","month","day","dbh.mm","new.band","dendroID","type","dendDiam.mm","dendHt.m","measure.mm","codes","notes","status","field.recorders","data.enter","biannual","intraannual","stemID","treeID","dir","crown.condition","crown.illum","lianas","measureID"
+40565,1,"cagl",406,1.9,10.1,"","","","","",1,"","","","","","","","alive","","",1,1,5042,5042,NA,NA,NA,NA,NA
+100771,1,"quru",1005,8.5,17,"","","","","",1,"","","","","","","","alive","","",1,1,12422,12422,NA,NA,NA,NA,NA
+110791,1,"litu",1104,11.3,10,"","","","","",1,"","","","","","","","alive","","",1,1,14158,14158,NA,NA,NA,NA,NA
+181030,1,"qual",1816,5.4,10.6,"","","","","",1,"","","","","","","","alive","","",1,1,26817,26817,NA,NA,NA,NA,NA
+192542,1,"litu",1929,18.9,3.8,"","","","","",1,"","","","","","","","alive","","",1,1,28948,28948,NA,NA,NA,NA,NA
+192544,1,"litu",1929,14.4,1.8,"","","","","",1,"","","","","","","","alive","","",1,1,28950,28950,NA,NA,NA,NA,NA
