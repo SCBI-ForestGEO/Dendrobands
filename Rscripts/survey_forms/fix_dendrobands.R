@@ -68,10 +68,10 @@ data_field$dendroID = NA
 data_field$codes <- gsub("[[:punct:]]*RE[[:punct:]]*", "", data_field$codes)
 
 data_field$field.date = NA
-data_field$dbhnew = NA
+data_field$dbhnew(cm) = NA
 
 library(data.table)
-setnames(data_field, old=c("codes", "stemtag"), new=c("codes&notes", "stem"))
+setnames(data_field, old=c("codes", "stemtag", "dendDiam", "dendHt", "measure"), new=c("codes&notes", "stem", "dendDiam.cm", "dendHt.m", "measure.mm"))
 
 data_field[is.na(data_field)] <- " "
 
@@ -107,7 +107,7 @@ data_entry$crown.illum <- NA
 data_entry$location <- NULL #we don't need this column for data entry
 
 library(data.table)
-data_entry <- setnames(data_entry, old=c("dbh", "dendDiam"), new=c("dbh(mm)", "dendDiam(mm)"))
+data_entry <- setnames(data_entry, old=c("dbh", "dendDiam", "dendHt", "measure"), new=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"))
 
 write.csv(data_entry, "resources/data_entry_forms/data_entry_fix_2019.csv", row.names=FALSE)
 
@@ -116,11 +116,12 @@ write.csv(data_entry, "resources/data_entry_forms/data_entry_fix_2019.csv", row.
 #3a. Merging if bands replaced after fall biannual ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-install <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019-011.csv")
+install <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019-021.csv")
+#install$codes <- as.character(install$notes)
+install$codes <- ifelse(is.na(install$codes), "", "F")
 
 library(data.table)
-setnames(install, old=c("dbh.mm.", "dendDiam.mm."), new=c("dbh", "dendDiam"))
-install$codes <- as.character(install$notes)
+setnames(install, old=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"), new=c("dbh", "dendDiam", "dendHt", "measure"), skip_absent=TRUE)
 
 data_2019 <- rbind(data_2019, install)
 data_2019 <- data_2019[order(data_2019$tag, data_2019$stemtag), ]

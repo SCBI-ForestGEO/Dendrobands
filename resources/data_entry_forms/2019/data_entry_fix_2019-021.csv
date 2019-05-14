@@ -1,8 +1,8 @@
-tag,stemtag,sp,quadrat,lx,ly,survey.ID,year,month,day,dbh(mm),new.band,dendroID,type,dendDiam(mm),dendHt,measure,codes,notes,status,field.recorders,data.enter,biannual,intraannual,stemID,treeID,dir,crown.condition,crown.illum,lianas,measureID
-40562,1,fagr,406,6.3,16.2,,,,,,1,,,,,,,,alive,,,1,1,5039,5039,NA,NA,NA,NA,NA
-60568,1,caca,614,15.5,15.6,,,,,,1,,,,,,,,alive,,,1,1,7547,7547,NA,NA,NA,NA,NA
-70495,1,caca,714,1.7,18.6,,,,,,1,,,,,,,,alive,,,1,1,8497,8497,NA,NA,NA,NA,NA
-110901,1,litu,1105,20,4.1,,,,,,1,,,,,,,,alive,,,1,1,14265,14265,NA,NA,NA,NA,NA
-140825,1,litu,1411,8,5.9,,,,,,1,,,,,,,,alive,,,1,1,19613,19613,NA,NA,NA,NA,NA
-172499,1,qual,1730,17,3.1,,,,,,1,,,,,,,,alive,,,1,1,25783,25783,NA,NA,NA,NA,NA
-180903,1,litu,1808,4.8,2.3,,,,,,1,,,,,,,,alive,,,1,0,26694,26694,NA,NA,NA,NA,NA
+tag,stemtag,sp,quadrat,lx,ly,survey.ID,year,month,day,dbh.mm,new.band,dendroID,type,dendDiam.mm,dendHt.m,measure,codes,notes,status,field.recorders,data.enter,biannual,intraannual,stemID,treeID,dir,crown.condition,crown.illum,lianas,measureID
+40562,1,fagr,406,6.3,16.2,2019.021,2019,April,18,86,1,952,2,86,1.4,8.86,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,5039,5039,NA,NA,NA,NA,NA
+60568,1,caca,614,15.5,15.6,2019.021,2019,April,18,96,1,953,2,95,1.35,9.12,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,7547,7547,NA,NA,NA,NA,NA
+70495,1,caca,714,1.7,18.6,2019.021,2019,April,18,79,1,954,2,77,1.4,6.91,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,8497,8497,NA,NA,NA,NA,NA
+110901,1,litu,1105,20,4.1,2019.021,2019,April,18,NA,1,955,2,NA,1.35,64.91,F,adjusted springs,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,14265,14265,NA,NA,NA,NA,NA
+140825,1,litu,1411,8,5.9,2019.021,2019,April,18,523,1,956,2,523,1.25,13.89,F,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,19613,19613,NA,NA,NA,NA,NA
+172499,1,qual,1730,17,3.1,2019.021,2019,April,18,1056,1,957,2,1061,1.35,10.97,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,25783,25783,NA,NA,NA,NA,NA
+180903,1,litu,1808,4.8,2.3,2019.021,2019,April,18,327,1,958,2,326,1.35,12.55,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,0,26694,26694,NA,NA,NA,NA,NA
