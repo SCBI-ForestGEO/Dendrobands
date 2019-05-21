@@ -11,7 +11,7 @@ If printing the first form for the season, please make sure the correct [R-scrip
 1. Data is collected in mm to 2 decimals!! E.g. 74.89
 
 2. *Important!* For both intraannual and biannual surveys, write the surveyID next to codes/notes. This way it will be easier to tell for data entry.
-- e.g. a tree measured 4 times on a datasheet, and has codes F, F, F;RE (2019.04), F
+- e.g. a tree measured 4 times on a datasheet, and has codes F, F;RE (2019.04)
 
 3. If a tree looks dead but the survey is being done before leaves are evident or after leaves have begun falling, put "check status, looks unhealthy" in notes. Then, cross-reference with mortality or other census during data entry.
 
