@@ -116,9 +116,12 @@ write.csv(data_entry, "resources/data_entry_forms/2019/data_entry_fix_2019-041.c
 #3a. Merging if bands replaced after fall biannual ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-install <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019-021.csv")
+install <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019-041.csv")
 #install$codes <- as.character(install$notes)
+
+#there is something weird where loading the csv makes the "F" code be read as "False" by R, despite trying different ways to address it during the importing process. Hence, this line of code.
 install$codes <- ifelse(is.na(install$codes), "", "F")
+install$notes <- ifelse(is.na(install$notes), "", install$notes)
 
 library(data.table)
 setnames(install, old=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"), new=c("dbh", "dendDiam", "dendHt", "measure"), skip_absent=TRUE)
