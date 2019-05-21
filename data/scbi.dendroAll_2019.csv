@@ -100,6 +100,7 @@
 40565,1,2019.02,2019,"April",11,1,1,"cagl",406,1.9,10.1,13.23,"","","alive","Ian McGregor","Ian McGregor",5042,5042,NA,182.1,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2019.03,2019,"April",25,1,1,"cagl",406,1.9,10.1,14.16,"RE","wrecked by woodpecker","alive","Alyssa Terrell","Ian McGregor",5042,5042,NA,182.1,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2019.04,2019,"May",9,1,1,"cagl",406,1.9,10.1,14.25,"RE","","alive","Alyssa Terrell","Ian McGregor",5042,5042,NA,182.1,0,554,2,NA,1.36,NA,NA,NA,NA
+40565,1,2019.041,2019,"May",21,1,1,"cagl",406,1.9,10.1,8.1,"","","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",5042,5042,183,184,1,959,2,NA,1.4,NA,NA,NA,NA
 40566,1,2019.01,2019,"March",28,1,1,"cagl",406,1.1,9.4,4.02,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",5043,5043,NA,270.2,0,833,2,NA,1.41,NA,NA,NA,NA
 40566,1,2019.02,2019,"April",11,1,1,"cagl",406,1.1,9.4,3.78,"","","alive","Ian McGregor","Ian McGregor",5043,5043,NA,270.2,0,833,2,NA,1.41,NA,NA,NA,NA
 40566,1,2019.03,2019,"April",25,1,1,"cagl",406,1.1,9.4,5.03,"","","alive","Alyssa Terrell","Ian McGregor",5043,5043,NA,270.2,0,833,2,NA,1.41,NA,NA,NA,NA
@@ -504,6 +505,7 @@
 100771,1,2019.02,2019,"April",11,1,1,"quru",1005,8.5,17,132.48,"F","","alive","Ian McGregor","Ian McGregor",12422,12422,NA,921.1,0,666,2,NA,1.4,NA,NA,NA,NA
 100771,1,2019.03,2019,"April",25,1,1,"quru",1005,8.5,17,130.09,"F","","alive","Alyssa Terrell","Ian McGregor",12422,12422,NA,921.1,0,666,2,NA,1.4,NA,NA,NA,NA
 100771,1,2019.04,2019,"May",9,1,1,"quru",1005,8.5,17,138.32,"F;RE","","alive","Alyssa Terrell","Ian McGregor",12422,12422,NA,921.1,0,666,2,NA,1.4,NA,NA,NA,NA
+100771,1,2019.041,2019,"May",21,1,1,"quru",1005,8.5,17,7.85,"F","","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",12422,12422,966,968,1,960,2,NA,1.4,NA,NA,NA,NA
 100905,1,2019.01,2019,"March",25,1,1,"litu",1008,10,1.6,133.81,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",12529,12529,NA,659.4,0,278,2,NA,1.35,NA,NA,NA,NA
 100905,1,2019.02,2019,"April",11,1,1,"litu",1008,10,1.6,133.61,"F","","alive","Ian McGregor","Ian McGregor",12529,12529,NA,659.4,0,278,2,NA,1.35,NA,NA,NA,NA
 100905,1,2019.03,2019,"April",25,1,1,"litu",1008,10,1.6,133.21,"F","","alive","Alyssa Terrell","Ian McGregor",12529,12529,NA,659.4,0,278,2,NA,1.35,NA,NA,NA,NA
@@ -588,6 +590,7 @@
 110791,1,2019.02,2019,"April",11,1,1,"litu",1104,11.3,10,147.66,"F","","alive","Ian McGregor","Ian McGregor",14158,14158,NA,651.2,0,308,2,NA,1.28,NA,NA,NA,NA
 110791,1,2019.03,2019,"April",25,1,1,"litu",1104,11.3,10,147.55,"F","","alive","Alyssa Terrell","Ian McGregor",14158,14158,NA,651.2,0,308,2,NA,1.28,NA,NA,NA,NA
 110791,1,2019.04,2019,"May",9,1,1,"litu",1104,11.3,10,147.36,"F;RE","","alive","Alyssa Terrell","Ian McGregor",14158,14158,NA,651.2,0,308,2,NA,1.28,NA,NA,NA,NA
+110791,1,2019.041,2019,"May",21,1,1,"litu",1104,11.3,10,12.01,"F","","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",14158,14158,655,660,1,961,2,NA,1.4,NA,NA,NA,NA
 110798,1,2019.01,2019,"March",25,1,0,"qupr",1104,16,15.5,23.13,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
 110901,1,2019.01,2019,"March",25,1,1,"litu",1105,20,4.1,62.61,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",14265,14265,NA,524.1,0,668,2,NA,1.35,NA,NA,NA,NA
 110901,1,2019.02,2019,"April",11,1,1,"litu",1105,20,4.1,61.69,"F;RE","","alive","Ian McGregor","Ian McGregor",14265,14265,NA,524.1,0,668,2,NA,1.35,NA,NA,NA,NA
@@ -930,6 +933,7 @@
 181030,1,2019.02,2019,"April",11,1,1,"qual",1816,5.4,10.6,109.08,"","","alive","Rebecca Banbury Morgan","Ian McGregor",26817,26817,NA,765.2,0,409,2,NA,1.3,NA,NA,NA,NA
 181030,1,2019.03,2019,"April",25,1,1,"qual",1816,5.4,10.6,110.25,"","","alive","Alyssa Terrell","Ian McGregor",26817,26817,NA,765.2,0,409,2,NA,1.3,NA,NA,NA,NA
 181030,1,2019.04,2019,"May",9,1,1,"qual",1816,5.4,10.6,NA,"RE","spring needs adjusting (new spring)","alive","Ian McGregor","Ian McGregor",26817,26817,NA,765.2,0,409,2,NA,1.3,NA,NA,NA,NA
+181030,1,2019.041,2019,"May",21,1,1,"qual",1816,5.4,10.6,11.82,"","","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",26817,26817,771,779,1,962,2,NA,1.4,NA,NA,NA,NA
 181033,1,2019.01,2019,"March",28,1,0,"litu",1816,3.4,18.6,143.52,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",26820,26820,NA,515.5,0,410,2,NA,1.3,NA,NA,NA,NA
 182161,1,2019,2019,"February",8,1,0,"fram",1822,16.8,3.2,4.97," ","tree has flecking. Unsure how much longer alive","alive","Becky Banbury Morgan, Ian McGregor","Ian McGregor",27072,27072,1074,1087,1,915,2,NA,1.4,NA,NA,NA,NA
 182161,1,2019.01,2019,"March",28,1,0,"fram",1822,16.8,3.2,3.52," ","","alive","Fanfan, Helen Bontrager","Ian McGregor",27072,27072,NA,1087,0,915,2,NA,1.4,NA,NA,NA,NA
@@ -1005,11 +1009,13 @@
 192542,1,2019.02,2019,"April",11,1,1,"litu",1929,18.9,3.8,75.31,"","","alive","Rebecca Banbury Morgan","Ian McGregor",28948,28948,NA,316.2,0,446,2,NA,1.3,NA,NA,NA,NA
 192542,1,2019.03,2019,"April",25,1,1,"litu",1929,18.9,3.8,75.28,"","","alive","Alyssa Terrell","Ian McGregor",28948,28948,NA,316.2,0,446,2,NA,1.3,NA,NA,NA,NA
 192542,1,2019.04,2019,"May",9,1,1,"litu",1929,18.9,3.8,75.3,"RE","","alive","Ian McGregor","Ian McGregor",28948,28948,NA,316.2,0,446,2,NA,1.3,NA,NA,NA,NA
+192542,1,2019.041,2019,"May",21,1,1,"litu",1929,18.9,3.8,7.07,"","","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",28948,28948,326,326,1,963,2,NA,1.4,NA,NA,NA,NA
 192543,1,2019.01,2019,"March ",28,1,0,"litu",1929,14.9,4.4,47.07,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",28949,28949,NA,445.5,0,746,2,NA,1.3,NA,NA,NA,NA
 192544,1,2019.01,2019,"March ",28,1,1,"litu",1929,14.4,1.8,75.68,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",28950,28950,NA,341.8,0,448,2,NA,1.3,NA,NA,NA,NA
 192544,1,2019.02,2019,"April",11,1,1,"litu",1929,14.4,1.8,75.89,"","","alive","Rebecca Banbury Morgan","Ian McGregor",28950,28950,NA,341.8,0,448,2,NA,1.3,NA,NA,NA,NA
 192544,1,2019.03,2019,"April",25,1,1,"litu",1929,14.4,1.8,74.93,"","","alive","Alyssa Terrell","Ian McGregor",28950,28950,NA,341.8,0,448,2,NA,1.3,NA,NA,NA,NA
 192544,1,2019.04,2019,"May",9,1,1,"litu",1929,14.4,1.8,76.44,"RE","","alive","Ian McGregor","Ian McGregor",28950,28950,NA,341.8,0,448,2,NA,1.3,NA,NA,NA,NA
+192544,1,2019.041,2019,"May",21,1,1,"litu",1929,14.4,1.8,11.93,"","","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",28950,28950,349,349,1,964,2,NA,1.4,NA,NA,NA,NA
 192546,1,2019.01,2019,"March ",28,1,0,"litu",1929,17.4,7.3,75.31,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",28952,28952,NA,533.5,0,449,2,NA,1.3,NA,NA,NA,NA
 192548,1,2019.01,2019,"March ",28,1,0,"litu",1929,15.3,11.3,86.34,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",28954,28954,NA,467,0,450,2,NA,1.3,NA,NA,NA,NA
 192560,1,2019.01,2019,"March ",28,1,1,"qual",1930,12.9,19.5,110.41,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",28965,28965,NA,933.1,0,236,2,NA,1.25,NA,NA,NA,NA
