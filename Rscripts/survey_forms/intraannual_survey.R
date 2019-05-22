@@ -127,7 +127,7 @@ write.csv(data_intra, "resources/data_entry_forms/2019/data_entry_intraannual.cs
 #3 Merge data_entry form intraannual with the year's master file ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-04.csv")
+data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-05.csv")
 
 names2019 <- c(colnames(data_2019))
 namesintra <- c(colnames(data_intra))
@@ -157,10 +157,11 @@ test$stemID <- na.locf(test$stemID)
 test$treeID <- na.locf(test$treeID)
 test$dbh <- na.locf(test$dbh)
 
+
 ## these should be constant from previous survey, but obviously are updated whenever a new dendroband is installed
 test$dendroID <- na.locf(test$dendroID)
-test$type <- na.locf(test$type)
 test$dendHt <- na.locf(test$dendHt)
+test$type <- na.locf(test$type)
 
 ## these values are not always constant
 library(dplyr)
