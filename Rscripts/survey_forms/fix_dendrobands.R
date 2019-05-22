@@ -20,7 +20,7 @@ length(c(grep("RE", dendro19$codes)))
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
 ##these bands were marked as "RE" already from the field survey.
-data_fix <- dendro19[which(dendro19$survey.ID ==2019.04), ]
+data_fix <- dendro19[which(dendro19$survey.ID ==2019.05), ]
 data_fix <- data_fix[grep("RE", data_fix$codes), ]
  #in case any fixes have been done since the fall survey
 
@@ -91,7 +91,7 @@ matrix <- function(data_field, table_title) {
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
 library(xlsx)
-write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-041.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-051.xlsx", row.names = FALSE, col.names=FALSE)
 
 
 #2b. Create data_entry form ####
@@ -109,19 +109,25 @@ data_entry$location <- NULL #we don't need this column for data entry
 library(data.table)
 data_entry <- setnames(data_entry, old=c("dbh", "dendDiam", "dendHt", "measure"), new=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"))
 
-write.csv(data_entry, "resources/data_entry_forms/2019/data_entry_fix_2019-041.csv", row.names=FALSE)
+fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv")
+fix_bands <- rbind(fix_bands, data_entry)
+
+write.csv(fix_bands, "resources/data_entry_forms/2019/data_entry_fix_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM
 #3a. Merging if bands replaced after fall biannual ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-install <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019-041.csv")
+fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv")
 #install$codes <- as.character(install$notes)
 
-#there is something weird where loading the csv makes the "F" code be read as "False" by R, despite trying different ways to address it during the importing process. Hence, this line of code.
-install$codes <- ifelse(is.na(install$codes), "", "F")
-install$notes <- ifelse(is.na(install$notes), "", install$notes)
+#subset by the surveyID you need
+install <- fix_bands[fix_bands$survey.ID == 2019.051, ]
+
+#there is something weird where sometimes loading the csv makes the "F" code be read as "False" by R, despite trying different ways to address it during the importing process. Hence, this line of code.
+#install$codes <- ifelse(is.na(install$codes), "", "F")
+#install$notes <- ifelse(is.na(install$notes), "", install$notes)
 
 library(data.table)
 setnames(install, old=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"), new=c("dbh", "dendDiam", "dendHt", "measure"), skip_absent=TRUE)
