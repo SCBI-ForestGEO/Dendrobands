@@ -43,13 +43,13 @@ for (i in 1:nrow(data_intra)){
   data_intra$codes <- ifelse(grepl("F", data_intra$codes), "F", "")
 }
 
-data_intra$"Date2: SvID: Name:" = NA
-data_intra$"Date3: SvID: Name:" = NA
-data_intra$"Date4: SvID: Name:" = NA
-data_intra$"Date5: SvID: Name:" = NA
+data_intra$"Date2: SID: Name:" = NA
+data_intra$"Date3: SID: Name:" = NA
+data_intra$"Date4: SID: Name:" = NA
+data_intra$"Date5: SID: Name:" = NA
 
 library(dplyr)
-data_intra<-data_intra %>% rename("Date1:  SvID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag)
+data_intra<-data_intra %>% rename("Date1:  SID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag)
 
 data_intra$prevmeas = prevmeasin$measure
 
