@@ -10,6 +10,8 @@
 #3 merge data_entry form intraannual with the year's master file
 
 #1 Create field_form intraannual ####
+## when printing new field forms because used up all data spaces, this code will create a new form with the updated prevmeas.
+
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 dendro_trees <- read.csv("data/dendro_trees.csv")
@@ -177,5 +179,6 @@ test$codes <- as.character(test$codes)
 test$codes <- ifelse(is.na(test$codes), "", test$codes)
 test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
+
 
 
