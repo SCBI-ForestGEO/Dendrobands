@@ -86,10 +86,10 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 100960,1,quru,1010,2019.06,2019,June,4,47.7,F,,Ian McGregor,Ian McGregor,South
 102177,1,qual,1020,2019.06,2019,June,4,115.45,,,Ian McGregor,Ian McGregor,North
 102258,1,qual,1022,2019.06,2019,June,4,6.26,,,Ian McGregor,Ian McGregor,North
-102261,1,qual,1022,2019.06,2019,June,4,147.27,,,Ian McGregor,Ian McGregor,North
+102261,1,qual,1022,2019.06,2019,June,4,147.27,RE,,Ian McGregor,Ian McGregor,North
 102262,1,qual,1022,2019.06,2019,June,4,88.5,,,Ian McGregor,Ian McGregor,North
 102264,1,qual,1022,2019.06,2019,June,4,37.12,,,Ian McGregor,Ian McGregor,North
-102348,1,qual,1025,2019.06,2019,June,4,145.44,,,Ian McGregor,Ian McGregor,North
+102348,1,qual,1025,2019.06,2019,June,4,145.44,RE,,Ian McGregor,Ian McGregor,North
 102364,1,qual,1025,2019.06,2019,June,4,98.54,,,Ian McGregor,Ian McGregor,North
 110061,1,litu,1101,2019.06,2019,June,4,3.75,F,,Ian McGregor,Ian McGregor,South
 110788,1,litu,1104,2019.06,2019,June,4,106.82,F,,Ian McGregor,Ian McGregor,South
@@ -117,7 +117,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 132539,1,litu,1331,2019.06,2019,June,4,24.42,,,Ian McGregor,Ian McGregor,North
 140751,1,quru,1408,2019.06,2019,June,4,63.86,F,,Ian McGregor,Ian McGregor,South
 140825,1,litu,1411,2019.06,2019,June,4,16.82,F,,Ian McGregor,Ian McGregor,South
-142380,1,qual,1425,2019.06,2019,June,4,146.21,,,Ian McGregor,Ian McGregor,North
+142380,1,qual,1425,2019.06,2019,June,4,146.21,RE,,Ian McGregor,Ian McGregor,North
 142729,1,litu,1431,2019.06,2019,June,4,52.83,,,Ian McGregor,Ian McGregor,North
 160910,1,litu,1607,2019.06,2019,June,4,95.59,,,Ian McGregor,Ian McGregor,South
 160985,1,litu,1612,2019.06,2019,June,4,123.58,,,Ian McGregor,Ian McGregor,South
