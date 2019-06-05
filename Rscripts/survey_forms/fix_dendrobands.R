@@ -20,7 +20,7 @@ length(c(grep("RE", dendro19$codes)))
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
 ##these bands were marked as "RE" already from the field survey.
-data_fix <- dendro19[which(dendro19$survey.ID ==2019.05), ]
+data_fix <- dendro19[which(dendro19$survey.ID ==2019.06), ]
 data_fix <- data_fix[grep("RE", data_fix$codes), ]
  #in case any fixes have been done since the fall survey
 
@@ -91,7 +91,7 @@ matrix <- function(data_field, table_title) {
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
 library(xlsx)
-write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-051.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-061.xlsx", row.names = FALSE, col.names=FALSE)
 
 
 #2b. Create data_entry form ####
