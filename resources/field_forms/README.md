@@ -18,7 +18,7 @@ If printing the first form for the season, please make sure the correct [R-scrip
 4. In general, if a measurement is >6mm difference compared to the previous measurement, double check in field, then if need be write "check previous measure" in notes column.
 
 ### Timing 
-5. For intraannual timing, with two people it takes around 2.5-3 hours (1 person in north, 1 in south, ~150 trees). With one person, it can certainly get done within a day.
+5. For intraannual timing, depending on how fast you go (and how well the surveyors can navigate the plot), with two people it takes anywhere from 2-3 hours (1 person in north, 1 in south, ~150 trees). With one person, it takes just over 4 hours for the whole plot
 
 6. The 2018 fall biannual (2018.14, 524 trees) survey took about 5 hours, with 7 people in 3 teams. The 2019 spring biannual (2019.01, 548 trees) was done in 9 hours with 2 teams of 2 people (1 half-day had only 2 people, one full day had all 4). With three teams, the areas are generally split up in this way:
 - One team in Areas 1, 6, 9
@@ -32,6 +32,8 @@ If printing the first form for the season, please make sure the correct [R-scrip
 1. add all borders, merge and center title across top, then left align
 
 2. adjust cell dimensions as needed
+  
+ -  2a. column titles for the Date, SID, and Name should be stacked (multiple lines). In excel, this is done with Alt+Enter.
 
 3. change page margins to "narrow"
 
