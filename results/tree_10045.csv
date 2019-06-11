@@ -1,126 +1,133 @@
-"tag","stemtag","survey.ID","YEAR","month","day","biannual","intraannual","SP","quadrat","lx","ly","GAP_WIDTH","codes","notes","status","field.recorders","data.enter","UNIQUE_ID","TREE_ID","dendDiam","ORG_DBH","NEW_BAND","BAND_NUM","type","dir","dendHt","crown.condition","crown.illum","lianas","measureID","SKIP","ADJUST","REMOVE","SITE","DOY"
-82203,1,2010.01,2010,1,27,1,1,"litu",822,8,9.35,26.2,"",NA,"alive","Xioli Shen","XS/LS/AP/SS",10045,10045,"610",61.13,1,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",27
-82203,1,2011.01,2011,1,15,1,1,"litu",822,8,9.35,41.1,"","","alive","Jenny McGarvey","JM/LL/CK/LB",10045,10045,NA,61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",15
-82203,1,2011.02,2011,5,9,1,1,"litu",822,8,9.35,40.62,"","","alive","TK/CJ/LL","TK/CJ/LL",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",129
-82203,1,2011.03,2011,5,13,1,1,"litu",822,8,9.35,40.21,"","","alive","LL/TK","LL/TK",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",133
-82203,1,2011.04,2011,5,16,1,1,"litu",822,8,9.35,42.55,"","","alive","TB","TB",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",136
-82203,1,2011.05,2011,5,24,1,1,"litu",822,8,9.35,44.03,"","","alive","JM/SM","JM/SM",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",144
-82203,1,2011.06,2011,6,6,1,1,"litu",822,8,9.35,47.8,"","","alive","LL/KS","LL/KS",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",157
-82203,1,2011.07,2011,6,13,1,1,"litu",822,8,9.35,51.61,"","","alive","LL/MC","LL/MC",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",164
-82203,1,2011.08,2011,6,20,1,1,"litu",822,8,9.35,52.78,"","","alive",NA,NA,10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",171
-82203,1,2011.09,2011,6,27,1,1,"litu",822,8,9.35,53.31,"","","alive",NA,NA,10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",178
-82203,1,2011.1,2011,7,5,1,1,"litu",822,8,9.35,53.39,"","","alive","MC/LL","MC/LL",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",186
-82203,1,2011.11,2011,7,11,1,1,"litu",822,8,9.35,54.61,"","","alive","TK/Mike C.","TK/Mike C.",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",192
-82203,1,2011.12,2011,7,18,1,1,"litu",822,8,9.35,55.34,"","","alive","Mike/Lorien","Mike/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",199
-82203,1,2011.13,2011,7,25,1,1,"litu",822,8,9.35,55.44,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",206
-82203,1,2011.14,2011,8,1,1,1,"litu",822,8,9.35,55.43,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",213
-82203,1,2011.15,2011,8,8,1,1,"litu",822,8,9.35,55.85,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",220
-82203,1,2011.16,2011,8,22,1,1,"litu",822,8,9.35,55.87,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",234
-82203,1,2011.17,2011,9,6,1,1,"litu",822,8,9.35,57,"","","alive","Caroline/Lorien","Caroline/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",249
-82203,1,2011.18,2011,9,19,1,1,"litu",822,8,9.35,57.64,"","","alive","Caroline/Lorien","Caroline/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",262
-82203,1,2011.19,2011,10,5,1,1,"litu",822,8,9.35,57.13,"","","alive","Caroline/John/V","Caroline/John/V",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",278
-82203,1,2011.2,2011,10,16,1,1,"litu",822,8,9.35,57.1,"","","alive","Caroline/Lorien","Caroline/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",289
-82203,1,2011.21,2011,11,1,1,1,"litu",822,8,9.35,57.11,"","","alive","Caroline/Lorien/Leah","Caroline/Lorien/Leah",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",305
-82203,1,2011.22,2011,11,17,1,1,"litu",822,8,9.35,56.86,"","","alive","John/Lulu/Leah","John/Lulu/Leah",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",321
-82203,1,2011.23,2011,12,15,1,1,"litu",822,8,9.35,56.69,"","","alive","Jennifer McGarvey","Jennifer McGarvey",10045,10045,NA,61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",349
-82203,1,2012.01,2012,3,15,1,1,"litu",822,8,9.35,55.58,"","","alive","Caroline Johnson","CJ/LC/BB",10045,10045,NA,61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",75
-82203,1,2012.02,2012,4,11,1,1,"litu",822,8,9.35,55.26,"","","alive","Bettina","Bettina",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",102
-82203,1,2012.03,2012,4,25,1,1,"litu",822,8,9.35,56.57,"","","alive","Bettina/Caroline/Ben M.","Bettina/Caroline/Ben M.",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",116
-82203,1,2012.04,2012,5,8,1,1,"litu",822,8,9.35,56.29,"","","alive","Caroline/Bettina","Caroline/Bettina",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",129
-82203,1,2012.05,2012,5,22,1,1,"litu",822,8,9.35,57.96,"","","alive","Erika, Caity, LC, CK","Erika, Caity, LC, CK",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",143
-82203,1,2012.06,2012,6,5,1,1,"litu",822,8,9.35,60.25,"","","alive","Lorien, Leah","Lorien, Leah",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",157
-82203,1,2012.07,2012,6,19,1,1,"litu",822,8,9.35,62.83,"","","alive","Erika Gonazlez, Homan, Lemman","Erika Gonazlez, Homan, Lemman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",171
-82203,1,2012.08,2012,7,2,1,1,"litu",822,8,9.35,65.27,"","","alive","Lulu, Homan, Bill's nephew","Lulu, Homan",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",184
-82203,1,2012.09,2012,7,16,1,1,"litu",822,8,9.35,65.95,"","","alive","Gonzalez, Zhang, Lemman","Gonzalez, Zhang, Lemman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",198
-82203,1,2012.1,2012,7,30,1,1,"litu",822,8,9.35,66.44,"","","alive","Zhang, Southon, Homan","Zhang, Southon, Homan",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",212
-82203,1,2012.11,2012,8,14,1,1,"litu",822,8,9.35,66.45,"","","alive","Southon, Zhang","Southon, Zhang",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",227
-82203,1,2012.12,2012,8,29,1,1,"litu",822,8,9.35,66.69,"","","alive","LC, Zhang","LC, Zhang",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",242
-82203,1,2012.13,2012,9,10,1,1,"litu",822,8,9.35,67.65,"","","alive","Zhang, JW, Homan","Zhang, JW, Homan",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",254
-82203,1,2012.14,2012,9,25,1,1,"litu",822,8,9.35,66.55,"","","alive","Robin, Gonzalez","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",269
-82203,1,2012.15,2012,10,9,1,1,"litu",822,8,9.35,67.26,"","","alive","Robin, Gonzalez, Woltz","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",283
-82203,1,2012.16,2012,10,23,1,1,"litu",822,8,9.35,66.73,"","","alive","Caity, Gonzalez, Teixeira","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",297
-82203,1,2012.17,2012,11,26,1,1,"litu",822,8,9.35,66.8,"","","alive","Gonzalez, Woltz","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",331
-82203,1,2012.18,2012,11,29,1,1,"litu",822,8,9.35,66.89,"","","alive","Erika Gonzalez","EG/CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",334
-82203,1,2013.01,2013,3,19,1,1,"litu",822,8,9.4,66.77,"","","alive","Erika Gonzalez","Mike Belovitch",10045,10045,"625",61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",78
-82203,1,2013.02,2013,4,8,1,1,"litu",822,8,9.4,65.92,"","","alive","Belovitch, Chapman","Belovitch, Chapman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",98
-82203,1,2013.03,2013,4,23,1,1,"litu",822,8,9.4,65.87,"","","alive","Belovitch, Chapman","Belovitch, Chapman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",113
-82203,1,2013.04,2013,5,6,1,1,"litu",822,8,9.4,65.87,"","","alive","Belovitch, Chapman","Belovitch, Chapman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",126
-82203,1,2013.05,2013,5,20,1,1,"litu",822,8,9.4,66.43,"","","alive","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",140
-82203,1,2013.06,2013,6,3,1,1,"litu",822,8,9.4,68.52,"","","alive","Kelsey, Ryan, Mike","Kelsey, Ryan, Mike",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",154
-82203,1,2013.07,2013,6,17,1,1,"litu",822,8,9.4,71.53,"","","alive","Ryan, Kelsey","Ryan, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",168
-82203,1,2013.08,2013,7,1,1,1,"litu",822,8,9.4,74.16,"","","alive","Mike, Kelsey","Mike, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",182
-82203,1,2013.09,2013,7,15,1,1,"litu",822,8,9.4,78.25,"","","alive","Ryan, Kelsey","Ryan, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",196
-82203,1,2013.1,2013,7,29,1,1,"litu",822,8,9.4,78.71,"","","alive","Mike, Kelsey","Mike, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",210
-82203,1,2013.11,2013,8,12,1,1,"litu",822,8,9.4,79.61,"","","alive","Ryan, Kelsey","Ryan, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",224
-82203,1,2013.12,2013,8,26,1,1,"litu",822,8,9.4,80.12,"","","alive","Mike, Greg","Mike, Greg",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",238
-82203,1,2013.13,2013,9,9,1,1,"litu",822,8,9.4,80.42,"","","alive","Mike, Erika","Mike, Erika",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",252
-82203,1,2013.14,2013,9,23,1,1,"litu",822,8,9.4,79.94,"","","alive","Mike, Greg","Mike, Greg",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",266
-82203,1,2013.15,2013,10,9,1,1,"litu",822,8,9.4,80.12,"","","alive","Mike Belovitch","Mike Belovitch",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",282
-82203,1,2013.16,2013,10,29,1,1,"litu",822,8,9.4,80.18,"","","alive","Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",302
-82203,1,2014.01,2014,3,24,1,1,"litu",822,8,9.4,80.65,"","Measured with caliper (TORA) ","alive","Erika Gonzalez","Valentine Herrmann",10045,10045,"614",62.77999878,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",83
-82203,1,2014.02,2014,4,14,1,1,"litu",822,8,9.4,80.37,"","","alive","Emily, John, Erika","Emily, John, Erika",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",104
-82203,1,2014.03,2014,5,1,1,1,"litu",822,8,9.4,80.11,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",121
-82203,1,2014.04,2014,5,13,1,1,"litu",822,8,9.4,79.89,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",133
-82203,1,2014.05,2014,5,27,1,1,"litu",822,8,9.4,80.51,"","","alive","Gonzalez, Lavelle, Ross","Gonzalez, Lavelle, Ross",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",147
-82203,1,2014.06,2014,6,10,1,1,"litu",822,8,9.4,83.5,"","","alive","Erika Gonzalez, Amy Lewis","Erika Gonzalez, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",161
-82203,1,2014.07,2014,6,23,1,1,"litu",822,8,9.4,85.44,"","","alive","Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",174
-82203,1,2014.08,2014,7,7,1,1,"litu",822,8,9.4,87.79,"","","alive","Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",188
-82203,1,2014.09,2014,7,21,1,1,"litu",822,8,9.4,89.53,"","","alive","Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",202
-82203,1,2014.1,2014,8,4,1,1,"litu",822,8,9.4,89.84,"","","alive","Amy Lewis","Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",216
-82203,1,2014.11,2014,8,18,1,1,"litu",822,8,9.4,91.39,"","","alive","Amy Lewis, Anne Marie","Amy Lewis, Anne Marie",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",230
-82203,1,2014.12,2014,9,2,1,1,"litu",822,8,9.4,89.99,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",245
-82203,1,2014.13,2014,9,15,1,1,"litu",822,8,9.4,90.21,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",258
-82203,1,2014.14,2014,10,27,1,1,"litu",822,8,9.4,92.09,"","","alive","Justin Cooper","Maryam Sedaghatpour",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",300
-82203,1,2015.01,2015,3,26,1,1,"litu",822,8,9.35,91.52,"","large poison ivy vine attached to tree, included in dendro diameter measurement","alive","Kent Harlow","Kent Harlow",10045,10045,"638",62.77999878,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",85
-82203,1,2015.02,2015,4,23,1,1,"litu",822,8,9.35,91.48,"","","alive","Jade, Maria, Erika, Valentine","Jade, Maria, Erika, Valentine",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",113
-82203,1,2015.03,2015,5,7,1,1,"litu",822,8,9.35,91.35,"","","alive","Erika, Maria","Erika, Maria",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",127
-82203,1,2015.04,2015,5,19,1,1,"litu",822,8,9.35,91.93,"","","alive","Cheng Yin","Cheng Yin",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",139
-82203,1,2015.05,2015,6,3,1,1,"litu",822,8,9.35,94,"","","alive","Cheng Yin","Cheng Yin",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",154
-82203,1,2015.06,2015,6,16,1,1,"litu",822,8,9.35,96.23,"","","alive","Cheng Yin, Tori, MW","Cheng Yin, Tori, MW",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",167
-82203,1,2015.07,2015,7,1,1,1,"litu",822,8,9.35,99.78,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",182
-82203,1,2015.08,2015,7,14,1,1,"litu",822,8,9.35,101.81,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",195
-82203,1,2015.09,2015,7,28,1,1,"litu",822,8,9.35,103.98,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",209
-82203,1,2015.1,2015,8,11,1,1,"litu",822,8,9.35,104.82,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",223
-82203,1,2015.11,2015,8,25,1,1,"litu",822,8,9.35,104.94,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",237
-82203,1,2015.12,2015,9,16,1,1,"litu",822,8,9.35,105.46,"","","alive","Tori","Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",259
-82203,1,2015.13,2015,11,2,1,1,"litu",822,8,9.35,106.45,"","poison ivy on tree","alive","Maria Wang, Shannon Herrity, Tori Meakem, Elizabeth Dupuis, Gonzalez, Worley, Lauren, Olivia, John","Maria Wang, Shannon Herrity, Tori Meakem, Elizabeth Dupuis, Gonzalez, Worley, Lauren, Olivia, John",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",306
-82203,1,2016.01,2016,4,6,1,1,"litu",822,8,9.35,105.61,"","poison ivy on tree","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",10045,10045,"642",62.77999878,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",97
-82203,1,2016.02,2016,5,12,1,1,"litu",822,8,9.35,107.31,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",133
-82203,1,2016.03,2016,5,26,1,1,"litu",822,8,9.35,107.27,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",147
-82203,1,2016.04,2016,6,9,1,1,"litu",822,8,9.35,108.2,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",161
-82203,1,2016.05,2016,6,23,1,1,"litu",822,8,9.35,111.97,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",175
-82203,1,2016.06,2016,7,7,1,1,"litu",822,8,9.35,115.37,"","","alive","Tom, Tori","Tom, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",189
-82203,1,2016.07,2016,7,21,1,1,"litu",822,8,9.35,117.76,"","","alive","Tom, Tori","Tom, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",203
-82203,1,2016.08,2016,8,4,1,1,"litu",822,8,9.35,120.14,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",217
-82203,1,2016.09,2016,8,18,1,1,"litu",822,8,9.35,120.41,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",231
-82203,1,2016.1,2016,9,1,1,1,"litu",822,8,9.35,119.95,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",245
-82203,1,2016.11,2016,9,13,1,1,"litu",822,8,9.35,119.66,"","","alive","Erika, Tori","Erika, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",257
-82203,1,2016.12,2016,9,29,1,1,"litu",822,8,9.35,120.69,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",273
-82203,1,2016.13,2016,10,13,1,1,"litu",822,8,9.35,120.96,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",287
-82203,1,2016.14,2016,10,27,1,1,"litu",822,8,9.35,120.21,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",301
-82203,1,2016.15,2016,11,10,1,1,"litu",822,8,9.35,120.07,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",315
-82203,1,2017.01,2017,4,18,1,1,"litu",822,8,9.4,120.21,"","","alive","Erika Gonzalez-Akre, Joe Kolowski","Caroline Kittle",10045,10045,NA,62.78,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",108
-82203,1,2017.02,2017,5,18,1,1,"litu",822,8,9.4,120.95,"","","alive","Victoria Meakem","Victoria Meakem",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",138
-82203,1,2017.03,2017,6,2,1,1,"litu",822,8,9.4,122.04,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",153
-82203,1,2017.04,2017,6,21,1,1,"litu",822,8,9.4,126.64,"","","alive","Abigail Ferson","Abigail Ferson",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",172
-82203,1,2017.05,2017,6,30,1,1,"litu",822,8,9.4,127.73,"","","alive","Abigail Ferson","Abigail Ferson",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",181
-82203,1,2017.06,2017,7,13,1,1,"litu",822,8,9.4,129.6,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",194
-82203,1,2017.07,2017,7,31,1,1,"litu",822,8,9.4,131.85,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",212
-82203,1,2017.09,2017,8,17,1,1,"litu",822,8,9.4,132.19,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",229
-82203,1,2017.1,2017,9,11,1,1,"litu",822,8,9.4,131.95,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",254
-82203,1,2017.11,2017,9,21,1,1,"litu",822,8,9.4,131.84,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",264
-82203,1,2017.12,2017,11,15,1,1,"litu",822,8,9.4,132.7,"","","alive","Lauren Bowman, Mario Morales","Mario Morales",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",319
-82203,1,2018.01,2018,3,9,1,1,"litu",822,8,9.4,132.1,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",68
-82203,1,2018.02,2018,4,6,1,1,"litu",822,8,9.4,131.68,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",96
-82203,1,2018.03,2018,4,26,1,1,"litu",822,8,9.4,132.4,"","","alive","Tim McNeil","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",116
-82203,1,2018.04,2018,5,15,1,1,"litu",822,8,9.4,132.37,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",135
-82203,1,2018.05,2018,5,29,1,1,"litu",822,8,9.4,132.92,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",149
-82203,1,2018.06,2018,6,14,1,1,"litu",822,8,9.4,138.04,"","","alive","Maya Prestipino","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",165
-82203,1,2018.07,2018,6,29,1,1,"litu",822,8,9.4,141.26,"","","alive","Maya Prestipino","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",180
-82203,1,2018.08,2018,7,12,1,1,"litu",822,8,9.4,142.32,"","","alive","Maya Prestipino","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",193
-82203,1,2018.09,2018,7,26,1,1,"litu",822,8,9.4,147,"","","alive","Mario Morales","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",207
-82203,1,2018.1,2018,8,9,1,1,"litu",822,8,9.4,144.71,"","","alive","Sofia Altamirano, Eliana Garcia (UCSB), Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",221
-82203,1,2018.11,2018,8,23,1,1,"litu",822,8,9.4,145.28,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",235
-82203,1,2018.12,2018,9,28,1,1,"litu",822,8,9.4,145.74,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",271
-82203,1,2018.13,2018,10,18,1,1,"litu",822,8,9.4,144.8,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",291
-82203,1,2018.14,2018,11,8,1,1,"litu",822,8,9.4,145,"","","alive","Abigail Ferson, Caroline Kittle","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",312
+"tag","stemtag","survey.ID","YEAR","month","day","biannual","intraannual","SP","quadrat","lx","ly","GAP_WIDTH","codes","notes","status","field.recorders","data.enter","UNIQUE_ID","TREE_ID","dendDiam","ORG_DBH","NEW_BAND","dendroID","type","dir","dendHt","crown.condition","crown.illum","lianas","measureID","SKIP","ADJUST","REMOVE","SITE","DOY","BAND_NUM"
+82203,1,2010.01,2010,"1",27,1,1,"litu",822,8,9.35,26.2,"",NA,"alive","Xioli Shen","XS/LS/AP/SS",10045,10045,"610",61.13,1,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",27,1
+82203,1,2011.01,2011,"1",15,1,1,"litu",822,8,9.35,41.1,"","","alive","Jenny McGarvey","JM/LL/CK/LB",10045,10045,NA,61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",15,1
+82203,1,2011.02,2011,"5",9,1,1,"litu",822,8,9.35,40.62,"","","alive","TK/CJ/LL","TK/CJ/LL",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",129,1
+82203,1,2011.03,2011,"5",13,1,1,"litu",822,8,9.35,40.21,"","","alive","LL/TK","LL/TK",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",133,1
+82203,1,2011.04,2011,"5",16,1,1,"litu",822,8,9.35,42.55,"","","alive","TB","TB",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",136,1
+82203,1,2011.05,2011,"5",24,1,1,"litu",822,8,9.35,44.03,"","","alive","JM/SM","JM/SM",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",144,1
+82203,1,2011.06,2011,"6",6,1,1,"litu",822,8,9.35,47.8,"","","alive","LL/KS","LL/KS",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",157,1
+82203,1,2011.07,2011,"6",13,1,1,"litu",822,8,9.35,51.61,"","","alive","LL/MC","LL/MC",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",164,1
+82203,1,2011.08,2011,"6",20,1,1,"litu",822,8,9.35,52.78,"","","alive",NA,NA,10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",171,1
+82203,1,2011.09,2011,"6",27,1,1,"litu",822,8,9.35,53.31,"","","alive",NA,NA,10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",178,1
+82203,1,2011.1,2011,"7",5,1,1,"litu",822,8,9.35,53.39,"","","alive","MC/LL","MC/LL",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",186,1
+82203,1,2011.11,2011,"7",11,1,1,"litu",822,8,9.35,54.61,"","","alive","TK/Mike C.","TK/Mike C.",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",192,1
+82203,1,2011.12,2011,"7",18,1,1,"litu",822,8,9.35,55.34,"","","alive","Mike/Lorien","Mike/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",199,1
+82203,1,2011.13,2011,"7",25,1,1,"litu",822,8,9.35,55.44,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",206,1
+82203,1,2011.14,2011,"8",1,1,1,"litu",822,8,9.35,55.43,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",213,1
+82203,1,2011.15,2011,"8",8,1,1,"litu",822,8,9.35,55.85,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",220,1
+82203,1,2011.16,2011,"8",22,1,1,"litu",822,8,9.35,55.87,"","","alive","Lorien","Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",234,1
+82203,1,2011.17,2011,"9",6,1,1,"litu",822,8,9.35,57,"","","alive","Caroline/Lorien","Caroline/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",249,1
+82203,1,2011.18,2011,"9",19,1,1,"litu",822,8,9.35,57.64,"","","alive","Caroline/Lorien","Caroline/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",262,1
+82203,1,2011.19,2011,"10",5,1,1,"litu",822,8,9.35,57.13,"","","alive","Caroline/John/V","Caroline/John/V",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",278,1
+82203,1,2011.2,2011,"10",16,1,1,"litu",822,8,9.35,57.1,"","","alive","Caroline/Lorien","Caroline/Lorien",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",289,1
+82203,1,2011.21,2011,"11",1,1,1,"litu",822,8,9.35,57.11,"","","alive","Caroline/Lorien/Leah","Caroline/Lorien/Leah",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",305,1
+82203,1,2011.22,2011,"11",17,1,1,"litu",822,8,9.35,56.86,"","","alive","John/Lulu/Leah","John/Lulu/Leah",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",321,1
+82203,1,2011.23,2011,"12",15,1,1,"litu",822,8,9.35,56.69,"","","alive","Jennifer McGarvey","Jennifer McGarvey",10045,10045,NA,61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",349,1
+82203,1,2012.01,2012,"3",15,1,1,"litu",822,8,9.35,55.58,"","","alive","Caroline Johnson","CJ/LC/BB",10045,10045,NA,61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",75,1
+82203,1,2012.02,2012,"4",11,1,1,"litu",822,8,9.35,55.26,"","","alive","Bettina","Bettina",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",102,1
+82203,1,2012.03,2012,"4",25,1,1,"litu",822,8,9.35,56.57,"","","alive","Bettina/Caroline/Ben M.","Bettina/Caroline/Ben M.",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",116,1
+82203,1,2012.04,2012,"5",8,1,1,"litu",822,8,9.35,56.29,"","","alive","Caroline/Bettina","Caroline/Bettina",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",129,1
+82203,1,2012.05,2012,"5",22,1,1,"litu",822,8,9.35,57.96,"","","alive","Erika, Caity, LC, CK","Erika, Caity, LC, CK",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",143,1
+82203,1,2012.06,2012,"6",5,1,1,"litu",822,8,9.35,60.25,"","","alive","Lorien, Leah","Lorien, Leah",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",157,1
+82203,1,2012.07,2012,"6",19,1,1,"litu",822,8,9.35,62.83,"","","alive","Erika Gonazlez, Homan, Lemman","Erika Gonazlez, Homan, Lemman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",171,1
+82203,1,2012.08,2012,"7",2,1,1,"litu",822,8,9.35,65.27,"","","alive","Lulu, Homan, Bill's nephew","Lulu, Homan",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",184,1
+82203,1,2012.09,2012,"7",16,1,1,"litu",822,8,9.35,65.95,"","","alive","Gonzalez, Zhang, Lemman","Gonzalez, Zhang, Lemman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",198,1
+82203,1,2012.1,2012,"7",30,1,1,"litu",822,8,9.35,66.44,"","","alive","Zhang, Southon, Homan","Zhang, Southon, Homan",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",212,1
+82203,1,2012.11,2012,"8",14,1,1,"litu",822,8,9.35,66.45,"","","alive","Southon, Zhang","Southon, Zhang",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",227,1
+82203,1,2012.12,2012,"8",29,1,1,"litu",822,8,9.35,66.69,"","","alive","LC, Zhang","LC, Zhang",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",242,1
+82203,1,2012.13,2012,"9",10,1,1,"litu",822,8,9.35,67.65,"","","alive","Zhang, JW, Homan","Zhang, JW, Homan",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",254,1
+82203,1,2012.14,2012,"9",25,1,1,"litu",822,8,9.35,66.55,"","","alive","Robin, Gonzalez","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",269,1
+82203,1,2012.15,2012,"10",9,1,1,"litu",822,8,9.35,67.26,"","","alive","Robin, Gonzalez, Woltz","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",283,1
+82203,1,2012.16,2012,"10",23,1,1,"litu",822,8,9.35,66.73,"","","alive","Caity, Gonzalez, Teixeira","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",297,1
+82203,1,2012.17,2012,"11",26,1,1,"litu",822,8,9.35,66.8,"","","alive","Gonzalez, Woltz","CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",331,1
+82203,1,2012.18,2012,"11",29,1,1,"litu",822,8,9.35,66.89,"","","alive","Erika Gonzalez","EG/CH",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",334,1
+82203,1,2013.01,2013,"3",19,1,1,"litu",822,8,9.4,66.77,"","","alive","Erika Gonzalez","Mike Belovitch",10045,10045,"625",61.13,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",78,1
+82203,1,2013.02,2013,"4",8,1,1,"litu",822,8,9.4,65.92,"","","alive","Belovitch, Chapman","Belovitch, Chapman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",98,1
+82203,1,2013.03,2013,"4",23,1,1,"litu",822,8,9.4,65.87,"","","alive","Belovitch, Chapman","Belovitch, Chapman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",113,1
+82203,1,2013.04,2013,"5",6,1,1,"litu",822,8,9.4,65.87,"","","alive","Belovitch, Chapman","Belovitch, Chapman",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",126,1
+82203,1,2013.05,2013,"5",20,1,1,"litu",822,8,9.4,66.43,"","","alive","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey","Chapman, Mendenhall, Belovitch, Schoenemann, Luke, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",140,1
+82203,1,2013.06,2013,"6",3,1,1,"litu",822,8,9.4,68.52,"","","alive","Kelsey, Ryan, Mike","Kelsey, Ryan, Mike",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",154,1
+82203,1,2013.07,2013,"6",17,1,1,"litu",822,8,9.4,71.53,"","","alive","Ryan, Kelsey","Ryan, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",168,1
+82203,1,2013.08,2013,"7",1,1,1,"litu",822,8,9.4,74.16,"","","alive","Mike, Kelsey","Mike, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",182,1
+82203,1,2013.09,2013,"7",15,1,1,"litu",822,8,9.4,78.25,"","","alive","Ryan, Kelsey","Ryan, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",196,1
+82203,1,2013.1,2013,"7",29,1,1,"litu",822,8,9.4,78.71,"","","alive","Mike, Kelsey","Mike, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",210,1
+82203,1,2013.11,2013,"8",12,1,1,"litu",822,8,9.4,79.61,"","","alive","Ryan, Kelsey","Ryan, Kelsey",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",224,1
+82203,1,2013.12,2013,"8",26,1,1,"litu",822,8,9.4,80.12,"","","alive","Mike, Greg","Mike, Greg",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",238,1
+82203,1,2013.13,2013,"9",9,1,1,"litu",822,8,9.4,80.42,"","","alive","Mike, Erika","Mike, Erika",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",252,1
+82203,1,2013.14,2013,"9",23,1,1,"litu",822,8,9.4,79.94,"","","alive","Mike, Greg","Mike, Greg",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",266,1
+82203,1,2013.15,2013,"10",9,1,1,"litu",822,8,9.4,80.12,"","","alive","Mike Belovitch","Mike Belovitch",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",282,1
+82203,1,2013.16,2013,"10",29,1,1,"litu",822,8,9.4,80.18,"","","alive","Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",10045,10045,NA,61.13,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",302,1
+82203,1,2014.01,2014,"3",24,1,1,"litu",822,8,9.4,80.65,"","Measured with caliper (TORA) ","alive","Erika Gonzalez","Valentine Herrmann",10045,10045,"614",62.77999878,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",83,1
+82203,1,2014.02,2014,"4",14,1,1,"litu",822,8,9.4,80.37,"","","alive","Emily, John, Erika","Emily, John, Erika",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",104,1
+82203,1,2014.03,2014,"5",1,1,1,"litu",822,8,9.4,80.11,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",121,1
+82203,1,2014.04,2014,"5",13,1,1,"litu",822,8,9.4,79.89,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",133,1
+82203,1,2014.05,2014,"5",27,1,1,"litu",822,8,9.4,80.51,"","","alive","Gonzalez, Lavelle, Ross","Gonzalez, Lavelle, Ross",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",147,1
+82203,1,2014.06,2014,"6",10,1,1,"litu",822,8,9.4,83.5,"","","alive","Erika Gonzalez, Amy Lewis","Erika Gonzalez, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",161,1
+82203,1,2014.07,2014,"6",23,1,1,"litu",822,8,9.4,85.44,"","","alive","Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",174,1
+82203,1,2014.08,2014,"7",7,1,1,"litu",822,8,9.4,87.79,"","","alive","Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",188,1
+82203,1,2014.09,2014,"7",21,1,1,"litu",822,8,9.4,89.53,"","","alive","Torre Lavelle, Amy Lewis","Torre Lavelle, Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",202,1
+82203,1,2014.1,2014,"8",4,1,1,"litu",822,8,9.4,89.84,"","","alive","Amy Lewis","Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",216,1
+82203,1,2014.11,2014,"8",18,1,1,"litu",822,8,9.4,91.39,"","","alive","Amy Lewis, Anne Marie","Amy Lewis, Anne Marie",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",230,1
+82203,1,2014.12,2014,"9",2,1,1,"litu",822,8,9.4,89.99,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",245,1
+82203,1,2014.13,2014,"9",15,1,1,"litu",822,8,9.4,90.21,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",258,1
+82203,1,2014.14,2014,"10",27,1,1,"litu",822,8,9.4,92.09,"","","alive","Justin Cooper","Maryam Sedaghatpour",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",300,1
+82203,1,2015.01,2015,"3",26,1,1,"litu",822,8,9.35,91.52,"","large poison ivy vine attached to tree, included in dendro diameter measurement","alive","Kent Harlow","Kent Harlow",10045,10045,"638",62.77999878,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",85,1
+82203,1,2015.02,2015,"4",23,1,1,"litu",822,8,9.35,91.48,"","","alive","Jade, Maria, Erika, Valentine","Jade, Maria, Erika, Valentine",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",113,1
+82203,1,2015.03,2015,"5",7,1,1,"litu",822,8,9.35,91.35,"","","alive","Erika, Maria","Erika, Maria",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",127,1
+82203,1,2015.04,2015,"5",19,1,1,"litu",822,8,9.35,91.93,"","","alive","Cheng Yin","Cheng Yin",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",139,1
+82203,1,2015.05,2015,"6",3,1,1,"litu",822,8,9.35,94,"","","alive","Cheng Yin","Cheng Yin",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",154,1
+82203,1,2015.06,2015,"6",16,1,1,"litu",822,8,9.35,96.23,"","","alive","Cheng Yin, Tori, MW","Cheng Yin, Tori, MW",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",167,1
+82203,1,2015.07,2015,"7",1,1,1,"litu",822,8,9.35,99.78,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",182,1
+82203,1,2015.08,2015,"7",14,1,1,"litu",822,8,9.35,101.81,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",195,1
+82203,1,2015.09,2015,"7",28,1,1,"litu",822,8,9.35,103.98,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",209,1
+82203,1,2015.1,2015,"8",11,1,1,"litu",822,8,9.35,104.82,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",223,1
+82203,1,2015.11,2015,"8",25,1,1,"litu",822,8,9.35,104.94,"","","alive","Cheng, Tori","Cheng, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",237,1
+82203,1,2015.12,2015,"9",16,1,1,"litu",822,8,9.35,105.46,"","","alive","Tori","Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",259,1
+82203,1,2015.13,2015,"11",2,1,1,"litu",822,8,9.35,106.45,"","poison ivy on tree","alive","Maria Wang, Shannon Herrity, Tori Meakem, Elizabeth Dupuis, Gonzalez, Worley, Lauren, Olivia, John","Maria Wang, Shannon Herrity, Tori Meakem, Elizabeth Dupuis, Gonzalez, Worley, Lauren, Olivia, John",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",306,1
+82203,1,2016.01,2016,"4",6,1,1,"litu",822,8,9.35,105.61,"","poison ivy on tree","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",10045,10045,"642",62.77999878,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",97,1
+82203,1,2016.02,2016,"5",12,1,1,"litu",822,8,9.35,107.31,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",133,1
+82203,1,2016.03,2016,"5",26,1,1,"litu",822,8,9.35,107.27,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",147,1
+82203,1,2016.04,2016,"6",9,1,1,"litu",822,8,9.35,108.2,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",161,1
+82203,1,2016.05,2016,"6",23,1,1,"litu",822,8,9.35,111.97,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",175,1
+82203,1,2016.06,2016,"7",7,1,1,"litu",822,8,9.35,115.37,"","","alive","Tom, Tori","Tom, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",189,1
+82203,1,2016.07,2016,"7",21,1,1,"litu",822,8,9.35,117.76,"","","alive","Tom, Tori","Tom, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",203,1
+82203,1,2016.08,2016,"8",4,1,1,"litu",822,8,9.35,120.14,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",217,1
+82203,1,2016.09,2016,"8",18,1,1,"litu",822,8,9.35,120.41,"","","alive","Tori Meakem","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",231,1
+82203,1,2016.1,2016,"9",1,1,1,"litu",822,8,9.35,119.95,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",245,1
+82203,1,2016.11,2016,"9",13,1,1,"litu",822,8,9.35,119.66,"","","alive","Erika, Tori","Erika, Tori",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",257,1
+82203,1,2016.12,2016,"9",29,1,1,"litu",822,8,9.35,120.69,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",273,1
+82203,1,2016.13,2016,"10",13,1,1,"litu",822,8,9.35,120.96,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",287,1
+82203,1,2016.14,2016,"10",27,1,1,"litu",822,8,9.35,120.21,"","","alive","Tori, Kate","Tori, Kate",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",301,1
+82203,1,2016.15,2016,"11",10,1,1,"litu",822,8,9.35,120.07,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",10045,10045,NA,62.77999878,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",315,1
+82203,1,2017.01,2017,"4",18,1,1,"litu",822,8,9.4,120.21,"","","alive","Erika Gonzalez-Akre, Joe Kolowski","Caroline Kittle",10045,10045,NA,62.78,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",108,1
+82203,1,2017.02,2017,"5",18,1,1,"litu",822,8,9.4,120.95,"","","alive","Victoria Meakem","Victoria Meakem",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",138,1
+82203,1,2017.03,2017,"6",2,1,1,"litu",822,8,9.4,122.04,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",153,1
+82203,1,2017.04,2017,"6",21,1,1,"litu",822,8,9.4,126.64,"","","alive","Abigail Ferson","Abigail Ferson",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",172,1
+82203,1,2017.05,2017,"6",30,1,1,"litu",822,8,9.4,127.73,"","","alive","Abigail Ferson","Abigail Ferson",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",181,1
+82203,1,2017.06,2017,"7",13,1,1,"litu",822,8,9.4,129.6,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",194,1
+82203,1,2017.07,2017,"7",31,1,1,"litu",822,8,9.4,131.85,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",212,1
+82203,1,2017.09,2017,"8",17,1,1,"litu",822,8,9.4,132.19,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",229,1
+82203,1,2017.1,2017,"9",11,1,1,"litu",822,8,9.4,131.95,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",254,1
+82203,1,2017.11,2017,"9",21,1,1,"litu",822,8,9.4,131.84,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",264,1
+82203,1,2017.12,2017,"11",15,1,1,"litu",822,8,9.4,132.7,"","","alive","Lauren Bowman, Mario Morales","Mario Morales",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",319,1
+82203,1,2018.01,2018,"3",9,1,1,"litu",822,8,9.4,132.1,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",68,1
+82203,1,2018.02,2018,"4",6,1,1,"litu",822,8,9.4,131.68,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",96,1
+82203,1,2018.03,2018,"4",26,1,1,"litu",822,8,9.4,132.4,"","","alive","Tim McNeil","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",116,1
+82203,1,2018.04,2018,"5",15,1,1,"litu",822,8,9.4,132.37,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",135,1
+82203,1,2018.05,2018,"5",29,1,1,"litu",822,8,9.4,132.92,"","","alive","Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",149,1
+82203,1,2018.06,2018,"6",14,1,1,"litu",822,8,9.4,138.04,"","","alive","Maya Prestipino","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",165,1
+82203,1,2018.07,2018,"6",29,1,1,"litu",822,8,9.4,141.26,"","","alive","Maya Prestipino","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",180,1
+82203,1,2018.08,2018,"7",12,1,1,"litu",822,8,9.4,142.32,"","","alive","Maya Prestipino","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",193,1
+82203,1,2018.09,2018,"7",26,1,1,"litu",822,8,9.4,147,"","","alive","Mario Morales","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",207,1
+82203,1,2018.1,2018,"8",9,1,1,"litu",822,8,9.4,144.71,"","","alive","Sofia Altamirano, Eliana Garcia (UCSB), Ryan Helcoski","Ryan Helcoski",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",221,1
+82203,1,2018.11,2018,"8",23,1,1,"litu",822,8,9.4,145.28,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",235,1
+82203,1,2018.12,2018,"9",28,1,1,"litu",822,8,9.4,145.74,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",271,1
+82203,1,2018.13,2018,"10",18,1,1,"litu",822,8,9.4,144.8,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",291,1
+82203,1,2018.14,2018,"11",8,1,1,"litu",822,8,9.4,145,"","","alive","Abigail Ferson, Caroline Kittle","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,4,4,NA,NA,0,0,0,"SCBI",312,1
+82203,1,2019.01,2019,"March",28,1,1,"litu",822,8,9.4,144.1,"RE","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",10045,10045,NA,62.78,0,106,2,NA,1.31,NA,NA,NA,NA,0,0,0,"SCBI",NA,1
+82203,1,2019.011,2019,"April",4,1,1,"litu",822,8,9.4,15.31,"","","alive","Norbert Kunert, Ian McGregor","Ian McGregor",10045,10045,"648",65.4,1,934,2,NA,1.4,NA,NA,NA,NA,0,0,0,"SCBI",NA,2
+82203,1,2019.02,2019,"April",11,1,1,"litu",822,8,9.4,15.22,"","","alive","Rebecca Banbury Morgan","Ian McGregor",10045,10045,NA,65.4,0,934,2,NA,1.4,NA,NA,NA,NA,0,0,0,"SCBI",NA,2
+82203,1,2019.03,2019,"April",25,1,1,"litu",822,8,9.4,14.33,"","","alive","Alyssa Terrell","Ian McGregor",10045,10045,NA,65.4,0,934,2,NA,1.4,NA,NA,NA,NA,0,0,0,"SCBI",NA,2
+82203,1,2019.04,2019,"May",9,1,1,"litu",822,8,9.4,15.64,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,65.4,0,934,2,NA,1.4,NA,NA,NA,NA,0,0,0,"SCBI",NA,2
+82203,1,2019.05,2019,"May",22,1,1,"litu",822,8,9.4,16.28,""," ","alive","Rebecca Banbury Morgan","Ian McGregor",10045,10045,NA,65.4,0,934,2,NA,1.4,NA,NA,NA,NA,0,0,0,"SCBI",NA,2
+82203,1,2019.06,2019,"June",4,1,1,"litu",822,8,9.4,18.61,"","","alive","Ian McGregor","Ian McGregor",10045,10045,NA,65.4,0,934,2,NA,1.4,NA,NA,NA,NA,0,0,0,"SCBI",NA,2
