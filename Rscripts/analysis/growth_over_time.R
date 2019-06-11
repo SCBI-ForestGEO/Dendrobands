@@ -3,11 +3,18 @@
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created March 2018
 ######################################################
+library(tidyverse) #1
+library(zoo) #1,2
+library(chron)
+library(ggplot2) #2a, 4
+library(data.table)
+library(RColorBrewer)
+library(lubridate) #6
 
 #1 convert intraannual growth to dbh####
 
-dirs <- dir("data", pattern="_201[0-8]*.csv")
-years <- c(2010:2018)
+dirs <- dir("data", pattern="_201[0-9]*.csv")
+years <- c(2010:2019)
 
 #1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID ####
 
@@ -16,7 +23,7 @@ all_years_intra <- list()
 
 for (k in seq(along=dirs)){
     file <- dirs[[k]]
-    yr <- read.csv(file, stringsAsFactors = FALSE)
+    yr <- read.csv(paste0("data/", file), stringsAsFactors = FALSE)
     yr_intra <- yr[yr$intraannual==1, ]
     yr_intra$dbh <- as.numeric(yr_intra$dbh)
 
@@ -48,7 +55,7 @@ all_years_bi <- list()
 
 for (k in seq(along=dirs)){
   file <- dirs[[k]]
-  yr <- read.csv(file, stringsAsFactors = FALSE)
+  yr <- read.csv(paste0("data/", file), stringsAsFactors = FALSE)
   yr_bi <- yr[yr$intraannual == 0, ]
   yr_bi$dbh <- as.numeric(yr_bi$dbh)
   
@@ -109,8 +116,6 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
 ##2vii. UNCOMMON If new.band=1, measure is NA, and dbh is different, dbh2 is the new dbh plus the mean of the differences of the previous dbh2's. 
 
 ##intraannual data ####
-library(zoo)
-
 for(stems in names(all_stems_intra)) {
   tree.n <- all_stems_intra[[stems]]
   tree.n$dbh2 <- NA
@@ -167,8 +172,6 @@ for(stems in names(all_stems_intra)) {
 # }
 
 ##biannual data ####
-library(zoo)
-
 for(stems in names(all_stems_bi)) {
   tree.n <- all_stems_bi[[stems]]
   tree.n$dbh2 <- NA
@@ -222,8 +225,6 @@ dendro_2017 <- read.csv("data/scbi.dendroAll_2017.csv")
 intra <- dendro_2017[dendro_2017$intraannual==1, ]
 test <- intra[intra$tag==60459, ] #60459 has band replaced but with NAs for a few measurements. The following code should be tried with 10671 as well.
 
-library(zoo)
-
 test$dbh2 <- NA
 test$dbh2[1] <- test$dbh[1]
 q <- mean(unlist(tapply(test$measure, test$dendroID, diff)), na.rm=TRUE)
@@ -261,13 +262,9 @@ for(i in 2:nrow(test)) {
 
 #2a. for-loop graphs ####
 #this code makes graphs for every dendroband stemID
-
-library(chron)
-library(ggplot2)
-
 pdf(file = "results/dbh_growth_dendrobands.pdf")
-for (j in names(all_stems)){
-  dendro <- all_stems[[j]]
+for (j in names(all_stems_intra)){
+  dendro <- all_stems_intra[[j]]
   
   dendro$date <- paste0(dendro$month, sep="/", dendro$day, sep="/", dendro$year)
   dendro$date <- as.Date(dendro$date, format="%m/%d/%Y")
@@ -277,7 +274,7 @@ for (j in names(all_stems)){
   
   q <- ggplot(dendro, aes(x = date, y = dbh2)) +
     geom_line(color = "#0c4c8a") +
-    labs(title = "Tree Growth from Dendrobands 2011-2018",
+    labs(title = "Tree Growth from Dendrobands 2011-2019",
          subtitle = paste0("Tag: ", dendro$tag, sep=", ", 
                            "Stemtag:", dendro$stemtag, sep=", ",
                            "StemID: ", dendro$stemID),
@@ -309,10 +306,9 @@ dev.off()
 #3 find variability of tree growth by species by year #####
 
 #2010 not included because only one measurement
-dirs <- dir("data", pattern="_201[1-8]*.csv")
+dirs <- dir("data", pattern="_201[1-9]*.csv")
 
-library(data.table)
-date <- c(2011:2018)
+date <- c(2011:2019)
 filename <- paste(date, "range", sep="_")
 
 all_sp <- list()
@@ -320,7 +316,7 @@ all_files <- list()
 
 #this nested for-loop first makes a list of each species' average growth (max-min) in a year. Then, it combines all the years into one list (all_files).
 for (j in seq(along=dirs)){
-  year <- read.csv(dirs[[j]])
+  year <- read.csv(paste0("data/", dirs[[j]]))
   year$sp <- as.character(year$sp)
   sp <- c(unique(year$sp))
   
@@ -365,20 +361,25 @@ step2[ ,c(2:9)] <- round(step2[ ,c(2:9)], digits=2)
 step2$mingrowth_mm <- apply(step2[, 2:9], 1, min, na.rm=TRUE)
 step2$maxgrowth_mm <- apply(step2[, 2:9], 1, max, na.rm=TRUE)
 step2$avg_growth_range_mm <- step2[, "maxgrowth_mm"] - step2[, "mingrowth_mm"]
+step2$median_growth_mm <- apply(step2[, 2:9], 1, median, na.rm=TRUE)
 
 write.csv(step2, "results/growth_variability_by_sp.csv", row.names=FALSE)
 #########################################################################################
 #4. growth variability graphs ####
-library(ggplot2)
-library(RColorBrewer)
-
 pdf("results/mean_growth_by_species.pdf", width=12)
+
+#median of the avg growth for all dendro species
+ggplot(data = step2) +
+  aes(x = sp, weight = median_growth_mm) +
+  geom_bar(fill = "#0c4c8a") +
+  labs(title="Median Annual Growth by Species", x="Species", y="Growth (mm)") +
+  theme_minimal()
 
 #this graph shows the average range of growth per species. The lower numbers means the avg max and avg min are closer together. Almost all species are under 10mm, which means on average each species grows less than 1cm per growing season (1 cm according to dendroband measurements).
 ggplot(data = step2) +
   aes(x = sp, weight = avg_growth_range_mm) +
   geom_bar(fill = "#0c4c8a") +
-  labs(title="Avg (Dendroband) Growth Range by Species", x="Species", y="Growth (mm)")
+  labs(title="Avg (Dendroband) Growth Range by Species", x="Species", y="Growth (mm)") +
   theme_minimal()
 
 #the following graph breaks the first one apart and plots the max by the min. It reveals a good fit relationship between the two, suggesting that most species follow a similar average pattern.
@@ -435,14 +436,14 @@ file <- rbindlist(all_sp)
 colnames(file) <- c("sp", "avg_range")
 file$avg_range <- round(file$avg_range, digits=2)
 #####################################################################################
-#6. McMahon RDendrom package
+#6. McMahon RDendrom package ####
+#see https://rdrr.io/github/seanmcm/RDendrom/f/vignettes/RDendrom_vignette.Rmd
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems$stemID_10045
+test_intra <- all_stems_intra$stemID_10045
 
 ##6a. format data and run code
-library(data.table)
 test_intra <- setnames(test_intra, 
       old=c("treeID", "stemID", "sp", "dbh", "measure", "year", "new.band"), 
       new=c("TREE_ID", "UNIQUE_ID", "SP", "ORG_DBH", "GAP_WIDTH", "YEAR", "NEW_BAND"))
@@ -452,7 +453,7 @@ test_intra[,newcols] <- 0
 test_intra$SITE <- "SCBI"
 test_intra$ORG_DBH <- test_intra$ORG_DBH/10
 
-library(lubridate)
+
 test_intra$DOY <- as.Date(with(test_intra, paste(YEAR, month, day, sep="-")), "%Y-%m-%d")
 test_intra$DOY <- yday(test_intra$DOY)
 test_intra$SITE <- "SCBI"
@@ -489,7 +490,6 @@ make.dendro.plot.tree(Dendro.ind = Dendro.tree[[1]], param.tab = subset(param.ta
 
 plot(Dendro.tree, params=param.table)
 
-library(ggplot2)
 q <- ggplot(Dendro.complete, aes(x = YEAR, y = DBH_TRUE)) +
   geom_line(color = "#0c4c8a") +
   labs(title = "Tree Growth from Dendrobands 2011-2018",
