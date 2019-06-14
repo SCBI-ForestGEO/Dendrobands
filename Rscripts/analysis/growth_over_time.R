@@ -17,7 +17,6 @@ dirs <- dir("data", pattern="_201[0-9]*.csv")
 years <- c(2010:2019)
 
 #1a. this loop breaks up each year's dendroband trees into separate dataframes by stemID ####
-
 ##grouping by intraannual ####
 all_years_intra <- list()
 
@@ -104,7 +103,7 @@ findDendroDBH= function(dbh1,m1,m2,func=objectiveFuncDendro){
   return(dbh2)
 }
 ###############################################################################
-#1b. this loop says the following ####
+#1b. loop to create timeseries of dbh measurements manually ####
 ##1. First, assigns the first dbh of the growth column as the first dbh.
 ##2. Second, is conditional:
 ##2i.If new.band=0 (no band change), we have a measure, and we have a previous dbh2, use Condit's function to determine next dbh2 based on caliper measurement. 
