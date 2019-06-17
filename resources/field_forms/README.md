@@ -61,3 +61,14 @@ If printing the first form for the season, please make sure the correct [R-scrip
 - flagging tape
 - pencils
 - eraser
+
+### checklist for fixing/replacing bands
+- everything in the first checklist above
+- DBH pole and DBH tape
+- replacement bands
+- everything in green bag
+  - small hole punchers (easier to leave the giant ones in office)
+  - metal scissors
+  - small metal sleeves (make more if need)
+  - springs, large and small
+  - sharpie (shouldn't need if replacement bands made but never know)
