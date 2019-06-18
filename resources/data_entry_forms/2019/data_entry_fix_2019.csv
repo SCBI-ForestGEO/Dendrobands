@@ -69,8 +69,9 @@ tag,stemtag,sp,quadrat,lx,ly,survey.ID,year,month,day,dbh.mm,new.band,dendroID,t
 192542,1,litu,1929,18.9,3.8,2019.041,2019,May,21,326,1,963,2,326,1.4,7.07,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,28948,28948,NA,NA,NA,NA,NA
 192544,1,litu,1929,14.4,1.8,2019.041,2019,May,21,349,1,964,2,349,1.4,11.93,,,alive,"Alyssa Terrell, Ian McGregor",Ian McGregor,1,1,28950,28950,NA,NA,NA,NA,NA
 60569,1,caca,614,19.4,16.2,2019.051,2019,May,22,100,1,966,2,100,1.4,7.85,,,alive,"Erika Gonzalez-Akre, Ian McGregor",Ian McGregor,1,1,7548,7548,NA,NA,NA,NA,NA
-70220,1,qual,702,18.3,0.8,,,,,,1,,,,,,,,alive,,,1,1,8238,8238,NA,NA,NA,NA,NA
-102261,1,qual,1022,5.3,20.1,,,,,,1,,,,,,,,alive,,,1,1,13198,13198,NA,NA,NA,NA,NA
-102348,1,qual,1025,16.5,11.5,,,,,,1,,,,,,,,alive,,,1,1,13284,13284,NA,NA,NA,NA,NA
-142380,1,qual,1425,6.8,13.1,,,,,,1,,,,,,,,alive,,,1,1,20329,20329,NA,NA,NA,NA,NA
-182693,1,litu,1830,15.3,13.2,,,,,,1,,,,,,,,alive,,,1,0,27584,27584,NA,NA,NA,NA,NA
+70220,1,qual,702,18.3,0.8,2019.061,2019,June,18,557,1,967,2,550,1.4,10.3,,,alive,"Carl M, Jach R, Ian McGregor",Ian McGregor,1,1,8238,8238,NA,NA,NA,NA,NA
+100905,1,litu,1008,10,1.6,2019.061,2019,June,18,680,1,968,2,677,1.4,13.74,,,alive,"Carl M, Jach R, Ian McGregor",Ian McGregor,1,1,12529,12529,NA,NA,NA,NA,NA
+102261,1,qual,1022,5.3,20.1,2019.061,2019,June,18,675,1,969,2,666,1.4,13.4,,,alive,"Carl M, Jach R, Ian McGregor",Ian McGregor,1,1,13198,13198,NA,NA,NA,NA,NA
+102348,1,qual,1025,16.5,11.5,2019.061,2019,June,18,888,1,970,2,876,1.4,11.62,,,alive,"Carl M, Jach R, Ian McGregor",Ian McGregor,1,1,13284,13284,NA,NA,NA,NA,NA
+142380,1,qual,1425,6.8,13.1,2019.061,2019,June,18,593,1,971,2,588,1.4,16.8,,,alive,"Carl M, Jach R, Ian McGregor",Ian McGregor,1,1,20329,20329,NA,NA,NA,NA,NA
+182693,1,litu,1830,15.3,13.2,2019.061,2019,June,19,,1,972,2,,,,,,alive,"Carl M, Jach R, Ian McGregor",Ian McGregor,1,0,27584,27584,NA,NA,NA,NA,NA
