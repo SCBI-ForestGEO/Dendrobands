@@ -3,12 +3,12 @@
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created March 2018
 ######################################################
-library(tidyverse) #1
+library(tidyverse) #1,3,4
 library(zoo) #1,2
 library(chron)
 library(ggplot2) #2a, 4
-library(data.table)
-library(RColorBrewer)
+library(data.table) #3
+library(RColorBrewer) #4
 library(lubridate) #6
 
 #1 convert intraannual growth to dbh####
@@ -332,7 +332,8 @@ for (j in seq(along=dirs)){
     colnames(sprange) <- c("tag", "stemtag", "sp", "growth")
     
     #remove NA and values over 50 (would indicate band replacement)
-    sprange <- subset(sprange, !is.na(sprange$growth) & sprange$growth <= 50)
+    #also removed values == 0 (this never happens, plus leaving it in gives a skewed average if checking this during the middle of the growing season, before the second biannual census)
+    sprange <- subset(sprange, !is.na(sprange$growth) & sprange$growth <= 50 & sprange$growth != 0)
     #take the average of the ranges
     sprange <- if (nrow(sprange)>=2){
       aggregate(sprange[, c("growth")], list(sprange$sp), mean)
@@ -349,12 +350,11 @@ for (j in seq(along=dirs)){
 names(all_files) <- date
 
 #now, coerce the list of lists into a usable dataframe
-step1 <- lapply(all_files, rbindlist)
-library(tidyverse)
+step1 <- lapply(all_files, rbindlist, use.names=FALSE)
 step2 <- reduce(step1, merge, by = "sp", all=TRUE)
 
 #round to 2nd decimal
-step2[ ,c(2:9)] <- round(step2[ ,c(2:9)], digits=2)
+step2[ ,c(2:10)] <- round(step2[ ,c(2:10)], digits=2)
 
 #find range of years
 step2$mingrowth_mm <- apply(step2[, 2:9], 1, min, na.rm=TRUE)
@@ -365,13 +365,27 @@ step2$median_growth_mm <- apply(step2[, 2:9], 1, median, na.rm=TRUE)
 write.csv(step2, "results/growth_variability_by_sp.csv", row.names=FALSE)
 #########################################################################################
 #4. growth variability graphs ####
+cols <- colnames(step2[, c(2:10)])
+step3 <- step2[, c(1:10)]
+step3 <- step3 %>%
+  gather(cols, key = "year", value = "avg_growth")
+step3$year <- ifelse(grepl("2011", step3$year), 2011,
+              ifelse(grepl("2012", step3$year), 2012,
+              ifelse(grepl("2013", step3$year), 2013,
+              ifelse(grepl("2014", step3$year), 2014,
+              ifelse(grepl("2015", step3$year), 2015,
+              ifelse(grepl("2016", step3$year), 2016,
+              ifelse(grepl("2017", step3$year), 2017,
+              ifelse(grepl("2018", step3$year), 2018,
+                                  2019))))))))
+step3$year <- as.character(step3$year)
+
 pdf("results/mean_growth_by_species.pdf", width=12)
 
 #median of the avg growth for all dendro species
-ggplot(data = step2) +
-  aes(x = sp, weight = median_growth_mm) +
-  geom_bar(fill = "#0c4c8a") +
-  labs(title="Median Annual Growth by Species", x="Species", y="Growth (mm)") +
+ggplot(data = step3, aes(x = sp)) +
+  geom_bar(aes(y = avg_growth, fill=year), stat = "identity", position = "dodge") +
+  labs(title="Mean Annual Growth by Species", x="Species", y="Growth (mm)") +
   theme_minimal()
 
 #this graph shows the average range of growth per species. The lower numbers means the avg max and avg min are closer together. Almost all species are under 10mm, which means on average each species grows less than 1cm per growing season (1 cm according to dendroband measurements).
