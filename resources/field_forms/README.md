@@ -49,7 +49,7 @@ If printing the first form for the season, please make sure the correct [R-scrip
 
 9. *Double check in print preview before printing!!*
 
-10. *Optional:* Show page number to clarify how many trees are in each area. After filtering by everything above, in the print preview pane, select "Page Steup", then the "Header/Footer" tab. On the Header drop menu, select "Page 1 of ?" and it will appear centered. Click on "Custom Header", copy the code in the center section and paste in the right section. Click ok.
+10. *Optional:* Show page number to clarify how many trees are in each area. After filtering by everything above, in the print preview pane, select "Page Setup", then the "Header/Footer" tab. On the Header drop menu, select "Page 1 of ?" and it will appear centered. Click on "Custom Header", move the code in the center section and paste in the right section. Click ok.
 
 
 ## Checklist for collecting data
