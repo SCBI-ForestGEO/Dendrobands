@@ -3,7 +3,9 @@
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created October 2018
 ######################################################
-
+library(dplyr) #1
+library(writexl) #1
+library(zoo) #3
 
 #1 create field_form intraannual
 #2 create data_entry form intraannual
@@ -19,7 +21,7 @@ dendro_trees <- read.csv("data/dendro_trees.csv")
 #subset by what's in intraannual survey
 intra <- data_2019[data_2019$intraannual == "1", ]
 
-#subset by max survey.ID
+#subset by max survey.ID (specific for each stemID - this code already takes into account if a stem has a newer measurement in a 2019.061 scenario compared to 2019.06)
 prevmeasin <- NULL
 for (i in seq(along=unique(intra$stemID))){
   sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
@@ -50,8 +52,7 @@ data_intra$"Date3: SID: Name:" = NA
 data_intra$"Date4: SID: Name:" = NA
 data_intra$"Date5: SID: Name:" = NA
 
-library(dplyr)
-data_intra<-data_intra %>% rename("Date1:  SID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag)
+data_intra <- data_intra %>% rename("Date1:  SID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag, "dbh_18" = dbh)
 
 data_intra$prevmeas = prevmeasin$measure
 
@@ -71,10 +72,10 @@ matrix <- function(data_intra, table_title) {
 }
 
 temp <- matrix(data_intra, table_title=('Intraannual Survey'))
+# temp <- as.data.frame(temp) #don't use this if using xlsx package
 
-
-library(xlsx)
-write.xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE)
+# write_xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE)
+write_xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", col_names=FALSE)
 
 #to add a blank spacer row btwn title and columns, add
 "rep('', ncol(data_intra)), # blank spacer row"
@@ -151,7 +152,6 @@ test <- rbind(data_2019, data_intra)
 test <- test[order(test[,"tag"], test[,"stemtag"], test[,"survey.ID"]),] #order by tag and survey.ID
 
 ## these values are constant from the previous survey.ID
-library(zoo)
 test$biannual <- na.locf(test$biannual)
 test$intraannual <- na.locf(test$intraannual)
 test$lx <- na.locf(test$lx)
@@ -167,7 +167,6 @@ test$dendHt <- na.locf(test$dendHt)
 test$type <- na.locf(test$type)
 
 ## these values are not always constant
-library(dplyr)
 test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
 test$status <- as.character(test$status)
 test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
