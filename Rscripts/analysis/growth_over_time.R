@@ -480,6 +480,7 @@ test_intra$BAND_NUM <- unlist(mapply(rep, seq(length(band.index)), length.out = 
 #remove NAs in caliper measurements
 test_intra <- subset(test_intra, complete.cases(test_intra$GAP_WIDTH))
 
+#beginning of RDendrom functions
 get.optimized.dendro(test_intra, OUTPUT.folder = "results/McMahon_code_output")
 
 param.table.name = "Param_table.csv"
