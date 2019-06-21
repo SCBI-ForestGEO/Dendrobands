@@ -3,7 +3,8 @@
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created October 2018
 ######################################################
-library(data.table) #1b, 2a
+library(data.table) #1b, 2a, 2b
+library(xlsx) #2a
 
 dendro19 <- read.csv("data/scbi.dendroAll_2019.csv") 
 
@@ -20,7 +21,7 @@ length(c(grep("RE", dendro19$codes)))
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
 ##these bands were marked as "RE" already from the field survey.
-data_fix <- dendro19[which(dendro19$survey.ID ==2019.06), ]
+data_fix <- dendro19[which(dendro19$survey.ID ==2019.07), ]
 data_fix <- data_fix[grep("RE", data_fix$codes), ]
  #in case any fixes have been done since the fall survey
 
@@ -41,11 +42,11 @@ mean(range)
 sd(range)
 
 ##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 140 to have a code of RE.
-data_install<-dendro18[which(dendro18$survey.ID=='2018.14'), ]
+data_install<-dendro19[which(dendro19$survey.ID=='2019.07'), ]
 data_install$codes <- as.character(data_install$codes)
-data_install$codes <- ifelse(data_install$measure >= 140 & !grepl("RE", data_install$codes), paste(data_install$codes, "RE", sep = ";"), data_install$codes)
+data_install$codes <- ifelse(data_install$measure >= 135 & !grepl("RE", data_install$codes), paste(data_install$codes, "RE", sep = ";"), data_install$codes)
 data_install$codes <- gsub("^;", "", data_install$codes)
-data_fix_all <- data_install[grep("RE", data_install$codes), ]
+data_fix <- data_install[grep("RE", data_install$codes), ]
 
 ######################################################################################
 #2 Create forms
@@ -69,7 +70,6 @@ data_field$codes <- gsub("[[:punct:]]*RE[[:punct:]]*", "", data_field$codes)
 data_field$field.date = NA
 data_field$dbhnew.cm = NA
 
-library(data.table)
 setnames(data_field, old=c("codes", "stemtag", "dendDiam", "dendHt", "measure"), new=c("codes&notes", "stem", "dendDiam.cm", "dendHt.m", "measure.mm"))
 
 data_field[is.na(data_field)] <- " "
@@ -89,8 +89,7 @@ matrix <- function(data_field, table_title) {
 
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
-library(xlsx)
-write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-061.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-071.xlsx", row.names = FALSE, col.names=FALSE)
 
 
 #2b. Create data_entry form ####
@@ -105,7 +104,6 @@ data_entry$crown.condition <- NA
 data_entry$crown.illum <- NA
 data_entry$location <- NULL #we don't need this column for data entry
 
-library(data.table)
 data_entry <- setnames(data_entry, old=c("dbh", "dendDiam", "dendHt", "measure"), new=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"))
 
 fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv")
