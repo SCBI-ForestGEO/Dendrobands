@@ -400,7 +400,7 @@ tag,stemtag,sp,quadrat,biannual,intraannual,cored,treeID,stemID,dendro.start.yea
 132542,1,quve,1332,1,0,1,18835,18835,2010,January,27,NA,NA,NA,NA,,North,15.4,2.9,255.4,622.9,747626.4,4309135,38.89621,-78.14472
 132545,1,litu,1332,1,0,0,18838,18838,2010,January,27,NA,NA,NA,NA,,North,9.5,11.2,249.5,631.2,747620.3,4309143,38.89629,-78.14479
 140270,1,ulru,1401,1,0,0,19102,19102,2010,January,27,2011,December,15,2011,,South,0.3,18.3,260.3,18.3,747645.3,4308531,38.89077,-78.14472
-140467,1,quve,1404,1,0,0,19280,19280,2010,January,27,NA,NA,NA,NA,,South,2.1,18.5,262.1,78.5,747645.7,4308591,38.89131,-78.14469
+140467,1,quve,1404,1,0,0,19280,19280,2010,January,27,2019,June,20,2019,"Noticed this tree when doing recon for intraannual survey. Large bark flecking affecting band, tree also rotting",South,2.1,18.5,262.1,78.5,747645.7,4308591,38.89131,-78.14469
 140609,1,litu,1403,1,0,0,19411,19411,2010,January,27,NA,NA,NA,NA,,South,4.3,3.6,264.3,43.6,747648.7,4308556,38.89099,-78.14467
 140646,1,litu,1405,1,0,0,19443,19443,2010,January,27,NA,NA,NA,NA,,South,1,8.3,261,88.3,747644.4,4308601,38.8914,-78.14471
 140736,1,quve,1407,1,0,1,19530,19530,2010,January,27,NA,NA,NA,NA,,South,2.4,13.6,262.4,133.6,747644.8,4308646,38.8918,-78.14469
@@ -437,7 +437,7 @@ tag,stemtag,sp,quadrat,biannual,intraannual,cored,treeID,stemID,dendro.start.yea
 142733,1,litu,1432,1,0,0,20624,20624,2010,January,27,NA,NA,NA,NA,,North,0.5,5.4,260.5,625.4,747631.4,4309138,38.89623,-78.14466
 142735,1,qual,1432,1,0,0,20626,20626,2010,January,27,NA,NA,NA,NA,,North,5.4,9.6,265.4,629.6,747636.2,4309142,38.89627,-78.1446
 143707,1,cagl,1426,1,0,0,33781,46862,2013,October,29,NA,NA,NA,NA,,North,0.9,1.6,260.9,501.6,747634.7,4309014,38.89512,-78.14467
-150756,1,quve,1503,1,0,0,21310,21310,2010,January,27,NA,NA,NA,NA,,South,13.6,16.3,293.6,56.3,747677.7,4308570,38.89111,-78.14433
+150756,1,quve,1503,1,0,0,21310,21310,2010,January,27,2019,June,20,2019,"Noticed this tree when doing recon for intraannual survey. Large grape vine affecting band, bark shedding close to band, decided to remove (tree also very unhealthy)",South,13.6,16.3,293.6,56.3,747677.7,4308570,38.89111,-78.14433
 150830,1,litu,1508,1,0,0,21374,21374,2010,January,27,2012,November,29,2013,band removed in 2013. Was around multiple stems. Not replaced due to irregular trunk,South,14.6,16.6,294.6,156.6,747676.4,4308670,38.89201,-78.14431
 152153,1,ploc,1520,1,0,0,21906,21906,2010,January,27,NA,NA,NA,NA,,North,6.8,0.3,286.8,380.3,747663.4,4308893,38.89402,-78.14438
 152513,1,qupr,1525,1,0,0,22252,22252,2019,February,15,NA,NA,NA,NA,,North,4.6,19.2,284.60001,499.20001,747658.5,4309012,38.89509,-78.1444
