@@ -3,7 +3,7 @@
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created October 2018
 ######################################################
-
+library(data.table) #1b, 2a
 
 dendro19 <- read.csv("data/scbi.dendroAll_2019.csv") 
 
@@ -30,7 +30,6 @@ trends <- trends[which(trends$survey.ID==c('2018.01', '2018.14')), ]
 
 ##determine which trees will need to have dendroband replaced based on measurements. The max a caliper can measure is 153.71 mm.
 ##if don't have much time, then focus first on those bands that really need fixing 
-library(data.table)
 growth <- data.table(trends)
 growth<-growth[,list(band.growth=diff(measure)),list(tag,sp)]
 
@@ -119,17 +118,17 @@ write.csv(fix_bands, "resources/data_entry_forms/2019/data_entry_fix_2019.csv", 
 #3a. Merging if bands replaced after fall biannual ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv")
-#install$codes <- as.character(install$notes)
+fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv", colClasses = c("codes" = "character"))
+#install$codes <- ifelse(is.na(install$codes), "", "F")
+#install$notes <- ifelse(is.na(install$notes), "", install$notes)
+
+data_intra <- read_csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-07.csv", col_types = cols(codes = col_character()))
+data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
+data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
 
 #subset by the surveyID you need
 install <- fix_bands[fix_bands$survey.ID == 2019.061, ]
 
-#there is something weird where sometimes loading the csv makes the "F" code be read as "False" by R, despite trying different ways to address it during the importing process. Hence, this line of code.
-#install$codes <- ifelse(is.na(install$codes), "", "F")
-#install$notes <- ifelse(is.na(install$notes), "", install$notes)
-
-library(data.table)
 setnames(install, old=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"), new=c("dbh", "dendDiam", "dendHt", "measure"), skip_absent=TRUE)
 
 data_2019 <- rbind(data_2019, install)
