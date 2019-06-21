@@ -77,7 +77,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 82422,1,litu,831,2019.11,,,,,,,,,North
 91477,1,litu,908,2019.11,,,,,F,,,,South
 90612,1,quru,910,2019.11,,,,,F,,,,South
-90752,1,qual,916,2019.11,,,,,F,,,,North
+90752,1,qual,916,2019.11,,,,,,,,,North
 90660,1,quru,913,2019.11,,,,,F,,,,South
 92139,1,quru,920,2019.11,,,,,,,,,North
 100754,1,quru,1005,2019.11,,,,,F,,,,South
