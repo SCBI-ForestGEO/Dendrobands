@@ -454,7 +454,9 @@ file$avg_range <- round(file$avg_range, digits=2)
 
 devtools::install_github("seanmcm/RDendrom")
 library(RDendrom)
-test_intra <- all_stems_intra$stemID_10045
+# test_intra <- all_stems_intra$stemID_10045
+# test_intra <- all_stems_intra$stemID_7444
+test_intra <- all_stems_intra$stemID_1609
 
 ##6a. format data and run code
 test_intra <- setnames(test_intra, 
@@ -495,7 +497,7 @@ param.table.extended <- read.csv(file = paste(OUTPUT.folder, param.table.name, s
 
 
 ##6b. graphs
-make.dendro.plot.ts(ts.data = Dendro.split[[3]], params = param.table[3, ], day = seq(365))
+make.dendro.plot.ts(ts.data = Dendro.split[[4]], params = param.table[3, ], day = seq(365))
 
 make.dendro.plot.tree(Dendro.ind = Dendro.tree[[1]], param.tab = subset(param.table, TREE_ID == Dendro.tree[[1]]$TREE_ID[1]))
 
