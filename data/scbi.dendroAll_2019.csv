@@ -537,7 +537,8 @@
 72116,1,2019.04,2019,"May",9,1,1,"litu",719,14.4,10.8,129.79,"","","alive","Ian McGregor","Ian McGregor",8761,8761,NA,476.2,0,72,2,NA,1.39,NA,NA,NA,NA
 72116,1,2019.05,2019,"May",22,1,1,"litu",719,14.4,10.8,130.19,""," ","alive","Rebecca Banbury Morgan","Ian McGregor",8761,8761,NA,476.2,0,72,2,NA,1.39,NA,NA,NA,NA
 72116,1,2019.06,2019,"June",4,1,1,"litu",719,14.4,10.8,132.31,"","","alive","Ian McGregor","Ian McGregor",8761,8761,NA,476.2,0,72,2,NA,1.39,NA,NA,NA,NA
-72116,1,2019.07,2019,"June",20,1,1,"litu",719,14.4,10.8,135.33,"","","alive","Ian McGregor","Ian McGregor",8761,8761,NA,476.2,0,72,2,NA,1.39,NA,NA,NA,NA
+72116,1,2019.07,2019,"June",20,1,1,"litu",719,14.4,10.8,135.33,"RE","band chosen to be changed for demonstration of dendrobands with high schoolers","alive","Ian McGregor","Ian McGregor",8761,8761,NA,476.2,0,72,2,NA,1.39,NA,NA,NA,NA
+72116,1,2019.071,2019,"June",26,1,1,"litu",719,14.4,10.8,18.05,"","","alive","Elizabeth Woolford, Ian McGregor","Ian McGregor",8761,8761,498,502,1,973,2,NA,1.4,NA,NA,NA,NA
 72122,1,2019.01,2019,"March",28,1,0,"caca",719,19.9,19,17.85,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",8767,8767,NA,83.3,0,73,2,NA,1.65,NA,NA,NA,NA
 72124,1,2019.01,2019,"March",28,1,1,"quru",719,12.5,19.4,99.63,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
 72124,1,2019.02,2019,"April",11,1,1,"quru",719,12.5,19.4,99.84,"","","alive","Rebecca Banbury Morgan","Ian McGregor",8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
@@ -1351,7 +1352,8 @@
 190067,1,2019.04,2019,"May",9,1,1,"litu",1902,19,2.2,127.03,"","","alive","Alyssa Terrell","Ian McGregor",27685,27685,NA,726.1,0,421,2,NA,1.3,NA,NA,NA,NA
 190067,1,2019.05,2019,"May",22,1,1,"litu",1902,19,2.2,128.59,""," ","alive","Ian McGregor","Ian McGregor",27685,27685,NA,726.1,0,421,2,NA,1.3,NA,NA,NA,NA
 190067,1,2019.06,2019,"June",4,1,1,"litu",1902,19,2.2,132.81,"","","alive","Ian McGregor","Ian McGregor",27685,27685,NA,726.1,0,421,2,NA,1.3,NA,NA,NA,NA
-190067,1,2019.07,2019,"June",20,1,1,"litu",1902,19,2.2,137.84,"","double-checked measurement","alive","Ian McGregor","Ian McGregor",27685,27685,NA,726.1,0,421,2,NA,1.3,NA,NA,NA,NA
+190067,1,2019.07,2019,"June",20,1,1,"litu",1902,19,2.2,137.84,"RE","double-checked measurement; band chosen to be changed for demonstration of dendrobands with high schoolers","alive","Ian McGregor","Ian McGregor",27685,27685,NA,726.1,0,421,2,NA,1.3,NA,NA,NA,NA
+190067,1,2019.071,2019,"June",26,1,1,"litu",1902,19,2.2,14.18,"","","alive","Elizabeth Woolford, Ian McGregor","Ian McGregor",27685,27685,734,739,1,974,2,NA,1.4,NA,NA,NA,NA
 190071,1,2019.01,2019,"March",28,1,0,"litu",1902,20,4.3,7.88,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",27689,27689,NA,211.6,0,795,2,NA,1.3,NA,NA,NA,NA
 190115,1,2019.01,2019,"March",28,1,0,"litu",1902,4.8,18.6,88.72,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",27723,27723,NA,923.5,0,680,2,NA,1.25,NA,NA,NA,NA
 190413,1,2019.01,2019,"March",28,1,1,"litu",1904,14.7,4.6,77.67,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",28001,28001,NA,1001.6,0,681,2,NA,1.2,NA,NA,NA,NA

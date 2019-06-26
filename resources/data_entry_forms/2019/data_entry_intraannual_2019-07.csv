@@ -61,7 +61,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 70494,2,caca,714,2019.07,2019,June,20,5.26,,,Ian McGregor,Ian McGregor,South
 70495,1,caca,714,2019.07,2019,June,20,8.29,,,Ian McGregor,Ian McGregor,South
 70581,1,quru,714,2019.07,2019,June,20,25.15,,,Ian McGregor,Ian McGregor,South
-72116,1,litu,719,2019.07,2019,June,20,135.33,,,Ian McGregor,Ian McGregor,North
+72116,1,litu,719,2019.07,2019,June,20,135.33,RE,band chosen to be changed for demonstration of dendrobands with high schoolers,Ian McGregor,Ian McGregor,North
 72124,1,quru,719,2019.07,2019,June,20,109.41,,,Ian McGregor,Ian McGregor,North
 72210,1,qual,721,2019.07,2019,June,20,131.81,,,Ian McGregor,Ian McGregor,North
 72308,1,qual,725,2019.07,2019,June,20,47.63,,,Ian McGregor,Ian McGregor,North
@@ -129,7 +129,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 172470,1,quru,1728,2019.07,2019,June,20,90.43,,,Ian McGregor,Ian McGregor,North
 172499,1,qual,1730,2019.07,2019,June,20,13.78,,,Ian McGregor,Ian McGregor,North
 181030,1,qual,1816,2019.07,2019,June,20,12.89,,double-checked measurement,Ian McGregor,Ian McGregor,North
-190067,1,litu,1902,2019.07,2019,June,20,137.84,,double-checked measurement,Ian McGregor,Ian McGregor,South
+190067,1,litu,1902,2019.07,2019,June,20,137.84,RE,double-checked measurement; band chosen to be changed for demonstration of dendrobands with high schoolers,Ian McGregor,Ian McGregor,South
 190413,1,litu,1904,2019.07,2019,June,20,77.9,,,Ian McGregor,Ian McGregor,South
 190694,1,quru,1909,2019.07,2019,June,20,118.66,,,Ian McGregor,Ian McGregor,South
 190838,1,quru,1916,2019.07,2019,June,20,70.24,,,Ian McGregor,Ian McGregor,North
