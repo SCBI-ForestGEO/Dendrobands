@@ -112,20 +112,15 @@ fix_bands <- rbind(fix_bands, data_entry)
 write.csv(fix_bands, "resources/data_entry_forms/2019/data_entry_fix_2019.csv", row.names=FALSE)
 
 #######################################################################################
-#3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM
-#3a. Merging if bands replaced after fall biannual ####
+#3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM ####
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv", colClasses = c("codes" = "character"))
 #install$codes <- ifelse(is.na(install$codes), "", "F")
 #install$notes <- ifelse(is.na(install$notes), "", install$notes)
 
-data_intra <- read_csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-07.csv", col_types = cols(codes = col_character()))
-data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
-data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
-
 #subset by the surveyID you need
-install <- fix_bands[fix_bands$survey.ID == 2019.061, ]
+install <- fix_bands[fix_bands$survey.ID == 2019.071, ]
 
 setnames(install, old=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"), new=c("dbh", "dendDiam", "dendHt", "measure"), skip_absent=TRUE)
 
