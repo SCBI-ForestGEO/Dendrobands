@@ -26,6 +26,8 @@ data_fix <- data_fix[grep("RE", data_fix$codes), ]
  #in case any fixes have been done since the fall survey
 
 ##1b if have more time, determine # of dendrobands whose window is too large. These will ultimately need to be changed at some point if not done now. ####
+
+#first, see the average growth trends using 2018 data (or any recent full dataset)
 trends <- dendro18[,c("tag", "stemtag", "survey.ID", "sp", "measure")]
 trends <- trends[which(trends$survey.ID==c('2018.01', '2018.14')), ] 
 
@@ -41,11 +43,13 @@ range
 mean(range)
 sd(range)
 
-##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 140 to have a code of RE.
-data_install<-dendro19[which(dendro19$survey.ID=='2019.07'), ]
+##in 2018's example, mean=11.88 and sd=8.94, so I'm assigning values in measure >= 140 to have a code of RE (probably you don't need to ever go below 130 for this)
+data_install<-dendro19[which(dendro19$survey.ID=='2019.09'), ]
 data_install$codes <- as.character(data_install$codes)
-data_install$codes <- ifelse(data_install$measure >= 135 & !grepl("RE", data_install$codes), paste(data_install$codes, "RE", sep = ";"), data_install$codes)
+data_install$codes <- ifelse(data_install$measure >= 130 & !grepl("RE", data_install$codes), paste(data_install$codes, "RE", sep = ";"), data_install$codes)
 data_install$codes <- gsub("^;", "", data_install$codes)
+
+# get all RE codes (including those labeled directly from the survey)
 data_fix <- data_install[grep("RE", data_install$codes), ]
 
 ######################################################################################
@@ -89,7 +93,7 @@ matrix <- function(data_field, table_title) {
 
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
-write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-081.xlsx", row.names = FALSE, col.names=FALSE)
+write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-091.xlsx", row.names = FALSE, col.names=FALSE)
 
 
 #2b. Create data_entry form ####
