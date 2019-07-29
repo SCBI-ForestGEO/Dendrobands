@@ -31,7 +31,7 @@ library(ggthemes) #for removing graticules when making pdf
 scbi_plot <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp")
 deer <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
 roads <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_edits.shp")
-streams <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_streams_edits.shp")
+streams <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/streams_ForestGEO/streams_ForestGEO_full.shp")
 contour_10m <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/contour10m_SIGEO_clipped.shp")
 
 ## the source for these files is in the dendrobands repo
