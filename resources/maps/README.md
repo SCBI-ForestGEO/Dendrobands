@@ -18,11 +18,14 @@ We are using [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/bl
 The code for making the biannual and intraannual maps is found at [survey_maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts).
 - This code only looks at live trees (since we survey only live trees).
 
-The ArcGIS maps (in jpg) were originally created with the geographic location data from the file "Merged_dendroband_utm_lat_lon.csv" in the V drive location: V:\SIGEO\GIS_data\dendroband surveys.
-- .mxd and associated shapefiles are also located on the SI V drive.
+The ArcGIS maps are here for reference, but are also fully usable and are linked to the shapefiles in this repo and in SCBI-ForestGEO-DATA (link below).
 
 ## shapefiles
 
-The shapefiles here are those specifically relevant for dendroband maps (the N/S divide for intraannual survey, and the smaller survey areas for the biannual survey).
+There are 2 categories of shapefiles.
+- in this repo, there are those specifically relevant for dendroband maps
+    - the N/S divide for intraannual survey
+    - sample pathways to take when doing intraannual survey. These are based on the fastest distance to all trees (from 2019) based on elevation. The shapefiles were created with the ArcGIS map using the "freehand" drawing application in the "Draw" toolbar.
+    - smaller survey areas for the biannual survey
 - other general plot shapefiles (roads, streams, deer exclosure, gridded plot, and contour) are found in [SCBI-ForestGEO-Data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data).
 - all of these are used in the Rscript
