@@ -18,7 +18,7 @@ We are using [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/bl
 The code for making the biannual and intraannual maps is found at [survey_maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts).
 - This code only looks at live trees (since we survey only live trees).
 
-The ArcGIS maps are here for reference, but are also fully usable and are linked to the shapefiles in this repo and in SCBI-ForestGEO-DATA (link below).
+The ArcGIS maps are here for reference, but are also fully usable and are linked to the shapefiles in this repo and in SCBI-ForestGEO-Data (link below).
 
 ## shapefiles
 
