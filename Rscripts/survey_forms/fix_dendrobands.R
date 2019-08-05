@@ -71,9 +71,9 @@ data_field$dendroID = NA
 data_field$codes <- gsub("[[:punct:]]*RE[[:punct:]]*", "", data_field$codes)
 
 data_field$field.date = NA
-data_field$dbhnew.cm = NA
+data_field$dbhnew.mm = NA
 
-setnames(data_field, old=c("codes", "stemtag", "dendDiam", "dendHt", "measure"), new=c("codes&notes", "stem", "dendDiam.cm", "dendHt.m", "measure.mm"))
+setnames(data_field, old=c("codes", "stemtag", "dendDiam", "dendHt", "measure"), new=c("codes&notes", "stem", "dendDiam.mm", "dendHt.m", "measure.mm"))
 
 data_field[is.na(data_field)] <- " "
 
@@ -86,6 +86,9 @@ data_field$location<-gsub("North", "N", data_field$location)
 ##Since DBH increases every year, we need something more accurate than a 1-in-5 year survey measurement for DBH. Thus, here we source functions from the growth_over_time script to see the DBH for specific trees based on stemID.
 
 #source functions to use
+dirs <- dir("data", pattern="_201[0-9]*.csv")
+years <- c(2010:2019)
+
 SourceFunctions<-function(file) {
   MyEnv<-new.env()
   source(file=file,local=MyEnv)
@@ -93,9 +96,6 @@ SourceFunctions<-function(file) {
            envir=parent.env(environment()))
 }
 SourceFunctions("Rscripts/analysis/growth_over_time.R")
-
-dirs <- dir("data", pattern="_201[0-9]*.csv")
-years <- c(2010:2019)
 
 #this function makes a list of each stemID growth from 2010-2019
 make_growth_list(dirs, years)
@@ -140,6 +140,13 @@ write.csv(fix_bands, "resources/data_entry_forms/2019/data_entry_fix_2019.csv", 
 
 #######################################################################################
 #3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM ####
+
+##remember to get dendroID from the dendroID csv
+##to get the most recently-used dendroIDs, use this. Now you know the next IDs to use are >978
+dendID <- read.csv("data/dendroID.csv")
+tail(sort(dendID$dendroID))
+# [1] 973 974 975 976 977 978
+
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv", colClasses = c("codes" = "character"))
@@ -158,7 +165,19 @@ write.csv(data_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #4. Merge data with dendroID.csv ####
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-##there is no code here. Merging with dendroID.csv happens only after the full year's data is complete to avoid duplication. The code for this is in "dendroID_chronology.R"
+#read in dendroID file
+dendID <- read.csv("data/dendroID.csv")
 
-##if this is deemed unnecessary then merging each time with dendroID shouldn't be difficult, and the script can just be added here.
+#subset by new.band=1
+new_ID <- data_2019[data_2019$new.band==1, ]
+
+extras <- setdiff(colnames(new_ID), colnames(dendID))
+new_ID[, extras] <- NULL
+
+#append the rows to install
+install_new <- rbind(dendID, new_ID)
+install_new <- install_new[order(install_new$tag, install_new$stemtag), ]
+
+write.csv(install_new, "data/dendroID.csv", row.names=FALSE)
