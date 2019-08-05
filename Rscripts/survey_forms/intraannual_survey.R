@@ -176,11 +176,11 @@ test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.
 
 write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
-#to troubleshoot. Added this bc noticed discrepancy above
-test$codes <- as.character(test$codes)
-test$codes <- ifelse(is.na(test$codes), "", test$codes)
-test$notes <- as.character(test$notes)
-test$notes <- ifelse(is.na(test$notes), "", test$notes)
+#to troubleshoot. Added this bc noticed discrepancy above ####
+# test$codes <- as.character(test$codes)
+# test$codes <- ifelse(is.na(test$codes), "", test$codes)
+# test$notes <- as.character(test$notes)
+# test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
 
 
