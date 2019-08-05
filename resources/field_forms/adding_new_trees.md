@@ -1,6 +1,6 @@
 # Protocol for adding trees to dendroband survey
 
-This is an explanation of the R code [replace_dead_trees_dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts/field_forms).
+This is an explanation of the R code [replace_dead_trees_dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts).
 
 1. Take a list of dead trees from this year's survey.
 
