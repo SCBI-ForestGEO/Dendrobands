@@ -21,7 +21,7 @@ length(c(grep("RE", dendro19$codes)))
 
 #1a If don't have much time, focus on fixing the bands that need to be fixed ####
 ##these bands were marked as "RE" already from the field survey.
-data_fix <- dendro19[which(dendro19$survey.ID ==2019.08), ]
+data_fix <- dendro19[which(dendro19$survey.ID ==2019.09), ]
 data_fix <- data_fix[grep("RE", data_fix$codes), ]
  #in case any fixes have been done since the fall survey
 
@@ -57,7 +57,6 @@ data_fix <- data_install[grep("RE", data_install$codes), ]
 ##pay attention to whether or not you're doing data_fix from 1a or data_fix_all from 1b!!!!!!
 
 #2a. Create the field form ####
-##dbh column is included here to help know what size dendroband to make. For taking out in the field, don't necessarily have to include this column.
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
 data_fix$location <- dendro_trees$location[match(data_fix$stemID, dendro_trees$stemID)]
@@ -83,6 +82,31 @@ data_field<-data_field[,c(1:7,15,16,12,13,11,14,8:10)]
 data_field$location<-gsub("South", "S", data_field$location)
 data_field$location<-gsub("North", "N", data_field$location)
 
+##2ai. Get accurate DBH ####
+##Since DBH increases every year, we need something more accurate than a 1-in-5 year survey measurement for DBH. Thus, here we source functions from the growth_over_time script to see the DBH for specific trees based on stemID.
+
+#source functions to use
+SourceFunctions<-function(file) {
+  MyEnv<-new.env()
+  source(file=file,local=MyEnv)
+  list2env(Filter(f=is.function,x=as.list(MyEnv)),
+           envir=parent.env(environment()))
+}
+SourceFunctions("Rscripts/analysis/growth_over_time.R")
+
+dirs <- dir("data", pattern="_201[0-9]*.csv")
+years <- c(2010:2019)
+
+#this function makes a list of each stemID growth from 2010-2019
+make_growth_list(dirs, years)
+
+#this function calculates DBH for specific stemID
+##specifically, it will yield 2 graphs, from which you can get the accurate DBH
+calculate_dbh(1609) #here, 1609 is sample stemID
+
+data_field$DBH <- c()
+
+##2aii. Create the excel sheet ####
 matrix <- function(data_field, table_title) {
   
   rbind(c(table_title, rep('', ncol(data_field)-1)), # title
@@ -94,7 +118,6 @@ matrix <- function(data_field, table_title) {
 temp <- matrix(data_field, table_title=('Dendroband Replacement                       Date:                       SurveyID:                         Surveyors:'))
 
 write.xlsx(temp, "resources/field_forms/2019/field_form_fix_2019-091.xlsx", row.names = FALSE, col.names=FALSE)
-
 
 #2b. Create data_entry form ####
 data_entry<-data_fix[ ,c(1:2,9:12,3:6,22:25,21,27,13:18,7:8,19:20,26,28:31)]
@@ -124,7 +147,7 @@ fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv",
 #install$notes <- ifelse(is.na(install$notes), "", install$notes)
 
 #subset by the surveyID you need
-install <- fix_bands[fix_bands$survey.ID == 2019.071, ]
+install <- fix_bands[fix_bands$survey.ID == 2019.091, ]
 
 setnames(install, old=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"), new=c("dbh", "dendDiam", "dendHt", "measure"), skip_absent=TRUE)
 
