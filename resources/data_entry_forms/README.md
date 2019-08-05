@@ -8,7 +8,9 @@ The intent is that these will immediately be integrated into the master via scri
 
 ## Entering Data
 
-**IMPORTANT: When entering biannual or intraannual data, filter by ascending quadrat _first_, and then by area to match the [field form](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/field_forms/field_form_biannual.xlsx)!**
+**IMPORTANT: When entering biannual data, filter by ascending quadrat _first_, and then by area to match the [field form](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/field_forms/field_form_biannual.xlsx)!**
+
+**For intraannual data, filter by ascending quadrat first, then tag**
 
 If you want to double check certain measurements in years past, the R code ["growth_over_time.R"](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts/analysis) has script that gives the measurements from all years per stemID. This can be helpful to see trends in measurements during the growing season and over winter.
 - to find stemIDs, [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) is the best option.
