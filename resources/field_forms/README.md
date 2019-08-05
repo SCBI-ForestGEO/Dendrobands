@@ -20,10 +20,14 @@ If printing the first form for the season, please make sure the correct [R-scrip
 ### Timing 
 5. For intraannual timing, depending on how fast you go (and how well the surveyors can navigate the plot), with two people it takes anywhere from 2-3 hours (1 person in north, 1 in south, ~150 trees). With one person, it takes just over 4 hours for the whole plot
 
+5a. The intraannual survey is done every 2 weeks between the two biannual surveys, weather permitting.
+
 6. The 2018 fall biannual (2018.14, 524 trees) survey took about 5 hours, with 7 people in 3 teams. The 2019 spring biannual (2019.01, 548 trees) was done in 9 hours with 2 teams of 2 people (1 half-day had only 2 people, one full day had all 4). With three teams, the areas are generally split up in this way:
 - One team in Areas 1, 6, 9
 - One team in Areas 2, 5, 8
 - One team in Areas 3, 4, 7
+
+6a. The biannual survey is done at the beginning of the growing season (March) and end of the growing season (October/early November), schedule permitting.
 
 
 
