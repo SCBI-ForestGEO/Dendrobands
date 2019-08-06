@@ -16,10 +16,6 @@ dendro_trees <- read.csv("data/dendro_trees.csv")
 
 #to start off, filter by all the trees that are alive as of the end of last year's fall survey.
 bands_2019 <- dendro_trees[is.na(dendro_trees$mortality.year), ]
-bands_2019 <- bands_2019[complete.cases(bands_2019[, c("NAD83_X", "NAD83_Y")]),] # remove one tree with missing coordinates
-
-
-##this should be fixed when 131352 is found with 2018 data!!!!
 
 library(ggplot2)
 library(rgdal)
