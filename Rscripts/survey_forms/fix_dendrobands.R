@@ -3,8 +3,10 @@
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created October 2018
 ######################################################
-library(data.table) #1b, 2a, 2b
+library(data.table) #1b, 2ai, 2b
 library(xlsx) #2a
+devtools::install_github("seanmcm/RDendrom")
+library(RDendrom) #2ai
 
 dendro19 <- read.csv("data/scbi.dendroAll_2019.csv") 
 
@@ -85,23 +87,42 @@ data_field$location<-gsub("North", "N", data_field$location)
 ##2ai. Get accurate DBH ####
 ##Since DBH increases every year, we need something more accurate than a 1-in-5 year survey measurement for DBH. Thus, here we source functions from the growth_over_time script to see the DBH for specific trees based on stemID.
 
-#source functions to use
-dirs <- dir("data", pattern="_201[0-9]*.csv")
-years <- c(2010:2019)
+#source functions to use.
+rs = local({
+  last_file = NULL
+  
+  function (filename, from, to = if (missing(from)) -1 else from) {
+    if (missing(filename)) filename = last_file
+    
+    stopifnot(! is.null(filename))
+    stopifnot(is.character(filename))
+    
+    force(to)
+    if (missing(from)) from = 1
+    
+    source_lines = scan(filename, what = character(), sep = '\n',
+                        skip = from - 1, n = to - from + 1,
+                        encoding = 'UTF-8', quiet = TRUE)
+    result = withVisible(eval.parent(parse(text = source_lines)))
+    
+    last_file <<- filename # Only save filename once successfully sourced.
+    if (result$visible) result$value else invisible(result$value)
+  }
+})
 
-SourceFunctions<-function(file) {
-  MyEnv<-new.env()
-  source(file=file,local=MyEnv)
-  list2env(Filter(f=is.function,x=as.list(MyEnv)),
-           envir=parent.env(environment()))
-}
-SourceFunctions("Rscripts/analysis/growth_over_time.R")
+#these are the lines of the script for the two functions
+rs("Rscripts/analysis/growth_over_time.R", from=23, to=55)
+rs("Rscripts/analysis/growth_over_time.R", from=98, to=147)
 
 #this function makes a list of each stemID growth from 2010-2019
+dirs <- dir("data", pattern="_201[0-9]*.csv")
+years <- c(2010:2019)
 make_growth_list(dirs, years)
 
 #this function calculates DBH for specific stemID
 ##specifically, it will yield 2 graphs, from which you can get the accurate DBH
+##if there is an error, go to original script, usually needs to be fixed by Sean
+
 calculate_dbh(1609) #here, 1609 is sample stemID
 
 data_field$DBH <- c()
@@ -165,13 +186,11 @@ write.csv(data_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #4. Merge data with dendroID.csv ####
-data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
-
 #read in dendroID file
 dendID <- read.csv("data/dendroID.csv")
 
 #subset by new.band=1
-new_ID <- data_2019[data_2019$new.band==1, ]
+new_ID <- data_2019[data_2019$new.band==1 & data_2019$survey.ID == 2019.091, ]
 
 extras <- setdiff(colnames(new_ID), colnames(dendID))
 new_ID[, extras] <- NULL
