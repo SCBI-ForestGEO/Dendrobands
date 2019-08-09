@@ -186,11 +186,15 @@ write.csv(data_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #4. Merge data with dendroID.csv ####
+
+##this small code filters for new.band = 1 from the entire scbi.dendroAll_YEAR datasheet, and then filters out any duplicates before saving (so you only keep the new ones)
+
 #read in dendroID file
 dendID <- read.csv("data/dendroID.csv")
+data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 #subset by new.band=1
-new_ID <- data_2019[data_2019$new.band==1 & data_2019$survey.ID == 2019.091, ]
+new_ID <- data_2019[data_2019$new.band==1, ]
 
 extras <- setdiff(colnames(new_ID), colnames(dendID))
 new_ID[, extras] <- NULL
@@ -198,5 +202,6 @@ new_ID[, extras] <- NULL
 #append the rows to install
 install_new <- rbind(dendID, new_ID)
 install_new <- install_new[order(install_new$tag, install_new$stemtag), ]
+install_new <- install_new[!duplicated(install_new$dendroID), ]
 
 write.csv(install_new, "data/dendroID.csv", row.names=FALSE)
