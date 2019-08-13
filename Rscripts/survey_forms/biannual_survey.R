@@ -334,3 +334,10 @@ test$notes <- as.character(test$notes)
 test$notes <- ifelse(is.na(test$notes), "", test$notes)
 
 write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
+
+#####################################################################################
+#4 DendroID ####
+#DENDROID
+##1. if any bands were given a note of "band adjusted" in the intraannual survey, give it a new.band = 1 and update the dendroID in the scbi.dendroAll_YEAR.csv manually.
+##2. this will be easier because a, it happens very infrequently and b, it's faster.
+##3. MAKE SURE to then do Section #4 of fix_dendrobands.R script 

@@ -174,15 +174,18 @@ test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
 test$status <- as.character(test$status)
 test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
 
-write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
-
 #DENDROID
 ##1. if any bands were given a note of "band adjusted" in the intraannual survey, give it a new.band = 1 and update the dendroID in the scbi.dendroAll_YEAR.csv manually.
 ##2. this will be easier because a, it happens very infrequently and b, it's faster.
 ##3. MAKE SURE to then do Section #4 of fix_dendrobands.R script 
 
+write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 
-#to troubleshoot. Added this bc noticed discrepancy above ####
+
+
+
+#################################################################################### 
+#4. to troubleshoot. Added this bc noticed discrepancy above ####
 # test$codes <- as.character(test$codes)
 # test$codes <- ifelse(is.na(test$codes), "", test$codes)
 # test$notes <- as.character(test$notes)
