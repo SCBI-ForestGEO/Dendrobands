@@ -132,7 +132,7 @@ write.csv(data_intra, "resources/data_entry_forms/2019/data_entry_intraannual.cs
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 #change for the appropriate surveyID file
-data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-12.csv", colClasses = c("codes" = "character"))
+data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-13.csv", colClasses = c("codes" = "character"))
 # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
 # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
 
@@ -175,7 +175,8 @@ test$status <- as.character(test$status)
 test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
 
 #DENDROID
-##1. if any bands were given a note of "band adjusted" in the intraannual survey, give it a new.band = 1 and update the dendroID in the scbi.dendroAll_YEAR.csv manually.
+##1. if any bands were given a note of "band adjusted" in the intraannual survey, give it a new.band = 1 and update the dendroID in the scbi.dendroAll_YEAR.csv manually
+##1a. disclaimer: if it is a *new* band, give a new id number but if the band adjustment doesn't seem to affect the data, leave the band id the same
 ##2. this will be easier because a, it happens very infrequently and b, it's faster.
 ##3. MAKE SURE to then do Section #4 of fix_dendrobands.R script 
 
