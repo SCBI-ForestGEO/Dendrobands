@@ -56,6 +56,7 @@ Some relevant data on dendrometer banded trees (geographic location, date starte
 | Victoria Meakem |  | research assistant, SCBI |  data collection |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | data collection |
 | Ian McGregor | mcgregorian1 | research assistant, SCBI | data collection, data organization, coding |
+| Alyssa Terrell | terrella3 | research assistant, SCBI | data collection, data organization, coding |
 | [MORE]| | | |
  
 *refers to position at time of main contribution to this repository
