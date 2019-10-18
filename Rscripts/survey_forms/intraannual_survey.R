@@ -132,7 +132,7 @@ write.csv(data_intra, "resources/data_entry_forms/2019/data_entry_intraannual.cs
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
 #change for the appropriate surveyID file
-data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-13.csv", colClasses = c("codes" = "character"))
+data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-14.csv", colClasses = c("codes" = "character"))
 # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
 # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
 
