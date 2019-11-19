@@ -1,0 +1,550 @@
+tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition,crown.illum,codes,notes,field.recorders,data.enter,area
+10469,1,litu,109,2019.15,2019,November,6,145.18,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+10609,1,cagl,111,2019.15,2019,November,6,68.2,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+10587,1,litu,113,2019.15,2019,November,6,63.66,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+10671,1,quru,114,2019.15,2019,November,6,50.85,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+12025,1,quru,117,2019.15,2019,November,6,61.4,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+12259,1,litu,125,2019.15,2019,November,6,41.72,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+12270,1,tiam,125,2019.15,2019,November,6,61.39,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+12416,1,cato,129,2019.15,2019,November,6,8.6,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+12508,1,litu,131,2019.15,2019,November,6,23.93,0, , ,,retag,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+20587,1,litu,208,2019.15,2019,November,6,138.37,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+20603,1,fram,208,2019.15,2019,November,6,129.21,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+20617,1,litu,209,2019.15,2019,November,6,40.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+20712,1,litu,212,2019.15,2019,November,6,61.99,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+22004,2,litu,217,2019.15,2019,November,6,25.29,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+22041,1,litu,217,2019.15,2019,November,6,48.07,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+22170,1,litu,221,2019.15,2019,November,6,72.33,1, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+22315,1,caco,225,2019.15,2019,November,6,10.26,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+22333,1,fram,226,2019.15,2019,November,6,52.65,1, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+30225,1,qual,306,2019.15,2019,November,6,29.4,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30233,1,fagr,306,2019.15,2019,November,6,24.67,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30234,1,fagr,306,2019.15,2019,November,6,12.14,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30331,1,cagl,306,2019.15,2019,November,6,42.16,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30333,1,fagr,306,2019.15,2019,November,6,54.02,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30339,1,litu,307,2019.15,2019,November,6,87.3,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30339,2,litu,307,2019.15,2019,November,6,64.15,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30339,3,litu,307,2019.15,2019,November,6,40.8,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30462,1,litu,313,2019.15,2019,November,6,128.72,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30512,1,quru,313,2019.15,2019,November,6,21.55,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30467,1,litu,314,2019.15,2019,November,6,103.03,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+30584,1,quve,316,2019.15,2019,November,6,116.33,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+32097,1,litu,320,2019.15,2019,November,6,49.89,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+32126,1,litu,321,2019.15,2019,November,6,81.47,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+32381,1,qupr,327,2019.15,2019,November,6,70.55,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+32423,1,litu,329,2019.15,2019,November,6,48.01,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+32540,1,qupr,332,2019.15,2019,November,6,111.55,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+40465,1,qupr,404,2019.15,2019,November,6,23.06,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+40562,1,fagr,406,2019.15,2019,November,6,9.52,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40563,1,fagr,406,2019.15,2019,November,6,38.45,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40564,1,fagr,406,2019.15,2019,November,6,23.42,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40565,1,cagl,406,2019.15,2019,November,6,7.4,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40566,1,cagl,406,2019.15,2019,November,6,15.4,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40567,1,fagr,406,2019.15,2019,November,6,12.05,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40568,1,fagr,406,2019.15,2019,November,6,11.86,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40569,1,litu,407,2019.15,2019,November,6,90.34,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40635,1,cagl,408,2019.15,2019,November,6,47.88,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40941,1,litu,414,2019.15,2019,November,6,127.13,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40942,1,acru,414,2019.15,2019,November,6,102.13,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40972,1,litu,415,2019.15,2019,November,6,11.04,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+42009,1,ploc,417,2019.15,2019,November,6,116.98,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+42397,1,quru,428,2019.15,2019,November,6,47.05,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+50160,1,fram,502,2019.15,2019,November,6,20.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+50288,1,quru,505,2019.15,2019,November,6,48.27,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+50364,1,qual,507,2019.15,2019,November,6,124.41,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+50525,1,qual,512,2019.15,2019,November,6,16.47,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+50622,1,qual,513,2019.15,2019,November,6,16.37,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+50562,1,quru,514,2019.15,2019,November,6,14.85,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+50646,1,quru,514,2019.15,2019,November,6,13.22,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+50650,1,litu,514,2019.15,2019,November,6,18.55,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+50654,1,litu,514,2019.15,2019,November,6,50.69,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+52087,1,quru,519,2019.15,2019,November,6,116.64,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+52190,1,quru,522,2019.15,2019,November,6,108.81,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+52344,1,cagl,528,2019.15,2019,November,6,6.81,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+60266,1,cato,604,2019.15,2019,November,6,7.31,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+60161,1,qupr,608,2019.15,2019,November,6,96.44,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+60410,1,fram,610,2019.15,2019,November,6,29.91,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60456,1,caca,614,2019.15,2019,November,6,9.57,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60457,1,caca,614,2019.15,2019,November,6,12.44,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60562,1,fagr,614,2019.15,2019,November,6,6.04,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60563,1,caca,614,2019.15,2019,November,6,15.49,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60566,1,fagr,614,2019.15,2019,November,6,101.03,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60567,1,litu,614,2019.15,2019,November,6,67.99,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60568,1,caca,614,2019.15,2019,November,6,11.13,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60569,1,caca,614,2019.15,2019,November,6,12.63,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60571,1,caca,614,2019.15,2019,November,6,24.26,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60573,1,tiam,614,2019.15,2019,November,6,33.42,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60458,1,fagr,615,2019.15,2019,November,6,27.37,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60459,1,fagr,615,2019.15,2019,November,6,18.88,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60462,1,fagr,615,2019.15,2019,November,6,76.97,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60463,1,juni,615,2019.15,2019,November,6,54.46,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60468,1,caca,615,2019.15,2019,November,6,8.77,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60469,1,cofl,615,2019.15,2019,November,6,10.81,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60576,1,caca,615,2019.15,2019,November,6,17.82,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60577,1,litu,615,2019.15,2019,November,6,26.98,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60578,1,caca,615,2019.15,2019,November,6,18.41,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60581,1,litu,615,2019.15,2019,November,6,23.4,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60582,1,quru,615,2019.15,2019,November,6,29.44,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60586,1,caca,615,2019.15,2019,November,6,9.25,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60587,1,caca,615,2019.15,2019,November,6,18.58,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+60588,1,caco,615,2019.15,2019,November,6,41.53,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+62114,1,quve,619,2019.15,2019,November,6,12.77,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+62128,1,quru,620,2019.15,2019,November,6,116.36,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+62181,1,quve,621,2019.15,2019,November,6,114.15,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+62224,1,litu,622,2019.15,2019,November,6,123.11,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+62241,1,litu,623,2019.15,2019,November,6,128.08,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+62285,1,quru,625,2019.15,2019,November,6,7.13,0, , ,M;main,,Alyssa Terrell,Alyssa Terrell,7
+62300,1,quve,625,2019.15,2019,November,6,8.03,1, , ,,,Alyssa Terrell,Alyssa Terrell,7
+62312,1,cato,626,2019.15,2019,November,6,8.22,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+62417,1,quve,630,2019.15,2019,November,6,81.94,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+62449,1,qual,632,2019.15,2019,November,6,109.22,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+62454,1,quve,632,2019.15,2019,November,6,136,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+70216,1,quve,701,2019.15,2019,November,6,149.52,0, , ,,band adjusted,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70220,1,qual,702,2019.15,2019,November,6,12.61,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70096,1,quru,704,2019.15,2019,November,6,21.99,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70278,1,qupr,704,2019.15,2019,November,6,38.02,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70126,1,quru,705,2019.15,2019,November,6,77.42,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70292,1,cagl,705,2019.15,2019,November,6,66.84,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70146,1,quve,706,2019.15,2019,November,6,70.27,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70181,1,litu,707,2019.15,2019,November,6,80.34,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70352,1,litu,707,2019.15,2019,November,6,94.24,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70357,1,cagl,708,2019.15,2019,November,6,9.22,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70358,1,litu,708,2019.15,2019,November,6,101.22,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70433,1,litu,710,2019.15,2019,November,6,132.69,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70519,1,qual,711,2019.15,2019,November,6,87.93,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70536,1,qual,711,2019.15,2019,November,6,13.92,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70492,1,nysy,714,2019.15,2019,November,6,9.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70493,1,litu,714,2019.15,2019,November,6,15.36,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70494,1,caca,714,2019.15,2019,November,6,26.41,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70494,2,caca,714,2019.15,2019,November,6,9.68,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70495,1,caca,714,2019.15,2019,November,6,9.26,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+70579,1,caco,714,2019.15,2019,November,6,39.91,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70581,1,quru,714,2019.15,2019,November,6,27.07,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+72024,1,quve,717,2019.15,2019,November,6,44.73,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72104,1,qual,718,2019.15,2019,November,6,7,0, , ,M;main,M;main,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72173,1,qual,720,2019.15,2019,November,6,8.65,0,,,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72115,1,litu,719,2019.15,2019,November,6,81.29,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72116,1,litu,719,2019.15,2019,November,6,17.97,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72122,1,caca,719,2019.15,2019,November,6,18.16,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72124,1,quru,719,2019.15,2019,November,6,116.14,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72149,1,litu,720,2019.15,2019,November,6,22.52,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72210,1,qual,721,2019.15,2019,November,6,8.06,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72232,1,qual,722,2019.15,2019,November,6,107.97,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72248,1,caco,723,2019.15,2019,November,6,73.76,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72308,1,qual,725,2019.15,2019,November,6,49.72,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72322,1,litu,726,2019.15,2019,November,6,21.75,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72324,1,litu,726,2019.15,2019,November,6,27.98,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72337,1,quru,727,2019.15,2019,November,6,35.32,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72348,1,quru,727,2019.15,2019,November,6,13.52,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72357,1,quru,728,2019.15,2019,November,6,25,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72375,1,litu,728,2019.15,2019,November,6,86.31,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72377,1,litu,728,2019.15,2019,November,6,8.64,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72427,1,litu,730,2019.15,2019,November,6,58.64,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72447,1,litu,732,2019.15,2019,November,6,50.95,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+72448,1,litu,732,2019.15,2019,November,6,6.12,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+80005,1,fram,801,2019.15,2019,November,6,22.88,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+80121,1,quve,801,2019.15,2019,November,6,6.21,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+80100,1,litu,804,2019.15,2019,November,6,31.1,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80180,1,cato,804,2019.15,2019,November,6,25.31,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80398,1,caco,807,2019.15,2019,November,6,NA,0, , ,DC;F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80401,1,caco,807,2019.15,2019,November,6,23.39,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80615,1,litu,810,2019.15,2019,November,6,35.54,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80628,1,quru,811,2019.15,2019,November,6,45.39,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80631,1,litu,811,2019.15,2019,November,6,133.26,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80554,1,caovl,813,2019.15,2019,November,6,98.49,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80559,1,nysy,813,2019.15,2019,November,6,6.16,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+82125,1,cagl,819,2019.15,2019,November,6,31.41,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+82138,1,quru,820,2019.15,2019,November,6,87.29,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+82203,1,litu,822,2019.15,2019,November,6,27.42,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+82223,1,litu,822,2019.15,2019,November,6,25.62,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+82226,1,litu,823,2019.15,2019,November,6,51.82,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+82284,1,quve,825,2019.15,2019,November,6,87.47,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82292,1,litu,826,2019.15,2019,November,6,7.33,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82298,1,litu,826,2019.15,2019,November,6,21.13,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82326,1,quve,827,2019.15,2019,November,6,142.34,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82357,1,litu,828,2019.15,2019,November,6,22.59,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82360,1,litu,829,2019.15,2019,November,6,23.01,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82365,1,qual,829,2019.15,2019,November,6,56.43,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82368,1,litu,829,2019.15,2019,November,6,101.02,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82419,1,litu,831,2019.15,2019,November,6,26.02,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82421,1,litu,831,2019.15,2019,November,6,131.84,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82422,1,litu,831,2019.15,2019,November,6,82.44,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+82434,1,quve,832,2019.15,2019,November,6,146.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+90043,1,quve,901,2019.15,2019,November,6,47.18,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90084,1,quve,902,2019.15,2019,November,6,69.41,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90162,1,litu,904,2019.15,2019,November,6,88.88,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90311,1,cagl,904,2019.15,2019,November,6,12.97,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90354,1,litu,905,2019.15,2019,November,6,149.12,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+91435,1,litu,907,2019.15,2019,November,6,NA,0, , ,DS;F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+91451,1,litu,907,2019.15,2019,November,6,129.92,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+91474,1,litu,908,2019.15,2019,November,6,51.42,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+91476,1,litu,908,2019.15,2019,November,6,103.72,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+91477,1,litu,908,2019.15,2019,November,6,48.23,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+91486,1,cagl,908,2019.15,2019,November,6,44.16,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90530,1,litu,910,2019.15,2019,November,6,131.5,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90612,1,quru,910,2019.15,2019,November,6,130.18,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90660,1,quru,913,2019.15,2019,November,6,85.85,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+90752,1,qual,916,2019.15,2019,November,6,65.31,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92018,1,acru,917,2019.15,2019,November,6,88.27,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92112,1,litu,919,2019.15,2019,November,6,128.68,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92139,1,quru,920,2019.15,2019,November,6,38.91,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92140,1,cato,920,2019.15,2019,November,6,5.27,0, , ,,tagged as 92138,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92141,1,cagl,920,2019.15,2019,November,6,34,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92237,1,nysy,922,2019.15,2019,November,6,18,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92238,1,quve,922,2019.15,2019,November,6,110.16,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92280,1,quve,923,2019.15,2019,November,6,146.6,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92347,1,quru,923,2019.15,2019,November,6,11.12,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+92393,1,cagl,925,2019.15,2019,November,6,96.14,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92414,1,litu,926,2019.15,2019,November,6,10.13,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92466,1,litu,927,2019.15,2019,November,6,131.21,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92487,1,quve,928,2019.15,2019,November,6,122.68,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92488,1,litu,928,2019.15,2019,November,6,65.32,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92545,1,litu,931,2019.15,2019,November,6,66.17,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92546,1,litu,931,2019.15,2019,November,6,51.62,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+92547,1,litu,931,2019.15,2019,November,6,82.64,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+100011,1,fram,1001,2019.15,2019,November,6,99.8,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+100612,1,litu,1003,2019.15,2019,November,6,80.89,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100516,1,litu,1004,2019.15,2019,November,6,73.84,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100562,1,litu,1004,2019.15,2019,November,6,143.84,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100754,1,quru,1005,2019.15,2019,November,6,32.25,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100771,1,quru,1005,2019.15,2019,November,6,21.67,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100905,1,litu,1008,2019.15,2019,November,6,13.88,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100906,1,litu,1008,2019.15,2019,November,6,26.71,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100955,1,quru,1010,2019.15,2019,November,6,11.52,1, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+100960,1,quru,1010,2019.15,2019,November,6,59.05,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+101111,1,litu,1011,2019.15,2019,November,6,32.02,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+101118,1,litu,1011,2019.15,2019,November,6,105.2,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+101223,1,qupr,1013,2019.15,2019,November,6,22,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+101244,1,quve,1014,2019.15,2019,November,6,87.42,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+101310,1,fram,1016,2019.15,2019,November,6,91.34,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+101312,1,fram,1016,2019.15,2019,November,6,135.11,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102148,1,cato,1019,2019.15,2019,November,6,26.43,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102149,1,cagl,1020,2019.15,2019,November,6,43.38,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102150,1,qual,1020,2019.15,2019,November,6,65.23,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102154,1,qual,1020,2019.15,2019,November,6,106.27,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102177,1,qual,1020,2019.15,2019,November,6,115.92,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102199,1,cagl,1021,2019.15,2019,November,6,36.95,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102258,1,qual,1022,2019.15,2019,November,6,6.49,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102261,1,qual,1022,2019.15,2019,November,6,15.84,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102262,1,qual,1022,2019.15,2019,November,6,90.57,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102264,1,qual,1022,2019.15,2019,November,6,37.57,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102303,1,quve,1024,2019.15,2019,November,6,38.48,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+102348,1,qual,1025,2019.15,2019,November,6,9.73,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102364,1,qual,1025,2019.15,2019,November,6,99.84,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102365,1,litu,1025,2019.15,2019,November,6,54.16,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102371,1,qual,1026,2019.15,2019,November,6,66.23,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102438,1,litu,1028,2019.15,2019,November,6,65.71,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102438,2,litu,1028,2019.15,2019,November,6,71.13,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102439,1,litu,1028,2019.15,2019,November,6,21.34,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102441,1,litu,1029,2019.15,2019,November,6,55.41,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102442,1,litu,1029,2019.15,2019,November,6,104,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102443,1,litu,1029,2019.15,2019,November,6,71.33,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102444,1,litu,1029,2019.15,2019,November,6,26,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102446,1,litu,1029,2019.15,2019,November,6,49.21,0, , ,M;main,,Alyssa Terrell,Alyssa Terrell,7
+102446,2,litu,1029,2019.15,2019,November,6,34.81,0, , ,S,,Alyssa Terrell,Alyssa Terrell,7
+102475,1,litu,1030,2019.15,2019,November,6,135.62,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+102501,1,litu,1031,2019.15,2019,November,6,107.84,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102502,1,ulru,1031,2019.15,2019,November,6,51,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+102509,1,quve,1032,2019.15,2019,November,6,57.39,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
+110061,1,litu,1101,2019.15,2019,November,6,10.52,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+110680,1,litu,1104,2019.15,2019,November,6,131.87,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+110788,1,litu,1104,2019.15,2019,November,6,106.47,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+110791,1,litu,1104,2019.15,2019,November,6,11.82,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+110798,1,qupr,1104,2019.15,2019,November,6,33.53,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+110901,1,litu,1105,2019.15,2019,November,6,75.05,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111014,1,litu,1107,2019.15,2019,November,6,142.39,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111029,1,litu,1107,2019.15,2019,November,6,170.18,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111030,1,litu,1107,2019.15,2019,November,6,83.14,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111032,1,litu,1107,2019.15,2019,November,6,48.98,0, , ,M;main;F,M;main;F,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111032,2,litu,1107,2019.15,2019,November,6,48.64,0, , ,S;F,S;F,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111039,1,litu,1108,2019.15,2019,November,6,109.1,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111041,1,quru,1108,2019.15,2019,November,6,100,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111092,1,litu,1110,2019.15,2019,November,6,117.06,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111093,1,litu,1110,2019.15,2019,November,6,57.94,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+111292,1,fram,1116,2019.15,2019,November,6,80,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112014,1,cagl,1117,2019.15,2019,November,6,81.38,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112057,1,acru,1117,2019.15,2019,November,6,84.54,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112060,1,fram,1117,2019.15,2019,November,6,99.72,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112118,1,quru,1119,2019.15,2019,November,6,65.9,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112130,1,qual,1119,2019.15,2019,November,6,8.42,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112136,1,pist,1120,2019.15,2019,November,6,23.16,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112137,1,qual,1120,2019.15,2019,November,6,27.55,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112142,1,qual,1120,2019.15,2019,November,6,17.64,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112250,1,pist,1122,2019.15,2019,November,6,28.92,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112252,1,litu,1122,2019.15,2019,November,6,82.38,1, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112262,1,quru,1123,2019.15,2019,November,6,54.01,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+112316,1,quve,1125,2019.15,2019,November,6,108.49,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112336,1,qual,1125,2019.15,2019,November,6,13.05,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112342,1,nysy,1125,2019.15,2019,November,6,3.22,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112350,1,cagl,1126,2019.15,2019,November,6,71.71,0, , ,,RE,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112354,1,qual,1126,2019.15,2019,November,6,107.23,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112462,1,litu,1128,2019.15,2019,November,6,115.45,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112698,1,ulru,1128,2019.15,2019,November,6,28.83,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112466,1,cato,1129,2019.15,2019,November,6,21.39,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112467,1,litu,1129,2019.15,2019,November,6,83.58,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112480,1,litu,1131,2019.15,2019,November,6,75.41,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112481,1,litu,1131,2019.15,2019,November,6,71.31,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+112482,1,litu,1131,2019.15,2019,November,6,89.43,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+120278,1,litu,1201,2019.15,2019,November,6,129.7,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+120755,1,litu,1204,2019.15,2019,November,6,140.55,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+120777,1,litu,1205,2019.15,2019,November,6,109.73,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+120781,1,litu,1205,2019.15,2019,November,6,97.22,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+120790,1,litu,1205,2019.15,2019,November,6,108.8,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121212,1,litu,1207,2019.15,2019,November,6,79.68,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121221,1,litu,1207,2019.15,2019,November,6,7.95,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121275,1,qupr,1209,2019.15,2019,November,6,26.43,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121291,1,qupr,1210,2019.15,2019,November,6,94.71,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121195,1,quru,1211,2019.15,2019,November,6,75.77,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121301,1,caovl,1211,2019.15,2019,November,6,127.74,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121305,1,quru,1211,2019.15,2019,November,6,118.71,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+121438,1,caco,1215,2019.15,2019,November,6,18.13,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+121358,1,fram,1216,2019.15,2019,November,6,18.25,0, , , ,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+121367,1,nysy,1216,2019.15,2019,November,6,65.09,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+121374,1,juni,1216,2019.15,2019,November,6,59.67,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122005,1,fram,1217,2019.15,2019,November,6,104.49,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122006,1,acru,1217,2019.15,2019,November,6,97.67,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122009,1,acru,1217,2019.15,2019,November,6,80.29,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122120,1,qual,1220,2019.15,2019,November,6,86.97,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122121,1,pist,1220,2019.15,2019,November,6,15.26,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122136,1,quru,1220,2019.15,2019,November,6,41.62,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122184,1,pist,1222,2019.15,2019,November,6,7.49,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122185,1,pist,1222,2019.15,2019,November,6,29.55,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122189,1,qual,1222,2019.15,2019,November,6,101.15,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122248,1,qual,1222,2019.15,2019,November,6,50.25,1, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122303,1,qual,1223,2019.15,2019,November,6,83.32,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+122343,1,qual,1225,2019.15,2019,November,6,110.64,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122450,1,ulru,1225,2019.15,2019,November,6,65.92,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122452,1,fram,1226,2019.15,2019,November,6,66.53,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122455,1,qual,1226,2019.15,2019,November,6,114.27,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122458,1,cagl,1226,2019.15,2019,November,6,9.93,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122427,1,qual,1227,2019.15,2019,November,6,20.02,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122439,1,cagl,1228,2019.15,2019,November,6,31.44,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122482,1,litu,1228,2019.15,2019,November,6,69.89,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122486,1,litu,1228,2019.15,2019,November,6,139.13,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122489,1,cagl,1229,2019.15,2019,November,6,58.34,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122492,1,litu,1229,2019.15,2019,November,6,141.12,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122561,1,litu,1231,2019.15,2019,November,6,153.71,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+122522,1,litu,1232,2019.15,2019,November,6,89.12,0, , ,,RE,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+130348,1,litu,1302,2019.15,2019,November,6,149.81,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+130838,1,litu,1305,2019.15,2019,November,6,24.99,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+130718,1,litu,1306,2019.15,2019,November,6,18.7,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+131009,1,quve,1308,2019.15,2019,November,6,40.89,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+131086,1,quru,1310,2019.15,2019,November,6,60.56,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+131087,1,quru,1310,2019.15,2019,November,6,50.49,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+131092,1,litu,1311,2019.15,2019,November,6,45.25,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+131096,1,litu,1311,2019.15,2019,November,6,15.84,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+131188,1,litu,1313,2019.15,2019,November,6,22.03,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+131227,1,litu,1313,2019.15,2019,November,6,67.84,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+131232,1,litu,1313,2019.15,2019,November,6,101,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+131233,1,litu,1313,2019.15,2019,November,6,72.62,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+131239,1,quru,1314,2019.15,2019,November,6,103.84,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+131272,1,fram,1315,2019.15,2019,November,6,NA,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+131352,1,fram,1316,2019.15,2019,November,6,NA,0, , ,,band removed spring 2019,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+131364,1,acru,1316,2019.15,2019,November,6,35.67,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132028,1,fram,1317,2019.15,2019,November,6,56.34,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132077,1,qual,1319,2019.15,2019,November,6,60.63,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132171,1,litu,1320,2019.15,2019,November,6,51.63,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132302,1,quru,1321,2019.15,2019,November,6,18.81,0, , ,,band adjusted,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132311,1,qual,1322,2019.15,2019,November,6,119.14,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132321,1,quru,1323,2019.15,2019,November,6,98.88,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132280,1,fram,1324,2019.15,2019,November,6,11.68,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+132371,1,quru,1325,2019.15,2019,November,6,32,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132508,1,quve,1328,2019.15,2019,November,6,79.17,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132524,1,litu,1329,2019.15,2019,November,6,76.81,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132525,1,fram,1329,2019.15,2019,November,6,13.94,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132529,1,litu,1329,2019.15,2019,November,6,119.52,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132539,1,litu,1331,2019.15,2019,November,6,30.98,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132542,1,quve,1332,2019.15,2019,November,6,125.08,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+132545,1,litu,1332,2019.15,2019,November,6,NA,0, , ,,RD,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+140609,1,litu,1403,2019.15,2019,November,6,28.72,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+140467,1,quve,1404,2019.15,2019,November,6,99.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+140646,1,litu,1405,2019.15,2019,November,6,68.86,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140736,1,quve,1407,2019.15,2019,November,6,31.6,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140751,1,quru,1408,2019.15,2019,November,6,73.73,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140756,1,quve,1408,2019.15,2019,November,6,NA,0, , ,DS;F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140813,1,litu,1410,2019.15,2019,November,6,84.01,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140818,1,litu,1410,2019.15,2019,November,6,59.25,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140819,1,litu,1411,2019.15,2019,November,6,5.45,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140821,1,litu,1411,2019.15,2019,November,6,37.5,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140825,1,litu,1411,2019.15,2019,November,6,21.86,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140829,1,litu,1411,2019.15,2019,November,6,24.52,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140833,1,litu,1411,2019.15,2019,November,6,124.9,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+140872,1,litu,1413,2019.15,2019,November,6,34.17,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+141088,1,fram,1415,2019.15,2019,November,6,6.89,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+141216,1,caco,1415,2019.15,2019,November,6,10.13,0, , ,M;main,M;main,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+141146,1,caco,1416,2019.15,2019,November,6,28.18,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+142113,1,cagl,1417,2019.15,2019,November,6,37.92,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+142206,1,fram,1419,2019.15,2019,November,6,110.63,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+142521,1,pist,1422,2019.15,2019,November,6,68.48,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+142527,1,cagl,1422,2019.15,2019,November,6,33.29,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+142548,1,qual,1424,2019.15,2019,November,6,11.04,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,5
+142380,1,qual,1425,2019.15,2019,November,6,16.57,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142575,1,quve,1426,2019.15,2019,November,6,50.7,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+143707,1,cagl,1426,2019.15,2019,November,6,20.24,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142399,1,qual,1427,2019.15,2019,November,6,16.42,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142708,1,juni,1429,2019.15,2019,November,6,20.85,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142656,1,litu,1431,2019.15,2019,November,6,63.45,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142727,1,litu,1431,2019.15,2019,November,6,142.93,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142729,1,litu,1431,2019.15,2019,November,6,54.75,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142730,1,litu,1431,2019.15,2019,November,6,44.53,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142731,1,litu,1432,2019.15,2019,November,6,59.25,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142732,1,cagl,1432,2019.15,2019,November,6,34.26,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142733,1,litu,1432,2019.15,2019,November,6,31.82,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+142735,1,qual,1432,2019.15,2019,November,6,82.21,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+150756,1,quve,1503,2019.15,2019,November,6,36.67,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+152153,1,ploc,1520,2019.15,2019,November,6,60.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+152513,1,qupr,1525,2019.15,2019,November,6,10.54,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+152673,1,litu,1530,2019.15,2019,November,6,70.88,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+152701,1,litu,1531,2019.15,2019,November,6,41.21,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+160713,1,litu,1603,2019.15,2019,November,6,12.78,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+160742,1,litu,1605,2019.15,2019,November,6,67.88,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+160910,1,litu,1607,2019.15,2019,November,6,105.71,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+160814,1,cato,1611,2019.15,2019,November,6,3.09,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+160985,1,litu,1612,2019.15,2019,November,6,12.31,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+160862,1,ploc,1614,2019.15,2019,November,6,27.14,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+161578,1,qual,1616,2019.15,2019,November,6,4.97,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+162293,1,qual,1623,2019.15,2019,November,6,105.86,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+162503,1,quve,1624,2019.15,2019,November,6,142.97,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+162439,1,quru,1627,2019.15,2019,November,6,25.61,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+162541,1,qupr,1627,2019.15,2019,November,6,6.45,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+162543,1,qual,1627,2019.15,2019,November,6,75.04,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+162446,1,quru,1630,2019.15,2019,November,6,15.42,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+170175,1,litu,1702,2019.15,2019,November,6,90.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+170992,1,litu,1704,2019.15,2019,November,6,81.29,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+170994,1,litu,1704,2019.15,2019,November,6,140.13,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171127,1,litu,1705,2019.15,2019,November,6,110.29,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171254,1,litu,1708,2019.15,2019,November,6,69.48,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171257,1,litu,1708,2019.15,2019,November,6,83.05,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171262,1,litu,1708,2019.15,2019,November,6,153.67,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171314,1,quru,1712,2019.15,2019,November,6,151.21,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171348,1,ceca,1714,2019.15,2019,November,6,86.29,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171358,1,fram,1714,2019.15,2019,November,6,15.72,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171454,1,caco,1714,2019.15,2019,November,6,7.32,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171456,1,acru,1714,2019.15,2019,November,6,111.44,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171462,1,qual,1715,2019.15,2019,November,6,15.51,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+171505,1,litu,1716,2019.15,2019,November,6,73.44,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+171506,1,litu,1716,2019.15,2019,November,6,131.49,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172201,1,cagl,1717,2019.15,2019,November,6,51.23,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172202,1,quru,1717,2019.15,2019,November,6,65.72,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172203,1,qual,1717,2019.15,2019,November,6,17.5,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172205,1,qual,1717,2019.15,2019,November,6,126.97,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172248,1,cato,1719,2019.15,2019,November,6,30.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172255,1,qual,1720,2019.15,2019,November,6,113.84,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172382,1,juni,1723,2019.15,2019,November,6,113.13,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+172416,1,nysy,1725,2019.15,2019,November,6,3.41,0, , , ,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172417,1,nysy,1725,2019.15,2019,November,6,20.04,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172418,1,nysy,1725,2019.15,2019,November,6,31.02,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172421,1,cagl,1725,2019.15,2019,November,6,13.76,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172423,1,litu,1726,2019.15,2019,November,6,37.61,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172470,1,quru,1728,2019.15,2019,November,6,102.21,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172472,1,fram,1728,2019.15,2019,November,6,26.62,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172556,1,litu,1729,2019.15,2019,November,6,54.27,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172499,1,qual,1730,2019.15,2019,November,6,19.75,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+172624,1,litu,1731,2019.15,2019,November,6,32.62,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+180235,1,litu,1802,2019.15,2019,November,6,161.09,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180728,1,litu,1804,2019.15,2019,November,6,142.29,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180654,1,litu,1805,2019.15,2019,November,6,108.9,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180691,1,litu,1807,2019.15,2019,November,6,32.97,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180903,1,litu,1808,2019.15,2019,November,6,14.95,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180904,1,litu,1808,2019.15,2019,November,6,43.86,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180791,1,cagl,1811,2019.15,2019,November,6,9.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180984,1,litu,1813,2019.15,2019,November,6,31.1,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+180991,1,ploc,1814,2019.15,2019,November,6,131.04,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+181030,1,qual,1816,2019.15,2019,November,6,12.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+181033,1,litu,1816,2019.15,2019,November,6,168.72,0, , ,,window too big,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182207,1,qual,1817,2019.15,2019,November,6,109.32,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182208,1,quru,1817,2019.15,2019,November,6,89.31,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182248,1,nysy,1820,2019.15,2019,November,6,35.41,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182161,1,fram,1822,2019.15,2019,November,6,7.13,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182376,1,ploc,1823,2019.15,2019,November,6,82.63,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182570,1,juni,1823,2019.15,2019,November,6,99.59,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+182451,1,fram,1829,2019.15,2019,November,6,17.64,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+182681,1,litu,1829,2019.15,2019,November,6,162.01,0, , ,,too large for 1 measure,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+182693,1,litu,1830,2019.15,2019,November,6,14.25,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+182491,1,litu,1831,2019.15,2019,November,6,82.37,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+182498,1,fram,1831,2019.15,2019,November,6,27.18,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+190065,1,litu,1902,2019.15,2019,November,6,136.12,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190067,1,litu,1902,2019.15,2019,November,6,126.13,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190071,1,litu,1902,2019.15,2019,November,6,10.12,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190115,1,litu,1902,2019.15,2019,November,6,90,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190413,1,litu,1904,2019.15,2019,November,6,85.76,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190426,1,litu,1904,2019.15,2019,November,6,47.01,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190429,1,litu,1904,2019.15,2019,November,6,111.37,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190655,1,litu,1907,2019.15,2019,November,6,47.6,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190658,1,litu,1907,2019.15,2019,November,6,36.1,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190670,1,litu,1908,2019.15,2019,November,6,77.12,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190694,1,quru,1909,2019.15,2019,November,6,120.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190568,1,juni,1912,2019.15,2019,November,6,146.29,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190793,1,litu,1914,2019.15,2019,November,6,136.92,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190794,1,quru,1914,2019.15,2019,November,6,141.37,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190798,1,cagl,1914,2019.15,2019,November,6,10.73,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+190835,1,litu,1916,2019.15,2019,November,6,105.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+190838,1,quru,1916,2019.15,2019,November,6,71.36,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+190840,1,litu,1916,2019.15,2019,November,6,45.09,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+190935,1,quru,1916,2019.15,2019,November,6,NA,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192008,1,qual,1917,2019.15,2019,November,6,124.22,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192055,1,qual,1919,2019.15,2019,November,6,116.02,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192244,1,qual,1919,2019.15,2019,November,6,29.55,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192062,1,qupr,1920,2019.15,2019,November,6,54.45,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192064,1,qupr,1920,2019.15,2019,November,6,70.03,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192133,1,caovl,1923,2019.15,2019,November,6,18.09,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+192437,1,litu,1925,2019.15,2019,November,6,13.28,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192466,1,quru,1926,2019.15,2019,November,6,82.72,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192484,1,quru,1926,2019.15,2019,November,6,47.24,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192619,1,quru,1926,2019.15,2019,November,6,31.67,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192527,1,litu,1928,2019.15,2019,November,6,77.03,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192528,1,litu,1928,2019.15,2019,November,6,150.24,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192532,1,fagr,1928,2019.15,2019,November,6,115.05,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192533,1,litu,1928,2019.15,2019,November,6,22.39,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192534,1,litu,1928,2019.15,2019,November,6,106.52,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192542,1,litu,1929,2019.15,2019,November,6,4.69,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192543,1,litu,1929,2019.15,2019,November,6,49.41,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192544,1,litu,1929,2019.15,2019,November,6,11.58,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192546,1,litu,1929,2019.15,2019,November,6,81.61,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192548,1,litu,1929,2019.15,2019,November,6,95.81,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192674,1,litu,1929,2019.15,2019,November,6,12.67,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192560,1,qual,1930,2019.15,2019,November,6,122.51,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+192570,1,fram,1931,2019.15,2019,November,6,12,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+200038,1,litu,2001,2019.15,2019,November,6,29.3,0, , ,M;main,M;main,Alyssa Terrell,Alyssa Terrell,1
+200038,2,litu,2001,2019.15,2019,November,6,5.1,0, , ,S ,S,Alyssa Terrell,Alyssa Terrell,1
+200142,1,litu,2002,2019.15,2019,November,6,120,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200151,1,litu,2002,2019.15,2019,November,6,23.33,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200613,1,litu,2004,2019.15,2019,November,6,93.14,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200547,1,litu,2005,2019.15,2019,November,6,133.64,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200551,1,litu,2005,2019.15,2019,November,6,111.17,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200553,1,litu,2005,2019.15,2019,November,6,116.35,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200577,1,juni,2007,2019.15,2019,November,6,13.7,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200586,1,juni,2007,2019.15,2019,November,6,122.78,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200676,1,litu,2008,2019.15,2019,November,6,145.16,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200812,1,juni,2008,2019.15,2019,November,6,48.76,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200818,1,litu,2008,2019.15,2019,November,6,50.98,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+200822,1,litu,2008,2019.15,2019,November,6,91.12,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201207,1,litu,2012,2019.15,2019,November,6,21.54,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201261,1,juni,2013,2019.15,2019,November,6,7.32,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201264,1,litu,2014,2019.15,2019,November,6,56.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201274,1,litu,2014,2019.15,2019,November,6,151.38,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201278,1,litu,2014,2019.15,2019,November,6,141.89,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201279,1,quru,2014,2019.15,2019,November,6,73.21,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201331,1,qupr,2015,2019.15,2019,November,6,3.11,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+201432,1,quve,2016,2019.15,2019,November,6,72.2,0, , ,,retag,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+201441,1,litu,2016,2019.15,2019,November,6,127.58,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202201,1,cato,2017,2019.15,2019,November,6,22.44,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202203,1,quru,2017,2019.15,2019,November,6,40.4,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202212,1,quve,2017,2019.15,2019,November,6,57.18,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202215,1,qual,2017,2019.15,2019,November,6,95.14,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202050,1,qual,2019,2019.15,2019,November,6,29.15,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202072,1,qual,2020,2019.15,2019,November,6,19.14,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202283,1,litu,2020,2019.15,2019,November,6,121.98,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202336,1,cagl,2022,2019.15,2019,November,6,105.03,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202118,1,quve,2023,2019.15,2019,November,6,113.63,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202337,1,cagl,2023,2019.15,2019,November,6,63.77,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
+202444,1,litu,2025,2019.15,2019,November,6,151.46,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202449,1,litu,2026,2019.15,2019,November,6,114.94,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202536,1,fram,2028,2019.15,2019,November,6,106.4,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202541,1,fram,2028,2019.15,2019,November,6,3.14,0, , , ,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202543,1,litu,2028,2019.15,2019,November,6,14.52,0, , , ,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202545,1,litu,2029,2019.15,2019,November,6,27.28,0, , , ,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202550,1,litu,2029,2019.15,2019,November,6,128.24,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202581,1,fram,2031,2019.15,2019,November,6,67.04,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202585,1,juni,2032,2019.15,2019,November,6,54.95,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
+202586,1,fram,2032,2019.15,2019,November,6,48.89,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
