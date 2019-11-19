@@ -289,7 +289,7 @@ write.csv(data_biannual, "resources/data_entry_forms/data_entry_biannual_2018.cs
 
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-data_biannual <- read.csv("resources/data_entry_forms/2019/data_entry_biannual_spr2019.csv")
+data_biannual <- read.csv("resources/data_entry_forms/2019/data_entry_biannual_fall2019.csv")
 
 names2019 <- c(colnames(data_2019))
 namesbi <- c(colnames(data_biannual))
