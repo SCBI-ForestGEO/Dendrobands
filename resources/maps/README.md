@@ -9,7 +9,7 @@ Numbered areas on the biannual map have been used as survey areas since 2012, as
 
 ## Editing
 
-We are using [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/clean_data_files/dendro_trees.csv) to provide the data for these maps as opposed to "scbi.dendroAll_YEAR.csv" because 
+We are using [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) to provide the data for these maps as opposed to "scbi.dendroAll_YEAR.csv" because 
 
 1. dendro_trees reflects the data in the all of the YEAR files and
 
