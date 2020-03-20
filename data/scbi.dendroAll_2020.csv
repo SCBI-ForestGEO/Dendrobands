@@ -338,8 +338,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 131232,1,2020.01,2020,March,11,1,0,litu,1313,14.4,19.2,105.15, ,double-checked,alive,Jessica Shue,Jessica Shue,18157,18157,NA,430.7,0,153,2,NA,1.32,NA,NA,NA,NA
 131233,1,2020.01,2020,March,11,1,0,litu,1313,18.3,19.6,71.8, , ,alive,Jessica Shue,Jessica Shue,18158,18158,NA,301.6,0,154,2,NA,1.31,NA,NA,NA,NA
 131239,1,2020.01,2020,March,11,1,1,quru,1314,19.5,5.7,123.92, ,double-checked,alive,Jessica Shue,Jessica Shue,18164,18164,NA,587.1,0,735,2,NA,1.47,NA,NA,NA,NA
-131272,1,2020.01,2020,March,11,1,0,fram,1315,18.5,2.2,NA,DS,,dead,Jessica Shue,Jessica Shue,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
-131352,1,2020.01,2020,March,11,1,0,fram,1316,5.5,3.3,NA,DS,,dead,Jessica Shue,Jessica Shue,18274,40284,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA
+131272,1,2020.01,2020,March,11,1,0,fram,1315,18.5,2.2,NA,DS,"""Alive unhealthy"" (AU) in mort. 2019",dead,Jessica Shue,Jessica Shue,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
+131352,1,2020.01,2020,March,11,1,0,fram,1316,5.5,3.3,NA,DS,Alive in mort. 2019. band removed in 2019.01,dead,Jessica Shue,Jessica Shue,18274,40284,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA
 131364,1,2020.01,2020,March,11,1,0,acru,1316,12,12.9,35.48, ,flowering,alive,Jessica Shue,Jessica Shue,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
 132028,1,2020.01,2020,March,11,1,0,fram,1317,17,6.7,55.11,DS,EAB,dead,Jessica Shue,Jessica Shue,18369,18369,NA,595.7,0,160,2,NA,1.4,NA,NA,NA,NA
 132077,1,2020.01,2020,March,11,1,1,qual,1319,9.9,15.9,59.73, , ,alive,Jessica Shue,Jessica Shue,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
@@ -505,8 +505,8 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 192570,1,2020.01,2020,March,NA,1,0,fram,1931,16.4,16.3,0,DS,gap closed,dead,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,28974,28974,NA,481,0,916,2,NA,1.4,NA,NA,NA,NA
 192619,1,2020.01,2020,March,NA,1,1,quru,1926,12.6,8.5,32.41, , ,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29017,29017,NA,787,0,847,2,NA,1.4,NA,NA,NA,NA
 192674,1,2020.01,2020,March,NA,1,0,litu,1929,9.5,2.8,11.72, , ,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29069,29069,NA,467,0,797,2,NA,1.3,NA,NA,NA,NA
-200038,1,2020.01,2020,March,11,1,0,litu,2001,3.6,9.6,NA,RE,lightning strike,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29145,29145,NA,981,0,917,2,NA,1.7,NA,NA,NA,NA
-200038,2,2020.01,2020,March,11,1,0,litu,2001,3.6,9.6,NA,RE,lightning strike,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,36227,29145,NA,865,0,918,2,NA,1.7,NA,NA,NA,NA
+200038,1,2020.01,2020,March,11,1,0,litu,2001,3.6,9.6,NA,RE,"lightning strike, band removed",alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29145,29145,NA,981,0,917,2,NA,1.7,NA,NA,NA,NA
+200038,2,2020.01,2020,March,11,1,0,litu,2001,3.6,9.6,NA,RE,"lightning strike, band removed",alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,36227,29145,NA,865,0,918,2,NA,1.7,NA,NA,NA,NA
 200142,1,2020.01,2020,March,11,1,1,litu,2002,1.3,3.5,126.27, ,,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29241,29241,NA,604,0,454,2,NA,1.3,NA,NA,NA,NA
 200151,1,2020.01,2020,March,11,1,0,litu,2002,6.9,4,33.61, ,,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29250,29250,NA,669.3,0,826,2,NA,1.4,NA,NA,NA,NA
 200547,1,2020.01,2020,March,11,1,0,litu,2005,2.6,1.1,134.2, ,,alive,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,29606,29606,NA,654,0,456,2,NA,1.3,NA,NA,NA,NA
