@@ -7,6 +7,7 @@ library(dplyr) #1
 library(writexl) #1
 library(xlsx) #1 (depends on Java)
 library(zoo) #3
+library(tidyverse)
 
 #1 create field_form intraannual
 #2 create data_entry form intraannual
@@ -15,29 +16,35 @@ library(zoo) #3
 #1 Create field_form intraannual ####
 ## when printing new field forms because used up all data spaces, this code will create a new form with the updated prevmeas.
 
-data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
+data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
 
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
 #subset by what's in intraannual survey
-intra <- data_2019[data_2019$intraannual == "1", ]
+intra <- data_2020[data_2020$intraannual == "1", ]
 
 #subset by max survey.ID (specific for each stemID - this code already takes into account if a stem has a newer measurement in a 2019.061 scenario compared to 2019.06)
 prevmeasin <- NULL
 for (i in seq(along=unique(intra$stemID))){
-  sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
-  sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
+  #sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  #previous line not needed when creating first datasheet of the intrannual survey but maybe needed next time.
   
   prevmeasin <- rbind(prevmeasin, sub)
 }
 
+prevmeasin<-prevmeasin[-which(is.na(prevmeasin)), ]#use this to remove rows with all NA values
+
 data_intra <- NULL
 for (i in seq(along=unique(intra$stemID))){
-  sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
-  sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
+  #sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  #previous line not needed when creating first datasheet of the intrannual survey but maybe needed next time.
   
   data_intra <- rbind(data_intra, sub)
 }
+
+data_intra<-data_intra[-which(is.na(data_intra)), ]#use this to remove rows with all NA values
 
 data_intra$location <- dendro_trees$location[match(data_intra$stemID, dendro_trees$stemID)]
 
@@ -53,7 +60,7 @@ data_intra$"Date3: SID: Name:" = NA
 data_intra$"Date4: SID: Name:" = NA
 data_intra$"Date5: SID: Name:" = NA
 
-data_intra <- data_intra %>% rename("Date1:  SID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag, "dbh_18" = dbh)
+data_intra <- data_intra %>% rename("Date1:  SID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag, "dbh_2018" = dbh)
 
 data_intra$prevmeas = prevmeasin$measure
 
@@ -72,38 +79,40 @@ matrix <- function(data_intra, table_title) {
   
 }
 
-temp <- matrix(data_intra, table_title=('Intraannual Survey'))
-# temp <- as.data.frame(temp) #don't use this if using xlsx package
 
-# write_xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", row.names=FALSE, col.names=FALSE)
-write_xlsx(temp, "resources/field_forms/2019/field_form_intraannual.xlsx", col_names=FALSE)
+temp <- matrix(data_intra, table_title=('Intraannual Survey'))
+temp <- as.data.frame(temp) #don't use this if using xlsx package
+
+write_xlsx(temp, "resources/field_forms/2020/field_form_intraannual.xlsx", col_names=FALSE)
 
 #to add a blank spacer row btwn title and columns, add
 "rep('', ncol(data_intra)), # blank spacer row"
 #as the second line of the rbind function
 
-#after writing new file to excel, need to 
+#after writing new file to excel, need to do this manually: 
   #1 add all borders, merge and center title across top
   #2 adjust cell dimensions as needed
   #3 change print margins to "narrow"
   #4 make sure print area is defined as wanted ("Page Layout")
+  #5 Filter by location (S or N) and print separately
 
 ####################################################################################
 #2 Create data_entry forms intraannual ####
 # Create data_intra forms from master
 
-data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
+data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
-intra <- data_2019[data_2019$intraannual == "1", ]
+intra <- data_2020[data_2020$intraannual == "1", ]
 
 data_intra <- NULL
 for (i in seq(along=unique(intra$stemID))){
-  sub <- data_2019[data_2019$stemID == unique(intra$stemID)[[i]], ]
-  sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
+  sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
+  #sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
   
   data_intra <- rbind(data_intra, sub)
 }
+data_intra<-data_intra[-which(is.na(data_intra)), ]#use this to remove rows with all NA values
 
 data_intra$location <- dendro_trees$location[match(data_intra$stemID, dendro_trees$stemID)]
 
@@ -125,11 +134,12 @@ data_intra<-data_intra[,c(1,2,7,8,3:6,9:11,13:14,12)]
 
 data_intra[is.na(data_intra)] <- " "
 
-write.csv(data_intra, "resources/data_entry_forms/2019/data_entry_intraannual.csv", row.names=FALSE)
+write.csv(data_intra, "resources/data_entry_forms/2020/data_entry_intraannual.csv", row.names=FALSE)
+#Now RENAME manually the file to reflect the survey ID, for example 2020-02
 
 ####################################################################################
 #3 Merge data_entry form intraannual with the year's master file ####
-data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
+data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
 
 #change for the appropriate surveyID file
 data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-14.csv", colClasses = c("codes" = "character"))
