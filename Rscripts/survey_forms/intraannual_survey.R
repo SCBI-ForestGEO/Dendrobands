@@ -55,18 +55,18 @@ for (i in 1:nrow(data_intra)){
   data_intra$codes <- ifelse(grepl("F", data_intra$codes), "F", "")
 }
 
-data_intra$"Date2: SID: Name:" = NA
-data_intra$"Date3: SID: Name:" = NA
-data_intra$"Date4: SID: Name:" = NA
-data_intra$"Date5: SID: Name:" = NA
+data_intra$"Date2: SvID: Name:" = NA
+data_intra$"Date3: SvID: Name:" = NA
+data_intra$"Date4: SvID: Name:" = NA
+#data_intra$"Date5: SvID: Name:" = NA
 
-data_intra <- data_intra %>% rename("Date1:  SID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag, "dbh_2018" = dbh)
+data_intra <- data_intra %>% rename("Date1:  SvID:   Name:" = measure, "codes&notes" = codes, "stem" = stemtag, "dbh_2018" = dbh)
 
 data_intra$prevmeas = prevmeasin$measure
 
 data_intra[is.na(data_intra)&!is.na(data_intra$prevmeas)] <- " "
 
-data_intra<-data_intra[,c(1:3,10,4:6,15,7,11:14,8:9)]
+data_intra<-data_intra[,c(1:3,10,4:6,14,7,11:13,8:9)]
 
 data_intra$location<-gsub("South", "S", data_intra$location)
 data_intra$location<-gsub("North", "N", data_intra$location)
@@ -90,10 +90,10 @@ write_xlsx(temp, "resources/field_forms/2020/field_form_intraannual.xlsx", col_n
 #as the second line of the rbind function
 
 #after writing new file to excel, need to do this manually: 
-  #1 add all borders, merge and center title across top
+  #1 add all borders, wrap text on survey columns (Date1: SvID: Name:)
   #2 adjust cell dimensions as needed
-  #3 change print margins to "narrow"
-  #4 make sure print area is defined as wanted ("Page Layout")
+  #3 change print margins to "narrow" 
+  #4 make sure print area is defined as landscape ("Page Layout")
   #5 Filter by location (S or N) and print separately
 
 ####################################################################################
