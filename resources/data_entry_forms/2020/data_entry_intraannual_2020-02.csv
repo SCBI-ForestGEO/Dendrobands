@@ -20,7 +20,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 40567,1,fagr,406,2020.02,2020,3,30,12.08,, , Cameron Dow, Cameron Dow,South,0
 40568,1,fagr,406,2020.02,2020,3,30,12.16,, , Cameron Dow, Cameron Dow,South,0
 40569,1,litu,407,2020.02,2020,3,30,90.78,, , Cameron Dow, Cameron Dow,South,1
-50364,1,qual,507,2020.02,2020,3,30,,F, , Cameron Dow, Cameron Dow,South,
+50364,1,qual,507,2020.02,2020,3,30,NA,F,missed trees (forgot to measure), Cameron Dow, Cameron Dow,South,NA
 50650,1,litu,514,2020.02,2020,3,30,19.31,, , Cameron Dow, Cameron Dow,South,0
 50654,1,litu,514,2020.02,2020,3,30,52.08,, , Cameron Dow, Cameron Dow,South,1
 52190,1,quru,522,2020.02,2020,3,30,108.65,, , Cameron Dow, Cameron Dow,North,0
@@ -127,7 +127,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 172203,1,qual,1717,2020.02,2020,3,30,17.24,, , Cameron Dow, Cameron Dow,North,0
 172255,1,qual,1720,2020.02,2020,3,30,113.23,, , Cameron Dow, Cameron Dow,North,0
 172470,1,quru,1728,2020.02,2020,3,30,103.86,, , Cameron Dow, Cameron Dow,North,0
-172499,1,qual,1730,2020.02,2020,3,30, ,, Large fallen branch resting on dendroband, Cameron Dow, Cameron Dow,North,
+172499,1,qual,1730,2020.02,2020,3,30,NA,, Large fallen branch resting on dendroband, Cameron Dow, Cameron Dow,North,NA
 181030,1,qual,1816,2020.02,2020,3,30,10.32,, , Cameron Dow, Cameron Dow,North,0
 190067,1,litu,1902,2020.02,2020,3,30,15.59,, , Cameron Dow, Cameron Dow,South,2
 190413,1,litu,1904,2020.02,2020,3,30,85.07,, , Cameron Dow, Cameron Dow,South,1
