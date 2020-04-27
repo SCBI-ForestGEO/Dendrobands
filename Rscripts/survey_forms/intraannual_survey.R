@@ -1,7 +1,7 @@
 ######################################################
 # Purpose: Dendroband intraannual survey: create field forms, create data_entry forms, and merge data_entry form with year master
 # Developed by: Ian McGregor - mcgregori@si.edu
-# R version 3.5.2 - First created October 2018
+# R version 3.5.2 - First created October 2018, updated by Erika Gonzalez-Akre, March 2020
 ######################################################
 library(dplyr) #1
 library(writexl) #1
@@ -14,7 +14,7 @@ library(tidyverse)
 #3 merge data_entry form intraannual with the year's master file
 
 #1 Create field_form intraannual ####
-## when printing new field forms because used up all data spaces, this code will create a new form with the updated prevmeas.
+## when printing new field forms, this code will create a new form with the updated "prevmeas".
 
 data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
 
@@ -23,7 +23,7 @@ dendro_trees <- read.csv("data/dendro_trees.csv")
 #subset by what's in intraannual survey
 intra <- data_2020[data_2020$intraannual == "1", ]
 
-#subset by max survey.ID (specific for each stemID - this code already takes into account if a stem has a newer measurement in a 2019.061 scenario compared to 2019.06)
+#subset by max survey.ID (specific for each stemID - this code already takes into account if a stem has a newer measurement in a 2019.061 scenario (for example, when you measure few trees betwen surveys- compared to 2019.06)
 prevmeasin <- NULL
 for (i in seq(along=unique(intra$stemID))){
   sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
@@ -85,11 +85,11 @@ temp <- as.data.frame(temp) #don't use this if using xlsx package
 
 write_xlsx(temp, "resources/field_forms/2020/field_form_intraannual.xlsx", col_names=FALSE)
 
-#to add a blank spacer row btwn title and columns, add
+#to add a blank spacer row between title and columns, add
 "rep('', ncol(data_intra)), # blank spacer row"
 #as the second line of the rbind function
 
-#after writing new file to excel, need to do this manually: 
+#after writing new file to excel, you need to do this manually: 
   #1 add all borders, wrap text on survey columns (Date1: SvID: Name:)
   #2 adjust cell dimensions as needed
   #3 change print margins to "narrow" 
