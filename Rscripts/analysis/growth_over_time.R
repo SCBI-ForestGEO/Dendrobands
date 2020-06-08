@@ -270,7 +270,8 @@ dev.off()
 #5. loop to create timeseries of dbh measurements manually ####
 
 ##before we knew Sean was working on a package (RDendrom), Valentine and I tried to create the same functionality manually (#5 and #6 in this script). Since we do have RDendrom, this manual work is deprecated, but I've decided to leave it here in case it's needed later.
-
+## *** to run this section, you need to run section #1 above first. ****
+                         
 #description of loop ####
 ##1. First, assigns the first dbh of the growth column as the first dbh.
 ##2. Second, is conditional:
