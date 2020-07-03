@@ -61,7 +61,7 @@
 22333,1,2014.14,2014,10,27,1,0,"fram",226,5.5,2.7,38.51,"M; main","","alive","Justin Cooper","Maryam Sedaghatpour",3354,3354,NA,421.6000061,0,17,2,NA,0.97,NA,NA,NA,NA
 30039,1,2014.01,2014,3,24,1,0,"fram",302,4.6,2.7,23.85,"","","alive","Erika Gonzalez","Valentine Herrmann",3702,3702,"929",932,0,18,2,NA,1.3,3,4,NA,NA
 30039,1,2014.14,2014,10,27,1,0,"fram",302,4.6,2.7,28.84,"","","alive","Erika Gonzalez","Maryam Sedaghatpour",3702,3702,NA,932,0,18,2,NA,1.3,NA,NA,NA,NA
-30225,1,2014.01,2014,4,1,1,1,"qual",306,20,3.1,5.16,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3866,3866,"NULL",301,0,543,2,NA,1.42,NA,NA,NA,NA
+30225,1,2014.01,2014,4,1,1,1,"qual",306,20,3.1,5.16,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3866,3866,NA,301,0,543,2,NA,1.42,NA,NA,NA,NA
 30225,1,2014.02,2014,4,14,1,1,"qual",306,20,3.1,5.22,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",3866,3866,NA,301,0,543,2,NA,1.42,NA,NA,NA,NA
 30225,1,2014.03,2014,5,1,1,1,"qual",306,20,3.1,6.24,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",3866,3866,NA,301,0,543,2,NA,1.42,NA,NA,NA,NA
 30225,1,2014.04,2014,5,13,1,1,"qual",306,20,3.1,6.25,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",3866,3866,NA,301,0,543,2,NA,1.42,NA,NA,NA,NA
@@ -89,7 +89,7 @@
 30233,1,2014.12,2014,9,2,1,1,"fagr",306,15.6,16.2,75.97,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",3874,3874,NA,1046.800049,0,627,2,NA,1.28,NA,NA,NA,NA
 30233,1,2014.13,2014,9,15,1,1,"fagr",306,15.6,16.2,76.24,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",3874,3874,NA,1046.800049,0,627,2,NA,1.28,NA,NA,NA,NA
 30233,1,2014.14,2014,10,27,1,1,"fagr",306,15.6,16.2,79.02,"","From sap flow cluster","alive","Erika Gonzalez","Maryam Sedaghatpour",3874,3874,NA,1046.800049,0,627,2,NA,1.28,NA,NA,NA,NA
-30234,1,2014.01,2014,4,1,1,1,"fagr",306,15.3,18.5,13.06,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3875,3875,"NULL",71.5,0,544,2,NA,1.4,NA,NA,NA,NA
+30234,1,2014.01,2014,4,1,1,1,"fagr",306,15.3,18.5,13.06,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
 30234,1,2014.02,2014,4,14,1,1,"fagr",306,15.3,18.5,13.1,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
 30234,1,2014.03,2014,5,1,1,1,"fagr",306,15.3,18.5,12.99,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
 30234,1,2014.04,2014,5,13,1,1,"fagr",306,15.3,18.5,13.7,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
@@ -103,7 +103,7 @@
 30234,1,2014.12,2014,9,2,1,1,"fagr",306,15.3,18.5,18.94,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
 30234,1,2014.13,2014,9,15,1,1,"fagr",306,15.3,18.5,18.92,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
 30234,1,2014.14,2014,10,27,1,1,"fagr",306,15.3,18.5,18.87,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",3875,3875,NA,71.5,0,544,2,NA,1.4,NA,NA,NA,NA
-30331,1,2014.01,2014,4,1,1,1,"cagl",306,8.3,19.5,8.12,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3967,3967,"NULL",216,0,545,2,NA,1.46,NA,NA,NA,NA
+30331,1,2014.01,2014,4,1,1,1,"cagl",306,8.3,19.5,8.12,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
 30331,1,2014.02,2014,4,14,1,1,"cagl",306,8.3,19.5,9.12,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
 30331,1,2014.03,2014,5,1,1,1,"cagl",306,8.3,19.5,10.53,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
 30331,1,2014.04,2014,5,13,1,1,"cagl",306,8.3,19.5,10.43,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
@@ -117,7 +117,7 @@
 30331,1,2014.12,2014,9,2,1,1,"cagl",306,8.3,19.5,17.12,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
 30331,1,2014.13,2014,9,15,1,1,"cagl",306,8.3,19.5,17.14,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
 30331,1,2014.14,2014,10,27,1,1,"cagl",306,8.3,19.5,16.97,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",3967,3967,NA,216,0,545,2,NA,1.46,NA,NA,NA,NA
-30333,1,2014.01,2014,4,1,1,1,"fagr",306,14,19.3,16.87,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3969,3969,"NULL",222,0,546,2,NA,1.52,NA,NA,NA,NA
+30333,1,2014.01,2014,4,1,1,1,"fagr",306,14,19.3,16.87,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3969,3969,NA,222,0,546,2,NA,1.52,NA,NA,NA,NA
 30333,1,2014.02,2014,4,14,1,1,"fagr",306,14,19.3,16.81,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",3969,3969,NA,222,0,546,2,NA,1.52,NA,NA,NA,NA
 30333,1,2014.03,2014,5,1,1,1,"fagr",306,14,19.3,16.88,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",3969,3969,NA,222,0,546,2,NA,1.52,NA,NA,NA,NA
 30333,1,2014.04,2014,5,13,1,1,"fagr",306,14,19.3,16.92,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",3969,3969,NA,222,0,546,2,NA,1.52,NA,NA,NA,NA
@@ -173,7 +173,7 @@
 30339,1,2014.14,2014,10,27,1,1,"litu",307,8.6,4.1,22.41,"M; main","From sap flow cluster","alive","Erika Gonzalez","Maryam Sedaghatpour",3975,3975,NA,153.1000061,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,2,2014.14,2014,10,27,1,1,"litu",307,8.6,4.1,111.07,"S","From sap flow cluster","alive","Erika Gonzalez","Maryam Sedaghatpour",32681,3975,NA,153.1000061,0,549,2,NA,1.3,NA,NA,NA,NA
 30339,3,2014.14,2014,10,27,1,1,"litu",307,8.6,4.1,23.95,"S","From sap flow cluster","alive","Erika Gonzalez","Maryam Sedaghatpour",37149,3975,NA,153.1000061,0,549,2,NA,1.3,NA,NA,NA,NA
-30343,1,2014.01,2014,4,1,1,1,"quru",307,17.9,8,19.04,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3979,3979,"NULL",600,0,550,2,NA,1.38,NA,NA,NA,NA
+30343,1,2014.01,2014,4,1,1,1,"quru",307,17.9,8,19.04,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",3979,3979,NA,600,0,550,2,NA,1.38,NA,NA,NA,NA
 30343,1,2014.02,2014,4,14,1,1,"quru",307,17.9,8,19.04,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",3979,3979,NA,600,0,550,2,NA,1.38,NA,NA,NA,NA
 30343,1,2014.03,2014,5,1,1,1,"quru",307,17.9,8,20.87,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",3979,3979,NA,600,0,550,2,NA,1.38,NA,NA,NA,NA
 30343,1,2014.04,2014,5,13,1,1,"quru",307,17.9,8,20.82,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",3979,3979,NA,600,0,550,2,NA,1.38,NA,NA,NA,NA
@@ -245,7 +245,7 @@
 32423,1,2014.14,2014,10,27,1,0,"litu",329,17.6,13.1,124.48,"A;I","","alive","Justin Cooper","Maryam Sedaghatpour",4647,4647,NA,914,0,29,2,NA,1.31,NA,NA,NA,NA
 32540,1,2014.01,2014,3,24,1,0,"qupr",332,19.9,15.6,65.66,"","","alive","Erika Gonzalez","Valentine Herrmann",4760,4760,"849.7",841.7999878,0,30,2,NA,1.35,2,3,NA,NA
 32540,1,2014.14,2014,10,27,1,0,"qupr",332,19.9,15.6,77.12,"","","alive","Justin Cooper","Maryam Sedaghatpour",4760,4760,NA,841.7999878,0,30,2,NA,1.35,NA,NA,NA,NA
-40562,1,2014.01,2014,4,1,1,1,"fagr",406,6.3,16.2,7.38,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5039,5039,"NULL",80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
+40562,1,2014.01,2014,4,1,1,1,"fagr",406,6.3,16.2,7.38,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
 40562,1,2014.02,2014,4,14,1,1,"fagr",406,6.3,16.2,7.62,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
 40562,1,2014.03,2014,5,1,1,1,"fagr",406,6.3,16.2,7.65,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
 40562,1,2014.04,2014,5,13,1,1,"fagr",406,6.3,16.2,7.77,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
@@ -259,7 +259,7 @@
 40562,1,2014.12,2014,9,2,1,1,"fagr",406,6.3,16.2,9.41,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
 40562,1,2014.13,2014,9,15,1,1,"fagr",406,6.3,16.2,9.49,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
 40562,1,2014.14,2014,10,27,1,1,"fagr",406,6.3,16.2,9.46,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5039,5039,NA,80.90000153,0,551,2,NA,1.41,NA,NA,NA,NA
-40563,1,2014.01,2014,4,1,1,1,"fagr",406,3.6,17.8,23.31,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5040,5040,"NULL",365,0,552,2,NA,1.44,NA,NA,NA,NA
+40563,1,2014.01,2014,4,1,1,1,"fagr",406,3.6,17.8,23.31,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
 40563,1,2014.02,2014,4,14,1,1,"fagr",406,3.6,17.8,23.47,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
 40563,1,2014.03,2014,5,1,1,1,"fagr",406,3.6,17.8,23.37,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
 40563,1,2014.04,2014,5,13,1,1,"fagr",406,3.6,17.8,23.3,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
@@ -273,7 +273,7 @@
 40563,1,2014.12,2014,9,2,1,1,"fagr",406,3.6,17.8,41.1,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
 40563,1,2014.13,2014,9,15,1,1,"fagr",406,3.6,17.8,41.86,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
 40563,1,2014.14,2014,10,27,1,1,"fagr",406,3.6,17.8,42.04,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5040,5040,NA,365,0,552,2,NA,1.44,NA,NA,NA,NA
-40564,1,2014.01,2014,4,1,1,1,"fagr",406,2.4,12.4,5.59,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5041,5041,"NULL",57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
+40564,1,2014.01,2014,4,1,1,1,"fagr",406,2.4,12.4,5.59,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
 40564,1,2014.02,2014,4,14,1,1,"fagr",406,2.4,12.4,5.68,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
 40564,1,2014.03,2014,5,1,1,1,"fagr",406,2.4,12.4,5.42,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
 40564,1,2014.04,2014,5,13,1,1,"fagr",406,2.4,12.4,5.67,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
@@ -287,7 +287,7 @@
 40564,1,2014.12,2014,9,2,1,1,"fagr",406,2.4,12.4,12.03,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
 40564,1,2014.13,2014,9,15,1,1,"fagr",406,2.4,12.4,12.01,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
 40564,1,2014.14,2014,10,27,1,1,"fagr",406,2.4,12.4,12.51,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5041,5041,NA,57.79999924,0,553,2,NA,1.43,NA,NA,NA,NA
-40565,1,2014.01,2014,4,1,1,1,"cagl",406,1.9,10.1,11.25,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5042,5042,"NULL",182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
+40565,1,2014.01,2014,4,1,1,1,"cagl",406,1.9,10.1,11.25,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2014.02,2014,4,14,1,1,"cagl",406,1.9,10.1,11.14,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2014.03,2014,5,1,1,1,"cagl",406,1.9,10.1,11.17,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2014.04,2014,5,13,1,1,"cagl",406,1.9,10.1,11.1,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
@@ -301,7 +301,7 @@
 40565,1,2014.12,2014,9,2,1,1,"cagl",406,1.9,10.1,12.17,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2014.13,2014,9,15,1,1,"cagl",406,1.9,10.1,11.83,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
 40565,1,2014.14,2014,10,27,1,1,"cagl",406,1.9,10.1,12.12,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5042,5042,NA,182.1000061,0,554,2,NA,1.36,NA,NA,NA,NA
-40566,1,2014.01,2014,4,1,1,1,"cagl",406,1.1,9.4,0.95,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5043,5043,"NULL",270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
+40566,1,2014.01,2014,4,1,1,1,"cagl",406,1.1,9.4,0.95,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
 40566,1,2014.02,2014,4,14,1,1,"cagl",406,1.1,9.4,1.06,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
 40566,1,2014.03,2014,5,1,1,1,"cagl",406,1.1,9.4,2.61,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
 40566,1,2014.04,2014,5,13,1,1,"cagl",406,1.1,9.4,2.3,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
@@ -315,7 +315,7 @@
 40566,1,2014.12,2014,9,2,1,1,"cagl",406,1.1,9.4,12.07,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
 40566,1,2014.13,2014,9,15,1,1,"cagl",406,1.1,9.4,11.92,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
 40566,1,2014.14,2014,10,27,1,1,"cagl",406,1.1,9.4,11.39,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5043,5043,NA,270.2000122,0,555,2,NA,1.41,NA,NA,NA,NA
-40567,1,2014.01,2014,4,1,1,1,"fagr",406,1.6,7.2,7.26,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5044,5044,"NULL",93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
+40567,1,2014.01,2014,4,1,1,1,"fagr",406,1.6,7.2,7.26,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40567,1,2014.02,2014,4,14,1,1,"fagr",406,1.6,7.2,7.27,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40567,1,2014.03,2014,5,1,1,1,"fagr",406,1.6,7.2,7.34,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40567,1,2014.04,2014,5,13,1,1,"fagr",406,1.6,7.2,7.3,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
@@ -329,7 +329,7 @@
 40567,1,2014.12,2014,9,2,1,1,"fagr",406,1.6,7.2,12.72,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40567,1,2014.13,2014,9,15,1,1,"fagr",406,1.6,7.2,12.76,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
 40567,1,2014.14,2014,10,27,1,1,"fagr",406,1.6,7.2,12.88,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5044,5044,NA,93.30000305,0,556,2,NA,1.43,NA,NA,NA,NA
-40568,1,2014.01,2014,4,1,1,1,"fagr",406,0.1,5.2,23.62,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5045,5045,"NULL",169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
+40568,1,2014.01,2014,4,1,1,1,"fagr",406,0.1,5.2,23.62,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
 40568,1,2014.02,2014,4,14,1,1,"fagr",406,0.1,5.2,23.61,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
 40568,1,2014.03,2014,5,1,1,1,"fagr",406,0.1,5.2,23.88,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
 40568,1,2014.04,2014,5,13,1,1,"fagr",406,0.1,5.2,23.82,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
@@ -343,7 +343,7 @@
 40568,1,2014.12,2014,9,2,1,1,"fagr",406,0.1,5.2,39.35,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
 40568,1,2014.13,2014,9,15,1,1,"fagr",406,0.1,5.2,39.91,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
 40568,1,2014.14,2014,10,27,1,1,"fagr",406,0.1,5.2,40.27,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",5045,5045,NA,169.8999939,0,557,2,NA,1.39,NA,NA,NA,NA
-40569,1,2014.01,2014,4,1,1,1,"litu",407,5.6,1.7,19.19,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5046,5046,"NULL",280,0,558,2,NA,1.41,NA,NA,NA,NA
+40569,1,2014.01,2014,4,1,1,1,"litu",407,5.6,1.7,19.19,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",5046,5046,NA,280,0,558,2,NA,1.41,NA,NA,NA,NA
 40569,1,2014.02,2014,4,14,1,1,"litu",407,5.6,1.7,19.16,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",5046,5046,NA,280,0,558,2,NA,1.41,NA,NA,NA,NA
 40569,1,2014.03,2014,5,1,1,1,"litu",407,5.6,1.7,19.31,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",5046,5046,NA,280,0,558,2,NA,1.41,NA,NA,NA,NA
 40569,1,2014.04,2014,5,13,1,1,"litu",407,5.6,1.7,19.07,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",5046,5046,NA,280,0,558,2,NA,1.41,NA,NA,NA,NA
@@ -389,7 +389,7 @@
 50364,1,2014.12,2014,9,2,1,1,"qual",507,4.2,18.1,78.16,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",6249,6249,NA,661.9000244,0,41,2,NA,1.35,NA,NA,NA,NA
 50364,1,2014.13,2014,9,15,1,1,"qual",507,4.2,18.1,78.28,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",6249,6249,NA,661.9000244,0,41,2,NA,1.35,NA,NA,NA,NA
 50364,1,2014.14,2014,10,27,1,1,"qual",507,4.2,18.1,78.27,"","","alive","Valentine Herrmann","Maryam Sedaghatpour",6249,6249,NA,661.9000244,0,41,2,NA,1.35,NA,NA,NA,NA
-50650,1,2014.01,2014,4,1,1,1,"litu",514,19.5,14.9,3.26,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",6521,6521,"NULL",184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
+50650,1,2014.01,2014,4,1,1,1,"litu",514,19.5,14.9,3.26,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
 50650,1,2014.02,2014,4,14,1,1,"litu",514,19.5,14.9,2.94,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
 50650,1,2014.03,2014,5,1,1,1,"litu",514,19.5,14.9,3.09,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
 50650,1,2014.04,2014,5,13,1,1,"litu",514,19.5,14.9,2.79,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
@@ -403,7 +403,7 @@
 50650,1,2014.12,2014,9,2,1,1,"litu",514,19.5,14.9,5.56,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
 50650,1,2014.13,2014,9,15,1,1,"litu",514,19.5,14.9,5.51,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
 50650,1,2014.14,2014,10,27,1,1,"litu",514,19.5,14.9,5.47,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",6521,6521,NA,184.3000031,0,559,2,NA,1.44,NA,NA,NA,NA
-50654,1,2014.01,2014,4,1,1,1,"litu",514,17.2,19.1,20.05,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",6525,6525,"NULL",717.2000122,0,560,2,NA,1.45,NA,NA,NA,NA
+50654,1,2014.01,2014,4,1,1,1,"litu",514,17.2,19.1,20.05,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",6525,6525,NA,717.2000122,0,560,2,NA,1.45,NA,NA,NA,NA
 50654,1,2014.02,2014,4,14,1,1,"litu",514,17.2,19.1,18.12,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",6525,6525,NA,717.2000122,0,560,2,NA,1.45,NA,NA,NA,NA
 50654,1,2014.03,2014,5,1,1,1,"litu",514,17.2,19.1,19.85,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",6525,6525,NA,717.2000122,0,560,2,NA,1.45,NA,NA,NA,NA
 50654,1,2014.04,2014,5,13,1,1,"litu",514,17.2,19.1,18.62,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",6525,6525,NA,717.2000122,0,560,2,NA,1.45,NA,NA,NA,NA
@@ -437,7 +437,7 @@
 52276,1,2014.14,2014,10,27,1,0,"quve",525,7.3,10.7,24.29,"","last measurement circled on datasheet *?","alive","Justin Cooper","Maryam Sedaghatpour",6826,6826,NA,828.9000244,0,44,2,NA,1.32,NA,NA,NA,NA
 60161,1,2014.01,2014,3,24,1,0,"qupr",608,17.5,14.1,47.23,"I","","alive","Erika Gonzalez","Valentine Herrmann",7163,7163,"868",867,0,45,2,NA,1.13,3,4,NA,NA
 60161,1,2014.14,2014,10,27,1,0,"qupr",608,17.5,14.1,55.95,"I","","alive","Valentine Herrmann","Maryam Sedaghatpour",7163,7163,NA,867,0,45,2,NA,1.13,NA,NA,NA,NA
-60456,1,2014.01,2014,4,1,1,1,"caca",614,5.3,15,5.61,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7441,7441,"NULL",64.5,0,561,2,NA,1.44,NA,NA,NA,NA
+60456,1,2014.01,2014,4,1,1,1,"caca",614,5.3,15,5.61,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
 60456,1,2014.02,2014,4,14,1,1,"caca",614,5.3,15,5.58,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
 60456,1,2014.03,2014,5,1,1,1,"caca",614,5.3,15,5.63,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
 60456,1,2014.04,2014,5,13,1,1,"caca",614,5.3,15,5.61,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
@@ -451,7 +451,7 @@
 60456,1,2014.12,2014,9,2,1,1,"caca",614,5.3,15,6.61,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
 60456,1,2014.13,2014,9,15,1,1,"caca",614,5.3,15,6.09,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
 60456,1,2014.14,2014,10,27,1,1,"caca",614,5.3,15,6.07,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7441,7441,NA,64.5,0,561,2,NA,1.44,NA,NA,NA,NA
-60457,1,2014.01,2014,4,1,1,1,"caca",614,4,15.2,3.21,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7442,7442,"NULL",99.5,0,562,2,NA,1.43,NA,NA,NA,NA
+60457,1,2014.01,2014,4,1,1,1,"caca",614,4,15.2,3.21,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
 60457,1,2014.02,2014,4,14,1,1,"caca",614,4,15.2,3.71,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
 60457,1,2014.03,2014,5,1,1,1,"caca",614,4,15.2,3.71,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
 60457,1,2014.04,2014,5,13,1,1,"caca",614,4,15.2,3.63,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
@@ -465,7 +465,7 @@
 60457,1,2014.12,2014,9,2,1,1,"caca",614,4,15.2,5.58,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
 60457,1,2014.13,2014,9,15,1,1,"caca",614,4,15.2,5.65,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
 60457,1,2014.14,2014,10,27,1,1,"caca",614,4,15.2,5.73,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7442,7442,NA,99.5,0,562,2,NA,1.43,NA,NA,NA,NA
-60458,1,2014.01,2014,4,1,1,1,"fagr",615,1.9,0,23.54,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7443,7443,"NULL",269.5,0,563,2,NA,1.39,NA,NA,NA,NA
+60458,1,2014.01,2014,4,1,1,1,"fagr",615,1.9,0,23.54,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
 60458,1,2014.02,2014,4,14,1,1,"fagr",615,1.9,0,26.57,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
 60458,1,2014.03,2014,5,1,1,1,"fagr",615,1.9,0,23.54,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
 60458,1,2014.04,2014,5,13,1,1,"fagr",615,1.9,0,23.61,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
@@ -479,7 +479,7 @@
 60458,1,2014.12,2014,9,2,1,1,"fagr",615,1.9,0,38.46,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
 60458,1,2014.13,2014,9,15,1,1,"fagr",615,1.9,0,38.55,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
 60458,1,2014.14,2014,10,27,1,1,"fagr",615,1.9,0,38.96,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7443,7443,NA,269.5,0,563,2,NA,1.39,NA,NA,NA,NA
-60459,1,2014.01,2014,4,1,1,1,"fagr",615,2,3,21.27,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7444,7444,"NULL",99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
+60459,1,2014.01,2014,4,1,1,1,"fagr",615,2,3,21.27,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
 60459,1,2014.02,2014,4,14,1,1,"fagr",615,2,3,21.6,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
 60459,1,2014.03,2014,5,1,1,1,"fagr",615,2,3,21.58,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
 60459,1,2014.04,2014,5,13,1,1,"fagr",615,2,3,21.55,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
@@ -493,7 +493,7 @@
 60459,1,2014.12,2014,9,2,1,1,"fagr",615,2,3,34.23,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
 60459,1,2014.13,2014,9,15,1,1,"fagr",615,2,3,34.74,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
 60459,1,2014.14,2014,10,27,1,1,"fagr",615,2,3,35.39,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7444,7444,NA,99.69999695,0,564,2,NA,1.36,NA,NA,NA,NA
-60462,1,2014.01,2014,4,1,1,1,"fagr",615,5.6,7.6,17.57,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7447,7447,"NULL",209.5,0,565,2,NA,1.43,NA,NA,NA,NA
+60462,1,2014.01,2014,4,1,1,1,"fagr",615,5.6,7.6,17.57,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
 60462,1,2014.02,2014,4,14,1,1,"fagr",615,5.6,7.6,17.62,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
 60462,1,2014.03,2014,5,1,1,1,"fagr",615,5.6,7.6,17.59,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
 60462,1,2014.04,2014,5,13,1,1,"fagr",615,5.6,7.6,17.56,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
@@ -507,7 +507,7 @@
 60462,1,2014.12,2014,9,2,1,1,"fagr",615,5.6,7.6,31.11,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
 60462,1,2014.13,2014,9,15,1,1,"fagr",615,5.6,7.6,31.54,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
 60462,1,2014.14,2014,10,27,1,1,"fagr",615,5.6,7.6,31.92,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7447,7447,NA,209.5,0,565,2,NA,1.43,NA,NA,NA,NA
-60463,1,2014.01,2014,4,1,1,1,"juni",615,7.2,8,11.12,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7448,7448,"NULL",468,0,566,2,NA,1.43,NA,NA,NA,NA
+60463,1,2014.01,2014,4,1,1,1,"juni",615,7.2,8,11.12,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2014.02,2014,4,14,1,1,"juni",615,7.2,8,8.75,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2014.03,2014,5,1,1,1,"juni",615,7.2,8,11.23,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2014.04,2014,5,13,1,1,"juni",615,7.2,8,10.05,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
@@ -521,7 +521,7 @@
 60463,1,2014.12,2014,9,2,1,1,"juni",615,7.2,8,24.9,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2014.13,2014,9,15,1,1,"juni",615,7.2,8,26.89,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
 60463,1,2014.14,2014,10,27,1,1,"juni",615,7.2,8,25.36,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7448,7448,NA,468,0,566,2,NA,1.43,NA,NA,NA,NA
-60468,1,2014.01,2014,4,1,1,1,"caca",615,5.4,9.6,7.43,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7453,7453,"NULL",67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
+60468,1,2014.01,2014,4,1,1,1,"caca",615,5.4,9.6,7.43,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
 60468,1,2014.02,2014,4,14,1,1,"caca",615,5.4,9.6,7.4,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
 60468,1,2014.03,2014,5,1,1,1,"caca",615,5.4,9.6,7.46,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
 60468,1,2014.04,2014,5,13,1,1,"caca",615,5.4,9.6,7.44,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
@@ -535,7 +535,7 @@
 60468,1,2014.12,2014,9,2,1,1,"caca",615,5.4,9.6,11.66,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
 60468,1,2014.13,2014,9,15,1,1,"caca",615,5.4,9.6,11.64,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
 60468,1,2014.14,2014,10,27,1,1,"caca",615,5.4,9.6,11.82,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7453,7453,NA,67.30000305,0,567,2,NA,1.38,NA,NA,NA,NA
-60469,1,2014.01,2014,4,1,1,1,"cofl",615,6.8,9.8,3.47,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7454,7454,"NULL",70,0,568,2,NA,1.43,NA,NA,NA,NA
+60469,1,2014.01,2014,4,1,1,1,"cofl",615,6.8,9.8,3.47,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
 60469,1,2014.02,2014,4,14,1,1,"cofl",615,6.8,9.8,3.31,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
 60469,1,2014.03,2014,5,1,1,1,"cofl",615,6.8,9.8,3.46,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
 60469,1,2014.04,2014,5,13,1,1,"cofl",615,6.8,9.8,3.3,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
@@ -549,7 +549,7 @@
 60469,1,2014.12,2014,9,2,1,1,"cofl",615,6.8,9.8,4.87,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
 60469,1,2014.13,2014,9,15,1,1,"cofl",615,6.8,9.8,4.89,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
 60469,1,2014.14,2014,10,27,1,1,"cofl",615,6.8,9.8,4.76,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
-60562,1,2014.01,2014,4,1,1,1,"fagr",614,19,8.7,12.78,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7541,7541,"NULL",124,0,569,2,NA,1.47,NA,NA,NA,NA
+60562,1,2014.01,2014,4,1,1,1,"fagr",614,19,8.7,12.78,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
 60562,1,2014.02,2014,4,14,1,1,"fagr",614,19,8.7,12.73,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
 60562,1,2014.03,2014,5,1,1,1,"fagr",614,19,8.7,12.7,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
 60562,1,2014.04,2014,5,13,1,1,"fagr",614,19,8.7,12.68,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
@@ -563,7 +563,7 @@
 60562,1,2014.12,2014,9,2,1,1,"fagr",614,19,8.7,28.29,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
 60562,1,2014.13,2014,9,15,1,1,"fagr",614,19,8.7,28.73,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
 60562,1,2014.14,2014,10,27,1,1,"fagr",614,19,8.7,29.12,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7541,7541,NA,124,0,569,2,NA,1.47,NA,NA,NA,NA
-60563,1,2014.01,2014,4,1,1,1,"caca",614,14.2,13.2,10.7,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7542,7542,"NULL",87.5,0,570,2,NA,1.38,NA,NA,NA,NA
+60563,1,2014.01,2014,4,1,1,1,"caca",614,14.2,13.2,10.7,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
 60563,1,2014.02,2014,4,14,1,1,"caca",614,14.2,13.2,10.6,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
 60563,1,2014.03,2014,5,1,1,1,"caca",614,14.2,13.2,10.54,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
 60563,1,2014.04,2014,5,13,1,1,"caca",614,14.2,13.2,10.5,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
@@ -577,7 +577,7 @@
 60563,1,2014.12,2014,9,2,1,1,"caca",614,14.2,13.2,13.95,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
 60563,1,2014.13,2014,9,15,1,1,"caca",614,14.2,13.2,13.85,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
 60563,1,2014.14,2014,10,27,1,1,"caca",614,14.2,13.2,14.06,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7542,7542,NA,87.5,0,570,2,NA,1.38,NA,NA,NA,NA
-60566,1,2014.01,2014,4,1,1,1,"fagr",614,10,11,17.65,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7545,7545,"NULL",194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
+60566,1,2014.01,2014,4,1,1,1,"fagr",614,10,11,17.65,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60566,1,2014.02,2014,4,14,1,1,"fagr",614,10,11,17.33,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60566,1,2014.03,2014,5,1,1,1,"fagr",614,10,11,17.42,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60566,1,2014.04,2014,5,13,1,1,"fagr",614,10,11,17.3,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
@@ -591,7 +591,7 @@
 60566,1,2014.12,2014,9,2,1,1,"fagr",614,10,11,28.41,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60566,1,2014.13,2014,9,15,1,1,"fagr",614,10,11,28.66,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
 60566,1,2014.14,2014,10,27,1,1,"fagr",614,10,11,28.78,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7545,7545,NA,194.1999969,0,571,2,NA,1.44,NA,NA,NA,NA
-60567,1,2014.01,2014,4,1,1,1,"litu",614,11.6,11.2,28.28,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7546,7546,"NULL",536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
+60567,1,2014.01,2014,4,1,1,1,"litu",614,11.6,11.2,28.28,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
 60567,1,2014.02,2014,4,14,1,1,"litu",614,11.6,11.2,26.78,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
 60567,1,2014.03,2014,5,1,1,1,"litu",614,11.6,11.2,27.88,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
 60567,1,2014.04,2014,5,13,1,1,"litu",614,11.6,11.2,27.25,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
@@ -605,7 +605,7 @@
 60567,1,2014.12,2014,9,2,1,1,"litu",614,11.6,11.2,42.01,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
 60567,1,2014.13,2014,9,15,1,1,"litu",614,11.6,11.2,41.64,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
 60567,1,2014.14,2014,10,27,1,1,"litu",614,11.6,11.2,42,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7546,7546,NA,536.7999878,0,572,2,NA,1.54,NA,NA,NA,NA
-60568,1,2014.01,2014,4,1,1,1,"caca",614,15.5,15.6,4.17,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7547,7547,"NULL",90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
+60568,1,2014.01,2014,4,1,1,1,"caca",614,15.5,15.6,4.17,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
 60568,1,2014.02,2014,4,14,1,1,"caca",614,15.5,15.6,4.35,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
 60568,1,2014.03,2014,5,1,1,1,"caca",614,15.5,15.6,4.2,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
 60568,1,2014.04,2014,5,13,1,1,"caca",614,15.5,15.6,4.52,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
@@ -619,7 +619,7 @@
 60568,1,2014.12,2014,9,2,1,1,"caca",614,15.5,15.6,6.11,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
 60568,1,2014.13,2014,9,15,1,1,"caca",614,15.5,15.6,6.1,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
 60568,1,2014.14,2014,10,27,1,1,"caca",614,15.5,15.6,6.37,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7547,7547,NA,90.30000305,0,573,2,NA,1.37,NA,NA,NA,NA
-60569,1,2014.01,2014,4,1,1,1,"caca",614,19.4,16.2,4.84,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7548,7548,"NULL",89.5,0,574,2,NA,1.32,NA,NA,NA,NA
+60569,1,2014.01,2014,4,1,1,1,"caca",614,19.4,16.2,4.84,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60569,1,2014.02,2014,4,14,1,1,"caca",614,19.4,16.2,4.76,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60569,1,2014.03,2014,5,1,1,1,"caca",614,19.4,16.2,4.71,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60569,1,2014.04,2014,5,13,1,1,"caca",614,19.4,16.2,4.82,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
@@ -633,7 +633,7 @@
 60569,1,2014.12,2014,9,2,1,1,"caca",614,19.4,16.2,8.72,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60569,1,2014.13,2014,9,15,1,1,"caca",614,19.4,16.2,8.71,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
 60569,1,2014.14,2014,10,27,1,1,"caca",614,19.4,16.2,8.84,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7548,7548,NA,89.5,0,574,2,NA,1.32,NA,NA,NA,NA
-60570,1,2014.01,2014,4,1,1,1,"caco",614,15.2,16.7,9.58,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7549,7549,"NULL",396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
+60570,1,2014.01,2014,4,1,1,1,"caco",614,15.2,16.7,9.58,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
 60570,1,2014.02,2014,4,14,1,1,"caco",614,15.2,16.7,11.25,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
 60570,1,2014.03,2014,5,1,1,1,"caco",614,15.2,16.7,12.74,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
 60570,1,2014.04,2014,5,13,1,1,"caco",614,15.2,16.7,12.94,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
@@ -647,7 +647,7 @@
 60570,1,2014.12,2014,9,2,1,1,"caco",614,15.2,16.7,30.91,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
 60570,1,2014.13,2014,9,15,1,1,"caco",614,15.2,16.7,31.04,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
 60570,1,2014.14,2014,10,27,1,1,"caco",614,15.2,16.7,31.5,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7549,7549,NA,396.1000061,0,575,2,NA,1.41,NA,NA,NA,NA
-60571,1,2014.01,2014,4,1,1,1,"caca",614,12,17.4,3.62,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7550,7550,"NULL",116,0,576,2,NA,1.48,NA,NA,NA,NA
+60571,1,2014.01,2014,4,1,1,1,"caca",614,12,17.4,3.62,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60571,1,2014.02,2014,4,14,1,1,"caca",614,12,17.4,3.55,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60571,1,2014.03,2014,5,1,1,1,"caca",614,12,17.4,3.57,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60571,1,2014.04,2014,5,13,1,1,"caca",614,12,17.4,3.81,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
@@ -661,7 +661,7 @@
 60571,1,2014.12,2014,9,2,1,1,"caca",614,12,17.4,6.21,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60571,1,2014.13,2014,9,15,1,1,"caca",614,12,17.4,6.24,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
 60571,1,2014.14,2014,10,27,1,1,"caca",614,12,17.4,6.26,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
-60573,1,2014.01,2014,4,1,1,1,"tiam",614,8.5,16.3,12.56,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7552,7552,"NULL",258.5,0,577,2,NA,1.45,NA,NA,NA,NA
+60573,1,2014.01,2014,4,1,1,1,"tiam",614,8.5,16.3,12.56,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
 60573,1,2014.02,2014,4,14,1,1,"tiam",614,8.5,16.3,11.97,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
 60573,1,2014.03,2014,5,1,1,1,"tiam",614,8.5,16.3,12.29,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
 60573,1,2014.04,2014,5,13,1,1,"tiam",614,8.5,16.3,11.83,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
@@ -675,7 +675,7 @@
 60573,1,2014.12,2014,9,2,1,1,"tiam",614,8.5,16.3,26.05,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
 60573,1,2014.13,2014,9,15,1,1,"tiam",614,8.5,16.3,26.12,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
 60573,1,2014.14,2014,10,27,1,1,"tiam",614,8.5,16.3,25.95,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7552,7552,NA,258.5,0,577,2,NA,1.45,NA,NA,NA,NA
-60576,1,2014.01,2014,4,1,1,1,"caca",615,17.1,1,21.02,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7555,7555,"NULL",95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
+60576,1,2014.01,2014,4,1,1,1,"caca",615,17.1,1,21.02,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
 60576,1,2014.02,2014,4,14,1,1,"caca",615,17.1,1,21.05,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
 60576,1,2014.03,2014,5,1,1,1,"caca",615,17.1,1,20.88,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
 60576,1,2014.04,2014,5,13,1,1,"caca",615,17.1,1,20.48,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
@@ -689,7 +689,7 @@
 60576,1,2014.12,2014,9,2,1,1,"caca",615,17.1,1,25.77,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
 60576,1,2014.13,2014,9,15,1,1,"caca",615,17.1,1,26.23,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
 60576,1,2014.14,2014,10,27,1,1,"caca",615,17.1,1,26.01,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7555,7555,NA,95.09999847,0,578,2,NA,1.37,NA,NA,NA,NA
-60577,1,2014.01,2014,4,1,1,1,"litu",615,12.7,1.4,22.97,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7556,7556,"NULL",546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
+60577,1,2014.01,2014,4,1,1,1,"litu",615,12.7,1.4,22.97,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
 60577,1,2014.02,2014,4,14,1,1,"litu",615,12.7,1.4,22.89,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
 60577,1,2014.03,2014,5,1,1,1,"litu",615,12.7,1.4,22.98,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
 60577,1,2014.04,2014,5,13,1,1,"litu",615,12.7,1.4,22.81,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
@@ -703,7 +703,7 @@
 60577,1,2014.12,2014,9,2,1,1,"litu",615,12.7,1.4,33.5,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
 60577,1,2014.13,2014,9,15,1,1,"litu",615,12.7,1.4,33.61,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
 60577,1,2014.14,2014,10,27,1,1,"litu",615,12.7,1.4,33.95,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7556,7556,NA,546.2000122,0,579,2,NA,1.5,NA,NA,NA,NA
-60578,1,2014.01,2014,4,1,1,1,"caca",615,13.2,9.9,3.99,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7557,7557,"NULL",78.5,0,580,2,NA,1.36,NA,NA,NA,NA
+60578,1,2014.01,2014,4,1,1,1,"caca",615,13.2,9.9,3.99,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
 60578,1,2014.02,2014,4,14,1,1,"caca",615,13.2,9.9,4.06,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
 60578,1,2014.03,2014,5,1,1,1,"caca",615,13.2,9.9,4.05,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
 60578,1,2014.04,2014,5,13,1,1,"caca",615,13.2,9.9,3.47,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
@@ -717,7 +717,7 @@
 60578,1,2014.12,2014,9,2,1,1,"caca",615,13.2,9.9,5.66,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
 60578,1,2014.13,2014,9,15,1,1,"caca",615,13.2,9.9,5.75,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
 60578,1,2014.14,2014,10,27,1,1,"caca",615,13.2,9.9,5.86,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7557,7557,NA,78.5,0,580,2,NA,1.36,NA,NA,NA,NA
-60579,1,2014.01,2014,4,1,1,1,"caca",615,16.8,4,2.75,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7558,7558,"NULL",76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
+60579,1,2014.01,2014,4,1,1,1,"caca",615,16.8,4,2.75,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
 60579,1,2014.02,2014,4,14,1,1,"caca",615,16.8,4,2.79,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
 60579,1,2014.03,2014,5,1,1,1,"caca",615,16.8,4,2.82,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
 60579,1,2014.04,2014,5,13,1,1,"caca",615,16.8,4,2.26,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
@@ -731,7 +731,7 @@
 60579,1,2014.12,2014,9,2,1,1,"caca",615,16.8,4,4.76,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
 60579,1,2014.13,2014,9,15,1,1,"caca",615,16.8,4,4.8,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
 60579,1,2014.14,2014,10,27,1,1,"caca",615,16.8,4,5.03,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7558,7558,NA,76.09999847,0,581,2,NA,1.32,NA,NA,NA,NA
-60581,1,2014.01,2014,4,1,1,1,"litu",615,19.8,9.3,23.23,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7560,7560,"NULL",685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
+60581,1,2014.01,2014,4,1,1,1,"litu",615,19.8,9.3,23.23,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
 60581,1,2014.02,2014,4,14,1,1,"litu",615,19.8,9.3,21.32,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
 60581,1,2014.03,2014,5,1,1,1,"litu",615,19.8,9.3,23.63,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
 60581,1,2014.04,2014,5,13,1,1,"litu",615,19.8,9.3,21.62,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
@@ -745,7 +745,7 @@
 60581,1,2014.12,2014,9,2,1,1,"litu",615,19.8,9.3,37.84,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
 60581,1,2014.13,2014,9,15,1,1,"litu",615,19.8,9.3,37.85,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
 60581,1,2014.14,2014,10,27,1,1,"litu",615,19.8,9.3,37.14,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7560,7560,NA,685.0999756,0,582,2,NA,1.54,NA,NA,NA,NA
-60582,1,2014.01,2014,4,1,1,1,"quru",615,20,10.2,2.25,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7561,7561,"NULL",285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
+60582,1,2014.01,2014,4,1,1,1,"quru",615,20,10.2,2.25,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2014.02,2014,4,14,1,1,"quru",615,20,10.2,2.5,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2014.03,2014,5,1,1,1,"quru",615,20,10.2,4.24,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2014.04,2014,5,13,1,1,"quru",615,20,10.2,3.68,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
@@ -759,7 +759,7 @@
 60582,1,2014.12,2014,9,2,1,1,"quru",615,20,10.2,7.15,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2014.13,2014,9,15,1,1,"quru",615,20,10.2,7.06,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2014.14,2014,10,27,1,1,"quru",615,20,10.2,7.1,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7561,7561,NA,285.1000061,0,583,2,NA,1.37,NA,NA,NA,NA
-60586,1,2014.01,2014,4,1,1,1,"caca",615,16.2,9.3,3.28,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7565,7565,"NULL",62.5,0,584,2,NA,1.38,NA,NA,NA,NA
+60586,1,2014.01,2014,4,1,1,1,"caca",615,16.2,9.3,3.28,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
 60586,1,2014.02,2014,4,14,1,1,"caca",615,16.2,9.3,3.38,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
 60586,1,2014.03,2014,5,1,1,1,"caca",615,16.2,9.3,3.12,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
 60586,1,2014.04,2014,5,13,1,1,"caca",615,16.2,9.3,2.9,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
@@ -773,7 +773,7 @@
 60586,1,2014.12,2014,9,2,1,1,"caca",615,16.2,9.3,3.66,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
 60586,1,2014.13,2014,9,15,1,1,"caca",615,16.2,9.3,3.68,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
 60586,1,2014.14,2014,10,27,1,1,"caca",615,16.2,9.3,3.93,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7565,7565,NA,62.5,0,584,2,NA,1.38,NA,NA,NA,NA
-60587,1,2014.01,2014,4,1,1,1,"caca",615,14,9.8,3.39,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7566,7566,"NULL",70.5,0,585,2,NA,1.35,NA,NA,NA,NA
+60587,1,2014.01,2014,4,1,1,1,"caca",615,14,9.8,3.39,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
 60587,1,2014.02,2014,4,14,1,1,"caca",615,14,9.8,3.44,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
 60587,1,2014.03,2014,5,1,1,1,"caca",615,14,9.8,3.67,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
 60587,1,2014.04,2014,5,13,1,1,"caca",615,14,9.8,3.06,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
@@ -787,7 +787,7 @@
 60587,1,2014.12,2014,9,2,1,1,"caca",615,14,9.8,8.16,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
 60587,1,2014.13,2014,9,15,1,1,"caca",615,14,9.8,8.27,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
 60587,1,2014.14,2014,10,27,1,1,"caca",615,14,9.8,8.48,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",7566,7566,NA,70.5,0,585,2,NA,1.35,NA,NA,NA,NA
-60588,1,2014.01,2014,4,1,1,1,"caco",615,13.4,7.3,3.6,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7567,7567,"NULL",292.2999878,0,586,2,NA,1.5,NA,NA,NA,NA
+60588,1,2014.01,2014,4,1,1,1,"caco",615,13.4,7.3,3.6,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",7567,7567,NA,292.2999878,0,586,2,NA,1.5,NA,NA,NA,NA
 60588,1,2014.02,2014,4,14,1,1,"caco",615,13.4,7.3,5.11,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",7567,7567,NA,292.2999878,0,586,2,NA,1.5,NA,NA,NA,NA
 60588,1,2014.03,2014,5,1,1,1,"caco",615,13.4,7.3,6.92,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",7567,7567,NA,292.2999878,0,586,2,NA,1.5,NA,NA,NA,NA
 60588,1,2014.04,2014,5,13,1,1,"caco",615,13.4,7.3,6,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",7567,7567,NA,292.2999878,0,586,2,NA,1.5,NA,NA,NA,NA
@@ -899,7 +899,7 @@
 70358,1,2014.14,2014,10,27,1,0,"litu",708,18.1,2.3,58.65,"","","alive","Valentine Herrmann","Maryam Sedaghatpour",8363,8363,NA,363.7999878,0,63,2,NA,1.28,NA,NA,NA,NA
 70433,1,2014.01,2014,3,24,1,0,"litu",710,11.4,13.8,79.36,"","","alive","Erika Gonzalez","Valentine Herrmann",8436,8436,"706",716.9000244,0,64,2,NA,1.3,4,4,NA,NA
 70433,1,2014.14,2014,10,27,1,0,"litu",710,11.4,13.8,87.36,"","","alive","Valentine Herrmann","Maryam Sedaghatpour",8436,8436,NA,716.9000244,0,64,2,NA,1.3,NA,NA,NA,NA
-70492,1,2014.01,2014,4,1,1,1,"nysy",714,0.1,11.2,11.36,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",8495,8495,"NULL",198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
+70492,1,2014.01,2014,4,1,1,1,"nysy",714,0.1,11.2,11.36,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
 70492,1,2014.02,2014,4,14,1,1,"nysy",714,0.1,11.2,11.28,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
 70492,1,2014.03,2014,5,1,1,1,"nysy",714,0.1,11.2,11.63,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
 70492,1,2014.04,2014,5,13,1,1,"nysy",714,0.1,11.2,11.3,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
@@ -913,7 +913,7 @@
 70492,1,2014.12,2014,9,2,1,1,"nysy",714,0.1,11.2,18.53,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
 70492,1,2014.13,2014,9,15,1,1,"nysy",714,0.1,11.2,18.54,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
 70492,1,2014.14,2014,10,27,1,1,"nysy",714,0.1,11.2,18.63,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",8495,8495,NA,198.6000061,0,587,2,NA,1.44,NA,NA,NA,NA
-70493,1,2014.01,2014,4,1,1,1,"litu",714,0.3,15.2,26.05,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",8496,8496,"NULL",539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
+70493,1,2014.01,2014,4,1,1,1,"litu",714,0.3,15.2,26.05,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
 70493,1,2014.02,2014,4,14,1,1,"litu",714,0.3,15.2,24.54,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
 70493,1,2014.03,2014,5,1,1,1,"litu",714,0.3,15.2,25.78,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
 70493,1,2014.04,2014,5,13,1,1,"litu",714,0.3,15.2,24.76,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
@@ -927,8 +927,8 @@
 70493,1,2014.12,2014,9,2,1,1,"litu",714,0.3,15.2,37,"","","alive","Amy Lewis, Brandon","Amy Lewis, Brandon",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
 70493,1,2014.13,2014,9,15,1,1,"litu",714,0.3,15.2,37.13,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
 70493,1,2014.14,2014,10,27,1,1,"litu",714,0.3,15.2,36.86,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",8496,8496,NA,539.2000122,0,588,2,NA,1.44,NA,NA,NA,NA
-70494,1,2014.01,2014,4,1,1,1,"caca",714,0.4,15.7,4.76,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",181,181,"NULL",77.30000305,0,589,2,NA,1.47,NA,NA,NA,NA
-70494,2,2014.01,2014,4,1,1,1,"caca",714,0.4,15.7,8.01,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",31371,181,"NULL",60,0,590,2,NA,1.42,NA,NA,NA,NA
+70494,1,2014.01,2014,4,1,1,1,"caca",714,0.4,15.7,4.76,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",181,181,NA,77.30000305,0,589,2,NA,1.47,NA,NA,NA,NA
+70494,2,2014.01,2014,4,1,1,1,"caca",714,0.4,15.7,8.01,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2014.02,2014,4,14,1,1,"caca",714,0.4,15.7,4.8,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",181,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
 70494,2,2014.02,2014,4,14,1,1,"caca",714,0.4,15.7,7.9,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2014.03,2014,5,1,1,1,"caca",714,0.4,15.7,4.85,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",181,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
@@ -955,7 +955,7 @@
 70494,2,2014.13,2014,9,15,1,1,"caca",714,0.4,15.7,11.38,"","","alive","Justin C., Amy Lewis","Justin C., Amy Lewis",31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
 70494,1,2014.14,2014,10,27,1,1,"caca",714,0.4,15.7,11.2,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",181,181,NA,60,0,589,2,NA,1.42,NA,NA,NA,NA
 70494,2,2014.14,2014,10,27,1,1,"caca",714,0.4,15.7,11.55,"","From sap flow cluster","alive","Valentine Herrmann","Maryam Sedaghatpour",31371,181,NA,60,0,590,2,NA,1.42,NA,NA,NA,NA
-70495,1,2014.01,2014,4,1,1,1,"caca",714,1.7,18.6,4.34,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",8497,8497,"NULL",67.90000153,0,591,2,NA,1.43,NA,NA,NA,NA
+70495,1,2014.01,2014,4,1,1,1,"caca",714,1.7,18.6,4.34,"","From sap flow cluster","alive","Erika Gonzalez","Valentine Herrmann",8497,8497,NA,67.90000153,0,591,2,NA,1.43,NA,NA,NA,NA
 70495,1,2014.02,2014,4,14,1,1,"caca",714,1.7,18.6,4.35,"","From sap flow cluster","alive","Emily, John, Erika","Emily, John, Erika",8497,8497,NA,67.90000153,0,591,2,NA,1.43,NA,NA,NA,NA
 70495,1,2014.03,2014,5,1,1,1,"caca",714,1.7,18.6,4.38,"","","alive","Gonzalez, Bennett","Gonzalez, Bennett",8497,8497,NA,67.90000153,0,591,2,NA,1.43,NA,NA,NA,NA
 70495,1,2014.04,2014,5,13,1,1,"caca",714,1.7,18.6,4.34,"","","alive","Gonzalez, Lavelle, Bowman-Lipton","Gonzalez, Lavelle, Bowman-Lipton",8497,8497,NA,67.90000153,0,591,2,NA,1.43,NA,NA,NA,NA
