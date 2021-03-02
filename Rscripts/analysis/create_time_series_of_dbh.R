@@ -61,7 +61,7 @@ create_dbh_timeseries <- function(stem){
     )
   
   for(i in 2:nrow(tree.n)){
-    # Second
+    # Second. Compute dbh2 conditionally
     tree.n$dbh2[i] <- case_when(
       tree.n$new.band[i] == 0 & tree.n$survey.ID[i] == 2014.01 & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ tree.n$dbh[i],
       tree.n$new.band[i] == 0 & !is.na(tree.n$measure[i]) & !is.na(tree.n$dbh2[i-1]) ~ findDendroDBH(tree.n$dbh2[i-1], tree.n$measure[i-1], tree.n$measure[i]),
@@ -74,6 +74,7 @@ create_dbh_timeseries <- function(stem){
       TRUE ~ tree.n$dbh2[i]
     )
     
+    # Second. Keep track of which conditional took place
     tree.n$scenario[i] <- case_when(
       tree.n$new.band[i] == 0 & tree.n$survey.ID[i] == 2014.01 & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ 0,
       tree.n$new.band[i] == 0 & !is.na(tree.n$measure[i]) & !is.na(tree.n$dbh2[i-1]) ~ 1,
