@@ -57,18 +57,19 @@ create_dbh_timeseries <- function(stem){
       measure = as.numeric(measure),
       dbh = as.numeric(dbh),
       # Keep track which of above 7 conditionals took place
-      scenario = NA
+      scenario = 0
     )
   
   for(i in 2:nrow(tree.n)){
     # Second. Compute dbh2 conditionally
     tree.n$dbh2[i] <- case_when(
       tree.n$new.band[i] == 0 & tree.n$survey.ID[i] == 2014.01 & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ tree.n$dbh[i],
+      # Cases 2.i) - 2.vii)
       tree.n$new.band[i] == 0 & !is.na(tree.n$measure[i]) & !is.na(tree.n$dbh2[i-1]) ~ findDendroDBH(tree.n$dbh2[i-1], tree.n$measure[i-1], tree.n$measure[i]),
       tree.n$new.band[i] == 0 & !is.na(tree.n$measure[i]) & is.na(tree.n$dbh2[i-1]) ~ findDendroDBH(tail(na.locf(tree.n$dbh2[1:i-1]), n=1), tail(na.locf(tree.n$measure[1:i-1]), n=1), tree.n$measure[i]),
       tree.n$new.band[i] == 0 & is.na(tree.n$measure[i]) ~ NA_real_,
       tree.n$new.band[i] == 1 & !is.na(tree.n$measure[i]) & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ tree.n$dbh[i],
-      tree.n$new.band[i] == 1 & !is.na(tree.n$measure[i]) & identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1: i-1]), na.rm = T),
+      tree.n$new.band[i] == 1 & !is.na(tree.n$measure[i]) & identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1: i-1]), na.rm=T),
       tree.n$new.band[i] == 1 & is.na(tree.n$measure[i]) & identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ max(tree.n$dbh2[1: i-1], na.rm = T) + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=T),
       tree.n$new.band[i] == 1 & is.na(tree.n$measure[i]) & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ tree.n$dbh[i] + mean(diff(tree.n$dbh2[1:(i-1)]), na.rm=TRUE),
       TRUE ~ tree.n$dbh2[i]
@@ -76,7 +77,7 @@ create_dbh_timeseries <- function(stem){
     
     # Second. Keep track of which conditional took place
     tree.n$scenario[i] <- case_when(
-      tree.n$new.band[i] == 0 & tree.n$survey.ID[i] == 2014.01 & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ 0,
+      tree.n$new.band[i] == 0 & tree.n$survey.ID[i] == 2014.01 & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ 2014,
       tree.n$new.band[i] == 0 & !is.na(tree.n$measure[i]) & !is.na(tree.n$dbh2[i-1]) ~ 1,
       tree.n$new.band[i] == 0 & !is.na(tree.n$measure[i]) & is.na(tree.n$dbh2[i-1]) ~ 2,
       tree.n$new.band[i] == 0 & is.na(tree.n$measure[i]) ~ 3,
@@ -84,7 +85,7 @@ create_dbh_timeseries <- function(stem){
       tree.n$new.band[i] == 1 & !is.na(tree.n$measure[i]) & identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ 5,
       tree.n$new.band[i] == 1 & is.na(tree.n$measure[i]) & identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ 6,
       tree.n$new.band[i] == 1 & is.na(tree.n$measure[i]) & !identical(tree.n$dbh[i], tree.n$dbh[i-1]) ~ 7,
-      TRUE ~ 8
+      TRUE ~ NA_real_
     )
   }
   
@@ -98,7 +99,24 @@ create_dbh_timeseries <- function(stem){
 dendro_all <- here("data") %>%
   dir(pattern = "scbi.dendroAll", full.names = TRUE) %>%
   map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-  mutate(date = str_c(year, month, day, sep = "-") %>% ymd())
+  mutate(date = str_c(year, month, day, sep = "-") %>% ymd()) %>%
+  # See codebook:
+  # https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/metadata/scbi.dendroALL_%5BYEAR%5D_metadata.csv
+  select(
+    # Don't need data collection person names
+    -c(field.recorders, data.enter),
+    # Will get geolocation from census
+    -c(quadrat, lx, ly),
+    # No crown or liana info for now
+    -starts_with("crown"), -lianas,
+    # Band information
+    -c(type, dir, dendHt),
+    # Don't need biannual, only intraannual
+    -biannual,
+    # Etc
+    -c(treeID, measureID)
+  ) %>%
+  arrange(tag, stemtag, date)
 
 # Apply create_timeseries_new() to each intraannual stemID 
 all_stems_intra_v2 <- dendro_all %>% 
@@ -118,12 +136,19 @@ all_stems_bi_v2 <- dendro_all %>%
 all_stems_intra_v2 %>% 
   count(scenario) %>% 
   arrange(desc(n)) %>% 
-  mutate(prop = n/sum(n))
+  mutate(
+    prop = n/sum(n),
+    cum_prop = cumsum(prop)
+  )
 
 all_stems_bi_v2 %>% 
   count(scenario) %>% 
   arrange(desc(n)) %>% 
-  mutate(prop = n/sum(n))
+  mutate(prop = n/sum(n)) %>% 
+  mutate(
+    prop = n/sum(n),
+    cum_prop = cumsum(prop)
+  )
 
 # Optional: Output .csv
 if(FALSE){
@@ -131,9 +156,10 @@ if(FALSE){
     all_stems_intra_v2,
     all_stems_bi_v2
   ) %>% 
-    select(-scenario) %>% 
+    # select(-scenario) %>% 
     arrange(stemID, date) %>% 
     write_csv(file = here("data/all_stems.csv"))
+  system("mv ./data/all_stems.csv ../../bayesian_data_fusion/data/all_stems.csv")
 }
 
 
