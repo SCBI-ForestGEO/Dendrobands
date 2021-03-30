@@ -372,8 +372,8 @@
 40569,1,2019.13,2019,10,2,1,1,"litu",407,5.6,1.7,90.61,"","","alive","Alyssa Terrell","Alyssa Terrell",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2019.14,2019,10,17,1,1,"litu",407,5.6,1.7,90.08,"","","alive","Alyssa Terrell","Alyssa Terrell",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2019.15,2019,11,6,1,1,"litu",407,5.6,1.7,90.34,"","","alive","Cameron Dow, Kate Heneberry","Alyssa Terrell",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
-40635,1,2019.01,2019,3,28,1,0,"cagl",408,18.7,1,39.53,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",5109,5109,NA,258.7,0,31,2,NA,1.22,NA,NA,NA,NA
-40635,1,2019.15,2019,11,6,1,0,"cagl",408,18.7,1,47.88,"","","alive","Cameron Dow, Kate Heneberry","Alyssa Terrell",5109,5109,NA,258.7,0,31,2,NA,1.22,NA,NA,NA,NA
+40635,1,2019.01,2019,3,28,1,0,"cato",408,18.7,1,39.53,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",5109,5109,NA,258.7,0,31,2,NA,1.22,NA,NA,NA,NA
+40635,1,2019.15,2019,11,6,1,0,"cato",408,18.7,1,47.88,"","","alive","Cameron Dow, Kate Heneberry","Alyssa Terrell",5109,5109,NA,258.7,0,31,2,NA,1.22,NA,NA,NA,NA
 40941,1,2019,2019,2,4,1,0,"litu",414,6,15.4,NA," ","band not adjusted, got record for dendDiam","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",5402,5402,983,653,1,981,2,NA,0.7,NA,NA,NA,NA
 40941,1,2019.01,2019,3,28,1,0,"litu",414,6,15.4,104,"","band adjusted","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",5402,5402,NA,653,1,982,2,NA,0.7,NA,NA,NA,NA
 40941,1,2019.15,2019,11,6,1,0,"litu",414,6,15.4,127.13,"","","alive","Cameron Dow, Kate Heneberry","Alyssa Terrell",5402,5402,NA,653,1,982,2,NA,0.7,NA,NA,NA,NA
@@ -1066,8 +1066,8 @@
 70536,1,2019.13,2019,10,2,1,1,"qual",711,11.9,7.4,12.12,"F","","alive","Alyssa Terrell","Alyssa Terrell",8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
 70536,1,2019.14,2019,10,17,1,1,"qual",711,11.9,7.4,12.31,"F","","alive","Alyssa Terrell","Alyssa Terrell",8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
 70536,1,2019.15,2019,11,6,1,1,"qual",711,11.9,7.4,13.92,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
-70579,1,2019.01,2019,3,25,1,0,"caco",714,19.2,4.3,35.22,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
-70579,1,2019.15,2019,11,6,1,0,"caco",714,19.2,4.3,39.91,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
+70579,1,2019.01,2019,3,25,1,0,"caovl",714,19.2,4.3,35.22,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
+70579,1,2019.15,2019,11,6,1,0,"caovl",714,19.2,4.3,39.91,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
 70581,1,2019.01,2019,3,25,1,1,"quru",714,13.7,1.2,18.35,"","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
 70581,1,2019.02,2019,4,11,1,1,"quru",714,13.7,1.2,17.66,"","","alive","Ian McGregor","Ian McGregor",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
 70581,1,2019.03,2019,4,25,1,1,"quru",714,13.7,1.2,20.56,"","","alive","Alyssa Terrell","Ian McGregor",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
@@ -1146,8 +1146,8 @@
 72210,1,2019.15,2019,11,6,1,1,"qual",721,5.2,11.5,8.06,"","","alive","Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
 72232,1,2019.01,2019,3,28,1,0,"qual",722,14.5,12.6,103.65,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",8875,8875,NA,728.5,0,77,2,NA,1.45,NA,NA,NA,NA
 72232,1,2019.15,2019,11,6,1,0,"qual",722,14.5,12.6,107.97,"","","alive","Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",8875,8875,NA,728.5,0,77,2,NA,1.45,NA,NA,NA,NA
-72248,1,2019.01,2019,3,28,1,0,"caco",723,15,0.3,64.4,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
-72248,1,2019.15,2019,11,6,1,0,"caco",723,15,0.3,73.76,"","","alive","Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
+72248,1,2019.01,2019,3,28,1,0,"caovl",723,15,0.3,64.4,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
+72248,1,2019.15,2019,11,6,1,0,"caovl",723,15,0.3,73.76,"","","alive","Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
 72308,1,2019.01,2019,3,28,1,1,"qual",725,15.2,13.3,44.54,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
 72308,1,2019.02,2019,4,11,1,1,"qual",725,15.2,13.3,43.92,"","","alive","Rebecca Banbury Morgan","Ian McGregor",8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
 72308,1,2019.03,2019,4,25,1,1,"qual",725,15.2,13.3,44,"","","alive","Alyssa Terrell","Ian McGregor",8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
@@ -1260,9 +1260,9 @@
 80121,1,2019,2019,2,5,1,0,"quve",801,8.8,19.2,7.06,"","","alive","Alyssa Terrell, Becky Banbury Morgan, Ian McGregor","Ian McGregor",9215,9215,113,114,1,878,2,NA,1.4,NA,NA,NA,NA
 80121,1,2019.01,2019,3,28,1,0,"quve",801,8.8,19.2,4.54,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",9215,9215,NA,114,0,878,2,NA,1.4,NA,NA,NA,NA
 80121,1,2019.15,2019,11,6,1,0,"quve",801,8.8,19.2,6.21,"","","alive","Cameron Dow, Kate Heneberry","Alyssa Terrell",9215,9215,NA,114,0,878,2,NA,1.4,NA,NA,NA,NA
-80180,1,2019.01,2019,3,25,1,0,"cato",804,11.6,5.6,150.85,"RE;F","checked previous measure","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",9268,9268,NA,993.4,0,94,2,NA,1.2,NA,NA,NA,NA
-80180,1,2019.011,2019,4,3,1,0,"cato",804,11.6,5.6,10.93,"","","alive","Valentine Herrmann, Ian McGregor","Ian McGregor",9268,9268,1011,1015,1,932,2,NA,1.4,NA,NA,NA,NA
-80180,1,2019.15,2019,11,6,1,0,"cato",804,11.6,5.6,25.31,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",9268,9268,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
+80180,1,2019.01,2019,3,25,1,0,"cagl",804,11.6,5.6,150.85,"RE;F","checked previous measure","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",9268,9268,NA,993.4,0,94,2,NA,1.2,NA,NA,NA,NA
+80180,1,2019.011,2019,4,3,1,0,"cagl",804,11.6,5.6,10.93,"","","alive","Valentine Herrmann, Ian McGregor","Ian McGregor",9268,9268,1011,1015,1,932,2,NA,1.4,NA,NA,NA,NA
+80180,1,2019.15,2019,11,6,1,0,"cagl",804,11.6,5.6,25.31,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",9268,9268,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
 80398,1,2019.01,2019,3,25,1,0,"caco",807,1.8,19.6,NA,"DC;F","dead, fallen, not removed because crushed","dead","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",9474,9474,NA,193.4,0,95,2,NA,1.29,NA,NA,NA,NA
 80398,1,2019.15,2019,11,6,1,0,"caco",807,1.8,19.6,NA,"DC;F","","dead","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",9474,9474,NA,193.4,0,95,2,NA,1.29,NA,NA,NA,NA
 80401,1,2019.01,2019,3,25,1,0,"caco",807,7.4,19.4,145.4,"RE;F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",9477,9477,NA,446.7,0,96,2,NA,1.35,NA,NA,NA,NA
@@ -1801,8 +1801,8 @@
 110791,1,2019.13,2019,10,2,1,1,"litu",1104,11.3,10,15.68,"F","","alive","Alyssa Terrell","Alyssa Terrell",14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
 110791,1,2019.14,2019,10,17,1,1,"litu",1104,11.3,10,16.13,"F","","alive","Alyssa Terrell","Alyssa Terrell",14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
 110791,1,2019.15,2019,11,6,1,1,"litu",1104,11.3,10,11.82,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
-110798,1,2019.01,2019,3,25,1,0,"qupr",1104,16,15.5,23.13,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
-110798,1,2019.15,2019,11,6,1,0,"qupr",1104,16,15.5,33.53,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
+110798,1,2019.01,2019,3,25,1,0,"litu",1104,16,15.5,23.13,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
+110798,1,2019.15,2019,11,6,1,0,"litu",1104,16,15.5,33.53,"F","","alive","Alyssa Terrell; Cameron Dow; Kate Heneberry","Alyssa Terrell",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
 110901,1,2019.01,2019,3,25,1,1,"litu",1105,20,4.1,62.61,"F","","alive","Fanfan, Helen Bontrager, Ian McGregor","Ian McGregor",14265,14265,NA,524.1,0,668,2,NA,1.35,NA,NA,NA,NA
 110901,1,2019.02,2019,4,11,1,1,"litu",1105,20,4.1,61.69,"F;RE","","alive","Ian McGregor","Ian McGregor",14265,14265,NA,524.1,0,668,2,NA,1.35,NA,NA,NA,NA
 110901,1,2019.021,2019,4,18,1,1,"litu",1105,20,4.1,64.91,"F","adjusted springs","alive","Alyssa Terrell, Ian McGregor","Ian McGregor",14265,14265,NA,524.1,1,955,2,NA,1.35,NA,NA,NA,NA
@@ -2424,12 +2424,12 @@
 142732,1,2019.15,2019,11,6,1,0,"cagl",1432,1.6,1.2,34.26,"","","alive","Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",20623,20623,NA,217.5,0,205,2,NA,1.3,NA,NA,NA,NA
 142733,1,2019.01,2019,3,28,1,0,"litu",1432,0.5,5.4,21.28,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",20624,20624,NA,608.5,0,790,2,NA,1.34,NA,NA,NA,NA
 142733,1,2019.15,2019,11,6,1,0,"litu",1432,0.5,5.4,31.82,"","","alive","Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",20624,20624,NA,608.5,0,790,2,NA,1.34,NA,NA,NA,NA
-142735,1,2019.01,2019,3,28,1,0,"qual",1432,5.4,9.6,72.7,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",20626,20626,NA,639.6,0,207,2,NA,1.3,NA,NA,NA,NA
-142735,1,2019.15,2019,11,6,1,0,"qual",1432,5.4,9.6,82.21,"","","alive","Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",20626,20626,NA,639.6,0,207,2,NA,1.3,NA,NA,NA,NA
+142735,1,2019.01,2019,3,28,1,0,"quve",1432,5.4,9.6,72.7,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",20626,20626,NA,639.6,0,207,2,NA,1.3,NA,NA,NA,NA
+142735,1,2019.15,2019,11,6,1,0,"quve",1432,5.4,9.6,82.21,"","","alive","Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",20626,20626,NA,639.6,0,207,2,NA,1.3,NA,NA,NA,NA
 143707,1,2019.01,2019,3,28,1,0,"cagl",1426,0.9,1.6,16.15,"","","alive","Rebecca Banbury Morgan, Ian McGregor","Ian McGregor",46862,33781,NA,144.5,0,630,2,NA,1.35,NA,NA,NA,NA
 143707,1,2019.15,2019,11,6,1,0,"cagl",1426,0.9,1.6,20.24,"","","alive","Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou","Alyssa Terrell",46862,33781,NA,144.5,0,630,2,NA,1.35,NA,NA,NA,NA
-150756,1,2019.01,2019,3,28,1,0,"quve",1503,13.6,16.3,30.98,"","band removed in June, tree basically dead","alive","Fanfan, Helen Bontrager","Ian McGregor",21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
-150756,1,2019.15,2019,11,6,1,0,"quve",1503,13.6,16.3,36.67,"","","alive","Alyssa Terrell","Alyssa Terrell",21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
+150756,1,2019.01,2019,3,28,1,0,"prse",1503,13.6,16.3,30.98,"","band removed in June, tree basically dead","alive","Fanfan, Helen Bontrager","Ian McGregor",21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
+150756,1,2019.15,2019,11,6,1,0,"prse",1503,13.6,16.3,36.67,"","","alive","Alyssa Terrell","Alyssa Terrell",21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
 152153,1,2019.01,2019,3,28,1,0,"ploc",1520,6.8,0.3,50.18,"","","alive","Fanfan, Helen Bontrager","Ian McGregor",21906,21906,NA,961.6,0,775,2,NA,1.46,NA,NA,NA,NA
 152153,1,2019.15,2019,11,6,1,0,"ploc",1520,6.8,0.3,60.11,"","","alive","Cameron Dow, Kate Heneberry","Alyssa Terrell",21906,21906,NA,961.6,0,775,2,NA,1.46,NA,NA,NA,NA
 152513,1,2019,2019,2,15,1,0,"qupr",1525,4.6,19.2,6.39,"","","alive","Alyssa Terrell, Becky Banbury Morgan, Ian McGregor","Ian McGregor",22252,22252,612,615,1,889,2,NA,1.4,NA,NA,NA,NA
