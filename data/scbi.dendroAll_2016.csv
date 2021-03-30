@@ -379,8 +379,8 @@
 40569,1,2016.13,2016,10,13,1,1,"litu",407,5.6,1.7,34.92,"","","alive","Tori, Kate","Tori, Kate",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2016.14,2016,10,27,1,1,"litu",407,5.6,1.7,34.87,"","","alive","Tori, Kate","Tori, Kate",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2016.15,2016,11,10,1,1,"litu",407,5.6,1.7,34.92,"","From sap flow cluster","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
-40635,1,2016.01,2016,4,5,1,0,"cagl",408,18.7,1,29.53,"","","alive","Erika Gonzalez","Thomas Blair",5109,5109,262,258.7000122,0,31,2,NA,1.22,4,3,NA,NA
-40635,1,2016.15,2016,11,10,1,0,"cagl",408,18.7,1,34.29,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",5109,5109,NA,258.7000122,0,31,2,NA,1.22,NA,NA,NA,NA
+40635,1,2016.01,2016,4,5,1,0,"cato",408,18.7,1,29.53,"","","alive","Erika Gonzalez","Thomas Blair",5109,5109,262,258.7000122,0,31,2,NA,1.22,4,3,NA,NA
+40635,1,2016.15,2016,11,10,1,0,"cato",408,18.7,1,34.29,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",5109,5109,NA,258.7000122,0,31,2,NA,1.22,NA,NA,NA,NA
 40941,1,2016.01,2016,4,5,1,0,"litu",414,6,15.4,100.09,"M; main","Band should be removed and installed in main stem","alive","Erika Gonzalez","Thomas Blair",5402,5402,NA,653,0,33,2,NA,0.7,4,4,NA,NA
 40941,1,2016.15,2016,11,10,1,0,"litu",414,6,15.4,111.84,"","band adjusted","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",5402,5402,NA,653,0,33,2,NA,0.7,NA,NA,NA,NA
 40942,1,2016.01,2016,4,5,1,0,"acru",414,2.2,2,64.54,"","","alive","Erika Gonzalez","Thomas Blair",5403,5403,403,395.8999939,0,34,2,NA,1.32,4,3,NA,NA
@@ -1059,8 +1059,8 @@
 70536,1,2016.13,2016,10,13,1,1,"qual",711,11.9,7.4,94.46,"","","alive","Tori, Kate","Tori, Kate",8537,8537,NA,583.9000244,0,66,2,NA,1.21,NA,NA,NA,NA
 70536,1,2016.14,2016,10,27,1,1,"qual",711,11.9,7.4,92.75,"","","alive","Tori, Kate","Tori, Kate",8537,8537,NA,583.9000244,0,66,2,NA,1.21,NA,NA,NA,NA
 70536,1,2016.15,2016,11,10,1,1,"qual",711,11.9,7.4,92.86,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",8537,8537,NA,583.9000244,0,66,2,NA,1.21,NA,NA,NA,NA
-70579,1,2016.01,2016,4,5,1,0,"caco",714,19.2,4.3,27.35,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",8578,8578,239.3,236.1000061,0,67,2,NA,1.33,3,3,NA,NA
-70579,1,2016.15,2016,11,10,1,0,"caco",714,19.2,4.3,30.94,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",8578,8578,NA,236.1000061,0,67,2,NA,1.33,NA,NA,NA,NA
+70579,1,2016.01,2016,4,5,1,0,"caovl",714,19.2,4.3,27.35,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",8578,8578,239.3,236.1000061,0,67,2,NA,1.33,3,3,NA,NA
+70579,1,2016.15,2016,11,10,1,0,"caovl",714,19.2,4.3,30.94,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",8578,8578,NA,236.1000061,0,67,2,NA,1.33,NA,NA,NA,NA
 70581,1,2016.01,2016,4,5,1,1,"quru",714,13.7,1.2,146.76,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",8580,8580,623.5,614.5,0,68,2,NA,1.45,3,4,NA,NA
 70581,1,2016.02,2016,5,12,1,1,"quru",714,13.7,1.2,151.1,"","","alive","Tori Meakem","Tori Meakem",8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
 70581,1,2016.03,2016,5,26,1,1,"quru",714,13.7,1.2,151.71,"","","alive","Tori Meakem","Tori Meakem",8580,8580,NA,614.5,0,68,2,NA,1.45,NA,NA,NA,NA
@@ -1133,8 +1133,8 @@
 72210,1,2016.15,2016,11,10,1,1,"qual",721,5.2,11.5,107.05,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",8853,8853,NA,853.0999756,0,76,2,NA,1.33,NA,NA,NA,NA
 72232,1,2016.01,2016,4,6,1,0,"qual",722,14.5,12.6,75.65,"M; main","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",8875,8875,729,728.5,0,77,2,NA,1.45,3,4,NA,NA
 72232,1,2016.15,2016,11,10,1,0,"qual",722,14.5,12.6,85.3,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",8875,8875,NA,728.5,0,77,2,NA,1.45,NA,NA,NA,NA
-72248,1,2016.01,2016,4,6,1,0,"caco",723,15,0.3,48.09,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",8890,8890,318,313.2000122,0,78,2,NA,1.39,4,4,NA,NA
-72248,1,2016.15,2016,11,10,1,0,"caco",723,15,0.3,53.46,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",8890,8890,NA,313.2000122,0,78,2,NA,1.39,NA,NA,NA,NA
+72248,1,2016.01,2016,4,6,1,0,"caovl",723,15,0.3,48.09,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",8890,8890,318,313.2000122,0,78,2,NA,1.39,4,4,NA,NA
+72248,1,2016.15,2016,11,10,1,0,"caovl",723,15,0.3,53.46,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",8890,8890,NA,313.2000122,0,78,2,NA,1.39,NA,NA,NA,NA
 72308,1,2016.01,2016,4,6,1,1,"qual",725,15.2,13.3,32.82,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",8948,8948,655,654.2000122,0,79,2,NA,1.4,3,4,NA,NA
 72308,1,2016.02,2016,5,12,1,1,"qual",725,15.2,13.3,36.22,"","","alive","Tori Meakem","Tori Meakem",8948,8948,NA,654.2000122,0,79,2,NA,1.4,NA,NA,NA,NA
 72308,1,2016.03,2016,5,26,1,1,"qual",725,15.2,13.3,35.88,"","","alive","Tori Meakem","Tori Meakem",8948,8948,NA,654.2000122,0,79,2,NA,1.4,NA,NA,NA,NA
@@ -1241,8 +1241,8 @@
 80005,1,2016.15,2016,11,10,1,0,"fram",801,1.9,12.4,27.79,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",9107,9107,NA,694.5,0,92,2,NA,1.15,NA,NA,NA,NA
 80100,1,2016.01,2016,4,5,1,0,"litu",804,3.4,12.6,110.26,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",9197,9197,572,562.9000244,0,93,2,NA,1.39,4,3,NA,NA
 80100,1,2016.15,2016,11,10,1,0,"litu",804,3.4,12.6,119.32,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",9197,9197,NA,562.9000244,0,93,2,NA,1.39,NA,NA,NA,NA
-80180,1,2016.01,2016,4,5,1,0,"cato",804,11.6,5.6,96.65,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",9268,9268,1004,993.4000244,0,94,2,NA,1.2,3,4,NA,NA
-80180,1,2016.15,2016,11,10,1,0,"cato",804,11.6,5.6,106.85,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",9268,9268,NA,993.4000244,0,94,2,NA,1.2,NA,NA,NA,NA
+80180,1,2016.01,2016,4,5,1,0,"cagl",804,11.6,5.6,96.65,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",9268,9268,1004,993.4000244,0,94,2,NA,1.2,3,4,NA,NA
+80180,1,2016.15,2016,11,10,1,0,"cagl",804,11.6,5.6,106.85,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",9268,9268,NA,993.4000244,0,94,2,NA,1.2,NA,NA,NA,NA
 80398,1,2016.01,2016,4,5,1,0,"caco",807,1.8,19.6,14.74,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",9474,9474,194.1,193.3999939,0,95,2,NA,1.29,3,3,NA,NA
 80398,1,2016.15,2016,11,10,1,0,"caco",807,1.8,19.6,15.89,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",9474,9474,NA,193.3999939,0,95,2,NA,1.29,NA,NA,NA,NA
 80401,1,2016.01,2016,4,5,1,0,"caco",807,7.4,19.4,119.43,"","","alive","Erika Gonzalez, Tori Meakem, Thomas Blair","Thomas Blair",9477,9477,465,446.7000122,0,96,2,NA,1.35,3,4,NA,NA
@@ -1442,8 +1442,8 @@
 91477,1,2016.15,2016,11,10,1,1,"litu",908,19.3,3.5,40.09,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",11143,11143,NA,210,0,258,2,NA,1.35,NA,NA,NA,NA
 91486,1,2016.01,2016,4,6,1,0,"cagl",908,17.5,9.2,NA,"","Need new band (no band)","alive","Erika Gonzalez, Tori Meakem","Thomas Blair",11152,11152,NA,570.9000244,0,259,2,NA,1.3,3,4,NA,NA
 91486,1,2016.15,2016,11,10,1,0,"cagl",908,17.5,9.2,20.03,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",11152,11152,NA,570.9000244,1,711,2,NA,1.3,NA,NA,NA,NA
-92006,1,2016.01,2016,4,6,1,0,"litu",917,6.29,1.42,36.33,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",11172,11172,543.5,544.2000122,0,260,2,NA,1.3,3,4,NA,NA
-92006,1,2016.15,2016,11,10,1,0,"litu",917,6.29,1.42,41.38,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",11172,11172,NA,544.2000122,0,260,2,NA,1.3,NA,NA,NA,NA
+92006,1,2016.01,2016,4,6,1,0,"fram",917,6.29,1.42,36.33,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",11172,11172,543.5,544.2000122,0,260,2,NA,1.3,3,4,NA,NA
+92006,1,2016.15,2016,11,10,1,0,"fram",917,6.29,1.42,41.38,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",11172,11172,NA,544.2000122,0,260,2,NA,1.3,NA,NA,NA,NA
 92018,1,2016.01,2016,4,6,1,0,"acru",917,16.22,5.6,52.48,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",11184,11184,524,519.5,0,261,2,NA,1.3,4,4,NA,NA
 92018,1,2016.15,2016,11,10,1,0,"acru",917,16.22,5.6,59.92,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",11184,11184,NA,519.5,0,261,2,NA,1.3,NA,NA,NA,NA
 92112,1,2016.01,2016,4,6,1,0,"litu",919,14.4,18.79,59.5,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",11276,11276,505,489.1000061,0,597,2,NA,1.3,4,4,NA,NA
@@ -1571,8 +1571,8 @@
 101310,1,2016.15,2016,11,10,1,0,"fram",1016,8,14.1,91.07,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",12923,12923,NA,490.1000061,0,283,2,NA,1.3,NA,NA,NA,NA
 101312,1,2016.01,2016,4,6,1,0,"fram",1016,2.6,16.8,131.91,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",12925,12925,384,377,0,284,2,NA,1.3,3,4,NA,NA
 101312,1,2016.15,2016,11,10,1,0,"fram",1016,2.6,16.8,136.01,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",12925,12925,NA,377,0,284,2,NA,1.3,NA,NA,NA,NA
-102001,1,2016.01,2016,4,6,1,0,"fram",1017,6,3.7,41.6,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",12939,12939,284,280.2999878,0,285,2,NA,1.3,4,3,NA,NA
-102001,1,2016.15,2016,11,10,1,0,"fram",1017,6,3.7,NA,"","fallen,dead","dead","Kate Aldrich, Sally Bowers","Tori Meakem",12939,12939,NA,280.2999878,0,285,2,NA,1.3,NA,NA,NA,NA
+102001,1,2016.01,2016,4,6,1,0,"frni",1017,6,3.7,41.6,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",12939,12939,284,280.2999878,0,285,2,NA,1.3,4,3,NA,NA
+102001,1,2016.15,2016,11,10,1,0,"frni",1017,6,3.7,NA,"","fallen,dead","dead","Kate Aldrich, Sally Bowers","Tori Meakem",12939,12939,NA,280.2999878,0,285,2,NA,1.3,NA,NA,NA,NA
 102148,1,2016.01,2016,4,6,1,0,"cato",1019,2.03,15.4,23.68,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",13086,13086,254,251.1999969,0,286,2,NA,1.3,4,3,NA,NA
 102148,1,2016.15,2016,11,10,1,0,"cato",1019,2.03,15.4,25.4,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",13086,13086,NA,251.1999969,0,286,2,NA,1.3,NA,NA,NA,NA
 102149,1,2016.01,2016,4,6,1,0,"cagl",1020,1.35,0.2,37.96,"","","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",13087,13087,70,70.09999847,0,287,2,NA,1.3,4,2,NA,NA
@@ -1765,8 +1765,8 @@
 110791,1,2016.13,2016,10,13,1,1,"litu",1104,11.3,10,135.72,"","","alive","Tori, Kate","Tori, Kate",14158,14158,NA,651.2000122,0,308,2,NA,1.28,NA,NA,NA,NA
 110791,1,2016.14,2016,10,27,1,1,"litu",1104,11.3,10,135.17,"","","alive","Tori, Kate","Tori, Kate",14158,14158,NA,651.2000122,0,308,2,NA,1.28,NA,NA,NA,NA
 110791,1,2016.15,2016,11,10,1,1,"litu",1104,11.3,10,134.53,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",14158,14158,NA,651.2000122,0,308,2,NA,1.28,NA,NA,NA,NA
-110798,1,2016.01,2016,4,6,1,0,"qupr",1104,16,15.5,135.34,"","","alive","Erika Gonzalez, Thomas Blair","Thomas Blair",14165,14165,714,712.2999878,0,309,2,NA,1.45,4,4,NA,NA
-110798,1,2016.15,2016,11,10,1,0,"qupr",1104,16,15.5,147.9,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",14165,14165,NA,712.2999878,0,309,2,NA,1.45,NA,NA,NA,NA
+110798,1,2016.01,2016,4,6,1,0,"litu",1104,16,15.5,135.34,"","","alive","Erika Gonzalez, Thomas Blair","Thomas Blair",14165,14165,714,712.2999878,0,309,2,NA,1.45,4,4,NA,NA
+110798,1,2016.15,2016,11,10,1,0,"litu",1104,16,15.5,147.9,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",14165,14165,NA,712.2999878,0,309,2,NA,1.45,NA,NA,NA,NA
 110901,1,2016.01,2016,4,6,1,1,"litu",1105,20,4.1,23.65,"","","alive","Erika Gonzalez, Thomas Blair","Thomas Blair",14265,14265,531,524.0999756,0,668,2,NA,1.35,4,4,NA,NA
 110901,1,2016.02,2016,5,12,1,1,"litu",1105,20,4.1,25.92,"","","alive","Tori Meakem","Tori Meakem",14265,14265,NA,524.0999756,0,668,2,NA,1.35,NA,NA,NA,NA
 110901,1,2016.03,2016,5,26,1,1,"litu",1105,20,4.1,25.73,"","","alive","Tori Meakem","Tori Meakem",14265,14265,NA,524.0999756,0,668,2,NA,1.35,NA,NA,NA,NA
@@ -2368,12 +2368,12 @@
 142732,1,2016.15,2016,11,10,1,0,"cagl",1432,1.6,1.2,25.71,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",20623,20623,NA,217.5,0,205,2,NA,1.3,NA,NA,NA,NA
 142733,1,2016.01,2016,4,5,1,0,"litu",1432,0.5,5.4,112.27,"","","alive","Tori Meakem, Kate Aldrich","Thomas Blair",20624,20624,616.5,608.5,0,206,2,NA,1.34,4,4,NA,NA
 142733,1,2016.15,2016,11,10,1,0,"litu",1432,0.5,5.4,123.98,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",20624,20624,NA,608.5,0,206,2,NA,1.34,NA,NA,NA,NA
-142735,1,2016.01,2016,4,5,1,0,"qual",1432,5.4,9.6,46.43,"","","alive","Tori Meakem, Kate Aldrich","Thomas Blair",20626,20626,646,639.5999756,0,207,2,NA,1.3,3,4,NA,NA
-142735,1,2016.15,2016,11,10,1,0,"qual",1432,5.4,9.6,54.06,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",20626,20626,NA,639.5999756,0,207,2,NA,1.3,NA,NA,NA,NA
+142735,1,2016.01,2016,4,5,1,0,"quve",1432,5.4,9.6,46.43,"","","alive","Tori Meakem, Kate Aldrich","Thomas Blair",20626,20626,646,639.5999756,0,207,2,NA,1.3,3,4,NA,NA
+142735,1,2016.15,2016,11,10,1,0,"quve",1432,5.4,9.6,54.06,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",20626,20626,NA,639.5999756,0,207,2,NA,1.3,NA,NA,NA,NA
 143707,1,2016.01,2016,4,5,1,0,"cagl",1426,0.9,1.6,11.61,"","","alive","Tori Meakem, Kate Aldrich","Thomas Blair",46862,33781,147.8,144.5,0,630,2,NA,1.35,3,3,NA,NA
 143707,1,2016.15,2016,11,10,1,0,"cagl",1426,0.9,1.6,13.98,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",46862,33781,NA,144.5,0,630,2,NA,1.35,NA,NA,NA,NA
-150756,1,2016.01,2016,4,6,1,0,"quve",1503,13.6,16.3,22.53,"","Band adjusted","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",21310,21310,940.5,939.0999756,0,208,2,NA,1.29,4,4,NA,NA
-150756,1,2016.15,2016,11,10,1,0,"quve",1503,13.6,16.3,25.6,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",21310,21310,NA,939.0999756,0,208,2,NA,1.29,NA,NA,NA,NA
+150756,1,2016.01,2016,4,6,1,0,"prse",1503,13.6,16.3,22.53,"","Band adjusted","alive","Valentine Herrmann, Avery Parmiter","Thomas Blair",21310,21310,940.5,939.0999756,0,208,2,NA,1.29,4,4,NA,NA
+150756,1,2016.15,2016,11,10,1,0,"prse",1503,13.6,16.3,25.6,"","","alive","Tori Meakem, Maru Losada, Lauren Brown","Tori Meakem",21310,21310,NA,939.0999756,0,208,2,NA,1.29,NA,NA,NA,NA
 152153,1,2016.01,2016,4,5,1,0,"ploc",1520,6.8,0.3,140.03,"","no tag. band adjusted","alive","Tori Meakem, Kate Aldrich","Thomas Blair",21906,21906,973.2,961.5999756,0,210,2,NA,1.46,4,5,NA,NA
 152153,1,2016.15,2016,11,10,1,0,"ploc",1520,6.8,0.3,152.34,"","","alive","Kate Aldrich, Sally Bowers","Tori Meakem",21906,21906,NA,961.5999756,0,210,2,NA,1.46,NA,NA,NA,NA
 152673,1,2016.01,2016,4,5,1,0,"litu",1530,3.6,18.8,141.69,"I","","alive","Tori Meakem, Kate Aldrich","Thomas Blair",22390,22390,927,932.7000122,0,211,2,NA,1.23,4,4,NA,NA

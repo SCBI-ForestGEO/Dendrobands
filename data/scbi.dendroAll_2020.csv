@@ -148,7 +148,7 @@
 40569,1,2020.04,2020,5,2,1,1,"litu",407,5.6,1.7,91.7,NA,NA,"alive","Cameron Dow","Cameron Dow",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2020.05,2020,5,15,1,1,"litu",407,5.6,1.7,90.52,NA,NA,"alive","Cameron Dow","Cameron Dow",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
 40569,1,2020.06,2020,5,31,1,1,"litu",407,5.6,1.7,92.43,""," ","alive"," Cameron Dow"," Cameron Dow",5046,5046,NA,280,0,701,2,NA,1.41,NA,NA,NA,NA
-40635,1,2020.01,2020,3,11,1,0,"cagl",408,18.7,1,44.24,NA,"double-checked","alive","Cameron Dow","Jessica Shue",5109,5109,NA,258.7,0,31,2,NA,1.22,NA,NA,NA,NA
+40635,1,2020.01,2020,3,11,1,0,"cato",408,18.7,1,44.24,NA,"double-checked","alive","Cameron Dow","Jessica Shue",5109,5109,NA,258.7,0,31,2,NA,1.22,NA,NA,NA,NA
 40941,1,2020.01,2020,3,11,1,0,"litu",414,6,15.4,113.4,"RE","band is twisted up and at knee height","alive","Cameron Dow","Jessica Shue",5402,5402,NA,653,0,982,2,NA,0.7,NA,NA,NA,NA
 40942,1,2020.01,2020,3,11,1,0,"acru",414,2.2,2,101.93,NA,NA,"alive","Cameron Dow","Jessica Shue",5403,5403,NA,395.9,0,34,2,NA,1.32,NA,NA,NA,NA
 40972,1,2020.01,2020,3,11,1,0,"litu",415,7.2,9.6,23.6,NA,"double-checked","alive","Cameron Dow","Jessica Shue",5432,5432,NA,847,0,900,2,NA,1.32,NA,NA,NA,NA
@@ -423,7 +423,7 @@
 70536,1,2020.04,2020,5,2,1,1,"qual",711,11.9,7.4,15.63,"F",NA,"alive","Cameron Dow","Cameron Dow",8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
 70536,1,2020.05,2020,5,15,1,1,"qual",711,11.9,7.4,14.86,"F",NA,"alive","Cameron Dow","Cameron Dow",8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
 70536,1,2020.06,2020,5,31,1,1,"qual",711,11.9,7.4,16.76,"F"," ","alive"," Cameron Dow"," Cameron Dow",8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
-70579,1,2020.01,2020,3,11,1,0,"caco",714,19.2,4.3,37.11,"F",NA,"alive","Jessica Shue","Jessica Shue",8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
+70579,1,2020.01,2020,3,11,1,0,"caovl",714,19.2,4.3,37.11,"F",NA,"alive","Jessica Shue","Jessica Shue",8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
 70581,1,2020.01,2020,3,11,1,1,"quru",714,13.7,1.2,26.67,NA,NA,"alive","Cameron Dow","Jessica Shue",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
 70581,1,2020.02,2020,3,30,1,1,"quru",714,13.7,1.2,27.07,NA,NA,"alive","Cameron Dow","Cameron Dow",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
 70581,1,2020.03,2020,4,14,1,1,"quru",714,13.7,1.2,28.18,NA,NA,"alive","Cameron Dow","Cameron Dow",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
@@ -455,7 +455,7 @@
 72210,1,2020.05,2020,5,15,1,1,"qual",721,5.2,11.5,11.59,NA,NA,"alive","Cameron Dow","Cameron Dow",8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
 72210,1,2020.06,2020,5,31,1,1,"qual",721,5.2,11.5,14.49,""," ","alive"," Cameron Dow"," Cameron Dow",8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
 72232,1,2020.01,2020,3,11,1,0,"qual",722,14.5,12.6,109.7,NA,NA,"alive","Cameron Dow","Jessica Shue",8875,8875,NA,728.5,0,77,2,NA,1.45,NA,NA,NA,NA
-72248,1,2020.01,2020,3,11,1,0,"caco",723,15,0.3,70.82,NA,NA,"alive","Cameron Dow","Jessica Shue",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
+72248,1,2020.01,2020,3,11,1,0,"caovl",723,15,0.3,70.82,NA,NA,"alive","Cameron Dow","Jessica Shue",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
 72308,1,2020.01,2020,3,11,1,1,"qual",725,15.2,13.3,55.45,NA,"double-checked","alive","Cameron Dow","Jessica Shue",8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
 72308,1,2020.02,2020,3,30,1,1,"qual",725,15.2,13.3,55.72,NA,NA,"alive","Cameron Dow","Cameron Dow",8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
 72308,1,2020.03,2020,4,14,1,1,"qual",725,15.2,13.3,56.7,NA,NA,"alive","Cameron Dow","Cameron Dow",8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
@@ -500,7 +500,7 @@
 80005,1,2020.01,2020,3,11,1,0,"fram",801,1.9,12.4,21.24,NA,NA,"alive","Cameron Dow","Jessica Shue",9107,9107,NA,694.5,0,92,2,NA,1.15,NA,NA,NA,NA
 80100,1,2020.01,2020,3,11,1,0,"litu",804,3.4,12.6,31.08,"F",NA,"alive","Jessica Shue","Jessica Shue",9197,9197,NA,582,0,903,2,NA,1.4,NA,NA,NA,NA
 80121,1,2020.01,2020,3,11,1,0,"quve",801,8.8,19.2,6.54,NA,NA,"alive","Cameron Dow","Jessica Shue",9215,9215,NA,114,0,878,2,NA,1.4,NA,NA,NA,NA
-80180,1,2020.01,2020,3,11,1,0,"cato",804,11.6,5.6,21.54,"F","double-checked","alive","Jessica Shue","Jessica Shue",9268,9268,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
+80180,1,2020.01,2020,3,11,1,0,"cagl",804,11.6,5.6,21.54,"F","double-checked","alive","Jessica Shue","Jessica Shue",9268,9268,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
 80398,1,2020.01,2020,3,11,1,0,"caco",807,1.8,19.6,NA,"F;DN",NA,"dead","Jessica Shue","Jessica Shue",9474,9474,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
 80401,1,2020.01,2020,3,11,1,0,"caco",807,7.4,19.4,21.15,"F",NA,"alive","Jessica Shue","Jessica Shue",9477,9477,NA,469,0,933,2,NA,1.35,NA,NA,NA,NA
 80554,1,2020.01,2020,3,11,1,0,"caovl",813,6.9,11.2,91.48,"F","double-checked","alive","Jessica Shue","Jessica Shue",9630,9630,NA,489.2,0,637,2,NA,1.46,NA,NA,NA,NA
@@ -725,7 +725,7 @@
 110791,1,2020.04,2020,5,2,1,1,"litu",1104,11.3,10,12.24,"F",NA,"alive","Cameron Dow","Cameron Dow",14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
 110791,1,2020.05,2020,5,15,1,1,"litu",1104,11.3,10,10.62,"F",NA,"alive","Cameron Dow","Cameron Dow",14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
 110791,1,2020.06,2020,5,31,1,1,"litu",1104,11.3,10,13.12,"F"," ","alive"," Cameron Dow"," Cameron Dow",14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
-110798,1,2020.01,2020,3,11,1,0,"qupr",1104,16,15.5,30.35,"F","species should be LITU; double-checked","alive","Jessica Shue","Jessica Shue",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
+110798,1,2020.01,2020,3,11,1,0,"litu",1104,16,15.5,30.35,"F","species should be LITU; double-checked","alive","Jessica Shue","Jessica Shue",14165,14165,NA,712.3,0,309,2,NA,1.45,NA,NA,NA,NA
 110901,1,2020.01,2020,3,11,1,1,"litu",1105,20,4.1,74.65,"F",NA,"alive","Jessica Shue","Jessica Shue",14265,14265,NA,524.1,0,955,2,NA,1.35,NA,NA,NA,NA
 110901,1,2020.02,2020,3,30,1,1,"litu",1105,20,4.1,75.07,"F",NA,"alive","Cameron Dow","Cameron Dow",14265,14265,NA,524.1,0,955,2,NA,1.35,NA,NA,NA,NA
 110901,1,2020.03,2020,4,14,1,1,"litu",1105,20,4.1,75.41,"F",NA,"alive","Cameron Dow","Cameron Dow",14265,14265,NA,524.1,0,955,2,NA,1.35,NA,NA,NA,NA
@@ -989,9 +989,9 @@
 142731,1,2020.01,2020,3,11,1,0,"litu",1432,8.2,2.3,57.45,NA,NA,"alive","Jessica Shue","Jessica Shue",20622,20622,NA,528.2,0,204,2,NA,1.35,NA,NA,NA,NA
 142732,1,2020.01,2020,3,11,1,0,"cagl",1432,1.6,1.2,32.68,NA,NA,"alive","Jessica Shue","Jessica Shue",20623,20623,NA,217.5,0,205,2,NA,1.3,NA,NA,NA,NA
 142733,1,2020.01,2020,3,11,1,0,"litu",1432,0.5,5.4,31.61,NA,NA,"alive","Jessica Shue","Jessica Shue",20624,20624,NA,608.5,0,790,2,NA,1.34,NA,NA,NA,NA
-142735,1,2020.01,2020,3,11,1,0,"qual",1432,5.4,9.6,77.43,NA,"double-checked","alive","Jessica Shue","Jessica Shue",20626,20626,NA,639.6,0,207,2,NA,1.3,NA,NA,NA,NA
+142735,1,2020.01,2020,3,11,1,0,"quve",1432,5.4,9.6,77.43,NA,"double-checked","alive","Jessica Shue","Jessica Shue",20626,20626,NA,639.6,0,207,2,NA,1.3,NA,NA,NA,NA
 143707,1,2020.01,2020,3,11,1,0,"cagl",1426,0.9,1.6,18.63,NA,NA,"alive","Jessica Shue","Jessica Shue",46862,33781,NA,144.5,0,630,2,NA,1.35,NA,NA,NA,NA
-150756,1,2020.01,2020,3,11,1,0,"quve",1503,13.6,16.3,NA,NA,"band removed June 2019","alive","Krista Anderson-Teixeira, Sean McMahon","Jessica Shue",21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
+150756,1,2020.01,2020,3,11,1,0,"prse",1503,13.6,16.3,NA,NA,"band removed June 2019","alive","Krista Anderson-Teixeira, Sean McMahon","Jessica Shue",21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
 152153,1,2020.01,2020,3,11,1,0,"ploc",1520,6.8,0.3,76.44,NA,NA,"alive","Krista Anderson-Teixeira, Sean McMahon","Jessica Shue",21906,21906,NA,961.6,0,775,2,NA,1.46,NA,NA,NA,NA
 152513,1,2020.01,2020,3,12,1,0,"qupr",1525,4.6,19.2,8.35,NA,NA,"alive","Sean McMahon, Jessica Shue","Jessica Shue",22252,22252,NA,615,0,889,2,NA,1.4,NA,NA,NA,NA
 152673,1,2020.01,2020,3,12,1,0,"litu",1530,3.6,18.8,74.24,NA,NA,"alive","Sean McMahon, Jessica Shue","Jessica Shue",22390,22390,NA,932.7,0,776,2,NA,1.23,NA,NA,NA,NA
