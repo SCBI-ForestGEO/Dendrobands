@@ -1,5 +1,7 @@
 # SCBI Dendrometer bands
 
+[![R-CMD-check](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/R-CMD-check/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
+
 ## Overview 
 This repository contains dendrometer bands data for the SCBI ForestGEO plot. There are two sets of measurements: 
 
