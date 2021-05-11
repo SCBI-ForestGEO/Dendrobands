@@ -10,10 +10,10 @@ on:
       - main
       - master
 
-name: R-CMD-check
+name: data-tests
 
 jobs:
-  R-CMD-check:
+  data-tests:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
