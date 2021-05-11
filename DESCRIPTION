@@ -1,0 +1,20 @@
+Package: dendrobands
+Title: Dendrometer bands data for the SCBI ForestGEO plot
+Description: There are two sets of measurements: 1) Biannual dendrometer bands: dendrometer bands on >500 trees measured at start and end of growing season & 2) Intra-annual dendrometer bands: dendrometer bands on >150 trees measured ~ every 2 weeks
+License: MIT + file LICENSE
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Kristina", family = "Anderson-Teixeira", role = "aut"),
+    person(given = "William", family = "McShea", role = "aut"),
+    person(given = "Erika", family = "Gonzalez-Akre", role = "aut"),
+    person(given = "Victoria", family = "Meakem", role = "aut"),
+    person(given = "Ryan", family = "Helcoski", role = "aut"),
+    person(given = "Ian", family = "McGregor", role = "aut"),
+    person(given = "Alyssa", family = "Terrell", role = "aut"),
+    person(given = c("Albert", "Y."), family = "Kim", role = c("cre", "aut"), email = "albert.ys.kim@gmail.com", comment = c(ORCID = "0000-0001-7824-306X"))
+    )
+Depends: R (>= 4.0.0)
+Imports:
+  testthat
+URL: https://github.com/SCBI-ForestGEO/Dendrobands
+BugReports: https://github.com/SCBI-ForestGEO/Dendrobands/issues
