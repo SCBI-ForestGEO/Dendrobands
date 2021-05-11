@@ -1,4 +1,4 @@
 library(testthat)
 
-test_dir("tests/testthat", reporter = c("check", "progress"))
+test_dir("testthat", reporter = c("check", "progress"))
 
