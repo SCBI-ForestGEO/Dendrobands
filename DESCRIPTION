@@ -15,6 +15,14 @@ Authors@R: c(
     )
 Depends: R (>= 4.0.0)
 Imports:
-  testthat
+  testthat,
+  knitr,
+  ggplot2,
+  dplyr,
+  readr,
+  tidyr,
+  stringr,
+  lubridate,
+  here
 URL: https://github.com/SCBI-ForestGEO/Dendrobands
 BugReports: https://github.com/SCBI-ForestGEO/Dendrobands/issues
