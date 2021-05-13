@@ -36,4 +36,6 @@ jobs:
           else 
             echo "::set-output name=diff::TRUE"
           fi
-          echo ${{ steps.check_files.outputs.diff }})
+      - name: Print flag
+        run: |
+          echo ${{ steps.check_new_files.outputs.diff }})
