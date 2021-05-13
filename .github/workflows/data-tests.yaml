@@ -15,6 +15,7 @@ name: data-tests
 jobs:
   data-tests:
     runs-on: macOS-latest
+    continue-on-error: true
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
