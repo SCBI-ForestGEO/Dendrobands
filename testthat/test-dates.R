@@ -9,11 +9,22 @@ test_that("All years are valid", {
     str_sub(1, 4) %>% 
     as.numeric()
   
-  here("data") %>% 
+  dendroband_measurements <- here("data") %>% 
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
     map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    mutate(year_valid = between(year, 2010, current_year)) %>% 
+    mutate(year_valid = between(year, 2010, current_year)) 
+  
+  all_years_valid <- dendroband_measurements %>% 
     pull(year_valid) %>% 
-    all() %>% 
-    expect_true()
+    all() 
+  
+  if(!all_years_valid){
+    filename <- here("testthat/reports", str_c(Sys.Date(), "_year_issues.csv"))
+    
+    dendroband_measurements %>% 
+      filter(!year_valid | is.na(year_valid)) %>% 
+      write_csv(file = filename)
+  }
+  
+  expect_true(all_years_valid)
 })
