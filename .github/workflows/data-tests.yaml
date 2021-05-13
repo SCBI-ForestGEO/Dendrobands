@@ -27,3 +27,13 @@ jobs:
         shell: Rscript {0}
       - name: Run tests
         run: Rscript testthat.R
+      - name: Check for new files
+        id: check_new_files
+        run: |
+          if [[ -z "$(git status --porcelain)" ]] ; then 
+            echo "Git status is empty"
+            echo "::set-output name=diff::FALSE"
+          else 
+            echo "::set-output name=diff::TRUE"
+          fi
+          echo ${{ steps.check_files.outputs.diff }})
