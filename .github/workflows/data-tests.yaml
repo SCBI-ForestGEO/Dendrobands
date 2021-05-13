@@ -38,4 +38,4 @@ jobs:
           fi
       - name: Print flag
         run: |
-          echo ${{ steps.check_new_files.outputs.diff }})
+          echo ${{ steps.check_new_files.outputs.diff }}
