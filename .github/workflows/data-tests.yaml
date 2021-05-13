@@ -15,7 +15,6 @@ name: data-tests
 jobs:
   data-tests:
     runs-on: macOS-latest
-    continue-on-error: true
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -30,6 +29,7 @@ jobs:
         run: Rscript testthat.R
       - name: Check for new files
         id: check_new_files
+        if: ${{ failure() }}
         run: |
           if [[ -z "$(git status --porcelain)" ]] ; then 
             echo "Git status is empty"
@@ -38,17 +38,18 @@ jobs:
             echo "::set-output name=diff::TRUE"
           fi
       - name: Print flag
+        if: ${{ failure() }}
         run: |
           echo ${{ steps.check_new_files.outputs.diff }}
       - name: Commit any changes
-        if: steps.check_new_files.outputs.diff == 'TRUE'
+        if: steps.check_new_files.outputs.diff == 'TRUE' || if: ${{ failure() }}
         run: |      
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
           git commit -m "Add error report"
       - name: Push any changes
-        if: steps.check_new_files.outputs.diff == 'TRUE'
+        if: steps.check_new_files.outputs.diff == 'TRUE' || if: ${{ failure() }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
