@@ -41,16 +41,11 @@ jobs:
         if: ${{ failure() }}
         run: |
           echo ${{ steps.check_new_files.outputs.diff }}
-      - name: Commit any changes
-        if: steps.check_new_files.outputs.diff == 'TRUE' || ${{ failure() }}
-        run: |      
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git commit -m "Add error report"
-      - name: Push any changes
-        if: steps.check_new_files.outputs.diff == 'TRUE' || ${{ failure() }}
-        uses: ad-m/github-push-action@master
+      - name: Commit and push any changes
+        if: ${{ failure() }} && steps.check_new_files.outputs.diff == 'TRUE'
+        uses: EndBug/add-and-commit@v7
         with:
+          author_name: "github-actions[bot]"
+          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          message: "Add error report"
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}        
