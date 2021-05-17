@@ -27,7 +27,7 @@ jobs:
         shell: Rscript {0}
       - name: Run tests
         run: Rscript testthat.R
-      - name: Check for new files
+      - name: Check for new files, set flag if the case
         id: check_new_files
         if: ${{ failure() }}
         run: |
@@ -37,7 +37,7 @@ jobs:
           else 
             echo "::set-output name=diff::TRUE"
           fi
-      - name: Print flag
+      - name: Print new files flag
         if: ${{ failure() }}
         run: |
           echo ${{ steps.check_new_files.outputs.diff }}
