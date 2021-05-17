@@ -37,10 +37,6 @@ jobs:
           else 
             echo "::set-output name=diff::TRUE"
           fi
-      - name: Print new files flag
-        if: ${{ failure() }}
-        run: |
-          echo ${{ steps.check_new_files.outputs.diff }}
       - name: Commit and push any changes
         if: ${{ failure() }} && steps.check_new_files.outputs.diff == 'TRUE'
         uses: EndBug/add-and-commit@v7
