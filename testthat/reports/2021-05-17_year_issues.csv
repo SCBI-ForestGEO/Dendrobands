@@ -1,0 +1,2 @@
+tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID,year_valid
+143707,1,2013.01,NA,NA,NA,1,0,cagl,1426,0.9,1.6,NA,NA,NA,alive,Erika Gonzalez,Mike Belovitch,46862,33781,NA,144.5,0,NA,2,NA,1.3,NA,NA,NA,NA,FALSE
