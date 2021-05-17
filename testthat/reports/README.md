@@ -1,2 +1,4 @@
-# Writing all data check errors here
+# Error reports
+
+Write all error reports here.
 
