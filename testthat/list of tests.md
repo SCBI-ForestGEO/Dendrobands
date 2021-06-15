@@ -10,7 +10,7 @@ plot | consistency check | all trees in census | `status` = "alive" or "dead" | 
 band | consistency check | all bands in census | `survey.ID` = "year.[census number]", where census number is 2 digits and is 0.01 greater than min(year, max value for `survey.ID` across all bands) | E | not yet | N | ?
 band | consistency check | all bands in census | `year` is possible: between 2010-current year & is not `NA` | E | 2021 | N | ?
 band | consistency check | all bands in census | `year` matches current year | W | not yet | N | ?
-band | consistency check | all bands in census | `month` is possible: 1 ≤ `month` ≤ 12 | E | not yet | N | ?
+band | consistency check | all bands in census | `month` is possible: 1 ≤ `month` ≤ 12 & is not `NA` | E | 2021 | N | ?
 band | consistency check | all bands in census | `month` matches current month | W | not yet | N | ?
 band | consistency check | all bands in census | `day` is possible: 1 ≤ `day` ≤ 31 | E | not yet | N | ?
 band | consistency check | all bands in census | `day` matches current day | W | not yet | N | ?
