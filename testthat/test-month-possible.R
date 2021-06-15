@@ -11,7 +11,7 @@ test_that("Month is possible", {
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
     map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double()))
   
-  # Test that month is between 2010-current year and not NA
+  # Test that month is between 1 and 12 and not NA
   dendroband_measurements <- dendroband_measurements %>% 
     mutate(month_possible = between(month, 1, 12) & !is.na(month)) 
   
