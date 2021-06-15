@@ -18,7 +18,7 @@ band | consistency check | all bands in census | `measure` is possible: 0 ≤ `m
 band | consistency check | all bands in census | `measure` is reasonable: abs(`measure` - previous `measure`) < 10 (*to start. We'll refine this.*) | E | not yet | Y | NA
 band | consistency check | all bands in census | if `measure` < 3, `codes` includes "RE" | W | not yet | N | add "RE" to codes
 band | consistency check | all bands in census | if `measure` > (**near limit of calipers**), `codes` includes "RE" | W | not yet | N | add "RE" to codes
-
+band | consistency check | all bands in census | all `codes` are defined | E | not yet | sometimes | NA
 
 
 ## not yet incorporated
