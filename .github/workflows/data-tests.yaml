@@ -43,5 +43,5 @@ jobs:
         with:
           author_name: "github-actions[bot]"
           author_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          message: "Add error report"
+          message: "Add or delete error report"
           github_token: ${{ secrets.GITHUB_TOKEN }}
