@@ -15,13 +15,13 @@ test_that("Month is possible", {
   dendroband_measurements <- dendroband_measurements %>% 
     mutate(month_possible = between(month, 1, 12) & !is.na(month)) 
   
-  # Test if any errors
+  # Test if all months are possible
   all_months_possible <- dendroband_measurements %>% 
     pull(month_possible) %>% 
     all() 
   
   # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports", str_c(Sys.Date(), "_month_possible.csv"))
+  filename <- here("testthat/reports/month_possible.csv")
   
   if(!all_months_possible){
     dendroband_measurements %>% 
