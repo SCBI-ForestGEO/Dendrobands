@@ -1,5 +1,12 @@
 # Note about this repository's use of testthat
 
+## List of tests
+
+A list of tests that are or will be implemented can be found in [`list of tests.md`](list%20of%20tests.md)
+
+
+## Set up instructions
+
 Unlike when you set up testthat so that all tests are run as part of an
 R package R CMD CHECK, we set up `testthat.R` so that it is just another
 R script to be run in a `.github/workflows/*.yml` file:
