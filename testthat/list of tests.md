@@ -12,7 +12,7 @@ band | consistency check | all bands in census | `year` is possible: between 201
 band | consistency check | all bands in census | `year` matches current year | W | not yet | N | ?
 band | consistency check | all bands in census | `month` is possible: 1 ≤ `month` ≤ 12 & is not `NA` | E | 2021 | N | ?
 band | consistency check | all bands in census | `month` matches current month | W | not yet | N | ?
-band | consistency check | all bands in census | `day` is possible: 1 ≤ `day` ≤ 31 | E | not yet | N | ?
+band | consistency check | all bands in census | `day` is possible: 1 ≤ `day` ≤ 31 for Jan, 1 ≤ `day` ≤ 29 for Feb, ..., & is not `NA` | E | 2021 | N | ?
 band | consistency check | all bands in census | `day` matches current day | W | not yet | N | ?
 band | consistency check | all bands in census | `measure` is possible: 0 ≤ `measure` <200 | E | not yet | Y | NA
 band | consistency check | all bands in census | `measure` is reasonable: abs(`measure` - previous `measure`) < 10 (*to start. We'll refine this.*) | E | not yet | Y | NA
