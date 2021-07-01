@@ -4,36 +4,32 @@ library(readr)
 library(stringr)
 library(purrr)
 
-test_that("Month is possible", {
+test_that("Measure is possible", {
   # Load all csv's at once
   dendroband_measurements <- 
     here("data") %>% 
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
     map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double()))
   
-  # Test that status is either "alive" or "dead" & is not NA
+  # Test that measure is valid depending on month and not NA
   dendroband_measurements <- dendroband_measurements %>% 
-    mutate(status_valid = status %in% c("alive", "dead") & !is.na(status)) 
+    mutate(measure_possible = measure <= 200 & !is.na(measure))
   
-  # Test if all months are possible
-  all_status_valid <- dendroband_measurements %>% 
-    pull(status_valid) %>% 
+  # Test if all measures are possible
+  all_measures_possible <- dendroband_measurements %>% 
+    pull(measure_possible) %>% 
     all() 
   
-  # TODO: What do we do with
-  # "considered dead Dec 2011, got measurements 2012, dead 2013+" case?
-  
-  
   # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/status_valid.csv")
+  filename <- here("testthat/reports/measure_possible.csv")
   
-  if(!all_status_valid){
+  if(!all_measures_possible){
     dendroband_measurements %>% 
-      filter(!status_valid) %>% 
+      filter(!measure_possible) %>% 
       write_csv(file = filename)
   } else {
     if(file.exists(filename)) file.remove(filename)
   }
   
-  expect_true(all_status_valid)
+  expect_true(all_measures_possible)
 })

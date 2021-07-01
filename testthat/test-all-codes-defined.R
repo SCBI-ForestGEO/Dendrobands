@@ -4,26 +4,26 @@ library(readr)
 library(stringr)
 library(purrr)
 
-test_that("Month is possible", {
+test_that("All codes defined", {
   # Load all csv's at once
   dendroband_measurements <- 
     here("data") %>% 
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
     map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double()))
   
-  # Load codes from GitHub
+  # Load codes table
   codes <- here("data/metadata/codes_metadata.csv") %>% 
     read_csv() %>% 
     # Delete rows that don't correspond to actual codes
     filter(!is.na(Description))
   
-  
-  
-  # What do comma's and ; mean?
+  # Extract codes
   dendroband_measurements <- dendroband_measurements %>% 
     filter(!is.na(codes)) %>% 
     mutate(
+      # Remove spaces
       codes = str_replace_all(codes, " ", ""),
+      # In cases where there are multiple codes input at once, split by ; or , or :
       codes_list = str_split(string = codes, pattern = regex(";|,|:"))
     )
   
@@ -31,7 +31,7 @@ test_that("Month is possible", {
   dendroband_measurements <- dendroband_measurements %>% 
     select(-codes_list)
   
-  # Test if all months are possible
+  # Test that all codes are defined
   all_codes_defined <- dendroband_measurements %>% 
     pull(code_defined) %>% 
     all() 
@@ -49,7 +49,6 @@ test_that("Month is possible", {
       count(codes) %>% 
       arrange(desc(n)) %>% 
       knitr::kable()
-    
     
   } else {
     if(file.exists(filename)) file.remove(filename)
