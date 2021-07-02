@@ -57,7 +57,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 70493,1,litu,714,2020.12,2020,8,18,19.08,, ,Cameron Dow,Cameron Dow,South,3
 70494,1,caca,714,2020.12,2020,8,18,32.16,, ,Cameron Dow,Cameron Dow,South,3
 70494,2,caca,714,2020.12,2020,8,18,14.68,, ,Cameron Dow,Cameron Dow,South,3
-70495,1,caca,714,2020.12,2020,8,18,NA,,RE,Cameron Dow,Cameron Dow,South,3
+70495,1,caca,714,2020.12,2020,8,18,NA,RE,,Cameron Dow,Cameron Dow,South,3
 70519,1,qual,711,2020.12,2020,8,18,92.65,F, ,Cameron Dow,Cameron Dow,South,3
 70536,1,qual,711,2020.12,2020,8,18,19.7,F, ,Cameron Dow,Cameron Dow,South,3
 70581,1,quru,714,2020.12,2020,8,18,31.54,, ,Cameron Dow,Cameron Dow,South,3
