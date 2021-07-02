@@ -5,17 +5,17 @@
 ######################################################
 
 
-data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
+data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
 
 #subset by the most recent survey and live trees
-data_2019 <- subset(data_2018,survey.ID=="2018.14" & status=="alive")
+data_2021 <- subset(data_2020,survey.ID=="2020.06" & status=="alive")
 
 cols <- c("survey.ID", "year", "month", "day", "measure", "codes", "notes", "status", "field.recorders", "data.enter", "new.band")
 
-data_2019[,cols] <- ""
-data_2019$crown.condition <- NA
-data_2019$crown.illum <- NA
+data_2021[,cols] <- ""
+data_2021$crown.condition <- NA
+data_2021$crown.illum <- NA
 
-write.csv(data_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
+write.csv(data_2021, "data/scbi.dendroAll_2021.csv", row.names=FALSE)
 
 
