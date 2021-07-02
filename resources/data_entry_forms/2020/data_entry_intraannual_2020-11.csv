@@ -36,8 +36,8 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 60563,1,caca,614,2020.11,2020,8,9,20.75,, ,Cameron Dow,Cameron Dow,South,3
 60566,1,fagr,614,2020.11,2020,8,9,105.13,, ,Cameron Dow,Cameron Dow,South,3
 60567,1,litu,614,2020.11,2020,8,9,70.51,, ,Cameron Dow,Cameron Dow,South,3
-60568,1,caca,614,2020.11,2020,8,9,NA,,RE,Cameron Dow,Cameron Dow,South,3
-60569,1,caca,614,2020.11,2020,8,9,NA,,RE,Cameron Dow,Cameron Dow,South,3
+60568,1,caca,614,2020.11,2020,8,9,NA,RE,,Cameron Dow,Cameron Dow,South,3
+60569,1,caca,614,2020.11,2020,8,9,NA,RE,,Cameron Dow,Cameron Dow,South,3
 60571,1,caca,614,2020.11,2020,8,9,23.98,, ,Cameron Dow,Cameron Dow,South,3
 60573,1,tiam,614,2020.11,2020,8,9,37.53,, ,Cameron Dow,Cameron Dow,South,3
 60576,1,caca,615,2020.11,2020,8,9,19.95,, ,Cameron Dow,Cameron Dow,South,3
