@@ -10,8 +10,8 @@
 library(dplyr)
 library(stringr)
 
-current_year <- substr(Sys.Date(), 1, 4)
-previous_year <- current_year %>% 
+new_year <- "2021"
+previous_year <- new_year %>% 
   as.numeric() %>% 
   `-`(1) %>% 
   as.character()
@@ -22,15 +22,15 @@ previous_year_data <-
   read.csv()
 
 # subset by the most recent survey and live trees
-current_year_data <- subset(previous_year_data, survey.ID == max(survey.ID) & status=="alive")
+new_year_data <- subset(previous_year_data, survey.ID == max(survey.ID) & status=="alive")
 
 cols <- c("survey.ID", "year", "month", "day", "measure", "codes", "notes", "status", "field.recorders", "data.enter", "new.band")
 
-current_year_data[,cols] <- ""
-current_year_data$crown.condition <- NA
-current_year_data$crown.illum <- NA
+new_year_data[,cols] <- ""
+new_year_data$crown.condition <- NA
+new_year_data$crown.illum <- NA
 
-str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-  write.csv(x = current_year_data, file = ., row.names=FALSE)
+str_c("data/scbi.dendroAll_", new_year, ".csv") %>% 
+  write.csv(x = new_year_data, file = ., row.names=FALSE)
 
 
