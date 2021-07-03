@@ -30,7 +30,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 171456,1,acru,1714,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,1
 171456,1,acru,1714,2021.01,20201,3,23,9.20,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
 171462,1,qual,1715,2021.01,20201,3,23,35.28,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
-180235,1,litu,1802,2021.01,20201,3,23,48.05,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
+180235,1,litu,1802,2021.01,20201,3,23,48.05,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
 180235,1,litu,1802,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,1
 180654,1,litu,1805,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,1
 180654,1,litu,1805,2021.01,20201,3,23,12.32,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
@@ -45,7 +45,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 180991,1,ploc,1814,2021.01,20201,3,23,17.35,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
 190065,1,litu,1902,2021.01,20201,3,23,142.18,0,,,,band removed,"Bill McShea, Jessica Shue",Jessica Shue,1
 190065,1,litu,1902,2021.01,20201,3,23,10.17,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
-190067,1,litu,1902,2021.01,20201,3,23,38.64,0,,,,double-checked,"Bill McShea, Jessica Shue",Jessica Shue,1
+190067,1,litu,1902,2021.01,20201,3,23,38.64,1,,,,double-checked,"Bill McShea, Jessica Shue",Jessica Shue,1
 190067,1,litu,1902,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,1
 190071,1,litu,1902,2021.01,20201,3,23,17.73,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
 190115,1,litu,1902,2021.01,20201,3,23,119.78,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
@@ -98,7 +98,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 60266,1,cato,604,2021.01,20201,3,23,12.86,0,,,,double-checked,"Bill McShea, Jessica Shue",Jessica Shue,2
 70096,1,quru,704,2021.01,20201,3,23,28.61,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 70126,1,quru,705,2021.01,20201,3,23,96.51,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
-70146,1,quve,706,2021.01,20201,3,24,11.05,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
+70146,1,quve,706,2021.01,20201,3,24,11.05,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 70146,1,quve,706,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,2
 70181,1,litu,707,2021.01,20201,3,23,96.35,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 70278,1,qupr,704,2021.01,20201,3,23,50.24,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
@@ -167,7 +167,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 111030,1,litu,1107,2021.01,20201,3,23,94.51,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 111032,1,litu,1107,2021.01,20201,3,23,56.81,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 111032,2,litu,1107,2021.01,20201,3,23,53.21,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
-111039,1,litu,1108,2021.01,20201,3,24,16.51,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
+111039,1,litu,1108,2021.01,20201,3,24,16.51,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 111039,1,litu,1108,2021.01,20201,3,24,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,2
 111041,1,quru,1108,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,2
 111041,1,quru,1108,2021.01,20201,3,23,12.50,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
@@ -311,7 +311,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 12508,1,litu,131,2021.01,20201,3,23,34.13,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,4
 22004,1,litu,217,2021.01,20201,3,23,41.44,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,4
 22041,1,litu,217,2021.01,20201,3,23,54.95,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,4
-22170,1,litu,221,2021.01,20201,3,24,37.95,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,4
+22170,1,litu,221,2021.01,20201,3,24,37.95,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,4
 22170,1,litu,221,2021.01,20201,3,24,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,4
 22315,1,caco,225,2021.01,20201,3,23,9.71,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,4
 22333,1,fram,226,2021.01,20201,3,23,42.32,0,,,DS,,"Bill McShea, Jessica Shue",Jessica Shue,4
@@ -395,7 +395,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 112252,1,litu,1122,2021.01,20201,3,23,94.58,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 112262,1,quru,1123,2021.01,20201,3,23,54.60,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 121358,1,fram,1216,2021.01,20201,3,23,NA,0,,,DS,only one band,"Bill McShea, Jessica Shue",Jessica Shue,5
-121358,1,fram,1216,2021.01,20201,3,23,6.51,0,,,DS,,"Bill McShea, Jessica Shue",Jessica Shue,5
+121358,1,fram,1216,2021.01,20201,3,23,6.51,1,,,DS,,"Bill McShea, Jessica Shue",Jessica Shue,5
 121367,1,nysy,1216,2021.01,20201,3,23,72.28,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 121374,1,juni,1216,2021.01,20201,3,23,94.76,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 122005,1,fram,1217,2021.01,20201,3,23,102.82,0,,,DS,,"Bill McShea, Jessica Shue",Jessica Shue,5
@@ -418,7 +418,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 132077,1,qual,1319,2021.01,20201,3,23,78.38,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 132171,1,litu,1320,2021.01,20201,3,23,67.63,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 132280,1,fram,1324,2021.01,20201,3,24,15.13,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
-132302,1,quru,1321,2021.01,20201,3,23,32.58,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
+132302,1,quru,1321,2021.01,20201,3,23,32.58,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
 132302,1,quru,1321,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,5
 132311,1,qual,1322,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,5
 132311,1,qual,1322,2021.01,20201,3,23,10.37,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,5
@@ -553,7 +553,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 112467,1,litu,1129,2021.01,20201,3,24,85.45,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
 112480,1,litu,1131,2021.01,20201,3,24,80.76,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
 112481,1,litu,1131,2021.01,20201,3,24,72.57,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
-112482,1,litu,1131,2021.01,20201,3,24,10.72,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
+112482,1,litu,1131,2021.01,20201,3,24,10.72,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
 112482,1,litu,1131,2021.01,20201,3,24,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,8
 112698,1,ulru,1128,2021.01,20201,3,24,33.23,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
 122343,1,qual,1225,2021.01,20201,3,24,119.49,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
@@ -577,7 +577,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 132524,1,litu,1329,2021.01,20201,3,24,NA,0,,,DC,pinned by 132525,"Bill McShea, Jessica Shue",Jessica Shue,8
 132525,1,fram,1329,2021.01,20201,3,24,NA,0,,,DC,,"Bill McShea, Jessica Shue",Jessica Shue,8
 132529,1,litu,1329,2021.01,20201,3,24,138.88,0,,,,band removed,"Bill McShea, Jessica Shue",Jessica Shue,8
-132529,1,litu,1329,2021.01,20201,3,24,25.24,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
+132529,1,litu,1329,2021.01,20201,3,24,25.24,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
 132539,1,litu,1331,2021.01,20201,3,24,39.52,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
 132542,1,quve,1332,2021.01,20201,3,24,132.88,0,,,,band removed,"Bill McShea, Jessica Shue",Jessica Shue,8
 132542,1,quve,1332,2021.01,20201,3,24,11.18,1,,,,,"Bill McShea, Jessica Shue",Jessica Shue,8
