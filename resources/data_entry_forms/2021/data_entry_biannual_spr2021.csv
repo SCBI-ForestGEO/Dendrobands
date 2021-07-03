@@ -126,7 +126,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 90084,1,quve,902,2021.01,20201,3,23,71.56,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 90162,1,litu,904,2021.01,20201,3,23,97.90,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
 90311,1,cagl,904,2021.01,20201,3,23,18.80,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,2
-90354,1,litu,905,2021.01,20201,3,23,NA,0,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,2
+90354,1,litu,905,2021.01,20201,3,23,NA,0,,,I,only one band,"Bill McShea, Jessica Shue",Jessica Shue,2
 90354,1,litu,905,2021.01,20201,3,23,12.71,1,,,I,,"Bill McShea, Jessica Shue",Jessica Shue,2
 90530,1,litu,910,2021.01,20201,3,23,144.18,0,,,I,,"Bill McShea, Jessica Shue",Jessica Shue,2
 90530,1,litu,910,2021.01,20201,3,23,12.43,1,,,I,adjusted,"Bill McShea, Jessica Shue",Jessica Shue,2
