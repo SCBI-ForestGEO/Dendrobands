@@ -16,8 +16,7 @@ band | consistency check | all bands in census | `day` is possible: 1 ≤ `day` 
 band | consistency check | all bands in census | `day` matches current day | W | not yet | N | ?
 band | consistency check | all bands in census | `measure` is possible: 0 ≤ `measure` <200 & is not `NA` | E | 2021 | Y | NA
 band | consistency check | all bands in census | `measure` is reasonable: abs(`measure` - previous `measure`) < 10 (*to start. We'll refine this.*) | E | not yet | Y | NA
-band | consistency check | all bands in census | if `measure` < 3, `codes` includes "RE" | W | not yet | N | add "RE" to codes
-band | consistency check | all bands in census | if `measure` > (**near limit of calipers**), `codes` includes "RE" | W | not yet | N | add "RE" to codes
+band | consistency check | all bands in census | if `measure` is not between 3 & **near limit of calipers**, `codes` includes "RE" | W | 2021 | N | add "RE" to 
 band | consistency check | all bands in census | all `codes` are defined, separated with `;` or `,` or `:` | E | 2021 | sometimes | NA
 
 
