@@ -18,7 +18,7 @@ test_that("Warning that dendroband needs replacing or fixing", {
   # Create variable that tests if each row passes condition
   dendroband_measurements <- dendroband_measurements %>% 
     mutate(
-      band_needs_replacing = !between(measure, min_caliper_width, max_caliper_width) & codes != "RE"
+      band_needs_replacing = !between(measure, min_caliper_width, max_caliper_width)
     )
   
   # Create error/warning flag
@@ -32,10 +32,11 @@ test_that("Warning that dendroband needs replacing or fixing", {
   if(!report_flag){
     dendroband_measurements %>% 
       filter(band_needs_replacing) %>% 
+      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure, codes) %>%
       write_csv(file = filename)
     
-    # TODO: Write RE code for those stems that need RE
-    
+    # TODO: Write code that appends "RE" to codes for those stems that
+    # need new bands installed
   } else {
     if(file.exists(filename)) file.remove(filename)
   }

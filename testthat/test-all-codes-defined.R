@@ -42,13 +42,8 @@ test_that("All codes defined", {
   if(!all_codes_defined){
     dendroband_measurements %>% 
       filter(!code_defined) %>% 
+      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, codes) %>%
       write_csv(file = filename)
-    
-    dendroband_measurements %>% 
-      filter(!code_defined) %>% 
-      count(codes) %>% 
-      arrange(desc(n)) %>% 
-      knitr::kable()
     
   } else {
     if(file.exists(filename)) file.remove(filename)

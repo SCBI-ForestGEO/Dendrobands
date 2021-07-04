@@ -22,8 +22,8 @@ test_that("Measure is reasonable", {
     arrange(tag, stemtag, date) %>% 
     group_by(tag, stemtag) %>% 
     mutate(
-      diff_from_previous = measure - lag(measure),
-      measure_is_reasonable = abs(diff_from_previous) < threshold | new.band != 0,
+      diff_from_previous_measure = measure - lag(measure),
+      measure_is_reasonable = abs(diff_from_previous_measure) < threshold | new.band != 0,
       # measure_is_reasonable = ifelse(!lead(measure_is_reasonable), FALSE, measure_is_reasonable)
     ) 
   
@@ -39,6 +39,7 @@ test_that("Measure is reasonable", {
   if(!report_flag){
     dendroband_measurements %>% 
       filter(!measure_is_reasonable) %>% 
+      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure, new.band, diff_from_previous_measure) %>%
       write_csv(file = filename)
   } else {
     if(file.exists(filename)) file.remove(filename)

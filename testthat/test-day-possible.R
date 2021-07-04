@@ -43,6 +43,7 @@ test_that("Day is possible", {
   if(!all_days_possible){
     dendroband_measurements %>% 
       filter(!day_possible) %>% 
+      select(tag, stemtag, survey.ID, year, month, day) %>%
       write_csv(file = filename)
   } else {
     if(file.exists(filename)) file.remove(filename)

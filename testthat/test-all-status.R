@@ -26,6 +26,7 @@ test_that("All status", {
   if(!all_status_valid){
     dendroband_measurements %>% 
       filter(!status_valid) %>% 
+      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, status) %>%
       write_csv(file = filename)
   } else {
     if(file.exists(filename)) file.remove(filename)

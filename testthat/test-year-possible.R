@@ -28,6 +28,7 @@ test_that("Year is possible", {
     
     dendroband_measurements %>% 
       filter(!year_valid) %>% 
+      select(tag, stemtag, survey.ID, year, month, day) %>%
       write_csv(file = filename)
   }
   

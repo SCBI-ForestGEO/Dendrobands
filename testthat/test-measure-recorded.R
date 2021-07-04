@@ -26,6 +26,7 @@ test_that("All measures recorded", {
   if(!report_flag){
     dendroband_measurements %>% 
       filter(!missing_RE_code) %>% 
+      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure, codes) %>%
       write_csv(file = filename)
   } else {
     if(file.exists(filename)) file.remove(filename)

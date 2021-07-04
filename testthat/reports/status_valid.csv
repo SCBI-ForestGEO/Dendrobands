@@ -1,3 +1,3 @@
-tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID,status_valid
-121298,1,2012.01,2012,3,15,1,0,nysy,1211,2.6,1,24.59,NA,NA,"considered dead Dec 2011, got measurements 2012, dead 2013+",Caroline Johnson,CJ/LC/BB,16393,16393,NA,575.1,0,348,2,NA,1.3,2,3,NA,NA,FALSE
-121298,1,2012.18,2012,11,29,1,0,nysy,1211,2.6,1,26.37,NA,NA,"considered dead Dec 2011, got measurements 2012, dead 2013+",Erika Gonzalez,EG/CH,16393,16393,NA,575.1,0,348,2,NA,1.3,NA,NA,NA,NA,FALSE
+tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,status
+121298,1,2012.01,2012,3,15,1,0,nysy,1211,"considered dead Dec 2011, got measurements 2012, dead 2013+"
+121298,1,2012.18,2012,11,29,1,0,nysy,1211,"considered dead Dec 2011, got measurements 2012, dead 2013+"

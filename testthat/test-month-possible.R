@@ -26,6 +26,7 @@ test_that("Month is possible", {
   if(!all_months_possible){
     dendroband_measurements %>% 
       filter(!month_possible) %>% 
+      select(tag, stemtag, survey.ID, year, month, day) %>%
       write_csv(file = filename)
   } else {
     if(file.exists(filename)) file.remove(filename)
