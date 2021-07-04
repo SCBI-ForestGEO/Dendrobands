@@ -1,0 +1,142 @@
+tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID,missing_RE_code
+200038,2,2010.01,2010,1,27,1,0,litu,2001,3.6,9.6,NA,S,"stem not assigned dendroID in 2010, but had one from 2011+. For consistency, that dendroID is copied here (also because it fits the numerical order of the other dendroIDs from 2010).",alive,Xioli Shen,XS/LS/AP/SS,36227,29145,NA,819.5,1,238,2,NA,NA,NA,5,NA,NA,FALSE
+40875,1,2011.21,2011,11,1,1,1,qual,412,14.4,14.4,NA,D,Dead 11/1,dead,Caroline/Lorien/Leah,Caroline/Lorien/Leah,5341,5341,NA,866.2,0,32,2,NA,1.28,NA,NA,NA,NA,FALSE
+40875,1,2011.22,2011,11,17,1,1,qual,412,14.4,14.4,NA,D,NA,dead,John/Lulu/Leah,John/Lulu/Leah,5341,5341,NA,866.2,0,32,2,NA,1.28,NA,NA,NA,NA,FALSE
+42270,1,2011.13,2011,7,25,1,1,quru,424,12.3,18.6,NA,D,DEAD,dead,Lorien,Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.14,2011,8,1,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Lorien,Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.15,2011,8,8,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Lorien,Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.16,2011,8,22,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Lorien,Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.17,2011,9,6,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.18,2011,9,19,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.2,2011,10,16,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.21,2011,11,1,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Caroline/Lorien/Leah,Caroline/Lorien/Leah,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+42270,1,2011.22,2011,11,17,1,1,quru,424,12.3,18.6,NA,D,NA,dead,John/Lulu/Leah,John/Lulu/Leah,5755,5755,NA,813.2,0,36,2,NA,1.24,NA,NA,NA,NA,FALSE
+60414,1,2011.19,2011,10,5,1,1,quru,611,4.2,0,NA,D,DEAD,dead,Caroline/John/V,Caroline/John/V,7401,7401,NA,912,0,46,2,NA,1.4,NA,NA,NA,NA,FALSE
+60414,1,2011.2,2011,10,16,1,1,quru,611,4.2,0,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,7401,7401,NA,912,0,46,2,NA,1.4,NA,NA,NA,NA,FALSE
+60414,1,2011.21,2011,11,1,1,1,quru,611,4.2,0,NA,D,NA,dead,Caroline/Lorien/Leah,Caroline/Lorien/Leah,7401,7401,NA,912,0,46,2,NA,1.4,NA,NA,NA,NA,FALSE
+60414,1,2011.22,2011,11,17,1,1,quru,611,4.2,0,NA,D,NA,dead,John/Lulu/Leah,John/Lulu/Leah,7401,7401,NA,912,0,46,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.04,2011,5,16,1,1,qual,730,4.8,9.9,NA,D,DEAD,dead,TB,TB,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.05,2011,5,24,1,1,qual,730,4.8,9.9,NA,D,NA,dead,JM/SM,JM/SM,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.06,2011,6,6,1,1,qual,730,4.8,9.9,NA,D,NA,dead,LL/KS,LL/KS,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.07,2011,6,13,1,1,qual,730,4.8,9.9,NA,D,NA,dead,LL/MC,LL/MC,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.08,2011,6,20,1,1,qual,730,4.8,9.9,NA,D,NA,dead,NA,NA,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.09,2011,6,27,1,1,qual,730,4.8,9.9,NA,D,NA,dead,NA,NA,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.1,2011,7,5,1,1,qual,730,4.8,9.9,NA,D,NA,dead,MC/LL,MC/LL,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.11,2011,7,11,1,1,qual,730,4.8,9.9,NA,D,NA,dead,TK/Mike C.,TK/Mike C.,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.12,2011,7,18,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Mike/Lorien,Mike/Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.13,2011,7,25,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Lorien,Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.14,2011,8,1,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Lorien,Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.15,2011,8,8,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Lorien,Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.16,2011,8,22,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Lorien,Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.17,2011,9,6,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.18,2011,9,19,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.19,2011,10,5,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Caroline/John/V,Caroline/John/V,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.2,2011,10,16,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.21,2011,11,1,1,1,qual,730,4.8,9.9,NA,D,NA,dead,Caroline/Lorien/Leah,Caroline/Lorien/Leah,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72408,1,2011.22,2011,11,17,1,1,qual,730,4.8,9.9,NA,D,NA,dead,John/Lulu/Leah,John/Lulu/Leah,9047,9047,NA,949.1,0,87,2,NA,1.4,NA,NA,NA,NA,FALSE
+72452,1,2011.23,2011,12,15,1,0,quve,732,16.4,11.8,NA,D,NA,dead,Jennifer McGarvey,Jennifer McGarvey,9090,9090,NA,532,0,91,2,NA,1.33,1,3,NA,NA,FALSE
+90446,1,2011.23,2011,12,15,1,0,ulru,905,19.5,0.5,NA,D,dead,dead,Jennifer McGarvey,Jennifer McGarvey,10695,10695,NA,102.6,0,250,2,NA,1.3,3,4,NA,NA,FALSE
+92234,1,2011.06,2011,6,6,1,1,qual,922,20.1,19.1,NA,D,NA,dead,LL/KS,LL/KS,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.08,2011,6,20,1,1,qual,922,20.1,19.1,NA,D,DEAD,dead,NA,NA,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.09,2011,6,27,1,1,qual,922,20.1,19.1,NA,D,NA,dead,NA,NA,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.1,2011,7,5,1,1,qual,922,20.1,19.1,NA,D,NA,dead,MC/LL,MC/LL,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.11,2011,7,11,1,1,qual,922,20.1,19.1,NA,D,NA,dead,TK/Mike C.,TK/Mike C.,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.12,2011,7,18,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Mike/Lorien,Mike/Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.13,2011,7,25,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Lorien,Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.14,2011,8,1,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Lorien,Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.15,2011,8,8,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Lorien,Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.16,2011,8,22,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Lorien,Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.17,2011,9,6,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.18,2011,9,19,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.19,2011,10,5,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Caroline/John/V,Caroline/John/V,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.2,2011,10,16,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Caroline/Lorien,Caroline/Lorien,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.21,2011,11,1,1,1,qual,922,20.1,19.1,NA,D,NA,dead,Caroline/Lorien/Leah,Caroline/Lorien/Leah,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+92234,1,2011.22,2011,11,17,1,1,qual,922,20.1,19.1,NA,D,NA,dead,John/Lulu/Leah,John/Lulu/Leah,11394,11394,NA,193.1,0,265,2,NA,1.34,NA,NA,NA,NA,FALSE
+102505,1,2011.23,2011,12,15,1,0,ceca,1032,1.3,0.6,NA,D,"considered dead in all 2011, got measurements in 2012, then no measurements 2013+",dead,Jennifer McGarvey,Jennifer McGarvey,13441,13441,NA,60,0,306,2,NA,1.3,4,2,NA,NA,FALSE
+121274,1,2011.23,2011,12,15,1,0,cato,1209,2.1,12.9,NA,D,"Not found, possibly dead (Jan 2012)",dead,Jennifer McGarvey,Jennifer McGarvey,16369,16369,NA,294,0,346,2,NA,1.3,1,0,NA,NA,FALSE
+190834,1,2011.23,2011,12,15,1,0,quve,1916,19.1,14,NA,D,Dead Dec 2011,dead,Jennifer McGarvey,Jennifer McGarvey,28374,28374,NA,261,0,429,2,NA,1.3,1,3,NA,NA,FALSE
+200038,2,2011.01,2011,1,15,1,0,litu,2001,3.6,9.6,NA,S,NA,alive,Jenny McGarvey,JM/LL/CK/LB,36227,29145,NA,815,0,238,2,NA,1.35,NA,NA,NA,NA,FALSE
+201207,1,2011.01,2011,1,15,1,0,litu,2011,10,17.3,NA,I,"Found band on ground, 
+nailed it approx. at level orig. measured-need new springs.",alive,Jenny McGarvey,JM/LL/CK/LB,30211,30211,NA,1279.8,0,241,2,NA,1.38,NA,NA,NA,NA,FALSE
+201208,1,2011.01,2011,1,15,1,0,fram,2011,19.2,10,NA,B;L,need new band.,alive,Jenny McGarvey,JM/LL/CK/LB,30212,30212,NA,959.6,0,242,2,NA,1.4,NA,NA,NA,NA,FALSE
+201261,1,2011.01,2011,3,24,1,0,juni,2013,0.3,17.3,NA,I;Q,NA,alive,Jenny McGarvey,JM/LL/CK/LB,30255,30255,465,454.1,1,510,2,NA,1.3,NA,NA,NA,NA,FALSE
+42270,1,2012.01,2012,3,15,1,1,quru,424,12.3,18.6,NA,D,NA,dead,Caroline Johnson,CJ/LC/BB,5755,5755,NA,813.2,0,36,2,NA,1.3,3,4,NA,NA,FALSE
+60414,1,2012.01,2012,3,15,1,1,quru,611,4.2,0,NA,D,NA,dead,Caroline Johnson,CJ/LC/BB,7401,7401,NA,912,0,46,2,NA,1.4,2,4,NA,NA,FALSE
+121274,1,2012.01,2012,3,15,1,0,cato,1209,2.1,12.9,NA,D,NA,dead,Caroline Johnson,CJ/LC/BB,16369,16369,NA,294,0,346,2,NA,1.3,1,0,NA,NA,FALSE
+182248,1,2012.01,2012,3,15,1,0,nysy,1820,0.2,1.2,NA,B;L;D,comes back alive in 2013,dead,Caroline Johnson,CJ/LC/BB,27159,27159,NA,44.3,0,413,2,NA,1.3,0,0,NA,NA,FALSE
+200038,1,2012.01,2012,3,15,1,0,litu,2001,3.6,9.6,NA,M; main,NA,alive,Caroline Johnson,CJ/LC/BB,29145,29145,NA,914.2,0,453,2,NA,1.3,NA,3,NA,NA,FALSE
+201252,1,2012.01,2012,3,15,1,0,caco,2013,0.3,13.7,NA,G;D,NA,dead,Caroline Johnson,CJ/LC/BB,30247,30247,NA,442.3,1,539,2,NA,1.3,3,3,NA,NA,FALSE
+90413,3,2013.01,2013,3,19,1,0,litu,904,11.7,17.2,NA,"B,M","band was removed, around multiple stems. Replaced by 30339",dead,Erika Gonzalez,Mike Belovitch,36586,221,NA,1263,0,248,2,NA,1.3,NA,3,NA,NA,FALSE
+100720,2,2013.01,2013,3,19,1,0,litu,1004,1.7,12,NA,M,"band removed, around multiple stems; replaced by 110680",dead,Erika Gonzalez,Mike Belovitch,33734,12372,NA,388.6,0,127,2,NA,1.3,NA,4,NA,NA,FALSE
+101082,1,2013.01,2013,3,19,1,0,litu,1009,0,0.7,NA,M,"band removed. Was around multiple stems, not replaced due to irregular trunk",dead,Erika Gonzalez,Mike Belovitch,12702,12702,NA,798.9,0,279,2,NA,1.3,NA,4,NA,NA,FALSE
+102505,1,2013.01,2013,3,19,1,0,ceca,1032,1.3,0.6,NA,D,"considered dead in all 2011, got measurements in 2012, then no measurements 2013+",dead,Erika Gonzalez,Mike Belovitch,13441,13441,NA,56.5,0,306,2,NA,1.3,4,2,NA,NA,FALSE
+102505,1,2013.16,2013,10,29,1,0,ceca,1032,1.3,0.6,NA,D,"considered dead in all 2011, got measurements in 2012, considered dead 2013 and spr 2014, measurement/alive fall 2014, then dead from 2015+",dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",13441,13441,NA,56.5,0,306,2,NA,1.3,NA,NA,NA,NA,FALSE
+121298,1,2013.01,2013,3,19,1,0,nysy,1211,2.6,1,NA,D,Dead. Band removed,dead,Erika Gonzalez,Mike Belovitch,16393,16393,576,575.1,0,348,2,NA,1.3,2,3,NA,NA,FALSE
+121298,1,2013.16,2013,10,29,1,0,nysy,1211,2.6,1,NA,D,DEAD,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",16393,16393,NA,575.1,0,348,2,NA,1.3,NA,NA,NA,NA,FALSE
+122130,1,2013.01,2013,3,19,1,1,qual,1219,10.7,17.3,NA,D,NA,dead,Erika Gonzalez,Mike Belovitch,16660,16660,NA,639.1,0,356,2,NA,1.3,4,4,NA,NA,FALSE
+122130,1,2013.16,2013,10,29,1,1,qual,1219,10.7,17.3,NA,D,DEAD,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",16660,16660,NA,639.1,0,356,2,NA,1.3,NA,NA,NA,NA,FALSE
+122563,2,2013.01,2013,3,19,1,0,quve,1232,1.6,3.7,NA,M,band removed. Was around multiple stems. Not replaced,dead,Erika Gonzalez,Mike Belovitch,34435,16985,NA,484.3,0,370,2,NA,1.3,NA,4,NA,NA,FALSE
+180988,3,2013.01,2013,3,19,1,0,acru,1813,3.3,19.5,NA,M,band removed. Was around multiple stems. Replaced by 171456,dead,Erika Gonzalez,Mike Belovitch,38155,26777,NA,176.7,0,228,2,NA,1.3,NA,4,NA,NA,FALSE
+201208,1,2013.01,2013,3,19,1,0,fram,2011,19.2,10,NA,B;L,NA,dead,Erika Gonzalez,Mike Belovitch,30212,30212,NA,959.6,0,242,2,NA,1.4,1,4,NA,NA,FALSE
+201208,1,2013.16,2013,10,29,1,0,fram,2011,19.2,10,NA,D,DEAD,dead,"Erika, Mike, Amy, Greg","Erika, Mike, Amy, Greg",30212,30212,NA,959.6,0,242,2,NA,1.4,NA,NA,NA,NA,FALSE
+12259,1,2014.14,2014,10,27,1,0,litu,125,16.3,1.5,NA,I,band destroyed by bear,alive,Justin Cooper,Maryam Sedaghatpour,1934,1934,NA,1018.799988,0,592,2,NA,1.23,NA,NA,NA,NA,FALSE
+80491,1,2014.01,2014,3,24,1,0,quru,809,5.2,17.7,NA,D,Missing band,alive,Erika Gonzalez,Valentine Herrmann,9567,9567,NA,1386.099976,0,97,2,NA,1.25,4,4,NA,NA,FALSE
+80491,1,2014.14,2014,10,27,1,0,quru,809,5.2,17.7,NA,D,missing band,dead,Valentine Herrmann,Maryam Sedaghatpour,9567,9567,NA,1386.099976,0,97,2,NA,1.25,NA,NA,NA,NA,FALSE
+90413,3,2014.01,2014,3,27,1,0,litu,904,11.7,17.2,NA,"B,S",Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,36586,221,NA,267.7999878,0,248,2,NA,1.3,NA,3,NA,NA,FALSE
+90413,3,2014.14,2014,10,27,1,0,litu,904,11.7,17.2,NA,"B,S",Band removed in 2013,alive,Justin Cooper,Maryam Sedaghatpour,36586,221,NA,267.7999878,0,248,2,NA,1.3,NA,NA,NA,NA,FALSE
+100720,2,2014.01,2014,3,27,1,0,litu,1004,1.7,12,NA,S,Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,33734,12372,NA,323.7999878,0,127,2,NA,1.3,NA,4,NA,NA,FALSE
+100720,2,2014.14,2014,10,27,1,0,litu,1004,1.7,12,NA,S,Band removed in 2013,alive,Justin Cooper,Maryam Sedaghatpour,33734,12372,NA,323.7999878,0,127,2,NA,1.3,NA,NA,NA,NA,FALSE
+101082,1,2014.01,2014,3,27,1,0,litu,1009,0,0.7,NA,M,Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,12702,12702,NA,814.0999756,0,279,2,NA,1.3,NA,4,NA,NA,FALSE
+101082,1,2014.14,2014,10,27,1,0,litu,1009,0,0.7,NA,M,Band removed in 2013,alive,Justin Cooper,Maryam Sedaghatpour,12702,12702,NA,814.0999756,0,279,2,NA,1.3,NA,NA,NA,NA,FALSE
+102505,1,2014.01,2014,3,24,1,0,ceca,1032,1.3,0.6,NA,D,Band present. DEAD,dead,Erika Gonzalez,Valentine Herrmann,13441,13441,NA,61.29999924,0,306,2,NA,1.3,4,2,NA,NA,FALSE
+122563,2,2014.01,2014,3,27,1,0,quve,1232,1.6,3.7,NA,S,Band removed in 2013,alive,Erika Gonzalez,Valentine Herrmann,34435,16985,NA,490.1000061,0,370,2,NA,1.3,NA,4,NA,NA,FALSE
+122563,2,2014.14,2014,10,27,1,0,quve,1232,1.6,3.7,NA,S,Band removed in 2013,alive,Justin Cooper,Maryam Sedaghatpour,34435,16985,NA,490.1000061,0,370,2,NA,1.3,NA,NA,NA,NA,FALSE
+171127,1,2014.14,2014,10,27,1,0,litu,1705,9.3,1.8,NA,I,band on ground; needs replacement,alive,Erika Gonzalez,Maryam Sedaghatpour,24962,24962,NA,737.2000122,0,376,2,NA,1.3,NA,NA,NA,NA,FALSE
+182376,1,2014.01,2014,3,27,1,0,ploc,1823,2.9,12.6,NA,L,Missing band,alive,Erika Gonzalez,Valentine Herrmann,27286,27286,NA,608.5,0,414,2,NA,1.3,4,4,NA,NA,FALSE
+182376,1,2014.14,2014,10,27,1,0,ploc,1823,2.9,12.6,NA,L,missing band,alive,Amy Lewis,Maryam Sedaghatpour,27286,27286,NA,608.5,0,414,2,NA,1.3,NA,NA,NA,NA,FALSE
+201207,1,2014.14,2014,10,27,1,0,litu,2012,10,17.3,NA,I,broken. band removed,alive,Erika Gonzalez,Maryam Sedaghatpour,30211,30211,NA,1310.5,0,538,2,NA,1.35,NA,NA,NA,NA,FALSE
+92269,1,2015.01,2015,3,26,1,0,ceca,923,19.75,1.65,NA,C,"did not visit tree, C means dead above, needs to be visited in november",alive,Kent Harlow,Kent Harlow,11428,11428,NA,0,0,268,2,NA,1.3,4,1,NA,NA,FALSE
+102505,1,2015.01,2015,3,26,1,0,ceca,1032,1.28,0.63,NA,D,Dead,dead,Kent Harlow,Kent Harlow,13441,13441,NA,61.29999924,0,306,2,NA,1.3,4,2,NA,NA,FALSE
+131238,1,2015.01,2015,3,24,1,0,caco,1314,13.6,7.5,NA,D,"dead, band shrunk, unable to measure",dead,Kent Harlow,Kent Harlow,18163,18163,453,460.2000122,0,155,2,NA,1.51,3,3,NA,NA,FALSE
+171127,1,2015.01,2015,3,24,1,0,litu,1705,9.3,1.8,NA,I,"No band, band will be install in March",alive,Kent Harlow,Kent Harlow,24962,24962,NA,737.2000122,0,376,2,NA,1.3,3,4,NA,NA,FALSE
+171247,1,2015.01,2015,3,24,1,0,saal,1707,15.4,15.9,NA,Q;D,"dead, bark off",dead,Kent Harlow,Kent Harlow,25073,25073,NA,456.1000061,0,377,2,NA,1.3,2,3,NA,NA,FALSE
+172365,1,2015.01,2015,3,28,1,0,ulru,1722,19.1,17.6,NA,DS,Dead,dead,Kent Harlow,Kent Harlow,25659,25659,NA,0,0,392,2,NA,1.3,1,3,NA,NA,FALSE
+172372,1,2015.01,2015,3,28,1,0,ulru,1723,15.4,5.6,NA,DS,Dead,dead,Kent Harlow,Kent Harlow,25665,25665,NA,0,0,393,2,NA,1.3,3,4,NA,NA,FALSE
+200613,1,2015.01,2015,3,24,1,0,litu,2004,10.1,16.2,NA,I,band broken. Need new band,alive,Kent Harlow,Kent Harlow,29668,29668,NA,851.5999756,0,239,2,NA,1.15,3,4,NA,NA,FALSE
+201263,1,2015.01,2015,3,24,1,0,ulru,2013,4.6,19.1,NA,DS;B,Dead,dead,Kent Harlow,Kent Harlow,30257,30257,NA,0,0,530,2,NA,1.2,NA,NA,NA,NA,FALSE
+202584,1,2015.01,2015,3,28,1,0,fram,2031,2.7,19.3,NA,DS,Dead,dead,Kent Harlow,Kent Harlow,30940,30940,NA,0,0,488,2,NA,1.35,1,2,NA,NA,FALSE
+132302,1,2016.01,2016,4,5,1,0,quru,1321,13.02,14.4,NA,I,"Measured window with tape, needs larger band; wrong measurement in the field",alive,"Tori Meakem, Kate Aldrich",Thomas Blair,18624,18624,911,907.9000244,0,537,2,NA,1.31,4,4,NA,NA,FALSE
+30365,1,2018.14,2018,11,8,1,0,fram,308,19.6,1.8,NA,DS,NA,dead,"Abigail Ferson, Caroline Kittle",Ian McGregor,3998,3998,NA,992,0,799,2,NA,1.3,3,5,NA,NA,FALSE
+32084,1,2018.14,2018,11,8,1,0,litu,319,6.5,11.5,NA,DC,NA,dead,"Abigail Ferson, Caroline Kittle",Ian McGregor,4313,4313,NA,1139.1,0,25,2,NA,1.3,NA,NA,NA,NA,FALSE
+90533,1,2018.01,2018,3,9,1,0,cagl,911,18.2,2.1,NA,M;main,dead,dead,Michael Scott,Ryan Helcoski,10779,10779,NA,492.1,0,252,2,NA,1.3,NA,NA,NA,NA,FALSE
+90533,1,2018.14,2018,11,8,1,0,cagl,911,18.2,2.1,NA,M;main,dead,dead,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,10779,10779,NA,492.1,0,252,2,NA,1.3,NA,NA,NA,NA,FALSE
+92006,1,2018.14,2018,11,8,1,0,fram,917,6.3,1.4,NA,DS,NA,dead,"Alyssa Terrell, Amanda Jean Seglem",Ian McGregor,11172,11172,NA,544.2,0,260,2,NA,1.3,2,4,NA,NA,FALSE
+112485,1,2018.14,2018,11,8,1,0,quve,1132,19.6,6.2,NA,DC,NA,dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,15192,15192,NA,665.6,0,339,2,NA,1.3,NA,NA,NA,NA,FALSE
+132512,1,2018.14,2018,11,8,1,0,juni,1328,11.2,18.4,NA,DC,NA,dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,18805,18805,NA,535.1,0,168,2,NA,1.32,NA,NA,NA,NA,FALSE
+172154,1,2018.14,2018,11,8,1,0,fram,1723,9.6,1.6,NA,DS,NA,dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,25460,25460,NA,894,0,224,2,NA,1.45,4,5,NA,NA,FALSE
+172260,1,2018.14,2018,11,8,1,0,qupr,1720,19.4,5.1,NA,DS,NA,dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,25559,25559,NA,660,0,391,2,NA,1.3,4,5,NA,NA,FALSE
+172587,1,2018.14,2018,11,8,1,0,fram,1731,10.4,15.4,NA,DS,NA,dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,25867,25867,NA,435.5,0,402,2,NA,1.25,4,4,NA,NA,FALSE
+172626,1,2018.14,2018,11,8,1,0,fram,1731,12.5,15.7,NA,DS,NA,dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,25902,25902,NA,490,0,619,2,NA,1.3,4,5,NA,NA,FALSE
+202971,1,2018.14,2018,11,8,1,0,fram,2032,5.6,10.2,NA,DS,"check status, looks unhealthy",dead,"Michael Scott, Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,31191,31191,NA,455,0,829,2,NA,1.35,4,4,NA,NA,FALSE
+80398,1,2019.01,2019,3,25,1,0,caco,807,1.8,19.6,NA,DC;F,"dead, fallen, not removed because crushed",dead,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,9474,9474,NA,193.4,0,95,2,NA,1.29,NA,NA,NA,NA,FALSE
+80398,1,2019.15,2019,11,6,1,0,caco,807,1.8,19.6,NA,DC;F,NA,dead,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,9474,9474,NA,193.4,0,95,2,NA,1.29,NA,NA,NA,NA,FALSE
+91435,1,2019.01,2019,3,25,1,0,litu,907,13.6,12.2,NA,DS;F,"dead, band removed",dead,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,11102,11102,NA,228.5,0,514,2,NA,1.3,NA,NA,NA,NA,FALSE
+91435,1,2019.15,2019,11,6,1,0,litu,907,13.6,12.2,NA,DS;F,NA,dead,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,11102,11102,NA,228.5,0,514,2,NA,1.3,NA,NA,NA,NA,FALSE
+140756,1,2019.15,2019,11,6,1,0,quve,1408,1.3,6.2,NA,DS;F,NA,dead,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,19547,19547,NA,707.2,0,181,2,NA,1.47,NA,NA,NA,NA,FALSE
+50364,1,2020.02,2020,3,30,1,1,qual,507,4.2,18.1,NA,F,missed trees (forgot to measure),alive,Cameron Dow,Cameron Dow,6249,6249,NA,661.9,0,41,2,NA,1.35,NA,NA,NA,NA,FALSE
+70433,1,2020.01,2020,3,11,1,0,litu,710,11.4,13.8,NA,F;RE,NA,alive,Jessica Shue,Jessica Shue,8436,8436,NA,716.9,0,64,2,NA,1.3,NA,NA,NA,NA,FALSE
+80398,1,2020.01,2020,3,11,1,0,caco,807,1.8,19.6,NA,F;DN,NA,dead,Jessica Shue,Jessica Shue,9474,9474,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA,FALSE
+80631,1,2020.01,2020,3,11,1,0,litu,811,0.2,6.1,NA,F;RE,NA,alive,Jessica Shue,Jessica Shue,9703,9703,NA,521.4,0,103,2,NA,1.27,NA,NA,NA,NA,FALSE
+90354,1,2020.01,2020,3,11,1,0,litu,905,10.6,5,NA,F;RE,NA,alive,Jessica Shue,Jessica Shue,10607,10607,NA,670.9,0,248,2,NA,1.3,NA,NA,NA,NA,FALSE
+91435,1,2020.01,2020,3,11,1,0,litu,907,13.6,12.2,NA,F;DC,CWD,dead,Jessica Shue,Jessica Shue,11102,11102,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA,FALSE
+100562,1,2020.01,2020,3,11,1,0,litu,1004,9.1,19.2,NA,F;RE,NA,alive,Jessica Shue,Jessica Shue,12224,12224,NA,628.2,0,275,2,NA,1.4,NA,NA,NA,NA,FALSE
+111029,1,2020.16,2020,11,5,1,0,litu,1107,17.2,19,NA,DC,NA,dead,Jessica Shue,Cameron Dow,14379,14379,NA,124.9,0,312,2,NA,1.35,NA,NA,NA,NA,FALSE
+120790,1,2020.01,2020,3,11,1,0,litu,1205,7.3,6.2,NA,F;RE,NA,alive,Jessica Shue,Jessica Shue,15923,15923,NA,452.5,0,344,2,NA,1.38,NA,NA,NA,NA,FALSE
+131272,1,2020.01,2020,3,11,1,0,fram,1315,18.5,2.2,NA,DS,"""Alive unhealthy"" (AU) in mort. 2019",dead,Jessica Shue,Jessica Shue,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA,FALSE
+131352,1,2020.01,2020,3,11,1,0,fram,1316,5.5,3.3,NA,DS,Alive in mort. 2019. band removed in 2019.01,dead,Jessica Shue,Jessica Shue,18274,40284,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA,FALSE
+140756,1,2020.01,2020,3,11,1,0,quve,1408,1.3,6.2,NA,F;DS,NA,dead,Jessica Shue,Jessica Shue,19547,19547,NA,677.1,0,816,2,NA,1.4,NA,NA,NA,NA,FALSE
+140756,1,2020.16,2020,11,5,1,0,quve,1408,1.3,6.2,NA,DS,NA,dead,Jessica Shue,Cameron Dow,19547,19547,NA,677.1,0,816,2,NA,1.4,NA,NA,NA,NA,FALSE
+171314,1,2020.16,2020,11,5,1,0,quru,1712,10,19.5,NA,DC,NA,dead,Cameron Dow,Cameron Dow,25139,25139,NA,864,0,222,2,NA,1.5,NA,NA,NA,NA,FALSE
+190935,1,2020.01,2020,3,11,1,0,quru,1916,9.4,17.1,NA,DC,NA,dead,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,28426,28426,NA,228.2,0,744,2,NA,1.32,NA,NA,NA,NA,FALSE
+190935,1,2020.16,2020,11,5,1,0,quru,1916,9.4,17.1,NA,DC,NA,dead,Jessica Shue,Cameron Dow,28426,28426,NA,228.2,0,744,2,NA,1.32,NA,NA,NA,NA,FALSE
+192570,1,2020.16,2020,11,5,1,0,fram,1931,16.4,16.3,NA,DS,gap closed,dead,Ellie Grant,Cameron Dow,28974,28974,NA,481,0,916,2,NA,1.4,NA,NA,NA,NA,FALSE
