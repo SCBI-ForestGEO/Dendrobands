@@ -13,7 +13,7 @@ test_that("Measure is possible", {
   
   # Test that measure is valid depending on month and not NA
   dendroband_measurements <- dendroband_measurements %>% 
-    mutate(measure_possible = measure <= 200 & !is.na(measure))
+    mutate(measure_possible = measure <= 200)
   
   # Test if all measures are possible
   all_measures_possible <- dendroband_measurements %>% 
