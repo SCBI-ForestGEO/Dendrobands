@@ -139,28 +139,38 @@ write.csv(data_intra, "resources/data_entry_forms/2020/data_entry_intraannual.cs
 
 ####################################################################################
 #3 Merge data_entry form intraannual with the year's master file ####
-data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
+
+# DO THIS: Set current year
+current_year <- "2021"
+# DO THIS: Set intrannual survey number you want to merge into master. Should be: "02", "03", ...
+survey_number <- "02"
+
+current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
+  read.csv()
 
 #change for the appropriate surveyID file
-data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-14.csv", colClasses = c("codes" = "character"))
+data_intra <- str_c("resources/data_entry_forms/", current_year, "/data_entry_intraannual_", current_year, "-", survey_number, ".csv") %>% 
+  read.csv(colClasses = c("codes" = "character")) %>% 
+  # As of 2020 new variable
+  select(-Leaf.code)
 # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
 # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
 
-names2019 <- c(colnames(data_2019))
+names_current_year <- c(colnames(current_year_data))
 namesintra <- c(colnames(data_intra))
 
 ## find the names that are in data_2018 but not in data_biannual
-missing <- setdiff(names2019, namesintra)
+missing <- setdiff(names_current_year, namesintra)
 
 ## if need be, do the opposite
-# missing <- setdiff(namesbi, names2018)
+# missing <- setdiff(namesintra, names_current_year)
 
 ## add these missed names to data_intra in order to combine to the master
 data_intra[missing] <- NA
 data_intra$area <- NULL #this column is only relevant for field
 data_intra$location <- NULL #only for when merging data pre-2018
 
-test <- rbind(data_2019, data_intra)
+test <- rbind(current_year_data, data_intra)
 
 test <- test[order(test[,"tag"], test[,"stemtag"], test[,"survey.ID"]),] #order by tag and survey.ID
 
@@ -190,7 +200,8 @@ test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.
 ##2. this will be easier because a, it happens very infrequently and b, it's faster.
 ##3. MAKE SURE to then do Section #4 of fix_dendrobands.R script 
 
-write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
+str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
+  write.csv(x = test, file = ., row.names=FALSE)
 
 
 
