@@ -13,7 +13,7 @@ test_that("All measures recorded", {
   
   # Test that if measure is missing, then codes = RE is there
   dendroband_measurements <- dendroband_measurements %>% 
-    mutate(missing_RE_code = !is.na(measure) | str_detect(codes, "RE"))
+    mutate(missing_RE_code = !is.na(measure) | codes == "RE")
   
   # Create error/warning flag
   report_flag <- dendroband_measurements %>% 
