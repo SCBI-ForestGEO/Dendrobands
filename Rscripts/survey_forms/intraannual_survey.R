@@ -142,14 +142,14 @@ write.csv(data_intra, "resources/data_entry_forms/2020/data_entry_intraannual.cs
 
 # DO THIS: Set current year
 current_year <- "2021"
-# DO THIS: Set intrannual survey number you want to merge into master. Should be: "02", "03", ...
-survey_number <- "02"
+# DO THIS: Set intrannual survey ID you want to merge into master. Should be: "02", "03", ...
+survey_ID <- "02"
 
 current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
   read.csv()
 
 #change for the appropriate surveyID file
-data_intra <- str_c("resources/data_entry_forms/", current_year, "/data_entry_intraannual_", current_year, "-", survey_number, ".csv") %>% 
+data_intra <- str_c("resources/data_entry_forms/", current_year, "/data_entry_intraannual_", current_year, "-", survey_ID, ".csv") %>% 
   read.csv(colClasses = c("codes" = "character")) %>% 
   # As of 2020 new variable
   select(-Leaf.code)
