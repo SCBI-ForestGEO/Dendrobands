@@ -17,10 +17,8 @@
 4. Merge to the [master file](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) for that year.
 
     a. Compare any notes of "dead" trees with the previous year's [mortality census](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/SCBI_mortality/data).
-    
-        i. In general, we want to use the mortality census as the basis for what is live or dead, as it's completed during the growing season.
-      
-        ii. Trees labeled as dead during the biannual survey may look dead due to the lack of leaves, depending on leaf senescence and recruitment timing.
+        1. In general, we want to use the mortality census as the basis for what is live or dead, as it's completed during the growing season.
+        1. Trees labeled as dead during the biannual survey may look dead due to the lack of leaves, depending on leaf senescence and recruitment timing.
       
     b. Fix any data issues that are found.
 
