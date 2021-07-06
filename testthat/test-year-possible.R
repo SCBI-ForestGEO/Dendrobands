@@ -24,7 +24,7 @@ test_that("Year is possible", {
     all() 
   
   if(!all_years_valid){
-    filename <- here("testthat/reports", str_c(Sys.Date(), "_year_issues.csv"))
+    filename <- here("testthat/reports/year_possible.csv")
     
     dendroband_measurements %>% 
       filter(!year_valid) %>% 
