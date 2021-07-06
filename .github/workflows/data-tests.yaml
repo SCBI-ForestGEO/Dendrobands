@@ -4,10 +4,12 @@ on:
   push:
     paths:
       - 'data/**'
+      - 'resources/data_entry_forms/**'
       - 'testthat/**'
   pull_request:
     paths:
       - 'data/**'
+      - 'resources/data_entry_forms/**'
       - 'testthat/**'
 
 name: data-tests
@@ -25,6 +27,8 @@ jobs:
           install.packages(c("remotes"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
+      - name: Create master csv from data entry forms (2021 and after)
+        run: Rscript Rscripts/survey_forms/create_master_csv_2021_and_after.csv        
       - name: Run tests
         run: Rscript testthat.R
       - name: Check for new files, set flag if the case
