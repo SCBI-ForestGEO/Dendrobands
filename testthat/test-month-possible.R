@@ -3,13 +3,17 @@ library(dplyr)
 library(readr)
 library(stringr)
 library(purrr)
+library(lubridate)
+
 
 test_that("Month is possible", {
   # Load all csv's at once
   dendroband_measurements <- 
     here("data") %>% 
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double()))
+    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
+    # TODO: remove this later. start with a clean slate for Wednesday July 7
+    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
   
   # Test that month is between 1 and 12 and not NA
   dendroband_measurements <- dendroband_measurements %>% 
