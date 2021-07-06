@@ -32,6 +32,7 @@ test_that("Measure is reasonable", {
 
   # Create error/warning flag
   report_flag <- dendroband_measurements %>% 
+    filter(!is.na(measure_is_reasonable)) %>% 
     pull(measure_is_reasonable) %>% 
     all() 
   
