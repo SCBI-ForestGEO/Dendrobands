@@ -8,9 +8,6 @@
     1. Save the form in the year folder within [resources](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms), calling it "data_entry_biannual_[SURVEYID]".
     1. **BEFORE** merging with the master, push the data_entry_form and the new folder to Github. This will allow us to compare any discrepancies in the future.
 4. Merge to the [master file](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) for that year.
-    1. Compare any notes of "dead" trees with the previous year's [mortality census](https://github.com/SCBI-ForestGEO/SCBImortality).
-        1. In general, we want to use the mortality census as the basis for what is live or dead, as it's completed during the growing season.
-        1. Trees labeled as dead during the biannual survey may look dead due to the lack of leaves, depending on leaf senescence and recruitment timing.
     1. Fix any data issues that are found.
 5. Once merged, delete the data_entry_form you made but keep the folder.
 6. Replace dead trees and fix bands that need fixing (this should happen soon after the last survey to allow time to settle before the next survey in spring).
