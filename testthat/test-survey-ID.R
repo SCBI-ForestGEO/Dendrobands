@@ -25,6 +25,8 @@ test_that("survey ID increases", {
       # ID which rows have correct differences: 0 within survey, 
       # 0.01 between survey, 1 between fall and spring biannual
       survey_ID_incorrectly_numbered = case_when(
+        # TODO: deal with diff == 0 but date differs.
+        # this means the survey ID didn't increment correctly
         survey_ID_diff_from_prev_row == 0 ~ FALSE,
         survey_ID_diff_from_prev_row == 0.01 ~ FALSE,
         survey_ID_diff_from_prev_row == 1 ~ FALSE,
