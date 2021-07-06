@@ -5,11 +5,13 @@ on:
     paths:
       - 'data/**'
       - 'resources/data_entry_forms/**'
+      - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'testthat/**'
   pull_request:
     paths:
       - 'data/**'
       - 'resources/data_entry_forms/**'
+      - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'testthat/**'
 
 name: data-tests
