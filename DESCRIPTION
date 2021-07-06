@@ -23,7 +23,8 @@ Imports:
   tidyr,
   stringr,
   lubridate,
-  here
+  here,
+  zoo
 URL: https://github.com/SCBI-ForestGEO/Dendrobands
 BugReports: https://github.com/SCBI-ForestGEO/Dendrobands/issues
 Config/testthat/edition: 3

@@ -8,7 +8,7 @@ library(dplyr)
 # Create blank master csv
 here("Rscripts/survey_forms/new_scbidendroAll_[YEAR].R") %>% 
   source()
-# Copied from Rscripts/survey_forms/biannual_survey.R
+# Copied from Rscripts/survey_forms/biannual_survey.R 
 
 
 
