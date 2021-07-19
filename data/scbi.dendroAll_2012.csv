@@ -1445,8 +1445,8 @@
 121275,1,2012.18,2012,11,29,1,0,"qupr",1210,1.7,16.9,14.35,"","","alive","Erika Gonzalez","EG/CH",16370,16370,NA,294,0,518,2,NA,1.33,NA,NA,NA,NA
 121291,1,2012.01,2012,3,15,1,0,"qupr",1210,2.8,9.4,145.54,"","","alive","Caroline Johnson","CJ/LC/BB",16386,16386,NA,418.3,0,347,2,NA,1.3,4,4,NA,NA
 121291,1,2012.18,2012,11,29,1,0,"qupr",1210,2.8,9.4,163.03,"","Band window too large","alive","Erika Gonzalez","EG/CH",16386,16386,NA,418.3,0,347,2,NA,1.3,NA,NA,NA,NA
-121298,1,2012.01,2012,3,15,1,0,"nysy",1211,2.6,1,24.59,"","","considered dead Dec 2011, got measurements 2012, dead 2013+","Caroline Johnson","CJ/LC/BB",16393,16393,NA,575.1,0,348,2,NA,1.3,2,3,NA,NA
-121298,1,2012.18,2012,11,29,1,0,"nysy",1211,2.6,1,26.37,"","","considered dead Dec 2011, got measurements 2012, dead 2013+","Erika Gonzalez","EG/CH",16393,16393,NA,575.1,0,348,2,NA,1.3,NA,NA,NA,NA
+121298,1,2012.01,2012,3,15,1,0,"nysy",1211,2.6,1,24.59,"D","considered dead Dec 2011, got measurements 2012, dead 2013+","dead","Caroline Johnson","CJ/LC/BB",16393,16393,NA,575.1,0,348,2,NA,1.3,2,3,NA,NA
+121298,1,2012.18,2012,11,29,1,0,"nysy",1211,2.6,1,26.37,"D","considered dead Dec 2011, got measurements 2012, dead 2013+","dead","Erika Gonzalez","EG/CH",16393,16393,NA,575.1,0,348,2,NA,1.3,NA,NA,NA,NA
 121301,1,2012.01,2012,3,15,1,0,"caovl",1211,1.2,2.5,77.81,"G","","alive","Caroline Johnson","CJ/LC/BB",16396,16396,NA,230.8,0,349,2,NA,1.3,4,3,NA,NA
 121301,1,2012.18,2012,11,29,1,0,"caovl",1211,1.2,2.5,85.08,"","","alive","Erika Gonzalez","EG/CH",16396,16396,NA,230.8,0,349,2,NA,1.3,NA,NA,NA,NA
 121305,1,2012.01,2012,3,15,1,1,"quru",1211,1.1,11.2,20,"","","alive","Caroline Johnson","CJ/LC/BB",16400,16400,NA,729.8,0,350,2,NA,1.3,4,4,NA,NA
