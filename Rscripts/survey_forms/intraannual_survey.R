@@ -137,7 +137,7 @@ data_intra[is.na(data_intra)] <- " "
 
 data_intra %>% 
   distinct() %>% 
-  write.csv("resources/data_entry_forms/2021/data_entry_intraannual.csv", row.names=FALSE)
+  write.csv("resources/raw_data/2021/data_entry_intraannual.csv", row.names=FALSE)
 #Now RENAME manually the file to reflect the survey ID, for example 2020-02
 
 ####################################################################################
@@ -152,7 +152,7 @@ current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
   read.csv()
 
 #change for the appropriate surveyID file
-data_intra <- str_c("resources/data_entry_forms/", current_year, "/data_entry_intraannual_", current_year, "-", survey_ID, ".csv") %>% 
+data_intra <- str_c("resources/raw_data/", current_year, "/data_entry_intraannual_", current_year, "-", survey_ID, ".csv") %>% 
   read.csv(colClasses = c("codes" = "character")) %>% 
   # As of 2020 new variable
   select(-Leaf.code)

@@ -28,9 +28,9 @@ This repository contains dendrometer bands data for the SCBI ForestGEO plot. The
 Since 2011, ~155 stems of DBH ranging from 6-148 cm are monitored biweekly during the growing season each year.
 
 *Workflow* 
-- [field_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms) and [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) are pulled from the year's master file via R-scripts
+- [field_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms) and [raw_data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data) are pulled from the year's master file via R-scripts
 - [maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps) are generated based on the [current list of trees with dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv). 
-- data recorded in the field are entered in [data_entry_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms) and immediately merged into the current year's master file using an R script.
+- data recorded in the field are entered in [raw_data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data) and immediately merged into the current year's master file using an R script.
 
 *Data organization* 
 
