@@ -179,7 +179,7 @@ data_biannual[,newcols] <- ""
 
 data_biannual <- data_biannual[, c("tag", "stemtag", "sp", "quadrat", "survey.ID", "year", "month", "day", "measure", "new.band", "crown.condition", "crown.illum", "codes", "notes", "field.recorders", "data.enter", "area")]
 
-write.csv(data_biannual, "resources/data_entry_forms/data_entry_biannual_spr2019.csv", row.names=FALSE)
+write.csv(data_biannual, "resources/raw_data/data_entry_biannual_spr2019.csv", row.names=FALSE)
 
 ##2b. fall survey data entry ####
 data_2018 <- read.csv("data/scbi.dendroAll_2018.csv")
@@ -280,7 +280,7 @@ need.area <- data_bi[data_bi$area == "", ]
 #data_biannual<-sapply(data_biannual, as.character)
 #data_biannual[is.na(data_biannual)] <- " "
 
-write.csv(data_biannual, "resources/data_entry_forms/data_entry_biannual_2018.csv", row.names=FALSE)
+write.csv(data_biannual, "resources/raw_data/data_entry_biannual_2018.csv", row.names=FALSE)
 
 #this form can be used for entering biannual data before it is merged.
 
@@ -298,7 +298,7 @@ current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
   read.csv()
 
 data_biannual <- 
-  str_c("resources/data_entry_forms/2021/data_entry_biannual_", season, "2021.csv") %>% 
+  str_c("resources/raw_data/2021/data_entry_biannual_", season, "2021.csv") %>% 
   read.csv()
 
 names_current_year <- c(colnames(current_year_data))

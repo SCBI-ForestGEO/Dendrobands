@@ -1,6 +1,6 @@
-# Data entry forms
+# Raw Data Forms
 
-The year folders (2011-2017) contain the data entry forms used to make the 2011-2017 master files in the new format. Since this is done, these can be deleted if need be.
+The year folders (2011-2017) contain the raw data forms used to make the 2011-2017 master files in the new format. Since this is done, these can be deleted if need be.
 
 The csv forms are to be used to enter data from the field. They should then update the year's master file via R-scripts once the full data from each survey is entered.
 

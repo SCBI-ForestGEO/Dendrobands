@@ -259,7 +259,7 @@ newtrees <- setnames(newtrees, old=c("intra", "codes&notes"), new=c("intraannual
 newtrees <- newtrees[ ,c(1:6,17:19,8:16,20:22)]
 newtrees[is.na(newtrees)] <- ""
 
-write.csv(newtrees, "resources/data_entry_forms/2019/data_entry_new_trees_2019.csv", row.names=FALSE)
+write.csv(newtrees, "resources/raw_data/2019/data_entry_new_trees_2019.csv", row.names=FALSE)
 
 ############################################################################
 #7 merge data_entry form to the next year's master file ####
@@ -269,7 +269,7 @@ library(data.table)
 
 dendro_2019 <- read.csv("data/scbi.dendroAll_2019.csv", stringsAsFactors = FALSE)
 
-tree_replace <- read.csv("resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
+tree_replace <- read.csv("resources/raw_data/2019/data_entry_new_trees_2019.csv")
 
 recensus2013 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"))
 
@@ -299,7 +299,7 @@ write.csv(dendro_2019, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
 #8 merge data_entry form with dendro_trees.csv and dendroID.csv
 
 ##8a. dendro_trees ####
-tree_replace <- read.csv("resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
+tree_replace <- read.csv("resources/raw_data/2019/data_entry_new_trees_2019.csv")
 
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
@@ -342,7 +342,7 @@ dendro_trees <- dendro_trees[order(dendro_trees$tag, dendro_trees$stemtag), ]
 write.csv(dendro_trees, "dendro_trees.csv", row.names=FALSE)
 
 ##8b. dendroID ####
-tree_replace <- read.csv("resources/data_entry_forms/2019/data_entry_new_trees_2019.csv")
+tree_replace <- read.csv("resources/raw_data/2019/data_entry_new_trees_2019.csv")
 
 dendroID <- read.csv("data/dendroID.csv")
 

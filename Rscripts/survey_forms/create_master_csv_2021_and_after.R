@@ -32,7 +32,7 @@ current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
   read.csv()
 
 data_biannual <- 
-  str_c("resources/data_entry_forms/2021/data_entry_biannual_", season, "2021.csv") %>% 
+  str_c("resources/raw_data/2021/data_entry_biannual_", season, "2021.csv") %>% 
   read.csv()
 
 names_current_year <- c(colnames(current_year_data))
@@ -96,7 +96,7 @@ str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
 # DO THIS: Set current year
 current_year <- "2021"
 
-intraannual_surveys <-  str_c("resources/data_entry_forms/", current_year) %>% 
+intraannual_surveys <-  str_c("resources/raw_data/", current_year) %>% 
   here() %>% 
   dir(path = ., pattern = "data_entry_intraannual", full.names = TRUE)
 

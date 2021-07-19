@@ -2,7 +2,7 @@
 
 1. Determine which bands need fixing and which trees should be added to surveys to replace dead ones (using available [scripts](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/Rscripts/survey_forms)). Build dendrobands (see instructions [here](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/how_to_make_dendrobands.docx)).
 
-2. Prepare the forms for the field, and make sure you have data entry forms ready for office.
+2. Prepare the forms for the field, and make sure you have raw data forms ready for office.
 
     a. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 
@@ -14,7 +14,7 @@
     
     c. Also, replace any tags that need replacing.
 
-4. Enter data in the [data_entry_form](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms), ideally within the same day.
+4. Enter data in the [raw data form](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data), ideally within the same day.
     
     a. For dendroband replacements and installations, the survey.ID value depends on when the change is taking place.
     
@@ -26,15 +26,15 @@
     
     - *not advised but sometimes unavoidable:* if replacing dead trees / fixing dendrobands is pushed into the next year before that year's spring biannual survey, then the survey.ID of all replacements should be the year itself. For example, in 2019 there were several days of replacements that were carried over from 2018. Even though these all had different dates, they all have the same survey.ID of 2019.
 
-5. Save the form in the year folder within [resources](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/data_entry_forms), calling it "data_entry_bandreplace_[SURVEYID]".
+5. Save the form in the year folder within [resources](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data), calling it "data_entry_bandreplace_[SURVEYID]".
     
-    b. **BEFORE** merging with the master, push the data_entry_form and the new folder to Github. This will allow us to compare any discrepancies in the future.
+    b. **BEFORE** merging with the master, push the raw data form and the new folder to Github. This will allow us to compare any discrepancies in the future.
 
 6. Merge to the [master file](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data) for that year.
       
     a. Fix any data issues that are found.
 
-7. Once merged, delete the data_entry_form you made.
+7. Once merged, delete the raw data form you made.
  
 8. Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) with any new records.
 

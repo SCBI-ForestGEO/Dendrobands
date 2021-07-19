@@ -6,11 +6,11 @@ library(dplyr)
 
 #read data files directly from Github (ignore errors for now)
 
-intra02<- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/resources/data_entry_forms/2020/data_entry_intraannual_2020-02.csv?token=AGNAWNF6UOUA444C26GHK4C6XRIHM")
+intra02<- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/resources/raw_data/2020/data_entry_intraannual_2020-02.csv?token=AGNAWNF6UOUA444C26GHK4C6XRIHM")
 
-intra03 <- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/resources/data_entry_forms/2020/data_entry_intraannual_2020-03.csv?token=AGNAWNAEFWIKIO3XYTQTOVK6XRMWU")
+intra03 <- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/resources/raw_data/2020/data_entry_intraannual_2020-03.csv?token=AGNAWNAEFWIKIO3XYTQTOVK6XRMWU")
 
-intra04 <- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/resources/data_entry_forms/2020/data_entry_intraannual_2020-04.csv?token=AGNAWNFSVMFQNGISPL7DZB26XRM72")
+intra04 <- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/resources/raw_data/2020/data_entry_intraannual_2020-04.csv?token=AGNAWNFSVMFQNGISPL7DZB26XRM72")
 
 # add an column to obtain full dates
 intra02$date <- paste(intra02$month, intra02$day, intra02$year, sep = "/")

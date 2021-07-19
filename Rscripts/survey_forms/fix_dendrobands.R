@@ -154,10 +154,10 @@ data_entry$location <- NULL #we don't need this column for data entry
 
 data_entry <- setnames(data_entry, old=c("dbh", "dendDiam", "dendHt", "measure"), new=c("dbh.mm", "dendDiam.mm", "dendHt.m", "measure.mm"))
 
-fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv")
+fix_bands <- read.csv("resources/raw_data/2019/data_entry_fix_2019.csv")
 fix_bands <- rbind(fix_bands, data_entry)
 
-write.csv(fix_bands, "resources/data_entry_forms/2019/data_entry_fix_2019.csv", row.names=FALSE)
+write.csv(fix_bands, "resources/raw_data/2019/data_entry_fix_2019.csv", row.names=FALSE)
 
 #######################################################################################
 #3. Merge data with year form.  MAKE SURE DBH AND DENDDIAM ARE IN MM ####
@@ -170,7 +170,7 @@ tail(sort(dendID$dendroID))
 
 data_2019 <- read.csv("data/scbi.dendroAll_2019.csv")
 
-fix_bands <- read.csv("resources/data_entry_forms/2019/data_entry_fix_2019.csv", colClasses = c("codes" = "character"))
+fix_bands <- read.csv("resources/raw_data/2019/data_entry_fix_2019.csv", colClasses = c("codes" = "character"))
 #install$codes <- ifelse(is.na(install$codes), "", "F")
 #install$notes <- ifelse(is.na(install$notes), "", install$notes)
 

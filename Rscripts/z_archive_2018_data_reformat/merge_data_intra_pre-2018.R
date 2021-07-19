@@ -1,13 +1,13 @@
-# Merge intraannual data_entry_form with master pre-2018 data
+# Merge intraannual raw data form with master pre-2018 data
 ##this code is kept for archival purposes. Current forms are found in "survey_forms" folder of the Dendrobands repository.
 
-file_list <- list.files("resources/data_entry_forms/2016", pattern="data_entry_intraannual")
+file_list <- list.files("resources/raw_data/2016", pattern="data_entry_intraannual")
 
 # for intraannual
 for (i in seq(along=file_list)){
   filename = file_list[[i]]
 
-data_2016 <- read.csv("resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
+data_2016 <- read.csv("resources/raw_data/2016/scbi.dendroAll_2016.csv")
 
 data_intra <- read.csv(filename)
 
@@ -62,9 +62,9 @@ write.csv(test, "data/scbi.dendroAll_2016.csv", row.names=FALSE)
 
 
 #for the final biannual survey #####
-data_2016 <- read.csv("resources/data_entry_forms/2016/scbi.dendroAll_2016.csv")
+data_2016 <- read.csv("resources/raw_data/2016/scbi.dendroAll_2016.csv")
 
-data_biannual <- read.csv("resources/data_entry_forms/2016/data_entry_biannual_2016-15.csv")
+data_biannual <- read.csv("resources/raw_data/2016/data_entry_biannual_2016-15.csv")
 
 names2016 <- c(colnames(data_2016))
 namesbi <- c(colnames(data_biannual))
