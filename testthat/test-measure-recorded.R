@@ -12,8 +12,8 @@ test_that("All measures recorded", {
     here("data") %>% 
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
     map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
+    # For this test only consider stems for 2021 onwards. See GitHub Issue #61
+    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-01-01") )
   
   # Test that if measure is missing, then codes = RE is there
   dendroband_measurements <- dendroband_measurements %>% 
