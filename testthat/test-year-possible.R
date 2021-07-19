@@ -3,6 +3,7 @@ library(dplyr)
 library(readr)
 library(stringr)
 library(purrr)
+library(lubridate)
 
 test_that("Year is possible", {
   # Get current year
@@ -16,7 +17,9 @@ test_that("Year is possible", {
     dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
     map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
     # Test that year is between 2010-current year and not NA
-    mutate(year_valid = between(year, 2010, current_year) & !is.na(year)) 
+    mutate(year_valid = between(year, 2010, current_year) & !is.na(year)) %>% 
+    # TODO: remove this later. start with a clean slate for Wednesday July 7
+    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
   
   # Test & write report if any errors
   all_years_valid <- dendroband_measurements %>% 
@@ -24,7 +27,7 @@ test_that("Year is possible", {
     all() 
   
   if(!all_years_valid){
-    filename <- here("testthat/reports", str_c(Sys.Date(), "_year_issues.csv"))
+    filename <- here("testthat/reports/year_possible.csv")
     
     dendroband_measurements %>% 
       filter(!year_valid) %>% 

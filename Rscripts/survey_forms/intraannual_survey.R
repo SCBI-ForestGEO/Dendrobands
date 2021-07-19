@@ -16,17 +16,17 @@ library(tidyverse)
 #1 Create field_form intraannual ####
 ## when printing new field forms, this code will create a new form with the updated "prevmeas".
 
-data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
+data_2021 <- read.csv("data/scbi.dendroAll_2021.csv")
 
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
 #subset by what's in intraannual survey
-intra <- data_2020[data_2020$intraannual == "1", ]
+intra <- data_2021[data_2021$intraannual == "1", ]
 
 #subset by max survey.ID (specific for each stemID - this code already takes into account if a stem has a newer measurement in a 2019.061 scenario (for example, when you measure few trees betwen surveys- compared to 2019.06)
 prevmeasin <- NULL
 for (i in seq(along=unique(intra$stemID))){
-  sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
+  sub <- data_2021[data_2021$stemID == unique(intra$stemID)[[i]], ]
   #sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
   #previous line not needed when creating first datasheet of the intrannual survey but maybe needed next time.
   
@@ -37,7 +37,7 @@ prevmeasin<-prevmeasin[-which(is.na(prevmeasin)), ]#use this to remove rows with
 
 data_intra <- NULL
 for (i in seq(along=unique(intra$stemID))){
-  sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
+  sub <- data_2021[data_2021$stemID == unique(intra$stemID)[[i]], ]
   #sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
   #previous line not needed when creating first datasheet of the intrannual survey but maybe needed next time.
   
@@ -79,11 +79,12 @@ matrix <- function(data_intra, table_title) {
   
 }
 
-
 temp <- matrix(data_intra, table_title=('Intraannual Survey'))
 temp <- as.data.frame(temp) #don't use this if using xlsx package
 
-write_xlsx(temp, "resources/field_forms/2020/field_form_intraannual.xlsx", col_names=FALSE)
+temp %>% 
+  group_by()
+write_xlsx(temp, "resources/field_forms/2021/field_form_intraannual.xlsx", col_names=FALSE)
 
 #to add a blank spacer row between title and columns, add
 "rep('', ncol(data_intra)), # blank spacer row"
@@ -100,14 +101,14 @@ write_xlsx(temp, "resources/field_forms/2020/field_form_intraannual.xlsx", col_n
 #2 Create data_entry forms intraannual ####
 # Create data_intra forms from master
 
-data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
+data_2021 <- read.csv("data/scbi.dendroAll_2021.csv")
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
-intra <- data_2020[data_2020$intraannual == "1", ]
+intra <- data_2021[data_2021$intraannual == "1", ]
 
 data_intra <- NULL
 for (i in seq(along=unique(intra$stemID))){
-  sub <- data_2020[data_2020$stemID == unique(intra$stemID)[[i]], ]
+  sub <- data_2021[data_2021$stemID == unique(intra$stemID)[[i]], ]
   #sub <- sub[sub$survey.ID == max(sub$survey.ID), ]
   
   data_intra <- rbind(data_intra, sub)
@@ -134,33 +135,45 @@ data_intra<-data_intra[,c(1,2,7,8,3:6,9:11,13:14,12)]
 
 data_intra[is.na(data_intra)] <- " "
 
-write.csv(data_intra, "resources/data_entry_forms/2020/data_entry_intraannual.csv", row.names=FALSE)
+data_intra %>% 
+  distinct() %>% 
+  write.csv("resources/data_entry_forms/2021/data_entry_intraannual.csv", row.names=FALSE)
 #Now RENAME manually the file to reflect the survey ID, for example 2020-02
 
 ####################################################################################
 #3 Merge data_entry form intraannual with the year's master file ####
-data_2020 <- read.csv("data/scbi.dendroAll_2020.csv")
+
+# DO THIS: Set current year
+current_year <- "2021"
+# DO THIS: Set intrannual survey ID you want to merge into master. Should be: "02", "03", ...
+survey_ID <- "02"
+
+current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
+  read.csv()
 
 #change for the appropriate surveyID file
-data_intra <- read.csv("resources/data_entry_forms/2019/data_entry_intraannual_2019-14.csv", colClasses = c("codes" = "character"))
+data_intra <- str_c("resources/data_entry_forms/", current_year, "/data_entry_intraannual_", current_year, "-", survey_ID, ".csv") %>% 
+  read.csv(colClasses = c("codes" = "character")) %>% 
+  # As of 2020 new variable
+  select(-Leaf.code)
 # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
 # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
 
-names2019 <- c(colnames(data_2019))
+names_current_year <- c(colnames(current_year_data))
 namesintra <- c(colnames(data_intra))
 
 ## find the names that are in data_2018 but not in data_biannual
-missing <- setdiff(names2019, namesintra)
+missing <- setdiff(names_current_year, namesintra)
 
 ## if need be, do the opposite
-# missing <- setdiff(namesbi, names2018)
+# missing <- setdiff(namesintra, names_current_year)
 
 ## add these missed names to data_intra in order to combine to the master
 data_intra[missing] <- NA
 data_intra$area <- NULL #this column is only relevant for field
 data_intra$location <- NULL #only for when merging data pre-2018
 
-test <- rbind(data_2019, data_intra)
+test <- rbind(current_year_data, data_intra)
 
 test <- test[order(test[,"tag"], test[,"stemtag"], test[,"survey.ID"]),] #order by tag and survey.ID
 
@@ -190,7 +203,8 @@ test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.
 ##2. this will be easier because a, it happens very infrequently and b, it's faster.
 ##3. MAKE SURE to then do Section #4 of fix_dendrobands.R script 
 
-write.csv(test, "data/scbi.dendroAll_2019.csv", row.names=FALSE)
+str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
+  write.csv(x = test, file = ., row.names=FALSE)
 
 
 
