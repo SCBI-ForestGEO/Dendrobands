@@ -1,0 +1,68 @@
+error_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
+measure_not_reasonable,12025,1,2021.01,2021,3,23,1,1,quru,117,15,16.3,64.96,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,12025,1,2021.02,2021,6,8,1,1,quru,117,15,16.3,75.33,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,12025,1,2021.2,2021,6,23,1,1,quru,117,15,16.3,78.42,NA,NA,alive,Brianna Calkins,Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,32126,1,2021.01,2021,3,23,1,1,litu,321,9.6,5,99.15,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+measure_not_reasonable,32126,1,2021.02,2021,6,8,1,1,litu,321,9.6,5,128,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+measure_not_reasonable,32126,1,2021.2,2021,6,23,1,1,litu,321,9.6,5,106.48,NA,NA,alive,Brianna Calkins,Brianna Calkins,4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
+measure_not_reasonable,50364,1,2021.01,2021,3,23,1,1,qual,507,4.2,18.1,70.805,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,6249,6249,NA,661.9,1,41,2,NA,1.35,NA,NA,NA,NA
+measure_not_reasonable,50364,1,2021.02,2021,6,8,1,1,qual,507,4.2,18.1,13.21,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,6249,6249,NA,661.9,0,41,2,NA,1.35,NA,NA,NA,NA
+measures_not_recorded,70357,1,2021.01,2021,3,23,1,0,cagl,708,7.6,18.4,NA,DC,"lx=19.5, ly=0",dead,"Bill McShea, Jessica Shue",Jessica Shue,8362,8362,NA,115.8,0,62,2,NA,1.38,NA,NA,NA,NA
+measure_not_reasonable,72124,1,2021.01,2021,3,24,1,1,quru,719,12.5,19.4,80.52,NA,band removed,alive,"Bill McShea, Jessica Shue",Jessica Shue,8769,8769,NA,747.2,1,850,2,NA,1.54,NA,NA,NA,NA
+measure_not_reasonable,72124,1,2021.02,2021,6,8,1,1,quru,719,12.5,19.4,32.9,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
+measure_not_reasonable,72357,1,2021.01,2021,3,24,1,1,quru,728,1.7,2,64.17,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,72357,1,2021.02,2021,6,8,1,1,quru,728,1.7,2,82.06,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,72427,1,2021.01,2021,3,24,1,1,litu,730,3.6,19.4,70.53,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+measure_not_reasonable,72427,1,2021.02,2021,6,8,1,1,litu,730,3.6,19.4,86.63,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+measures_not_recorded,80398,1,2021.01,2021,3,23,1,0,caco,807,1.8,19.6,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,9474,9474,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,82365,1,2021.01,2021,3,24,1,1,qual,829,4.9,4.7,59.9,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
+measure_not_reasonable,82365,1,2021.02,2021,6,8,1,1,qual,829,4.9,4.7,94.47,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
+measure_not_reasonable,82365,1,2021.2,2021,6,23,1,1,qual,829,4.9,4.7,62.42,NA,NA,alive,Brianna Calkins,Brianna Calkins,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
+measures_not_recorded,91435,1,2021.01,2021,3,23,1,0,litu,907,13.6,12.2,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,11102,11102,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,90612,1,2021.01,2021,3,23,1,1,quru,910,10.7,14,76.435,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,10857,10857,NA,552,1,253,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,90612,1,2021.02,2021,6,8,1,1,quru,910,10.7,14,14.76,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,10857,10857,NA,552,0,253,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,90660,1,2021.01,2021,3,23,1,1,quru,913,4.9,7.9,111.06,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,10904,10904,NA,947.4,0,763,2,NA,1.22,NA,NA,NA,NA
+measure_not_reasonable,90660,1,2021.02,2021,6,8,1,1,quru,913,4.9,7.9,126.31,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,10904,10904,NA,947.4,0,763,2,NA,1.22,NA,NA,NA,NA
+measure_not_reasonable,100771,1,2021.01,2021,3,23,1,1,quru,1005,8.5,17,45.95,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,12422,12422,NA,968,0,960,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,100771,1,2021.02,2021,6,8,1,1,quru,1005,8.5,17,214.6,NA,estimated,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,12422,12422,NA,968,0,960,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,100771,1,2021.2,2021,6,23,1,1,quru,1005,8.5,17,68.82,NA,NA,alive,Brianna Calkins,Brianna Calkins,12422,12422,NA,968,0,960,2,NA,1.4,NA,NA,NA,NA
+measures_not_recorded,101312,1,2021.01,2021,3,23,1,0,fram,1016,2.6,16.8,NA,DS,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,12925,12925,NA,377,0,284,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,102348,1,2021.01,2021,3,24,1,1,qual,1025,16.5,11.5,21.47,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,102348,1,2021.02,2021,6,8,1,1,qual,1025,16.5,11.5,111.48,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,102348,1,2021.2,2021,6,23,1,1,qual,1025,16.5,11.5,31.75,NA,NA,alive,Brianna Calkins,Brianna Calkins,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,102364,1,2021.01,2021,3,24,1,1,qual,1025,2.1,18,108.37,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,13300,13300,NA,630.5,0,294,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,102364,1,2021.02,2021,6,8,1,1,qual,1025,2.1,18,29.14,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,13300,13300,NA,630.5,0,294,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,102364,1,2021.2,2021,6,23,1,1,qual,1025,2.1,18,113.64,NA,NA,alive,Brianna Calkins,Brianna Calkins,13300,13300,NA,630.5,0,294,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,110788,1,2021.01,2021,3,23,1,1,litu,1104,19.9,11.7,123.62,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,14155,14155,NA,638.3,0,307,2,NA,1.5,NA,NA,NA,NA
+measure_not_reasonable,110788,1,2021.02,2021,6,8,1,1,litu,1104,19.9,11.7,104.86,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,14155,14155,NA,638.3,0,307,2,NA,1.5,NA,NA,NA,NA
+measure_not_reasonable,110788,1,2021.2,2021,6,23,1,1,litu,1104,19.9,11.7,127.82,NA,NA,alive,Brianna Calkins,Brianna Calkins,14155,14155,NA,638.3,0,307,2,NA,1.5,NA,NA,NA,NA
+measures_not_recorded,111029,1,2021.01,2021,3,23,1,0,litu,1107,13.9,12.2,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,14365,14365,NA,671.3,0,311,2,NA,1.34,NA,NA,NA,NA
+measure_not_reasonable,121305,1,2021.01,2021,3,23,1,1,quru,1211,1.1,11.2,70.19,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,16400,16400,NA,753.8,1,350,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,121305,1,2021.02,2021,6,8,1,1,quru,1211,1.1,11.2,12.77,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,16400,16400,NA,753.8,0,350,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,122136,1,2021.01,2021,3,23,1,1,quru,1220,5.5,7.6,67.64,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,122136,1,2021.02,2021,6,8,1,1,quru,1220,5.5,7.6,78.64,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,122482,1,2021.01,2021,3,24,1,1,litu,1228,14.5,2.4,97.91,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,16931,16931,NA,562.4,0,613,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,122482,1,2021.02,2021,6,8,1,1,litu,1228,14.5,2.4,10.99,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,16931,16931,NA,562.4,0,613,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,122482,1,2021.2,2021,6,23,1,1,litu,1228,14.5,2.4,103.1,NA,NA,alive,Brianna Calkins,Brianna Calkins,16931,16931,NA,562.4,0,613,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,131239,1,2021.01,2021,3,23,1,1,quru,1314,19.5,5.7,11.92,NA,only one band,alive,"Bill McShea, Jessica Shue",Jessica Shue,18164,18164,NA,587.1,1,735,2,NA,1.47,NA,NA,NA,NA
+measure_not_reasonable,131239,1,2021.02,2021,6,8,1,1,quru,1314,19.5,5.7,23.4,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,18164,18164,NA,587.1,0,735,2,NA,1.47,NA,NA,NA,NA
+measures_not_recorded,131272,1,2021.01,2021,3,23,1,0,fram,1315,18.5,2.2,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,18195,18195,NA,927.8,0,157,2,NA,1.47,NA,NA,NA,NA
+measures_not_recorded,131352,1,2021.01,2021,3,23,1,0,fram,1316,5.5,3.3,NA,DS,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,18274,40284,NA,992.5,0,158,2,NA,1.35,NA,NA,NA,NA
+measures_not_recorded,132524,1,2021.01,2021,3,24,1,0,litu,1329,18.4,0.4,NA,DC,pinned by 132525,dead,"Bill McShea, Jessica Shue",Jessica Shue,18817,18817,NA,233.9,0,169,2,NA,1.24,NA,NA,NA,NA
+measures_not_recorded,132525,1,2021.01,2021,3,24,1,0,fram,1329,18.4,0.4,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,18817,18817,NA,233.9,0,169,2,NA,1.24,NA,NA,NA,NA
+measures_not_recorded,140467,1,2021.01,2021,3,23,1,0,quve,1404,2.1,18.5,NA,DS,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,19280,19280,NA,1520,0,176,2,NA,1.3,NA,NA,NA,NA
+measures_not_recorded,140756,1,2021.01,2021,3,23,1,1,quve,1408,9.9,1.5,NA,DS,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,19542,19542,NA,677.1,0,816,2,NA,1.4,NA,NA,NA,NA
+measures_not_recorded,150756,1,2021.01,2021,3,23,1,0,quve,1503,13.6,16.3,NA,DS,prse,dead,"Bill McShea, Jessica Shue",Jessica Shue,21310,21310,NA,939.1,0,208,2,NA,1.29,NA,NA,NA,NA
+measures_not_recorded,171314,1,2021.01,2021,3,23,1,0,quru,1712,15.9,8.2,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,25088,25088,NA,616.9,0,380,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,172470,1,2021.01,2021,3,23,1,1,quru,1728,11.1,12,73.55,NA,band removed,alive,"Bill McShea, Jessica Shue",Jessica Shue,25755,25755,NA,710,1,721,2,NA,1.25,NA,NA,NA,NA
+measure_not_reasonable,172470,1,2021.02,2021,6,8,1,1,quru,1728,11.1,12,24.13,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,25755,25755,NA,710,0,721,2,NA,1.25,NA,NA,NA,NA
+measure_not_reasonable,190694,1,2021.01,2021,3,23,1,1,quru,1909,18.2,14.7,69.835,NA,"band removed, installation measurement likely a typo:  10.15",alive,"Bill McShea, Jessica Shue",Jessica Shue,28251,28251,NA,1265.5,1,859,2,NA,1.42,NA,NA,NA,NA
+measure_not_reasonable,190694,1,2021.02,2021,6,8,1,1,quru,1909,18.2,14.7,12.57,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+measure_not_reasonable,190838,1,2021.01,2021,3,23,1,1,quru,1916,19.1,19.7,70.6,NA,NA,alive,"Bill McShea, Jessica Shue",Jessica Shue,28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,190838,1,2021.02,2021,6,8,1,1,quru,1916,19.1,19.7,54.69,NA,deadstanding,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,190838,1,2021.2,2021,6,23,1,1,quru,1916,19.1,19.7,69.08,NA,deadstanding,alive,Brianna Calkins,Brianna Calkins,28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
+measures_not_recorded,190935,1,2021.01,2021,3,23,1,0,quru,1916,15,17.2,NA,DC,NA,dead,"Bill McShea, Jessica Shue",Jessica Shue,28379,28379,NA,164.9,0,722,2,NA,1.3,NA,NA,NA,NA
+measure_not_reasonable,192466,1,2021.02,2021,6,8,1,1,quru,1926,13.3,1.7,89.99,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
+measure_not_reasonable,192466,1,2021.2,2021,6,23,1,1,quru,1926,13.3,1.7,111.29,NA,NA,alive,Brianna Calkins,Brianna Calkins,28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
+measures_not_recorded,192570,1,2021.01,2021,3,23,1,1,fram,1931,12.9,19.5,NA,DS,gap closed,dead,"Bill McShea, Jessica Shue",Jessica Shue,28965,28965,NA,933.1,0,236,2,NA,1.25,NA,NA,NA,NA
+measures_not_recorded,202541,1,2021.01,2021,3,23,1,0,fram,2028,2.5,15,NA,DS,gap closed,dead,"Bill McShea, Jessica Shue",Jessica Shue,30903,30903,NA,461,0,920,2,NA,1.34,NA,NA,NA,NA
