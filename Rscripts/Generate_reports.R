@@ -240,7 +240,7 @@ stems_to_alert <- dendroband_measurements %>%
   mutate(
     survey_ID_diff_from_prev_row = survey.ID - lag(survey.ID),
     survey_ID_diff_from_prev_row = round(survey_ID_diff_from_prev_row, 5)
-    ) %>% 
+  ) %>% 
   mutate(
     survey_ID_correctly_numbered = case_when(
       # Within survey diff should be 0
