@@ -7,7 +7,7 @@ on:
       - 'resources/raw_data/**'
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'R_scripts/Generate_reports.R'
-      # - 'R_scripts/Generate_warnings.R'
+      - 'R_scripts/Generate_warnings.R'
       # - 'R_scripts/Generate_map_of_reports.R'      
   pull_request:
     paths:
@@ -15,7 +15,7 @@ on:
       - 'resources/raw_data/**'
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'R_scripts/Generate_reports.R'
-      # - 'R_scripts/Generate_warnings.R'
+      - 'R_scripts/Generate_warnings.R'
       # - 'R_scripts/Generate_map_of_reports.R'
       
 name: data-tests
@@ -45,11 +45,11 @@ jobs:
         run: |
           source("R_scripts/Generate_reports.R")
         shell: Rscript {0}
-      # - name: Generate warnings
-      #   id: Generate_warnings
-      #   run: |
-      #     source("R_scripts/Generate_warnings.R")
-      #   shell: Rscript {0}
+      - name: Generate warnings
+        id: Generate_warnings
+        run: |
+          source("R_scripts/Generate_warnings.R")
+        shell: Rscript {0}
       # - name: Generate map of reports
       #   id: Generate_map_of_reports
       #   run: |
