@@ -10,7 +10,7 @@
 ### warnings? 
 *These do not cause the tests to fail, but may indicate problems and should be reviewed.*
 
-[![There_is_no_warnings_:-)](https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/testthat/reports/warnings.png)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports/warnings)
+[![There_is_no_warnings_:-)](testthat/reports/warnings.png)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports/warnings)
 
 
 
