@@ -6,14 +6,18 @@ on:
       - 'data/**'
       - 'resources/raw_data/**'
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
-      - 'testthat/**'
+      - 'R_scripts/Generate_reports.R'
+      # - 'R_scripts/Generate_warnings.R'
+      # - 'R_scripts/Generate_map_of_reports.R'      
   pull_request:
     paths:
       - 'data/**'
       - 'resources/raw_data/**'
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
-      - 'testthat/**'
-
+      - 'R_scripts/Generate_reports.R'
+      # - 'R_scripts/Generate_warnings.R'
+      # - 'R_scripts/Generate_map_of_reports.R'
+      
 name: data-tests
 
 jobs:
@@ -29,25 +33,35 @@ jobs:
           install.packages(c("remotes"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
+      - name: Check
+        run: |
+          options(crayon.enabled = TRUE)
+          rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
+        shell: Rscript {0}        
       - name: Create master csv from raw data forms (2021 and after)
-        run: Rscript Rscripts/survey_forms/create_master_csv_2021_and_after.R    
+        run: Rscript Rscripts/survey_forms/create_master_csv_2021_and_after.R
+      - name: Generate reports
+        id: Generate_reports
+        run: |
+          source("R_scripts/Generate_reports.R")
+        shell: Rscript {0}
+      # - name: Generate warnings
+      #   id: Generate_warnings
+      #   run: |
+      #     source("R_scripts/Generate_warnings.R")
+      #   shell: Rscript {0}
+      # - name: Generate map of reports
+      #   id: Generate_map_of_reports
+      #   run: |
+      #     source("R_scripts/Generate_map_of_reports.R")
+      #   shell: Rscript {0}
+      - name: Commit new files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull
+          git add --all
+          git commit -am "add data"
+          git push     
       - name: Run tests
         run: Rscript testthat.R
-      - name: Check for new files, set flag if the case
-        id: check_new_files
-        if: ${{ failure() }}
-        run: |
-          if [[ -z "$(git status --porcelain)" ]] ; then 
-            echo "Git status is empty"
-            echo "::set-output name=diff::FALSE"
-          else 
-            echo "::set-output name=diff::TRUE"
-          fi
-      - name: Commit and push any changes
-        if: ${{ failure() }} && steps.check_new_files.outputs.diff == 'TRUE'
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: "github-actions[bot]"
-          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          message: "Add or delete error report"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
