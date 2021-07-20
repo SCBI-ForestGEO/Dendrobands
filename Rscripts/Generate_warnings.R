@@ -19,8 +19,9 @@ library(here)
 
 
 warning_file_path <- file.path(here("testthat"), "reports/warnings/warnings_file.csv")
-if(file.exists(warning_file_path)) warning_file <- read.csv(warning_file_path)
-
+if(file.exists(warning_file_path)) {
+  warning_file <- read.csv(warning_file_path)
+}
 
 # write warning messages ####
 
@@ -32,8 +33,11 @@ warning_messages <- c("dendroband_needs_fixing_or_replacing" = "There are dendro
 #
 # No auto fix for now
 #
-# if(exists("will_auto_fix_error_file")) all_will_be_fixed <- paste(c("ERRORS THAT WILL AUTO FIX:\n", warning_messages[unique(will_auto_fix_error_file$error_name)]), collapse = "\n") else  all_will_be_fixed <- ""
-
+# if(file.exists(will_auto_fix_error_file_path)){
+#   all_will_be_fixed <- paste(c("ERRORS THAT WILL AUTO FIX:\n", warning_messages[unique(will_auto_fix_error_file$error_name)]), collapse = "\n")
+# } else{
+#   all_will_be_fixed <- ""
+# }
 
 if(file.exists(warning_file_path)){
   all_warns <- paste(c("WARNINGS!!!\n", warning_messages[unique(warning_file$alert_name)], "\nCLICK HERE TO GO TO FOLDER"), collapse = "\n") 
