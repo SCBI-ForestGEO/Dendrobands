@@ -328,12 +328,12 @@ if(nrow(warning_file) != 0){
     arrange(alert_name, quadrat, tag, stemtag)
   
   # Write report 
-  report_filepath <- here("testthat/reports/warnings/warning_file.csv")
+  report_filepath <- here("testthat/reports/warnings/warnings_file.csv")
   warning_file %>% 
     write_csv(file = report_filepath)
   
   # Append report to trace of reports to keep track of all the issues
-  trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warning_file.csv")
+  trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warnings_file.csv")
   
   if(file.exists(trace_of_reports_filepath)){
     trace_of_reports <- read_csv(file = trace_of_reports_filepath)
