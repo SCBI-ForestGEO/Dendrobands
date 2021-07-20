@@ -55,7 +55,7 @@ png(filename, width = 6, height = 0.7 + (0.2*length(c(gregexpr("\\n", all_warns)
 par(mar = c(0,0,0,0))
 plot(0,0, axes = F, xlab = "", ylab = "", type = "n")
 text(0,0.7, all_warns, col = "red", cex = 0.6)
-text(0,0, all_will_be_fixed, col = "red", cex = 0.6, pos = 1)
+# text(0,0, all_will_be_fixed, col = "red", cex = 0.6, pos = 1)
 # title("warnings!!!", col.main= "red", xpd = NULL, line = -1)
 dev.off()
 
