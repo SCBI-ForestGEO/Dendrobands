@@ -1,3 +1,12 @@
+# Generate reports looking at latest raw dendrobands raw data 
+## this script is run automatically when there is a push 
+
+
+# Set up ------
+# clear environment
+rm(list = ls())
+
+# load libraries
 library(here)
 library(dplyr)
 library(readr)
@@ -5,251 +14,213 @@ library(stringr)
 library(purrr)
 library(lubridate)
 
+## Load all master data files into a single data frame 
+master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", full.names = TRUE)
 
-
-
-
-
-test_that("All codes defined", {
-  # Load all csv's at once
+dendroband_measurements <- NULL
+for(i in 1:length(master_data_filenames)){
   dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
-  
-  # Load codes table
-  codes <- here("data/metadata/codes_metadata.csv") %>% 
-    read_csv() %>% 
-    # Delete rows that don't correspond to actual codes
-    filter(!is.na(Description))
-  
-  # Extract codes
-  dendroband_measurements <- dendroband_measurements %>% 
-    filter(!is.na(codes)) %>% 
-    mutate(
-      # Remove spaces
-      codes = str_replace_all(codes, " ", ""),
-      # In cases where there are multiple codes input at once, split by ; or , or :
-      codes_list = str_split(string = codes, pattern = regex(";|,|:"))
+    bind_rows(
+      dendroband_measurements,
+      read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double()))
     )
-  
-  dendroband_measurements$code_defined <- sapply(dendroband_measurements$codes_list, function(x){all(x %in% codes$Code)})
-  dendroband_measurements <- dendroband_measurements %>% 
-    select(-codes_list)
-  
-  # Test that all codes are defined
-  all_codes_defined <- dendroband_measurements %>% 
-    pull(code_defined) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/code_defined.csv")
-  
-  if(!all_codes_defined){
-    dendroband_measurements %>% 
-      filter(!code_defined) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, codes) %>%
-      write_csv(file = filename)
-    
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(all_codes_defined)
-})
+}
+
+# Needed to write csv's consisting of only original variables
+orig_master_data_var_names <- names(dendroband_measurements)
+
+# Add date column
+dendroband_measurements <- dendroband_measurements %>% 
+  mutate(date = ymd(str_c(year, month, day, sep = "-")))
+
+# Run tests only on data from 2021 onwards
+# TODO: Run tests on all data and fix all past errors
+dendroband_measurements <- dendroband_measurements %>%
+  filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-01-01") )
 
 
 
 
 
 
-
-
-test_that("All status", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
-  
-  # Test that status is either "alive" or "dead" & is not NA
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(status_valid = status %in% c("alive", "dead") & !is.na(status)) 
-  
-  # Test if all statuses are possible
-  all_status_valid <- dendroband_measurements %>% 
-    pull(status_valid) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/status_valid.csv")
-  
-  if(!all_status_valid){
-    dendroband_measurements %>% 
-      filter(!status_valid) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, status) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(all_status_valid)
-})
+# Run all tests & checks ----
+# prepare report files
+require_field_fix_error_file <- NULL
+will_auto_fix_error_file <- NULL
+warning_file <- NULL
 
 
 
+## Is day possible? Error if not ----
+alert_name <- "day_not_possible"
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  mutate(
+    day_possible = 
+      case_when(
+        month == 1 ~ between(day, 1, 31) & !is.na(day),
+        month == 2 ~ between(day, 1, 29) & !is.na(day),
+        month == 3 ~ between(day, 1, 31) & !is.na(day),
+        month == 4 ~ between(day, 1, 30) & !is.na(day),
+        month == 5 ~ between(day, 1, 31) & !is.na(day),
+        month == 6 ~ between(day, 1, 30) & !is.na(day),
+        month == 7 ~ between(day, 1, 31) & !is.na(day),
+        month == 8 ~ between(day, 1, 31) & !is.na(day),
+        month == 9 ~ between(day, 1, 30) & !is.na(day),
+        month == 10 ~ between(day, 1, 31) & !is.na(day),
+        month == 11 ~ between(day, 1, 30) & !is.na(day),
+        month == 12 ~ between(day, 1, 31) & !is.na(day),
+        TRUE ~ FALSE
+      )
+  ) %>% 
+  filter(!day_possible)
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
+## Is month is possible? Error if not ----
+alert_name <- "month_not_possible"
 
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  filter(!between(month, 1, 12) | is.na(month)) 
 
-test_that("Day is possible", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
-  
-  # Test that day is valid depending on month and not NA
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(
-      day_possible = 
-        case_when(
-          month == 1 ~ between(day, 1, 31) & !is.na(day),
-          month == 2 ~ between(day, 1, 29) & !is.na(day),
-          month == 3 ~ between(day, 1, 31) & !is.na(day),
-          month == 4 ~ between(day, 1, 30) & !is.na(day),
-          month == 5 ~ between(day, 1, 31) & !is.na(day),
-          month == 6 ~ between(day, 1, 30) & !is.na(day),
-          month == 7 ~ between(day, 1, 31) & !is.na(day),
-          month == 8 ~ between(day, 1, 31) & !is.na(day),
-          month == 9 ~ between(day, 1, 30) & !is.na(day),
-          month == 10 ~ between(day, 1, 31) & !is.na(day),
-          month == 11 ~ between(day, 1, 30) & !is.na(day),
-          month == 12 ~ between(day, 1, 31) & !is.na(day),
-          TRUE ~ FALSE
-        )
-    )
-  
-  # Test if all days are possible
-  all_days_possible <- dendroband_measurements %>% 
-    pull(day_possible) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/day_possible.csv")
-  
-  if(!all_days_possible){
-    dendroband_measurements %>% 
-      filter(!day_possible) %>% 
-      select(tag, stemtag, survey.ID, year, month, day) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(all_days_possible)
-})
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
+## Is year possible? Error if not ----
+alert_name <- "year_not_possible"
+
+# Get current year
+current_year <- Sys.Date() %>% 
+  str_sub(1, 4) %>% 
+  as.numeric()
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  filter(!between(year, 2010, current_year) | is.na(year))
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
+## Status of stem is 1) not missing and 2) is "alive" or "dead"? Error if not ----
+alert_name <- "status_not_valid"
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  filter(!status %in% c("alive", "dead") | is.na(status))
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
-test_that("Measure is possible", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
-  
-  # Test that measure is valid depending on month and not NA
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(measure_possible = measure <= 250)
-  
-  # Test if all measures are possible
-  all_measures_possible <- dendroband_measurements %>% 
-    pull(measure_possible) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/measure_possible.csv")
-  
-  if(!all_measures_possible){
-    dendroband_measurements %>% 
-      filter(!measure_possible) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(all_measures_possible)
-})
+## Is measure possible: between 0 & 250? Error if not ----
+measure_limit <- 250
+alert_name <- "measure_not_possible"
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  filter(!between(measure, 0, measure_limit))
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
+## Are all codes defined? Error if not ----
+alert_name <- "code_not_defined"
+
+# Load codes table
+codes <- here("data/metadata/codes_metadata.csv") %>% 
+  read_csv() %>% 
+  # Delete rows that don't correspond to actual codes
+  filter(!is.na(Description))
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  filter(!is.na(codes)) %>% 
+  mutate(
+    # Remove spaces
+    codes = str_replace_all(codes, " ", ""),
+    # In cases where there are multiple codes input at once, split by ; or , or :
+    codes_list = str_split(string = codes, pattern = regex(";|,|:"))
+  ) 
+
+stems_to_alert$code_defined <- sapply(stems_to_alert$codes_list, function(x){all(x %in% codes$Code)})
+
+stems_to_alert <- stems_to_alert %>% 
+  filter(!code_defined)
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
-
-
+## ANOMALY DETECTION: Is difference between new & previous measurement <= 10? Warning if not ----
 threshold <- 10
+alert_name <- "new_measure_too_different_from_previous"
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  arrange(tag, stemtag, date) %>% 
+  group_by(tag, stemtag) %>% 
+  mutate(
+    diff_from_previous_measure = measure - lag(measure),
+    measure_is_reasonable = abs(diff_from_previous_measure) < threshold
+  ) %>%
+  filter(!measure_is_reasonable)
+
+# Append to report
+warning_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(warning_file)
 
 
-test_that("Measure is reasonable", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
-  
-  
-  # Create variable that tests if each row passes condition
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(date = ymd(str_c(year, month, day, sep = "-"))) %>% 
-    arrange(tag, stemtag, date) %>% 
-    group_by(tag, stemtag) %>% 
-    mutate(
-      diff_from_previous_measure = measure - lag(measure),
-      measure_is_reasonable = abs(diff_from_previous_measure) < threshold | new.band != 0,
-      # measure_is_reasonable = ifelse(!lead(measure_is_reasonable), FALSE, measure_is_reasonable)
-    ) 
-  
-  
-  # Create error/warning flag
-  report_flag <- dendroband_measurements %>% 
-    filter(!is.na(measure_is_reasonable)) %>% 
-    pull(measure_is_reasonable) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/measure_is_reasonable.csv")
-  
-  if(!report_flag){
-    dendroband_measurements %>% 
-      filter(!measure_is_reasonable) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure, new.band, diff_from_previous_measure) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(report_flag)
-})
+
+
+
+
+## Is measure recorded: if measure is missing, then code = RE ----
+# Test that if measure is missing, then codes = RE is there
+alert_name <- "measures_not_recorded"
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  mutate(missing_RE_code = !is.na(measure) | str_detect(codes, regex("RE|DC|DS"))) %>% 
+  filter(!missing_RE_code)
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
@@ -257,233 +228,123 @@ test_that("Measure is reasonable", {
 
 
 
+## Is survey ID valid: survey ID increments only in units of 0.01, except jump from fall to spring biannual ----
+alert_name <- "survey_ID_increment_wrong"
 
-
-test_that("All measures recorded", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # For this test only consider stems for 2021 onwards. See GitHub Issue #61
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-01-01") )
-  
-  # Test that if measure is missing, then codes = RE is there
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(missing_RE_code = !is.na(measure) | str_detect(codes, "RE"))
-  
-  # Create error/warning flag
-  report_flag <- dendroband_measurements %>% 
-    pull(missing_RE_code) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/all_measures_recorded.csv")
-  
-  if(!report_flag){
-    dendroband_measurements %>% 
-      filter(!missing_RE_code) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure, codes) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(report_flag)
-})
-
-
-
-
-
-
-
-
-
-
-test_that("Month is possible", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
-  
-  # Test that month is between 1 and 12 and not NA
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(month_possible = between(month, 1, 12) & !is.na(month)) 
-  
-  # Test if all months are possible
-  all_months_possible <- dendroband_measurements %>% 
-    pull(month_possible) %>% 
-    all() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/month_possible.csv")
-  
-  if(!all_months_possible){
-    dendroband_measurements %>% 
-      filter(!month_possible) %>% 
-      select(tag, stemtag, survey.ID, year, month, day) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(all_months_possible)
-})
-
-
-
-
-
-
-
-test_that("survey ID increases", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-01-01") )
-  
-  # Create variable that tests if each row passes condition
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(date = ymd(str_c(year, month, day, sep = "-"))) %>% 
-    arrange(date, tag, stemtag) %>% 
-    mutate(
-      # Get consecutive row-by-row difference in survey.ID
-      survey_ID_diff_from_prev_row = survey.ID - lag(survey.ID),
-      # Floating point arithmetic issues
-      # https://stackoverflow.com/questions/9508518/why-are-these-numbers-not-equal
-      survey_ID_diff_from_prev_row = round(survey_ID_diff_from_prev_row, 5),
-      # ID which rows have correct differences: 0 within survey, 
-      # 0.01 between survey, 1 between fall and spring biannual
-      survey_ID_incorrectly_numbered = case_when(
-        # TODO: deal with diff == 0 but date differs.
-        # this means the survey ID didn't increment correctly
-        survey_ID_diff_from_prev_row == 0 ~ FALSE,
-        survey_ID_diff_from_prev_row == 0.01 ~ FALSE,
-        survey_ID_diff_from_prev_row == 1 ~ FALSE,
-        TRUE ~ TRUE
-      ),
-      # If a row is flagged as being incorrectly numbered, then flag
-      # previous row as well
-      #survey_ID_incorrectly_numbered = ifelse(lead(survey_ID_incorrectly_numbered), TRUE, survey_ID_incorrectly_numbered)
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  arrange(date, tag, stemtag) %>% 
+  # Get row-by-row consecutive difference in survey.ID. Note we round 
+  # b/c of weird floating point arithmetic issues
+  # (See https://stackoverflow.com/questions/9508518/)
+  mutate(
+    survey_ID_diff_from_prev_row = survey.ID - lag(survey.ID),
+    survey_ID_diff_from_prev_row = round(survey_ID_diff_from_prev_row, 5)
+    ) %>% 
+  mutate(
+    survey_ID_correctly_numbered = case_when(
+      # Within survey diff should be 0
+      survey_ID_diff_from_prev_row == 0 ~ TRUE,
+      # Between consecutive surveys diff should be 0.01
+      survey_ID_diff_from_prev_row == 0.01 & date != lag(date) ~ TRUE,
+      # Only time diff shouldn't be 0 or 0.01 is jump from fall to spring biannual (different year)
+      (!survey_ID_diff_from_prev_row %in% c(0, 0.01)) & (year(date) == year(lag(date)) + 1) ~ TRUE,
+      # Otherwise increment
+      TRUE ~ FALSE
     )
-  
-  # Create error/warning flag
-  report_flag <- dendroband_measurements %>% 
-    pull(survey_ID_incorrectly_numbered) %>% 
-    any() 
-  
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/reports/survey_ID_incorrectly_numbered.csv")
-  
-  if(!report_flag){
-    dendroband_measurements %>% 
-      filter(survey_ID_incorrectly_numbered) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, survey_ID_diff_from_prev_row) %>%
-      write_csv(file = filename)
-  } else {
-    if(file.exists(filename)) file.remove(filename)
-  }
-  
-  expect_true(report_flag)
-})
+  ) %>% 
+  # Remove 1st row b/c diff in survey ID doesn't exist.
+  slice(-1) %>%
+  filter(!survey_ID_correctly_numbered)
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
 
 
 
 
 
-
-
+## Does dendroband needs fixing or replacing? Warning if so ----
+alert_name <- "dendro_band_needs_fixing_or_replacing"
 
 min_caliper_width <- 3
 max_caliper_width <- 200
 
-test_that("Warning that dendroband needs replacing or fixing", {
-  # Load all csv's at once
-  dendroband_measurements <- 
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  filter(!between(measure, min_caliper_width, max_caliper_width))
+
+# Append to report
+warning_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(warning_file)
+
+
+
+
+
+
+
+
+
+# Clean and save files ----
+
+## If any field fix errors ----
+if(nrow(require_field_fix_error_file) != 0){
+  # Clean & sort report
+  require_field_fix_error_file <- require_field_fix_error_file %>% 
+    filter(!is.na(tag)) %>% 
+    arrange(quadrat, tag, stemtag)
   
-  # Create variable that tests if each row passes condition
-  dendroband_measurements <- dendroband_measurements %>% 
-    mutate(
-      band_needs_replacing = !between(measure, min_caliper_width, max_caliper_width)
-    )
+  # Write report 
+  report_filepath <- here("testthat/reports/requires_field_fix/require_field_fix_error_file.csv")
+  require_field_fix_error_file %>% 
+    write_csv(file = report_filepath)
   
-  # Create error/warning flag
-  report_flag <- dendroband_measurements %>% 
-    pull(band_needs_replacing) %>% 
-    all() 
+  # Append report to trace of reports to keep track of all the issues
+  trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/require_field_fix_error_file.csv")
   
-  # If any errors, write report. Otherwise, delete any existing reports
-  filename <- here("testthat/warnings/band_needs_replacing.csv")
-  
-  if(!report_flag){
-    dendroband_measurements %>% 
-      filter(band_needs_replacing) %>% 
-      select(tag, stemtag, survey.ID, year, month, day, sp, quadrat, measure, codes) %>%
-      write_csv(file = filename)
-    
-    # TODO: Write code that appends "RE" to codes for those stems that
-    # need new bands installed
+  if(file.exists(trace_of_reports_filepath)){
+    trace_of_reports <- read_csv(file = trace_of_reports_filepath)
   } else {
-    if(file.exists(filename)) file.remove(filename)
+    trace_of_reports <- NULL
   }
   
-  # Not needed since we are only returning a warning
-  expect_true(TRUE)
-})
+  trace_of_reports %>% 
+    bind_rows(require_field_fix_error_file) %>% 
+    distinct() %>% 
+    write_csv(file = trace_of_reports_filepath)
+}
 
-
-
-
-
-
-
-test_that("Year is possible", {
-  # Get current year
-  current_year <- Sys.Date() %>% 
-    str_sub(1, 4) %>% 
-    as.numeric()
+## If any warnings ----
+if(nrow(warning_file) != 0){
+  # Clean & sort report
+  warning_file <- warning_file %>% 
+    filter(!is.na(tag)) %>% 
+    arrange(alert_name, quadrat, tag, stemtag)
   
-  dendroband_measurements <- 
-    # Load all csv's at once
-    here("data") %>% 
-    dir(path = ., pattern = "scbi.dendroAll*", full.names = TRUE) %>%
-    map_dfr(.f = read_csv, col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% 
-    # Test that year is between 2010-current year and not NA
-    mutate(year_valid = between(year, 2010, current_year) & !is.na(year)) %>% 
-    # TODO: remove this later. start with a clean slate for Wednesday July 7
-    filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-07-05") )
+  # Write report 
+  report_filepath <- here("testthat/reports/warnings/warning_file.csv")
+  warning_file %>% 
+    write_csv(file = report_filepath)
   
-  # Test & write report if any errors
-  all_years_valid <- dendroband_measurements %>% 
-    pull(year_valid) %>% 
-    all() 
+  # Append report to trace of reports to keep track of all the issues
+  trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warning_file.csv")
   
-  if(!all_years_valid){
-    filename <- here("testthat/reports/year_possible.csv")
-    
-    dendroband_measurements %>% 
-      filter(!year_valid) %>% 
-      select(tag, stemtag, survey.ID, year, month, day) %>%
-      write_csv(file = filename)
+  if(file.exists(trace_of_reports_filepath)){
+    trace_of_reports <- read_csv(file = trace_of_reports_filepath)
+  } else {
+    trace_of_reports <- NULL
   }
   
-  expect_true(all_years_valid)
-})
-
-
-
-
+  trace_of_reports %>% 
+    bind_rows(warning_file) %>% 
+    distinct() %>% 
+    write_csv(file = trace_of_reports_filepath)
+}
 
 
