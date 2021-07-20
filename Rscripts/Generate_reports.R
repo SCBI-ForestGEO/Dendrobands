@@ -51,7 +51,7 @@ warning_file <- NULL
 
 
 
-## Is day possible? Error if not ----
+## Error: Is day possible? ----
 alert_name <- "day_not_possible"
 
 # Find stems with error
@@ -84,7 +84,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Is month is possible? Error if not ----
+## Error: Is month is possible? ----
 alert_name <- "month_not_possible"
 
 # Find stems with error
@@ -99,7 +99,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Is year possible? Error if not ----
+## Error: Is year possible? ----
 alert_name <- "year_not_possible"
 
 # Get current year
@@ -119,7 +119,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Status of stem is 1) not missing and 2) is "alive" or "dead"? Error if not ----
+## Error: Status of stem is 1) not missing and 2) is "alive" or "dead"? ----
 alert_name <- "status_not_valid"
 
 # Find stems with error
@@ -134,7 +134,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Is measure possible: between 0 & 250? Error if not ----
+## Error: Is measure possible: between 0 & 250? ----
 measure_limit <- 250
 alert_name <- "measure_not_possible"
 
@@ -150,7 +150,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Are all codes defined? Error if not ----
+## Error: Are all codes defined? ----
 alert_name <- "code_not_defined"
 
 # Load codes table
@@ -182,7 +182,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## ANOMALY DETECTION: Is difference between new & previous measurement <= 10? Warning if not ----
+## Warning: Is difference between new & previous measurement <= 10?  ----
 threshold <- 10
 alert_name <- "new_measure_too_different_from_previous"
 
@@ -207,9 +207,9 @@ warning_file <- stems_to_alert %>%
 
 
 
-## Is measure recorded: if measure is missing, then code = RE ----
+## Error: Is measure recorded: if measure is missing, then code = RE, DS, or DC ----
 # Test that if measure is missing, then codes = RE is there
-alert_name <- "measures_not_recorded"
+alert_name <- "measure_not_recorded"
 
 # Find stems with error
 stems_to_alert <- dendroband_measurements %>% 
@@ -228,7 +228,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Is survey ID valid: survey ID increments only in units of 0.01, except jump from fall to spring biannual ----
+## Error: Is survey ID valid: survey ID increments only in units of 0.01, except jump from fall to spring biannual ----
 alert_name <- "survey_ID_increment_wrong"
 
 # Find stems with error
@@ -267,8 +267,8 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Does dendroband needs fixing or replacing? Warning if so ----
-alert_name <- "dendro_band_needs_fixing_or_replacing"
+## Warning: Does dendroband needs fixing or replacing? ----
+alert_name <- "dendroband_needs_fixing_or_replacing"
 
 min_caliper_width <- 3
 max_caliper_width <- 200
