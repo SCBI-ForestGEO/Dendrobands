@@ -43,17 +43,17 @@ jobs:
       - name: Generate reports
         id: Generate_reports
         run: |
-          source("R_scripts/Generate_reports.R")
+          source("Rscripts/Generate_reports.R")
         shell: Rscript {0}
       - name: Generate warnings
         id: Generate_warnings
         run: |
-          source("R_scripts/Generate_warnings.R")
+          source("Rscripts/Generate_warnings.R")
         shell: Rscript {0}
       # - name: Generate map of reports
       #   id: Generate_map_of_reports
       #   run: |
-      #     source("R_scripts/Generate_map_of_reports.R")
+      #     source("Rscripts/Generate_map_of_reports.R")
       #   shell: Rscript {0}
       - name: Commit new files
         run: |
