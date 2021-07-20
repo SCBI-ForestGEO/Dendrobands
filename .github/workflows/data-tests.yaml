@@ -39,7 +39,7 @@ jobs:
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
       - name: Create master csv from raw data forms (2021 and after)
-        id: Generate_reports
+        id: Create master csv
         run: |
           source("Rscripts/survey_forms/create_master_csv_2021_and_after.R")
         shell: Rscript {0}       
