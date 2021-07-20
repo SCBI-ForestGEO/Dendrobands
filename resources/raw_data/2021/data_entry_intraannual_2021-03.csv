@@ -1,4 +1,4 @@
-﻿tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.recorders,data.enter,location,Leaf code
+tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.recorders,data.enter,location,Leaf code
 10671,1,quru,114,2021.2,2021,6,23,83.17,,,Brianna Calkins,Brianna Calkins,South,0
 12025,1,quru,117,2021.2,2021,6,23,78.42,,,Brianna Calkins,Brianna Calkins,North,0
 30225,1,qual,306,2021.2,2021,6,23,34.75,,,Brianna Calkins,Brianna Calkins,South,0
@@ -14,7 +14,7 @@
 32126,1,litu,321,2021.2,2021,6,23,106.48,,,Brianna Calkins,Brianna Calkins,North,1
 40562,1,fagr,406,2021.2,2021,6,23,10.65,,,Brianna Calkins,Brianna Calkins,South,0
 40563,1,fagr,406,2021.2,2021,6,23,65.7,,,Brianna Calkins,Brianna Calkins,South,1
-40564,1,fagr,406,2021.2,2021,6,23,replace,RE,replace tag and dendroband,Brianna Calkins,Brianna Calkins,South,0
+40564,1,fagr,406,2021.2,2021,6,23,NA,RE,replace tag and dendroband,Brianna Calkins,Brianna Calkins,South,0
 40565,1,cagl,406,2021.2,2021,6,23,6.82,,,Brianna Calkins,Brianna Calkins,South,0
 40566,1,cagl,406,2021.2,2021,6,23,28.28,,,Brianna Calkins,Brianna Calkins,South,0
 40567,1,fagr,406,2021.2,2021,6,23,17.31,,,Brianna Calkins,Brianna Calkins,South,0

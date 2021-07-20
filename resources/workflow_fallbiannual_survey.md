@@ -1,6 +1,6 @@
 # Workflow for fall dendroband biannual survey
 
-1. Prepare data sheets for field, and make sure you have a blank data entry form ready for office.
+1. Prepare data sheets for field, and make sure you have a blank raw data form ready for office.
     1. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
 2. Do survey
     1. Double-check no tree is missed. If so, go collect the data the same day or soon thereafter.

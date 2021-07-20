@@ -1,6 +1,18 @@
 # SCBI Dendrometer bands
 
-[![data-tests](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/data-tests/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
+## Dashboard
+
+### data entry issues to resolve?
+[![data-tests](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/data-tests/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/main/testthat/reports)
+
+**[Click here to view error reports.](https://github.com/SCBI-ForestGEO/Dendrobands/tree/main/testthat/reports/)**
+
+### warnings? 
+*These do not cause the tests to fail, but may indicate problems and should be reviewed.*
+
+[![There_is_no_warnings_:-)](https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/main/testthat/reports/warnings.png)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/main/testthat/reports/warnings)
+
+
 
 ## Overview 
 
