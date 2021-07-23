@@ -110,7 +110,7 @@ for(i in 1:length(intraannual_surveys)){
   data_intra <- intraannual_surveys[i] %>% 
     read.csv(colClasses = c("codes" = "character")) %>% 
     # As of 2020 new variable
-    select(-Leaf.code)
+    select(-matches("Leaf.code"))
   # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
   # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
   
