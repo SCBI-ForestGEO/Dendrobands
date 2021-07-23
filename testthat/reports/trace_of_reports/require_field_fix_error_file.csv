@@ -1,3 +1,4 @@
 alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
 survey_ID_increment_wrong,10671,1,2021.2,2021,6,23,1,1,quru,114,6.2,14.5,83.17,NA,NA,alive,Brianna Calkins,Brianna Calkins,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
 survey_ID_increment_wrong,10671,1,2021.3,2021,7,8,1,1,quru,114,6.2,14.5,84.31,NA,NA,alive,Brianna Calkins,Brianna Calkins,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
+survey_ID_increment_wrong,10671,1,2021.05,2021,7,21,1,1,quru,114,6.2,14.5,85.48,NA,NA,alive,Jen Jordan,Jen Jordan,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
