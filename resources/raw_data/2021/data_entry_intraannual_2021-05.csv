@@ -71,7 +71,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 72357,1,quru,728,2021.05,2021,7,21,88.85,, ,Jen Jordan,Jen Jordan,North
 72427,1,litu,730,2021.05,2021,7,21,79.40,, ,Jen Jordan,Jen Jordan,North
 80628,1,quru,811,2021.05,2021,7,21,50.78,, ,Jen Jordan,Jen Jordan,South
-82203,-,litu,822,2021.05,2021,7,21,50.42,, ,Jen Jordan,Jen Jordan,North
+82203,1,litu,822,2021.05,2021,7,21,50.42,, ,Jen Jordan,Jen Jordan,North
 82360,1,litu,829,2021.05,2021,7,21,43.89,, ,Jen Jordan,Jen Jordan,North
 82365,1,qual,829,2021.05,2021,7,21,62.49,, ,Jen Jordan,Jen Jordan,North
 82422,1,litu,831,2021.05,2021,7,21,91.08,, ,Jen Jordan,Jen Jordan,North
