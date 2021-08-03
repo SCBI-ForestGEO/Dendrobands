@@ -292,21 +292,23 @@ warning_file <- stems_to_alert %>%
 
 # Clean and save files ----
 
-## If any field fix errors ----
+## Field fix errors ----
+report_filepath <- here("testthat/reports/requires_field_fix/require_field_fix_error_file.csv")
+trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/require_field_fix_error_file.csv")
+
 if(nrow(require_field_fix_error_file) != 0){
+  # If any field fix errors exist:
+  
   # Clean & sort report
   require_field_fix_error_file <- require_field_fix_error_file %>% 
     filter(!is.na(tag)) %>% 
     arrange(quadrat, tag, stemtag)
   
   # Write report 
-  report_filepath <- here("testthat/reports/requires_field_fix/require_field_fix_error_file.csv")
   require_field_fix_error_file %>% 
     write_csv(file = report_filepath)
   
   # Append report to trace of reports to keep track of all the issues
-  trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/require_field_fix_error_file.csv")
-  
   if(file.exists(trace_of_reports_filepath)){
     trace_of_reports <- read_csv(file = trace_of_reports_filepath)
   } else {
@@ -317,23 +319,31 @@ if(nrow(require_field_fix_error_file) != 0){
     bind_rows(require_field_fix_error_file) %>% 
     distinct() %>% 
     write_csv(file = trace_of_reports_filepath)
+  
+} else { 
+  # If no field fix errors exist, then delete previous report:
+  if(file.exists(report_filepath)) {
+    file.remove(report_filepath)
+  }
 }
 
-## If any warnings ----
+## Warnings ----
+report_filepath <- here("testthat/reports/warnings/warnings_file.csv")
+trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warnings_file.csv")
+
 if(nrow(warning_file) != 0){
+  # If any warnings exist:
+  
   # Clean & sort report
   warning_file <- warning_file %>% 
     filter(!is.na(tag)) %>% 
     arrange(alert_name, quadrat, tag, stemtag)
   
   # Write report 
-  report_filepath <- here("testthat/reports/warnings/warnings_file.csv")
   warning_file %>% 
     write_csv(file = report_filepath)
   
   # Append report to trace of reports to keep track of all the issues
-  trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warnings_file.csv")
-  
   if(file.exists(trace_of_reports_filepath)){
     trace_of_reports <- read_csv(file = trace_of_reports_filepath)
   } else {
@@ -344,6 +354,12 @@ if(nrow(warning_file) != 0){
     bind_rows(warning_file) %>% 
     distinct() %>% 
     write_csv(file = trace_of_reports_filepath)
+  
+} else {
+  # If no warnings exist, then delete previous report:
+  if (file.exists(report_filepath)) {
+    file.remove(report_filepath)
+  }
 }
 
 
