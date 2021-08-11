@@ -109,8 +109,12 @@ for(i in 1:length(intraannual_surveys)){
   #change for the appropriate surveyID file
   data_intra <- intraannual_surveys[i] %>% 
     read.csv(colClasses = c("codes" = "character")) %>% 
-    # As of 2020 new variable
-    select(-matches("Leaf.code"))
+    # As of 2020 new variable, remove it:
+    select(-matches("Leaf.code")) %>% 
+    # Select specific columns
+    select(tag, stemtag, sp, quadrat, survey.ID, year, month, 
+      day, measure, codes, notes, field.recorders, data.enter, 
+      location)
   # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
   # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
   
