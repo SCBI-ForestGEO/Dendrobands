@@ -13,6 +13,11 @@
 [![There_is_no_warnings_:-)](testthat/reports/warnings.png)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports/warnings)
 
 
+### measurement anomalies?
+
+![measurement_anomalies](testthat/reports/measurement_anomalies.png)
+
+
 
 ## Overview 
 
