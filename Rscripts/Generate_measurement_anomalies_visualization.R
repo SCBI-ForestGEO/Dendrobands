@@ -31,7 +31,8 @@ dendroband_measurements <- dendroband_measurements %>%
   mutate(
     date = ymd(str_c(year, month, day, sep = "-")),
     stemtag = as.factor(stemtag)
-  )
+  ) %>% 
+  filter(!is.na(measure))
 
 
 anomaly_tags <- anomalies %>% 
@@ -53,5 +54,5 @@ dendroband_measurements %>%
     title = "All stems with at least one difference in dendroband measures > 10mm"
   )
 filename <- file.path(here("testthat"), "reports/measurement_anomalies.png")
-ggsave(filename, device = "png", width = 16 / 2, units = "in", dpi = 300)
+ggsave(filename, device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
 
