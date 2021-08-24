@@ -1,3 +1,0 @@
-alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
-measure_not_recorded,12025,1,2021.04,2021,7,8,1,1,quru,117,15,16.3,NA,Original 63.47 seems like outlier,NA,alive,Brianna Calkins,Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
-code_not_defined,12025,1,2021.04,2021,7,8,1,1,quru,117,15,16.3,NA,Original63.47seemslikeoutlier,NA,alive,Brianna Calkins,Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
