@@ -27,19 +27,21 @@ anomalies <- read_csv("testthat/reports/warnings/warnings_file.csv") %>%
 
 dendroband_measurements <- dendroband_measurements %>% 
   filter(year == 2021, intraannual == 1) %>% 
-  select(tag, stemtag, year, month, day, measure) %>% 
   mutate(
     date = ymd(str_c(year, month, day, sep = "-")),
     stemtag = as.factor(stemtag)
-  )
+  ) %>% 
+  filter(!is.na(measure))
 
 
 anomaly_tags <- anomalies %>% 
   pull(tag) %>% 
   unique()
 
+anamoly_dendroband_measurements <- dendroband_measurements %>% 
+  filter(tag %in% anomaly_tags)
 
-dendroband_measurements %>% 
+anamoly_dendroband_measurements %>% 
   filter(tag %in% anomaly_tags) %>% 
   ggplot(aes(x = date, y = measure, col = stemtag)) +
   geom_point() + 
@@ -47,11 +49,13 @@ dendroband_measurements %>%
   facet_wrap(~tag, scales = "free_y", ncol = 4) +
   theme_bw() +
   geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
+  geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
   labs(
     x = "Biweekly survey date",
     y = "Measure recorded",
-    title = "All stems with at least one difference in dendroband measures > 10mm"
+    title = "All stems with at least one difference in dendroband measures > 10mm",
+    subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
   )
 filename <- file.path(here("testthat"), "reports/measurement_anomalies.png")
-ggsave(filename, device = "png", width = 16 / 2, units = "in", dpi = 300)
+ggsave(filename, device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
 

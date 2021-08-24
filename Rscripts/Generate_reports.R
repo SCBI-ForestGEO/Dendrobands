@@ -181,7 +181,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Warning: Is difference between new & previous measurement <= 10?  ----
+## Warning: Is difference between new & previous measurement <= 10 (unless new band is installed)?  ----
 threshold <- 10
 alert_name <- "new_measure_too_different_from_previous"
 
@@ -191,7 +191,7 @@ stems_to_alert <- dendroband_measurements %>%
   group_by(tag, stemtag) %>% 
   mutate(
     diff_from_previous_measure = measure - lag(measure),
-    measure_is_reasonable = abs(diff_from_previous_measure) < threshold
+    measure_is_reasonable = (abs(diff_from_previous_measure) < threshold) | lag(new.band == 1)
   ) %>%
   filter(!measure_is_reasonable)
 

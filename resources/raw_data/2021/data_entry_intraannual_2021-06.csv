@@ -6,9 +6,9 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 30234,1,fagr,306,2021.06,2021,8,4,15.57,,,Brianna Calkins,Brianna Calkins,South,0
 30331,1,cagl,306,2021.06,2021,8,4,52.59,,,Brianna Calkins,Brianna Calkins,South,0
 30333,1,fagr,306,2021.06,2021,8,4,75.36,,,Brianna Calkins,Brianna Calkins,South,0
-30339,1,litu,307,2021.06,2021,8,4,101.67,,,Brianna Calkins,Brianna Calkins,South,0
-30339,2,litu,307,2021.06,2021,8,4,104.26,,,Brianna Calkins,Brianna Calkins,South,0
-30339,3,litu,307,2021.06,2021,8,4,47.11,,,Brianna Calkins,Brianna Calkins,South,0
+30339,1,litu,307,2021.06,2021,8,4,101.67,,Original 46.87 seems to be for wrong stem for this tag,Brianna Calkins,Brianna Calkins,South,0
+30339,2,litu,307,2021.06,2021,8,4,104.26,,Original 102.04 seems to be for wrong stem for this tag,Brianna Calkins,Brianna Calkins,South,0
+30339,3,litu,307,2021.06,2021,8,4,47.11,,Original 103.24 seems to be for wrong stem for this tag,Brianna Calkins,Brianna Calkins,South,0
 30467,1,litu,314,2021.06,2021,8,4,114.87,,,Brianna Calkins,Brianna Calkins,South,1
 30512,1,quru,313,2021.06,2021,8,4,49.82,,,Brianna Calkins,Brianna Calkins,South,1
 32126,1,litu,321,2021.06,2021,8,4,115.46,,,Brianna Calkins,Brianna Calkins,North,1
@@ -132,10 +132,10 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 190067,1,litu,1902,2021.06,2021,8,4,49.34,,,Brianna Calkins,Brianna Calkins,South,2
 190413,1,litu,1904,2021.06,2021,8,4,114.61,,,Brianna Calkins,Brianna Calkins,South,1
 190694,1,quru,1909,2021.06,2021,8,4,15.95,,,Brianna Calkins,Brianna Calkins,South,0
-190838,1,quru,1916,2021.06,2021,8,4,71.36,,deadstanding,Brianna Calkins,Brianna Calkins,North,0
+190838,1,quru,1916,2021.06,2021,8,4,71.36,DS,,Brianna Calkins,Brianna Calkins,North,0
 192244,1,qual,1919,2021.06,2021,8,4,44.92,,,Brianna Calkins,Brianna Calkins,North,0
 192437,1,litu,1925,2021.06,2021,8,4,20.57,,,Brianna Calkins,Brianna Calkins,North,1
-192466,1,quru,1926,2021.06,2021,8,4,14.93,,,Brianna Calkins,Brianna Calkins,North,0
+192466,1,quru,1926,2021.06,2021,8,4,,,Original 14.93 seems like outlier,Brianna Calkins,Brianna Calkins,North,0
 192484,1,quru,1926,2021.06,2021,8,4,64.28,,,Brianna Calkins,Brianna Calkins,North,0
 192542,1,litu,1929,2021.06,2021,8,4,11.25,,,Brianna Calkins,Brianna Calkins,North,1
 192544,1,litu,1929,2021.06,2021,8,4,13.87,,,Brianna Calkins,Brianna Calkins,North,1
