@@ -1,6 +1,6 @@
 ﻿tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.recorders,data.enter,location,Leaf code
 10671,1,quru,114,2021.04,2021,7,8,84.31,,,Brianna Calkins,Brianna Calkins,South,0
-12025,1,quru,117,2021.04,2021,7,8,63.47,,,Brianna Calkins,Brianna Calkins,North,0
+12025,1,quru,117,2021.04,2021,7,8,,Original 63.47 seems like outlier,,Brianna Calkins,Brianna Calkins,North,0
 30225,1,qual,306,2021.04,2021,7,8,34.68,,,Brianna Calkins,Brianna Calkins,South,0
 30233,1,fagr,306,2021.04,2021,7,8,57.72,,,Brianna Calkins,Brianna Calkins,South,0
 30234,1,fagr,306,2021.04,2021,7,8,15.31,,,Brianna Calkins,Brianna Calkins,South,0
