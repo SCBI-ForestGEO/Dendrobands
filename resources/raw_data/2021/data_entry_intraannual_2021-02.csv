@@ -11,7 +11,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 30339,3,litu,307,2021.02,2021,6,08,43.38,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
 30467,1,litu,314,2021.02,2021,6,08,106.55,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,1
 30512,1,quru,313,2021.02,2021,6,08,44.67,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,1
-32126,1,litu,321,2021.02,2021,6,08,128,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,1
+32126,1,litu,321,2021.02,2021,6,08,,Original 128 seems like outlier,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,1
 40562,1,fagr,406,2021.02,2021,6,08,8.87,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
 40563,1,fagr,406,2021.02,2021,6,08,61.86,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,1
 40564,1,fagr,406,2021.02,2021,6,08,NA,RE,replace tag and dendroband,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
