@@ -81,7 +81,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 91477,1,litu,908,2021.02,2021,6,08,51.93,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
 92139,1,quru,920,2021.02,2021,6,08,38.03,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,0
 100754,1,quru,1005,2021.02,2021,6,08,40.74,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
-100771,1,quru,1005,2021.02,2021,6,08,214.6,,estimated,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
+100771,1,quru,1005,2021.02,2021,6,08,,Original 214.6 seems like outlier,estimated,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
 100905,1,litu,1008,2021.02,2021,6,08,23.83,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,1
 100960,1,quru,1010,2021.02,2021,6,08,91.68,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
 102177,1,qual,1020,2021.02,2021,6,08,127.5,,estimated,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,0
