@@ -109,7 +109,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 122303,1,qual,1223,2021.02,2021,6,08,96,,estimated: meter error,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,0
 122343,1,qual,1225,2021.02,2021,6,08,124.24,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,0
 122427,1,qual,1227,2021.02,2021,6,08,40.5,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,1
-122482,1,litu,1228,2021.02,2021,6,08,10.99,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,2
+122482,1,litu,1228,2021.02,2021,6,08,,Original 10.99 seems like outlier,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,North,2
 130838,1,litu,1305,2021.02,2021,6,08,41.6,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,1
 131087,1,quru,1310,2021.02,2021,6,08,70.52,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
 131239,1,quru,1314,2021.02,2021,6,08,23.4,,,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,South,0
