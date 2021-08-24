@@ -560,7 +560,7 @@
 72375,1,2021.01,2021,3,24,1,0,"litu",728,13.7,17.1,94.46,"","","alive","Bill McShea, Jessica Shue","Jessica Shue",9015,9015,NA,669.1,0,85,2,NA,1.28,NA,NA,NA,NA
 72377,1,2021.01,2021,3,24,1,0,"litu",728,10.6,16.1,38.66,"","","alive","Bill McShea, Jessica Shue","Jessica Shue",9016,9016,NA,768,0,931,2,NA,1.2,NA,NA,NA,NA
 72427,1,2021.01,2021,3,24,1,1,"litu",730,3.6,19.4,70.53,"","","alive","Bill McShea, Jessica Shue","Jessica Shue",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2021.02,2021,6,8,1,1,"litu",730,3.6,19.4,86.63,"","","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+72427,1,2021.02,2021,6,8,1,1,"litu",730,3.6,19.4,NA,"","Original 86.63 seems like outlier","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2021.03,2021,6,23,1,1,"litu",730,3.6,19.4,79.19,"","","alive","Brianna Calkins","Brianna Calkins",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2021.04,2021,7,8,1,1,"litu",730,3.6,19.4,79.96,"","","alive","Brianna Calkins","Brianna Calkins",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2021.05,2021,7,21,1,1,"litu",730,3.6,19.4,79.4,""," ","alive","Jen Jordan","Jen Jordan",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
@@ -1269,7 +1269,7 @@
 190694,1,2021.01,2021,3,23,1,1,"quru",1909,18.2,14.7,69.835,"","band removed, installation measurement likely a typo:  10.15","alive","Bill McShea, Jessica Shue","Jessica Shue",28251,28251,NA,1265.5,1,859,2,NA,1.42,NA,NA,NA,NA
 190694,1,2021.02,2021,6,8,1,1,"quru",1909,18.2,14.7,12.57,"","","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
 190694,1,2021.03,2021,6,23,1,1,"quru",1909,18.2,14.7,12.83,"","","alive","Brianna Calkins","Brianna Calkins",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
-190694,1,2021.04,2021,7,8,1,1,"quru",1909,18.2,14.7,5.12,"","","alive","Brianna Calkins","Brianna Calkins",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
+190694,1,2021.04,2021,7,8,1,1,"quru",1909,18.2,14.7,NA,"","Original 5.12 seems like outlier","alive","Brianna Calkins","Brianna Calkins",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
 190694,1,2021.05,2021,7,21,1,1,"quru",1909,18.2,14.7,15.92,""," ","alive","Brianna Caulkins","Jen Jordan",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
 190694,1,2021.06,2021,8,4,1,1,"quru",1909,18.2,14.7,15.95,"","","alive","Brianna Calkins","Brianna Calkins",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
 190694,1,2021.07,2021,8,18,1,1,"quru",1909,18.2,14.7,16.05,"","","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28251,28251,NA,1265.5,0,859,2,NA,1.42,NA,NA,NA,NA
@@ -1279,10 +1279,10 @@
 190835,1,2021.01,2021,3,23,1,0,"litu",1916,20.5,15.4,119.86,"","","alive","Bill McShea, Jessica Shue","Jessica Shue",28375,28375,NA,409.3,0,742,2,NA,1.3,NA,NA,NA,NA
 190838,1,2021.01,2021,3,23,1,1,"quru",1916,19.1,19.7,70.6,"","","alive","Bill McShea, Jessica Shue","Jessica Shue",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
 190838,1,2021.02,2021,6,8,1,1,"quru",1916,19.1,19.7,NA,"DS","Original 54.69 seems like outlier","dead","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
-190838,1,2021.03,2021,6,23,1,1,"quru",1916,19.1,19.7,69.08,"","deadstanding","dead","Brianna Calkins","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
-190838,1,2021.04,2021,7,8,1,1,"quru",1916,19.1,19.7,70.55,"","deadstanding","dead","Brianna Calkins","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
+190838,1,2021.03,2021,6,23,1,1,"quru",1916,19.1,19.7,69.08,"DS","","dead","Brianna Calkins","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
+190838,1,2021.04,2021,7,8,1,1,"quru",1916,19.1,19.7,70.55,"DS","","dead","Brianna Calkins","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
 190838,1,2021.05,2021,7,21,1,1,"quru",1916,19.1,19.7,70.99,""," ","dead","Brianna Caulkins","Jen Jordan",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
-190838,1,2021.06,2021,8,4,1,1,"quru",1916,19.1,19.7,71.36,"","deadstanding","dead","Brianna Calkins","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
+190838,1,2021.06,2021,8,4,1,1,"quru",1916,19.1,19.7,71.36,"DS","","dead","Brianna Calkins","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
 190838,1,2021.07,2021,8,18,1,1,"quru",1916,19.1,19.7,68.98,"","","dead","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28377,28377,NA,553.5,0,743,2,NA,1.3,NA,NA,NA,NA
 190840,1,2021.01,2021,3,23,1,0,"litu",1916,15,17.2,7.9,"","only one band","alive","Bill McShea, Jessica Shue","Jessica Shue",28379,28379,NA,164.9,1,722,2,NA,1.3,NA,NA,NA,NA
 190935,1,2021.01,2021,3,23,1,0,"quru",1916,15,17.2,NA,"DC","","dead","Bill McShea, Jessica Shue","Jessica Shue",28379,28379,NA,164.9,0,722,2,NA,1.3,NA,NA,NA,NA
@@ -1306,7 +1306,7 @@
 192437,1,2021.06,2021,8,4,1,1,"litu",1925,17,11.5,20.57,"","","alive","Brianna Calkins","Brianna Calkins",28848,28848,NA,436.9,0,853,2,NA,1.3,NA,NA,NA,NA
 192437,1,2021.07,2021,8,18,1,1,"litu",1925,17,11.5,20.69,"","","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28848,28848,NA,436.9,0,853,2,NA,1.3,NA,NA,NA,NA
 192466,1,2021.01,2021,3,23,1,1,"quru",1926,13.3,1.7,99.44,"","","alive","Bill McShea, Jessica Shue","Jessica Shue",28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
-192466,1,2021.02,2021,6,8,1,1,"quru",1926,13.3,1.7,89.99,"","","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
+192466,1,2021.02,2021,6,8,1,1,"quru",1926,13.3,1.7,NA,"","Original 89.99 seems like outlier","alive","Brianna Calkins, Teagan Rogers, Jennifer Jordan","Brianna Calkins",28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
 192466,1,2021.03,2021,6,23,1,1,"quru",1926,13.3,1.7,111.29,"","","alive","Brianna Calkins","Brianna Calkins",28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
 192466,1,2021.04,2021,7,8,1,1,"quru",1926,13.3,1.7,114.28,"","","alive","Brianna Calkins","Brianna Calkins",28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
 192466,1,2021.05,2021,7,21,1,1,"quru",1926,13.3,1.7,114.66,""," ","alive","Brianna Caulkins","Jen Jordan",28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
