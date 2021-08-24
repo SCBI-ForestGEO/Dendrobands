@@ -27,7 +27,6 @@ anomalies <- read_csv("testthat/reports/warnings/warnings_file.csv") %>%
 
 dendroband_measurements <- dendroband_measurements %>% 
   filter(year == 2021, intraannual == 1) %>% 
-  select(tag, stemtag, year, month, day, measure) %>% 
   mutate(
     date = ymd(str_c(year, month, day, sep = "-")),
     stemtag = as.factor(stemtag)
@@ -39,8 +38,10 @@ anomaly_tags <- anomalies %>%
   pull(tag) %>% 
   unique()
 
+anamoly_dendroband_measurements <- dendroband_measurements %>% 
+  filter(tag %in% anomaly_tags)
 
-dendroband_measurements %>% 
+anamoly_dendroband_measurements %>% 
   filter(tag %in% anomaly_tags) %>% 
   ggplot(aes(x = date, y = measure, col = stemtag)) +
   geom_point() + 
