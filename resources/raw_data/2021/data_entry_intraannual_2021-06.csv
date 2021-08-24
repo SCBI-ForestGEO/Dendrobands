@@ -132,7 +132,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,codes,notes,field.record
 190067,1,litu,1902,2021.06,2021,8,4,49.34,,,Brianna Calkins,Brianna Calkins,South,2
 190413,1,litu,1904,2021.06,2021,8,4,114.61,,,Brianna Calkins,Brianna Calkins,South,1
 190694,1,quru,1909,2021.06,2021,8,4,15.95,,,Brianna Calkins,Brianna Calkins,South,0
-190838,1,quru,1916,2021.06,2021,8,4,71.36,,deadstanding,Brianna Calkins,Brianna Calkins,North,0
+190838,1,quru,1916,2021.06,2021,8,4,71.36,DS,,Brianna Calkins,Brianna Calkins,North,0
 192244,1,qual,1919,2021.06,2021,8,4,44.92,,,Brianna Calkins,Brianna Calkins,North,0
 192437,1,litu,1925,2021.06,2021,8,4,20.57,,,Brianna Calkins,Brianna Calkins,North,1
 192466,1,quru,1926,2021.06,2021,8,4,,,Original 14.93 seems like outlier,Brianna Calkins,Brianna Calkins,North,0
