@@ -54,7 +54,7 @@ anamoly_dendroband_measurements %>%
     x = "Biweekly survey date",
     y = "Measure recorded",
     title = "All stems with at least one difference in dendroband measures > 10mm",
-    subtitle = "Dashed line = CI activation date, solid lines = new band dates"
+    subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
   )
 filename <- file.path(here("testthat"), "reports/measurement_anomalies.png")
 ggsave(filename, device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
