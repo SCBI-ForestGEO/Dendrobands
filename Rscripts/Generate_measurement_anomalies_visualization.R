@@ -1,4 +1,5 @@
 # Creates visualizations of all new measurements that are "anomalous"
+# i.e. tagged "new_measure_too_different_from_previous"
 
 library(ggplot2)
 library(dplyr)
