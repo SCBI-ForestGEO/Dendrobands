@@ -1,6 +1,5 @@
-# Creates visualizations of all new measurements that are "anomalous"
+# Creates visualizations of all new measurements that are "anomalous" ----
 # i.e. tagged "new_measure_too_different_from_previous"
-
 library(ggplot2)
 library(dplyr)
 library(readr)
@@ -8,7 +7,7 @@ library(here)
 library(lubridate)
 library(stringr)
 
-## Load all master data files into a single data frame 
+# Load all master data files into a single data frame ----
 master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", full.names = TRUE)
 
 dendroband_measurements <- NULL
@@ -20,12 +19,8 @@ for(i in 1:length(master_data_filenames)){
     )
 }
 
-
-
-
-anomalies <- read_csv("testthat/reports/warnings/warnings_file.csv") %>% 
-  filter(alert_name == "new_measure_too_different_from_previous")
-
+# Focus for now only on 2021 biweekly measurements
+# TODO: later include biannual
 dendroband_measurements <- dendroband_measurements %>% 
   filter(year == 2021, intraannual == 1) %>% 
   mutate(
@@ -35,13 +30,20 @@ dendroband_measurements <- dendroband_measurements %>%
   filter(!is.na(measure))
 
 
-anomaly_tags <- anomalies %>% 
+
+# Pull out all anomalous measurements ----
+anomaly_tags <- 
+  "testthat/reports/warnings/warnings_file.csv" %>% 
+  read_csv() %>% 
+  filter(alert_name == "new_measure_too_different_from_previous") %>% 
   pull(tag) %>% 
   unique()
 
 anamoly_dendroband_measurements <- dendroband_measurements %>% 
   filter(tag %in% anomaly_tags)
 
+
+# Plot ----
 anamoly_dendroband_measurements %>% 
   filter(tag %in% anomaly_tags) %>% 
   ggplot(aes(x = date, y = measure, col = stemtag)) +
@@ -57,6 +59,8 @@ anamoly_dendroband_measurements %>%
     title = "All stems with at least one difference in dendroband measures > 10mm",
     subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
   )
+
+# Write to file
 filename <- file.path(here("testthat"), "reports/measurement_anomalies.png")
 ggsave(filename, device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
 
