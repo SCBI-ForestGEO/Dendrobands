@@ -61,6 +61,63 @@ anamoly_dendroband_measurements %>%
   )
 
 # Write to file
-filename <- file.path(here("testthat"), "reports/measurement_anomalies.png")
-ggsave(filename, device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
+file.path(here("testthat"), "reports/measurement_anomalies.png") %>% 
+  ggsave(device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
 
+
+
+
+
+
+# Test ground -----
+anamoly_dendroband_measurements %>% 
+  filter(tag == 12025) %>% 
+  slice(1:2) %>% 
+  select(date, measure) %>% 
+  mutate(
+    diff_date = date - lag(date),
+    diff_date = as.numeric(diff_date),
+    diff_measure = measure - lag(measure),
+    rate = diff_measure/diff_date
+  )
+
+
+dendroband_measurements <- NULL
+for(i in 1:length(master_data_filenames)){
+  dendroband_measurements <- 
+    bind_rows(
+      dendroband_measurements,
+      read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double()))
+    )
+}
+
+dendroband_measurements <- dendroband_measurements %>% 
+  filter(year == 2020) %>% 
+  mutate(
+    date = ymd(str_c(year, month, day, sep = "-")),
+    stemtag = as.factor(stemtag)
+  ) %>% 
+  filter(!is.na(measure))
+
+growth_rates <- dendroband_measurements %>% 
+  select(tag, stemtag, sp, date, measure) %>% 
+  group_by(tag, stemtag, sp) %>% 
+  slice(c(1,n())) %>% 
+  mutate(
+    diff_date = date - lag(date),
+    diff_date = as.numeric(diff_date),
+    diff_measure = measure - lag(measure),
+    rate = diff_measure/diff_date
+  ) %>% 
+  filter(!is.na(diff_date) & !is.na(rate)) %>% 
+  select(-c(date, measure))
+
+ggplot(growth_rates, aes(x=sp, y = rate)) +
+  geom_boxplot() +
+  labs(
+    x = "species", y = "Growth (mm) per day", 
+    title = "2020 growth rates for all dendrobanded trees"
+  )
+
+file.path(here("testthat"), "reports/growth_rates_2020.png") %>% 
+  ggsave(device = "png", width = 16 / 2, height = (16/2)*(7/8), units = "in", dpi = 300)
