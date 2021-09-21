@@ -11,6 +11,7 @@ library(dplyr)
 library(readr)
 library(stringr)
 library(purrr)
+library(ggplot2)
 library(lubridate)
 
 ## Load all master data files into a single data frame 
@@ -181,31 +182,6 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Warning: Is difference between new & previous measurement <= 10 (unless new band is installed)?  ----
-threshold <- 10
-alert_name <- "new_measure_too_different_from_previous"
-
-# Find stems with error
-stems_to_alert <- dendroband_measurements %>% 
-  arrange(tag, stemtag, date) %>% 
-  group_by(tag, stemtag) %>% 
-  mutate(
-    diff_from_previous_measure = measure - lag(measure),
-    measure_is_reasonable = (abs(diff_from_previous_measure) < threshold) | lag(new.band == 1)
-  ) %>%
-  filter(!measure_is_reasonable)
-
-# Append to report
-warning_file <- stems_to_alert %>% 
-  mutate(alert_name = alert_name) %>% 
-  select(alert_name, all_of(orig_master_data_var_names)) %>% 
-  bind_rows(warning_file)
-
-
-
-
-
-
 ## Error: Is measure recorded: if measure is missing, then code = RE, DS, or DC ----
 # Test that if measure is missing, then codes = RE is there
 alert_name <- "measure_not_recorded"
@@ -263,6 +239,56 @@ require_field_fix_error_file <- stems_to_alert %>%
   bind_rows(require_field_fix_error_file)
 
 
+
+
+
+## Error: Anomaly detection: Is difference between new & previous measurement too big (unless new band is installed)?  ----
+threshold <- 10
+alert_name <- "new_measure_too_different_from_previous"
+
+# Find stems with error
+stems_to_alert <- dendroband_measurements %>% 
+  arrange(tag, stemtag, date) %>% 
+  group_by(tag, stemtag) %>% 
+  mutate(
+    diff_from_previous_measure = measure - lag(measure),
+    measure_is_reasonable = (abs(diff_from_previous_measure) < threshold) | lag(new.band == 1)
+  ) %>%
+  filter(!measure_is_reasonable)
+
+# Append to report
+require_field_fix_error_file <- stems_to_alert %>% 
+  mutate(alert_name = alert_name) %>% 
+  select(alert_name, all_of(orig_master_data_var_names)) %>% 
+  bind_rows(require_field_fix_error_file)
+
+
+
+# Display plot anomalies in README
+anamoly_dendroband_measurements <- dendroband_measurements %>% 
+  filter(!is.na(measure) & tag %in% stems_to_alert$tag) %>% 
+  mutate(stemtag = factor(stemtag))
+
+anamoly_dendroband_measurements %>% 
+  ggplot(aes(x = date, y = measure, col = stemtag)) +
+  geom_point() + 
+  geom_line() +
+  facet_wrap(~tag, scales = "free_y") +
+  theme_bw() +
+  geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
+  geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
+  labs(
+    x = "Biweekly survey date",
+    y = "Measure recorded",
+    title = "All stems with at least one difference in dendroband measures > 10mm",
+    subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
+  )
+ggsave(
+  here("testthat/reports/measurement_anomalies.png"), 
+  device = "png", 
+  width = 16 / 2, height = (16/2)*(7/8), 
+  units = "in", dpi = 300
+)
 
 
 

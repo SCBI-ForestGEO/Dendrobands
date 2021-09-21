@@ -1,10 +1,4 @@
 alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
-survey_ID_increment_wrong,10671,1,2021.2,2021,6,23,1,1,quru,114,6.2,14.5,83.17,NA,NA,alive,Brianna Calkins,Brianna Calkins,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
-survey_ID_increment_wrong,10671,1,2021.3,2021,7,8,1,1,quru,114,6.2,14.5,84.31,NA,NA,alive,Brianna Calkins,Brianna Calkins,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
-survey_ID_increment_wrong,10671,1,2021.05,2021,7,21,1,1,quru,114,6.2,14.5,85.48,NA,NA,alive,Jen Jordan,Jen Jordan,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
-code_not_defined,60571,1,2021.07,2021,8,18,1,1,caca,614,12,17.4,23.4,D,dead on ground,dead,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,7550,7550,NA,116,0,576,2,NA,1.48,NA,NA,NA,NA
-measure_not_recorded,12025,1,2021.04,2021,7,8,1,1,quru,117,15,16.3,NA,Original 63.47 seems like outlier,NA,alive,Brianna Calkins,Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
-code_not_defined,12025,1,2021.04,2021,7,8,1,1,quru,117,15,16.3,NA,Original63.47seemslikeoutlier,NA,alive,Brianna Calkins,Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
 new_measure_too_different_from_previous,12025,1,2021.02,2021,6,8,1,1,quru,117,15,16.3,75.33,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
 new_measure_too_different_from_previous,12025,1,2021.08,2021,9,11,1,1,quru,117,15,16.3,90.28,NA,NA,alive,Jen Jordan,Jen Jordan,1713,1713,NA,832.5,0,830,2,NA,1.3,NA,NA,NA,NA
 new_measure_too_different_from_previous,72357,1,2021.02,2021,6,8,1,1,quru,728,1.7,2,82.06,NA,NA,alive,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",Brianna Calkins,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
