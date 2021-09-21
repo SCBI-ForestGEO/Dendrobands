@@ -8,7 +8,6 @@ on:
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
-      - 'Rscripts/Generate_measurement_anomalies_visualization.R'      
   pull_request:
     paths:
       - 'data/**'
@@ -16,7 +15,6 @@ on:
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
-      - 'Rscripts/Generate_measurement_anomalies_visualization.R'
       
 name: data-tests
 
@@ -38,26 +36,25 @@ jobs:
           options(crayon.enabled = TRUE)
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
+        
       - name: Create master csv from raw data forms (for 2021 and after)
         id: Create_master_csv
         run: |
           source("Rscripts/survey_forms/create_master_csv_2021_and_after.R")
-        shell: Rscript {0}       
+        shell: Rscript {0}     
+        
       - name: Generate reports
         id: Generate_reports
         run: |
           source("Rscripts/Generate_reports.R")
         shell: Rscript {0}
+        
       - name: Generate warnings
         id: Generate_warnings
         run: |
           source("Rscripts/Generate_warnings.R")
         shell: Rscript {0}
-      - name: Generate visualization of measurement anomalies
-        id: Generate_measurement_anomalies_visualization
-        run: |
-          source("Rscripts/Generate_measurement_anomalies_visualization.R")
-        shell: Rscript {0}
+
       - name: Commit new files
         run: |
           git config --local user.email "actions@github.com"
@@ -65,6 +62,7 @@ jobs:
           git pull
           git add --all
           git commit -am "add data"
-          git push     
+          git push
+          
       - name: Run tests
         run: Rscript testthat.R
