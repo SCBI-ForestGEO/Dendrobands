@@ -254,7 +254,8 @@ stems_to_alert <- dendroband_measurements %>%
     diff_from_previous_measure = measure - lag(measure),
     measure_is_reasonable = (abs(diff_from_previous_measure) < threshold) | lag(new.band == 1)
   ) %>%
-  filter(!measure_is_reasonable)
+  filter(!measure_is_reasonable) %>% 
+  mutate(tag_sp = str_c(tag, ": ", sp))
 
 # Append to report
 require_field_fix_error_file <- stems_to_alert %>% 
@@ -267,13 +268,14 @@ require_field_fix_error_file <- stems_to_alert %>%
 # Display plot anomalies in README
 anamoly_dendroband_measurements <- dendroband_measurements %>% 
   filter(!is.na(measure) & tag %in% stems_to_alert$tag) %>% 
-  mutate(stemtag = factor(stemtag))
+  mutate(stemtag = factor(stemtag)) %>% 
+  mutate(tag_sp = str_c(tag, ": ", sp))
 
 anomaly_plot <- anamoly_dendroband_measurements %>% 
-  mutate(tag_sp = str_c(tag, ": ", sp)) %>% 
   ggplot(aes(x = date, y = measure, col = stemtag)) +
-  geom_point() + 
+  geom_point() +
   geom_line() +
+  geom_point(data = stems_to_alert, col = "black", size = 4, shape = 18) +
   facet_wrap(~tag_sp, scales = "free_y") +
   theme_bw() +
   geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
@@ -281,7 +283,7 @@ anomaly_plot <- anamoly_dendroband_measurements %>%
   labs(
     x = "Biweekly survey date",
     y = "Measure recorded",
-    title = "All stems with at least one difference in dendroband measures > 10mm",
+    title = "All stems with a difference in dendroband measures > 10mm (marked with diamond)",
     subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
   )
 ggsave(
