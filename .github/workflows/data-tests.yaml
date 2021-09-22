@@ -64,5 +64,5 @@ jobs:
           git commit -am "add data"
           git push
           
-      - name: Run tests
+      - name: Are there any data collection errors?
         run: Rscript testthat.R

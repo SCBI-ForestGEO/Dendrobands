@@ -254,7 +254,8 @@ stems_to_alert <- dendroband_measurements %>%
     diff_from_previous_measure = measure - lag(measure),
     measure_is_reasonable = (abs(diff_from_previous_measure) < threshold) | lag(new.band == 1)
   ) %>%
-  filter(!measure_is_reasonable)
+  filter(!measure_is_reasonable) %>% 
+  mutate(tag_sp = str_c(tag, ": ", sp))
 
 # Append to report
 require_field_fix_error_file <- stems_to_alert %>% 
@@ -267,24 +268,27 @@ require_field_fix_error_file <- stems_to_alert %>%
 # Display plot anomalies in README
 anamoly_dendroband_measurements <- dendroband_measurements %>% 
   filter(!is.na(measure) & tag %in% stems_to_alert$tag) %>% 
-  mutate(stemtag = factor(stemtag))
+  mutate(stemtag = factor(stemtag)) %>% 
+  mutate(tag_sp = str_c(tag, ": ", sp))
 
-anamoly_dendroband_measurements %>% 
+anomaly_plot <- anamoly_dendroband_measurements %>% 
   ggplot(aes(x = date, y = measure, col = stemtag)) +
-  geom_point() + 
+  geom_point() +
   geom_line() +
-  facet_wrap(~tag, scales = "free_y") +
+  geom_point(data = stems_to_alert, col = "black", size = 4, shape = 18) +
+  facet_wrap(~tag_sp, scales = "free_y") +
   theme_bw() +
   geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
   geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
   labs(
     x = "Biweekly survey date",
     y = "Measure recorded",
-    title = "All stems with at least one difference in dendroband measures > 10mm",
-    subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
+    title = "Stems with an anomalous measure: abs diff > 10mm, marked with diamond",
+    subtitle = "Dashed line = CI activation date, solid lines (if any) = new band install date"
   )
 ggsave(
-  here("testthat/reports/measurement_anomalies.png"), 
+  filename = here("testthat/reports/measurement_anomalies.png"), 
+  plot = anomaly_plot,
   device = "png", 
   width = 16 / 2, height = (16/2)*(7/8), 
   units = "in", dpi = 300
