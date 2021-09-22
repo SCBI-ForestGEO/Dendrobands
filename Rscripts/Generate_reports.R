@@ -283,8 +283,8 @@ anomaly_plot <- anamoly_dendroband_measurements %>%
   labs(
     x = "Biweekly survey date",
     y = "Measure recorded",
-    title = "All stems with a difference in dendroband measures > 10mm (marked with diamond)",
-    subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
+    title = "Stems with an anomalous measure: abs diff > 10mm, marked with diamond",
+    subtitle = "Dashed line = CI activation date, solid lines (if any) = new band install date"
   )
 ggsave(
   filename = here("testthat/reports/measurement_anomalies.png"), 
