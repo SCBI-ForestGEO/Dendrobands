@@ -269,11 +269,12 @@ anamoly_dendroband_measurements <- dendroband_measurements %>%
   filter(!is.na(measure) & tag %in% stems_to_alert$tag) %>% 
   mutate(stemtag = factor(stemtag))
 
-anamoly_dendroband_measurements %>% 
+anomaly_plot <- anamoly_dendroband_measurements %>% 
+  mutate(tag_sp = str_c(tag, ": ", sp)) %>% 
   ggplot(aes(x = date, y = measure, col = stemtag)) +
   geom_point() + 
   geom_line() +
-  facet_wrap(~tag, scales = "free_y") +
+  facet_wrap(~tag_sp, scales = "free_y") +
   theme_bw() +
   geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
   geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
@@ -284,7 +285,8 @@ anamoly_dendroband_measurements %>%
     subtitle = "Dashed line = continuous integration activation date, solid lines (if any) = new band installation dates"
   )
 ggsave(
-  here("testthat/reports/measurement_anomalies.png"), 
+  filename = here("testthat/reports/measurement_anomalies.png"), 
+  plot = anomaly_plot,
   device = "png", 
   width = 16 / 2, height = (16/2)*(7/8), 
   units = "in", dpi = 300
