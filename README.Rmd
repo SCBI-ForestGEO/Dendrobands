@@ -34,7 +34,6 @@ if(file.exists("testthat/reports/measurement_anomalies.png")){
 
 
 
-
 ## Overview 
 
 This repository contains dendrometer bands data for the SCBI ForestGEO plot. There are two sets of measurements: 
