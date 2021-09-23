@@ -16,7 +16,7 @@ on:
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
       
-name: data-tests
+name: QA_QC_checks
 
 jobs:
   data-tests:
