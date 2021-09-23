@@ -8,6 +8,7 @@ on:
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
+      - 'README.Rmd'
   pull_request:
     paths:
       - 'data/**'
@@ -15,6 +16,7 @@ on:
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
+      - 'README.Rmd'
       
 name: QA_QC_checks
 
