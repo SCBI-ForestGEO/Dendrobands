@@ -62,15 +62,16 @@ jobs:
         shell: Rscript {0}
         
       - name: Update README
-        run: Rscript -e 'rmarkdown::render("README.Rmd")'
+        run: |
+          Rscript -e 'rmarkdown::render("README.Rmd")'
+          rm README.html
 
       - name: Commit all new files
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
-          git add --all
-          git commit -am "add data"
+          git add --all || echo "No changes to commit"
+          git commit -m "Added/modified files and updated README" || echo "No changes to commit"
           git push origin || echo "No changes to commit"
           
       - name: Are there any data collection errors?
