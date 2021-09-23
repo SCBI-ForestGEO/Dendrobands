@@ -24,7 +24,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Anomalous measurement report
 
-![measurement_anomalies](testthat/reports/measurement_anomalies.png)
+```{r, echo=FALSE}
+if(file.exists("testthat/reports/measurement_anomalies.png")){
+  knitr::include_graphics("testthat/reports/measurement_anomalies.png")
+} else {
+  print("No anomalous measurements at the moment.")
+}
+```
+
 
 
 

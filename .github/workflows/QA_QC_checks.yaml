@@ -37,23 +37,29 @@ jobs:
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
         
-      - name: Create master csv from raw data forms (for 2021 and after)
-        id: Create_master_csv
+      - name: Create master CSV from raw data forms (only for 2021 and after)
+        id: create_master_csv
         run: |
           source("Rscripts/survey_forms/create_master_csv_2021_and_after.R")
         shell: Rscript {0}     
         
-      - name: Generate reports
-        id: Generate_reports
+      - name: Generate error reports
+        id: generate_error_reports
         run: |
           source("Rscripts/Generate_reports.R")
         shell: Rscript {0}
         
-      - name: Generate warnings
-        id: Generate_warnings
+      - name: Generate warning reports
+        id: generate_warning_reports
         run: |
           source("Rscripts/Generate_warnings.R")
         shell: Rscript {0}
+        
+      - name: Update README dashboard
+        id: update_README
+        run: |
+          knitr::knit("README.Rmd")
+        shell: Rscript {0}       
 
       - name: Commit new files
         run: |
