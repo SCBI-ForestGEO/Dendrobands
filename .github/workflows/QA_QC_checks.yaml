@@ -57,9 +57,7 @@ jobs:
         
       - name: Update README dashboard
         id: update_README
-        run: |
-          knitr::knit("README.Rmd")
-        shell: Rscript {0}       
+        run: Rscript -e 'rmarkdown::render("README.Rmd")'
 
       - name: Commit new files
         run: |
