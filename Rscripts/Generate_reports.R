@@ -257,42 +257,73 @@ stems_to_alert <- dendroband_measurements %>%
   filter(!measure_is_reasonable) %>% 
   mutate(tag_sp = str_c(tag, ": ", sp))
 
+# See if anomalous measure has been verified/double-checked in raw-data form
+stems_to_alert$verified <- NA
+for(i in 1:nrow(stems_to_alert)){
+  # Get info for particular anomaly:
+  anomaly_survey_id <- stems_to_alert$survey.ID[i]
+  anomaly_tag <- stems_to_alert$tag[i]
+  anomaly_stemtag <- stems_to_alert$stemtag[i]
+  anomaly_raw_data_file <- str_c(
+    "resources/raw_data/2021/data_entry_intraannual_", 
+    # Because of differences in survey.ID variable and filename
+    # Ex: 2021.02 vs 2021-02:
+    anomaly_survey_id %>% as.character() %>% str_replace("\\.", "-"), 
+    ".csv"
+  )
+  
+  stems_to_alert$verified[i] <- anomaly_raw_data_file %>% 
+    read_csv(show_col_types = FALSE) %>% 
+    filter(tag == anomaly_tag & stemtag == anomaly_stemtag) %>% 
+    pull(measure_verified) 
+}
+
+# Remove if measurement has been verified
+stems_to_alert <- stems_to_alert %>% 
+  mutate(verified = ifelse(is.na(verified), FALSE, verified)) %>% 
+  filter(!verified)
+
 # Append to report
 require_field_fix_error_file <- stems_to_alert %>% 
   mutate(alert_name = alert_name) %>% 
   select(alert_name, all_of(orig_master_data_var_names)) %>% 
   bind_rows(require_field_fix_error_file)
 
+# Display anomalies (if any) in README
+anomaly_plot_filename <- here("testthat/reports/measurement_anomalies.png")
 
-
-# Display plot anomalies in README
 anamoly_dendroband_measurements <- dendroband_measurements %>% 
   filter(!is.na(measure) & tag %in% stems_to_alert$tag) %>% 
   mutate(stemtag = factor(stemtag)) %>% 
   mutate(tag_sp = str_c(tag, ": ", sp))
 
-anomaly_plot <- anamoly_dendroband_measurements %>% 
-  ggplot(aes(x = date, y = measure, col = stemtag)) +
-  geom_point() +
-  geom_line() +
-  geom_point(data = stems_to_alert, col = "black", size = 4, shape = 18) +
-  facet_wrap(~tag_sp, scales = "free_y") +
-  theme_bw() +
-  geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
-  geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
-  labs(
-    x = "Biweekly survey date",
-    y = "Measure recorded",
-    title = "Stems with an anomalous measure: abs diff > 10mm, marked with diamond",
-    subtitle = "Dashed line = CI activation date, solid lines (if any) = new band install date"
+if(nrow(anamoly_dendroband_measurements) > 0){
+  anomaly_plot <- anamoly_dendroband_measurements %>% 
+    ggplot(aes(x = date, y = measure, col = stemtag)) +
+    geom_point() +
+    geom_line() +
+    geom_point(data = stems_to_alert, col = "black", size = 4, shape = 18) +
+    facet_wrap(~tag_sp, scales = "free_y") +
+    theme_bw() +
+    geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
+    geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
+    labs(
+      x = "Biweekly survey date",
+      y = "Measure recorded",
+      title = "Stems with an anomalous measure: abs diff > 10mm, marked with diamond",
+      subtitle = "Dashed line = CI activation date, solid lines (if any) = new band install date"
+    )
+  
+  ggsave(
+    filename = anomaly_plot_filename, 
+    plot = anomaly_plot,
+    device = "png", 
+    width = 16 / 2, height = (16/2)*(7/8), 
+    units = "in", dpi = 300
   )
-ggsave(
-  filename = here("testthat/reports/measurement_anomalies.png"), 
-  plot = anomaly_plot,
-  device = "png", 
-  width = 16 / 2, height = (16/2)*(7/8), 
-  units = "in", dpi = 300
-)
+} else if (file.exists(anomaly_plot_filename)){
+  file.remove(anomaly_plot_filename)
+}
 
 
 
