@@ -111,6 +111,8 @@ for(i in 1:length(intraannual_surveys)){
     read.csv(colClasses = c("codes" = "character")) %>% 
     # As of 2020 new variable, remove it:
     select(-matches("Leaf.code")) %>% 
+    # As of 2021 new variable, remove it:
+    select(-matches("measure_verified")) %>%     
     # Select specific columns
     select(tag, stemtag, sp, quadrat, survey.ID, year, month, 
       day, measure, codes, notes, field.recorders, data.enter, 
