@@ -1,6 +1,6 @@
 library(here)
 library(dplyr)
-
+library(zoo)
 
 
 
@@ -20,8 +20,8 @@ here("Rscripts/survey_forms/new_scbidendroAll_[YEAR].R") %>%
 #3 Merge data_entry form spring biannual with the year's master file ####
 # Copied from Rscripts/survey_forms/biannual_survey.R
 
-library(dplyr)
-library(zoo)
+
+
 
 # DO THIS: Set current year
 current_year <- "2021"
@@ -111,6 +111,8 @@ for(i in 1:length(intraannual_surveys)){
     read.csv(colClasses = c("codes" = "character")) %>% 
     # As of 2020 new variable, remove it:
     select(-matches("Leaf.code")) %>% 
+    # As of 2021 new variable, remove it:
+    select(-matches("measure_verified")) %>%     
     # Select specific columns
     select(tag, stemtag, sp, quadrat, survey.ID, year, month, 
       day, measure, codes, notes, field.recorders, data.enter, 

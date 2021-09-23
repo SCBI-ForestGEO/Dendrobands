@@ -8,6 +8,7 @@ on:
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
+      - 'README.Rmd'
   pull_request:
     paths:
       - 'data/**'
@@ -15,54 +16,63 @@ on:
       - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
+      - 'README.Rmd'
       
-name: data-tests
+name: QA_QC_checks
 
 jobs:
-  data-tests:
+  QA_QC_checks:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      
+      # Install packages listed in DESCRIPTION file
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck"))
+          install.packages(c("remotes", "rcmdcheck", "rmarkdown"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
+        
       - name: Check
         run: |
           options(crayon.enabled = TRUE)
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
         
-      - name: Create master csv from raw data forms (for 2021 and after)
-        id: Create_master_csv
+      - name: Create master CSV from raw data forms (only for 2021 and after)
+        id: create_master_csv
         run: |
           source("Rscripts/survey_forms/create_master_csv_2021_and_after.R")
         shell: Rscript {0}     
         
-      - name: Generate reports
-        id: Generate_reports
+      - name: Generate error reports
+        id: generate_error_reports
         run: |
           source("Rscripts/Generate_reports.R")
         shell: Rscript {0}
         
-      - name: Generate warnings
-        id: Generate_warnings
+      - name: Generate warning reports
+        id: generate_warning_reports
         run: |
           source("Rscripts/Generate_warnings.R")
         shell: Rscript {0}
+        
+      - name: Update README
+        run: |
+          Rscript -e 'rmarkdown::render("README.Rmd")'
+          rm README.html
 
-      - name: Commit new files
+      - name: Commit all new files
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git pull
-          git add --all
-          git commit -am "add data"
-          git push
+          git add --all || echo "No changes to commit"
+          git commit -m "Added/modified files and updated README" || echo "No changes to commit"
+          git push origin
           
       - name: Are there any data collection errors?
         run: Rscript testthat.R
