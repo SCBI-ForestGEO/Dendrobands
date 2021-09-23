@@ -21,7 +21,7 @@ on:
 name: QA_QC_checks
 
 jobs:
-  data-tests:
+  QA_QC_checks:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -33,7 +33,7 @@ jobs:
       # Install packages listed in DESCRIPTION file
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck"))
+          install.packages(c("remotes", "rcmdcheck", "rmarkdown"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
         
@@ -61,18 +61,17 @@ jobs:
           source("Rscripts/Generate_warnings.R")
         shell: Rscript {0}
         
-      - name: Update README dashboard
-        id: update_README
+      - name: Update README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
 
-      - name: Commit new files
+      - name: Commit all new files
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git pull
+          git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
           git add --all
           git commit -am "add data"
-          git push
+          git push origin || echo "No changes to commit"
           
       - name: Are there any data collection errors?
         run: Rscript testthat.R

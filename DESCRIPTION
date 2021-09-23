@@ -24,8 +24,7 @@ Imports:
   stringr,
   lubridate,
   here,
-  zoo,
-  rmarkdown
+  zoo
 URL: https://github.com/SCBI-ForestGEO/Dendrobands
 BugReports: https://github.com/SCBI-ForestGEO/Dendrobands/issues
 Config/testthat/edition: 3
