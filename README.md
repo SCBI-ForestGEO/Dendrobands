@@ -28,8 +28,22 @@ plot. There are two sets of measurements:
 
 1.  *Biannual dendrometer bands* - dendrometer bands on \>500 trees
     measured at start and end of growing season: 2010 - present
-2.  *Intra-annual dendrometer bands* - dendrometer bands on \>150 trees
-    measured \~ every 2 weeks during growing season: 2011 - present
+2.  *Intra-annual (i.e. biweekly) dendrometer bands* - dendrometer bands
+    on \>150 trees measured around every 2 weeks during growing season:
+    2011 - present
+
+This data exists in two forms:
+
+1.  Raw data based on field collection forms in
+    [resources/raw\_data/](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data/)
+2.  Post-processed data in the `scbi.dendroAll_YEAR.csv` files in
+    [data/](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/).
+    This is the data to be used for analysis.
+
+Whenever raw data is pushed to GitHub, GitHub Actions continuous
+integration performs data QA/QC and produces the post-processed data
+according to the steps in
+[`.github/workflows/QA_QC_checks.yaml`](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/.github/workflows/QA_QC_checks.yaml)
 
 ## Sampling location
 
