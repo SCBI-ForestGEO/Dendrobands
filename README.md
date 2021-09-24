@@ -34,15 +34,17 @@ plot. There are two sets of measurements:
 
 This data exists in two forms:
 
-1.  Raw data based on field collection forms in
-    [resources/raw\_data/](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data/)
-2.  Post-processed data in the `scbi.dendroAll_YEAR.csv` files in
-    [data/](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/).
-    This is the data to be used for analysis.
+1.  [Raw
+    data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data/)
+    based on field collection forms.
+2.  [Post-processed
+    data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data/)
+    in the `scbi.dendroAll_YEAR.csv` files. This is the data to be used
+    for analysis.
 
 Whenever raw data is pushed to GitHub, GitHub Actions continuous
-integration performs data QA/QC and produces the post-processed data
-according to the steps in
+integration automatically performs data QA/QC takes this raw data and
+produces the post-processed data according to the steps in
 [`.github/workflows/QA_QC_checks.yaml`](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/.github/workflows/QA_QC_checks.yaml)
 
 ## Sampling location
