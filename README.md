@@ -43,9 +43,10 @@ This data exists in two forms:
     for analysis.
 
 Whenever raw data is pushed to GitHub, GitHub Actions continuous
-integration automatically performs data QA/QC takes this raw data and
-produces the post-processed data according to the steps in
-[`.github/workflows/QA_QC_checks.yaml`](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/.github/workflows/QA_QC_checks.yaml)
+integration follows the steps in
+[`.github/workflows/QA_QC_checks.yaml`](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/.github/workflows/QA_QC_checks.yaml),
+which automatically 1) takes the raw data and produces the
+post-processed data and 2) performs data QA/QC
 
 ## Sampling location
 
