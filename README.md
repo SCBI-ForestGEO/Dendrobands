@@ -5,7 +5,7 @@ SCBI Dendrometer bands
 
 ### Data collection errors to resolve
 
-[![QA\_QC\_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/data-tests/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
+[![QA\_QC\_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/QA_QC_checks/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
 
 **[Click here to view error
 reports.](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports)**
