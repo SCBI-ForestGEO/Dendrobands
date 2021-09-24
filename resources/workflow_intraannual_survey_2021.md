@@ -17,10 +17,10 @@
     1. If there is a ❌ alert anywhere else, that means there was a code error. Contact whoever is the repository code technician for assistance.
 1. If there were any data collection errors, fix them:
     1. Go to [`testthat/reports/requires_field_fix`](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/testthat/reports/requires_field_fix) to inspect the error alerts; an index of what the errors mean can be found in this [table](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/testthat/README.md) to interpret what the errors mean.
-1. If there are any anomalous measurements on the repository [README](https://github.com/SCBI-ForestGEO/Dendrobands#anomalous-measurement-report), then
-    1. Go back into the field and verify this measurement
-    1. If the measure was indeed an anomaly, in `data_entry_intraannual_2021-XX.csv`, update the date of the measurement and the measurement. If not, then leave entries as is.
-    1. In either case, set the `measure_verified` variable to `TRUE`. This will inform the continuous integration systems that this measurement has been double checked.
-1. Repeat process.
+    1. If there are any anomalous measurements on the repository [README](https://github.com/SCBI-ForestGEO/Dendrobands#anomalous-measurement-report), then
+        1. Go back into the field and verify this measurement
+        1. If the measure was indeed an anomaly, in `data_entry_intraannual_2021-XX.csv`, update the date of the measurement and the measurement. If not, then leave entries as is.
+        1. In either case, set the `measure_verified` variable to `TRUE`. This will inform the continuous integration systems that this measurement has been double checked.
+    1. Commit and push `data_entry_intraannual_2021-XX.csv` again
 1. **Not sure about this one**: Inspect all warnings: [`testthat/reports/warnings`](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/testthat/reports/warnings)
 1. **Not sure about this one**: Update [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) with new records of dead trees.
