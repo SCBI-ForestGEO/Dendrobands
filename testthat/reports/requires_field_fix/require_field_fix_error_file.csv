@@ -1,0 +1,2 @@
+alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
+new_measure_too_different_from_previous,90752,1,2021.09,2021,9,27,1,1,qual,916,12.4,7.4,9.54,NA,NA,alive,Jen Jordan,Jen Jordan,10963,10963,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
