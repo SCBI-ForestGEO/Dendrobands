@@ -112,7 +112,7 @@ date started/end, mortalitity year, etc) is available here
 
 ## Data use
 
-\[Data are not yet public.\]
+These data are being used for in-prep publications by the team that collected the data, and at present *may only be used with permission of Kristina Anderson-Teixeira*. 
 
 Note: Also relevant (for code, cross-site integration) is the [ForestGEO
 Dendro repository](https://github.com/forestgeo/dendro).
@@ -128,8 +128,10 @@ Dendro repository](https://github.com/forestgeo/dendro).
 | Ryan Helcoski              | RHelcoski    | research assistant, SCBI     | data collection                                   |
 | Ian McGregor               | mcgregorian1 | research assistant, SCBI     | data collection, data organization, coding        |
 | Alyssa Terrell             | terrella3    | research assistant, SCBI     | data collection, data organization, coding        |
+| Cameron Dow               |  camerondow35            |  research assistant, SCBI      |     data collection (2020)          |
 | Albert Y. Kim              | rudeboybert  | research associate, SCBI     | data organization, coding, continuous integration |
-| \[MORE\]                   |              |                              |                                                   |
+| Brianna Calkins                |   briannakcalkins            |  research assistant, SCBI      |     data collection (2021)          |
+| Jennifer Jordan                  |   jenajordan           |  research assistant, SCBI      |     data collection (2021)          |
 
 \*refers to position at time of main contribution to this repository
 
@@ -142,5 +144,5 @@ ForestGEO
 
 ## Contact
 
-Contact Erika Gonzalez-Akre or Albert Y. Kim for any inquiry on
+Contact Kristina Anderson-Teixeira or Albert Y. Kim for any inquiry on
 dendroband data collection at SCBI.
