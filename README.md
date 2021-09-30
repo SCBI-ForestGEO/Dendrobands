@@ -112,7 +112,7 @@ date started/end, mortalitity year, etc) is available here
 
 ## Data use
 
-These data are being used for in-prep publications by the team that collected the data, and at present *may only be used with permission of Kristina Anderson-Teixeira*. 
+These data are being used for in-prep publications by the team that collected the data, and at present **may only be used with permission of Kristina Anderson-Teixeira**. 
 
 Note: Also relevant (for code, cross-site integration) is the [ForestGEO
 Dendro repository](https://github.com/forestgeo/dendro).
