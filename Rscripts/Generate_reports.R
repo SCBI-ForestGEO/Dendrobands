@@ -1,5 +1,5 @@
 # Generate reports looking at latest raw dendrobands raw data 
-## this script is run automatically when there is a push 
+## this script is run automatically when there is a push
 
 # Set up ------
 # clear environment
