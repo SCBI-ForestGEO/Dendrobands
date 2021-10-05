@@ -3,9 +3,10 @@ SCBI Dendrometer bands
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+[![DOI](https://zenodo.org/badge/150600455.svg)](https://zenodo.org/badge/latestdoi/150600455)
+
 ### Data collection errors to resolve
 
-[![DOI](https://zenodo.org/badge/150600455.svg)](https://zenodo.org/badge/latestdoi/150600455)
 [![QA\_QC\_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/QA_QC_checks/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
 
 **[Click here to view error
