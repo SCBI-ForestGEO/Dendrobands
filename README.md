@@ -5,6 +5,7 @@ SCBI Dendrometer bands
 
 ### Data collection errors to resolve
 
+[![DOI](https://zenodo.org/badge/150600455.svg)](https://zenodo.org/badge/latestdoi/150600455)
 [![QA\_QC\_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/QA_QC_checks/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
 
 **[Click here to view error
@@ -112,7 +113,7 @@ date started/end, mortalitity year, etc) is available here
 
 ## Data use
 
-These data are being used for in-prep publications by the team that collected the data, and at present **may only be used with permission of Kristina Anderson-Teixeira**. 
+\[Data are not yet public.\]
 
 Note: Also relevant (for code, cross-site integration) is the [ForestGEO
 Dendro repository](https://github.com/forestgeo/dendro).
@@ -128,10 +129,8 @@ Dendro repository](https://github.com/forestgeo/dendro).
 | Ryan Helcoski              | RHelcoski    | research assistant, SCBI     | data collection                                   |
 | Ian McGregor               | mcgregorian1 | research assistant, SCBI     | data collection, data organization, coding        |
 | Alyssa Terrell             | terrella3    | research assistant, SCBI     | data collection, data organization, coding        |
-| Cameron Dow               |  camerondow35            |  research assistant, SCBI      |     data collection (2020)          |
 | Albert Y. Kim              | rudeboybert  | research associate, SCBI     | data organization, coding, continuous integration |
-| Brianna Calkins                |   briannakcalkins            |  research assistant, SCBI      |     data collection (2021)          |
-| Jennifer Jordan                  |   jenajordan           |  research assistant, SCBI      |     data collection (2021)          |
+| \[MORE\]                   |              |                              |                                                   |
 
 \*refers to position at time of main contribution to this repository
 
@@ -144,5 +143,5 @@ ForestGEO
 
 ## Contact
 
-Contact Kristina Anderson-Teixeira or Albert Y. Kim for any inquiry on
+Contact Erika Gonzalez-Akre or Albert Y. Kim for any inquiry on
 dendroband data collection at SCBI.
