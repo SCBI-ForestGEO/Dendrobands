@@ -9,9 +9,10 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+[![DOI](https://zenodo.org/badge/150600455.svg)](https://zenodo.org/badge/latestdoi/150600455)
+
 ### Data collection errors to resolve
 
-[![DOI](https://zenodo.org/badge/150600455.svg)](https://zenodo.org/badge/latestdoi/150600455)
 [![QA_QC_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/QA_QC_checks/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
 
 **[Click here to view error reports.](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports)**
