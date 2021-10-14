@@ -261,7 +261,11 @@ stems_to_alert <- dendroband_measurements %>%
 stems_to_alert$verified <- NA
 for(i in 1:nrow(stems_to_alert)){
   # Get info for particular anomaly:
-  anomaly_survey_id <- stems_to_alert$survey.ID[i]
+  anomaly_survey_id <- stems_to_alert$survey.ID[i] %>% 
+    as.character()
+  if(anomaly_survey_id == "2021.1")
+    anomaly_survey_id <- "2021.10"
+  
   anomaly_tag <- stems_to_alert$tag[i]
   anomaly_stemtag <- stems_to_alert$stemtag[i]
   anomaly_raw_data_file <- str_c(
