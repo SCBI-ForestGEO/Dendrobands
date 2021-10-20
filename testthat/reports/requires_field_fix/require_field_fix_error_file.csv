@@ -1,4 +1,2 @@
 alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
-new_measure_too_different_from_previous,72308,1,2021.1,2021,10,14,1,1,qual,725,15.2,13.3,0.91,NA,NA,alive,Jen Jordan,Jen Jordan,8948,8948,NA,654.2,0,79,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous,102261,1,2021.1,2021,10,14,1,1,qual,1022,5.3,20.1,6,NA,NA,alive,Jen Jordan,Jen Jordan,13198,13198,NA,675,0,969,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous,181030,1,2021.1,2021,10,14,1,1,qual,1816,5.4,10.6,36.8,NA,Band needs repairs - prior measurements incorrect,alive,Jen Jordan,Jen Jordan,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
