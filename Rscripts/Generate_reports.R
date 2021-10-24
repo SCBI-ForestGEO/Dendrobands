@@ -26,6 +26,35 @@ for(i in 1:length(master_data_filenames)){
     )
 }
 
+# DO THIS: Set current year
+current_year <- 2021
+
+# Only if fall biannual survey has been completed:
+fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
+  here()
+if(file.exists(fall_biannual_survey)){
+  # Get survey.ID
+  fall_biannual_survey_ID <- dendroband_measurements %>% 
+    filter(year == current_year) %>% 
+    pull(survey.ID) %>% 
+    max()
+  
+  # Compute +/- 3SD of growth by species: used to detect anomalous growth below
+  growth_by_sp <- dendroband_measurements %>% 
+    # Only 2020 spring and fall biannual values
+    filter(year == current_year - 1) %>% 
+    filter(survey.ID %in% c(min(survey.ID), max(survey.ID))) %>% 
+    # Compute growth
+    group_by(tag, stemtag) %>%
+    mutate(growth = measure - lag(measure)) %>% 
+    filter(!is.na(growth)) %>% 
+    slice(n()) %>% 
+    # 99.7% of values i.e. +/- 3 SD
+    group_by(sp) %>% 
+    summarize(lower = quantile(growth, probs = 0.003/2), upper = quantile(growth, probs = 1-0.003/2), n = n()) %>% 
+    arrange(desc(n))
+}
+
 # Needed to write csv's consisting of only original variables
 orig_master_data_var_names <- names(dendroband_measurements)
 
@@ -33,10 +62,10 @@ orig_master_data_var_names <- names(dendroband_measurements)
 dendroband_measurements <- dendroband_measurements %>% 
   mutate(date = ymd(str_c(year, month, day, sep = "-")))
 
-# Run tests only on data from 2021 onwards
+# Run tests only on data from current year onwards
 # TODO: Run tests on all data and fix all past errors
 dendroband_measurements <- dendroband_measurements %>%
-  filter(ymd(str_c(year, month, day, sep = "-")) > ymd("2021-01-01") )
+  filter(ymd(str_c(year, month, day, sep = "-")) > ymd(str_c(current_year, "-01-01")))
 
 
 
@@ -239,15 +268,41 @@ require_field_fix_error_file <- stems_to_alert %>%
   bind_rows(require_field_fix_error_file)
 
 
+## Error: Anomaly detection for biannual: Is difference between new & previous measurement too big (unless new band is installed)? ----
+# Only if fall biannual survey has been conducted
+if(file.exists(fall_biannual_survey)){
+  alert_name <- "new_measure_too_different_from_previous_biannual"
+  
+  stems_to_alert <- dendroband_measurements %>% 
+    filter(survey.ID %in% c(2021.01, fall_biannual_survey_ID)) %>% 
+    arrange(tag, stemtag, date) %>% 
+    group_by(tag, stemtag) %>% 
+    mutate(growth = measure - lag(measure)) %>% 
+    filter(!is.na(growth)) %>% 
+    slice(n()) %>% 
+    left_join(growth_by_sp, by = "sp") %>% 
+    mutate(measure_is_reasonable = between(growth, lower, upper)) %>% 
+    filter(!measure_is_reasonable) %>% 
+    mutate(tag_sp = str_c(tag, ": ", sp))  
+  
+  # TODO: See if anomalous measure has been verified/double-checked in raw-data form
+  # TODO: Remove if measurement has been verified
+  
+  # Append to report
+  require_field_fix_error_file <- stems_to_alert %>% 
+    mutate(alert_name = alert_name) %>% 
+    select(alert_name, all_of(orig_master_data_var_names)) %>% 
+    bind_rows(require_field_fix_error_file)
+}
 
 
-
-## Error: Anomaly detection: Is difference between new & previous measurement too big (unless new band is installed)?  ----
+## Error: Anomaly detection for biweekly: Is diff between new & previous measurement too big (unless new band is installed)?  ----
 threshold <- 10
 alert_name <- "new_measure_too_different_from_previous"
 
 # Find stems with error
 stems_to_alert <- dendroband_measurements %>% 
+  filter(intraannual == 1) %>% 
   arrange(tag, stemtag, date) %>% 
   group_by(tag, stemtag) %>% 
   mutate(
