@@ -40,7 +40,11 @@ dendroband_measurements_all_years <- dendroband_measurements_all_years %>%
 dendroband_measurements <- dendroband_measurements_all_years %>%
   filter(date > ymd(str_c(current_year, "-01-01")))
 
-
+# Assign biannual survey ID's
+spring_biannual_survey_ID <- min(dendroband_measurements$survey.ID)
+fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
+  here()
+fall_biannual_survey_ID <- ifelse(file.exists(fall_biannual_survey), max(dendroband_measurements$survey.ID), NA)
 
 
 
@@ -246,19 +250,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 ## Error: Anomaly detection for biannual: Is difference between new & previous measurement too big (unless new band is installed)? ----
 alert_name <- "new_measure_too_different_from_previous_biannual"
 
-# Only if fall biannual survey has been conducted
-fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
-  here()
-
-if(file.exists(fall_biannual_survey)){
-  # Get this year's spring and fall survey.IDs
-  survey_ID <- dendroband_measurements %>% 
-    filter(year == current_year) %>% 
-    pull(survey.ID)
-  
-  spring_biannual_survey_ID <- min(survey_ID)
-  fall_biannual_survey_ID <- max(survey_ID )
-  
+if(!is.na(fall_biannual_survey_ID)){
   # Compute +/- 3SD of growth by species: used to detect anomalous growth below
   growth_by_sp <- dendroband_measurements_all_years %>% 
     # Only previous year spring and fall biannual values
@@ -312,26 +304,31 @@ stems_to_alert <- dendroband_measurements %>%
     measure_is_reasonable = (abs(diff_from_previous_measure) < threshold) | lag(new.band == 1)
   ) %>%
   filter(!measure_is_reasonable) %>% 
-  mutate(tag_sp = str_c(tag, ": ", sp))
+  mutate(tag_sp = str_c(tag, ": ", sp)) %>% 
+  mutate(survey.ID = str_pad(survey.ID, width = 7, side = "right", pad = "0"))
 
 # See if anomalous measure has been verified/double-checked in raw-data form
 stems_to_alert$verified <- NA
 for(i in 1:nrow(stems_to_alert)){
   # Get info for particular anomaly:
-  anomaly_survey_id <- stems_to_alert$survey.ID[i] %>% 
-    as.character()
-  if(anomaly_survey_id == "2021.1")
-    anomaly_survey_id <- "2021.10"
-  
+  anomaly_survey_id <- stems_to_alert$survey.ID[i]
   anomaly_tag <- stems_to_alert$tag[i]
   anomaly_stemtag <- stems_to_alert$stemtag[i]
+  
   anomaly_raw_data_file <- str_c(
     "resources/raw_data/2021/data_entry_intraannual_", 
     # Because of differences in survey.ID variable and filename
     # Ex: 2021.02 vs 2021-02:
-    anomaly_survey_id %>% as.character() %>% str_replace("\\.", "-"), 
+    anomaly_survey_id %>% str_replace("\\.", "-"), 
     ".csv"
   )
+  
+  # Special case for fall survey
+  if(file.exists(fall_biannual_survey)){
+    if(stems_to_alert$survey.ID[i] == fall_biannual_survey_ID) {
+      anomaly_raw_data_file <- "resources/raw_data/2021/data_entry_biannual_fall2021.csv"
+    }
+  }
   
   stems_to_alert$verified[i] <- anomaly_raw_data_file %>% 
     read_csv(show_col_types = FALSE) %>% 
