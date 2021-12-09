@@ -17,6 +17,14 @@ library(lubridate)
 ## Load all master data files into a single data frame 
 master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", full.names = TRUE)
 
+
+temp <- read_csv(master_data_filenames[12], col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% pull(measure)
+temp[1:500]
+temp[501:1000]
+temp[1001:1500]
+temp[1501:2000]
+temp[2001:2402]
+
 dendroband_measurements_all_years <- NULL
 for(i in 1:length(master_data_filenames)){
   
@@ -31,12 +39,7 @@ for(i in 1:length(master_data_filenames)){
     )
 }
 
-temp <- read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% pull(measure)
-temp[1:500]
-temp[501:1000]
-temp[1001:1500]
-temp[1501:2000]
-temp[2001:2402]
+
 
 # DO THIS: Set current year
 current_year <- 2021
