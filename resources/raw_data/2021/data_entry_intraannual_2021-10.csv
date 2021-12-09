@@ -127,7 +127,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,codes,n
 172203,1,qual,1717,2021.10,2021,10,14,23.55,,, ,Jen Jordan,Jen Jordan,North,
 172470,1,quru,1728,2021.10,2021,10,14,43.27,,,tag says 172470 but written on band is 170125,Jen Jordan,Jen Jordan,North,
 172499,1,qual,1730,2021.10,2021,10,14,45.81,,,No tag,Jen Jordan,Jen Jordan,North,
-181030,1,qual,1816,2021.10,2021,10,14,36.80,,,Band needs repairs - prior measurements incorrect,Jen Jordan,Jen Jordan,North,
+181030,1,qual,1816,2021.10,2021,10,14,,,,"Original measure of 36.80 was error, Band needs repairs - prior measurements incorrect",Jen Jordan,Jen Jordan,North,
 190067,1,litu,1902,2021.10,2021,10,14,51.88,,, ,Jen Jordan,Jen Jordan,South,
 190413,1,litu,1904,2021.10,2021,10,14,119.74,,, ,Jen Jordan,Jen Jordan,South,
 190694,1,quru,1909,2021.10,2021,10,14,21.46,,,"Band needs repairs, see photo",Jen Jordan,Jen Jordan,South,
