@@ -17,12 +17,6 @@ library(lubridate)
 ## Load all master data files into a single data frame 
 master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", full.names = TRUE)
 
-
-temp <- read_csv(master_data_filenames[12], col_types = cols(dbh = col_double(), dendDiam = col_double()))
-temp %>% slice(16:40) %>% print()
-
-
-
 dendroband_measurements_all_years <- NULL
 for(i in 1:length(master_data_filenames)){
   
