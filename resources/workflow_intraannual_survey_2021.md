@@ -1,4 +1,4 @@
-# (Work in progress) Workflow for 2021 intraannual surveys
+# Workflow for intraannual surveys (2021 and after)
 
 1. Decide how you are going to record data in the field: Either
     1. As you did before: print out [`field_form_intraannual_2021-06.xlsx`](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/field_forms/2021) field form (includes values from last intraannual survey), write values while in field, and then type into to the blank [`resources/raw_data/data_entry_intraannual.csv`](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/resources/raw_data/data_entry_intraannual.csv) raw data form
