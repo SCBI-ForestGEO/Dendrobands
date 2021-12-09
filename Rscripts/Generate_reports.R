@@ -24,6 +24,8 @@ for(i in 1:length(master_data_filenames)){
       dendroband_measurements_all_years,
       read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double()))
     )
+  
+  read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% select(measure) %>% glimpse()
 }
 
 # DO THIS: Set current year
@@ -87,7 +89,6 @@ require_field_fix_error_file <- stems_to_alert %>%
   mutate(alert_name = alert_name) %>% 
   select(alert_name, all_of(orig_master_data_var_names)) %>% 
   bind_rows(require_field_fix_error_file)
-
 
 
 ## Error: Is month is possible? ----
@@ -416,6 +417,9 @@ warning_file <- stems_to_alert %>%
 report_filepath <- here("testthat/reports/requires_field_fix/require_field_fix_error_file.csv")
 trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/require_field_fix_error_file.csv")
 
+require_field_fix_error_file %>% select(measure) %>% glimpse()
+
+
 if(nrow(require_field_fix_error_file) != 0){
   # If any field fix errors exist:
   
@@ -450,6 +454,9 @@ if(nrow(require_field_fix_error_file) != 0){
 ## Warnings ----
 report_filepath <- here("testthat/reports/warnings/warnings_file.csv")
 trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warnings_file.csv")
+
+warning_file %>% select(measure) %>% glimpse()
+
 
 if(nrow(warning_file) != 0){
   # If any warnings exist:
