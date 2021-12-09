@@ -18,12 +18,9 @@ library(lubridate)
 master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", full.names = TRUE)
 
 
-temp <- read_csv(master_data_filenames[12], col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% pull(measure)
-print(temp[1:500])
-print(temp[501:1000])
-print(temp[1001:1500])
-print(temp[1501:2000])
-print(temp[2001:2402])
+temp <- read_csv(master_data_filenames[12], col_types = cols(dbh = col_double(), dendDiam = col_double()))
+temp %>% slice(16:40) 
+
 
 
 dendroband_measurements_all_years <- NULL
