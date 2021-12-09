@@ -1,5 +1,5 @@
 alert name,level,category,applied to,test ,warning (W) or error (E),coded,requires field fix?,auto fix (when applicable)
-`measure_not_recorded`,plot,completion check,all trees in census,"`measure` is recorded for all bands. If `NA`, `codes` field should contain `RE`, `DS`, or `DC`", E,2021,Y,NA
+`measure_not_recorded`,plot,completion check,all trees in census,"`measure` is recorded for all bands. If `NA`, `codes` field should contain `RE`, `DS`, `DC`, or `DN`", E,2021,Y,NA
 `status_not_valid`,plot,completion check,all trees in census,"`status` is recorded for all bands (""alive"" or ""dead"").", E,2021,Y,NA
 `status_not_valid`,plot,consistency check,all trees in census,"`status` = ""alive"" or ""dead""", E,2021,N,NA
 `survey_ID_increment_wrong`,band,consistency check,all bands in census,"`survey.ID` = ""year.[census-no]"" where census-no is 2 digits and increments by 0.01, except jump from fall to spring biannual",E,2021,N,?

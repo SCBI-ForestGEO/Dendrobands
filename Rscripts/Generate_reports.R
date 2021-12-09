@@ -196,7 +196,7 @@ alert_name <- "measure_not_recorded"
 
 # Find stems with error
 stems_to_alert <- dendroband_measurements %>% 
-  mutate(missing_RE_code = !is.na(measure) | str_detect(codes, regex("RE|DC|DS"))) %>% 
+  mutate(missing_RE_code = !is.na(measure) | str_detect(codes, regex("RE|DC|DS|DN"))) %>% 
   filter(!missing_RE_code)
 
 # Append to report
