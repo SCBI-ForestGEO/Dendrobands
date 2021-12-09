@@ -13,6 +13,7 @@ L,leaning stem
 M,multiple stems
 main,main stem
 P,prostrate stem (growing parallel to ground)
+Q,"stem broken above 1.3m (Same as B, but from CTFS census protocol, see https://github.com/SCBI-ForestGEO/Dendrobands/issues/42#issuecomment-867313480)"
 RE,dendroband needs replacing or fixing
 S,secondary stem
 X,stem broken below 1.3m
