@@ -19,11 +19,6 @@ master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", f
 
 dendroband_measurements_all_years <- NULL
 for(i in 1:length(master_data_filenames)){
-  
-  print(master_data_filenames[i])
-  read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double())) %>% select(measure) %>% glimpse()
-  
-  
   dendroband_measurements_all_years <- 
     bind_rows(
       dendroband_measurements_all_years,
