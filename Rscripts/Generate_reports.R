@@ -190,13 +190,13 @@ require_field_fix_error_file <- stems_to_alert %>%
 
 
 
-## Error: Is measure recorded: if measure is missing, then code = RE, DS, or DC ----
+## Error: Is measure recorded: if measure is missing, then appropriate code must be entered ----
 # Test that if measure is missing, then codes = RE is there
 alert_name <- "measure_not_recorded"
 
 # Find stems with error
 stems_to_alert <- dendroband_measurements %>% 
-  mutate(missing_RE_code = !is.na(measure) | str_detect(codes, regex("RE|DC|DS|DN"))) %>% 
+  mutate(missing_RE_code = !is.na(measure) | str_detect(codes, regex("RE|DC|DS|DN|Q|B"))) %>% 
   filter(!missing_RE_code)
 
 # Append to report
