@@ -1,6 +1,9 @@
-# Generate warnings looking at the reports that are not looked at with testhat ####
-
-## this script is run automatically when there is a push 
+# Script that takes "cleaned" version of data ready for analysis in
+# data/scbi.dendroAll_YEAR.csv and checks for warnings listed in
+# testthat/README.md.
+#
+# HOT TIP: To get a bird's eye view of what this code is doing, turn on
+# "code folding" by going to RStudio menu -> Edit -> Folding -> Collapse all.
 
 # clear environment ####
 rm(list = ls())
