@@ -44,39 +44,3 @@ measure_not_recorded,190935,1,2021.11,2021,10,27,1,0,quru,1916,15,17.2,NA,DN,NA,
 code_not_defined,192064,1,2021.11,2021,10,27,1,0,qupr,1920,18,11.7,NA,DS;Q,NA,dead,Bill McShea,Jen Jordan,28487,28487,NA,504.3,0,435,2,NA,1.3,NA,NA,NA,NA
 measure_not_possible,200151,1,2021.11,2021,10,26,1,0,litu,2002,6.9,4,288.98,NA,Caliper error?,alive,Bill McShea,Jen Jordan,29250,29250,NA,669.3,0,826,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,132028,1,2021.11,2021,10,26,1,0,fram,1317,12,12.9,NA,DS;Q,Standing dead. Band removed 11-15-21,dead,Jen Jordan,Jen Jordan,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,32540,1,2021.11,2021,10,26,1,0,qupr,332,19.9,15.6,120.11,NA,NA,alive,Jen Jordan,Jen Jordan,4760,4760,NA,841.8,0,30,2,NA,1.35,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,40563,1,2021.11,2021,10,26,1,1,fagr,406,3.6,17.8,76.06,NA,Needs new tag,alive,Jen Jordan,Jen Jordan,5040,5040,NA,365,0,832,2,NA,1.44,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,40565,1,2021.11,2021,10,26,1,1,cagl,406,1.9,10.1,4.54,NA,NA,alive,Jen Jordan,Jen Jordan,5042,5042,NA,184,0,959,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,40942,1,2021.11,2021,10,26,1,0,acru,414,2.2,2,114.57,NA,NA,alive,Jen Jordan,Jen Jordan,5403,5403,NA,395.9,0,34,2,NA,1.32,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,50364,1,2021.11,2021,10,26,1,1,qual,507,4.2,18.1,16.18,NA,NA,alive,Nate Looker,Jen Jordan,6249,6249,NA,661.9,0,41,2,NA,1.35,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,60410,1,2021.11,2021,10,26,1,0,fram,610,7.3,15.7,40.15,DS,Few epicormic branches low on stem,dead,Jen Jordan,Jen Jordan,7397,7397,NA,468,0,951,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,60562,1,2021.11,2021,10,26,1,1,fagr,614,6.8,9.8,5.63,DS,NA,dead,Jen Jordan,Jen Jordan,7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,60588,1,2021.11,2021,10,26,1,1,caco,615,13.4,7.3,53.33,NA,NA,alive,Jen Jordan,Jen Jordan,7567,7567,NA,292.3,0,586,2,NA,1.5,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,62312,1,2021.11,2021,10,27,1,0,cato,626,14.3,0.4,6.74,NA,NA,alive,Nate Looker,Jen Jordan,7889,7889,NA,129,0,875,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,62454,1,2021.11,2021,10,27,1,0,quve,632,14.7,18.8,2.65,NA,NA,alive,Bill McShea,Jen Jordan,8025,8025,NA,926.1,0,53,2,NA,1.39,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,70492,1,2021.11,2021,10,26,1,1,nysy,714,0.1,11.2,22.32,NA,NA,alive,Jen Jordan,Jen Jordan,8495,8495,NA,198.6,0,836,2,NA,1.44,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,70495,1,2021.11,2021,10,26,1,1,caca,714,1.7,18.6,14.51,NA,NA,alive,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,72122,1,2021.11,2021,10,26,1,0,caca,719,19.9,19,18.04,NA,NA,alive,Jen Jordan,Jen Jordan,8767,8767,NA,83.3,0,73,2,NA,1.65,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,72248,1,2021.11,2021,10,26,1,0,caco,723,15,0.3,70.29,NA,NA,alive,Jen Jordan,Jen Jordan,8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,72357,1,2021.11,2021,10,27,1,1,quru,728,1.7,2,100.35,NA,NA,alive,Jen Jordan,Jen Jordan,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,80180,1,2021.11,2021,11,15,1,0,cato,804,11.6,5.6,46.67,NA,"Originally on 10-26-21, the recorded measure was 64.64. Band irregular. Loose tag",alive,Joe Lepak,Jen Jordan,9268,9268,NA,1015,0,932,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,90043,1,2021.11,2021,10,26,1,0,quve,901,12.5,17.6,102.74,RE,Band irregular & didn’t adjust/ measurement error likely,alive,Nate Looker,Jen Jordan,10315,10315,NA,1483,0,904,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,90612,1,2021.11,2021,10,26,1,1,quru,910,10.7,14,19.24,NA,NA,alive,Nate Looker,Jen Jordan,10857,10857,NA,552,0,253,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,101223,1,2021.11,2021,10,26,1,0,qupr,1013,9.4,17.8,50.54,NA,NA,alive,Jen Jordan,Jen Jordan,12841,12841,NA,679,0,881,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,102199,1,2021.11,2021,10,26,1,0,cagl,1021,1.3,8,79.38,NA,NA,alive,Jen Jordan,Jen Jordan,13136,13136,NA,449,0,882,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,102502,1,2021.11,2021,10,27,1,0,ulru,1031,0.1,18.6,61,NA,NA,alive,Jen Jordan,Jen Jordan,13438,13438,NA,126,0,305,2,NA,1.3,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,112250,1,2021.11,2021,10,26,1,0,pist,1122,10.8,18.4,69.87,NA,NA,alive,Jen Jordan,Jen Jordan,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,112342,1,2021.11,2021,10,27,1,0,nysy,1125,14.2,16.7,3.34,NA,NA,alive,Jen Jordan,Jen Jordan,15055,15055,NA,196.7,0,332,2,NA,1.3,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,112698,1,2021.11,2021,10,27,1,0,ulru,1128,17.9,18.2,35.04,NA,NA,alive,Jen Jordan,Jen Jordan,15205,15205,NA,106.5,0,340,2,NA,1.3,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,121301,1,2021.11,2021,10,27,1,0,caovl,1211,1.2,2.5,118.62,NA,NA,alive,Nate Looker,Jen Jordan,16396,16396,NA,241.3,0,349,2,NA,1.35,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,121374,1,2021.11,2021,10,26,1,0,juni,1216,0.7,18.5,123.44,NA,Needs new tag,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,122185,1,2021.11,2021,10,26,1,0,pist,1222,5.6,14.9,31.18,NA,NA,alive,Jen Jordan,Jen Jordan,16711,16711,NA,149.3,0,612,2,NA,1.35,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,132077,1,2021.11,2021,10,26,1,1,qual,1319,9.9,15.9,97.01,NA,NA,alive,Jen Jordan,Jen Jordan,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,142727,1,2021.11,2021,10,27,1,0,litu,1431,1.7,8.2,9.19,NA,NA,alive,Jen Jordan,Jen Jordan,20618,20618,NA,932.5,0,201,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,160713,1,2021.11,2021,10,26,1,0,litu,1603,10.4,13.7,48.62,NA,Caliper error?,alive,Bill McShea,Jen Jordan,23030,23030,NA,838,0,673,2,NA,1.5,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,171456,1,2021.11,2021,10,26,1,0,acru,1714,0.8,13.4,35.89,NA,NA,alive,Bill McShea,Jen Jordan,25273,25273,NA,715,0,617,2,NA,1.35,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,180991,1,2021.11,2021,10,26,1,0,ploc,1814,1.5,6.7,17.29,NA,NA,alive,Bill McShea,Jen Jordan,26779,26779,NA,936.2,0,229,2,NA,1.3,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,182376,1,2021.11,2021,10,26,1,0,ploc,1823,2.9,12.6,125.3,NA,NA,alive,Bill McShea,Jen Jordan,27286,27286,NA,608.5,0,823,2,NA,1.3,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,192133,1,2021.11,2021,10,27,1,0,caovl,1923,11.7,2.3,34.85,NA,NA,alive,Bill McShea,Jen Jordan,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,200577,1,2021.11,2021,10,26,1,0,juni,2007,8.8,9.6,13.12,NA,NA,alive,Bill McShea,Jen Jordan,29636,29636,NA,535.2,0,459,2,NA,1.3,NA,NA,NA,NA
-new_measure_too_different_from_previous_biannual,202581,1,2021.11,2021,10,27,1,0,fram,2031,2.4,16.7,59.38,NA,Nearly dead,alive,Bill McShea,Jen Jordan,30938,30938,NA,264.2,0,487,2,NA,1.3,NA,NA,NA,NA
