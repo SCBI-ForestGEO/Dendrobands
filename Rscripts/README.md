@@ -1,5 +1,8 @@
 # Dendroband R Scripts
 
+The R scripts ran by GitHub Actions that check for errors (`Generate_reports.R`) and warnings (`Generate_warnings.R`) are here. See GitHub Actions YAML file in `.github/workflows/` folder.
+
+
 ## analysis
 
 This folder contains code for analyzing the data, for example looking at crown position, dbh distribution by species, ANPP, and growth over time.
