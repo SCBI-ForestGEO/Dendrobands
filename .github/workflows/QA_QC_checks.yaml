@@ -80,6 +80,7 @@ jobs:
           Rscript -e 'rmarkdown::render("README.Rmd")'
           rm README.html
 
+      # Commit and push all new files, assigned to GA bot
       - name: Commit and push all new files
         run: |
           git config --local user.email "actions@github.com"
@@ -88,5 +89,6 @@ jobs:
           git commit -m "Added/modified files and updated README" || echo "No changes to commit"
           git push origin
       
-      - name: Are there data collection or R script errors?
+      # Use testthat package to issue notifications of any data collection errors
+      - name: Are there any data collection?
         run: Rscript testthat.R
