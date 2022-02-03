@@ -1,15 +1,51 @@
-library(here)
 library(dplyr)
+library(stringr)
+library(lubridate)
 library(zoo)
+library(here)
+library(readr)
+
+# Setup ----
+# Set years
+current_year <-  Sys.Date() %>% year()
+previous_year <- current_year - 1
 
 
+# Establish filenames of spring biannual, all intraannual, and fall biannual survey raw data
+current_year_spring_biannual_filename <- str_c("resources/raw_data/2021/data_entry_biannual_spr", current_year, ".csv") %>% 
+  here()
+current_year_intraannual_filename_list <- str_c("resources/raw_data/", current_year) %>% 
+  here() %>% 
+  dir(path = ., pattern = "data_entry_intraannual", full.names = TRUE)
+current_year_fall_biannual_filename <- str_c("resources/raw_data/2021/data_entry_biannual_fall", current_year, ".csv") %>% 
+  here()
+
+# Established filenames of previous year and current year finalized data
+previous_year_data_filename <- str_c("data/scbi.dendroAll_", previous_year, ".csv") %>% 
+  here()
+current_year_data_filename <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
+  here()
 
 
+# Create blank current year working/running data master csv ----
+# Copied and modified from Rscripts/survey_forms/new_scbidendroAll_[YEAR].R
+current_year_data <- 
+  # Load previous year's data
+  read_csv(previous_year_data_filename, show_col_types = FALSE) %>% 
+  # Subset by the most recent survey and live trees
+  filter(survey.ID == max(survey.ID) & status == "alive")
+  
+# Clear values
+cols <- c("survey.ID", "year", "month", "day", "measure", "codes", "notes", "status", "field.recorders", "data.enter", "new.band")
+current_year_data[, cols] <- ""
+current_year_data$crown.condition <- NA
+current_year_data$crown.illum <- NA
 
-# Create blank master csv ----------------------------------------------
-here("Rscripts/survey_forms/new_scbidendroAll_[YEAR].R") %>% 
-  source()
-# Copied from Rscripts/survey_forms/biannual_survey.R 
+# Write to CSV
+str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
+  write.csv(x = new_year_data, file = ., row.names=FALSE)
+
+
 
 
 
@@ -82,7 +118,7 @@ str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
 
 
 
-# Merge all intraannual surveys ----------------------------------------
+# Merge all individual intraannual surveys ----------------------------------------
 # Copied from Rscripts/survey_forms/intraannual.R
 # DO THIS: Set current year
 current_year <- "2021"
