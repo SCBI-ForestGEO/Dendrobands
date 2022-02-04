@@ -26,22 +26,15 @@ library(here)
 
 # Set years
 current_year <- Sys.Date() %>% year()
-current_year <- 2021
 previous_year <- current_year - 1
-
-# Setup ----
-# Set years
-current_year <-  Sys.Date() %>% year()
-current_year <- 2021
-previous_year <- current_year - 1
-
 
 # Establish filenames of spring biannual, all intraannual, and fall biannual survey raw data
 current_year_spring_biannual_filename <- str_c("resources/raw_data/2021/data_entry_biannual_spr", current_year, ".csv") %>% 
   here()
 current_year_intraannual_filename_list <- str_c("resources/raw_data/", current_year) %>% 
   here() %>% 
-  dir(path = ., pattern = "data_entry_intraannual", full.names = TRUE)
+  # Ignore _BLANK .csv files
+  dir(path = ., pattern = "data_entry_intraannual_[0-9]+-[0-9]+\\.csv", full.names = TRUE)
 current_year_fall_biannual_filename <- str_c("resources/raw_data/2021/data_entry_biannual_fall", current_year, ".csv") %>% 
   here()
 
