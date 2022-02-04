@@ -1,3 +1,10 @@
+# Script that takes current year's resources/raw-data/YEAR/ csv files 
+# and creates "cleaned" version of data ready for analysis in
+# data/scbi.dendroAll_YEAR.csv. Furthermore it creates the next blank
+# raw-data form
+#
+# HOT TIP: To get a bird's eye view of what this code is doing, turn on
+# "code folding" by going to RStudio menu -> Edit -> Folding -> Collapse all.
 library(dplyr)
 library(stringr)
 library(lubridate)
