@@ -8,8 +8,6 @@ library(readr)
 # Setup ----
 # Set years
 current_year <-  Sys.Date() %>% year()
-
-# TODO: Remove this later
 current_year <- 2021
 previous_year <- current_year - 1
 
@@ -57,15 +55,8 @@ str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
 # Merge data_entry form spring biannual with the year's master file ----
 # Copied from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_spring_biannual_filename)){
-  # DO THIS: Set biannual survey ID. Should be "spr" or "fall"
-  season <- "spr"
-  
-  current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-    read.csv()
-  
-  data_biannual <- 
-    str_c("resources/raw_data/2021/data_entry_biannual_", season, "2021.csv") %>% 
-    read.csv()
+  current_year_data <- read.csv(current_year_data_filename)
+  data_biannual <- read.csv(current_year_spring_biannual_filename)
   
   names_current_year <- c(colnames(current_year_data))
   namesbi <- c(colnames(data_biannual))
@@ -111,10 +102,8 @@ if(file.exists(current_year_spring_biannual_filename)){
   test$notes <- as.character(test$notes)
   test$notes <- ifelse(is.na(test$notes), "", test$notes)
   
-  str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-    write.csv(x = test, file = ., row.names=FALSE)
-  
-  
+  # Write to CSV
+  write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
 }
 
 
@@ -123,20 +112,14 @@ if(file.exists(current_year_spring_biannual_filename)){
 
 # Merge all individual intraannual surveys ----------------------------------------
 # Copied from Rscripts/survey_forms/intraannual.R
+
 if(length(current_year_intraannual_filename_list) > 0){
-  # DO THIS: Set current year
-  current_year <- "2021"
-  
-  intraannual_surveys <-  str_c("resources/raw_data/", current_year) %>% 
-    here() %>% 
-    dir(path = ., pattern = "data_entry_intraannual", full.names = TRUE)
-  
-  for(i in 1:length(intraannual_surveys)){
-    current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-      read.csv()
+  for(i in 1:length(current_year_intraannual_filename_list)){
     
-    #change for the appropriate surveyID file
-    data_intra <- intraannual_surveys[i] %>% 
+    current_year_data <- read.csv(current_year_data_filename)
+    
+    # Change for the appropriate surveyID file
+    data_intra <- current_year_intraannual_filename_list[i] %>% 
       read.csv(colClasses = c("codes" = "character")) %>% 
       # As of 2020 new variable, remove it:
       select(-matches("Leaf.code")) %>% 
@@ -193,8 +176,8 @@ if(length(current_year_intraannual_filename_list) > 0){
     ##2. this will be easier because a, it happens very infrequently and b, it's faster.
     ##3. MAKE SURE to then do Section #4 of fix_dendrobands.R script 
     
-    str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-      write.csv(x = test, file = ., row.names=FALSE)
+    # Write to CSV
+    write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
   }
 }
 
@@ -212,20 +195,9 @@ if(length(current_year_intraannual_filename_list) > 0){
 # Merge data_entry form fall biannual with the year's master file -----
 # Copied from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_fall_biannual_filename)){
-  # DO THIS: Set current year
-  current_year <- "2021"
-  
-  # DO THIS: Set biannual survey ID. Should be "spr" or "fall"
-  season <- "fall"
-  fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_", season, current_year, ".csv") %>% 
-    here()
-  
-  current_year_data <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-    read.csv()
-  
-  data_biannual <- 
-    fall_biannual_survey %>% 
-    read.csv()
+
+  current_year_data <- read.csv(current_year_data_filename)
+  data_biannual <- read.csv(current_year_fall_biannual_filename)
   
   names_current_year <- c(colnames(current_year_data))
   namesbi <- c(colnames(data_biannual))
@@ -272,11 +244,8 @@ if(file.exists(current_year_fall_biannual_filename)){
   test$notes <- as.character(test$notes)
   test$notes <- ifelse(is.na(test$notes), "", test$notes)
   
-  str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
-    write.csv(x = test, file = ., row.names=FALSE)
-  
-  
-  
+  # Write to CSV
+  write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
   
 }
 
