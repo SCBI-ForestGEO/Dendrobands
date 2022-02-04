@@ -306,7 +306,7 @@ if(file.exists(current_year_fall_biannual_filename)){
       # Location variables:
       quadrat, lx, ly, area, location, 
       # Measure variables:
-      previous_measure, measure, measure_verified, codes, notes, status) %>% 
+      previous_measure, new.band, measure, measure_verified, codes, notes) %>% 
     mutate(
       year = current_year + 1, 
       survey.ID = str_c(year, ".01")

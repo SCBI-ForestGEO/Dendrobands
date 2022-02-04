@@ -1,4 +1,4 @@
-survey.ID,year,month,day,field.recorders,data.enter,tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,codes,notes,status
+survey.ID,year,month,day,field.recorders,data.enter,tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,new.band,measure,measure_verified,codes,notes
 2022.01,2022,,,,,10469,1,litu,838.8,109,9.7,1,3,South,71.72,,,,,
 2022.01,2022,,,,,10587,1,litu,985,113,2.6,13,3,South,79.14,,,,,
 2022.01,2022,,,,,10609,1,cagl,439,111,19.5,2.9,3,South,95.04,,,,,
