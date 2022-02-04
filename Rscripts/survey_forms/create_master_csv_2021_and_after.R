@@ -1,17 +1,33 @@
-# Script that takes current year's resources/raw-data/YEAR/ csv files 
-# and creates "cleaned" version of data ready for analysis in
-# data/scbi.dendroAll_YEAR.csv. Furthermore it creates the next blank
-# raw-data form
+# Purpose: 
+# - Take current year's resources/raw_data/YEAR/ .csv files and create
+# master version of data that's cleaned and ready for analysis in
+# data/scbi.dendroAll_YEAR.csv
+# - Create the next blank resources/raw_data/YEAR csv form
+# - Is based on now deprecated scripts: new_scbidendroAll_[YEAR].R,
+# biannual_survey.R, intraannual_survey.R
+# 
+# Developed by: Albert Y. Kim - albert.ys.kim@gmail.com
+# R version 4.0.3 - First created in 2021
 #
-# HOT TIP: To get a bird's eye view of what this code is doing, turn on
-# "code folding" by going to RStudio menu -> Edit -> Folding -> Collapse all
+# 🔥HOT TIP🔥 Get a bird's eye view of what this code is doing by
+# turning on "code folding" by going to RStudio menu -> Edit -> Folding
+# -> Collapse all
 
+# Setup ----
+# These packages need to be included in DESCRIPTION file for continuous
+# integration to work
 library(dplyr)
 library(stringr)
 library(lubridate)
 library(zoo)
-library(here)
 library(readr)
+# here package is used to standardize filepaths across machines:
+library(here)
+
+# Set years
+current_year <- Sys.Date() %>% year()
+current_year <- 2021
+previous_year <- current_year - 1
 
 # Setup ----
 # Set years
