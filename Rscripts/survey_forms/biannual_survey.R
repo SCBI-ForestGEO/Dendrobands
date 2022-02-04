@@ -1,5 +1,10 @@
 ######################################################
-# Purpose: Dendroband biannual survey: create field form, create data_entry forms, and merge to master
+# DEPRECATED: This script is superseded by 
+# Rscripts/survey_forms/create_master_csv_2021_and_after.R
+# as of January 2022 by Albert Y. Kim - albert.ys.kim@gmail.com
+#
+# Purpose: Dendroband biannual survey: create field form, create
+# data_entry forms, and merge to master
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created October 2018
 ######################################################

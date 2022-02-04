@@ -1,5 +1,10 @@
 ######################################################
-# Purpose: Create new year's master file (data/scbi.dendroAll_[YEAR].csv)
+# DEPRECATED: This script is superseded by 
+# Rscripts/survey_forms/create_master_csv_2021_and_after.R
+# as of January 2022 by Albert Y. Kim - albert.ys.kim@gmail.com
+# 
+# Purpose: Create new year's master file
+# (data/scbi.dendroAll_[YEAR].csv)
 #
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created October 2018
