@@ -317,10 +317,12 @@ if(file.exists(current_year_fall_biannual_filename)){
       year = current_year + 1, 
       survey.ID = str_c(year, ".01")
     )
-    
-  str_c(here(), "/resources/raw_data/data_entry_biannual_spr", current_year+1,"_BLANK.csv") %>% 
+
+  if(!dir.exists(str_c(here(), "/resources/raw_data/", current_year+1))){
+    dir.create(str_c(here(), "/resources/raw_data/", current_year+1))
+  }    
+  str_c(here(), "/resources/raw_data/", current_year+1, "/data_entry_biannual_spr", current_year+1,"_BLANK.csv") %>% 
     write_csv(x = blank_form, file = .)
-  
 }
 
 
