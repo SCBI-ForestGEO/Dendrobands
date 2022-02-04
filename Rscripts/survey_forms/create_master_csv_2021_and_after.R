@@ -27,9 +27,36 @@ previous_year_data_filename <- str_c("data/scbi.dendroAll_", previous_year, ".cs
 current_year_data_filename <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>% 
   here()
 
+# Load location and area of all stems
+# Code taken from Rscripts/survey_forms/biannual_survey.R on 2022/2/3
+stem_locations <- 
+  read_csv("data/dendro_trees.csv", show_col_types = FALSE) %>% 
+  select(tag, stemtag, quadrat, location) %>% 
+  mutate(
+    # Assign areas based on quadrats
+    area = case_when(
+      quadrat %in% c(1301:1303, 1401:1404, 1501:1515, 1601:1615, 1701:1715, 1801:1815, 1901:1915, 2001:2015) ~ 1,
+      quadrat %in% c(404:405, 504:507, 603:609, 703:712, 803:813, 901:913, 1003:1012, 1101:1112, 1201:1212, 1304:1311, 1405:1411) ~ 2,
+      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
+      quadrat %in% c(116:132, 216:232, 316:332, 416:432, 516:532, 616:624, 716:724, 816:824) ~ 4,
+      quadrat %in% c(916:924, 1016:1024, 1116:1124, 1216:1224, 1316:1324, 1416:1418,1420:1424) ~ 5,
+      quadrat %in% c(1419, 1516:1524, 1616:1624, 1716:1724, 1816:1824, 1916:1924, 2016:2024) ~ 6,
+      quadrat %in% c(625:632, 725:732, 825:832, 925:932, 1025:1029,1031,1032) ~ 7,
+      quadrat %in% c(1030, 1125:1132, 1225:1232, 1325:1332, 1425:1432) ~ 8,
+      quadrat %in% c(1525:1532, 1625:1632, 1725:1732, 1825:1832, 1925:1932, 2025:2032) ~ 9
+    ),
+    # Special cases
+    area = ifelse(tag == 70579, 2, area),
+    area = ifelse(quadrat == 714 & tag != 70579, 3, area),
+    # Convert to character
+    area = as.character(area)
+  )
+
+
+
 
 # Create blank current year working/running data master csv ----
-# Copied and modified from Rscripts/survey_forms/new_scbidendroAll_[YEAR].R
+# Code taken from Rscripts/survey_forms/new_scbidendroAll_[YEAR].R
 new_year_data <- 
   # Load previous year's data
   read_csv(previous_year_data_filename, show_col_types = FALSE) %>% 
@@ -51,9 +78,8 @@ str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
 
 
 
-
 # Merge data_entry form spring biannual with the year's master file ----
-# Copied from Rscripts/survey_forms/biannual_survey.R
+# Code taken from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_spring_biannual_filename)){
   current_year_data <- read.csv(current_year_data_filename)
   data_biannual <- read.csv(current_year_spring_biannual_filename)
@@ -111,7 +137,7 @@ if(file.exists(current_year_spring_biannual_filename)){
 
 
 # Merge all individual intraannual surveys ----------------------------------------
-# Copied from Rscripts/survey_forms/intraannual.R
+# Code taken from Rscripts/survey_forms/intraannual.R
 
 if(length(current_year_intraannual_filename_list) > 0){
   for(i in 1:length(current_year_intraannual_filename_list)){
@@ -193,9 +219,8 @@ if(length(current_year_intraannual_filename_list) > 0){
 
 
 # Merge data_entry form fall biannual with the year's master file -----
-# Copied from Rscripts/survey_forms/biannual_survey.R
+# Code taken from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_fall_biannual_filename)){
-
   current_year_data <- read.csv(current_year_data_filename)
   data_biannual <- read.csv(current_year_fall_biannual_filename)
   
@@ -246,6 +271,42 @@ if(file.exists(current_year_fall_biannual_filename)){
   
   # Write to CSV
   write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
+  
+  
+  ## Write blank spring biannual raw-data form ----
+  blank_form <- test %>% 
+    as_tibble() %>% 
+    # Join location data
+    left_join(stem_locations, by = c("tag", "stemtag", "quadrat")) %>% 
+    mutate(
+      measure_verified = "",
+      previous_measure = measure
+    ) %>% 
+    group_by(tag, stemtag) %>% 
+    arrange(survey.ID, .by_group = TRUE) %>% 
+    slice(n()) %>% 
+    mutate(previous_measure = measure)
+    
+  cols <- c("survey.ID", "year", "month", "day", "measure", "codes", "notes", "status", "field.recorders", "data.enter", "new.band")
+  blank_form[, cols] <- ""
+  
+  blank_form <- blank_form %>% 
+    select(
+      # Variables with values that won't vary within one survey:
+      survey.ID, year, month, day, field.recorders, data.enter, 
+      # Variables identifying stem:
+      tag, stemtag, sp, dbh, 
+      # Location variables:
+      quadrat, lx, ly, area, location, 
+      # Measure variables:
+      previous_measure, measure, measure_verified, codes, notes, status) %>% 
+    mutate(
+      year = current_year + 1, 
+      survey.ID = str_c(year, ".01")
+    )
+    
+  str_c(here(), "/resources/raw_data/data_entry_biannual_spr", current_year+1,"_BLANK.csv") %>% 
+    write_csv(x = blank_form, file = .)
   
 }
 
