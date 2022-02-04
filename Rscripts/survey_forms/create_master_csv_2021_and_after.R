@@ -4,7 +4,8 @@
 # raw-data form
 #
 # HOT TIP: To get a bird's eye view of what this code is doing, turn on
-# "code folding" by going to RStudio menu -> Edit -> Folding -> Collapse all.
+# "code folding" by going to RStudio menu -> Edit -> Folding -> Collapse all
+
 library(dplyr)
 library(stringr)
 library(lubridate)
@@ -294,19 +295,24 @@ if(file.exists(current_year_fall_biannual_filename)){
     slice(n()) %>% 
     mutate(previous_measure = measure)
     
-  cols <- c("survey.ID", "year", "month", "day", "measure", "codes", "notes", "status", "field.recorders", "data.enter", "new.band")
+  cols <- c(
+    "survey.ID", "year", "month", "day", "measure", "codes", "notes", 
+    "status", "field.recorders", "data.enter", "new.band", 
+    "crown.condition", "crown.illum"
+    )
   blank_form[, cols] <- ""
   
   blank_form <- blank_form %>% 
     select(
-      # Variables with values that won't vary within one survey:
-      survey.ID, year, month, day, field.recorders, data.enter, 
       # Variables identifying stem:
       tag, stemtag, sp, dbh, 
       # Location variables:
       quadrat, lx, ly, area, location, 
-      # Measure variables:
-      previous_measure, new.band, measure, measure_verified, codes, notes) %>% 
+      # Measured variables:
+      previous_measure, measure, measure_verified, crown.condition, crown.illum, new.band, codes, notes, 
+      # Variables with values that won't vary within one survey:
+      survey.ID, year, month, day, field.recorders, data.enter
+    ) %>% 
     mutate(
       year = current_year + 1, 
       survey.ID = str_c(year, ".01")
