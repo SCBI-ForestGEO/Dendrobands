@@ -2,12 +2,16 @@
 # data/scbi.dendroAll_YEAR.csv and checks for errors that require field
 # fixes listed in testthat/README.md.
 #
-# HOT TIP: To get a bird's eye view of what this code is doing, turn on
-# "code folding" by going to RStudio menu -> Edit -> Folding -> Collapse all.
+# 
+# Developed by: Albert Y. Kim - albert.ys.kim@gmail.com
+# R version 4.0.3 - First created in 2021
+#
+# 🔥HOT TIP🔥 Get a bird's eye view of what this code is doing by
+# turning on "code folding" by going to RStudio menu -> Edit -> Folding
+# -> Collapse all
 
 
-
-# Set up ------
+# Set up ----
 # clear environment
 rm(list = ls())
 
@@ -34,8 +38,10 @@ for(i in 1:length(master_data_filenames)){
 
 
 
-# DO THIS: Set current year
+# Set current year
+current_year <- Sys.Date() %>% year()
 current_year <- 2021
+previous_year <- current_year - 1
 
 # Needed to write csv's consisting of only original variables
 orig_master_data_var_names <- names(dendroband_measurements_all_years)
@@ -262,7 +268,7 @@ if(!is.na(fall_biannual_survey_ID)){
   # Compute +/- 3SD of growth by species: used to detect anomalous growth below
   growth_by_sp <- dendroband_measurements_all_years %>% 
     # Only previous year spring and fall biannual values
-    filter(year == current_year - 1) %>% 
+    filter(year == previous_year) %>% 
     filter(survey.ID %in% c(spring_biannual_survey_ID, fall_biannual_survey_ID)) %>% 
     # Compute growth
     group_by(tag, stemtag) %>%
