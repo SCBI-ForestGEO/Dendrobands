@@ -116,11 +116,6 @@ require_field_fix_error_file <- stems_to_alert %>%
 ## Error: Is year possible? ----
 alert_name <- "year_not_possible"
 
-# Get current year
-current_year <- Sys.Date() %>% 
-  str_sub(1, 4) %>% 
-  as.numeric()
-
 # Find stems with error
 stems_to_alert <- dendroband_measurements %>% 
   filter(!between(year, 2010, current_year) | is.na(year))
@@ -169,7 +164,7 @@ alert_name <- "code_not_defined"
 
 # Load codes table
 codes <- here("data/metadata/codes_metadata.csv") %>% 
-  read_csv() %>% 
+  read_csv(show_col_types = FALSE) %>% 
   # Delete rows that don't correspond to actual codes
   filter(!is.na(Description))
 
@@ -260,7 +255,7 @@ alert_name <- "new_measure_too_different_from_previous_biannual"
 
 if(!is.na(fall_biannual_survey_ID)){
   # Compute +/- 3SD of growth by species: used to detect anomalous growth below
-  growth_by_sp <- dendroband_measurements_all_years %>% 
+  previous_year_growth_by_sp <- dendroband_measurements_all_years %>% 
     # Only previous year spring and fall biannual values
     filter(year == current_year - 1) %>% 
     filter(survey.ID %in% c(min(survey.ID), max(survey.ID))) %>% 
@@ -274,6 +269,14 @@ if(!is.na(fall_biannual_survey_ID)){
     summarize(lower = quantile(growth, probs = 0.003/2), upper = quantile(growth, probs = 1-0.003/2), n = n()) %>% 
     arrange(desc(n))
   
+  # Get all measures that have been verified during fall survey
+  verified_measures <- 
+    fall_biannual_survey %>% 
+    read_csv(show_col_types = FALSE) %>% 
+    filter(measure_verified) %>% 
+    select(tag, stemtag, sp, survey.ID, measure_verified) 
+  
+  # Get all stems to alert  
   stems_to_alert <- dendroband_measurements %>% 
     filter(survey.ID %in% c(spring_biannual_survey_ID, fall_biannual_survey_ID)) %>% 
     # Compute growth
@@ -282,13 +285,13 @@ if(!is.na(fall_biannual_survey_ID)){
     filter(!is.na(growth)) %>% 
     slice(n()) %>% 
     # See if growth is in 99.7% confidence interval
-    left_join(growth_by_sp, by = "sp") %>% 
+    left_join(previous_year_growth_by_sp, by = "sp") %>% 
     mutate(measure_is_reasonable = between(growth, lower, upper)) %>% 
     filter(!measure_is_reasonable) %>% 
-    mutate(tag_sp = str_c(tag, ": ", sp))  
-  
-  # TODO: See if anomalous measure has been verified/double-checked in raw-data form
-  # TODO: Remove if measurement has been verified
+    # See if measure was verified, if so drop
+    left_join(verified_measures, by = c("tag", "stemtag", "sp", "survey.ID")) %>% 
+    mutate(measure_verified = ifelse(is.na(measure_verified), FALSE, measure_verified)) %>% 
+    filter(!measure_verified)
   
   # Append to report
   require_field_fix_error_file <- stems_to_alert %>% 
@@ -314,6 +317,10 @@ stems_to_alert <- dendroband_measurements %>%
   filter(!measure_is_reasonable) %>% 
   mutate(tag_sp = str_c(tag, ": ", sp)) %>% 
   mutate(survey.ID = str_pad(survey.ID, width = 7, side = "right", pad = "0"))
+
+
+
+
 
 # See if anomalous measure has been verified/double-checked in raw-data form
 stems_to_alert$verified <- NA
@@ -438,7 +445,7 @@ if(nrow(require_field_fix_error_file) != 0){
   
   # Append report to trace of reports to keep track of all the issues
   if(file.exists(trace_of_reports_filepath)){
-    trace_of_reports <- read_csv(file = trace_of_reports_filepath)
+    trace_of_reports <- read_csv(file = trace_of_reports_filepath, show_col_types = FALSE)
   } else {
     trace_of_reports <- NULL
   }
@@ -473,7 +480,7 @@ if(nrow(warning_file) != 0){
   
   # Append report to trace of reports to keep track of all the issues
   if(file.exists(trace_of_reports_filepath)){
-    trace_of_reports <- read_csv(file = trace_of_reports_filepath)
+    trace_of_reports <- read_csv(file = trace_of_reports_filepath, show_col_types = FALSE)
   } else {
     trace_of_reports <- NULL
   }
@@ -489,5 +496,11 @@ if(nrow(warning_file) != 0){
     file.remove(report_filepath)
   }
 }
+
+
+
+
+
+
 
 
