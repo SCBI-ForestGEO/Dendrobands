@@ -1,5 +1,4 @@
 "sp","biannual.n","intraannual.n","dbhmin.mm","dbhmax.mm","dbhavg.mm"
-"Sum",549,146,NA,NA,NA
 "acru",7,0,277,715,494.8
 "caca",15,14,60,116,82.5
 "caco",10,1,118,1015,430.4
@@ -22,3 +21,4 @@
 "ulru",3,0,106.5,246,159.5
 NA,NA,NA,NA,NA,NA
 "tiam",2,1,258.5,280.7,269.6
+"Sum",549,146,NA,NA,NA

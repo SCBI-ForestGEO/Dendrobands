@@ -1,5 +1,4 @@
 "sp","biannual.n","intraannual.n","dbhmin.mm","dbhmax.mm","dbhavg.mm"
-"Sum",64,3,NA,NA,NA
 "caco",4,0,118,550,314.7
 "cagl",4,0,68,1015,322.4
 "cato",4,0,55.1,496,239.7
@@ -22,3 +21,4 @@ NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA
+"Sum",64,3,NA,NA,NA

@@ -79,7 +79,7 @@ for(current_year in c(2010:2021)){
   data_merged <- data_merged[order(data_merged$sp), ]
   
   ## reorder to make "Sum" row be last. These numbers may change depending on if a tree has been fully removed from the survey
-  data_merged <- data_merged[c(1:20, 22, 23, 21), ]
+  data_merged <- data_merged[c(2:20, 22, 23, 21, 1), ]
   
   write.csv(data_merged, output_csv_file, row.names = FALSE)
 }
