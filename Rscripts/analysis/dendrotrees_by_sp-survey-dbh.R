@@ -1,5 +1,7 @@
 ######################################################
-# Purpose: give count of each species by survey, plus the min, max, and avg dbh per species
+# Purpose: give count of each species by survey, plus the min, max, and
+# avg dbh per species. These get output to csv in 
+# results/dendro_trees_dbhcount/
 # Developed by: Ian McGregor - mcgregori@si.edu
 # R version 3.5.2 - First created February 2019
 #
