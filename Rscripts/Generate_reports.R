@@ -36,14 +36,11 @@ for(i in 1:length(master_data_filenames)){
     )
 }
 
-
-
-# Set current year
+# Set years
 current_year <- Sys.Date() %>% year()
-current_year <- 2021
 previous_year <- current_year - 1
 
-# Needed to write csv's consisting of only original variables
+# Get variable names (needed to write csv's consisting of only original variables)
 orig_master_data_var_names <- names(dendroband_measurements_all_years)
 
 # Add date column
@@ -55,7 +52,9 @@ dendroband_measurements <- dendroband_measurements_all_years %>%
   filter(date > ymd(str_c(current_year, "-01-01")))
 
 # Assign biannual survey ID's
-spring_biannual_survey_ID <- min(dendroband_measurements$survey.ID)
+spring_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") %>% 
+  here()
+spring_biannual_survey_ID <- ifelse(file.exists(spring_biannual_survey), min(dendroband_measurements$survey.ID), NA)
 fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
   here()
 fall_biannual_survey_ID <- ifelse(file.exists(fall_biannual_survey), max(dendroband_measurements$survey.ID), NA)
@@ -175,7 +174,7 @@ alert_name <- "code_not_defined"
 
 # Load codes table
 codes <- here("data/metadata/codes_metadata.csv") %>% 
-  read_csv() %>% 
+  read_csv(show_col_types = FALSE) %>% 
   # Delete rows that don't correspond to actual codes
   filter(!is.na(Description))
 
@@ -322,45 +321,47 @@ stems_to_alert <- dendroband_measurements %>%
   mutate(survey.ID = str_pad(survey.ID, width = 7, side = "right", pad = "0"))
 
 # See if anomalous measure has been verified/double-checked in raw-data form
-stems_to_alert$verified <- NA
-for(i in 1:nrow(stems_to_alert)){
-  # Get info for particular anomaly:
-  anomaly_survey_id <- stems_to_alert$survey.ID[i]
-  anomaly_tag <- stems_to_alert$tag[i]
-  anomaly_stemtag <- stems_to_alert$stemtag[i]
-  
-  anomaly_raw_data_file <- str_c(
-    "resources/raw_data/2021/data_entry_intraannual_", 
-    # Because of differences in survey.ID variable and filename
-    # Ex: 2021.02 vs 2021-02:
-    anomaly_survey_id %>% str_replace("\\.", "-"), 
-    ".csv"
-  )
-  
-  # Special case for fall survey
-  if(file.exists(fall_biannual_survey)){
-    if(stems_to_alert$survey.ID[i] == fall_biannual_survey_ID) {
-      anomaly_raw_data_file <- "resources/raw_data/2021/data_entry_biannual_fall2021.csv"
+if(nrow(stems_to_alert) > 0) {
+  stems_to_alert$verified <- NA
+  for(i in 1:nrow(stems_to_alert)){
+    # Get info for particular anomaly:
+    anomaly_survey_id <- stems_to_alert$survey.ID[i]
+    anomaly_tag <- stems_to_alert$tag[i]
+    anomaly_stemtag <- stems_to_alert$stemtag[i]
+    
+    anomaly_raw_data_file <- str_c(
+      "resources/raw_data/2021/data_entry_intraannual_", 
+      # Because of differences in survey.ID variable and filename
+      # Ex: 2021.02 vs 2021-02:
+      anomaly_survey_id %>% str_replace("\\.", "-"), 
+      ".csv"
+    )
+    
+    # Special case for fall survey
+    if(file.exists(fall_biannual_survey)){
+      if(stems_to_alert$survey.ID[i] == fall_biannual_survey_ID) {
+        anomaly_raw_data_file <- "resources/raw_data/2021/data_entry_biannual_fall2021.csv"
+      }
     }
+    
+    stems_to_alert$verified[i] <- anomaly_raw_data_file %>% 
+      read_csv(show_col_types = FALSE) %>% 
+      filter(tag == anomaly_tag & stemtag == anomaly_stemtag) %>% 
+      pull(measure_verified) 
   }
   
-  stems_to_alert$verified[i] <- anomaly_raw_data_file %>% 
-    read_csv(show_col_types = FALSE) %>% 
-    filter(tag == anomaly_tag & stemtag == anomaly_stemtag) %>% 
-    pull(measure_verified) 
+  # Remove if measurement has been verified
+  stems_to_alert <- stems_to_alert %>% 
+    mutate(verified = ifelse(is.na(verified), FALSE, verified)) %>% 
+    filter(!verified)
+  
+  # Append to report
+  require_field_fix_error_file <- stems_to_alert %>% 
+    mutate(survey.ID = as.numeric(survey.ID)) %>% 
+    mutate(alert_name = alert_name) %>% 
+    select(alert_name, all_of(orig_master_data_var_names)) %>% 
+    bind_rows(require_field_fix_error_file)
 }
-
-# Remove if measurement has been verified
-stems_to_alert <- stems_to_alert %>% 
-  mutate(verified = ifelse(is.na(verified), FALSE, verified)) %>% 
-  filter(!verified)
-
-# Append to report
-require_field_fix_error_file <- stems_to_alert %>% 
-  mutate(survey.ID = as.numeric(survey.ID)) %>% 
-  mutate(alert_name = alert_name) %>% 
-  select(alert_name, all_of(orig_master_data_var_names)) %>% 
-  bind_rows(require_field_fix_error_file)
 
 # Display anomalies (if any) in README
 anomaly_plot_filename <- here("testthat/reports/measurement_anomalies.png")
@@ -425,7 +426,6 @@ warning_file <- stems_to_alert %>%
 
 
 # Clean and save files ----
-
 ## Field fix errors ----
 report_filepath <- here("testthat/reports/requires_field_fix/require_field_fix_error_file.csv")
 trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/require_field_fix_error_file.csv")
