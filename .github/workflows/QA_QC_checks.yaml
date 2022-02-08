@@ -74,6 +74,12 @@ jobs:
           source("Rscripts/Generate_warnings.R")
         shell: Rscript {0}
       
+      # Recompute annual summaries in results/dendro_trees_dbhcount/
+      - name: Recompute annual summaries
+        run: |
+          source("Rscripts/analysis/dendrotrees_by_sp-survey-dbh.R")
+        shell: Rscript {0}
+      
       # Update dashboard: repository README.md front page  
       - name: Update README
         run: |
