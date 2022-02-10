@@ -268,7 +268,7 @@ if(!is.na(fall_biannual_survey_ID)){
   growth_by_sp <- dendroband_measurements_all_years %>% 
     # Only previous year spring and fall biannual values
     filter(year == previous_year) %>% 
-    filter(survey.ID %in% c(spring_biannual_survey_ID, fall_biannual_survey_ID)) %>% 
+    filter(survey.ID %in% c(min(survey.ID), max(survey.ID))) %>% 
     # Compute growth
     group_by(tag, stemtag) %>%
     mutate(growth = measure - lag(measure)) %>% 
