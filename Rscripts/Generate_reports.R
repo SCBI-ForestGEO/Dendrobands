@@ -257,7 +257,7 @@ if(!is.na(fall_biannual_survey_ID)){
   # Compute +/- 3SD of growth by species: used to detect anomalous growth below
   previous_year_growth_by_sp <- dendroband_measurements_all_years %>% 
     # Only previous year spring and fall biannual values
-    filter(year == current_year - 1) %>% 
+    filter(year == previous_year) %>% 
     filter(survey.ID %in% c(min(survey.ID), max(survey.ID))) %>% 
     # Compute growth
     group_by(tag, stemtag) %>%
