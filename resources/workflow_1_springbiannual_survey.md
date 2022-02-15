@@ -5,10 +5,10 @@
     1. Either print this form or load onto iPad
 1. Conduct survey
     1. `codes` column should be based on these [codes](data/metadata/codes_metadata.csv)
-    1. For spring biannual survey only also collect both:
-            1. `crown.illum`: 5-class scale recorded for all trees in mortality census (adopted from dendrobands protocol)
+    1. For spring biannual survey only also collect both:  
+            1. `crown.illum`: 5-class scale recorded for all trees in mortality census (adopted from dendrobands protocol)  
             ![crown illum](crown_illum.png)
-            1. `crown.prosition`: 4-class scale (adopted from SERC)
+            1. `crown.prosition`: 4-class scale (adopted from SERC)  
             ![crown position](crown_position.png)
 1. Prepare data for GitHub
     1. Rename the raw-data form to `data_entry_intraannual_YEAR-XX.csv` i.e. remove the `_BLANK`
