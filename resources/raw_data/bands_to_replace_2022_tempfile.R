@@ -1,0 +1,59 @@
+library(tidyverse)
+library(here)
+
+all_data <- 
+  # Load and combine all 2021 recordings:
+  here("resources/raw_data/2021") %>% 
+  dir(path = ., pattern = "data_entry", full.names = TRUE) %>% 
+  map_dfr(read_csv, col_types = cols("day" = col_integer(), "month" = col_integer())) %>% 
+  mutate(
+    notes = tolower(notes),
+    caliper_limit = !between(measure, 3, 150), 
+    dead = str_detect(codes, regex("DC|DS|DN|I|Q")),
+    marked_replace = str_detect(codes, regex("RE"))
+  ) %>% 
+  # Rows to drop
+  filter(
+    str_sub(tolower(notes), 1, 13) != "originally on" | is.na(notes), 
+    str_sub(tolower(notes), 1, 8) != "estimate" | is.na(notes),
+    !str_detect(notes, "seems like outlier") | is.na(notes),
+    !str_detect(notes, "original measure of") | is.na(notes),
+    notes != "ash - alive!" | is.na(notes), 
+    !notes %in% c("jen jordan", "double-checked", "double-checke", "only one band", "left", "right") | is.na(notes),
+    tag != 30339
+  ) %>% 
+  # Rows to keep
+  filter(!is.na(codes) | !is.na(notes) | caliper_limit) %>% 
+  # Only subset of columns
+  select(tag, stemtag, sp, quadrat, survey.ID, measure, codes, notes, field.recorders, caliper_limit, dead, marked_replace) %>% 
+  arrange(tag, stemtag, survey.ID)
+
+
+# All stems with caliper limit, dead, or marked as replace
+all_data <- all_data %>% 
+  # Any issues?
+  mutate(any = caliper_limit | dead | marked_replace)
+
+dead_marked_replace_any <- all_data %>% 
+  filter(any) %>% 
+  select(-any)
+write_csv(dead_marked_replace_any, file = "resources/raw_data/dead_marked_replace_any_tempfile.csv")
+
+
+# ID tag issue
+all_data <- all_data %>% 
+  filter(!any | is.na(any)) %>% 
+  select(-c(caliper_limit, dead, marked_replace, any, codes)) %>% 
+  mutate(tag_issue = str_detect(notes, "tag"))
+
+tag_issue <- all_data %>% 
+  filter(tag_issue)
+write_csv(tag_issue, file = "resources/raw_data/tag_issue_tempfile.csv")
+
+
+# Left overs
+all_data <- all_data %>% 
+  filter(!tag_issue) %>% 
+  select(-tag_issue) %>% 
+  mutate(action_needed = "")
+write_csv(all_data, file = "resources/raw_data/remainders_tempfile.csv")
