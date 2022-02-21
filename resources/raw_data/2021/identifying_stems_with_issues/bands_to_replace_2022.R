@@ -51,6 +51,15 @@ tag_issue <- all_data %>%
 write_csv(tag_issue, file = "resources/raw_data/2021/identifying_stems_with_issues/tag_issue.csv")
 
 
+# Other maintenance stems: wrong species, coordinates, etc
+other_maintenance_stems <- all_data %>% 
+  filter(tag %in% c(120790, 72248, 40635, 70579, 110798, 80180))
+write_csv(other_maintenance_stems, file = "resources/raw_data/2021/identifying_stems_with_issues/other_maintenance.csv")
+
+all_data <- all_data %>% 
+  filter(!tag %in% c(120790, 72248, 40635, 70579, 110798, 80180))
+
+
 # Left overs
 all_data <- all_data %>% 
   filter(!tag_issue) %>% 
