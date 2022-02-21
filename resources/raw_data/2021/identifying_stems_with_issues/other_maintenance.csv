@@ -1,7 +1,12 @@
-tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders,tag_issue
-40635,1,cagl,408,2021.01,49.13,cato,"Bill McShea, Jessica Shue",FALSE
-70579,1,caco,714,2021.01,39.08,cato,"Bill McShea, Jessica Shue",FALSE
-72248,1,caco,723,2021.01,71.145,"band removed; cagl, cagl; new band window is short","Bill McShea, Jessica Shue",FALSE
-80180,1,cato,804,2021.01,34.67,quve; double-checked,"Bill McShea, Jessica Shue",FALSE
-110798,1,qupr,1104,2021.01,43.58,litu,"Bill McShea, Jessica Shue",FALSE
-120790,1,litu,1205,2021,12.91,"coordinates wrong; qx 0.5, qy 6.5",Jessica Shue,FALSE
+tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders
+40635,1,cagl,408,2021.01,49.13,cato,"Bill McShea, Jessica Shue"
+70579,1,caco,714,2021.01,39.08,cato,"Bill McShea, Jessica Shue"
+72248,1,caco,723,2021.01,71.145,"band removed; cagl, cagl; new band window is short","Bill McShea, Jessica Shue"
+80180,1,cato,804,2021.01,34.67,quve; double-checked,"Bill McShea, Jessica Shue"
+110798,1,qupr,1104,2021.01,43.58,litu,"Bill McShea, Jessica Shue"
+120790,1,litu,1205,2021,12.91,"coordinates wrong; qx 0.5, qy 6.5",Jessica Shue
+172154,1,fram,1723,2021.11,,not in database: standing dead,Jen Jordan
+172626,1,fram,1731,2021.11,,not in database: standind dead top broke,Jen Jordan
+172587,1,fram,1731,2021.11,,not in database: standind dead top broke,Jen Jordan
+92006,1,fram,917,2021.11,37.99,not in database: ,Jen Jordan
+92138,1,cato,920,2021.11,9.97,not in database: ,Jen Jordan
