@@ -19,7 +19,7 @@ all_data <-
     !str_detect(notes, "seems like outlier") | is.na(notes),
     !str_detect(notes, "original measure of") | is.na(notes),
     notes != "ash - alive!" | is.na(notes), 
-    !notes %in% c("jen jordan", "double-checked", "double-checke", "only one band", "left", "right") | is.na(notes),
+    !notes %in% c("jen jordan", "double-checked", "double-checke", "only one band", "left", "right", "band removed", "left old band") | is.na(notes),
     tag != 30339
   ) %>% 
   # Rows to keep
@@ -37,7 +37,7 @@ all_data <- all_data %>%
 dead_marked_replace_any <- all_data %>% 
   filter(any) %>% 
   select(-any)
-write_csv(dead_marked_replace_any, file = "resources/raw_data/dead_marked_replace_any_tempfile.csv")
+write_csv(dead_marked_replace_any, file = "resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv")
 
 
 # ID tag issue
@@ -48,7 +48,7 @@ all_data <- all_data %>%
 
 tag_issue <- all_data %>% 
   filter(tag_issue)
-write_csv(tag_issue, file = "resources/raw_data/tag_issue_tempfile.csv")
+write_csv(tag_issue, file = "resources/raw_data/2021/identifying_stems_with_issues/tag_issue.csv")
 
 
 # Left overs
@@ -56,4 +56,4 @@ all_data <- all_data %>%
   filter(!tag_issue) %>% 
   select(-tag_issue) %>% 
   mutate(action_needed = "")
-write_csv(all_data, file = "resources/raw_data/remainders_tempfile.csv")
+write_csv(all_data, file = "resources/raw_data/2021/identifying_stems_with_issues/remainders.csv")
