@@ -171,7 +171,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 82422,1,litu,831,2021.11,2021,10,27,95.29,,,,,Bill McShea,Jen Jordan,7
 82434,1,quve,832,2021.11,2021,10,27,22.55,,,,,Bill McShea,Jen Jordan,7
 90043,1,quve,901,2021.11,2021,10,26,102.74,TRUE,,RE,Band irregular & didn’t adjust/ measurement error likely,Nate Looker,Jen Jordan,2
-90084,1,quve,902,2021.11,2021,10,26,94.98,,,,Band irregular & didn’t adjust/ measurement error likely. Nail impeding,Nate Looker,Jen Jordan,2
+90084,1,quve,902,2021.11,2021,10,26,94.98,,,RE,Band irregular & didn’t adjust/ measurement error likely. Nail impeding,Nate Looker,Jen Jordan,2
 90162,1,litu,904,2021.11,2021,10,26,107.23,,,,,Nate Looker,Jen Jordan,2
 90311,1,cagl,904,2021.11,2021,10,26,21.84,,,,,Nate Looker,Jen Jordan,2
 90354,1,litu,905,2021.11,2021,10,26,19.77,,,,,Nate Looker,Jen Jordan,2
@@ -229,7 +229,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 102262,1,qual,1022,2021.11,2021,10,26,100.06,,,,,Jen Jordan,Jen Jordan,5
 102264,1,qual,1022,2021.11,2021,10,26,49.53,,,,,Jen Jordan,Jen Jordan,5
 102303,1,quve,1024,2021.11,2021,10,26,57.85,,,,,Jen Jordan,Jen Jordan,5
-102348,1,qual,1025,2021.11,2021,10,27,37.21,,,,Band irregular & didn’t adjust/ measurement error likely,Nate Looker,Jen Jordan,7
+102348,1,qual,1025,2021.11,2021,10,27,37.21,,,RE,Band irregular & didn’t adjust/ measurement error likely,Nate Looker,Jen Jordan,7
 102364,1,qual,1025,2021.11,2021,10,27,115.04,,,,,Nate Looker,Jen Jordan,7
 102365,1,litu,1025,2021.11,2021,10,27,73.05,,,RE,,Nate Looker,Jen Jordan,7
 102371,1,qual,1026,2021.11,2021,10,27,92.39,,,,,Nate Looker,Jen Jordan,7
@@ -326,7 +326,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 122522,1,litu,1232,2021.11,2021,10,27,95.33,,,,,Jen Jordan,Jen Jordan,8
 122561,1,litu,1231,2021.11,2021,10,27,28.51,,,,,Jen Jordan,Jen Jordan,8
 130348,1,litu,1302,2021.11,2021,10,26,35.65,,,,Caliper error?,Bill McShea,Jen Jordan,1
-130718,1,litu,1306,2021.11,2021,10,27,53.21,,,,Band irregular & didn’t adjust/ measurement error likely. Nail impeding,Nate Looker,Jen Jordan,2
+130718,1,litu,1306,2021.11,2021,10,27,53.21,,,RE,Band irregular & didn’t adjust/ measurement error likely. Nail impeding,Nate Looker,Jen Jordan,2
 130838,1,litu,1305,2021.11,2021,10,27,51.3,,,,,Nate Looker,Jen Jordan,2
 131009,1,quve,1308,2021.11,2021,10,27,67.55,,,,,Nate Looker,Jen Jordan,2
 131086,1,quru,1310,2021.11,2021,10,27,96.6,,,RE,,Nate Looker,Jen Jordan,2
@@ -505,8 +505,8 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 192570,1,fram,1931,2021.11,2021,10,27,NA,,,DS,,Bill McShea,Jen Jordan,9
 192619,1,quru,1926,2021.11,2021,10,27,73.95,,,,,Bill McShea,Jen Jordan,9
 192674,1,litu,1929,2021.11,2021,10,27,19.04,,,,,Bill McShea,Jen Jordan,9
-200038,1,litu,2001,2021.11,2021,10,26,NA,,,,Band missing,Bill McShea,Jen Jordan,1
-200038,2,litu,2001,2021.11,2021,10,26,NA,,,,Band missing,Bill McShea,Jen Jordan,1
+200038,1,litu,2001,2021.11,2021,10,26,NA,,,RE,Band missing,Bill McShea,Jen Jordan,1
+200038,2,litu,2001,2021.11,2021,10,26,NA,,,RE,Band missing,Bill McShea,Jen Jordan,1
 200142,1,litu,2002,2021.11,2021,10,26,23.49,,,,,Bill McShea,Jen Jordan,1
 200151,1,litu,2002,2021.11,2021,10,26,69.79,,,,"Originally on 10-26-21, the recorded measure was 288.98",Bill McShea,Jen Jordan,1
 200547,1,litu,2005,2021.11,2021,10,26,15.05,TRUE,,,,Bill McShea,Jen Jordan,1
@@ -514,7 +514,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 200553,1,litu,2005,2021.11,2021,10,26,137.64,,,,,Bill McShea,Jen Jordan,1
 200577,1,juni,2007,2021.11,2021,10,26,13.12,,,,,Bill McShea,Jen Jordan,1
 200586,1,juni,2007,2021.11,2021,10,26,131.95,,,,,Bill McShea,Jen Jordan,1
-200613,1,litu,2004,2021.11,2021,10,26,NA,,,,Band on ground,Bill McShea,Jen Jordan,1
+200613,1,litu,2004,2021.11,2021,10,26,NA,,,RE,Band on ground,Bill McShea,Jen Jordan,1
 200676,1,litu,2008,2021.11,2021,10,26,23.23,,,,,Bill McShea,Jen Jordan,1
 200812,1,juni,2008,2021.11,2021,10,26,47.77,,,,,Bill McShea,Jen Jordan,1
 200818,1,litu,2008,2021.11,2021,10,26,50.26,,,,,Bill McShea,Jen Jordan,1
