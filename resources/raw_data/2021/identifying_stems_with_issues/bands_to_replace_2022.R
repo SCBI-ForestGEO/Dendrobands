@@ -42,7 +42,7 @@ dead_marked_replace_any <- all_data %>%
 write_csv(dead_marked_replace_any, file = "resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv")
 
 # count stems
-dead_marked_replace_any$tag %>% n_distinct()
+dead_marked_replace_any %>% select(tag, stemtag) %>% n_distinct()
 
 
 
@@ -77,3 +77,61 @@ all_data <- all_data %>%
   select(-tag_issue) %>% 
   mutate(action_needed = "")
 # write_csv(all_data, file = "resources/raw_data/2021/identifying_stems_with_issues/remainders.csv")
+
+
+
+
+
+
+
+
+# Sampling strategy ---------
+
+
+
+
+all_2021_stems <- here("data/scbi.dendroAll_2021.csv") %>% 
+  read_csv() %>% 
+  select(
+    tag, stemtag, biannual, intraannual, sp, quadrat
+    #, lx, ly, stemID, treeID, dendroID, dbh
+  ) %>% 
+  distinct() %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+
+tag_stemtags_to_drop <- 
+  bind_rows(
+    read_csv("resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv") %>% 
+      select(tag, stemtag, caliper_limit, dead, marked_replace) %>% 
+      mutate(
+        reason = case_when(
+          caliper_limit == TRUE ~ "caliper",
+          marked_replace ~ "replace band",
+          dead ~ "replace tree"
+        )
+      ) %>% 
+      select(-c(caliper_limit, marked_replace, dead)),
+    read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders.csv") %>% 
+      filter(action_needed != "none") %>% 
+      select(tag, stemtag) %>% 
+      mutate(reason = "replace tree")
+  ) %>% 
+  distinct() %>% 
+  mutate(
+    tag_stemtag = str_c(tag, stemtag, sep = "-")
+  ) 
+  
+  
+all_2021_stems <- all_2021_stems %>% 
+  left_join(tag_stemtags_to_drop, by = c("tag", "stemtag", "tag_stemtag")) %>% 
+  mutate(reason = ifelse(is.na(reason), "keep", reason))
+
+all_2021_stems %>% 
+  mutate(survey = ifelse(intraannual == 1, "biweekly", "biannual")) %>% 
+  select(-intraannual) %>% 
+  group_by(survey, reason) %>% 
+  summarize(n = n()) %>% 
+  pivot_wider(names_from = "reason", values_from = "n")
+
+
