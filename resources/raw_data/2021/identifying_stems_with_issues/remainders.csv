@@ -1,48 +1,48 @@
-tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders,action_needed
-10469,1,litu,109,2021,61.04,removed old band; new band short,Jessica Shue,none
-20587,1,litu,208,2021,12.8,"around both stems, fused",Jessica Shue,none
-30462,1,litu,313,2021,10.37,left original band,Bill McShea,none
-40941,1,litu,414,2021,19.25,original band was around both stems now only on 40941 stem 1,Jessica Shue,none
-62417,1,quve,630,2021.11,85.38,nearly dead,Bill McShea,none
-70494,1,caca,714,2021.09,43.06,past measurement might be wrong as band needed adjusting which i did today,Jen Jordan,none
-72210,1,qual,721,2021.11,31.39,readjusted band,Jen Jordan,none
-90354,1,litu,905,2021,13.95,irregular,Jessica Shue,none
-90530,1,litu,910,2021,16.75,irregular; left old band,Jessica Shue,none
-91451,1,litu,907,2021,30.03,band a little short,Jessica Shue,none
-92112,1,litu,919,2021.11,21.06,band says “172470” in error,Jen Jordan,none
-102154,1,qual,1020,2021,10.18,irregular,Jessica Shue,none
-111092,1,litu,1110,2021,23.39,band short; left old band,Jessica Shue,none
-120278,1,litu,1201,2021,16.5,dbh at 1.4,Jessica Shue,none
-120278,1,litu,1201,2021.01,12.96,"only one band, double-checked","Bill McShea, Jessica Shue",none
-120755,1,litu,1204,2021.01,20.89,"only one band, double-checked","Bill McShea, Jessica Shue",none
-130348,1,litu,1302,2021.11,35.65,caliper error?,Bill McShea,none
-132302,1,quru,1321,2021.11,42.75,readjusted band,Jen Jordan,none
-140609,1,litu,1403,2021.11,25.64,caliper error?,Bill McShea,none
-142399,1,qual,1427,2021.11,33.55,readjusted band,Jen Jordan,none
-152673,1,litu,1530,2021.01,83.05,adjusted,"Bill McShea, Jessica Shue",none
-160713,1,litu,1603,2021,21.5,two dbh marks,Jessica Shue,none
-160713,1,litu,1603,2021.11,48.62,caliper error?,Bill McShea,none
-170175,1,litu,1702,2021,23,band short used 20587,Jessica Shue,none
-171127,1,litu,1705,2021,17.93,irregular,Jessica Shue,none
-172499,1,qual,1730,2021,30.33,"band fine, replaced spring",Jessica Shue,none
-172499,1,qual,1730,2021.01,30.61,spring was replaced,"Bill McShea, Jessica Shue",none
-180728,1,litu,1804,2021,44.73,band short,Jessica Shue,none
-190067,1,litu,1902,2021.01,38.64,"double-checked, only one band","Bill McShea, Jessica Shue",none
-190694,1,quru,1909,2021.01,69.835,"band removed, installation measurement likely a typo:  10.15","Bill McShea, Jessica Shue",none
-190694,1,quru,1909,2021.11,21.93,"from spring 2021 notes: “band removed, installation measurement likely a typo:  10.15”",Bill McShea,none
-192674,1,litu,1929,2021.01,14.84,coarse woody debris,"Bill McShea, Jessica Shue",none
-202581,1,fram,2031,2021.11,59.38,nearly dead,Bill McShea,none
-60571,1,caca,614,2021.01,24.19,prostrate,"Bill McShea, Jessica Shue",replace tree
-60571,1,caca,614,2021.02,22.99,knocked out,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",replace tree
-60571,1,caca,614,2021.03,24.37,knocked out,Brianna Calkins,replace tree
-60571,1,caca,614,2021.04,23.6,knocked out,Brianna Calkins,replace tree
-60571,1,caca,614,2021.05,23.23,fallen tree,Jen Jordan,replace tree
-60571,1,caca,614,2021.06,23.42,knocked out,Brianna Calkins,replace tree
-190838,1,quru,1916,2021.08,68.93,"tree is dead, no orange tape",Jen Jordan,replace tree
-190838,1,quru,1916,2021.09,69.2,"tree is dead, no orange tape",Jen Jordan,replace tree
-190838,1,quru,1916,2021.1,69.19,"tree is dead, no orange tape",Jen Jordan,replace tree
-192570,1,fram,1931,2021.08,NA,could not find,Jen Jordan,replace tree
-192570,1,fram,1931,2021.09,NA,could not find,Jen Jordan,replace tree
-192570,1,fram,1931,2021.1,NA,could not find,Jen Jordan,replace tree
-200038,1,litu,2001,2021.01,NA,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",replace tree
-200038,2,litu,2001,2021.01,NA,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",replace tree
+tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,action_needed
+10469,1,litu,109,2021,61.04,,removed old band; new band short,Jessica Shue,none
+20587,1,litu,208,2021,12.8,,"around both stems, fused",Jessica Shue,none
+30462,1,litu,313,2021,10.37,,left original band,Bill McShea,none
+40941,1,litu,414,2021,19.25,,original band was around both stems now only on 40941 stem 1,Jessica Shue,none
+62417,1,quve,630,2021.11,85.38,,nearly dead,Bill McShea,none
+70494,1,caca,714,2021.09,43.06,,past measurement might be wrong as band needed adjusting which i did today,Jen Jordan,none
+72210,1,qual,721,2021.11,31.39,,readjusted band,Jen Jordan,none
+90354,1,litu,905,2021,13.95,,irregular,Jessica Shue,none
+90530,1,litu,910,2021,16.75,,irregular; left old band,Jessica Shue,none
+91451,1,litu,907,2021,30.03,,band a little short,Jessica Shue,none
+92112,1,litu,919,2021.11,21.06,,band says “172470” in error,Jen Jordan,none
+102154,1,qual,1020,2021,10.18,,irregular,Jessica Shue,none
+111092,1,litu,1110,2021,23.39,,band short; left old band,Jessica Shue,none
+120278,1,litu,1201,2021,16.5,,dbh at 1.4,Jessica Shue,none
+120278,1,litu,1201,2021.01,12.96,,"only one band, double-checked","Bill McShea, Jessica Shue",none
+120755,1,litu,1204,2021.01,20.89,,"only one band, double-checked","Bill McShea, Jessica Shue",none
+130348,1,litu,1302,2021.11,35.65,,caliper error?,Bill McShea,none
+132302,1,quru,1321,2021.11,42.75,,readjusted band,Jen Jordan,none
+140609,1,litu,1403,2021.11,25.64,,caliper error?,Bill McShea,none
+142399,1,qual,1427,2021.11,33.55,,readjusted band,Jen Jordan,none
+152673,1,litu,1530,2021.01,83.05,,adjusted,"Bill McShea, Jessica Shue",none
+160713,1,litu,1603,2021,21.5,,two dbh marks,Jessica Shue,none
+160713,1,litu,1603,2021.11,48.62,,caliper error?,Bill McShea,none
+170175,1,litu,1702,2021,23,,band short used 20587,Jessica Shue,none
+171127,1,litu,1705,2021,17.93,,irregular,Jessica Shue,none
+172499,1,qual,1730,2021,30.33,,"band fine, replaced spring",Jessica Shue,none
+172499,1,qual,1730,2021.01,30.61,,spring was replaced,"Bill McShea, Jessica Shue",none
+180728,1,litu,1804,2021,44.73,,band short,Jessica Shue,none
+190067,1,litu,1902,2021.01,38.64,,"double-checked, only one band","Bill McShea, Jessica Shue",none
+190694,1,quru,1909,2021.01,69.835,,"band removed, installation measurement likely a typo:  10.15","Bill McShea, Jessica Shue",none
+190694,1,quru,1909,2021.11,21.93,,"from spring 2021 notes: “band removed, installation measurement likely a typo:  10.15”",Bill McShea,none
+192674,1,litu,1929,2021.01,14.84,,coarse woody debris,"Bill McShea, Jessica Shue",none
+202581,1,fram,2031,2021.11,59.38,,nearly dead,Bill McShea,none
+60571,1,caca,614,2021.01,24.19,,prostrate,"Bill McShea, Jessica Shue",replace tree
+60571,1,caca,614,2021.02,22.99,,knocked out,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",replace tree
+60571,1,caca,614,2021.03,24.37,,knocked out,Brianna Calkins,replace tree
+60571,1,caca,614,2021.04,23.6,,knocked out,Brianna Calkins,replace tree
+60571,1,caca,614,2021.05,23.23,,fallen tree,Jen Jordan,replace tree
+60571,1,caca,614,2021.06,23.42,,knocked out,Brianna Calkins,replace tree
+190838,1,quru,1916,2021.08,68.93,,"tree is dead, no orange tape",Jen Jordan,replace tree
+190838,1,quru,1916,2021.09,69.2,,"tree is dead, no orange tape",Jen Jordan,replace tree
+190838,1,quru,1916,2021.1,69.19,,"tree is dead, no orange tape",Jen Jordan,replace tree
+192570,1,fram,1931,2021.08,NA,,could not find,Jen Jordan,replace tree
+192570,1,fram,1931,2021.09,NA,,could not find,Jen Jordan,replace tree
+192570,1,fram,1931,2021.1,NA,,could not find,Jen Jordan,replace tree
+200038,1,litu,2001,2021.01,NA,,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",replace tree
+200038,2,litu,2001,2021.01,NA,,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",replace tree
