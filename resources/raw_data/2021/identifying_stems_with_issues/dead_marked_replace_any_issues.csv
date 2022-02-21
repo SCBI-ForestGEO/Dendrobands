@@ -3,6 +3,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 20603,1,fram,208,2021.11,123.43,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
 22333,1,fram,226,2021.01,42.32,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 22333,1,fram,226,2021.11,41.68,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
+30331,1,cagl,306,2021.1,61.48,RE,band needs repairs - prior measurements incorrect,Jen Jordan,FALSE,FALSE,TRUE
 40465,1,qupr,404,2021.11,52.43,RE,NA,Nate Looker,FALSE,FALSE,TRUE
 40564,1,fagr,406,2021.02,NA,RE,replace tag and dendroband,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",NA,FALSE,TRUE
 40564,1,fagr,406,2021.03,NA,RE,replace tag and dendroband,Brianna Calkins,NA,FALSE,TRUE
@@ -20,6 +21,8 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 60562,1,fagr,614,2021.01,7.54,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 60562,1,fagr,614,2021.07,4.72,DS,complete defoliation,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",FALSE,TRUE,FALSE
 60562,1,fagr,614,2021.11,5.63,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
+60563,1,caca,614,2021.09,28.26,RE,needs band adjustment,Jen Jordan,FALSE,FALSE,TRUE
+60563,1,caca,614,2021.1,28.92,RE,needs band adjustment,Jen Jordan,FALSE,FALSE,TRUE
 60569,1,caca,614,2021.01,2.33,NA,NA,"Bill McShea, Jessica Shue",TRUE,NA,NA
 60569,1,caca,614,2021.02,2.23,NA,NA,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",TRUE,NA,NA
 60571,1,caca,614,2021.07,23.4,DC,dead on ground,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",FALSE,TRUE,FALSE
@@ -31,12 +34,14 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 70181,1,litu,707,2021.11,110.54,RE,NA,Nate Looker,FALSE,FALSE,TRUE
 70357,1,cagl,708,2021.01,NA,DC,"lx=19.5, ly=0","Bill McShea, Jessica Shue",NA,TRUE,FALSE
 70357,1,cagl,708,2021.11,NA,DC,NA,Nate Looker,NA,TRUE,FALSE
+70494,1,caca,714,2021.1,42.91,RE,new band needed,Jen Jordan,FALSE,FALSE,TRUE
 80005,1,fram,801,2021.01,19.94,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 80005,1,fram,801,2021.11,21.14,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
 80398,1,caco,807,2021.01,NA,DC,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 80398,1,caco,807,2021.11,NA,DC,NA,Nate Looker,NA,TRUE,FALSE
 80554,1,caovl,813,2021.11,130.96,RE,needs new tag,Nate Looker,FALSE,FALSE,TRUE
 90043,1,quve,901,2021.11,102.74,RE,band irregular & didn’t adjust/ measurement error likely,Nate Looker,FALSE,FALSE,TRUE
+90084,1,quve,902,2021.11,94.98,RE,band irregular & didn’t adjust/ measurement error likely. nail impeding,Nate Looker,FALSE,FALSE,TRUE
 90530,1,litu,910,2021.01,78.305,I,adjusted,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 90660,1,quru,913,2021.11,142.02,RE,NA,Nate Looker,FALSE,FALSE,TRUE
 91435,1,litu,907,2021.01,NA,DC,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
@@ -50,6 +55,8 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 101310,1,fram,1016,2021.11,89.37,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
 101312,1,fram,1016,2021.01,NA,DS,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 101312,1,fram,1016,2021.11,NA,DN,NA,Jen Jordan,NA,TRUE,FALSE
+102348,1,qual,1025,2021.11,37.21,RE,band irregular & didn’t adjust/ measurement error likely,Nate Looker,FALSE,FALSE,TRUE
+102364,1,qual,1025,2021.08,115.28,RE,needs new band,Jen Jordan,FALSE,FALSE,TRUE
 102365,1,litu,1025,2021.01,66.05,RE,NA,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
 102365,1,litu,1025,2021.11,73.05,RE,NA,Nate Looker,FALSE,FALSE,TRUE
 111029,1,litu,1107,2021.01,NA,DC,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
@@ -66,8 +73,10 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 121358,1,fram,1216,2021.11,9.55,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
 122005,1,fram,1217,2021.01,102.82,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 122005,1,fram,1217,2021.11,105.65,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
+122343,1,qual,1225,2021.08,130.5,RE,new band needed,Jen Jordan,FALSE,FALSE,TRUE
 122452,1,fram,1226,2021.01,64.4,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 122452,1,fram,1226,2021.11,65.48,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
+130718,1,litu,1306,2021.11,53.21,RE,band irregular & didn’t adjust/ measurement error likely. nail impeding,Nate Looker,FALSE,FALSE,TRUE
 131086,1,quru,1310,2021.11,96.6,RE,NA,Nate Looker,FALSE,FALSE,TRUE
 131227,1,litu,1313,2021.11,122.6,RE,needs new tag,Jen Jordan,FALSE,FALSE,TRUE
 131232,1,litu,1313,2021.11,121.73,RE,NA,Jen Jordan,FALSE,FALSE,TRUE
@@ -86,6 +95,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 140467,1,quve,1404,2021.01,NA,DS,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 140467,1,quve,1404,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
 140736,1,quve,1407,2021.11,73.17,RE,NA,Nate Looker,FALSE,FALSE,TRUE
+140751,1,quru,1408,2021.01,88.72,RE,window bent,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
 140756,1,quve,1408,2021.01,NA,DS,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 140756,1,quve,1408,2021.11,NA,DC,NA,Nate Looker,NA,TRUE,FALSE
 140818,1,litu,1410,2021.11,86.53,RE,replace tag,Nate Looker,FALSE,FALSE,TRUE
@@ -101,6 +111,8 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 150756,1,quve,1503,2021.01,NA,DS,prse,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 150756,1,quve,1503,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
 160910,1,litu,1607,2021.01,124.46,RE,NA,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
+160910,1,litu,1607,2021.09,143.51,RE,needs new band,Jen Jordan,FALSE,FALSE,TRUE
+160910,1,litu,1607,2021.1,141.43,RE,needs new band,Jen Jordan,FALSE,FALSE,TRUE
 160910,1,litu,1607,2021.11,143.23,RE,NA,Bill McShea,FALSE,FALSE,TRUE
 171314,1,quru,1712,2021.01,NA,DC,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 171314,1,quru,1712,2021.11,NA,DC,NA,Bill McShea,NA,TRUE,FALSE
@@ -118,7 +130,8 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 182451,1,fram,1829,2021.11,30.99,DS,NA,Bill McShea,FALSE,TRUE,FALSE
 182498,1,fram,1831,2021.01,27.92,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 182498,1,fram,1831,2021.11,26.69,DS,NA,Bill McShea,FALSE,TRUE,FALSE
-190694,1,quru,1909,2021,1.15,NA,left old band,Jessica Shue,TRUE,NA,NA
+190694,1,quru,1909,2021.09,23.11,RE,"band needs repairs, see photo",Jen Jordan,FALSE,FALSE,TRUE
+190694,1,quru,1909,2021.1,21.46,RE,"band needs repairs, see photo",Jen Jordan,FALSE,FALSE,TRUE
 190838,1,quru,1916,2021.03,69.08,DS,NA,Brianna Calkins,FALSE,TRUE,FALSE
 190838,1,quru,1916,2021.04,70.55,DS,NA,Brianna Calkins,FALSE,TRUE,FALSE
 190838,1,quru,1916,2021.06,71.36,DS,NA,Brianna Calkins,FALSE,TRUE,FALSE
@@ -130,6 +143,9 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 192532,1,fagr,1928,2021.11,143.81,RE,needs new band,Bill McShea,FALSE,FALSE,TRUE
 192570,1,fram,1931,2021.01,NA,DS,gap closed,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 192570,1,fram,1931,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
+200038,1,litu,2001,2021.11,NA,RE,band missing,Bill McShea,NA,FALSE,TRUE
+200038,2,litu,2001,2021.11,NA,RE,band missing,Bill McShea,NA,FALSE,TRUE
+200613,1,litu,2004,2021.11,NA,RE,band on ground,Bill McShea,NA,FALSE,TRUE
 202536,1,fram,2028,2021.01,105.96,DS,eab emergence holes,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 202536,1,fram,2028,2021.11,106.84,DS,NA,Bill McShea,FALSE,TRUE,FALSE
 202541,1,fram,2028,2021.01,NA,DS,gap closed,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
