@@ -175,7 +175,7 @@ all_2021_stems %>%
 # biweekly = 128 + 13 = 141 i.e. ideally install 9 more
 # total = ideally install 53 more
 all_2021_stems %>% 
-  group_by(survey, action) %>% 
+  group_by(survey, action) %>%
   summarize(n = n())
 
 
@@ -187,26 +187,27 @@ status <- all_2021_stems %>%
   pivot_wider(names_from = "survey", values_from = "n", values_fill = 0) %>% 
   arrange(priority_order)
 
-
-status %>% 
+status <- status %>% 
+  rename(
+    bian = biannual, 
+    biwk = biweekly,
+    group = priority_grouping
+  ) %>% 
   ungroup() %>% 
-  # filter(priority_grouping %in% c(1)) %>% 
-  summarize(biannual = sum(biannual), biweekly = sum(biweekly))
-
-
-status %>% 
+  select(-priority_order) %>% 
   mutate(
-    new_biannual = biannual - 12,
-    new_biannual = ifelse(new_biannual >= 0, 0, -new_biannual),
-    new_biweekly = biweekly - 5,
-    new_biweekly = ifelse(new_biweekly >= 0, 0, -new_biweekly),
-  )
-
-status %>% 
-  ungroup() %>% 
-  filter(priority_grouping %in% c(1)) %>% 
-  summarize(new_biannual = sum(new_biannual), new_biweekly = sum(new_biweekly))
-
-
-
-
+    new_bian = bian - 12,
+    new_bian = ifelse(new_bian >= 0, 0, -new_bian),
+    total_new_bian = cumsum(new_bian),
+    #new_biwk = biwk - 5,
+    #new_biwk = ifelse(new_biwk >= 0, 0, -new_biwk),
+    #cummulative_new_biwk = cumsum(new_biwk),
+    new_biwk = 0,
+    new_biwk = case_when(
+      sp %in% c("quve", "qupr", "cato") ~ 2,
+      sp %in% c("juni", "caco", "caovl") ~ 1,
+      TRUE ~ new_biwk
+    ),
+    total_new_biwk = cumsum(new_biwk),
+  ) 
+write_csv(status, "resources/planning/current_distribution.csv")
