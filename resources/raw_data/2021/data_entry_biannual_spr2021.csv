@@ -46,8 +46,8 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 190793,1,litu,1914,2021.01,2021,3,23,73.565,1,,,,band removed,"Bill McShea, Jessica Shue",Jessica Shue,1
 190794,1,quru,1914,2021.01,2021,3,23,13.98,1,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,1
 190798,1,cagl,1914,2021.01,2021,3,23,10.58,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
-200038,1,litu,2001,2021.01,2021,3,23,NA,0,,,,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",Jessica Shue,1
-200038,2,litu,2001,2021.01,2021,3,23,NA,0,,,,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",Jessica Shue,1
+200038,1,litu,2001,2021.01,2021,3,23,NA,0,,,RE,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",Jessica Shue,1
+200038,2,litu,2001,2021.01,2021,3,23,NA,0,,,RE,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",Jessica Shue,1
 200142,1,litu,2002,2021.01,2021,3,23,15.4,1,,,,only one band,"Bill McShea, Jessica Shue",Jessica Shue,1
 200151,1,litu,2002,2021.01,2021,3,23,46.81,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,1
 200547,1,litu,2005,2021.01,2021,3,23,73.86,1,,,,band removed,"Bill McShea, Jessica Shue",Jessica Shue,1
@@ -217,7 +217,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 60567,1,litu,614,2021.01,2021,3,23,70.6,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,3
 60568,1,caca,614,2021.01,2021,3,23,3.67,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,3
 60569,1,caca,614,2021.01,2021,3,23,2.33,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,3
-60571,1,caca,614,2021.01,2021,3,23,24.19,0,,,,prostrate,"Bill McShea, Jessica Shue",Jessica Shue,3
+60571,1,caca,614,2021.01,2021,3,23,24.19,0,,,DC,prostrate,"Bill McShea, Jessica Shue",Jessica Shue,3
 60573,1,tiam,614,2021.01,2021,3,23,37.62,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,3
 60576,1,caca,615,2021.01,2021,3,23,20.49,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,3
 60577,1,litu,615,2021.01,2021,3,23,33.02,0,,,,,"Bill McShea, Jessica Shue",Jessica Shue,3

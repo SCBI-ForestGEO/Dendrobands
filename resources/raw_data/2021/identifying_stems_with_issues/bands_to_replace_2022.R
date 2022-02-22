@@ -31,7 +31,8 @@ all_data <-
   arrange(tag, stemtag, survey.ID)
 
 
-# All stems with caliper limit, dead, or marked as replace ----
+
+# All stems with caliper limit, dead, or marked as replace -----
 all_data <- all_data %>% 
   # Any issues?
   mutate(any = caliper_limit | dead | marked_replace)
@@ -41,8 +42,11 @@ dead_marked_replace_any <- all_data %>%
   select(-any)
 write_csv(dead_marked_replace_any, file = "resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv")
 
-# count stems
-dead_marked_replace_any %>% select(tag, stemtag) %>% n_distinct()
+# Get unique tag_stemtag count
+dead_marked_replace_any %>%
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>%
+  select(tag_stemtag) %>%
+  n_distinct()
 
 
 
@@ -56,8 +60,11 @@ tag_issue <- all_data %>%
   filter(tag_issue)
 write_csv(tag_issue, file = "resources/raw_data/2021/identifying_stems_with_issues/tag_issue.csv")
 
-# count stems
-tag_issue$tag %>% n_distinct()
+# Get unique tag_stemtag count
+tag_issue %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>%
+  select(tag_stemtag) %>%
+  n_distinct()
 
 
 
@@ -72,14 +79,22 @@ all_data <- all_data %>%
 
 
 # Remainder stems -----
+original_remainders <- 
+  read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders_original_cataloged_by_jess.csv") %>% 
+    select(tag, stemtag, survey.ID, action_needed)
+
 all_data <- all_data %>% 
   filter(!tag_issue) %>% 
   select(-tag_issue) %>% 
-  mutate(action_needed = "")
-# write_csv(all_data, file = "resources/raw_data/2021/identifying_stems_with_issues/remainders.csv")
+  left_join(original_remainders, by = c("tag", "stemtag", "survey.ID"))
+write_csv(all_data, file = "resources/raw_data/2021/identifying_stems_with_issues/remainders.csv")
 
-
-
+# Get unique tag_stemtag combos:
+all_data %>% 
+  filter(action_needed != "none") %>%
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>%
+  select(tag_stemtag) %>%
+  distinct()
 
 
 

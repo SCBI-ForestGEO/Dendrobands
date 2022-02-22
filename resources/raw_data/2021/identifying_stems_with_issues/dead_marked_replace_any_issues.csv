@@ -25,6 +25,12 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 60563,1,caca,614,2021.1,28.92,RE,needs band adjustment,Jen Jordan,FALSE,FALSE,TRUE
 60569,1,caca,614,2021.01,2.33,NA,NA,"Bill McShea, Jessica Shue",TRUE,NA,NA
 60569,1,caca,614,2021.02,2.23,NA,NA,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",TRUE,NA,NA
+60571,1,caca,614,2021.01,24.19,DC,prostrate,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
+60571,1,caca,614,2021.02,22.99,DC,knocked out,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",FALSE,TRUE,FALSE
+60571,1,caca,614,2021.03,24.37,DC,knocked out,Brianna Calkins,FALSE,TRUE,FALSE
+60571,1,caca,614,2021.04,23.6,DC,knocked out,Brianna Calkins,FALSE,TRUE,FALSE
+60571,1,caca,614,2021.05,23.23,DC,fallen tree,Jen Jordan,FALSE,TRUE,FALSE
+60571,1,caca,614,2021.06,23.42,DC,knocked out,Brianna Calkins,FALSE,TRUE,FALSE
 60571,1,caca,614,2021.07,23.4,DC,dead on ground,"Brianna Calkins, Teagan Rogers, Jennifer Jordan",FALSE,TRUE,FALSE
 60571,1,caca,614,2021.08,NA,DC,dead,Jen Jordan,NA,TRUE,FALSE
 60571,1,caca,614,2021.09,24.45,DC,"on ground, still has green leaves",Jen Jordan,FALSE,TRUE,FALSE
@@ -135,6 +141,9 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 190838,1,quru,1916,2021.03,69.08,DS,NA,Brianna Calkins,FALSE,TRUE,FALSE
 190838,1,quru,1916,2021.04,70.55,DS,NA,Brianna Calkins,FALSE,TRUE,FALSE
 190838,1,quru,1916,2021.06,71.36,DS,NA,Brianna Calkins,FALSE,TRUE,FALSE
+190838,1,quru,1916,2021.08,68.93,DS,"tree is dead, no orange tape",Jen Jordan,FALSE,TRUE,FALSE
+190838,1,quru,1916,2021.09,69.2,DS,"tree is dead, no orange tape",Jen Jordan,FALSE,TRUE,FALSE
+190838,1,quru,1916,2021.1,69.19,DS,"tree is dead, no orange tape",Jen Jordan,FALSE,TRUE,FALSE
 190935,1,quru,1916,2021.01,NA,DC,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 190935,1,quru,1916,2021.11,NA,DN,NA,Bill McShea,NA,TRUE,FALSE
 192062,1,qupr,1920,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
@@ -142,8 +151,13 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 192532,1,fagr,1928,2021.01,125.87,RE,NA,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
 192532,1,fagr,1928,2021.11,143.81,RE,needs new band,Bill McShea,FALSE,FALSE,TRUE
 192570,1,fram,1931,2021.01,NA,DS,gap closed,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
+192570,1,fram,1931,2021.08,NA,DS,could not find,Jen Jordan,NA,TRUE,FALSE
+192570,1,fram,1931,2021.09,NA,DS,could not find,Jen Jordan,NA,TRUE,FALSE
+192570,1,fram,1931,2021.1,NA,DS,could not find,Jen Jordan,NA,TRUE,FALSE
 192570,1,fram,1931,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
+200038,1,litu,2001,2021.01,NA,RE,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",NA,FALSE,TRUE
 200038,1,litu,2001,2021.11,NA,RE,band missing,Bill McShea,NA,FALSE,TRUE
+200038,2,litu,2001,2021.01,NA,RE,split above 1.3 m; no new band installed,"Bill McShea, Jessica Shue",NA,FALSE,TRUE
 200038,2,litu,2001,2021.11,NA,RE,band missing,Bill McShea,NA,FALSE,TRUE
 200613,1,litu,2004,2021.11,NA,RE,band on ground,Bill McShea,NA,FALSE,TRUE
 202536,1,fram,2028,2021.01,105.96,DS,eab emergence holes,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
