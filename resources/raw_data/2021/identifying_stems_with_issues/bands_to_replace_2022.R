@@ -1,6 +1,7 @@
 library(tidyverse)
 library(here)
 library(janitor)
+library(knitr)
 
 # Load data -------
 all_data <- 
@@ -209,5 +210,8 @@ status <- status %>%
       TRUE ~ new_biwk
     ),
     total_new_biwk = cumsum(new_biwk),
-  ) 
+  ) %>% 
+  select(sp, group, bian, new_bian, total_new_bian, biwk, new_biwk, total_new_biwk)
 write_csv(status, "resources/planning/current_distribution.csv")
+
+status %>% kable()
