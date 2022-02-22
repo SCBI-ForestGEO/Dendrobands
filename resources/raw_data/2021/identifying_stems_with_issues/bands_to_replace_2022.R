@@ -1,5 +1,6 @@
 library(tidyverse)
 library(here)
+library(janitor)
 
 # Load data -------
 all_data <- 
@@ -87,7 +88,7 @@ all_data <- all_data %>%
   filter(!tag_issue) %>% 
   select(-tag_issue) %>% 
   left_join(original_remainders, by = c("tag", "stemtag", "survey.ID"))
-write_csv(all_data, file = "resources/raw_data/2021/identifying_stems_with_issues/remainders.csv")
+# write_csv(all_data, file = "resources/raw_data/2021/identifying_stems_with_issues/remainders.csv")
 
 # Get unique tag_stemtag combos:
 all_data %>% 
@@ -101,10 +102,23 @@ all_data %>%
 
 
 # Sampling strategy ---------
+# Load information on new bands needed
+tag_stemtags_to_drop <- 
+  read_csv("resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv") %>% 
+  select(tag, stemtag, codes, caliper_limit, dead, marked_replace) %>% 
+  mutate(
+    tag_stemtag = str_c(tag, stemtag, sep = "-"),
+    action = case_when(
+      str_detect(codes, regex("DC|DS|DN")) ~ "replace_stem",
+      marked_replace ~ "replace_band",
+      caliper_limit == TRUE ~ "caliper",
+      TRUE ~ codes
+    )
+  ) %>% 
+  select(tag, stemtag, tag_stemtag, action) %>% 
+  distinct()
 
-
-
-
+# Load 2021 stem info  
 all_2021_stems <- here("data/scbi.dendroAll_2021.csv") %>% 
   read_csv() %>% 
   select(
@@ -112,41 +126,87 @@ all_2021_stems <- here("data/scbi.dendroAll_2021.csv") %>%
     #, lx, ly, stemID, treeID, dendroID, dbh
   ) %>% 
   distinct() %>% 
-  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
-
-
-tag_stemtags_to_drop <- 
-  bind_rows(
-    read_csv("resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv") %>% 
-      select(tag, stemtag, caliper_limit, dead, marked_replace) %>% 
-      mutate(
-        reason = case_when(
-          caliper_limit == TRUE ~ "caliper",
-          marked_replace ~ "replace band",
-          dead ~ "replace tree"
-        )
-      ) %>% 
-      select(-c(caliper_limit, marked_replace, dead)),
-    read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders.csv") %>% 
-      filter(action_needed != "none") %>% 
-      select(tag, stemtag) %>% 
-      mutate(reason = "replace tree")
-  ) %>% 
-  distinct() %>% 
   mutate(
-    tag_stemtag = str_c(tag, stemtag, sep = "-")
-  ) 
-  
-  
-all_2021_stems <- all_2021_stems %>% 
+    tag_stemtag = str_c(tag, stemtag, sep = "-"),
+    survey = ifelse(intraannual == 1, "biweekly", "biannual"),
+  ) %>% 
+  # Add action items
   left_join(tag_stemtags_to_drop, by = c("tag", "stemtag", "tag_stemtag")) %>% 
-  mutate(reason = ifelse(is.na(reason), "keep", reason))
+  mutate(
+    action = ifelse(is.na(action), "keep", action),
+    action = ifelse(action == "caliper", "replace_band", action),
+    # TODO: Ensure these are correct
+    action = ifelse(action %in% c("I", "Q"), "replace_stem", action)
+  )
 
+# Load Krista priorities from
+# https://github.com/SCBI-ForestGEO/Dendrobands/issues/97#issuecomment-1045085760
+krista_priorities <- read_csv("resources/planning/dendro_trees_sp_2021_min_max_mean_dbh_with_dominance.csv") %>% 
+  clean_names() %>% 
+  filter(sp != "Sum") %>% 
+  mutate(
+    priority_grouping = str_sub(priority_grouping, 1, 1) %>% as.numeric(),
+    priority_grouping = ifelse(is.na(priority_grouping), 4, priority_grouping),
+    # Put ash as bottom priority
+    priority_grouping = ifelse(sp == "fram", 5, priority_grouping),
+    priority_order = 1:n() %>% as.numeric(),
+    priority_order = case_when(
+      sp == "caca" ~ 19,
+      sp == "cofl" ~ 20,
+      sp == "fram" ~ 21,
+      TRUE ~ priority_order
+    )
+  ) %>% 
+  arrange(priority_order) %>% 
+  select(sp, priority_grouping, priority_order)
+
+  
+
+
+# All stems in 2021:
+# 403 vs 146 = 549 total
+# 400 vs 150 = 550 is a nice target
 all_2021_stems %>% 
-  mutate(survey = ifelse(intraannual == 1, "biweekly", "biannual")) %>% 
-  select(-intraannual) %>% 
-  group_by(survey, reason) %>% 
+  group_by(survey) %>% 
+  summarize(n = n())
+
+# Figure out how many new stems we need:
+# biannual = 333 + 23 = 356 i.e. ideally install 44 more.
+# biweekly = 128 + 13 = 141 i.e. ideally install 9 more
+# total = ideally install 53 more
+all_2021_stems %>% 
+  group_by(survey, action) %>% 
+  summarize(n = n())
+
+
+status <- all_2021_stems %>% 
+  filter(action != "replace_stem") %>% 
+  left_join(krista_priorities, by = "sp") %>% 
+  group_by(survey, sp, priority_order, priority_grouping) %>% 
   summarize(n = n()) %>% 
-  pivot_wider(names_from = "reason", values_from = "n")
+  pivot_wider(names_from = "survey", values_from = "n", values_fill = 0) %>% 
+  arrange(priority_order)
+
+
+status %>% 
+  ungroup() %>% 
+  # filter(priority_grouping %in% c(1)) %>% 
+  summarize(biannual = sum(biannual), biweekly = sum(biweekly))
+
+
+status %>% 
+  mutate(
+    new_biannual = biannual - 12,
+    new_biannual = ifelse(new_biannual >= 0, 0, -new_biannual),
+    new_biweekly = biweekly - 5,
+    new_biweekly = ifelse(new_biweekly >= 0, 0, -new_biweekly),
+  )
+
+status %>% 
+  ungroup() %>% 
+  filter(priority_grouping %in% c(1)) %>% 
+  summarize(new_biannual = sum(new_biannual), new_biweekly = sum(new_biweekly))
+
+
 
 
