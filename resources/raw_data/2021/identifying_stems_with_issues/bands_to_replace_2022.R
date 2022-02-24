@@ -2,8 +2,10 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(knitr)
+library(googlesheets4)
 
-# Load data -------
+# Identify bands to replace ------
+## Load data -------
 all_data <- 
   # Load and combine all 2021 recordings:
   here("resources/raw_data/2021") %>% 
@@ -11,7 +13,7 @@ all_data <-
   map_dfr(read_csv, col_types = cols("day" = col_integer(), "month" = col_integer())) %>% 
   mutate(
     notes = tolower(notes),
-    caliper_limit = !between(measure, 3, 150), 
+    caliper_limit = !between(measure, 3, 130), 
     dead = str_detect(codes, regex("DC|DS|DN|I|Q")),
     marked_replace = str_detect(codes, regex("RE"))
   ) %>% 
@@ -34,7 +36,7 @@ all_data <-
 
 
 
-# All stems with caliper limit, dead, or marked as replace -----
+## All stems with caliper limit, dead, or marked as replace -----
 all_data <- all_data %>% 
   # Any issues?
   mutate(any = caliper_limit | dead | marked_replace)
@@ -52,7 +54,7 @@ dead_marked_replace_any %>%
 
 
 
-# ID tag issue ----------
+## ID tag issue ----------
 all_data <- all_data %>% 
   filter(!any | is.na(any)) %>% 
   select(-c(caliper_limit, dead, marked_replace, any, codes)) %>% 
@@ -70,7 +72,7 @@ tag_issue %>%
 
 
 
-# Other maintenance stems: wrong species, coordinates, etc ------
+## Other maintenance stems: wrong species, coordinates, etc ------
 other_maintenance_stems <- all_data %>% 
   filter(tag %in% c(120790, 72248, 40635, 70579, 110798, 80180))
 # write_csv(other_maintenance_stems, file = "resources/raw_data/2021/identifying_stems_with_issues/other_maintenance.csv")
@@ -80,7 +82,7 @@ all_data <- all_data %>%
 
 
 
-# Remainder stems -----
+## Remainder stems -----
 original_remainders <- 
   read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders_original_cataloged_by_jess.csv") %>% 
     select(tag, stemtag, survey.ID, action_needed)
@@ -103,8 +105,8 @@ all_data %>%
 
 
 # Sampling strategy ---------
-# Load information on new bands needed
-tag_stemtags_to_drop <- 
+## Load data -----
+stems_to_act_on <- 
   read_csv("resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv") %>% 
   select(tag, stemtag, codes, caliper_limit, dead, marked_replace) %>% 
   mutate(
@@ -119,7 +121,7 @@ tag_stemtags_to_drop <-
   select(tag, stemtag, tag_stemtag, action) %>% 
   distinct()
 
-# Load 2021 stem info  
+## Load 2021 stem info  
 all_2021_stems <- here("data/scbi.dendroAll_2021.csv") %>% 
   read_csv() %>% 
   select(
@@ -132,7 +134,7 @@ all_2021_stems <- here("data/scbi.dendroAll_2021.csv") %>%
     survey = ifelse(intraannual == 1, "biweekly", "biannual"),
   ) %>% 
   # Add action items
-  left_join(tag_stemtags_to_drop, by = c("tag", "stemtag", "tag_stemtag")) %>% 
+  left_join(stems_to_act_on, by = c("tag", "stemtag", "tag_stemtag")) %>% 
   mutate(
     action = ifelse(is.na(action), "keep", action),
     action = ifelse(action == "caliper", "replace_band", action),
@@ -159,27 +161,122 @@ krista_priorities <- read_csv("resources/planning/dendro_trees_sp_2021_min_max_m
     )
   ) %>% 
   arrange(priority_order) %>% 
-  select(sp, priority_grouping, priority_order)
+  select(sp, priority_grouping, priority_order) %>% 
+  rename(group = priority_grouping)
 
   
+## Write CSV's of counts ------
+bands_to_keep <- all_2021_stems %>% 
+  filter(action == "keep") %>% 
+  left_join(krista_priorities, by = "sp") %>% 
+  group_by(survey, sp, priority_order, group) %>% 
+  summarize(n = n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = "survey", values_from = "n", values_fill = 0) %>% 
+  arrange(priority_order) %>% 
+  select(-priority_order) %>% 
+  mutate(group = factor(group)) %>% 
+  rename(
+    biannual_keep = biannual,
+    biweekly_keep = biweekly
+    )
+
+bands_to_replace <- all_2021_stems %>% 
+  filter(action == "replace_band") %>% 
+  left_join(krista_priorities, by = "sp") %>% 
+  group_by(survey, sp, priority_order, group) %>% 
+  summarize(n = n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = "survey", values_from = "n", values_fill = 0) %>% 
+  arrange(priority_order) %>% 
+  select(-priority_order) %>% 
+  mutate(group = factor(group)) %>% 
+  rename(
+    biannual_RE = biannual,
+    biweekly_RE = biweekly
+  )
+
+master_list <- bands_to_keep %>% 
+  left_join(bands_to_replace, by = c("sp", "group")) %>% 
+  replace_na(list(biannual_RE = 0, biweekly_RE = 0)) %>% 
+  mutate(
+    biannual_replace_band = ifelse(biannual_keep < 12, biannual_RE, 0),
+    biannual_subtotal = biannual_keep + biannual_replace_band,
+    biannual_install_new = 0,
+    biweekly_replace_band = ifelse(biweekly_keep < 5, biweekly_RE, 0),
+    biweekly_subtotal = biweekly_keep + biweekly_replace_band,
+    biweekly_install_new = 0,
+  ) %>% 
+  select(sp, group, starts_with("biweekly"), starts_with("biannual"))
+ 
+
+# Write to Google Sheets
+# master_list %>% 
+#   write_sheet(ss = "https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=0", sheet = "master_list")
+
+
+
+
+
 
 
 # All stems in 2021:
 # 403 vs 146 = 549 total
 # 400 vs 150 = 550 is a nice target
-all_2021_stems %>% 
+all_2021_summary <- all_2021_stems %>% 
   group_by(survey) %>% 
-  summarize(n = n())
+  summarize(n = n()) %>% 
+  pivot_wider(names_from = "survey", values_from = "n") %>% 
+  mutate(survey = "2021 total") %>% 
+  select(survey, everything())
 
 # Figure out how many new stems we need:
 # biannual = 333 + 23 = 356 i.e. ideally install 44 more.
 # biweekly = 128 + 13 = 141 i.e. ideally install 9 more
 # total = ideally install 53 more
-all_2021_stems %>% 
+action_2021_summary <- all_2021_stems %>% 
   group_by(survey, action) %>%
-  summarize(n = n())
+  summarize(n = n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = "survey", values_from = "n") %>% 
+  rename(survey = action)
+
+target_2022_summary <- tibble(
+  survey = "2022 target", biannual = 350, biweekly = 150
+)
+
+table <- bind_rows(
+  action_2021_summary,
+  all_2021_summary
+) %>% 
+  mutate(total = biannual_only + biweekly)
+
+table %>% kable()
 
 
+
+
+
+census <- "https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(tag_stemtag = str_c(tag, StemTag, sep = "-"))
+
+
+census %>% 
+  filter(tag_stemtag %in% all_2021_stems$tag_stemtag) %>% 
+  left_join(all_2021_stems %>% select(tag_stemtag, survey, action), by = "tag_stemtag") %>% 
+  filter(action == "keep") %>% 
+  ggplot(aes(x = gx, y = gy, col = sp)) +
+  geom_point() +
+  coord_fixed() +
+  facet_wrap(~survey)
+  #facet_grid(action ~ survey)
+
+
+
+
+
+# --------------
 status <- all_2021_stems %>% 
   filter(action != "replace_stem") %>% 
   left_join(krista_priorities, by = "sp") %>% 
@@ -190,7 +287,7 @@ status <- all_2021_stems %>%
 
 status <- status %>% 
   rename(
-    bian = biannual, 
+    bian = biannual_only, 
     biwk = biweekly,
     group = priority_grouping
   ) %>% 
@@ -200,9 +297,6 @@ status <- status %>%
     new_bian = bian - 12,
     new_bian = ifelse(new_bian >= 0, 0, -new_bian),
     total_new_bian = cumsum(new_bian),
-    #new_biwk = biwk - 5,
-    #new_biwk = ifelse(new_biwk >= 0, 0, -new_biwk),
-    #cummulative_new_biwk = cumsum(new_biwk),
     new_biwk = 0,
     new_biwk = case_when(
       sp %in% c("quve", "qupr", "cato") ~ 2,
