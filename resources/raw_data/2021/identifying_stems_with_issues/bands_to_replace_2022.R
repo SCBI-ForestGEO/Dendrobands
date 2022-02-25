@@ -1,3 +1,9 @@
+#
+# Preparation of new bands for 2022 season
+# https://github.com/SCBI-ForestGEO/Dendrobands/issues/89
+# https://github.com/SCBI-ForestGEO/Dendrobands/issues/97
+#
+
 library(tidyverse)
 library(here)
 library(janitor)
@@ -86,7 +92,7 @@ all_data <- all_data %>%
 
 ## Remainder stems -----
 original_remainders <- 
-  read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders_original_cataloged_by_jess.csv") %>% 
+  read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders_originally_cataloged_by_jess.csv") %>% 
   select(tag, stemtag, survey.ID, action_needed)
 
 all_data <- all_data %>% 
@@ -147,10 +153,10 @@ stems_to_act_on <- issue_stems %>%
 
 
 ## Load 2021 stem info  
-all_2021_live_stems <- "data/scbi.dendroAll_2021.csv" %>% 
+all_2021_stems <- "data/scbi.dendroAll_2021.csv" %>% 
   here() %>% 
   read_csv() %>% 
-  select(tag, stemtag, biannual, intraannual, sp, quadrat) %>% 
+  select(tag, stemtag, biannual, intraannual, sp, quadrat, dbh) %>% 
   distinct() %>% 
   mutate(
     tag_stemtag = str_c(tag, stemtag, sep = "-"),
@@ -189,8 +195,8 @@ krista_priorities <- read_csv("resources/planning/dendro_trees_sp_2021_min_max_m
   rename(group = priority_grouping)
 
 
-## Write CSV's of counts ------
-bands_to_keep <- all_2021_live_stems %>% 
+## Write Google Sheet of counts ------
+bands_to_keep <- all_2021_stems %>% 
   filter(action == "keep") %>% 
   left_join(krista_priorities, by = "sp") %>% 
   group_by(survey, sp, priority_order, group) %>% 
@@ -205,7 +211,7 @@ bands_to_keep <- all_2021_live_stems %>%
     biweekly_keep = biweekly
   )
 
-bands_to_replace <- all_2021_live_stems %>% 
+bands_to_replace <- all_2021_stems %>% 
   filter(action == "replace_band") %>% 
   left_join(krista_priorities, by = "sp") %>% 
   group_by(survey, sp, priority_order, group) %>% 
@@ -220,7 +226,7 @@ bands_to_replace <- all_2021_live_stems %>%
     biweekly_RE = biweekly
   )
 
-bands_caliper <- all_2021_live_stems %>% 
+bands_caliper <- all_2021_stems %>% 
   filter(action == "caliper") %>% 
   left_join(krista_priorities, by = "sp") %>% 
   group_by(survey, sp, priority_order, group) %>% 
@@ -257,9 +263,167 @@ master_list <- bands_to_keep %>%
 #   write_sheet(ss = "https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=0", sheet = "master_list")
 
 
+# Make lists of dead stems, stems to reband, new stems to install dendrobands on ------
+## Load data -----
+# Master list containing agonizing decisions: https://github.com/SCBI-ForestGEO/Dendrobands/issues/97
+master_list <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=0", sheet = "master_list", skip = 1) %>% 
+  clean_names() %>% 
+  select(
+    sp,
+    biweekly_replace = replace_band_re_caliper_issue_6,
+    biweekly_install = install_new_7,
+    biannual_replace = replace_band_re_caliper_issue_13,
+    biannual_install = install_new_14,
+    biweekly_shift_to_biannual = shift_biannual_to_biweekly_change_biannual_to_biweekly_change_biweekly_to_biannual_2
+  ) %>% 
+  filter(sp != "Total")
+
+# Load 2018 census data
+census_2018 <- "https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(tag_stemtag = str_c(tag, StemTag, sep = "-")) %>% 
+  filter(DFstatus == "alive")
+
+## Identify stems that are dead and thus bands need to be retrieved ----
+dead_stems
+
+
+## Identify stems that are alive with no RE or caliper issues -----
+stems_to_keep <- all_2021_stems %>% 
+  filter(action == "keep") %>% 
+  pull(tag_stemtag)
+length(stems_to_keep)
+
+
+## Identify bands to replace -----
+bands_to_replace <- all_2021_stems %>%
+  filter(action %in% c("replace_band", "caliper")) %>%
+  filter(
+    (sp %in% c("litu", "qual", "quru", "cagl", "fagr") & survey == "biweekly") |
+      (sp %in% c("juni", "cato", "caovl") & survey == "biannual")
+  )
+
+stems_to_reband <- bands_to_replace %>% 
+  pull(tag_stemtag)
+length(stems_to_reband)
+
+# Remove stems that will not be rebanded
+all_2021_live_stems <- all_2021_stems %>% 
+  filter(tag_stemtag %in% c(stems_to_keep, stems_to_reband)) 
+
+## Identify stems to install new bands on -----
+### Biweekly stems ----
+bands_to_install_biweekly <- master_list %>% 
+  select(sp, biweekly_install) %>% 
+  filter(!is.na(biweekly_install))
+
+census_2018 %>%
+  filter(sp %in% bands_to_install_biweekly$sp) %>% 
+  ggplot(aes(x = as.numeric(dbh))) +
+  geom_histogram(bins = 15, boundary = 0) +
+  geom_vline(
+    data = all_2021_live_stems %>% filter(sp %in% bands_to_install_biweekly$sp),
+    aes(xintercept = dbh), col ="red"
+    ) +
+  facet_wrap(~sp, scales = "free_y")
+
+# Sample n trees from required species, where n varies by species
+# https://jennybc.github.io/purrr-tutorial/ls12_different-sized-samples.html
+stems_to_install_biweekly <- census_2018 %>%
+  select(sp, tag_stemtag) %>% 
+  filter(sp %in% bands_to_install_biweekly$sp) %>% 
+  group_by(sp) %>% 
+  nest() %>%            
+  ungroup() %>% 
+  left_join(bands_to_install_biweekly, by = "sp") %>% 
+  mutate(samp = map2(data, biweekly_install, sample_n)) %>% 
+  select(-data) %>%
+  unnest(samp) %>% 
+  select(-biweekly_install)
+
+
+### Biannual stems ----
+bands_to_install_biannual <- master_list %>% 
+  select(sp, biannual_install) %>% 
+  filter(!is.na(biannual_install))
+
+census_2018 %>%
+  filter(sp %in% bands_to_install_biannual$sp) %>% 
+  ggplot(aes(x = as.numeric(dbh))) +
+  geom_histogram(bins = 15, boundary = 0) +
+  geom_vline(
+    data = all_2021_live_stems %>% filter(sp %in% bands_to_install_biannual$sp),
+    aes(xintercept = dbh), col ="red"
+  ) +
+  facet_wrap(~sp, scales = "free")
+
+# Sample n trees from required species, where n varies by species
+# https://jennybc.github.io/purrr-tutorial/ls12_different-sized-samples.html
+stems_to_install_biannual <- census_2018 %>%
+  select(sp, tag_stemtag) %>% 
+  filter(sp %in% bands_to_install_biannual$sp) %>% 
+  group_by(sp) %>% 
+  nest() %>%            
+  ungroup() %>% 
+  left_join(bands_to_install_biannual, by = "sp") %>% 
+  mutate(samp = map2(data, biannual_install, sample_n)) %>% 
+  select(-data) %>%
+  unnest(samp) %>% 
+  select(-biannual_install)
 
 
 
+
+## Collate stem info -----
+# Reload data to include dead stems
+all_2021_stems <- "data/scbi.dendroAll_2021.csv" %>% 
+  here() %>% 
+  read_csv() %>% 
+  select(tag, stemtag, sp, quadrat, dbh) %>% 
+  distinct() %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) 
+
+census_2018 <- "https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(
+    tag_stemtag = str_c(tag, StemTag, sep = "-"),
+    dbh18 = as.numeric(dbh)
+    ) %>% 
+  select(tag, stemtag = StemTag, sp, quadrat, tag_stemtag, dbh18)
+
+
+bind_rows(
+  # Dead stems
+  all_2021_stems %>% 
+    filter(tag_stemtag %in% dead_stems$tag_stemtag) %>% 
+    left_join(census_2018, by = c("tag", "stemtag", "sp", "quadrat", "tag_stemtag")) %>% 
+    mutate(action = "retrieve band: stem dead") %>% 
+    select(-tag_stemtag),
+  # Stems to reband:
+  all_2021_stems %>% 
+    filter(tag_stemtag %in% stems_to_reband) %>% 
+    left_join(census_2018, by = c("tag", "stemtag", "sp", "quadrat", "tag_stemtag")) %>% 
+    mutate(action = "reband stem") %>% 
+    select(-tag_stemtag),
+  # Biweekly bands to install:
+  census_2018 %>% 
+    filter(tag_stemtag %in% c(stems_to_install_biweekly$tag_stemtag)) %>% 
+    mutate(
+      dbh = NA, 
+      action = "install band on new stem: biweekly"
+    ) %>% 
+    select(tag, stemtag, sp, quadrat, dbh, dbh18, action),
+  # Biannual bands to install:
+  census_2018 %>% 
+    filter(tag_stemtag %in% c(stems_to_install_biannual$tag_stemtag)) %>% 
+    mutate(
+      dbh = NA, 
+      action = "install band on new stem: biannual"
+    ) %>% 
+    select(tag, stemtag, sp, quadrat, dbh, dbh18, action)
+) %>% 
+  arrange(quadrat, action, tag, stemtag) %>% 
+  write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list.csv")
 
 
 
@@ -301,12 +465,6 @@ table <- bind_rows(
 table %>% kable()
 
 
-
-
-
-census <- "https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv" %>% 
-  read_csv(show_col_types = FALSE) %>% 
-  mutate(tag_stemtag = str_c(tag, StemTag, sep = "-"))
 
 
 census %>% 
