@@ -325,7 +325,8 @@ census_2018 %>%
     data = all_2021_live_stems %>% filter(sp %in% bands_to_install_biweekly$sp),
     aes(xintercept = dbh), col ="red"
     ) +
-  facet_wrap(~sp, scales = "free_y")
+  facet_wrap(~sp, scales = "free_y") +
+  labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biweekly")
 
 # Sample n trees from required species, where n varies by species
 # https://jennybc.github.io/purrr-tutorial/ls12_different-sized-samples.html
@@ -355,7 +356,8 @@ census_2018 %>%
     data = all_2021_live_stems %>% filter(sp %in% bands_to_install_biannual$sp),
     aes(xintercept = dbh), col ="red"
   ) +
-  facet_wrap(~sp, scales = "free")
+  facet_wrap(~sp, scales = "free") +
+  labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biannual")
 
 # Sample n trees from required species, where n varies by species
 # https://jennybc.github.io/purrr-tutorial/ls12_different-sized-samples.html
@@ -422,7 +424,7 @@ bind_rows(
     ) %>% 
     select(tag, stemtag, sp, quadrat, dbh, dbh18, action)
 ) %>% 
-  arrange(quadrat, action, tag, stemtag) %>% 
+  arrange(action, quadrat, tag, stemtag) %>% 
   write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list.csv")
 
 

@@ -1,105 +1,105 @@
 tag,stemtag,sp,quadrat,dbh,dbh18,action
-12062,1,tiam,119,NA,151,install band on new stem: biannual
-12231,5,tiam,124,NA,25,install band on new stem: biweekly
-12231,7,tiam,124,NA,22,install band on new stem: biweekly
-12270,1,tiam,125,280.7,304,retrieve band: stem dead
-20603,1,fram,208,840.8,862,retrieve band: stem dead
-22141,1,tiam,221,NA,142,install band on new stem: biannual
-22333,1,fram,226,550,430,retrieve band: stem dead
+10463,1,acru,108,NA,152,install band on new stem: biannual
+12270,1,tiam,125,NA,304,install band on new stem: biannual
+12459,1,caovl,130,NA,175,install band on new stem: biannual
+20142,1,tiam,202,NA,500,install band on new stem: biannual
+22257,1,tiam,224,NA,275,install band on new stem: biannual
+30159,1,caco,303,NA,454,install band on new stem: biannual
+40981,1,qupr,416,NA,375,install band on new stem: biannual
+53204,1,ulru,501,NA,16,install band on new stem: biannual
+50229,1,caovl,503,NA,390,install band on new stem: biannual
+53280,1,caovl,504,NA,10,install band on new stem: biannual
+50589,2,tiam,516,NA,41,install band on new stem: biannual
+62091,1,cato,619,NA,192,install band on new stem: biannual
+73163,1,ceca,703,NA,20,install band on new stem: biannual
+73218,1,ulru,704,NA,11,install band on new stem: biannual
+70579,1,caovl,714,NA,240,install band on new stem: biannual
+83235,1,ulru,804,NA,15,install band on new stem: biannual
+80439,1,caco,808,NA,212,install band on new stem: biannual
+92514,1,ceca,930,NA,84,install band on new stem: biannual
+112145,1,pist,1120,NA,239,install band on new stem: biannual
+123116,3,cato,1204,NA,12,install band on new stem: biannual
+121453,1,caco,1215,NA,63,install band on new stem: biannual
+121456,1,ceca,1216,NA,124,install band on new stem: biannual
+122171,1,pist,1222,NA,223,install band on new stem: biannual
+132512,1,juni,1328,NA,548,install band on new stem: biannual
+144117,1,ulru,1408,NA,11,install band on new stem: biannual
+152489,1,caovl,1524,NA,163,install band on new stem: biannual
+171177,1,ceca,1708,NA,48,install band on new stem: biannual
+182261,1,qupr,1820,NA,700,install band on new stem: biannual
+190504,1,caco,1909,NA,142,install band on new stem: biannual
+192396,1,ulru,1925,NA,90,install band on new stem: biannual
+200347,1,ploc,2002,NA,524,install band on new stem: biannual
+20737,1,tiam,213,NA,180,install band on new stem: biweekly
+50478,1,tiam,510,NA,170,install band on new stem: biweekly
+83583,1,ceca,807,NA,15,install band on new stem: biweekly
+133800,2,ceca,1308,NA,11,install band on new stem: biweekly
+190557,5,tiam,1912,NA,16,install band on new stem: biweekly
+192713,1,ceca,1932,NA,109,install band on new stem: biweekly
 30331,1,cagl,306,216,231,reband stem
-32251,1,tiam,323,NA,164,install band on new stem: biannual
-32381,1,qupr,327,NA,872,install band on new stem: biannual
-32409,1,tiam,328,NA,124,install band on new stem: biweekly
-40028,2,ploc,401,NA,408,install band on new stem: biannual
 40564,1,fagr,406,57.8,69,reband stem
-42590,1,caovl,432,NA,160,install band on new stem: biannual
-50160,1,fram,502,1531,908,retrieve band: stem dead
-53308,1,ceca,503,NA,12,install band on new stem: biweekly
-50478,1,tiam,510,NA,170,install band on new stem: biannual
-60207,2,ulru,601,NA,16,install band on new stem: biannual
-60410,1,fram,610,468,469,retrieve band: stem dead
-60562,1,fagr,614,70,157,retrieve band: stem dead
-60571,1,caca,614,116,127,retrieve band: stem dead
 62128,1,quru,620,831,NA,reband stem
-70357,1,cagl,708,115.8,115,retrieve band: stem dead
-80005,1,fram,801,490,714,retrieve band: stem dead
-80398,1,caco,807,1015,191,retrieve band: stem dead
 80554,1,caovl,813,489.2,529,reband stem
-93105,1,ceca,902,NA,13,install band on new stem: biweekly
-91435,1,litu,907,510.1,NA,retrieve band: stem dead
-90530,1,litu,910,647.5,669,retrieve band: stem dead
-90570,1,caovl,913,NA,58,install band on new stem: biannual
 90660,1,quru,913,947.4,988,reband stem
 92140,1,cato,920,55.1,60,reband stem
-92139,1,quru,920,489.1,113,retrieve band: stem dead
-100011,1,fram,1001,960.5,967,retrieve band: stem dead
-103277,2,caco,1007,NA,11,install band on new stem: biannual
-101066,1,cato,1008,NA,72,install band on new stem: biannual
-101310,1,fram,1016,490.1,482,retrieve band: stem dead
-101312,1,fram,1016,377,381,retrieve band: stem dead
 102177,1,qual,1020,702.8,720,reband stem
 102348,1,qual,1025,888,874,reband stem
 102364,1,qual,1025,630.5,649,reband stem
-113153,1,caovl,1104,NA,15,install band on new stem: biannual
 110788,1,litu,1104,638.3,656,reband stem
-111019,1,caco,1107,NA,45,install band on new stem: biannual
+121305,1,quru,1211,753.8,777,reband stem
+122343,1,qual,1225,623.9,638,reband stem
+140751,1,quru,1408,677.1,NA,reband stem
+160910,1,litu,1607,973,996,reband stem
+190694,1,quru,1909,1265.5,1281,reband stem
+200586,1,juni,2007,437.2,453,reband stem
+12270,1,tiam,125,280.7,304,retrieve band: stem dead
+20603,1,fram,208,840.8,862,retrieve band: stem dead
+22333,1,fram,226,550,430,retrieve band: stem dead
+50160,1,fram,502,1531,908,retrieve band: stem dead
+60410,1,fram,610,468,469,retrieve band: stem dead
+60562,1,fagr,614,70,157,retrieve band: stem dead
+60571,1,caca,614,116,127,retrieve band: stem dead
+70357,1,cagl,708,115.8,115,retrieve band: stem dead
+80005,1,fram,801,490,714,retrieve band: stem dead
+80398,1,caco,807,1015,191,retrieve band: stem dead
+91435,1,litu,907,510.1,NA,retrieve band: stem dead
+90530,1,litu,910,647.5,669,retrieve band: stem dead
+92139,1,quru,920,489.1,113,retrieve band: stem dead
+100011,1,fram,1001,960.5,967,retrieve band: stem dead
+101310,1,fram,1016,490.1,482,retrieve band: stem dead
+101312,1,fram,1016,377,381,retrieve band: stem dead
 111029,1,litu,1107,671.3,125,retrieve band: stem dead
 111292,1,fram,1116,706.5,713,retrieve band: stem dead
 112060,1,fram,1117,700.2,853,retrieve band: stem dead
 112118,1,quru,1119,700.2,584,retrieve band: stem dead
-121305,1,quru,1211,753.8,777,reband stem
 121358,1,fram,1216,1058,1061,retrieve band: stem dead
 122005,1,fram,1217,393,598,retrieve band: stem dead
-122343,1,qual,1225,623.9,638,reband stem
 122452,1,fram,1226,246,524,retrieve band: stem dead
-133722,1,ceca,1306,NA,14,install band on new stem: biannual
-130768,1,ulru,1308,NA,26,install band on new stem: biannual
 131272,1,fram,1315,927.8,956,retrieve band: stem dead
 131352,1,fram,1316,992.5,1020,retrieve band: stem dead
 132028,1,fram,1317,460,613,retrieve band: stem dead
-132233,1,pist,1322,NA,356,install band on new stem: biannual
-132270,1,caovl,1324,NA,182,install band on new stem: biannual
 132524,1,litu,1329,233.9,246,retrieve band: stem dead
 132525,1,fram,1329,233.9,531,retrieve band: stem dead
 140467,1,quve,1404,1520,1534,retrieve band: stem dead
-144097,2,ceca,1408,NA,11,install band on new stem: biweekly
-140751,1,quru,1408,677.1,NA,reband stem
 140756,1,quve,1408,677.1,710,retrieve band: stem dead
-143387,1,cato,1409,NA,14,install band on new stem: biannual
-144180,1,caovl,1410,NA,11,install band on new stem: biannual
 140819,1,litu,1411,203.4,204,retrieve band: stem dead
 141088,1,fram,1415,770,771,retrieve band: stem dead
 141146,1,caco,1416,770,361,retrieve band: stem dead
 142206,1,fram,1419,477.2,876,retrieve band: stem dead
-142521,1,pist,1422,NA,484,install band on new stem: biannual
-150761,1,juni,1503,NA,388,install band on new stem: biannual
 150756,1,quve,1503,939.1,NA,retrieve band: stem dead
-153302,1,ceca,1509,NA,17,install band on new stem: biannual
-160910,1,litu,1607,973,996,reband stem
-161003,1,caco,1613,NA,97,install band on new stem: biannual
 171314,1,quru,1712,616.9,880,retrieve band: stem dead
 171358,1,fram,1714,920,924,retrieve band: stem dead
 172255,1,qual,1720,274.2,675,retrieve band: stem dead
 172472,1,fram,1728,150,153,retrieve band: stem dead
-173861,1,ceca,1730,NA,12,install band on new stem: biannual
-180823,1,caco,1813,NA,57,install band on new stem: biannual
 182248,1,nysy,1820,89.2,90,retrieve band: stem dead
 182161,1,fram,1822,1087,1102,retrieve band: stem dead
-182629,2,ceca,1825,NA,40,install band on new stem: biannual
 182451,1,fram,1829,355.6,370,retrieve band: stem dead
 182498,1,fram,1831,145.7,162,retrieve band: stem dead
-190694,1,quru,1909,1265.5,1281,reband stem
 190838,1,quru,1916,553.5,595,retrieve band: stem dead
 190935,1,quru,1916,164.9,246,retrieve band: stem dead
 192062,1,qupr,1920,512.2,520,retrieve band: stem dead
 192064,1,qupr,1920,504.3,518,retrieve band: stem dead
-192637,1,ulru,1927,NA,121,install band on new stem: biannual
 192570,1,fram,1931,933.1,478,retrieve band: stem dead
-192700,1,ulru,1932,NA,273,install band on new stem: biannual
-200586,1,juni,2007,437.2,453,reband stem
-201191,1,ulru,2011,NA,198,install band on new stem: biannual
-202028,1,qupr,2018,NA,151,install band on new stem: biannual
-202100,1,acru,2022,NA,51,install band on new stem: biannual
 202536,1,fram,2028,438.5,446,retrieve band: stem dead
 202541,1,fram,2028,461,461,retrieve band: stem dead
 202581,1,fram,2031,264.2,273,retrieve band: stem dead
