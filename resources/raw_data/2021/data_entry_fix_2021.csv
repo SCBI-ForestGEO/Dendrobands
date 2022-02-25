@@ -1,99 +1,99 @@
 tag,stemtag,sp,quadrat,lx,ly,survey.ID,year,month,day,dbh,new.band,dendroID,type,dendDiam,dendHt,measure,codes,notes,status,field.recorders,data.enter
-10469,1,litu,109,9.7,1,2021,2021,January,21,917,1,993,2,905,1.5,61.04,,removed old band; new band short,,Jessica Shue,Jessica Shue
-12259,1,litu,125,16.3,1.5,2021,2021,January,21,1042,1,994,2,103.3,1.15,29.35,,,,Bill McShea,Jessica Shue
-20587,1,litu,208,14.8,1.3,2021,2021,January,22,1288,1,995,2,128.2,1.4,12.8,,"around both stems, fused",,Jessica Shue,Jessica Shue
-30462,1,litu,313,16.2,19,2021,2021,January,21,522,1,996,2,518,1.4,10.37,,left original band,,Bill McShea,Jessica Shue
-30584,1,quve,316,2.2,14.4,2021,2021,January,21,932,1,997,2,920,1.45,61.06,,,,Bill McShea,Jessica Shue
-40941,1,litu,414,6,15.4,2021,2021,January,21,680,1,998,2,668,1.5,19.25,,original band was around both stems now only on 40941 stem 1,,Jessica Shue,Jessica Shue
-50364,1,qual,507,4.2,18.1,2021,2021,January,22,688,1,999,2,681,1.4,13.52,,left old band,,Jessica Shue,Jessica Shue
-52087,1,quru,519,1.1,11.1,2021,2021,January,21,1473,1,1000,2,146.2,1.3,28.07,,,,Bill McShea,Jessica Shue
-52190,1,quru,522,16.4,3.4,2021,2021,January,21,1026,1,1001,2,994,1.55,52.3,,,,Bill McShea,Jessica Shue
-62224,1,litu,622,3.2,17.3,2021,2021,January,21,1073,1,1002,2,1067,1.34,18.73,,,,Bill McShea,Jessica Shue
-62241,1,litu,623,13.9,0.7,2021,2021,January,21,970,1,1003,2,941,1.8,29.03,,,,Bill McShea,Jessica Shue
-62449,1,qual,632,18.7,3.9,2021,2021,January,22,908,1,1004,2,895,1.65,12.76,,,,Bill McShea,Jessica Shue
-62454,1,quve,632,14.7,18.8,2021,2021,January,22,947,1,1005,2,927,1.62,9.35,,,,Bill McShea,Jessica Shue
-70216,1,quve,701,18.7,11.6,2021,2021,January,21,962,1,1006,2,960,1.34,19.86,,,,Jessica Shue,Jessica Shue
-70358,1,litu,708,18.1,2.3,2021,2021,January,22,390,1,1007,2,390,1.2,13.61,,left old band,,Jessica Shue,Jessica Shue
-70433,1,litu,710,11.4,13.8,2021,2021,January,21,735,1,1008,2,730,1.4,13.22,,,,Jessica Shue,Jessica Shue
-72124,1,quru,719,12.5,19.4,2021,2021,January,21,813,1,1009,2,777,1.5,27.67,,,,Bill McShea,Jessica Shue
-72248,1,caco,723,15,0.3,2021,2021,January,21,329,1,1010,2,321,1.44,65.65,,,,Bill McShea,Jessica Shue
-80631,1,litu,811,0.2,6.1,2021,2021,January,21,553,1,1011,2,548,1.4,13.31,,,,Jessica Shue,Jessica Shue
-82138,1,quru,820,1.1,2.7,2021,2021,January,21,701,1,1012,2,662,1.55,31.53,,,,Bill McShea,Jessica Shue
-82326,1,quve,827,14.6,8.3,2021,2021,January,21,876,1,1013,2,854,1.5,14.71,,,,Bill McShea,Jessica Shue
-82421,1,litu,831,5.6,14.7,2021,2021,January,22,591,1,1014,2,587,1.3,7.41,,,,Bill McShea,Jessica Shue
-82434,1,quve,832,6,15.6,2021,2021,January,22,853,1,1015,2,860,1.5,20.98,,,,Bill McShea,Jessica Shue
-90354,1,litu,905,10.6,5,2021,2021,January,22,713,1,1016,2,680,1.65,13.95,,irregular,,Jessica Shue,Jessica Shue
-90530,1,litu,910,10.2,17.8,2021,2021,January,21,694,1,1017,2,688,1.4,16.75,,irregular; left old band,,Jessica Shue,Jessica Shue
-90612,1,quru,910,10.7,14,2021,2021,January,21,587,1,1018,2,581,1.4,12.46,,left old band,,Jessica Shue,Jessica Shue
-91451,1,litu,907,18.7,17.6,2021,2021,January,22,595,1,1019,2,593,1.4,30.03,,band a little short,,Jessica Shue,Jessica Shue
-92112,1,litu,919,14.4,18.8,2021,2021,January,22,536,1,1020,2,533,1.4,6.37,,,,Jessica Shue,Jessica Shue
-92141,1,cagl,920,19.4,4.7,2021,2021,January,22,92,1,1021,2,89,1.4,7.63,,,,Jessica Shue,Jessica Shue
-92280,1,quve,923,15,7.9,2021,2021,January,22,692,1,1022,2,685,1.35,15.36,,,,Jessica Shue,Jessica Shue
-92466,1,litu,927,0.6,16.3,2021,2021,January,21,871,1,1023,2,863,1.4,31.35,,,,Bill McShea,Jessica Shue
-92487,1,quve,928,9.8,15,2021,2021,January,21,700,1,1024,2,685,1.25,38.22,,,,Bill McShea,Jessica Shue
-100562,1,litu,1004,9.1,19.2,2021,2021,January,22,663,1,1025,2,658,1.4,15.74,,,,Jessica Shue,Jessica Shue
-100612,1,litu,1003,12,4.4,2021.01,2021,March,24,1258,1,1026,2,1258,1.32,12.68,,,,Jessica Shue,Jessica Shue
-101118,1,litu,1011,0.3,3,2021,2021,January,21,230,1,1027,2,228,1.4,15.31,,,,Jessica Shue,Jessica Shue
-102154,1,qual,1020,5.4,8.5,2021,2021,January,22,521,1,1028,2,513,1.15,10.18,,irregular,,Jessica Shue,Jessica Shue
-102475,1,litu,1030,20,14.3,2021,2021,January,22,853,1,1029,2,845,1.15,10.27,,,,Bill McShea,Jessica Shue
-102501,1,litu,1031,9.8,17.3,2021,2021,January,22,654,1,1030,2,645,1.25,10.91,,,,Bill McShea,Jessica Shue
-110680,1,litu,1104,2,6.5,2021,2021,January,22,706,1,1031,2,705,1.4,13.78,,,,Jessica Shue,Jessica Shue
-111014,1,litu,1107,13.9,12.2,2021,2021,January,22,699,1,1032,2,695,1.4,12.3,,,,Jessica Shue,Jessica Shue
-111041,1,quru,1108,16.5,5.7,2021,2021,January,22,1085,1,1033,2,1023,1.8,14.33,,,,Jessica Shue,Jessica Shue
-111092,1,litu,1110,18.3,17.7,2021,2021,January,21,587,1,1034,2,583,1.4,23.39,,band short; left old band,,Jessica Shue,Jessica Shue
-120278,1,litu,1201,5,8.6,2021,2021,January,22,868,1,1035,2,861,1.5,16.5,,DBH at 1.4,,Jessica Shue,Jessica Shue
-120755,1,litu,1204,6.8,10,2021,2021,January,22,697,1,1036,2,684,1.5,25.09,,,,Jessica Shue,Jessica Shue
-120790,1,litu,1205,7.3,6.2,2021,2021,January,22,471,1,1037,2,470,1.4,12.91,,"coordinates wrong; qx 0.5, qy 6.5",,Jessica Shue,Jessica Shue
-121301,1,caovl,1211,1.2,2.5,2021,2021,January,21,252,1,1038,2,250,1.4,13.23,,left old band,,Jessica Shue,Jessica Shue
-121305,1,quru,1211,1.1,11.2,2021,2021,January,21,814,1,1039,2,782,1.65,11.53,,left old band,,Jessica Shue,Jessica Shue
-122006,1,acru,1217,9.9,8.3,2021,2021,January,22,427,1,1040,2,426,1.32,31.66,,,,Jessica Shue,Jessica Shue
-122009,1,acru,1217,1.2,4.1,2021,2021,January,22,297,1,1041,2,292,1.4,9.71,,,,Jessica Shue,Jessica Shue
-122120,1,qual,1220,2.6,0.6,2021,2021,January,22,331,1,1042,2,328,1.35,26.32,,,,Jessica Shue,Jessica Shue
-122486,1,litu,1228,2.7,17,2021,2021,January,22,649,1,1043,2,645,1.3,15.41,,,,Bill McShea,Jessica Shue
-122492,1,litu,1229,2.5,11.5,2021,2021,January,22,551,1,1044,2,498,1.2,35.83,,,,Bill McShea,Jessica Shue
-122561,1,litu,1231,0,7.6,2021,2021,January,22,696,1,1045,2,690,1.3,19.11,,,,Bill McShea,Jessica Shue
-130348,1,litu,1302,19.9,1.9,2021,2021,January,21,615,1,1046,2,611,1.4,23.18,,,,Jessica Shue,Jessica Shue
-131239,1,quru,1314,19.5,5.7,2021,2021,January,21,632,1,1047,2,628,1.4,13.49,,,,Jessica Shue,Jessica Shue
-132311,1,qual,1322,12.9,14.2,2021,2021,January,22,560,1,1048,2,560,1.4,10.69,,,,Jessica Shue,Jessica Shue
-132524,1,litu,1329,18.4,0.4,2021,2021,January,22,253,1,1049,2,252,1.3,12.86,,,,Bill McShea,Jessica Shue
-132529,1,litu,1329,16.6,13.2,2021,2021,January,22,949,1,1050,2,921,1.15,29.49,,,,Bill McShea,Jessica Shue
-132542,1,quve,1332,15.4,2.9,2021,2021,January,22,748,1,1051,2,731,1.35,13.2,,,,Bill McShea,Jessica Shue
-132545,1,litu,1332,9.5,11.2,2021,2021,January,22,462,1,1052,2,460,1.25,17.26,,,,Bill McShea,Jessica Shue
-140609,1,litu,1403,4.3,3.6,2021,2021,January,21,1119,1,1053,2,1120,1.4,13.7,,,,Jessica Shue,Jessica Shue
-140833,1,litu,1411,5.6,9.5,2021,2021,January,21,590,1,1054,2,589,1.4,12.03,,,,Jessica Shue,Jessica Shue
-142727,1,litu,1431,1.7,8.2,2021,2021,January,22,962,1,1055,2,941,1.25,8.47,,,,Bill McShea,Jessica Shue
-160713,1,litu,1603,10.4,13.7,2021,2021,January,21,913,1,1056,2,913,1.35,21.5,,two DBH marks,,Jessica Shue,Jessica Shue
-162503,1,quve,1624,1.3,12.3,2021,2021,January,22,924,1,1057,2,922,1.42,14.53,,,,Jessica Shue,Jessica Shue
-170175,1,litu,1702,4.7,1.6,2021,2021,January,21,964,1,1058,2,955,1.5,23,,band short used 20587,,Jessica Shue,Jessica Shue
-170994,1,litu,1704,18.4,16.1,2021,2021,January,21,584,1,1059,2,584,1.35,18.45,,,,Jessica Shue,Jessica Shue
-171127,1,litu,1705,9.3,1.8,2021,2021,January,21,811,1,1060,2,779,1.7,17.93,,irregular,,Jessica Shue,Jessica Shue
-171262,1,litu,1708,15.9,8.2,2021,2021,January,21,648,1,1061,2,645,1.35,12.14,,,,Jessica Shue,Jessica Shue
-171456,1,acru,1714,0.8,13.4,2021,2021,January,21,754,1,1062,2,746,1.25,10.48,,,,Jessica Shue,Jessica Shue
-171506,1,litu,1716,12,12.9,2021,2021,January,22,524,1,1063,2,522,1.4,27.77,,,,Jessica Shue,Jessica Shue
-172205,1,qual,1717,16.1,3.5,2021,2021,January,22,509,1,1064,2,508,1.4,13.2,,,,Jessica Shue,Jessica Shue
-172470,1,quru,1728,11.1,12,2021,2021,January,22,777,1,1065,2,770,1.4,14.95,,left old band,,Jessica Shue,Jessica Shue
-172499,1,qual,1730,17,3.1,2021,2021,January,22,NA,1,1066,2,NA,NA,30.33,,"band fine, replaced spring",,Jessica Shue,Jessica Shue
-180654,1,litu,1805,6,0.3,2021,2021,January,21,380,1,1067,2,379,1.2,15.19,,,,Jessica Shue,Jessica Shue
-180728,1,litu,1804,3.1,12.7,2021,2021,January,21,420,1,1068,2,419,1.35,44.73,,band short,,Jessica Shue,Jessica Shue
-180991,1,ploc,1814,1.5,6.7,2021,2021,January,21,981,1,1069,2,965,1.4,17.75,,,,Jessica Shue,Jessica Shue
-181033,1,litu,1816,3.4,18.6,2021,2021,January,22,560,1,1070,2,557,1.4,12.71,,,,Jessica Shue,Jessica Shue
-182681,1,litu,1829,13,1,2021,2021,January,22,625,1,1071,2,621,1.4,12.68,,,,Jessica Shue,Jessica Shue
-190065,1,litu,1902,18.8,0.4,2021,2021,January,21,560,1,1072,2,556,1.4,12.87,,left old band,,Jessica Shue,Jessica Shue
-190568,1,juni,1912,2.6,18.8,2021,2021,January,21,940,1,1073,2,933,1.4,22.29,,,,Jessica Shue,Jessica Shue
-190694,1,quru,1909,18.2,14.7,2021,2021,January,21,1303,1,1074,2,1302,1.2,1.15,,left old band,,Jessica Shue,Jessica Shue
-190793,1,litu,1914,12.2,1.3,2021,2021,January,21,629,1,1075,2,625,1.4,13.52,,left old band,,Jessica Shue,Jessica Shue
-190794,1,quru,1914,10.6,1.4,2021,2021,January,21,678,1,1076,2,671,1.4,15.88,,missing tag,,Jessica Shue,Jessica Shue
-190840,1,litu,1916,15,17.2,2021,2021,January,22,195,1,1077,2,195,1.4,10.6,,,,Jessica Shue,Jessica Shue
-192008,1,qual,1917,12,2,2021,2021,January,22,685,1,1078,2,674,1.4,15.16,,,,Jessica Shue,Jessica Shue
-192528,1,litu,1928,12.4,9.7,2021,2021,January,22,597,1,1079,2,593,1.4,14.49,,,,Jessica Shue,Jessica Shue
-192560,1,qual,1930,12.9,19.5,2021,2021,January,22,967,1,1080,2,969,1.35,5.88,,,,Jessica Shue,Jessica Shue
-200142,1,litu,2002,1.3,3.5,2021,2021,January,21,630,1,1081,2,625,1.35,17.13,,,,Jessica Shue,Jessica Shue
-200547,1,litu,2005,2.6,1.1,2021,2021,January,21,679,1,1082,2,676,1.45,10.85,,left old band,,Jessica Shue,Jessica Shue
-200676,1,litu,2008,12.2,5.9,2021,2021,January,21,897,1,1083,2,895,1.25,13.49,,,,Jessica Shue,Jessica Shue
-201274,1,litu,2014,5.3,8.9,2021,2021,January,21,627,1,1084,2,622,1.4,13.37,,,,Jessica Shue,Jessica Shue
-201278,1,litu,2014,2.2,11.8,2021,2021,January,21,672,1,1085,2,670,1.4,18.15,,,,Jessica Shue,Jessica Shue
-201441,1,litu,2016,11.8,19.2,2021,2021,January,22,832,1,1086,2,832,1.4,15.89,,,,Jessica Shue,Jessica Shue
-202283,1,litu,2020,4.5,2.9,2021,2021,January,22,313,1,1087,2,312,1.4,16.03,,missing tag,,Jessica Shue,Jessica Shue
-202444,1,litu,2025,0.9,12.5,2021,2021,January,22,699,1,1088,2,694,1.4,17.59,,,,Jessica Shue,Jessica Shue
-202449,1,litu,2026,0,1,2021,2021,January,22,635,1,1089,2,631,1.4,12.11,,,,Jessica Shue,Jessica Shue
-202550,1,litu,2029,2.1,10.7,2021,2021,January,22,596,1,1090,2,596,1.4,14.17,,left old band,,Jessica Shue,Jessica Shue
+10469,1,litu,109,9.7,1,2021,2021,1,21,917,1,993,2,905,1.5,61.04,,removed old band; new band short,,Jessica Shue,Jessica Shue
+12259,1,litu,125,16.3,1.5,2021,2021,1,21,1042,1,994,2,103.3,1.15,29.35,,,,Bill McShea,Jessica Shue
+20587,1,litu,208,14.8,1.3,2021,2021,1,22,1288,1,995,2,128.2,1.4,12.8,,"around both stems, fused",,Jessica Shue,Jessica Shue
+30462,1,litu,313,16.2,19,2021,2021,1,21,522,1,996,2,518,1.4,10.37,,left original band,,Bill McShea,Jessica Shue
+30584,1,quve,316,2.2,14.4,2021,2021,1,21,932,1,997,2,920,1.45,61.06,,,,Bill McShea,Jessica Shue
+40941,1,litu,414,6,15.4,2021,2021,1,21,680,1,998,2,668,1.5,19.25,,original band was around both stems now only on 40941 stem 1,,Jessica Shue,Jessica Shue
+50364,1,qual,507,4.2,18.1,2021,2021,1,22,688,1,999,2,681,1.4,13.52,,left old band,,Jessica Shue,Jessica Shue
+52087,1,quru,519,1.1,11.1,2021,2021,1,21,1473,1,1000,2,146.2,1.3,28.07,,,,Bill McShea,Jessica Shue
+52190,1,quru,522,16.4,3.4,2021,2021,1,21,1026,1,1001,2,994,1.55,52.3,,,,Bill McShea,Jessica Shue
+62224,1,litu,622,3.2,17.3,2021,2021,1,21,1073,1,1002,2,1067,1.34,18.73,,,,Bill McShea,Jessica Shue
+62241,1,litu,623,13.9,0.7,2021,2021,1,21,970,1,1003,2,941,1.8,29.03,,,,Bill McShea,Jessica Shue
+62449,1,qual,632,18.7,3.9,2021,2021,1,22,908,1,1004,2,895,1.65,12.76,,,,Bill McShea,Jessica Shue
+62454,1,quve,632,14.7,18.8,2021,2021,1,22,947,1,1005,2,927,1.62,9.35,,,,Bill McShea,Jessica Shue
+70216,1,quve,701,18.7,11.6,2021,2021,1,21,962,1,1006,2,960,1.34,19.86,,,,Jessica Shue,Jessica Shue
+70358,1,litu,708,18.1,2.3,2021,2021,1,22,390,1,1007,2,390,1.2,13.61,,left old band,,Jessica Shue,Jessica Shue
+70433,1,litu,710,11.4,13.8,2021,2021,1,21,735,1,1008,2,730,1.4,13.22,,,,Jessica Shue,Jessica Shue
+72124,1,quru,719,12.5,19.4,2021,2021,1,21,813,1,1009,2,777,1.5,27.67,,,,Bill McShea,Jessica Shue
+72248,1,caco,723,15,0.3,2021,2021,1,21,329,1,1010,2,321,1.44,65.65,,,,Bill McShea,Jessica Shue
+80631,1,litu,811,0.2,6.1,2021,2021,1,21,553,1,1011,2,548,1.4,13.31,,,,Jessica Shue,Jessica Shue
+82138,1,quru,820,1.1,2.7,2021,2021,1,21,701,1,1012,2,662,1.55,31.53,,,,Bill McShea,Jessica Shue
+82326,1,quve,827,14.6,8.3,2021,2021,1,21,876,1,1013,2,854,1.5,14.71,,,,Bill McShea,Jessica Shue
+82421,1,litu,831,5.6,14.7,2021,2021,1,22,591,1,1014,2,587,1.3,7.41,,,,Bill McShea,Jessica Shue
+82434,1,quve,832,6,15.6,2021,2021,1,22,853,1,1015,2,860,1.5,20.98,,,,Bill McShea,Jessica Shue
+90354,1,litu,905,10.6,5,2021,2021,1,22,713,1,1016,2,680,1.65,13.95,,irregular,,Jessica Shue,Jessica Shue
+90530,1,litu,910,10.2,17.8,2021,2021,1,21,694,1,1017,2,688,1.4,16.75,,irregular; left old band,,Jessica Shue,Jessica Shue
+90612,1,quru,910,10.7,14,2021,2021,1,21,587,1,1018,2,581,1.4,12.46,,left old band,,Jessica Shue,Jessica Shue
+91451,1,litu,907,18.7,17.6,2021,2021,1,22,595,1,1019,2,593,1.4,30.03,,band a little short,,Jessica Shue,Jessica Shue
+92112,1,litu,919,14.4,18.8,2021,2021,1,22,536,1,1020,2,533,1.4,6.37,,,,Jessica Shue,Jessica Shue
+92141,1,cagl,920,19.4,4.7,2021,2021,1,22,92,1,1021,2,89,1.4,7.63,,,,Jessica Shue,Jessica Shue
+92280,1,quve,923,15,7.9,2021,2021,1,22,692,1,1022,2,685,1.35,15.36,,,,Jessica Shue,Jessica Shue
+92466,1,litu,927,0.6,16.3,2021,2021,1,21,871,1,1023,2,863,1.4,31.35,,,,Bill McShea,Jessica Shue
+92487,1,quve,928,9.8,15,2021,2021,1,21,700,1,1024,2,685,1.25,38.22,,,,Bill McShea,Jessica Shue
+100562,1,litu,1004,9.1,19.2,2021,2021,1,22,663,1,1025,2,658,1.4,15.74,,,,Jessica Shue,Jessica Shue
+100612,1,litu,1003,12,4.4,2021.01,2021,3,24,1258,1,1026,2,1258,1.32,12.68,,,,Jessica Shue,Jessica Shue
+101118,1,litu,1011,0.3,3,2021,2021,1,21,230,1,1027,2,228,1.4,15.31,,,,Jessica Shue,Jessica Shue
+102154,1,qual,1020,5.4,8.5,2021,2021,1,22,521,1,1028,2,513,1.15,10.18,,irregular,,Jessica Shue,Jessica Shue
+102475,1,litu,1030,20,14.3,2021,2021,1,22,853,1,1029,2,845,1.15,10.27,,,,Bill McShea,Jessica Shue
+102501,1,litu,1031,9.8,17.3,2021,2021,1,22,654,1,1030,2,645,1.25,10.91,,,,Bill McShea,Jessica Shue
+110680,1,litu,1104,2,6.5,2021,2021,1,22,706,1,1031,2,705,1.4,13.78,,,,Jessica Shue,Jessica Shue
+111014,1,litu,1107,13.9,12.2,2021,2021,1,22,699,1,1032,2,695,1.4,12.3,,,,Jessica Shue,Jessica Shue
+111041,1,quru,1108,16.5,5.7,2021,2021,1,22,1085,1,1033,2,1023,1.8,14.33,,,,Jessica Shue,Jessica Shue
+111092,1,litu,1110,18.3,17.7,2021,2021,1,21,587,1,1034,2,583,1.4,23.39,,band short; left old band,,Jessica Shue,Jessica Shue
+120278,1,litu,1201,5,8.6,2021,2021,1,22,868,1,1035,2,861,1.5,16.5,,DBH at 1.4,,Jessica Shue,Jessica Shue
+120755,1,litu,1204,6.8,10,2021,2021,1,22,697,1,1036,2,684,1.5,25.09,,,,Jessica Shue,Jessica Shue
+120790,1,litu,1205,7.3,6.2,2021,2021,1,22,471,1,1037,2,470,1.4,12.91,,"coordinates wrong; qx 0.5, qy 6.5",,Jessica Shue,Jessica Shue
+121301,1,caovl,1211,1.2,2.5,2021,2021,1,21,252,1,1038,2,250,1.4,13.23,,left old band,,Jessica Shue,Jessica Shue
+121305,1,quru,1211,1.1,11.2,2021,2021,1,21,814,1,1039,2,782,1.65,11.53,,left old band,,Jessica Shue,Jessica Shue
+122006,1,acru,1217,9.9,8.3,2021,2021,1,22,427,1,1040,2,426,1.32,31.66,,,,Jessica Shue,Jessica Shue
+122009,1,acru,1217,1.2,4.1,2021,2021,1,22,297,1,1041,2,292,1.4,9.71,,,,Jessica Shue,Jessica Shue
+122120,1,qual,1220,2.6,0.6,2021,2021,1,22,331,1,1042,2,328,1.35,26.32,,,,Jessica Shue,Jessica Shue
+122486,1,litu,1228,2.7,17,2021,2021,1,22,649,1,1043,2,645,1.3,15.41,,,,Bill McShea,Jessica Shue
+122492,1,litu,1229,2.5,11.5,2021,2021,1,22,551,1,1044,2,498,1.2,35.83,,,,Bill McShea,Jessica Shue
+122561,1,litu,1231,0,7.6,2021,2021,1,22,696,1,1045,2,690,1.3,19.11,,,,Bill McShea,Jessica Shue
+130348,1,litu,1302,19.9,1.9,2021,2021,1,21,615,1,1046,2,611,1.4,23.18,,,,Jessica Shue,Jessica Shue
+131239,1,quru,1314,19.5,5.7,2021,2021,1,21,632,1,1047,2,628,1.4,13.49,,,,Jessica Shue,Jessica Shue
+132311,1,qual,1322,12.9,14.2,2021,2021,1,22,560,1,1048,2,560,1.4,10.69,,,,Jessica Shue,Jessica Shue
+132524,1,litu,1329,18.4,0.4,2021,2021,1,22,253,1,1049,2,252,1.3,12.86,,,,Bill McShea,Jessica Shue
+132529,1,litu,1329,16.6,13.2,2021,2021,1,22,949,1,1050,2,921,1.15,29.49,,,,Bill McShea,Jessica Shue
+132542,1,quve,1332,15.4,2.9,2021,2021,1,22,748,1,1051,2,731,1.35,13.2,,,,Bill McShea,Jessica Shue
+132545,1,litu,1332,9.5,11.2,2021,2021,1,22,462,1,1052,2,460,1.25,17.26,,,,Bill McShea,Jessica Shue
+140609,1,litu,1403,4.3,3.6,2021,2021,1,21,1119,1,1053,2,1120,1.4,13.7,,,,Jessica Shue,Jessica Shue
+140833,1,litu,1411,5.6,9.5,2021,2021,1,21,590,1,1054,2,589,1.4,12.03,,,,Jessica Shue,Jessica Shue
+142727,1,litu,1431,1.7,8.2,2021,2021,1,22,962,1,1055,2,941,1.25,8.47,,,,Bill McShea,Jessica Shue
+160713,1,litu,1603,10.4,13.7,2021,2021,1,21,913,1,1056,2,913,1.35,21.5,,two DBH marks,,Jessica Shue,Jessica Shue
+162503,1,quve,1624,1.3,12.3,2021,2021,1,22,924,1,1057,2,922,1.42,14.53,,,,Jessica Shue,Jessica Shue
+170175,1,litu,1702,4.7,1.6,2021,2021,1,21,964,1,1058,2,955,1.5,23,,band short used 20587,,Jessica Shue,Jessica Shue
+170994,1,litu,1704,18.4,16.1,2021,2021,1,21,584,1,1059,2,584,1.35,18.45,,,,Jessica Shue,Jessica Shue
+171127,1,litu,1705,9.3,1.8,2021,2021,1,21,811,1,1060,2,779,1.7,17.93,,irregular,,Jessica Shue,Jessica Shue
+171262,1,litu,1708,15.9,8.2,2021,2021,1,21,648,1,1061,2,645,1.35,12.14,,,,Jessica Shue,Jessica Shue
+171456,1,acru,1714,0.8,13.4,2021,2021,1,21,754,1,1062,2,746,1.25,10.48,,,,Jessica Shue,Jessica Shue
+171506,1,litu,1716,12,12.9,2021,2021,1,22,524,1,1063,2,522,1.4,27.77,,,,Jessica Shue,Jessica Shue
+172205,1,qual,1717,16.1,3.5,2021,2021,1,22,509,1,1064,2,508,1.4,13.2,,,,Jessica Shue,Jessica Shue
+172470,1,quru,1728,11.1,12,2021,2021,1,22,777,1,1065,2,770,1.4,14.95,,left old band,,Jessica Shue,Jessica Shue
+172499,1,qual,1730,17,3.1,2021,2021,1,22,NA,1,1066,2,NA,NA,30.33,,"band fine, replaced spring",,Jessica Shue,Jessica Shue
+180654,1,litu,1805,6,0.3,2021,2021,1,21,380,1,1067,2,379,1.2,15.19,,,,Jessica Shue,Jessica Shue
+180728,1,litu,1804,3.1,12.7,2021,2021,1,21,420,1,1068,2,419,1.35,44.73,,band short,,Jessica Shue,Jessica Shue
+180991,1,ploc,1814,1.5,6.7,2021,2021,1,21,981,1,1069,2,965,1.4,17.75,,,,Jessica Shue,Jessica Shue
+181033,1,litu,1816,3.4,18.6,2021,2021,1,22,560,1,1070,2,557,1.4,12.71,,,,Jessica Shue,Jessica Shue
+182681,1,litu,1829,13,1,2021,2021,1,22,625,1,1071,2,621,1.4,12.68,,,,Jessica Shue,Jessica Shue
+190065,1,litu,1902,18.8,0.4,2021,2021,1,21,560,1,1072,2,556,1.4,12.87,,left old band,,Jessica Shue,Jessica Shue
+190568,1,juni,1912,2.6,18.8,2021,2021,1,21,940,1,1073,2,933,1.4,22.29,,,,Jessica Shue,Jessica Shue
+190694,1,quru,1909,18.2,14.7,2021,2021,1,21,1303,1,1074,2,1302,1.2,1.15,,left old band,,Jessica Shue,Jessica Shue
+190793,1,litu,1914,12.2,1.3,2021,2021,1,21,629,1,1075,2,625,1.4,13.52,,left old band,,Jessica Shue,Jessica Shue
+190794,1,quru,1914,10.6,1.4,2021,2021,1,21,678,1,1076,2,671,1.4,15.88,,missing tag,,Jessica Shue,Jessica Shue
+190840,1,litu,1916,15,17.2,2021,2021,1,22,195,1,1077,2,195,1.4,10.6,,,,Jessica Shue,Jessica Shue
+192008,1,qual,1917,12,2,2021,2021,1,22,685,1,1078,2,674,1.4,15.16,,,,Jessica Shue,Jessica Shue
+192528,1,litu,1928,12.4,9.7,2021,2021,1,22,597,1,1079,2,593,1.4,14.49,,,,Jessica Shue,Jessica Shue
+192560,1,qual,1930,12.9,19.5,2021,2021,1,22,967,1,1080,2,969,1.35,5.88,,,,Jessica Shue,Jessica Shue
+200142,1,litu,2002,1.3,3.5,2021,2021,1,21,630,1,1081,2,625,1.35,17.13,,,,Jessica Shue,Jessica Shue
+200547,1,litu,2005,2.6,1.1,2021,2021,1,21,679,1,1082,2,676,1.45,10.85,,left old band,,Jessica Shue,Jessica Shue
+200676,1,litu,2008,12.2,5.9,2021,2021,1,21,897,1,1083,2,895,1.25,13.49,,,,Jessica Shue,Jessica Shue
+201274,1,litu,2014,5.3,8.9,2021,2021,1,21,627,1,1084,2,622,1.4,13.37,,,,Jessica Shue,Jessica Shue
+201278,1,litu,2014,2.2,11.8,2021,2021,1,21,672,1,1085,2,670,1.4,18.15,,,,Jessica Shue,Jessica Shue
+201441,1,litu,2016,11.8,19.2,2021,2021,1,22,832,1,1086,2,832,1.4,15.89,,,,Jessica Shue,Jessica Shue
+202283,1,litu,2020,4.5,2.9,2021,2021,1,22,313,1,1087,2,312,1.4,16.03,,missing tag,,Jessica Shue,Jessica Shue
+202444,1,litu,2025,0.9,12.5,2021,2021,1,22,699,1,1088,2,694,1.4,17.59,,,,Jessica Shue,Jessica Shue
+202449,1,litu,2026,0,1,2021,2021,1,22,635,1,1089,2,631,1.4,12.11,,,,Jessica Shue,Jessica Shue
+202550,1,litu,2029,2.1,10.7,2021,2021,1,22,596,1,1090,2,596,1.4,14.17,,left old band,,Jessica Shue,Jessica Shue
