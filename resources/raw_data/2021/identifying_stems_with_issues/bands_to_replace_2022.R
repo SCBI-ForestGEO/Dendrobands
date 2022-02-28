@@ -3,6 +3,8 @@
 # https://github.com/SCBI-ForestGEO/Dendrobands/issues/89
 # https://github.com/SCBI-ForestGEO/Dendrobands/issues/97
 #
+# Google Sheet summarizing changes:
+# https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=1289938519
 
 library(tidyverse)
 library(here)
@@ -307,12 +309,11 @@ length(stems_to_keep)
 
 
 ## Identify bands to replace -----
-# TODO script this
 bands_to_replace <- all_2021_stems %>%
   filter(action %in% c("replace_band", "caliper")) %>%
   filter(
-    (sp %in% c("litu", "quru", "qual", "cagl", "fagr") & survey == "biweekly") |
-      (sp %in% c("qupr", "juni", "cato", "caovl") & survey == "biannual")
+    (sp %in% (master_list %>% filter(!is.na(biweekly_replace)) %>% pull(sp)) & survey == "biweekly") |
+      (sp %in% (master_list %>% filter(!is.na(biannual_replace)) %>% pull(sp)) & survey == "biannual")
   )
 
 stems_to_reband <- bands_to_replace %>% 
@@ -322,8 +323,8 @@ length(stems_to_reband)
 bands_to_retrieve <- all_2021_stems %>%
   filter(action %in% c("replace_band", "caliper")) %>%
   filter(
-    !(sp %in% c("litu", "quru", "qual", "cagl", "fagr") & survey == "biweekly") &
-      !(sp %in% c("qupr", "juni", "cato", "caovl") & survey == "biannual")
+    !(sp %in% (master_list %>% filter(!is.na(biweekly_replace)) %>% pull(sp)) & survey == "biweekly") &
+      !(sp %in% (master_list %>% filter(!is.na(biannual_replace)) %>% pull(sp)) & survey == "biannual")
   )
 stems_to_retrieve <- bands_to_retrieve %>% 
   pull(tag_stemtag)
@@ -334,7 +335,11 @@ length(stems_to_retrieve)
 all_2021_live_stems <- all_2021_stems %>% 
   filter(tag_stemtag %in% c(stems_to_keep, stems_to_reband)) 
 
+
 ## Identify stems to install new bands on -----
+set.seed(76)
+
+
 ### biweekly stems ----
 bands_to_install_biweekly <- master_list %>% 
   select(sp, biweekly_install) %>% 
@@ -357,26 +362,46 @@ biweekly_population_quantiles <- biweekly_population %>%
 
 biweekly_population_quantiles <- biweekly_population_quantiles %>% 
   ungroup() %>% 
-  mutate(number = c(
-    # ceca
-    1, 1, 1, 0, 
-    # tiam
-    1, 1, 0, 1)
-  )
+  mutate(
+    number = c(
+      # ceca
+      1, 1, 1, 0, 
+      # tiam
+      1, 1, 0, 1
+    ),
+    number_backup = c(
+      # ceca
+      0, 1, 1, 0, 
+      # tiam
+      0, 1, 0, 1
+    )
+  ) 
 
 biweekly_sample <- NULL
+biweekly_sample_backup <- NULL
 for(i in 1:nrow(biweekly_population_quantiles)){
-  if(biweekly_population_quantiles$number[i] == 0)
-    next
+  if(biweekly_population_quantiles$number[i] != 0){
+    biweekly_sample <- biweekly_population %>% 
+      filter(
+        sp == biweekly_population_quantiles$sp[i], 
+        between(dbh, biweekly_population_quantiles$dbh[i], biweekly_population_quantiles$dbh_lag[i])
+      ) %>% 
+      sample_n(biweekly_population_quantiles$number[i]) %>% 
+      pull(tag_stemtag) %>% 
+      c(biweekly_sample)
+  }
   
-  biweekly_sample <- biweekly_population %>% 
-    filter(
-      sp == biweekly_population_quantiles$sp[i], 
-      between(dbh, biweekly_population_quantiles$dbh[i], biweekly_population_quantiles$dbh_lag[i])
-    ) %>% 
-    sample_n(biweekly_population_quantiles$number[i]) %>% 
-    pull(tag_stemtag) %>% 
-    c(biweekly_sample)
+  if(biweekly_population_quantiles$number_backup[i] != 0){
+    biweekly_sample_backup <- biweekly_population %>% 
+      filter(!tag_stemtag %in% biweekly_sample) %>% 
+      filter(
+        sp == biweekly_population_quantiles$sp[i], 
+        between(dbh, biweekly_population_quantiles$dbh[i], biweekly_population_quantiles$dbh_lag[i])
+      ) %>% 
+      sample_n(biweekly_population_quantiles$number_backup[i]) %>% 
+      pull(tag_stemtag) %>% 
+      c(biweekly_sample_backup)
+  }  
 }
 
 biweekly_population %>%
@@ -396,6 +421,7 @@ biweekly_population %>%
   ) +
   facet_wrap(~sp, scales = "free") +
   labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biannual")
+
 
 
 
@@ -444,6 +470,28 @@ biannual_sampling_numbers <- tibble(
     1, 2, 0, 1, 
     # ulru
     1, 2, 2, 0
+  ),
+  number_backup = c(
+    # arcu
+    0, 1, 0, 0, 
+    # caco
+    1, 1, 0, 0, 
+    # caovl
+    0, 1, 1, 0, 
+    # cato
+    1, 1, 0, 0, 
+    # ceca
+    0, 1, 1, 0, 
+    # juni
+    1, 0, 0, 0, 
+    # pist
+    1, 0, 1, 0, 
+    # ploc
+    0, 1, 0, 0, 
+    # tiam
+    0, 1, 0, 0, 
+    # ulru
+    0, 1, 1, 0
   )
 )
 
@@ -452,18 +500,30 @@ biannual_population_quantiles <- biannual_population_quantiles %>%
   left_join(biannual_sampling_numbers, by = c("sp", "quantile"))
 
 biannual_sample <- NULL
+biannual_sample_backup <- NULL
 for(i in 1:nrow(biannual_population_quantiles)){
-  if(biannual_population_quantiles$number[i] == 0)
-    next
+  if(biannual_population_quantiles$number[i] != 0){
+    biannual_sample <- biannual_population %>% 
+      filter(
+        sp == biannual_population_quantiles$sp[i], 
+        between(dbh, biannual_population_quantiles$dbh[i], biannual_population_quantiles$dbh_lag[i])
+      ) %>% 
+      sample_n(biannual_population_quantiles$number[i]) %>% 
+      pull(tag_stemtag) %>% 
+      c(biannual_sample)
+  }
   
-  biannual_sample <- biannual_population %>% 
-    filter(
-      sp == biannual_population_quantiles$sp[i], 
-      between(dbh, biannual_population_quantiles$dbh[i], biannual_population_quantiles$dbh_lag[i])
-    ) %>% 
-    sample_n(biannual_population_quantiles$number[i]) %>% 
-    pull(tag_stemtag) %>% 
-    c(biannual_sample)
+  if(biannual_population_quantiles$number_backup[i] != 0){
+    biannual_sample_backup <- biannual_population %>% 
+      filter(!tag_stemtag %in% biannual_sample) %>% 
+      filter(
+        sp == biannual_population_quantiles$sp[i], 
+        between(dbh, biannual_population_quantiles$dbh[i], biannual_population_quantiles$dbh_lag[i])
+      ) %>% 
+      sample_n(biannual_population_quantiles$number_backup[i]) %>% 
+      pull(tag_stemtag) %>% 
+      c(biannual_sample_backup)
+  }  
 }
 
 biannual_population %>%
@@ -550,90 +610,23 @@ bind_rows(
   write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list.csv")
 
 
-
-
-
-# Testing ground --------
-
-# All stems in 2021:
-# 403 vs 146 = 549 total
-# 400 vs 150 = 550 is a nice target
-all_2021_summary <- all_2021_live_stems %>% 
-  group_by(survey) %>% 
-  summarize(n = n()) %>% 
-  pivot_wider(names_from = "survey", values_from = "n") %>% 
-  mutate(survey = "2021 total") %>% 
-  select(survey, everything())
-
-# Figure out how many new stems we need:
-# biannual = 333 + 23 = 356 i.e. ideally install 44 more.
-# biweekly = 128 + 13 = 141 i.e. ideally install 9 more
-# total = ideally install 53 more
-action_2021_summary <- all_2021_live_stems %>% 
-  group_by(survey, action) %>%
-  summarize(n = n()) %>% 
-  ungroup() %>% 
-  pivot_wider(names_from = "survey", values_from = "n") %>% 
-  rename(survey = action)
-
-target_2022_summary <- tibble(
-  survey = "2022 target", biannual = 350, biweekly = 150
-)
-
-table <- bind_rows(
-  action_2021_summary,
-  all_2021_summary
+bind_rows(
+  # Biweekly bands to install:
+  census_2018 %>% 
+    filter(tag_stemtag %in% c(biweekly_sample_backup)) %>% 
+    mutate(
+      dbh = NA, 
+      action = "install band on new stem: biweekly"
+    ) %>% 
+    select(tag, stemtag, sp, quadrat, dbh, dbh18, action),
+  # Biannual bands to install:
+  census_2018 %>% 
+    filter(tag_stemtag %in% c(biannual_sample_backup)) %>% 
+    mutate(
+      dbh = NA, 
+      action = "install band on new stem: biannual"
+    ) %>% 
+    select(tag, stemtag, sp, quadrat, dbh, dbh18, action)
 ) %>% 
-  mutate(total = biannual_only + biweekly)
-
-table %>% kable()
-
-
-
-
-census %>% 
-  filter(tag_stemtag %in% all_2021_live_stems$tag_stemtag) %>% 
-  left_join(all_2021_live_stems %>% select(tag_stemtag, survey, action), by = "tag_stemtag") %>% 
-  filter(action == "keep") %>% 
-  ggplot(aes(x = gx, y = gy, col = sp)) +
-  geom_point() +
-  coord_fixed() +
-  facet_wrap(~survey)
-#facet_grid(action ~ survey)
-
-
-
-
-
-status <- all_2021_live_stems %>% 
-  filter(action != "replace_stem") %>% 
-  left_join(krista_priorities, by = "sp") %>% 
-  group_by(survey, sp, priority_order, priority_grouping) %>% 
-  summarize(n = n()) %>% 
-  pivot_wider(names_from = "survey", values_from = "n", values_fill = 0) %>% 
-  arrange(priority_order)
-
-status <- status %>% 
-  rename(
-    bian = biannual_only, 
-    biwk = biweekly,
-    group = priority_grouping
-  ) %>% 
-  ungroup() %>% 
-  select(-priority_order) %>% 
-  mutate(
-    new_bian = bian - 12,
-    new_bian = ifelse(new_bian >= 0, 0, -new_bian),
-    total_new_bian = cumsum(new_bian),
-    new_biwk = 0,
-    new_biwk = case_when(
-      sp %in% c("quve", "qupr", "cato") ~ 2,
-      sp %in% c("juni", "caco", "caovl") ~ 1,
-      TRUE ~ new_biwk
-    ),
-    total_new_biwk = cumsum(new_biwk),
-  ) %>% 
-  select(sp, group, bian, new_bian, total_new_bian, biwk, new_biwk, total_new_biwk)
-write_csv(status, "resources/planning/current_distribution.csv")
-
-status %>% kable()
+  arrange(sp, dbh18) %>% 
+  write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list_backup_stems.csv")
