@@ -10,6 +10,10 @@ library(janitor)
 library(knitr)
 library(googlesheets4)
 
+# Authenticate for Google Sheets
+gs4_auth()
+
+
 # Identify bands to replace ------
 ## Load data -------
 all_data <- 
@@ -266,7 +270,11 @@ master_list <- bands_to_keep %>%
 # Make lists of dead stems, stems to reband, new stems to install dendrobands on ------
 ## Load data -----
 # Master list containing agonizing decisions: https://github.com/SCBI-ForestGEO/Dendrobands/issues/97
-master_list <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=0", sheet = "master_list", skip = 1) %>% 
+master_list <- read_sheet(
+  ss = "https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=0", 
+  sheet = "master_list", 
+  skip = 1
+) %>% 
   clean_names() %>% 
   select(
     sp,
@@ -281,7 +289,10 @@ master_list <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1rneieQOC
 # Load 2018 census data
 census_2018 <- "https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv" %>% 
   read_csv(show_col_types = FALSE) %>% 
-  mutate(tag_stemtag = str_c(tag, StemTag, sep = "-")) %>% 
+  mutate(
+    tag_stemtag = str_c(tag, StemTag, sep = "-"),
+    dbh = as.numeric(dbh)
+  ) %>% 
   filter(DFstatus == "alive")
 
 ## Identify stems that are dead and thus bands need to be retrieved ----
@@ -296,82 +307,187 @@ length(stems_to_keep)
 
 
 ## Identify bands to replace -----
+# TODO script this
 bands_to_replace <- all_2021_stems %>%
   filter(action %in% c("replace_band", "caliper")) %>%
   filter(
-    (sp %in% c("litu", "qual", "quru", "cagl", "fagr") & survey == "biweekly") |
-      (sp %in% c("juni", "cato", "caovl") & survey == "biannual")
+    (sp %in% c("litu", "quru", "qual", "cagl", "fagr") & survey == "biweekly") |
+      (sp %in% c("qupr", "juni", "cato", "caovl") & survey == "biannual")
   )
 
 stems_to_reband <- bands_to_replace %>% 
   pull(tag_stemtag)
 length(stems_to_reband)
 
+bands_to_retrieve <- all_2021_stems %>%
+  filter(action %in% c("replace_band", "caliper")) %>%
+  filter(
+    !(sp %in% c("litu", "quru", "qual", "cagl", "fagr") & survey == "biweekly") &
+      !(sp %in% c("qupr", "juni", "cato", "caovl") & survey == "biannual")
+  )
+stems_to_retrieve <- bands_to_retrieve %>% 
+  pull(tag_stemtag)
+length(stems_to_retrieve)
+
+
 # Remove stems that will not be rebanded
 all_2021_live_stems <- all_2021_stems %>% 
   filter(tag_stemtag %in% c(stems_to_keep, stems_to_reband)) 
 
 ## Identify stems to install new bands on -----
-### Biweekly stems ----
+### biweekly stems ----
 bands_to_install_biweekly <- master_list %>% 
   select(sp, biweekly_install) %>% 
   filter(!is.na(biweekly_install))
 
-census_2018 %>%
+biweekly_population <- census_2018 %>%
+  select(sp, tag_stemtag, dbh) %>% 
+  # Only relevant sp:
   filter(sp %in% bands_to_install_biweekly$sp) %>% 
-  ggplot(aes(x = as.numeric(dbh))) +
-  geom_histogram(bins = 15, boundary = 0) +
-  geom_vline(
-    data = all_2021_live_stems %>% filter(sp %in% bands_to_install_biweekly$sp),
-    aes(xintercept = dbh), col ="red"
-    ) +
-  facet_wrap(~sp, scales = "free_y") +
-  labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biweekly")
+  # Drop stems that are too small:
+  filter((sp == "tiam" & dbh > 10) | (sp == "ceca" & dbh > 5)) %>% 
+  sample_frac(1)
 
-# Sample n trees from required species, where n varies by species
-# https://jennybc.github.io/purrr-tutorial/ls12_different-sized-samples.html
-stems_to_install_biweekly <- census_2018 %>%
-  select(sp, tag_stemtag) %>% 
-  filter(sp %in% bands_to_install_biweekly$sp) %>% 
+biweekly_population_quantiles <- biweekly_population %>% 
+  # Quartiles
   group_by(sp) %>% 
-  nest() %>%            
+  summarise(enframe(quantile(dbh, c(0, 0.25, 0.5, 0.75, 1)), "quantile", "dbh")) %>% 
+  mutate(dbh_lag = lead(dbh)) %>% 
+  filter(quantile != "100%")
+
+biweekly_population_quantiles <- biweekly_population_quantiles %>% 
   ungroup() %>% 
-  left_join(bands_to_install_biweekly, by = "sp") %>% 
-  mutate(samp = map2(data, biweekly_install, sample_n)) %>% 
-  select(-data) %>%
-  unnest(samp) %>% 
-  select(-biweekly_install)
+  mutate(number = c(
+    # ceca
+    1, 1, 1, 0, 
+    # tiam
+    1, 1, 0, 1)
+  )
 
+biweekly_sample <- NULL
+for(i in 1:nrow(biweekly_population_quantiles)){
+  if(biweekly_population_quantiles$number[i] == 0)
+    next
+  
+  biweekly_sample <- biweekly_population %>% 
+    filter(
+      sp == biweekly_population_quantiles$sp[i], 
+      between(dbh, biweekly_population_quantiles$dbh[i], biweekly_population_quantiles$dbh_lag[i])
+    ) %>% 
+    sample_n(biweekly_population_quantiles$number[i]) %>% 
+    pull(tag_stemtag) %>% 
+    c(biweekly_sample)
+}
 
-### Biannual stems ----
-bands_to_install_biannual <- master_list %>% 
-  select(sp, biannual_install) %>% 
-  filter(!is.na(biannual_install))
-
-census_2018 %>%
-  filter(sp %in% bands_to_install_biannual$sp) %>% 
+biweekly_population %>%
   ggplot(aes(x = as.numeric(dbh))) +
   geom_histogram(bins = 15, boundary = 0) +
   geom_vline(
-    data = all_2021_live_stems %>% filter(sp %in% bands_to_install_biannual$sp),
+    data = all_2021_live_stems %>% filter(sp %in% biweekly_population$sp),
     aes(xintercept = dbh), col ="red"
+  ) +
+  geom_vline(
+    data = biweekly_population_quantiles,
+    aes(xintercept = dbh), col = "black", linetype = "dashed"
+  ) +
+  geom_vline(
+    data = biweekly_population %>% filter(tag_stemtag %in% biweekly_sample),
+    aes(xintercept = dbh), col = "blue"
   ) +
   facet_wrap(~sp, scales = "free") +
   labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biannual")
 
-# Sample n trees from required species, where n varies by species
-# https://jennybc.github.io/purrr-tutorial/ls12_different-sized-samples.html
-stems_to_install_biannual <- census_2018 %>%
-  select(sp, tag_stemtag) %>% 
+
+
+### biannual stems ----
+bands_to_install_biannual <- master_list %>% 
+  select(sp, biannual_install) %>% 
+  filter(!is.na(biannual_install))
+
+biannual_population <- census_2018 %>%
+  select(sp, tag_stemtag, dbh) %>% 
+  # Only relevant sp:
   filter(sp %in% bands_to_install_biannual$sp) %>% 
+  # Drop stems that are too small:
+  filter(dbh > 10) %>% 
+  sample_frac(1)
+
+biannual_population_quantiles <- biannual_population %>% 
+  # Quartiles
   group_by(sp) %>% 
-  nest() %>%            
+  summarise(enframe(quantile(dbh, c(0, 0.25, 0.5, 0.75, 1)), "quantile", "dbh")) %>% 
+  mutate(dbh_lag = lead(dbh)) %>% 
+  filter(quantile != "100%")
+
+sp <- biannual_population_quantiles$sp %>% unique()
+biannual_sampling_numbers <- tibble(
+  sp = rep(sp, each = 4),
+  quantile = rep(biannual_population_quantiles$quantile %>% unique(), times = sp %>% n_distinct()),
+  number = c(
+    # arcu
+    0, 1, 0, 0, 
+    # caco
+    2, 2, 0, 0, 
+    # caovl
+    1, 2, 2, 0, 
+    # cato
+    1, 1, 0, 0, 
+    # ceca
+    1, 2, 1, 0, 
+    # juni
+    1, 0, 0, 0, 
+    # pist
+    1, 0, 1, 0, 
+    # ploc
+    0, 1, 0, 0, 
+    # tiam
+    1, 2, 0, 1, 
+    # ulru
+    1, 2, 2, 0
+  )
+)
+
+biannual_population_quantiles <- biannual_population_quantiles %>% 
   ungroup() %>% 
-  left_join(bands_to_install_biannual, by = "sp") %>% 
-  mutate(samp = map2(data, biannual_install, sample_n)) %>% 
-  select(-data) %>%
-  unnest(samp) %>% 
-  select(-biannual_install)
+  left_join(biannual_sampling_numbers, by = c("sp", "quantile"))
+
+biannual_sample <- NULL
+for(i in 1:nrow(biannual_population_quantiles)){
+  if(biannual_population_quantiles$number[i] == 0)
+    next
+  
+  biannual_sample <- biannual_population %>% 
+    filter(
+      sp == biannual_population_quantiles$sp[i], 
+      between(dbh, biannual_population_quantiles$dbh[i], biannual_population_quantiles$dbh_lag[i])
+    ) %>% 
+    sample_n(biannual_population_quantiles$number[i]) %>% 
+    pull(tag_stemtag) %>% 
+    c(biannual_sample)
+}
+
+biannual_population %>%
+  ggplot(aes(x = as.numeric(dbh))) +
+  geom_histogram(bins = 15, boundary = 0) +
+  geom_vline(
+    data = all_2021_live_stems %>% filter(sp %in% biannual_population$sp),
+    aes(xintercept = dbh), col ="red"
+  ) +
+  geom_vline(
+    data = biannual_population_quantiles,
+    aes(xintercept = dbh), col = "black", linetype = "dashed"
+  ) +
+  geom_vline(
+    data = biannual_population %>% filter(tag_stemtag %in% biannual_sample),
+    aes(xintercept = dbh), col = "blue"
+  ) +
+  facet_wrap(~sp, scales = "free") +
+  labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biannual")
+
+
+
+
+
 
 
 
@@ -401,6 +517,12 @@ bind_rows(
     left_join(census_2018, by = c("tag", "stemtag", "sp", "quadrat", "tag_stemtag")) %>% 
     mutate(action = "retrieve band: stem dead") %>% 
     select(-tag_stemtag),
+  # Healthy stems, but won't replace band for reallocation purposes
+  all_2021_stems %>% 
+    filter(tag_stemtag %in% stems_to_retrieve) %>% 
+    left_join(census_2018, by = c("tag", "stemtag", "sp", "quadrat", "tag_stemtag")) %>% 
+    mutate(action = "retrieve band: band issue, stem dropped from database") %>% 
+    select(-tag_stemtag),
   # Stems to reband:
   all_2021_stems %>% 
     filter(tag_stemtag %in% stems_to_reband) %>% 
@@ -409,7 +531,7 @@ bind_rows(
     select(-tag_stemtag),
   # Biweekly bands to install:
   census_2018 %>% 
-    filter(tag_stemtag %in% c(stems_to_install_biweekly$tag_stemtag)) %>% 
+    filter(tag_stemtag %in% c(biweekly_sample)) %>% 
     mutate(
       dbh = NA, 
       action = "install band on new stem: biweekly"
@@ -417,7 +539,7 @@ bind_rows(
     select(tag, stemtag, sp, quadrat, dbh, dbh18, action),
   # Biannual bands to install:
   census_2018 %>% 
-    filter(tag_stemtag %in% c(stems_to_install_biannual$tag_stemtag)) %>% 
+    filter(tag_stemtag %in% c(biannual_sample)) %>% 
     mutate(
       dbh = NA, 
       action = "install band on new stem: biannual"
@@ -431,7 +553,7 @@ bind_rows(
 
 
 
-## Rest --------
+# Testing ground --------
 
 # All stems in 2021:
 # 403 vs 146 = 549 total
