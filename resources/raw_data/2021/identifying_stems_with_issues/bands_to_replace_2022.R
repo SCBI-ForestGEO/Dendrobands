@@ -350,7 +350,7 @@ biweekly_population <- census_2018 %>%
   # Only relevant sp:
   filter(sp %in% bands_to_install_biweekly$sp) %>% 
   # Drop stems that are too small:
-  filter((sp == "tiam" & dbh > 10) | (sp == "ceca" & dbh > 5)) %>% 
+  filter((sp == "tiam" & dbh > 100) | (sp == "ceca" & dbh > 50)) %>% 
   sample_frac(1)
 
 biweekly_population_quantiles <- biweekly_population %>% 
@@ -435,7 +435,7 @@ biannual_population <- census_2018 %>%
   # Only relevant sp:
   filter(sp %in% bands_to_install_biannual$sp) %>% 
   # Drop stems that are too small:
-  filter(dbh > 10) %>% 
+  filter(dbh > 100) %>% 
   sample_frac(1)
 
 biannual_population_quantiles <- biannual_population %>% 
