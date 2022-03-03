@@ -258,6 +258,10 @@ require_field_fix_error_file <- stems_to_alert %>%
 ## Error: Anomaly detection for biannual: Is difference between new & previous measurement too big (unless new band is installed)? ----
 alert_name <- "new_measure_too_different_from_previous_biannual"
 
+# For biannual only stems, compare spring to previous fall measurements
+
+
+# For biannual only stems, compare fall to spring measurements
 if(!is.na(fall_biannual_survey_ID)){
   # Compute +/- 3SD of growth by species: used to detect anomalous growth below
   previous_year_growth_by_sp <- dendroband_measurements_all_years %>% 
@@ -304,7 +308,6 @@ if(!is.na(fall_biannual_survey_ID)){
     select(alert_name, all_of(orig_master_data_var_names)) %>% 
     bind_rows(require_field_fix_error_file)
 }
-
 
 ## Error: Anomaly detection for biweekly: Is diff between new & previous measurement too big (unless new band is installed)?  ----
 threshold <- 10
