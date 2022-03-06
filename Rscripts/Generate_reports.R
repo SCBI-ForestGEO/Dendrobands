@@ -38,6 +38,8 @@ for(i in 1:length(master_data_filenames)){
 
 # Set years
 current_year <- Sys.Date() %>% year()
+# BERT REMOVE THIS:
+current_year <- 2021
 previous_year <- current_year - 1
 
 # Get variable names (needed to write csv's consisting of only original variables)
@@ -52,6 +54,10 @@ dendroband_measurements <- dendroband_measurements_all_years %>%
   filter(date > ymd(str_c(current_year, "-01-01")))
 
 # Assign biannual survey ID's
+previous_fall_biannual_survey <- str_c("resources/raw_data/", previous_year, "/data_entry_biannual_fall", previous_year, ".csv") %>% 
+  here()
+previous_fall_survey_ID <- previous_fall_biannual_survey %>% read_csv(show_col_types = FALSE) %>% pull(survey.ID) %>% unique()
+
 spring_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") %>% 
   here()
 spring_biannual_survey_ID <- ifelse(file.exists(spring_biannual_survey), min(dendroband_measurements$survey.ID), NA)
@@ -259,6 +265,33 @@ require_field_fix_error_file <- stems_to_alert %>%
 alert_name <- "new_measure_too_different_from_previous_biannual"
 
 # For biannual only stems, compare spring to previous fall measurements
+# Compute +/- 3SD of growth by species: used to detect anomalous growth below
+previous_year_growth_by_sp <- dendroband_measurements_all_years %>% 
+  # Only previous year spring and fall biannual values
+  filter(year %in% c(previous_year, current_year)) %>% 
+  group_by(year) %>% 
+  filter( (year == previous_year & date == max(date)) | (year == current_year & date == min(date)) ) %>% 
+  filter(new.band != 1) %>% 
+  # Compute growth
+  group_by(tag, stemtag) %>%
+  mutate(growth = measure - lag(measure)) %>% 
+  filter(!is.na(growth)) %>% 
+  slice(n()) %>% 
+  # 99.7% of values i.e. +/- 3 SD
+  group_by(sp) %>% 
+  summarize(lower = quantile(growth, probs = 0.003/2), upper = quantile(growth, probs = 1-0.003/2), n = n()) %>% 
+  arrange(desc(n))
+
+# Get all measures that have been verified during previous fall survey
+verified_measures <- 
+  spring_biannual_survey %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  filter(measure_verified) %>% 
+  select(tag, stemtag, sp, survey.ID, measure_verified) 
+
+# BERT PICK IT UP HERE
+
+
 
 
 # For biannual only stems, compare fall to spring measurements
