@@ -70,6 +70,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 92238,1,quve,922,2021.11,140.73,NA,NA,Jen Jordan,TRUE,NA,NA
 100011,1,fram,1001,2021.01,94.28,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 100011,1,fram,1001,2021.11,96.73,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
+100771,1,quru,1005,2021.11,76.31,RE,retroactively set to re on 2022/3/7 because of double springs,Nate Looker,FALSE,FALSE,TRUE
 101310,1,fram,1016,2021.01,89.99,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 101310,1,fram,1016,2021.11,89.37,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
 101312,1,fram,1016,2021.01,NA,DS,NA,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
@@ -177,6 +178,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 182451,1,fram,1829,2021.11,30.99,DS,NA,Bill McShea,FALSE,TRUE,FALSE
 182498,1,fram,1831,2021.01,27.92,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 182498,1,fram,1831,2021.11,26.69,DS,NA,Bill McShea,FALSE,TRUE,FALSE
+190413,1,litu,1904,2021.11,119.16,RE,retroactively set to re on 2022/3/7 because of double springs,Bill McShea,FALSE,FALSE,TRUE
 190694,1,quru,1909,2021.09,23.11,RE,"band needs repairs, see photo",Jen Jordan,FALSE,FALSE,TRUE
 190694,1,quru,1909,2021.1,21.46,RE,"band needs repairs, see photo",Jen Jordan,FALSE,FALSE,TRUE
 190835,1,litu,1916,2021.11,138.03,NA,NA,Bill McShea,TRUE,NA,NA
