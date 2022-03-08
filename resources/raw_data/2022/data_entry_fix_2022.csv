@@ -1,0 +1,53 @@
+"","tag","stemtag","quadrat","sp","lx","ly","dbh18","action","survey.ID","year","month","day","location","new.band","dendroID","type","dendDiam.mm","dendHt.m","measure.mm","codes","notes","field.recorders","data.enter","biannual","intraannual","treeID","stemID"
+"1",100498,1,1003,"caco",16.7,14.2,152,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1119,2,153,1.4,14.78,"F","","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,12165,12165
+"2",100963,1,1010,"caovl",11.1,14.7,204,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1121,2,206,1.4,21.36,"F","","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,12586,12586
+"3",101008,1,1006,"tiam",4.2,11.6,177,"install band on new stem: biweekly",2022,2022,"March",2,"S",1,1120,2,186,1.4,12.4,"F","","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,12628,12628
+"4",102163,1,1020,"cato",14.3,14.8,101,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1102,2,101,1.4,3.66," "," ","Bill McShea","Jessica Shue",1,0,13101,13101
+"5",102177,1,1020,"qual",3.4,11.7,720,"reband stem",2022,2022,"March",2,"N",1,1103,2,731,1.4,7.87," "," ","Bill McShea","Jessica Shue",1,1,13115,13115
+"6",102348,1,1025,"qual",16.5,11.5,874,"reband stem",2022,2022,"March",2,"N",0,NA,2,NA,NA,34.99," ","Band good not replaced ","Bill McShea","Jessica Shue",1,1,13284,13284
+"7",102364,1,1025,"qual",2.1,18,649,"reband stem",2022,2022,"March",2,"N",1,1104,2,659,1.4,18.49," "," ","Bill McShea","Jessica Shue",1,1,13300,13300
+"8",110526,1,1103,"ceca",15.1,3,143,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1122,2,140,1.6,18.18,"F; I","","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,13927,13927
+"9",110788,1,1104,"litu",19.9,11.7,656,"reband stem",2022,2022,"March",2,"S",1,1123,2,665,1.45,12.44,"F","","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,14155,14155
+"10",111305,1,1113,"caovl",4.7,19.3,229,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1124,2,229,1.4,6.86," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,14647,14647
+"11",121291,1,1210,"qupr",2.8,9.4,460,"reband stem",2022,2022,"March",2,"S",1,1125,2,467,1.35,9.61,"F","replace tag","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,16386,16386
+"12",121305,1,1211,"quru",1.1,11.2,777,"reband stem",2022,2022,"March",2,"S",0,NA,2,NA,NA,NA,"F","already replaced; removed second band","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,16400,16400
+"13",122150,1,1221,"pist",0.8,0.7,340,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1105,2,340,1.4,15.85," "," ","Bill McShea","Jessica Shue",1,0,16679,16679
+"14",122154,1,1221,"pist",5.8,5.2,148,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1106,2,146,1.4,7.97," "," ","Bill McShea","Jessica Shue",1,0,16683,16683
+"15",122343,1,1225,"qual",10.7,14.4,638,"reband stem",2022,2022,"March",2,"N",1,1107,2,651,1.4,18.91," "," ","Bill McShea","Jessica Shue",1,1,16851,16851
+"16",131422,1,1316,"caco",13.4,9.6,139,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1108,2,154,1.4,5.34,""," ","Bill McShea","Jessica Shue",1,0,18325,18325
+"17",140751,1,1408,"quru",9.9,1.5,NA,"reband stem",2022,2022,"March",2,"S",1,1126,2,720,1.4,18.06,"F","replace tag; 102.52, 104.15","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,19542,19542
+"18",150781,1,1504,"ulru",1.2,18.5,126,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1127,2,1020,1.53,10.5," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,21327,21327
+"19",151618,1,1516,"ulru",8.6,1.8,151,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1109,2,138,1.4,16.72," ","replace tag","Bill McShea","Jessica Shue",1,0,21740,21740
+"20",162581,1,1629,"ceca",15.4,3.9,93,"install band on new stem: biweekly",2022,2022,"March",2,"N",1,1110,2,75,1.4,6.03," ","Bent ","Bill McShea","Jessica Shue",1,1,23912,23912
+"21",171245,1,1707,"ulru",17.3,8.8,133,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1128,2,135,1.35,13.27," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,25071,25071
+"22",182398,1,1825,"ceca",0.6,5.5,110,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1111,2,111,1.4,11.04," ","Hollow core ","Bill McShea","Jessica Shue",1,0,27308,27308
+"23",190694,1,1909,"quru",18.2,14.7,1281,"reband stem",2022,2022,"March",2,"S",0,NA,2,NA,NA,5.88,"BA","new band installed 2021; left but adjusted","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,28251,28251
+"24",190704,1,1910,"caco",15.2,4.3,209,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1129,2,211,1.4,13.11," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,28260,28260
+"25",201171,1,2011,"ceca",8.7,9.4,116,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1130,2,119,1.33,9.8," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,30195,30195
+"26",201180,1,2011,"caco",10.5,14.6,125,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1131,2,128,1.2,8.5," ","Vitis","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,30201,30201
+"27",202276,1,2019,"caovl",7.1,13.8,264,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1112,2,275,1.4,17.3," "," ","Bill McShea","Jessica Shue",1,0,30649,30649
+"28",20737,1,213,"tiam",12.6,3.8,180,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1113,2,187,1.4,11.27,"I"," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,2922,2922
+"29",22141,1,221,"tiam",1.9,1.2,142,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1091,2,147,1.4,2.76,""," ","Bill McShea","Jessica Shue",1,0,3170,3170
+"30",22186,1,222,"tiam",17,7.5,370,"install band on new stem: biweekly",2022,2022,"March",2,"N",1,1092,2,378,1.4,7.39,"","No tag maybe wrong but in right place ","Bill McShea","Jessica Shue",1,1,3212,3212
+"31",22198,2,222,"tiam",16.1,10.9,160,"install band on new stem: biweekly",2022,2022,"March",2,"N",1,1093,2,157,1.4,15.58,"","No tag leaning","Bill McShea","Jessica Shue",1,1,3223,32585
+"32",30331,1,306,"cagl",8.3,19.5,231,"reband stem",2022,2022,"March",2,"S",1,1114,2,229,1.34,13.7," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,3967,3967
+"33",32157,1,322,"tiam",7.5,4,382,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1094,2,391,1.4,8.89," "," ","Bill McShea","Jessica Shue",1,0,4384,4384
+"34",32180,2,322,"tiam",6.4,12.3,183,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1095,2,188,1.4,15.66," "," ","Bill McShea","Jessica Shue",1,0,4407,32736
+"35",40465,1,404,"qupr",8.2,12.5,445,"reband stem",2022,2022,"March",2,"S",0,NA,2,NA,NA,NA,"F","replace tag; band fine","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,4942,4942
+"36",40564,1,406,"fagr",2.4,12.4,69,"reband stem",2022,2022,"March",2,"S",1,1115,2,68,1.38,7.77," ","Replace tag ","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,5041,5041
+"37",52384,1,529,"caovl",1.2,13.1,121,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1096,2,125,1.4,7.78," "," ","Bill McShea","Jessica Shue",1,0,6934,6934
+"38",60562,1,614,"fagr",19,8.7,157,"retrieve band: stem dead",2022,2022,"March",2,"S",0,927,2,NA,NA,NA,"","collected","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,7541,7541
+"39",60563,1,614,"caca",14.2,13.2,95,"retrieve band: band issue, stem dropped from database",2022,2022,"March",2,"S",0,783,2,NA,NA,NA,"","collected","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,7542,7542
+"40",60569,1,614,"caca",19.4,16.2,100,"retrieve band: band issue, stem dropped from database",2022,2022,"March",2,"S",0,966,2,NA,NA,NA,"","collected","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,7548,7548
+"41",60571,1,614,"caca",12,17.4,127,"retrieve band: stem dead",2022,2022,"March",2,"S",0,576,2,NA,NA,NA,"","collected","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,7550,7550
+"42",62128,1,620,"quru",8,0.8,NA,"reband stem",2022,2022,"March",2,"N",1,1097,2,871,1.4,10.25," "," ","Bill McShea","Jessica Shue",1,1,7706,7706
+"43",70494,1,714,"caca",0.4,15.7,93,"retrieve band: band issue, stem dropped from database",2022,2022,"March",2,"S",0,589,2,NA,NA,NA,"","collected","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,181,181
+"44",80554,1,813,"caovl",6.9,11.2,529,"reband stem",2022,2022,"March",2,"S",1,1116,2,534,1.5,9.79,"F","replace tag","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,9630,9630
+"45",82091,1,819,"caovl",3.5,1.3,193,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1098,2,195,1.4,5.87," "," ","Bill McShea","Jessica Shue",1,0,9938,9938
+"46",82117,1,819,"cato",11.6,14.3,155,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1099,2,156,1.4,14.33," "," ","Bill McShea","Jessica Shue",1,0,9964,9964
+"47",82219,1,822,"ceca",14.7,18.8,87,"install band on new stem: biweekly",2022,2022,"March",2,"N",1,1100,2,92,1.4,15.48," "," ","Bill McShea","Jessica Shue",1,1,10061,10061
+"48",90660,1,913,"quru",4.9,7.9,988,"reband stem",2022,2022,"March",2,"S",1,1117,2,1020,1.55,15.91,"F","142.91","Jessica Shue, John Whitmoyer","Jessica Shue",1,1,10904,10904
+"49",90684,1,915,"ploc",9.1,6.2,446,"install band on new stem: biannual",2022,2022,"March",2,"S",1,1118,2,463,1.2,13.52," "," ","Jessica Shue, John Whitmoyer","Jessica Shue",1,0,10927,10927
+"50",92115,1,919,"acru",10.1,19.3,153,"install band on new stem: biannual",2022,2022,"March",2,"N",1,1101,2,156,1.4,14.02," "," ","Bill McShea","Jessica Shue",1,0,11279,11279
+"51",92140,1,920,"cato",18.7,0.7,60,"reband stem",2022,2022,"March",2,"N",0,NA,NA,NA,NA,NA,"DN","not found","Bill McShea","Jessica Shue",1,0,11304,11304
+"52",92520,1,930,"ceca",17.5,6.6,58,"install band on new stem: biweekly",2022,2022,"March",2,"N",0,NA,NA,NA,NA,NA,"DN","not found","Bill McShea","Jessica Shue",1,1,11664,11664
