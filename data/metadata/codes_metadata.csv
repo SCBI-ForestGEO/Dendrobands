@@ -1,6 +1,7 @@
 Code,Description
 A,"alternate POM (point of measurement, different than 1.3m)"
 B,stem broken above 1.3m
+BA,"band adjusted: (not quite replaced) spring replaced or window tightened"
 C ,stem dead above 1.3m
 DS,"dead, stem standing"
 DC,"dead, stem fallen"
