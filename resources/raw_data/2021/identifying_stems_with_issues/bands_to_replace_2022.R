@@ -773,9 +773,9 @@ data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %
   ) %>% 
   mutate(
     # Measured variables:
-    previous_measure = NA, measure = NA, measure_verified = NA, crown.condition = NA, crown.illum = NA, new.band = NA, codes = NA, notes = NA, 
+    previous_measure = NA, measure = "", measure_verified = "", crown.condition = "", crown.illum = "", new.band = "", codes = "", notes = "", 
     # Variables with values that won't vary within one survey:
-    survey.ID = NA, year = NA, month = NA, day = NA, field.recorders = NA, data.enter = NA
+    survey.ID = NA, year = NA, month = NA, day = NA, field.recorders = "", data.enter = ""
   ) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
   # TODO: remove these later
@@ -822,9 +822,10 @@ spring2022_field_form_new <- spring2022_field_form %>%
   bind_rows(new_stems) %>% 
   # select(-tag_stemtag) %>% 
   mutate(
-    survey.ID = 2022.01,
-    year = 2022,
-    month = 3
+    # Measured variables:
+    measure = "", measure_verified = "", crown.condition = "", crown.illum = "", new.band = "", codes = "", notes = "", 
+    # Variables with values that won't vary within one survey:
+    survey.ID = 2022.01, year = 2022, month = 3, day = "", field.recorders = "", data.enter = ""
   ) %>% 
   select(-tag_stemtag) %>% 
   mutate(codes = ifelse(tag == 190694, "BA", codes))
