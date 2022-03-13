@@ -826,7 +826,8 @@ spring2022_field_form_new <- spring2022_field_form %>%
     year = 2022,
     month = 3
   ) %>% 
-  select(-tag_stemtag)
+  select(-tag_stemtag) %>% 
+  mutate(codes = ifelse(tag == 190694, "BA", codes))
 
 write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
