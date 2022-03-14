@@ -777,14 +777,7 @@ data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %
     # Variables with values that won't vary within one survey:
     survey.ID = NA, year = NA, month = NA, day = NA, field.recorders = "", data.enter = ""
   ) %>% 
-  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
-  # TODO: remove these later
-  filter(!tag %in% c(
-    # Dead or unsuitable
-    92140, 92520, 122017, 20572, 190755, 
-    # Didn't need replacing
-    190694, 121305, 102348)
-    )
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
 
 ## Identify stems that have changed between Fall 2021 and Spring 2022 ----
@@ -800,7 +793,7 @@ new_band <- data_entry_fix_2022 %>%
 new_stems <- data_entry_fix_2022 %>% 
   filter(str_sub(action, 1, nchar("install band on new stem")) == "install band on new stem") %>% 
   select(-c(action, tag_stemtag)) %>% 
-  mutate(new.band = 1)
+  mutate(new.band = "1")
 
 
 # Sanity check:
@@ -818,27 +811,29 @@ spring2022_field_form_new <- spring2022_field_form %>%
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
   filter(!tag_stemtag %in% dead_stems) %>% 
   filter(!tag_stemtag %in% dropped_stems) %>% 
-  mutate(new.band = ifelse(tag_stemtag %in% new_band, 1, 0)) %>% 
+  mutate(
+    new.band = as.character(new.band),
+    new.band = ifelse(tag_stemtag %in% new_band, "1", "0"),
+  ) %>% 
   bind_rows(new_stems) %>% 
   # select(-tag_stemtag) %>% 
   mutate(
     # Measured variables:
-    measure = "", measure_verified = "", crown.condition = "", crown.illum = "", new.band = "", codes = "", notes = "", 
+    measure = "", measure_verified = "", crown.condition = "", crown.illum = "",  codes = "", notes = "", 
     # Variables with values that won't vary within one survey:
     survey.ID = 2022.01, year = 2022, month = 3, day = "", field.recorders = "", data.enter = ""
   ) %>% 
   select(-tag_stemtag) %>% 
-  mutate(codes = ifelse(tag == 190694, "BA", codes))
+  mutate(codes = ifelse(tag == 190694, "BA", codes)) %>% 
+  arrange(area, quadrat, tag, stemtag)
 
 write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
 
 
-spring2022_field_form_new %>% filter(tag %in% c(92140, 92520, 122017, 20572, 190755))
 
-# These shouldn't have new.band == 1
-spring2022_field_form_new %>% filter(tag %in% c(190694, 121305, 102348 ))
 
+# 
 spring2022_field_form_new %>% 
   count(new.band)
 
