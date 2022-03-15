@@ -733,34 +733,14 @@ action_item_list <- here("resources/raw_data/2021/identifying_stems_with_issues/
   read_csv(show_col_types = FALSE) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
-# Associate each quadrat with area 1-9
-stem_locations <- 
-  read_csv("data/dendro_trees.csv", show_col_types = FALSE) %>% 
-  select(tag, stemtag, quadrat, location) %>% 
-  mutate(
-    # Assign areas based on quadrats
-    area = case_when(
-      quadrat %in% c(1301:1303, 1401:1404, 1501:1515, 1601:1615, 1701:1715, 1801:1815, 1901:1915, 2001:2015) ~ 1,
-      quadrat %in% c(404:405, 504:507, 603:609, 703:712, 803:813, 901:913, 1003:1012, 1101:1112, 1201:1212, 1304:1311, 1405:1411) ~ 2,
-      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
-      quadrat %in% c(116:132, 216:232, 316:332, 416:432, 516:532, 616:624, 716:724, 816:824) ~ 4,
-      quadrat %in% c(916:924, 1016:1024, 1116:1124, 1216:1224, 1316:1324, 1416:1418,1420:1424) ~ 5,
-      quadrat %in% c(1419, 1516:1524, 1616:1624, 1716:1724, 1816:1824, 1916:1924, 2016:2024) ~ 6,
-      quadrat %in% c(625:632, 725:732, 825:832, 925:932, 1025:1029,1031,1032) ~ 7,
-      quadrat %in% c(1030, 1125:1132, 1225:1232, 1325:1332, 1425:1432) ~ 8,
-      quadrat %in% c(1525:1532, 1625:1632, 1725:1732, 1825:1832, 1925:1932, 2025:2032) ~ 9
-    ),
-    # Special cases
-    area = ifelse(tag == 70579, 2, area),
-    area = ifelse(quadrat == 714 & tag != 70579, 3, area)
-  )
 
 # Load Jess Shue's fixes
 data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% 
   read_csv(show_col_types = FALSE) %>% 
-  mutate(location = ifelse(location == "S", "South", "North")) %>% 
-  # Join location data
-  left_join(stem_locations, by = c("tag", "stemtag", "quadrat", "location")) %>% 
+  mutate(
+    location = ifelse(location == "S", "South", "North"),
+    area = NA
+  ) %>% 
   # Note the order of these variables was decided here:
   # https://github.com/SCBI-ForestGEO/Dendrobands/issues/90
   select(
@@ -793,7 +773,7 @@ new_band <- data_entry_fix_2022 %>%
 new_stems <- data_entry_fix_2022 %>% 
   filter(str_sub(action, 1, nchar("install band on new stem")) == "install band on new stem") %>% 
   select(-c(action, tag_stemtag)) %>% 
-  mutate(new.band = "1")
+  mutate(new.band = 1)
 
 
 # Sanity check:
@@ -811,12 +791,8 @@ spring2022_field_form_new <- spring2022_field_form %>%
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
   filter(!tag_stemtag %in% dead_stems) %>% 
   filter(!tag_stemtag %in% dropped_stems) %>% 
-  mutate(
-    new.band = as.character(new.band),
-    new.band = ifelse(tag_stemtag %in% new_band, "1", "0"),
-  ) %>% 
+  mutate(new.band = ifelse(tag_stemtag %in% new_band, 1, 0)) %>% 
   bind_rows(new_stems) %>% 
-  # select(-tag_stemtag) %>% 
   mutate(
     # Measured variables:
     measure = "", measure_verified = "", crown.condition = "", crown.illum = "",  codes = "", notes = "", 
@@ -825,6 +801,23 @@ spring2022_field_form_new <- spring2022_field_form %>%
   ) %>% 
   select(-tag_stemtag) %>% 
   mutate(codes = ifelse(tag == 190694, "BA", codes)) %>% 
+  mutate(
+    # Assign areas based on quadrats
+    area = case_when(
+      quadrat %in% c(1301:1303, 1401:1404, 1501:1515, 1601:1615, 1701:1715, 1801:1815, 1901:1915, 2001:2015) ~ 1,
+      quadrat %in% c(404:405, 504:507, 603:609, 703:712, 803:813, 901:913, 915, 1003:1012, 1101:1112, 1113, 1201:1212, 1304:1311, 1405:1411) ~ 2,
+      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
+      quadrat %in% c(116:132, 216:232, 316:332, 416:432, 516:532, 616:624, 716:724, 816:824) ~ 4,
+      quadrat %in% c(916:924, 1016:1024, 1116:1124, 1216:1224, 1316:1324, 1416:1418,1420:1424) ~ 5,
+      quadrat %in% c(1419, 1516:1524, 1616:1624, 1716:1724, 1816:1824, 1916:1924, 2016:2024) ~ 6,
+      quadrat %in% c(625:632, 725:732, 825:832, 925:932, 1025:1029,1031,1032) ~ 7,
+      quadrat %in% c(1030, 1125:1132, 1225:1232, 1325:1332, 1425:1432) ~ 8,
+      quadrat %in% c(1525:1532, 1625:1632, 1725:1732, 1825:1832, 1925:1932, 2025:2032) ~ 9
+    ),
+    # Special cases
+    area = ifelse(tag == 70579, 2, area),
+    area = ifelse(quadrat == 714 & tag != 70579, 3, area)
+  ) %>% 
   arrange(area, quadrat, tag, stemtag)
 
 write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
@@ -833,7 +826,7 @@ write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_
 
 
 
-# 
+# Sanity check with Google Sheet
 spring2022_field_form_new %>% 
   count(new.band)
 
