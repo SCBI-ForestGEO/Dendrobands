@@ -818,7 +818,13 @@ spring2022_field_form_new <- spring2022_field_form %>%
     area = ifelse(tag == 70579, 2, area),
     area = ifelse(quadrat == 714 & tag != 70579, 3, area)
   ) %>% 
-  arrange(area, quadrat, tag, stemtag)
+  arrange(area, quadrat, tag, stemtag) %>% 
+  select(
+    tag, stemtag, sp, dbh, quadrat, lx, ly, area, 
+    location, previous_measure, new.band, measure, measure_verified, 
+    crown.condition, crown.illum, codes, notes, 
+    survey.ID, year, month, day, field.recorders, data.enter
+  )
 
 write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
