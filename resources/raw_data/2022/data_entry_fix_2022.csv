@@ -4,13 +4,11 @@ tag,stemtag,quadrat,sp,lx,ly,dbh18,action,survey.ID,year,month,day,location,new.
 101008,1,1006,tiam,4.2,11.6,177,install band on new stem: biweekly,2022,2022,March,2,S,1,1120,2,186,1.4,12.4,F,,"Jessica Shue, John Whitmoyer",Jessica Shue,1,1,12628,12628
 102163,1,1020,cato,14.3,14.8,101,install band on new stem: biannual,2022,2022,March,2,N,1,1102,2,101,1.4,3.66, , ,Bill McShea,Jessica Shue,1,0,13101,13101
 102177,1,1020,qual,3.4,11.7,720,reband stem,2022,2022,March,2,N,1,1103,2,731,1.4,7.87, , ,Bill McShea,Jessica Shue,1,1,13115,13115
-102348,1,1025,qual,16.5,11.5,874,reband stem,2022,2022,March,2,N,0,NA,2,NA,NA,34.99, ,Band good not replaced ,Bill McShea,Jessica Shue,1,1,13284,13284
 102364,1,1025,qual,2.1,18,649,reband stem,2022,2022,March,2,N,1,1104,2,659,1.4,18.49, , ,Bill McShea,Jessica Shue,1,1,13300,13300
 110526,1,1103,ceca,15.1,3,143,install band on new stem: biannual,2022,2022,March,2,S,1,1122,2,140,1.6,18.18,F; I,,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,13927,13927
 110788,1,1104,litu,19.9,11.7,656,reband stem,2022,2022,March,2,S,1,1123,2,665,1.45,12.44,F,,"Jessica Shue, John Whitmoyer",Jessica Shue,1,1,14155,14155
 111305,1,1113,caovl,4.7,19.3,229,install band on new stem: biannual,2022,2022,March,2,S,1,1124,2,229,1.4,6.86, , ,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,14647,14647
 121291,1,1210,qupr,2.8,9.4,460,reband stem,2022,2022,March,2,S,1,1125,2,467,1.35,9.61,F,replace tag,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,16386,16386
-121305,1,1211,quru,1.1,11.2,777,reband stem,2022,2022,March,2,S,0,NA,2,NA,NA,NA,F,already replaced; removed second band,"Jessica Shue, John Whitmoyer",Jessica Shue,1,1,16400,16400
 122150,1,1221,pist,0.8,0.7,340,install band on new stem: biannual,2022,2022,March,2,N,1,1105,2,340,1.4,15.85, , ,Bill McShea,Jessica Shue,1,0,16679,16679
 122154,1,1221,pist,5.8,5.2,148,install band on new stem: biannual,2022,2022,March,2,N,1,1106,2,146,1.4,7.97, , ,Bill McShea,Jessica Shue,1,0,16683,16683
 122343,1,1225,qual,10.7,14.4,638,reband stem,2022,2022,March,2,N,1,1107,2,651,1.4,18.91, , ,Bill McShea,Jessica Shue,1,1,16851,16851
@@ -21,7 +19,6 @@ tag,stemtag,quadrat,sp,lx,ly,dbh18,action,survey.ID,year,month,day,location,new.
 162581,1,1629,ceca,15.4,3.9,93,install band on new stem: biweekly,2022,2022,March,2,N,1,1110,2,75,1.4,6.03, ,Bent ,Bill McShea,Jessica Shue,1,1,23912,23912
 171245,1,1707,ulru,17.3,8.8,133,install band on new stem: biannual,2022,2022,March,2,S,1,1128,2,135,1.35,13.27, , ,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,25071,25071
 182398,1,1825,ceca,0.6,5.5,110,install band on new stem: biannual,2022,2022,March,2,N,1,1111,2,111,1.4,11.04, ,Hollow core ,Bill McShea,Jessica Shue,1,0,27308,27308
-190694,1,1909,quru,18.2,14.7,1281,reband stem,2022,2022,March,2,S,0,NA,2,NA,NA,5.88,BA,new band installed 2021; left but adjusted,"Jessica Shue, John Whitmoyer",Jessica Shue,1,1,28251,28251
 190704,1,1910,caco,15.2,4.3,209,install band on new stem: biannual,2022,2022,March,2,S,1,1129,2,211,1.4,13.11, , ,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,28260,28260
 201171,1,2011,ceca,8.7,9.4,116,install band on new stem: biannual,2022,2022,March,2,S,1,1130,2,119,1.33,9.8, , ,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,30195,30195
 201180,1,2011,caco,10.5,14.6,125,install band on new stem: biannual,2022,2022,March,2,S,1,1131,2,128,1.2,8.5, ,Vitis,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,30201,30201
@@ -49,5 +46,4 @@ tag,stemtag,quadrat,sp,lx,ly,dbh18,action,survey.ID,year,month,day,location,new.
 90660,1,913,quru,4.9,7.9,988,reband stem,2022,2022,March,2,S,1,1117,2,1020,1.55,15.91,F,142.91,"Jessica Shue, John Whitmoyer",Jessica Shue,1,1,10904,10904
 90684,1,915,ploc,9.1,6.2,446,install band on new stem: biannual,2022,2022,March,2,S,1,1118,2,463,1.2,13.52, , ,"Jessica Shue, John Whitmoyer",Jessica Shue,1,0,10927,10927
 92115,1,919,acru,10.1,19.3,153,install band on new stem: biannual,2022,2022,March,2,N,1,1101,2,156,1.4,14.02, , ,Bill McShea,Jessica Shue,1,0,11279,11279
-92140,1,920,cato,18.7,0.7,60,reband stem,2022,2022,March,2,N,0,NA,NA,NA,NA,NA,DN,not found,Bill McShea,Jessica Shue,1,0,11304,11304
-92520,1,930,ceca,17.5,6.6,58,install band on new stem: biweekly,2022,2022,March,2,N,0,NA,NA,NA,NA,NA,DN,not found,Bill McShea,Jessica Shue,1,1,11664,11664
+160910,1,1607,litu,8.6,1.1,996,reband stem,2022,2022,March,2,S,1,,,,,,,,,,1,1,,

@@ -715,3 +715,134 @@ bind_rows(
   group_by(replacement_for) %>% 
   arrange(quadrat, .by_group = TRUE) %>% 
   write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list_backup_stems_2.csv")
+
+
+
+
+
+
+# 4. Make blank spring 2022 field form based on Fall 2021 form ----
+## Load data -----
+# Load temporary blank spring 2022 field form
+# TODO: right now this is created in create_master_csv_2021_and_after.R, can this be improved on?
+spring2022_field_form <- here("resources/raw_data/2022/data_entry_biannual_spr2022_BLANK.csv") %>% 
+  read_csv(show_col_types = FALSE)
+
+# Load action item list
+action_item_list <- here("resources/raw_data/2021/identifying_stems_with_issues/action_item_list.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+
+# Load Jess Shue's fixes
+data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(
+    location = ifelse(location == "S", "South", "North"),
+    area = NA
+  ) %>% 
+  # Note the order of these variables was decided here:
+  # https://github.com/SCBI-ForestGEO/Dendrobands/issues/90
+  select(
+    # Variables identifying stem:
+    tag, stemtag, sp, dbh = dbh18, 
+    # Location variables:
+    quadrat, lx, ly, area, location,
+    # Temp
+    action
+  ) %>% 
+  mutate(
+    # Measured variables:
+    previous_measure = NA, measure = "", measure_verified = "", crown.condition = "", crown.illum = "", new.band = "", codes = "", notes = "", 
+    # Variables with values that won't vary within one survey:
+    survey.ID = NA, year = NA, month = NA, day = NA, field.recorders = "", data.enter = ""
+  ) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+
+## Identify stems that have changed between Fall 2021 and Spring 2022 ----
+dead_stems <- action_item_list %>% 
+  filter(action == "retrieve band: stem dead") %>% 
+  pull(tag_stemtag)
+dropped_stems <- action_item_list %>% 
+  filter(action == "retrieve band: band issue, stem dropped from database") %>% 
+  pull(tag_stemtag)
+new_band <- data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  pull(tag_stemtag)
+new_stems <- data_entry_fix_2022 %>% 
+  filter(str_sub(action, 1, nchar("install band on new stem")) == "install band on new stem") %>% 
+  select(-c(action, tag_stemtag)) %>% 
+  mutate(new.band = 1)
+
+
+# Sanity check:
+data_fix_new_stems <- new_stems %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
+  select(tag_stemtag) 
+action_item_list_new_stems <- action_item_list %>% 
+  filter(str_sub(action, 1, nchar("install band on new stem")) == "install band on new stem") %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% select(tag_stemtag) 
+anti_join(action_item_list_new_stems, data_fix_new_stems)
+
+
+## Write new blank Spring 2022 form ----
+spring2022_field_form_new <- spring2022_field_form %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
+  filter(!tag_stemtag %in% dead_stems) %>% 
+  filter(!tag_stemtag %in% dropped_stems) %>% 
+  mutate(new.band = ifelse(tag_stemtag %in% new_band, 1, 0)) %>% 
+  bind_rows(new_stems) %>% 
+  mutate(
+    # Measured variables:
+    measure = "", measure_verified = "", crown.condition = "", crown.illum = "",  codes = "", notes = "", 
+    # Variables with values that won't vary within one survey:
+    survey.ID = 2022.01, year = 2022, month = 3, day = "", field.recorders = "", data.enter = ""
+  ) %>% 
+  select(-tag_stemtag) %>% 
+  mutate(codes = ifelse(tag == 190694, "BA", codes)) %>% 
+  mutate(
+    # Assign areas based on quadrats
+    area = case_when(
+      quadrat %in% c(1301:1303, 1401:1404, 1501:1515, 1601:1615, 1701:1715, 1801:1815, 1901:1915, 2001:2015) ~ 1,
+      quadrat %in% c(404:405, 504:507, 603:609, 703:712, 803:813, 901:913, 915, 1003:1012, 1101:1112, 1113, 1201:1212, 1304:1311, 1405:1411) ~ 2,
+      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
+      quadrat %in% c(116:132, 216:232, 316:332, 416:432, 516:532, 616:624, 716:724, 816:824) ~ 4,
+      quadrat %in% c(916:924, 1016:1024, 1116:1124, 1216:1224, 1316:1324, 1416:1418,1420:1424) ~ 5,
+      quadrat %in% c(1419, 1516:1524, 1616:1624, 1716:1724, 1816:1824, 1916:1924, 2016:2024) ~ 6,
+      quadrat %in% c(625:632, 725:732, 825:832, 925:932, 1025:1029,1031,1032) ~ 7,
+      quadrat %in% c(1030, 1125:1132, 1225:1232, 1325:1332, 1425:1432) ~ 8,
+      quadrat %in% c(1525:1532, 1625:1632, 1725:1732, 1825:1832, 1925:1932, 2025:2032) ~ 9
+    ),
+    # Special cases
+    area = ifelse(tag == 70579, 2, area),
+    area = ifelse(quadrat == 714 & tag != 70579, 3, area)
+  ) %>% 
+  arrange(area, quadrat, tag, stemtag) %>% 
+  select(
+    tag, stemtag, sp, dbh, quadrat, lx, ly, area, 
+    location, previous_measure, new.band, measure, measure_verified, 
+    crown.condition, crown.illum, codes, notes, 
+    survey.ID, year, month, day, field.recorders, data.enter
+  )
+
+write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
+
+
+
+
+
+# Sanity check with Google Sheet
+spring2022_field_form_new %>% 
+  count(new.band)
+
+
+# These four are not marked as replaced
+anti_join(
+  spring2022_field_form_new %>% 
+    filter(new.band == 0) %>% 
+    select(tag, stemtag), 
+  all_2021_live_stems %>% 
+    filter(action == "keep") %>% 
+    select(tag, stemtag)
+  )

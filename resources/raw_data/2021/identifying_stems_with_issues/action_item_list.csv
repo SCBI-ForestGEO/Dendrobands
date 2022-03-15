@@ -40,19 +40,15 @@ tag,stemtag,sp,quadrat,dbh,dbh18,action
 62128,1,quru,620,831,NA,reband stem
 80554,1,caovl,813,489.2,529,reband stem
 90660,1,quru,913,947.4,988,reband stem
-92140,1,cato,920,55.1,60,reband stem
 100771,1,quru,1005,968,960,reband stem
 102177,1,qual,1020,702.8,720,reband stem
-102348,1,qual,1025,888,874,reband stem
 102364,1,qual,1025,630.5,649,reband stem
 110788,1,litu,1104,638.3,656,reband stem
 121291,1,qupr,1210,439.2,460,reband stem
-121305,1,quru,1211,753.8,777,reband stem
 122343,1,qual,1225,623.9,638,reband stem
 140751,1,quru,1408,677.1,NA,reband stem
 160910,1,litu,1607,973,996,reband stem
 190413,1,litu,1904,1001.6,1015,reband stem
-190694,1,quru,1909,1265.5,1281,reband stem
 200586,1,juni,2007,437.2,453,reband stem
 60563,1,caca,614,87.5,95,"retrieve band: band issue, stem dropped from database"
 60569,1,caca,614,100,100,"retrieve band: band issue, stem dropped from database"
@@ -99,6 +95,7 @@ tag,stemtag,sp,quadrat,dbh,dbh18,action
 91435,1,litu,907,510.1,NA,retrieve band: stem dead
 90530,1,litu,910,647.5,669,retrieve band: stem dead
 92139,1,quru,920,489.1,113,retrieve band: stem dead
+92140,1,cato,920,55.1,60,retrieve band: stem dead
 100011,1,fram,1001,960.5,967,retrieve band: stem dead
 101310,1,fram,1016,490.1,482,retrieve band: stem dead
 101312,1,fram,1016,377,381,retrieve band: stem dead
