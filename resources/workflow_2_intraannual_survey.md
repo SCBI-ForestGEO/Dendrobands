@@ -30,7 +30,7 @@
 
 
 
-# DEPRECATED: Workflow for intraannual surveys (prior to 2021)
+# Previous workflow for intraannual surveys (prior to 2021)
 
 1. Prepare data sheets for field, and make sure you have a blank raw data form ready for office.
     1. Review [checklist](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms).
