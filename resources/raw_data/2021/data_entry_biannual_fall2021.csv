@@ -188,7 +188,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 92018,1,acru,917,2021.11,2021,10,26,106.36,,,,,Jen Jordan,Jen Jordan,5
 92112,1,litu,919,2021.11,2021,10,26,21.06,,,,Band says “172470” in error,Jen Jordan,Jen Jordan,5
 92139,1,quru,920,2021.11,2021,10,26,37.91,,,DS,,Jen Jordan,Jen Jordan,5
-92140,1,cato,920,2021.11,2021,10,26,NA,,,RE,Not found (found a Cato with no tag or band),Jen Jordan,Jen Jordan,5
+92140,1,cato,920,2021.11,2021,10,26,NA,,,DN,Not found (found a Cato with no tag or band) Reclassified DN by Jess Shue on 2022-03-02,Jen Jordan,Jen Jordan,5
 92141,1,cagl,920,2021.11,2021,10,26,5.78,,,,,Jen Jordan,Jen Jordan,5
 92237,1,nysy,922,2021.11,2021,10,26,18.29,,,,,Jen Jordan,Jen Jordan,5
 92238,1,quve,922,2021.11,2021,10,26,140.73,,,,,Jen Jordan,Jen Jordan,5
@@ -207,7 +207,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 100562,1,litu,1004,2021.11,2021,10,26,24.11,,,,,Nate Looker,Jen Jordan,2
 100612,1,litu,1003,2021.11,2021,10,26,31.33,,,,Band irregular & didn’t adjust/ measurement error likely. Tag missing. RIght tree?,Nate Looker,Jen Jordan,2
 100754,1,quru,1005,2021.11,2021,10,26,43.83,,,,,Nate Looker,Jen Jordan,2
-100771,1,quru,1005,2021.11,2021,10,26,76.31,,,,,Nate Looker,Jen Jordan,2
+100771,1,quru,1005,2021.11,2021,10,26,76.31,,,RE,Retroactively set to RE on 2022/3/7 because of double springs,Nate Looker,Jen Jordan,2
 100905,1,litu,1008,2021.11,2021,10,26,31.56,,,,,Nate Looker,Jen Jordan,2
 100906,1,litu,1008,2021.11,2021,10,26,33.19,,,,,Nate Looker,Jen Jordan,2
 100955,1,quru,1010,2021.11,2021,10,26,18.21,,,,,Nate Looker,Jen Jordan,2
@@ -229,7 +229,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 102262,1,qual,1022,2021.11,2021,10,26,100.06,,,,,Jen Jordan,Jen Jordan,5
 102264,1,qual,1022,2021.11,2021,10,26,49.53,,,,,Jen Jordan,Jen Jordan,5
 102303,1,quve,1024,2021.11,2021,10,26,57.85,,,,,Jen Jordan,Jen Jordan,5
-102348,1,qual,1025,2021.11,2021,10,27,37.21,,,RE,Band irregular & didn’t adjust/ measurement error likely,Nate Looker,Jen Jordan,7
+102348,1,qual,1025,2021.11,2021,10,27,37.21,,,,Band irregular & didn’t adjust/ measurement error likely. Determined by Jess Shue to be OK on 2022-03-02,Nate Looker,Jen Jordan,7
 102364,1,qual,1025,2021.11,2021,10,27,115.04,,,,,Nate Looker,Jen Jordan,7
 102365,1,litu,1025,2021.11,2021,10,27,73.05,,,RE,,Nate Looker,Jen Jordan,7
 102371,1,qual,1026,2021.11,2021,10,27,92.39,,,,,Nate Looker,Jen Jordan,7
@@ -296,7 +296,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 121275,1,qupr,1209,2021.11,2021,10,27,27.16,,,,,Nate Looker,Jen Jordan,2
 121291,1,qupr,1210,2021.11,2021,10,27,116.2,,,RE,,Nate Looker,Jen Jordan,2
 121301,1,caovl,1211,2021.11,2021,10,27,118.62,TRUE,,,,Nate Looker,Jen Jordan,2
-121305,1,quru,1211,2021.11,2021,10,27,16.2,TRUE,,RE,,Nate Looker,Jen Jordan,2
+121305,1,quru,1211,2021.11,2021,10,27,16.2,TRUE,,,Determined by Jess Shue to be OK on 2022-03-02,Nate Looker,Jen Jordan,2
 121358,1,fram,1216,2021.11,2021,10,26,9.55,,,DS,,Jen Jordan,Jen Jordan,5
 121367,1,nysy,1216,2021.11,2021,10,26,76.45,,,,,Jen Jordan,Jen Jordan,5
 121374,1,juni,1216,2021.11,2021,10,26,123.44,,,,Needs new tag,Jen Jordan,Jen Jordan,5
@@ -467,7 +467,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 190067,1,litu,1902,2021.11,2021,11,10,52.20,,,,"Originally on 10-26-21, the recorded measure was 272.15",Bill McShea,Jen Jordan,1
 190071,1,litu,1902,2021.11,2021,10,26,24.39,,,,,Bill McShea,Jen Jordan,1
 190115,1,litu,1902,2021.11,2021,10,26,137.68,,,,"Originally on 10-26-21, the recorded measure was 357.08",Bill McShea,Jen Jordan,1
-190413,1,litu,1904,2021.11,2021,10,26,119.16,,,,,Bill McShea,Jen Jordan,1
+190413,1,litu,1904,2021.11,2021,10,26,119.16,,,RE,Retroactively set to RE on 2022/3/7 because of double springs,Bill McShea,Jen Jordan,1
 190426,1,litu,1904,2021.11,2021,10,26,91.46,,,,,Bill McShea,Jen Jordan,1
 190429,1,litu,1904,2021.11,2021,10,26,124.82,,,,,Bill McShea,Jen Jordan,1
 190568,1,juni,1912,2021.11,2021,10,26,39.9,,,,,Bill McShea,Jen Jordan,1

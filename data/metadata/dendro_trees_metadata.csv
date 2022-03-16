@@ -1,7 +1,7 @@
 Column,Field,Field Description,Storage.Type,Units
 1/A,tag,"Tag number, appearing on aluminum tag attached to each tree; also matches dendrometer to plot data, though treeID is more secure",numeric (integer),
 2/B,stemtag,"Tag number, appearing on aluminum tag attached to each stem, matching plot database",numeric (integer),
-3/C,sp,"Six-letter species mnemonic, matching that used in main plot database",character (string),
+3/C,sp,"Four-letter species mnemonic, matching that used in main plot database",character (string),
 4/D,quadrat,"Designation for 20x20 m quadrat, matching those used in main plot database",numeric (integer),
 5/E,biannual,"Quantifier if tree belongs to biannual survey. Enter ""1"" if part of biannual survey, ""0"" if not.",numeric (integer),
 6/F,intraannual,"Quantifier if tree belongs to intraannual survey. Enter ""1"" if part of intraannual survey, ""0"" if not.",numeric (integer),

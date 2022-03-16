@@ -1,10 +1,17 @@
-#
-# Preparation of new bands for 2022 season
+# Scripts to preparation of new bands for 2022 season
 # https://github.com/SCBI-ForestGEO/Dendrobands/issues/89
 # https://github.com/SCBI-ForestGEO/Dendrobands/issues/97
 #
 # Google Sheet summarizing changes:
 # https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=1289938519
+#
+# 
+# Developed by: Albert Y. Kim - albert.ys.kim@gmail.com
+# R version 4.0.3 - January 2022
+#
+# 🔥HOT TIP🔥 Get a bird's eye view of what this code is doing by
+# turning on "code folding" by going to RStudio menu -> Edit -> Folding
+# -> Collapse all
 
 library(tidyverse)
 library(here)
@@ -16,13 +23,13 @@ library(googlesheets4)
 gs4_auth()
 
 
-# Identify bands to replace ------
+# 1. Identify bands to replace based on 2021 raw-data ------
 ## Load data -------
 all_data <- 
   # Load and combine all 2021 recordings:
   here("resources/raw_data/2021") %>% 
   dir(path = ., pattern = "data_entry", full.names = TRUE) %>% 
-  map_dfr(read_csv, col_types = cols("day" = col_integer(), "month" = col_integer())) %>% 
+  map_dfr(read_csv, col_types = cols("day" = col_integer(), "month" = col_integer()), show_col_types = FALSE) %>% 
   mutate(
     tag_stemtag = str_c(tag, stemtag, sep = "-"),
     notes = tolower(notes),
@@ -98,7 +105,8 @@ all_data <- all_data %>%
 
 ## Remainder stems -----
 original_remainders <- 
-  read_csv("resources/raw_data/2021/identifying_stems_with_issues/remainders_originally_cataloged_by_jess.csv") %>% 
+  "resources/raw_data/2021/identifying_stems_with_issues/remainders_originally_cataloged_by_jess.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
   select(tag, stemtag, survey.ID, action_needed)
 
 all_data <- all_data %>% 
@@ -118,10 +126,11 @@ all_data %>%
 
 
 
-# Sampling strategy ---------
-## Load data -----
+# 2. Create Google Sheet summarizing all Spring 2022 work ---------
+## Load data on bands to replace from above -----
 issue_stems <- 
-  read_csv("resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv") %>% 
+  "resources/raw_data/2021/identifying_stems_with_issues/dead_marked_replace_any_issues.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
   select(tag, stemtag, codes, caliper_limit, dead, marked_replace) %>% 
   replace_na(list(caliper_limit = FALSE, dead = FALSE, marked_replace = FALSE)) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
@@ -161,7 +170,7 @@ stems_to_act_on <- issue_stems %>%
 ## Load 2021 stem info  
 all_2021_stems <- "data/scbi.dendroAll_2021.csv" %>% 
   here() %>% 
-  read_csv() %>% 
+  read_csv(show_col_types = FALSE) %>% 
   select(tag, stemtag, biannual, intraannual, sp, quadrat, dbh) %>% 
   distinct() %>% 
   mutate(
@@ -179,7 +188,9 @@ all_2021_stems <- "data/scbi.dendroAll_2021.csv" %>%
 
 # Load Krista priorities from
 # https://github.com/SCBI-ForestGEO/Dendrobands/issues/97#issuecomment-1045085760
-krista_priorities <- read_csv("resources/planning/dendro_trees_sp_2021_min_max_mean_dbh_with_dominance.csv") %>% 
+krista_priorities <- 
+  "resources/planning/dendro_trees_sp_2021_min_max_mean_dbh_with_dominance.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
   clean_names() %>% 
   filter(sp != "Sum") %>% 
   mutate(
@@ -264,12 +275,13 @@ master_list <- bands_to_keep %>%
   adorn_totals()
 
 
-# Write to Google Sheets: uncomment
+# Write to Google Sheets only once: the Google Sheet has several manual
+# edits and is now finalized
 # master_list %>%
 #   write_sheet(ss = "https://docs.google.com/spreadsheets/d/1rneieQOCclZ2q-Kbxog-rzNMM6-9d7foGooTv8Xq588/edit#gid=0", sheet = "master_list")
 
 
-# Make lists of dead stems, stems to reband, new stems to install dendrobands on ------
+# 3. Make CSV lists of dead stems, stems to reband, new stems to install dendrobands on ------
 ## Load data -----
 # Master list containing agonizing decisions: https://github.com/SCBI-ForestGEO/Dendrobands/issues/97
 master_list <- read_sheet(
@@ -336,7 +348,7 @@ all_2021_live_stems <- all_2021_stems %>%
   filter(tag_stemtag %in% c(stems_to_keep, stems_to_reband)) 
 
 
-## Identify stems to install new bands on -----
+## Identify stems to install new bands on (first round) -----
 set.seed(76)
 
 
@@ -542,7 +554,9 @@ biannual_population %>%
     aes(xintercept = dbh), col = "blue"
   ) +
   facet_wrap(~sp, scales = "free") +
-  labs(x = "dbh", title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", subtitle = "For sp we need to sample for biannual")
+  labs(x = "dbh", 
+       title = "Distribution of dbh from census (histogram) + dendrobands (red lines)", 
+       subtitle = "For sp we need to sample for biannual")
 
 
 
@@ -556,7 +570,7 @@ biannual_population %>%
 # Reload data to include dead stems
 all_2021_stems <- "data/scbi.dendroAll_2021.csv" %>% 
   here() %>% 
-  read_csv() %>% 
+  read_csv(show_col_types = FALSE) %>% 
   select(tag, stemtag, sp, quadrat, dbh) %>% 
   distinct() %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) 
@@ -630,3 +644,205 @@ bind_rows(
 ) %>% 
   arrange(sp, dbh18) %>% 
   write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list_backup_stems.csv")
+
+
+
+
+
+
+
+
+
+
+
+## Identify stems to install new bands on (second round) -----
+set.seed(76)
+
+# Stems originally marked for new band installation that were found to be
+# dead by Jess on 2022/3/2
+sampled_stems_found_dead <- census_2018 %>% 
+  filter(tag_stemtag %in% c("92140-1", "92520-1", "122017-1", "20572-1", "190755-1")) %>% 
+  mutate(
+    biweekly = tag_stemtag %in% biweekly_sample,
+    biannual = tag_stemtag %in% biannual_sample
+  )
+
+# Show these 4 stems were in sampling pool:
+census_2018 %>% 
+  filter(tag_stemtag %in% sampled_stems_found_dead$tag_stemtag)
+
+# Load mortality census info
+all_dead_stems_mort <- 
+  "https://raw.githubusercontent.com/SCBI-ForestGEO/SCBImortality/main/data/allmort.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  filter(current_year_status %in% c("D", "DC", "DN", "DS")) %>% 
+  mutate(tag_stemtag = str_c(tag, StemTag, sep = "-"))
+
+# Remove dead stems from sampling pool
+census_2018 <- census_2018 %>% 
+  filter(!tag_stemtag %in% all_dead_stems_mort$tag_stemtag)
+
+# Show these 4 stems are no longer in sampling pool:
+census_2018 %>% 
+  filter(tag_stemtag %in% sampled_stems_found_dead$tag_stemtag)
+
+sampled_stems_found_dead
+
+
+bind_rows(
+  census_2018 %>%
+    filter(sp == "ulru", between(dbh18, 94, 114)) %>% 
+    sample_n(5) %>% 
+    mutate(replacement_for = 20572),
+  census_2018 %>%
+    filter(sp == "cato", between(dbh18, 50, 70)) %>% 
+    sample_n(5) %>% 
+    mutate(replacement_for = 92140),
+  census_2018 %>%
+    filter(sp == "ceca", between(dbh18, 48, 68)) %>% 
+    sample_n(5) %>% 
+    mutate(replacement_for = 92520),
+  census_2018 %>%
+    filter(sp == "ceca", between(dbh18, 109, 129)) %>% 
+    sample_n(5) %>% 
+    mutate(replacement_for = 122017),
+  census_2018 %>%
+    filter(sp == "ulru", between(dbh18, 128, 148)) %>% 
+    sample_n(5) %>% 
+    mutate(replacement_for = 190755)
+) %>% 
+  select(replacement_for, everything()) %>% 
+  group_by(replacement_for) %>% 
+  arrange(quadrat, .by_group = TRUE) %>% 
+  write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list_backup_stems_2.csv")
+
+
+
+
+
+
+# 4. Make blank spring 2022 field form based on Fall 2021 form ----
+## Load data -----
+# Load temporary blank spring 2022 field form
+# TODO: right now this is created in create_master_csv_2021_and_after.R, can this be improved on?
+spring2022_field_form <- here("resources/raw_data/2022/data_entry_biannual_spr2022_BLANK.csv") %>% 
+  read_csv(show_col_types = FALSE)
+
+# Load action item list
+action_item_list <- here("resources/raw_data/2021/identifying_stems_with_issues/action_item_list.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+
+# Load Jess Shue's fixes
+data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(
+    location = ifelse(location == "S", "South", "North"),
+    area = NA
+  ) %>% 
+  # Note the order of these variables was decided here:
+  # https://github.com/SCBI-ForestGEO/Dendrobands/issues/90
+  select(
+    # Variables identifying stem:
+    tag, stemtag, sp, dbh = dbh18, 
+    # Location variables:
+    quadrat, lx, ly, area, location,
+    # Temp
+    action
+  ) %>% 
+  mutate(
+    # Measured variables:
+    previous_measure = NA, measure = "", measure_verified = "", crown.condition = "", crown.illum = "", new.band = "", codes = "", notes = "", 
+    # Variables with values that won't vary within one survey:
+    survey.ID = NA, year = NA, month = NA, day = NA, field.recorders = "", data.enter = ""
+  ) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+
+## Identify stems that have changed between Fall 2021 and Spring 2022 ----
+dead_stems <- action_item_list %>% 
+  filter(action == "retrieve band: stem dead") %>% 
+  pull(tag_stemtag)
+dropped_stems <- action_item_list %>% 
+  filter(action == "retrieve band: band issue, stem dropped from database") %>% 
+  pull(tag_stemtag)
+new_band <- data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  pull(tag_stemtag)
+new_stems <- data_entry_fix_2022 %>% 
+  filter(str_sub(action, 1, nchar("install band on new stem")) == "install band on new stem") %>% 
+  select(-c(action, tag_stemtag)) %>% 
+  mutate(new.band = 1)
+
+
+# Sanity check:
+data_fix_new_stems <- new_stems %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
+  select(tag_stemtag) 
+action_item_list_new_stems <- action_item_list %>% 
+  filter(str_sub(action, 1, nchar("install band on new stem")) == "install band on new stem") %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% select(tag_stemtag) 
+anti_join(action_item_list_new_stems, data_fix_new_stems)
+
+
+## Write new blank Spring 2022 form ----
+spring2022_field_form_new <- spring2022_field_form %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
+  filter(!tag_stemtag %in% dead_stems) %>% 
+  filter(!tag_stemtag %in% dropped_stems) %>% 
+  mutate(new.band = ifelse(tag_stemtag %in% new_band, 1, 0)) %>% 
+  bind_rows(new_stems) %>% 
+  mutate(
+    # Measured variables:
+    measure = "", measure_verified = "", crown.condition = "", crown.illum = "",  codes = "", notes = "", 
+    # Variables with values that won't vary within one survey:
+    survey.ID = 2022.01, year = 2022, month = 3, day = "", field.recorders = "", data.enter = ""
+  ) %>% 
+  select(-tag_stemtag) %>% 
+  mutate(codes = ifelse(tag == 190694, "BA", codes)) %>% 
+  mutate(
+    # Assign areas based on quadrats
+    area = case_when(
+      quadrat %in% c(1301:1303, 1401:1404, 1501:1515, 1601:1615, 1701:1715, 1801:1815, 1901:1915, 2001:2015) ~ 1,
+      quadrat %in% c(404:405, 504:507, 603:609, 703:712, 803:813, 901:913, 915, 1003:1012, 1101:1112, 1113, 1201:1212, 1304:1311, 1405:1411) ~ 2,
+      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
+      quadrat %in% c(116:132, 216:232, 316:332, 416:432, 516:532, 616:624, 716:724, 816:824) ~ 4,
+      quadrat %in% c(916:924, 1016:1024, 1116:1124, 1216:1224, 1316:1324, 1416:1418,1420:1424) ~ 5,
+      quadrat %in% c(1419, 1516:1524, 1616:1624, 1716:1724, 1816:1824, 1916:1924, 2016:2024) ~ 6,
+      quadrat %in% c(625:632, 725:732, 825:832, 925:932, 1025:1029,1031,1032) ~ 7,
+      quadrat %in% c(1030, 1125:1132, 1225:1232, 1325:1332, 1425:1432) ~ 8,
+      quadrat %in% c(1525:1532, 1625:1632, 1725:1732, 1825:1832, 1925:1932, 2025:2032) ~ 9
+    ),
+    # Special cases
+    area = ifelse(tag == 70579, 2, area),
+    area = ifelse(quadrat == 714 & tag != 70579, 3, area)
+  ) %>% 
+  arrange(area, quadrat, tag, stemtag) %>% 
+  select(
+    tag, stemtag, sp, dbh, quadrat, lx, ly, area, 
+    location, previous_measure, new.band, measure, measure_verified, 
+    crown.condition, crown.illum, codes, notes, 
+    survey.ID, year, month, day, field.recorders, data.enter
+  )
+
+write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
+
+
+
+
+
+# Sanity check with Google Sheet
+spring2022_field_form_new %>% 
+  count(new.band)
+
+
+# These four are not marked as replaced
+anti_join(
+  spring2022_field_form_new %>% 
+    filter(new.band == 0) %>% 
+    select(tag, stemtag), 
+  all_2021_live_stems %>% 
+    filter(action == "keep") %>% 
+    select(tag, stemtag)
+  )
