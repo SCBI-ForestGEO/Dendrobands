@@ -18,6 +18,7 @@ library(here)
 library(janitor)
 library(knitr)
 library(googlesheets4)
+library(lubridate)
 
 # Authenticate for Google Sheets
 gs4_auth()
@@ -826,7 +827,7 @@ spring2022_field_form_new <- spring2022_field_form %>%
     survey.ID, year, month, day, field.recorders, data.enter
   )
 
-write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
+# write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
 
 
@@ -837,12 +838,193 @@ spring2022_field_form_new %>%
   count(new.band)
 
 
-# These four are not marked as replaced
-anti_join(
-  spring2022_field_form_new %>% 
-    filter(new.band == 0) %>% 
-    select(tag, stemtag), 
-  all_2021_live_stems %>% 
-    filter(action == "keep") %>% 
-    select(tag, stemtag)
+
+# 5. Update dendroID.csv ----
+## Get all fixes that occured in Spring ----
+data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+data_entry_fix_2022 %>% 
+  count(action)
+
+new_bands <- data_entry_fix_2022 %>% 
+  filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
+  mutate(
+    dendDiam = dendDiam.mm, 
+    dbh = dbh18, 
+    dir = NA, 
+    dendHt = dendHt.m, 
+    crown.condition = NA, 
+    crown.illum = NA, 
+    lianas = NA, 
+    measureID = NA
+  ) 
+
+updated_bands <- data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  mutate(
+    dendDiam = dendDiam.mm, 
+    dbh = dbh18, 
+    dir = NA, 
+    dendHt = dendHt.m, 
+    crown.condition = NA, 
+    crown.illum = NA, 
+    lianas = NA, 
+    measureID = NA
+  ) 
+
+## Update dendroID.csv
+dendroID <- here("data/dendroID.csv") %>% 
+  read_csv(show_col_types = FALSE)
+
+dendroID <- bind_rows(new_bands, updated_bands) %>% 
+  select(
+    tag, stemtag, survey.ID, biannual, intraannual, sp, 
+    quadrat, stemID, treeID, 
+    dendDiam, dbh, new.band, 
+    dendroID, type, dir, 
+    dendHt, crown.condition, crown.illum, lianas, measureID
+  ) %>% 
+  bind_rows(dendroID)
+
+# write_csv(dendroID, file = "data/dendroID.csv")
+
+
+
+
+
+# 6. Update master CSV ----
+new_bands <- data_entry_fix_2022 %>% 
+  filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
+  mutate(
+    survey.ID = NA, year = NA, month = NA, day = NA,
+    measure = NA, codes = NA, notes = NA, status = NA,
+    field.recorders = NA, data.enter = NA,
+    dendDiam = NA, dendDiam = dendDiam.mm, 
+    dbh = dbh18, 
+    new.band = NA, dir = NA, 
+    dendHt = dendHt.m, 
+    crown.condition = NA, crown.illum = NA, lianas = NA, measureID = NA
+  ) %>% 
+  select(
+    tag, stemtag, survey.ID, year, month, day, biannual, 
+    intraannual, sp, quadrat, lx, ly, measure, codes, 
+    notes, status, field.recorders, data.enter, stemID, 
+    treeID, dendDiam, dbh, new.band, dendroID, type, 
+    dir, dendHt, crown.condition, crown.illum, lianas, 
+    measureID
   )
+
+updated_bands <- data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  mutate(
+    survey.ID = NA, year = NA, month = NA, day = NA,
+    measure = NA, codes = NA, notes = NA, status = NA,
+    field.recorders = NA, data.enter = NA,
+    dendDiam = NA, dendDiam = dendDiam.mm, 
+    dbh = dbh18, 
+    new.band = NA, dir = NA, 
+    dendHt = dendHt.m, 
+    crown.condition = NA, crown.illum = NA, lianas = NA, measureID = NA
+    ) %>% 
+  select(
+    tag, stemtag, survey.ID, year, month, day, biannual, 
+    intraannual, sp, quadrat, lx, ly, measure, codes, 
+    notes, status, field.recorders, data.enter, stemID, 
+    treeID, dendDiam, dbh, new.band, dendroID, type, 
+    dir, dendHt, crown.condition, crown.illum, lianas, 
+    measureID
+  )
+  
+## Drop dead stems and stems to drop from database, add new stems ----
+master_2022_sheet <- here("data/scbi.dendroAll_2022.csv") %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
+  # 1. Remove dead stems.
+  # Number of remaining rows should be sum of columns C, D, E, J, K, L = 496
+  filter(!tag_stemtag %in% dead_tag_stemtag) %>% 
+  # 2. Drop stems removed from database to bring total down to 500.
+  # Number of stems to drop should be sum of yellow cells = 32
+  # thus number of remaining rows should be 496 - 32 = 464
+  filter(!tag_stemtag %in% stems_to_retrieve) %>% 
+  # 3. Update rows for rebanded stems.
+  # Number of rows should remain constant. As of 2022/3/16 this drops by 3 however
+  filter(!tag_stemtag %in% stems_to_reband) %>% 
+  bind_rows(updated_bands) %>% 
+  # 4. Add new stems
+  # Number of rows added should be sum of columns G, N
+  bind_rows(new_bands)
+
+
+## Make sure autodendrometer tags are biweekly ----
+autodendrometer_tags <- 
+  "https://raw.githubusercontent.com/SCBI-ForestGEO/AutoDendrometers/main/data/PointDendrometerTrees.csv" %>% 
+  read_csv(show_col_types = FALSE) %>% 
+  select(tag) %>% 
+  arrange(tag)
+
+master_2022_sheet %>% 
+  filter(tag %in% autodendrometer_tags$tag) %>% 
+  select(tag, intraannual) %>% 
+  arrange(tag)
+
+
+
+## Shift stems between biweekly and biannual ----
+shift_biweekly_to_biannual_numbers <- master_list %>% 
+  filter(biweekly_shift_to_biannual>0) %>% 
+  mutate(n = biweekly_shift_to_biannual) %>% 
+  select(sp, n)
+shift_biannual_to_biweekly_numbers <- master_list %>% 
+  filter(biweekly_shift_to_biannual<0) %>% 
+  mutate(n = -biweekly_shift_to_biannual) %>% 
+  select(sp, n)
+
+tag_stemtag_record_lengths <- 
+  # Load and combine all 2021 recordings:
+  here("data") %>% 
+  dir(path = ., pattern = "scbi.dendroAll", full.names = TRUE) %>% 
+  map_dfr(read_csv, col_types = cols("day" = col_integer(), "month" = col_integer()), show_col_types = FALSE) %>% 
+  mutate(
+    tag_stemtag = str_c(tag, stemtag, sep = "-"),
+    date = ymd(str_c(year, month, day, sep = "-"))
+  ) %>% 
+  filter(tag_stemtag %in% master_2022_sheet$tag_stemtag) %>% 
+  group_by(tag, stemtag, intraannual, sp) %>% 
+  summarize(min_date = min(date, na.rm = TRUE), max_date = max(date, na.rm = TRUE)) %>% 
+  mutate(
+    ndays = max_date - min_date,
+    ndays = as.numeric(ndays)
+  ) %>% 
+  select(tag, stemtag, intraannual, sp, ndays) %>% 
+  group_by(sp) %>% 
+  arrange(ndays, .by_group = TRUE) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+
+
+shift_biweekly_to_biannual <- NULL
+for(i in 1:nrow(shift_biweekly_to_biannual_numbers)){
+  shift_biweekly_to_biannual <- tag_stemtag_record_lengths %>% 
+    filter(intraannual == 1, sp %in% shift_biweekly_to_biannual_numbers$sp[i]) %>% 
+    arrange(ndays) %>% 
+    slice(1:shift_biweekly_to_biannual_numbers$n[i]) %>% 
+    select(sp, tag_stemtag) %>% 
+    bind_rows(shift_biweekly_to_biannual)
+}
+
+shift_biannual_to_biweekly <- NULL
+for(i in 1:nrow(shift_biannual_to_biweekly_numbers)){
+  shift_biannual_to_biweekly <- tag_stemtag_record_lengths %>% 
+    filter(intraannual == 0, sp %in% shift_biannual_to_biweekly_numbers$sp[i]) %>% 
+    arrange(desc(ndays)) %>% 
+    slice(1:shift_biannual_to_biweekly_numbers$n[i]) %>% 
+    select(sp, tag_stemtag) %>% 
+    bind_rows(shift_biannual_to_biweekly)
+}
+
+
+  
+
+
+  
