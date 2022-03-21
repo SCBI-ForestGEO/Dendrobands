@@ -736,8 +736,11 @@ action_item_list <- here("resources/raw_data/2021/identifying_stems_with_issues/
 
 
 # Load Jess Shue's fixes
-data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% 
-  read_csv(show_col_types = FALSE) %>% 
+data_entry_fix_2022 <- 
+  bind_rows(
+    here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% read_csv(show_col_types = FALSE),
+    here("resources/raw_data/2022/data_entry_fix_2022-01.csv") %>% read_csv(show_col_types = FALSE),
+  ) %>% 
   mutate(
     location = ifelse(location == "S", "South", "North"),
     area = NA
@@ -830,9 +833,6 @@ spring2022_field_form_new <- spring2022_field_form %>%
 # write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
 
-
-
-
 # Sanity check with Google Sheet
 spring2022_field_form_new %>% 
   count(new.band)
@@ -841,12 +841,19 @@ spring2022_field_form_new %>%
 
 # 5. Update dendroID.csv ----
 ## Get all fixes that occured in Spring ----
-data_entry_fix_2022 <- here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% 
-  read_csv(show_col_types = FALSE) %>% 
+data_entry_fix_2022 <- 
+  bind_rows(
+    here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% read_csv(show_col_types = FALSE),
+    here("resources/raw_data/2022/data_entry_fix_2022-01.csv") %>% read_csv(show_col_types = FALSE),
+  ) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
 data_entry_fix_2022 %>% 
   count(action)
+data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  count(intraannual, sp)
+
 
 new_bands <- data_entry_fix_2022 %>% 
   filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
@@ -966,9 +973,10 @@ autodendrometer_tags <-
 
 master_2022_sheet %>% 
   filter(tag %in% autodendrometer_tags$tag) %>% 
-  select(tag, intraannual) %>% 
+  select(tag, sp, intraannual) %>% 
   arrange(tag)
 
+# Need to switch 91486 to intrannual
 
 
 ## Shift stems between biweekly and biannual ----
