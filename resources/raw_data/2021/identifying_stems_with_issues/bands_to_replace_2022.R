@@ -971,12 +971,17 @@ autodendrometer_tags <-
   select(tag) %>% 
   arrange(tag)
 
+# Need to switch 91486 to intrannual:
 master_2022_sheet %>% 
   filter(tag %in% autodendrometer_tags$tag) %>% 
   select(tag, sp, intraannual) %>% 
   arrange(tag)
 
-# Need to switch 91486 to intrannual
+master_2022_sheet <- master_2022_sheet %>% 
+  mutate(intraannual = ifelse(tag == 91486, 1, intraannual))
+master_list <- master_list %>% 
+  mutate(biweekly_shift_to_biannual = ifelse(sp == "cagl", 0, biweekly_shift_to_biannual))
+
 
 
 ## Shift stems between biweekly and biannual ----
@@ -1031,8 +1036,26 @@ for(i in 1:nrow(shift_biannual_to_biweekly_numbers)){
     bind_rows(shift_biannual_to_biweekly)
 }
 
+master_2022_sheet <- master_2022_sheet %>% 
+  mutate(
+    intraannual = ifelse(tag_stemtag %in% shift_biannual_to_biweekly$tag_stemtag, 1, intraannual),
+    intraannual = ifelse(tag_stemtag %in% shift_biweekly_to_biannual$tag_stemtag, 0, intraannual)
+  ) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
-  
+# Sanity check with Google sheet
+master_2022_sheet %>% 
+  count(tag_stemtag) %>% 
+  arrange(desc(n))
+
+
+master_2022_sheet %>% 
+  mutate(sp = factor(sp, levels = master_list$sp)) %>% 
+  group_by(intraannual, sp) %>% 
+  count() %>% 
+  pivot_wider(names_from = "intraannual", values_from = "n", values_fill = 0) %>% 
+  arrange(factor(sp, levels = master_list$sp)) %>% 
+  select(sp, `1`, `0`)
 
 
   
