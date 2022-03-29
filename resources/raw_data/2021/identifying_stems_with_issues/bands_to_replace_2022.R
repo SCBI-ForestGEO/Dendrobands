@@ -833,7 +833,10 @@ spring2022_field_form_new <- spring2022_field_form %>%
 # write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
 
-# Sanity check with Google Sheet
+# Sanity check with Google Sheet.
+# Should have for
+# new.band = 0: 126 + 322 = 448
+# new.band = 1: 12 + 6 + 4 + 30 = 52
 spring2022_field_form_new %>% 
   count(new.band)
 
@@ -846,15 +849,98 @@ data_entry_fix_2022 <-
     here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% read_csv(show_col_types = FALSE),
     here("resources/raw_data/2022/data_entry_fix_2022-01.csv") %>% read_csv(show_col_types = FALSE),
   ) %>% 
-  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) 
 
+## Sanity check: Reconcile all data_entry_fix actions with Google Sheet ----
 data_entry_fix_2022 %>% 
   count(action)
+# install band on new stem: biannual matches N24 in Google Sheet = 30. YES
+# install band on new stem: biweekly matches G24 in Google Sheet = 6. YES
+# retrieve band: band issue, stem dropped from database should match sum of yellow cells in Google Sheet. NOT DONE YET.
+# reband stem: should match F24 + M24 = 16, but there are 19. NO these 19-(12+4)=3 are it:
+unidentified_reband_stems <- anti_join(
+  data_entry_fix_2022 %>% filter(action == "reband stem") %>% select(tag_stemtag),
+  action_item_list %>% filter(action == "reband stem") %>% select(tag_stemtag),
+  by = "tag_stemtag"
+) %>% 
+  pull(tag_stemtag)
+
+# Conclusion: Ask Jess about these
+data_entry_fix_2022 %>% 
+  filter(tag_stemtag %in% unidentified_reband_stems) %>% 
+  select(tag, sp, action, new.band, codes, intraannual, notes)
+
+## Sanity check: Reconcile "reband stem" data_entry_fix actions with Google Sheet ----
+# These counts should match purple columns F & M in Google Sheet:
 data_entry_fix_2022 %>% 
   filter(action == "reband stem") %>% 
-  count(intraannual, sp)
+  count(intraannual, sp) %>% 
+  pivot_wider(names_from = intraannual, values_from = n) %>% 
+  arrange(factor(sp, levels = master_list$sp)) %>% 
+  select(sp, `1`, `0`)
 
+# We have:
+# +1 fagr biweekly
+# +1 litu biannual
+# +1 cato biannual
+# which are unidentified_reband_stems above
 
+## Sanity check: Drill down on new.band and "reband stem" ----
+data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  count(new.band)
+
+# On top of unidentified_reband_stems (action item one), we have the following
+# three reband stem with new.band = 0
+data_entry_fix_2022 %>% 
+  filter(action == "reband stem") %>% 
+  filter(new.band == 0) %>% 
+  select(tag_stemtag, sp, action, new.band, codes, intraannual, notes) %>% 
+  filter(!tag_stemtag %in% unidentified_reband_stems)
+
+# Conclusion: Must have been field identified rebands
+
+## Sanity check: Reconcile "new band" data_entry_fix actions with Google Sheet ----
+
+# These counts should match purple columns G & N in Google Sheet.
+data_entry_fix_2022 %>% 
+  filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
+  count(intraannual, sp) %>% 
+  pivot_wider(names_from = intraannual, values_from = n) %>% 
+  arrange(factor(sp, levels = master_list$sp)) %>% 
+  select(sp, `1`, `0`)
+
+# We have
+# + 1 biannual cato
+# - 1 biannual ulru
+data_entry_fix_2022 %>% 
+  filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
+  filter(sp %in% c("cato", "ulru"))
+action_item_list %>% 
+  filter(action == "install band on new stem: biannual") %>% 
+  filter(sp %in% c("cato", "ulru"))
+
+# Conclusion: Was there a mix up?
+
+## Update CSV -----
+# Rebanded stems
+updated_bands <- data_entry_fix_2022 %>% 
+  # Important to include new.band == 1 condition, some stems with action =
+  # "reband stem" were mere band adjustments (code = BA)
+  # TODO: Make sure of this
+  filter(action == "reband stem" & new.band == 1) %>% 
+  mutate(
+    dendDiam = dendDiam.mm, 
+    dbh = dbh18, 
+    dir = NA, 
+    dendHt = dendHt.m, 
+    crown.condition = NA, 
+    crown.illum = NA, 
+    lianas = NA, 
+    measureID = NA
+  ) 
+
+# Stems with new bands
 new_bands <- data_entry_fix_2022 %>% 
   filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
   mutate(
@@ -866,42 +952,28 @@ new_bands <- data_entry_fix_2022 %>%
     crown.illum = NA, 
     lianas = NA, 
     measureID = NA
-  ) 
-
-updated_bands <- data_entry_fix_2022 %>% 
-  filter(action == "reband stem") %>% 
-  mutate(
-    dendDiam = dendDiam.mm, 
-    dbh = dbh18, 
-    dir = NA, 
-    dendHt = dendHt.m, 
-    crown.condition = NA, 
-    crown.illum = NA, 
-    lianas = NA, 
-    measureID = NA
-  ) 
+  )
 
 ## Update dendroID.csv
-dendroID <- here("data/dendroID.csv") %>% 
-  read_csv(show_col_types = FALSE)
-
-dendroID <- bind_rows(new_bands, updated_bands) %>% 
-  select(
-    tag, stemtag, survey.ID, biannual, intraannual, sp, 
-    quadrat, stemID, treeID, 
-    dendDiam, dbh, new.band, 
-    dendroID, type, dir, 
-    dendHt, crown.condition, crown.illum, lianas, measureID
-  ) %>% 
-  bind_rows(dendroID)
-
+# dendroID <- here("data/dendroID.csv") %>% 
+#   read_csv(show_col_types = FALSE)
+# 
+# dendroID <- bind_rows(new_bands, updated_bands) %>% 
+#   select(
+#     tag, stemtag, survey.ID, biannual, intraannual, sp, 
+#     quadrat, stemID, treeID, 
+#     dendDiam, dbh, new.band, 
+#     dendroID, type, dir, 
+#     dendHt, crown.condition, crown.illum, lianas, measureID
+#   ) %>% 
+#   bind_rows(dendroID)
+# 
 # write_csv(dendroID, file = "data/dendroID.csv")
 
 
 
-
-
 # 6. Update master CSV ----
+## TODO: Reuse data frame from earlier in spirit of DRY ----
 new_bands <- data_entry_fix_2022 %>% 
   filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
   mutate(
@@ -921,7 +993,8 @@ new_bands <- data_entry_fix_2022 %>%
     treeID, dendDiam, dbh, new.band, dendroID, type, 
     dir, dendHt, crown.condition, crown.illum, lianas, 
     measureID
-  )
+  ) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
 updated_bands <- data_entry_fix_2022 %>% 
   filter(action == "reband stem") %>% 
@@ -942,7 +1015,8 @@ updated_bands <- data_entry_fix_2022 %>%
     treeID, dendDiam, dbh, new.band, dendroID, type, 
     dir, dendHt, crown.condition, crown.illum, lianas, 
     measureID
-  )
+  ) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
   
 ## Drop dead stems and stems to drop from database, add new stems ----
 master_2022_sheet <- here("data/scbi.dendroAll_2022.csv") %>% 
@@ -950,18 +1024,31 @@ master_2022_sheet <- here("data/scbi.dendroAll_2022.csv") %>%
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
   # 1. Remove dead stems.
   # Number of remaining rows should be sum of columns C, D, E, J, K, L = 496
+  # WE'RE GOOD!
   filter(!tag_stemtag %in% dead_tag_stemtag) %>% 
   # 2. Drop stems removed from database to bring total down to 500.
   # Number of stems to drop should be sum of yellow cells = 32
   # thus number of remaining rows should be 496 - 32 = 464
+  # WE'RE GOOD!
   filter(!tag_stemtag %in% stems_to_retrieve) %>% 
-  # 3. Update rows for rebanded stems.
-  # Number of rows should remain constant. As of 2022/3/16 this drops by 3 however
-  filter(!tag_stemtag %in% stems_to_reband) %>% 
-  bind_rows(updated_bands) %>% 
-  # 4. Add new stems
+  # 3. Add new stems
   # Number of rows added should be sum of columns G, N
-  bind_rows(new_bands)
+  # WE'RE ALMOST GOOD (note above potential mix up between biannual cato and ulru)
+  bind_rows(new_bands) %>% 
+  # 4. Update rows for rebanded stems.
+  # Number of rows should remain constant.
+  # As of 2022/3/16 this drops by 3 however
+  # As of 2022/3/25 this increases by 3 however
+  filter(!tag_stemtag %in% stems_to_reband) %>% 
+  bind_rows(updated_bands)
+
+## Sanity check: Check for duplicate entries ----
+master_2022_sheet %>% 
+  count(tag_stemtag) %>% 
+  filter(n > 1)
+
+# They are all in this set:
+unidentified_reband_stems
 
 
 ## Make sure autodendrometer tags are biweekly ----
@@ -971,29 +1058,49 @@ autodendrometer_tags <-
   select(tag) %>% 
   arrange(tag)
 
-# Need to switch 91486 to intrannual:
+# Check if all biweekly:
 master_2022_sheet %>% 
   filter(tag %in% autodendrometer_tags$tag) %>% 
   select(tag, sp, intraannual) %>% 
   arrange(tag)
 
+# Need to switch 91486 to biweekly:
 master_2022_sheet <- master_2022_sheet %>% 
   mutate(intraannual = ifelse(tag == 91486, 1, intraannual))
+
+# Update numbers of biweekly/biannual switches
 master_list <- master_list %>% 
-  mutate(biweekly_shift_to_biannual = ifelse(sp == "cagl", 0, biweekly_shift_to_biannual))
+  mutate(biweekly_shift_to_biannual = ifelse(sp == "cagl", biweekly_shift_to_biannual + 1, biweekly_shift_to_biannual))
+
+# Check if all biweekly:
+master_2022_sheet %>% 
+  filter(tag %in% autodendrometer_tags$tag) %>% 
+  select(tag, sp, intraannual) %>% 
+  arrange(tag)
+
+# Sanity check with Google sheet
+master_2022_sheet %>% 
+  group_by(intraannual, sp) %>% 
+  count() %>% 
+  pivot_wider(names_from = "intraannual", values_from = "n", values_fill = 0) %>% 
+  arrange(factor(sp, levels = master_list$sp)) %>% 
+  select(sp, `1`, `0`)
 
 
 
-## Shift stems between biweekly and biannual ----
+## Identify stems to shift between biweekly and biannual ----
+# Should match positive values in Column O, except autodendrometer cagl
 shift_biweekly_to_biannual_numbers <- master_list %>% 
   filter(biweekly_shift_to_biannual>0) %>% 
   mutate(n = biweekly_shift_to_biannual) %>% 
   select(sp, n)
+# Should match positive values in Column H, except autodendrometer cagl
 shift_biannual_to_biweekly_numbers <- master_list %>% 
   filter(biweekly_shift_to_biannual<0) %>% 
   mutate(n = -biweekly_shift_to_biannual) %>% 
   select(sp, n)
 
+# Identify length of time records of all stems
 tag_stemtag_record_lengths <- 
   # Load and combine all 2021 recordings:
   here("data") %>% 
@@ -1003,8 +1110,10 @@ tag_stemtag_record_lengths <-
     tag_stemtag = str_c(tag, stemtag, sep = "-"),
     date = ymd(str_c(year, month, day, sep = "-"))
   ) %>% 
+  # Only those stems still in 2022 data base:
   filter(tag_stemtag %in% master_2022_sheet$tag_stemtag) %>% 
-  group_by(tag, stemtag, intraannual, sp) %>% 
+  group_by(tag, stemtag, intraannual, sp) %>%
+  # Compute number of days of records:
   summarize(min_date = min(date, na.rm = TRUE), max_date = max(date, na.rm = TRUE)) %>% 
   mutate(
     ndays = max_date - min_date,
@@ -1015,7 +1124,7 @@ tag_stemtag_record_lengths <-
   arrange(ndays, .by_group = TRUE) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
-
+# Shift stems with shortest records from biweekly to biannual
 shift_biweekly_to_biannual <- NULL
 for(i in 1:nrow(shift_biweekly_to_biannual_numbers)){
   shift_biweekly_to_biannual <- tag_stemtag_record_lengths %>% 
@@ -1026,6 +1135,12 @@ for(i in 1:nrow(shift_biweekly_to_biannual_numbers)){
     bind_rows(shift_biweekly_to_biannual)
 }
 
+# Should match positive values in Column H, except autodendrometer cagl
+shift_biweekly_to_biannual %>% 
+  count(sp) %>% 
+  arrange(factor(sp, levels = master_list$sp))
+
+# Shift stems with longest records from biannual to biweekly
 shift_biannual_to_biweekly <- NULL
 for(i in 1:nrow(shift_biannual_to_biweekly_numbers)){
   shift_biannual_to_biweekly <- tag_stemtag_record_lengths %>% 
@@ -1036,6 +1151,14 @@ for(i in 1:nrow(shift_biannual_to_biweekly_numbers)){
     bind_rows(shift_biannual_to_biweekly)
 }
 
+# Should match positive values in Column O, except autodendrometer cagl
+shift_biannual_to_biweekly %>% 
+  count(sp) %>% 
+  arrange(factor(sp, levels = master_list$sp))
+
+
+
+## Switch stems between biweekly and biannual ----
 master_2022_sheet <- master_2022_sheet %>% 
   mutate(
     intraannual = ifelse(tag_stemtag %in% shift_biannual_to_biweekly$tag_stemtag, 1, intraannual),
@@ -1043,19 +1166,29 @@ master_2022_sheet <- master_2022_sheet %>%
   ) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
-# Sanity check with Google sheet
+## Sanity check: with Google sheet -----
 master_2022_sheet %>% 
-  count(tag_stemtag) %>% 
-  arrange(desc(n))
-
-
-master_2022_sheet %>% 
-  mutate(sp = factor(sp, levels = master_list$sp)) %>% 
   group_by(intraannual, sp) %>% 
   count() %>% 
   pivot_wider(names_from = "intraannual", values_from = "n", values_fill = 0) %>% 
   arrange(factor(sp, levels = master_list$sp)) %>% 
   select(sp, `1`, `0`)
 
+# Should match columns I and P. Differences:
+# Biweekly:
+# +1 cagl
+# +1 fagr
+# -1 cato
+# +1 caco
+# -1 caovl
+# Net = + 1
+# Biannual:
+# +1 litu
+# -1 cagl
+# +3 cato
+# -1 caco
+# +1 caovl
+# -1 ulru
+# Net = + 2
 
   
