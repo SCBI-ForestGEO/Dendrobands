@@ -1,5 +1,5 @@
 tag,stemtag,quadrat,sp,lx,ly,dbh18,action,survey.ID,year,month,day,location,new.band,dendroID,type,dendDiam.mm,dendHt.m,measure.mm,codes,notes,field.recorders,data.enter,biannual,intraannual
-22489,1,229,cato,6.1,1.8,137,install band on new stem: biannual,2022.01,2022,3,15,N,1,1132,2,13.9,1.4,8.42,,,Jessica Shue,Jessica Shue,1,0
+22489,1,229,cato,6.1,1.8,137,install band on new stem: biannual,2022.01,2022,3,15,N,1,1139,2,13.9,1.4,8.42,,,Jessica Shue,Jessica Shue,1,0
 62121,1,619,cato,5.1,2.8,114,install band on new stem: biannual,2022.01,2022,3,15,N,1,1133,2,11.4,1.4,15.4,,,Jessica Shue,Jessica Shue,1,0
 92140,1,920,cato,18.7,0.7,60,reband stem,2022.01,2022,3,15,N,0,NA,NA, , ,9.6, ,"band was previously replaced; wrong tag - duplicate 92138; check, not found by Bill",Jessica Shue,Jessica Shue,1,0
 132525,1,1329,fram,20,1.2,531,retrieve band: stem dead,2022.01,2022,3,15,N,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
