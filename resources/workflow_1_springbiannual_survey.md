@@ -36,7 +36,7 @@
 
 
 
-# DEPRECATED: Workflow for spring dendroband biannual survey (prior to 2022)
+# Previous workflow for spring dendroband biannual survey (prior to 2022)
 
 1. Prepare data sheets for field, and make sure you have a blank raw data form ready for office.
     1. Make sure new "scbi.dendroAll_YEAR" csv is made

@@ -237,7 +237,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 20587,1,litu,1207.3,208,14.8,1.3,3,South,39.54,24.7,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 20617,1,litu,851,209,6.9,7.6,3,South,62.43,60.33,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 30225,1,qual,301,306,20,3.1,3,South,35.27,36.06,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30233,1,fagr,1072,306,15.6,16.2,3,South,63.57,62.7,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30233,1,fagr,1072,306,15.6,16.2,3,South,63.57,62.7,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 30234,1,fagr,81,306,15.3,18.5,3,South,15.94,15.87,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 30331,1,cagl,216,306,8.3,19.5,3,South,52.27,13.84,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 30333,1,fagr,222,306,14,19.3,3,South,79.94,81.51,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
@@ -382,7 +382,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 100516,1,litu,1036.1,1004,17.9,2.3,2,South,96.02,95.46,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
 100562,1,litu,628.2,1004,9.1,19.2,2,South,24.11,23.37,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
 100754,1,quru,430.2,1005,3.8,6.8,2,South,43.83,44.27,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100771,1,quru,968,1005,8.5,17,2,South,76.31,73.52,,0,,75.98; replaced double spring; SP QUVE,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100771,1,quru,968,1005,8.5,17,2,South,76.31,73.52,,0,BA,75.98; replaced double spring; SP QUVE,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
 101008,1,tiam,177,1006,4.2,11.6,2,South,NA,12.54,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
 100905,1,litu,680,1008,10,1.6,2,South,31.56,29.95,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
 100906,1,litu,497,1008,9.3,1.1,2,South,33.19,32.37,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
@@ -461,8 +461,8 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 190065,1,litu,539,1902,18.8,0.4,1,South,19.22,17.52,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
 190067,1,litu,739,1902,19,2.2,1,South,52.2,50.12,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
 190071,1,litu,211.6,1902,20,4.3,1,South,24.39,24.22,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190115,1,litu,923.5,1902,4.8,18.6,1,South,137.68,137.12,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190413,1,litu,1001.6,1904,14.7,4.6,1,South,119.16,119.39,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190115,1,litu,923.5,1902,4.8,18.6,1,South,137.68,137.12,,0,RE; BA,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190413,1,litu,1001.6,1904,14.7,4.6,1,South,119.16,119.39,,0,BA,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
 190426,1,litu,1016.2,1904,11,14.2,1,South,91.46,88.6,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
 190429,1,litu,724.9,1904,12.5,19.1,1,South,124.82,123.77,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
 190655,1,litu,545.6,1907,12.9,16.1,1,South,64.06,62.08,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
