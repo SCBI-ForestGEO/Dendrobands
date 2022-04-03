@@ -1,29 +1,29 @@
-tag,stemtag,quadrat,sp,lx,ly,dbh18,action,survey.ID,year,month,day,location,new.band,dendroID,type,dendDiam.mm,dendHt.m,measure.mm,codes,notes,field.recorders,data.enter,biannual,intraannual
-22489,1,229,cato,6.1,1.8,137,install band on new stem: biannual,2022.01,2022,3,15,N,1,1139,2,13.9,1.4,8.42,,,Jessica Shue,Jessica Shue,1,0
-62121,1,619,cato,5.1,2.8,114,install band on new stem: biannual,2022.01,2022,3,15,N,1,1133,2,11.4,1.4,15.4,,,Jessica Shue,Jessica Shue,1,0
-92140,1,920,cato,18.7,0.7,60,reband stem,2022.01,2022,3,15,N,0,NA,NA, , ,9.6, ,"band was previously replaced; wrong tag - duplicate 92138; check, not found by Bill",Jessica Shue,Jessica Shue,1,0
-132525,1,1329,fram,20,1.2,531,retrieve band: stem dead,2022.01,2022,3,15,N,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-142650,1,1430,ceca,17.4,5.7,115,install band on new stem: biannual,2022.01,2022,3,15,N,1,1134,2,119,1.4,12.4,,,Jessica Shue,Jessica Shue,1,0
-182471,1,1829,ceca,2.5,19,78,install band on new stem: biweekly,2022.01,2022,3,15,N,1,1135,2,86,1.4,8.24,,not found in census data; estimated coordinates in field,Jessica Shue,Jessica Shue,1,1
-70181,1,707,litu,12.1,19,575,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,110.28, ,collected,Jessica Shue,Jessica Shue,1,0
-70357,1,708,cagl,19.7,0.1,115,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-80398,1,807,caco,0.2,19.7,191,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-90043,1,901,quve,12.5,17.6,1484,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-90084,1,902,quve,16.2,19.3,1142,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,99.8, ,collected,Jessica Shue,Jessica Shue,1,0
-90236,1,902,ulru,14.4,2.5,155,install band on new stem: biannual,2022.01,2022,3,15,S,1,1136,2,156,1.4,7.76,,VITIS,Jessica Shue,Jessica Shue,1,0
-90530,1,910,litu,10.2,17.8,669,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , ,26.93, ,collected outgrown band only; measured new band,Jessica Shue,Jessica Shue,1,0
-100011,1,1001,fram,0.7,8,967,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-100771,1,1005,quru,8.5,17,960,reband stem,2022.01,2022,3,15,S,0,NA,NA,,,,BA,fixed double springs,Jessica Shue,Jessica Shue,1,1
-111029,1,1107,litu,17.2,19,125,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-111041,1,1108,quru,16.5,5.7,1033,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,31.82, ,new band installed 2021; left band,Jessica Shue,Jessica Shue,1,0
-121212,1,1207,litu,12.7,12.5,878,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,130.64, ,collected,Jessica Shue,Jessica Shue,1,0
-130718,1,1306,litu,7.3,11.3,1026,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,50.27, ,collected,Jessica Shue,Jessica Shue,1,0
-131086,1,1310,quru,18.1,15.5,624,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,96.48, ,collected,Jessica Shue,Jessica Shue,1,0
-140736,1,1407,quve,2.4,13.6,677,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,72.52, ,collected; new nail needed,Jessica Shue,Jessica Shue,1,0
-140818,1,1410,litu,2.3,19.2,549,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,85.14, ,collected,Jessica Shue,Jessica Shue,1,0
-140819,1,1411,litu,1.6,1.5,204,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0
-180648,1,1804,juni,7.5,10.9,299,install band on new stem: biannual,2022.01,2022,3,15,S,1,1137,2,293,1.2,8.67, ,old band removed; 126.99,Jessica Shue,Jessica Shue,1,0
-190413,1,1904,litu,14.7,4.6,1015,reband stem,2022.01,2022,3,15,S,0,NA,NA,,,119.47,BA,replaced double spring,Jessica Shue,Jessica Shue,1,1
-200586,1,2007,juni,2,13.9,453,reband stem,2022.01,2022,3,15,S,1,1138,2,443,1.45,12.19, , ,Jessica Shue,Jessica Shue,1,0
-30233,1,306,fagr,15.6,16.2,1072,reband stem,2022.01,2022,3,2,S,0,NA,NA,,,,BA,fixed double spring on 3/2/2022,Jessica Shue,Jessica Shue,1,1
-190115,1,1902,litu,4.8,18.6,944,reband stem,2022.01,2022,3,15,S,0,NA,NA,,,119.47,BA,137.68; replaced double spring,Jessica Shue,Jessica Shue,1,0
+tag,stemtag,quadrat,sp,lx,ly,dbh18,action,survey.ID,year,month,day,location,new.band,dendroID,type,dendDiam.mm,dendHt.m,measure.mm,codes,notes,field.recorders,data.enter,biannual,intraannual,treeID,stemID
+22489,1,229,cato,6.1,1.8,137,install band on new stem: biannual,2022.01,2022,3,15,N,1,1139,2,13.9,1.4,8.42,,,Jessica Shue,Jessica Shue,1,0,3507,3507
+62121,1,619,cato,5.1,2.8,114,install band on new stem: biannual,2022.01,2022,3,15,N,1,1133,2,11.4,1.4,15.4,,,Jessica Shue,Jessica Shue,1,0,7699,7699
+92140,1,920,cato,18.7,0.7,60,reband stem,2022.01,2022,3,15,N,0,NA,NA, , ,9.6, ,"band was previously replaced; wrong tag - duplicate 92138; check, not found by Bill",Jessica Shue,Jessica Shue,1,0,11304,11304
+132525,1,1329,fram,20,1.2,531,retrieve band: stem dead,2022.01,2022,3,15,N,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,18818,18818
+142650,1,1430,ceca,17.4,5.7,115,install band on new stem: biannual,2022.01,2022,3,15,N,1,1134,2,119,1.4,12.4,,,Jessica Shue,Jessica Shue,1,0,20574,20574
+182471,1,1829,ceca,2.5,19,78,install band on new stem: biweekly,2022.01,2022,3,15,N,1,1135,2,86,1.4,8.24,,not found in census data; estimated coordinates in field,Jessica Shue,Jessica Shue,1,1,27378,27378
+70181,1,707,litu,12.1,19,575,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,110.28, ,collected,Jessica Shue,Jessica Shue,1,0,8200,8200
+70357,1,708,cagl,19.7,0.1,115,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,8362,8362
+80398,1,807,caco,0.2,19.7,191,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,9474,9474
+90043,1,901,quve,12.5,17.6,1484,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,10315,10315
+90084,1,902,quve,16.2,19.3,1142,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,99.8, ,collected,Jessica Shue,Jessica Shue,1,0,10351,10351
+90236,1,902,ulru,14.4,2.5,155,install band on new stem: biannual,2022.01,2022,3,15,S,1,1136,2,156,1.4,7.76,,VITIS,Jessica Shue,Jessica Shue,1,0,10496,10496
+90530,1,910,litu,10.2,17.8,669,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , ,26.93, ,collected outgrown band only; measured new band,Jessica Shue,Jessica Shue,1,0,10776,10776
+100011,1,1001,fram,0.7,8,967,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,11716,11716
+100771,1,1005,quru,8.5,17,960,reband stem,2022.01,2022,3,15,S,0,NA,NA,,,,BA,fixed double springs,Jessica Shue,Jessica Shue,1,1,12422,12422
+111029,1,1107,litu,17.2,19,125,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,14379,14379
+111041,1,1108,quru,16.5,5.7,1033,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,31.82, ,new band installed 2021; left band,Jessica Shue,Jessica Shue,1,0,14390,14390
+121212,1,1207,litu,12.7,12.5,878,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,130.64, ,collected,Jessica Shue,Jessica Shue,1,0,16309,16309
+130718,1,1306,litu,7.3,11.3,1026,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,50.27, ,collected,Jessica Shue,Jessica Shue,1,0,17666,17666
+131086,1,1310,quru,18.1,15.5,624,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,96.48, ,collected,Jessica Shue,Jessica Shue,1,0,18012,18012
+140736,1,1407,quve,2.4,13.6,677,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,72.52, ,collected; new nail needed,Jessica Shue,Jessica Shue,1,0,19530,19530
+140818,1,1410,litu,2.3,19.2,549,"retrieve band: band issue, stem dropped from database",2022.01,2022,3,15,S,0,NA,NA, , ,85.14, ,collected,Jessica Shue,Jessica Shue,1,0,19606,19606
+140819,1,1411,litu,1.6,1.5,204,retrieve band: stem dead,2022.01,2022,3,15,S,0,NA,NA, , , , ,collected,Jessica Shue,Jessica Shue,1,0,19607,19607
+180648,1,1804,juni,7.5,10.9,299,install band on new stem: biannual,2022.01,2022,3,15,S,1,1137,2,293,1.2,8.67, ,old band removed; 126.99,Jessica Shue,Jessica Shue,1,0,26480,26480
+190413,1,1904,litu,14.7,4.6,1015,reband stem,2022.01,2022,3,15,S,0,NA,NA,,,119.47,BA,replaced double spring,Jessica Shue,Jessica Shue,1,1,28001,28001
+200586,1,2007,juni,2,13.9,453,reband stem,2022.01,2022,3,15,S,1,1138,2,443,1.45,12.19, , ,Jessica Shue,Jessica Shue,1,0,29644,29644
+30233,1,306,fagr,15.6,16.2,1072,reband stem,2022.01,2022,3,2,S,0,NA,NA,,,,BA,fixed double spring on 3/2/2022,Jessica Shue,Jessica Shue,1,1,3874,3874
+190115,1,1902,litu,4.8,18.6,944,reband stem,2022.01,2022,3,15,S,0,NA,NA,,,119.47,BA,137.68; replaced double spring,Jessica Shue,Jessica Shue,1,0,27723,27723
