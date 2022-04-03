@@ -1,4 +1,277 @@
 tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,crown.condition,crown.illum,survey.ID,year,month,day,field.recorders,data.enter
+130348,1,litu,578.3,1302,19.9,1.9,1,South,35.65,33.38,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+140609,1,litu,1081.9,1403,4.3,3.6,1,South,25.64,21.95,,0,,new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+150781,1,ulru,126,1504,1.2,18.5,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+160713,1,litu,838,1603,10.4,13.7,1,South,48.62,46.2,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+160742,1,litu,860,1605,19.3,6.6,1,South,111.46,110.58,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+160910,1,litu,973,1607,8.6,1.1,1,South,143.23,8.8,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+160814,1,cato,441,1611,14.3,5.7,1,South,14.08,14.43,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+160985,1,litu,873,1612,1.2,17.2,1,South,27.72,28.45,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+160862,1,ploc,834,1614,12.4,15.2,1,South,79.47,79.68,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+170175,1,litu,885,1702,4.7,1.6,1,South,40.7,38.17,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+170992,1,litu,686.7,1704,12.2,15.2,1,South,111.7,110.95,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+170994,1,litu,555.9,1704,18.4,16.1,1,South,27.07,25.96,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171127,1,litu,737.2,1705,9.3,1.8,1,South,32.42,32.55,,0,,band >bh,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171245,1,ulru,133,1707,17.3,8.8,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171254,1,litu,765,1708,15.3,3.4,1,South,97.6,96.72,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171257,1,litu,621,1708,12.2,4.5,1,South,94.63,94.06,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171262,1,litu,616.9,1708,15.9,8.2,1,South,20.55,19.05,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171348,1,ceca,155.4,1714,19.4,2.4,1,South,86.77,86.08,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171454,1,caco,118,1714,1.6,13.8,1,South,18.28,16.05,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171456,1,acru,715,1714,0.8,13.4,1,South,35.89,30.74,,0,BA,band bent near spring,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+171462,1,qual,845,1715,7.9,7.5,1,North,48.82,46.78,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180235,1,litu,1035,1802,11,4.6,1,South,70.17,69.85,,0,,new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180728,1,litu,409,1804,3.1,12.7,1,South,48.47,47.5,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180654,1,litu,332.2,1805,6,0.3,1,South,30.35,29.49,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180691,1,litu,716,1807,6.2,17.3,1,South,67.75,66.2,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180903,1,litu,327,1808,4.8,2.3,1,South,21.56,20.05,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180904,1,litu,372.2,1808,2.8,6.5,1,South,60.71,60.39,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180984,1,litu,923.5,1813,4,11.8,1,South,78.07,75.55,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+180991,1,ploc,936.2,1814,1.5,6.7,1,South,17.29,18.07,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190065,1,litu,539,1902,18.8,0.4,1,South,19.22,17.52,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190067,1,litu,739,1902,19,2.2,1,South,52.2,50.12,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190071,1,litu,211.6,1902,20,4.3,1,South,24.39,24.22,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190115,1,litu,923.5,1902,4.8,18.6,1,South,137.68,137.12,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190413,1,litu,1001.6,1904,14.7,4.6,1,South,119.16,119.39,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190426,1,litu,1016.2,1904,11,14.2,1,South,91.46,88.6,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190429,1,litu,724.9,1904,12.5,19.1,1,South,124.82,123.77,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190655,1,litu,545.6,1907,12.9,16.1,1,South,64.06,62.08,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190658,1,litu,473.2,1907,10.6,16.7,1,South,49.18,49.46,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190670,1,litu,548.9,1908,8,3.2,1,South,84.7,82.53,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190694,1,quru,1265.5,1909,18.2,14.7,1,South,21.93,8.38,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190704,1,caco,209,1910,15.2,4.3,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190568,1,juni,903,1912,2.6,18.8,1,South,39.9,35.22,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190793,1,litu,601,1914,12.2,1.3,1,South,18.63,16.6,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190794,1,quru,639.8,1914,10.6,1.4,1,South,23.33,23.27,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+190798,1,cagl,269.3,1914,12.5,8.4,1,South,14.4,12.28,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200142,1,litu,604,2002,1.3,3.5,1,South,23.49,23.1,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200151,1,litu,669.3,2002,6.9,4,1,South,69.79,67.52,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200547,1,litu,654,2005,2.6,1.1,1,South,15.05,14.13,,0,,tree nearby no tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200551,1,litu,576,2005,1,5.3,1,South,125.18,123.87,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200577,1,juni,535.2,2007,8.8,9.6,1,South,13.12,12.79,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200586,1,juni,437.2,2007,2,13.9,1,South,131.95,12.34,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200676,1,litu,869.1,2008,12.2,5.9,1,South,23.23,20.28,,0,,new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200812,1,juni,548,2008,8,1.2,1,South,47.77,44.59,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200818,1,litu,344.5,2008,4.4,3.9,1,South,50.26,50.1,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+200822,1,litu,820,2008,8.7,10.3,1,South,129.42,128.87,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201171,1,ceca,116,2011,8.7,9.4,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201180,1,caco,125,2011,10.5,14.6,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201207,1,litu,1310.5,2012,10,17.3,1,South,72.66,68.5,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201261,1,juni,492,2013,0.3,17.3,1,South,30.71,26.76,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201264,1,litu,419.1,2014,0.3,6.8,1,South,72.05,70.86,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201274,1,litu,606.8,2014,5.3,8.9,1,South,17.06,16.77,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201278,1,litu,641.8,2014,2.2,11.8,1,South,21.41,19.78,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201279,1,quru,446.3,2014,1.9,13,1,South,123.11,123.52,,0,RE,need new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+201331,1,qupr,432,2015,14.3,9.5,1,South,28.1,27.01,,0,,missing tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
+40465,1,qupr,451,404,8.2,12.5,2,South,52.43,51.9,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+50288,1,quru,877.7,505,10.8,10.6,2,South,57.96,58.15,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+50364,1,qual,661.9,507,4.2,18.1,2,South,16.18,13.82,,0,,checked,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+60266,1,cato,496,604,5.5,9.2,2,South,18.06,14.95,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+60161,1,qupr,867,608,17.5,14.1,2,South,104.71,104.84,,0,,double spring,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70096,1,quru,893,704,3.3,12.7,2,South,38.79,39.52,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70278,1,qupr,679.8,704,15.6,15.4,2,South,61.52,59.66,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70126,1,quru,821,705,9.3,12.5,2,South,109.53,113.64,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70292,1,cagl,456.3,705,14.6,2.1,2,South,78.02,73.98,,0,,checked,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70146,1,quve,662,706,8.8,7.2,2,South,16.1,15.39,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70352,1,litu,751.1,707,20,11,2,South,110.13,109.32,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70358,1,litu,363.8,708,18.1,2.3,2,South,17.92,16.72,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70433,1,litu,716.9,710,11.4,13.8,2,South,20.76,18.92,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70519,1,qual,544.8,711,15.5,3.3,2,South,95.9,95.12,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70536,1,qual,599,711,11.9,7.4,2,South,27.68,26.22,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+70579,1,caco,236.1,714,19.2,4.3,2,South,45.7,40.93,,0,,checked,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80100,1,litu,582,804,3.4,12.6,2,South,55.42,54.02,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80180,1,cato,1015,804,11.6,5.6,2,South,46.67,43.01,,0,BA,44.26; replaced double spring; SP QUVE,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80401,1,caco,469,807,7.4,19.4,2,South,39.99,37.17,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80615,1,litu,653.2,810,4.4,16.8,2,South,58.31,56.62,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80628,1,quru,544.5,811,7.5,3,2,South,51.75,51.53,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80631,1,litu,521.4,811,0.2,6.1,2,South,24.78,22.45,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80554,1,caovl,489.2,813,6.9,11.2,2,South,130.96,9.71,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+80559,1,nysy,434.6,813,8.9,17.8,2,South,6.45,6.17,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+90162,1,litu,655.9,904,16.9,11.1,2,South,107.23,106.2,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+90311,1,cagl,167.8,904,17.5,15.8,2,South,21.84,19.84,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+90354,1,litu,670.9,905,10.6,5,2,South,19.77,19.88,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+91451,1,litu,555.1,907,18.7,17.6,2,South,37.92,37.22,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+91474,1,litu,438.2,908,14.5,4.7,2,South,69.02,68.9,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+91476,1,litu,505.4,908,18.4,2.4,2,South,108.55,107.77,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+91477,1,litu,210,908,19.3,3.5,2,South,53.05,54.01,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+91486,1,cagl,570.9,908,17.5,9.2,2,South,61.01,60.86,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+90612,1,quru,552,910,10.7,14,2,South,19.24,19.29,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+90660,1,quru,947.4,913,4.9,7.9,2,South,142.02,15.98,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+90684,1,ploc,446,915,9.1,6.2,2,South,NA,11.52,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100498,1,caco,152,1003,16.7,14.2,2,South,NA,14.4,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100612,1,litu,1200.9,1003,12,4.4,2,South,31.33,27.97,,0,,new nail needed,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100516,1,litu,1036.1,1004,17.9,2.3,2,South,96.02,95.46,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100562,1,litu,628.2,1004,9.1,19.2,2,South,24.11,23.37,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100754,1,quru,430.2,1005,3.8,6.8,2,South,43.83,44.27,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100771,1,quru,968,1005,8.5,17,2,South,76.31,73.52,,0,,75.98; replaced double spring; SP QUVE,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+101008,1,tiam,177,1006,4.2,11.6,2,South,NA,12.54,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100905,1,litu,680,1008,10,1.6,2,South,31.56,29.95,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100906,1,litu,497,1008,9.3,1.1,2,South,33.19,32.37,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100955,1,quru,321,1010,16.7,6.8,2,South,18.21,17.28,,0,I,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100960,1,quru,563.5,1010,13.8,10.5,2,South,100.68,101.42,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+100963,1,caovl,204,1010,11.1,14.7,2,South,NA,19.12,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+101111,1,litu,96.2,1011,0.1,1.3,2,South,36.16,36.57,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+101118,1,litu,190.7,1011,0.3,3,2,South,24.9,25.08,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110061,1,litu,1205,1101,17,10,2,South,28.94,22.01,,0,BA,25.74; replaced double spring,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110526,1,ceca,143,1103,15.1,3,2,South,NA,17.83,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110680,1,litu,683.9,1104,2,6.5,2,South,23.12,24.14,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110788,1,litu,638.3,1104,19.9,11.7,2,South,132.6,11.84,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110791,1,litu,660,1104,11.3,10,2,South,20.31,19.44,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110798,1,qupr,712.3,1104,16,15.5,2,South,55.9,56.5,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+110901,1,litu,524.1,1105,20,4.1,2,South,97.3,96.33,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111014,1,litu,671.3,1107,13.9,12.2,2,South,19.14,17.29,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111030,1,litu,600.5,1107,15.1,19.9,2,South,102.94,100.75,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111032,1,litu,600,1107,10.3,19,2,South,65.27,64.98,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111032,2,litu,424.3,1107,10.3,19,2,South,58.53,57.96,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111039,1,litu,463,1108,19.7,4.1,2,South,23.18,22.88,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111092,1,litu,543.6,1110,18.3,17.7,2,South,39.57,38.83,,0,,140.43; old band removed,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111093,1,litu,460.5,1110,13.4,16.4,2,South,91.69,92.46,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+111305,1,caovl,229,1113,4.7,19.3,2,South,NA,5.85,,1,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+111305,1,caovl,229,1113,4.7,19.3,2,South,NA,5.77,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+120278,1,litu,830,1201,5,8.6,2,South,28.69,27.8,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+120755,1,litu,639,1204,6.8,10,2,South,29.97,27.65,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+120777,1,litu,527,1205,3.8,0.2,2,South,125.12,123.7,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+120781,1,litu,605.9,1205,3,2.2,2,South,116.7,114.59,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+120790,1,litu,452.5,1205,7.3,6.2,2,South,20.93,20.56,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+121221,1,litu,117.2,1207,1.7,19.3,2,South,8.08,8.18,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+121275,1,qupr,256,1209,1.7,16.9,2,South,27.16,26.87,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+121291,1,qupr,439.2,1210,2.8,9.4,2,South,116.2,8.96,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+121195,1,quru,914.7,1211,12.4,0.4,2,South,111.55,112.62,,0,,double springs,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+121301,1,caovl,241.3,1211,1.2,2.5,2,South,118.62,10.3,,1,,116.88; old band removed,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+121305,1,quru,753.8,1211,1.1,11.2,2,South,16.2,17,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+130838,1,litu,652.4,1305,12.2,1,2,South,51.3,50.21,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+131009,1,quve,757.6,1308,13.9,0.7,2,South,67.55,66.92,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+131087,1,quru,665,1310,17.3,17.8,2,South,76.15,75.85,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+131092,1,litu,472.9,1311,13.1,2.7,2,South,71.62,71,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+131096,1,litu,280.8,1311,19,4.7,2,South,18.21,17.67,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140646,1,litu,716.8,1405,1,8.3,2,South,95.78,94.66,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140751,1,quru,677.1,1408,9.9,1.5,2,South,102.45,16.78,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140813,1,litu,700.6,1410,8.3,11.2,2,South,112.53,110.9,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140821,1,litu,531.4,1411,4.6,0.4,2,South,63.11,61.01,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140825,1,litu,523,1411,8,5.9,2,South,43.85,42.86,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140829,1,litu,642,1411,0.6,4.9,2,South,50.25,49.3,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+140833,1,litu,561.3,1411,5.6,9.5,2,South,15.72,14.96,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
+10469,1,litu,838.8,109,9.7,1,3,South,71.72,70.8,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+10609,1,cagl,439,111,19.5,2.9,3,South,95.04,92.23,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+10587,1,litu,985,113,2.6,13,3,South,79.14,78.41,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+10671,1,quru,851,114,6.2,14.5,3,South,93.13,91.92,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+20587,1,litu,1207.3,208,14.8,1.3,3,South,39.54,24.7,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+20617,1,litu,851,209,6.9,7.6,3,South,62.43,60.33,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+20712,1,litu,896.2,212,1.5,8.3,3,South,86.62,84.84,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+20737,1,tiam,180,213,12.6,3.8,3,South,NA,,,1,,,,,2022.01,2022,3,15,,Jessica Shue
+30225,1,qual,301,306,20,3.1,3,South,35.27,36.06,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30233,1,fagr,1072,306,15.6,16.2,3,South,63.57,62.7,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30234,1,fagr,81,306,15.3,18.5,3,South,15.94,15.87,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30331,1,cagl,216,306,8.3,19.5,3,South,52.27,13.84,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30333,1,fagr,222,306,14,19.3,3,South,79.94,81.51,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30339,1,litu,153.1,307,8.6,4.1,3,South,108.94,107.23,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30339,2,litu,153.1,307,8.6,4.1,3,South,116.12,112.31,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30339,3,litu,153.1,307,8.6,4.1,3,South,48.59,47.85,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30462,1,litu,492,313,16.2,19,3,South,13.04,12.62,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+30512,1,quru,845.5,313,2.9,14.3,3,South,53.09,55.06,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+30467,1,litu,608,314,17.3,3,3,South,117.25,116.99,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+40562,1,fagr,86,406,6.3,16.2,3,South,11.09,11.5,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40563,1,fagr,365,406,3.6,17.8,3,South,76.06,76.86,,0,,needs new tag embedded,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40564,1,fagr,57.8,406,2.4,12.4,3,South,NA,8.7,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40565,1,cagl,184,406,1.9,10.1,3,South,4.54,NA,,0,RE,band needs replacing,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40566,1,cagl,270.2,406,1.1,9.4,3,South,31.12,28.9,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40567,1,fagr,93.3,406,1.6,7.2,3,South,20.63,21.6,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40568,1,fagr,206,406,0.1,5.2,3,South,43.32,44.69,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40569,1,litu,280,407,5.6,1.7,3,South,117.89,117.39,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40635,1,cagl,258.7,408,18.7,1,3,South,57.63,53.03,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+40941,1,litu,653,414,6,15.4,3,South,24.07,23.85,,0,BA,47.64 pre-adjustment,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+40972,1,litu,847,415,7.2,9.6,3,North,48.98,47.61,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+50525,1,qual,514,512,8.3,7.4,3,South,37.18,36.4,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+50622,1,qual,650,513,16.8,9.4,3,South,29.51,27.04,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+50562,1,quru,695,514,6.9,12.5,3,South,38.25,37.81,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+50646,1,quru,351,514,19.6,9.4,3,South,34.43,34.57,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+50650,1,litu,184.3,514,19.5,14.9,3,South,24.16,24.62,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+50654,1,litu,717.2,514,17.2,19.1,3,South,70.27,71.16,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60456,1,caca,64.5,614,5.3,15,3,South,10.01,10.44,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60457,1,caca,99.5,614,4,15.2,3,South,15.23,15.59,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60566,1,fagr,194.2,614,10,11,3,South,116.01,116.68,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60567,1,litu,536.8,614,11.6,11.2,3,South,76.96,76.34,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60568,1,caca,96,614,15.5,15.6,3,South,9.47,9.72,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60573,1,tiam,258.5,614,8.5,16.3,3,South,45.86,46.21,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60458,1,fagr,269.5,615,1.9,0,3,South,46.34,48.49,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60459,1,fagr,99.7,615,2,3,3,South,24.44,25.03,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60462,1,fagr,209.5,615,5.6,7.6,3,South,96.97,97.74,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60463,1,juni,468,615,7.2,8,3,South,75.8,71.71,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60468,1,caca,74,615,5.4,9.6,3,South,11.94,12.21,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60469,1,cofl,70,615,6.8,9.8,3,South,10.55,10.7,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60576,1,caca,95.1,615,17.1,1,3,South,23.34,24.41,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60577,1,litu,546.2,615,12.7,1.4,3,South,42.82,41.85,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60578,1,caca,78.5,615,13.2,9.9,3,South,26.44,26.91,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60581,1,litu,685.1,615,19.8,9.3,3,South,38.44,37.23,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60582,1,quru,285.1,615,20,10.2,3,South,39.18,39.36,,0,RE,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60586,1,caca,62.5,615,16.2,9.3,3,South,12.22,12.81,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60587,1,caca,81,615,14,9.8,3,South,22.02,22.44,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+60588,1,caco,292.3,615,13.4,7.3,3,South,53.33,47.72,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+70216,1,quve,930.2,701,18.7,11.6,3,South,24.27,22.65,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+70220,1,qual,557,702,18.3,0.8,3,South,39.84,39.62,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+70492,1,nysy,198.6,714,0.1,11.2,3,South,22.32,22.22,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+70493,1,litu,539.2,714,0.3,15.2,3,South,26.2,25.34,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+70494,2,caca,60,714,0.4,15.7,3,South,22.89,23.67,,0,RE,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+70495,1,caca,79,714,1.7,18.6,3,South,14.51,15.7,,0,,dead? missing twigs,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+70581,1,quru,614.5,714,13.7,1.2,3,South,35.48,36.46,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+80121,1,quve,114,801,8.8,19.2,3,South,10.96,11.73,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+101223,1,qupr,679,1013,9.4,17.8,3,South,50.54,40.15,,0,BA,47.59 before BA,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+101244,1,quve,815.3,1014,9,9.2,3,South,89.29,88.43,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+121438,1,caco,393,1215,19.1,6.5,3,South,34.73,30.53,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+131188,1,litu,586.3,1313,10,15.3,3,South,62.05,60.65,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+131233,1,litu,301.6,1313,18.3,19.6,3,South,82.79,82.71,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+131239,1,quru,587.1,1314,19.5,5.7,3,South,32.13,32.56,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+140872,1,litu,599.8,1413,6.1,14.9,3,South,63.36,63.48,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+141216,1,caco,147,1415,2.1,6.2,3,South,26.47,24.26,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
+12025,1,quru,832.5,117,15,16.3,4,North,92.63,91.47,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+12259,1,litu,1018.8,125,16.3,1.5,4,North,31.32,25.99,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+12416,1,cato,126,129,17.1,16.1,4,North,13.17,10.93,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+12508,1,litu,920,131,10.7,10.4,4,North,53.81,46.15,,0,,"tag on ground, needs replacing",,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22004,1,litu,896.2,217,11.4,1.7,4,North,57.5,57.35,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22041,1,litu,817,217,1.8,19,4,North,66.04,65.23,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22141,1,tiam,142,221,1.9,1.2,4,North,NA,10.55,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22170,1,litu,1128,221,7.9,13.8,4,North,46.49,38.41,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22186,1,tiam,370,222,17,7.5,4,North,NA,4.9,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22198,2,tiam,160,222,16.1,10.9,4,North,NA,14.86,,1,L,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+22315,1,caco,550,225,11,4,4,North,19.58,12.22,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+30584,1,quve,873.5,316,2.2,14.4,4,North,80.23,79.69,,0,,second band = 15.24 + 150.92 (est),,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32097,1,litu,651,320,17.9,3,4,North,45.63,44.3,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32126,1,litu,995.5,321,9.6,5,4,North,116.76,116.11,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32157,1,tiam,382,322,7.5,4,4,North,NA,6.85,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32180,2,tiam,183,322,6.4,12.3,4,North,NA,15.04,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32381,1,qupr,834,327,4.6,12.8,4,North,98.09,97.15,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32423,1,litu,914,329,17.6,13.1,4,North,97.69,99.39,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+32540,1,qupr,841.8,332,19.9,15.6,4,North,120.11,111.87,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+42009,1,ploc,576.8,417,4.1,19.2,4,North,124.75,125.98,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+42397,1,quru,1531,428,10.4,5.5,4,North,112.02,111.35,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+52087,1,quru,1451,519,1.1,11.1,4,North,34.94,33.67,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+52190,1,quru,968.5,522,16.4,3.4,4,North,56.98,55.46,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+52344,1,cagl,269,528,14.3,5.9,4,North,8.27,6.79,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+52384,1,caovl,121,529,1.2,13.1,4,North,NA,7.59,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+62114,1,quve,306,619,18.7,12.6,4,North,32.4,32.14,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+62128,1,quru,831,620,8,0.8,4,North,131.4,7.07,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+62181,1,quve,1118.5,621,8.8,13.5,4,North,129.29,130.03,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+62224,1,litu,1040.5,622,3.2,17.3,4,North,28.61,31.8,,0,,152.32,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+62241,1,litu,928.5,623,13.9,0.7,4,North,32.88,30.71,,0,,141.55,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72024,1,quve,482.3,717,20,9.6,4,North,59.43,58.99,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72104,1,qual,260,718,6.2,17.8,4,North,15.68,15.47,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72115,1,litu,479.9,719,11.2,10.7,4,North,102.42,104.36,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72116,1,litu,502,719,14.4,10.8,4,North,45.1,43.3,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72122,1,caca,83.3,719,19.9,19,4,North,18.04,18.65,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72124,1,quru,747.2,719,12.5,19.4,4,North,43.35,42.42,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72149,1,litu,554.1,720,13.8,0.7,4,North,41.44,41.38,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72173,1,qual,450,720,6,10.2,4,North,21.56,21.61,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72210,1,qual,872,721,5.2,11.5,4,North,31.39,30.87,,0,RA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72232,1,qual,728.5,722,14.5,12.6,4,North,124.3,125.1,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+72248,1,caco,313.2,723,15,0.3,4,North,70.29,67.26,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82091,1,caovl,193,819,3.5,1.3,4,North,NA,5.27,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82117,1,cato,155,819,11.6,14.3,4,North,NA,13.5,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82125,1,cagl,145.9,819,1.6,14.3,4,North,33.55,32.35,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82138,1,quru,632.1,820,1.1,2.7,4,North,56.95,56.14,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82203,1,litu,654,822,8,9.4,4,North,53.63,53.06,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82219,1,ceca,87,822,14.7,18.8,4,North,NA,14.63,,1,L,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82223,1,litu,427,822,0.5,17.7,4,North,50.41,50.98,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+82226,1,litu,253.3,823,2,4,4,North,62.6,62.42,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 90752,1,qual,510.1,916,12.4,7.4,5,North,90.45,89.98,,0,,,,,2022.01,2022,3,15,Albert Kim,Jessica Shue
 92018,1,acru,519.5,917,16.2,5.6,5,North,106.36,106.64,,0,,,,,2022.01,2022,3,15,Albert Kim,Jessica Shue
 92112,1,litu,489.1,919,14.4,18.8,5,North,21.06,20.87,,0,,,,,2022.01,2022,3,15,Albert Kim,Jessica Shue
@@ -54,6 +327,41 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 142521,1,pist,452,1422,6.4,11.1,5,North,106.31,104.36,,0,,,,,2022.01,2022,3,15,Albert Kim,Jessica Shue
 142527,1,cagl,159.8,1422,1.9,18.4,5,North,37.43,36.13,,0,,,,,2022.01,2022,3,15,Albert Kim,Jessica Shue
 142548,1,qual,613,1424,4,4.7,5,North,23.59,22.67,,0,,,,,2022.01,2022,3,15,Albert Kim,Jessica Shue
+151618,1,ulru,151,1516,8.6,1.8,6,North,NA,14.58,,1,,tag has wrong # on it,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+152153,1,ploc,961.6,1520,6.8,0.3,6,North,105.69,104.58,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+161578,1,qual,228,1616,5.6,14.7,6,North,17.3,20.65,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+162293,1,qual,865.7,1623,3,9.4,6,North,126.1,126.4,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+162503,1,quve,898.4,1624,1.3,12.3,6,North,13.34,30.78,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+171505,1,litu,452,1716,14.1,12.4,6,North,94.82,95.49,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+171506,1,litu,482.1,1716,12,12.9,6,North,36.91,34.74,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+172201,1,cagl,68,1717,19.5,1.2,6,North,45.44,44.84,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+172202,1,quru,555.1,1717,17.1,1.8,6,North,81.08,82.38,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+172203,1,qual,368.5,1717,15.5,0.3,6,North,22.91,22.84,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+172205,1,qual,493,1717,16.1,3.5,6,North,15.57,13.77,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+172248,1,cato,274.2,1719,19.2,19.3,6,North,33.87,29.18,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+172382,1,juni,459.2,1723,18.2,14.9,6,North,120.6,114.98,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+181030,1,qual,779,1816,5.4,10.6,6,North,29.58,29.24,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+181033,1,litu,515.5,1816,3.4,18.6,6,North,26.79,26.55,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+182207,1,qual,539,1817,5.6,11.2,6,North,117.11,116.3,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+182208,1,quru,513,1817,4,10.1,6,North,115.78,116.49,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+182376,1,ploc,608.5,1823,2.9,12.6,6,North,125.3,128.12,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+182570,1,juni,530,1823,2.7,13.5,6,North,120.02,117.05,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+190840,1,litu,164.9,1916,15,17.2,6,North,24.61,25.12,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+192008,1,qual,655.8,1917,12,2,6,North,25.57,23.89,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+192244,1,qual,443.5,1919,18.1,16.8,6,North,47.62,47.19,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+192133,1,caovl,565,1923,11.7,2.3,6,North,34.85,30.63,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+201432,1,quve,429,2016,0.3,12.5,6,North,88.98,87.75,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+201441,1,litu,763,2016,11.8,19.2,6,North,32.76,33.94,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202201,1,cato,131,2017,3.2,1.1,6,North,33.44,31.92,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202203,1,quru,479.9,2017,9.2,1.4,6,North,82.8,82.9,,0,,tag on ground,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202212,1,quve,598.7,2017,4.3,9.5,6,North,69.41,69.85,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202215,1,qual,549.9,2017,5.5,11.7,6,North,106.55,106.64,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202050,1,qual,480.5,2019,9.2,14.5,6,North,38.51,39.33,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202276,1,caovl,264,2019,7.1,13.8,6,North,NA,16.3,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202072,1,qual,710.1,2020,2.1,10.8,6,North,35.77,33.9,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202283,1,litu,258.1,2020,4.5,2.9,6,North,40.81,38.4,,0,,needs tag,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202336,1,cagl,430,2022,3,10.7,6,North,125.15,126.56,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
+202337,1,cagl,417.2,2023,1,0.2,6,North,77.49,77.13,,0,,tag embedded,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
 62285,1,quru,714,625,4.8,2,7,North,58.1,58.89,,0,,,,,2022.01,2022,3,15,Bill McShea,Jessica Shue
 62300,1,quve,450,625,13.8,17.5,7,North,32.73,32.24,,0,,,,,2022.01,2022,3,15,Bill McShea,Jessica Shue
 62312,1,cato,129,626,14.3,0.4,7,North,6.74,4.87,,0,,,,,2022.01,2022,3,15,Bill McShea,Jessica Shue
@@ -185,311 +493,3 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 202545,1,litu,368,2029,4.5,2.6,9,North,80.43,82.15,,0,,,,,2022.01,2022,3,15,Bill McShea,Jessica Shue
 202550,1,litu,566.1,2029,2.1,10.7,9,North,21.61,20.44,,0,,,,,2022.01,2022,3,15,Bill McShea,Jessica Shue
 202585,1,juni,420.3,2032,1,4.8,9,North,74.92,72.86,,0,,,,,2022.01,2022,3,15,Bill McShea,Jessica Shue
-111305,1,caovl,229,1113,4.7,19.3,2,South,NA,5.85,,1,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-10587,1,litu,985,113,2.6,13,3,South,79.14,78.41,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-10671,1,quru,851,114,6.2,14.5,3,South,93.13,91.92,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-20712,1,litu,896.2,212,1.5,8.3,3,South,86.62,84.84,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-30462,1,litu,492,313,16.2,19,3,South,13.04,12.62,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-30512,1,quru,845.5,313,2.9,14.3,3,South,53.09,55.06,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-30467,1,litu,608,314,17.3,3,3,South,117.25,116.99,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-40941,1,litu,653,414,6,15.4,3,South,24.07,23.85,,0,BA,47.64 pre-adjustment,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-40972,1,litu,847,415,7.2,9.6,3,North,48.98,47.61,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-50622,1,qual,650,513,16.8,9.4,3,South,29.51,27.04,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-50562,1,quru,695,514,6.9,12.5,3,South,38.25,37.81,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-50646,1,quru,351,514,19.6,9.4,3,South,34.43,34.57,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-50650,1,litu,184.3,514,19.5,14.9,3,South,24.16,24.62,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-50654,1,litu,717.2,514,17.2,19.1,3,South,70.27,71.16,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60456,1,caca,64.5,614,5.3,15,3,South,10.01,10.44,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60457,1,caca,99.5,614,4,15.2,3,South,15.23,15.59,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60566,1,fagr,194.2,614,10,11,3,South,116.01,116.68,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60567,1,litu,536.8,614,11.6,11.2,3,South,76.96,76.34,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60568,1,caca,96,614,15.5,15.6,3,South,9.47,9.72,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60573,1,tiam,258.5,614,8.5,16.3,3,South,45.86,46.21,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60458,1,fagr,269.5,615,1.9,0,3,South,46.34,48.49,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60459,1,fagr,99.7,615,2,3,3,South,24.44,25.03,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60462,1,fagr,209.5,615,5.6,7.6,3,South,96.97,97.74,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60463,1,juni,468,615,7.2,8,3,South,75.8,71.71,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60468,1,caca,74,615,5.4,9.6,3,South,11.94,12.21,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60469,1,cofl,70,615,6.8,9.8,3,South,10.55,10.7,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60576,1,caca,95.1,615,17.1,1,3,South,23.34,24.41,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60577,1,litu,546.2,615,12.7,1.4,3,South,42.82,41.85,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60578,1,caca,78.5,615,13.2,9.9,3,South,26.44,26.91,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60581,1,litu,685.1,615,19.8,9.3,3,South,38.44,37.23,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60582,1,quru,285.1,615,20,10.2,3,South,39.18,39.36,,0,RE,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60586,1,caca,62.5,615,16.2,9.3,3,South,12.22,12.81,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60587,1,caca,81,615,14,9.8,3,South,22.02,22.44,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-60588,1,caco,292.3,615,13.4,7.3,3,South,53.33,47.72,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-70492,1,nysy,198.6,714,0.1,11.2,3,South,22.32,22.22,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-70493,1,litu,539.2,714,0.3,15.2,3,South,26.2,25.34,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-70494,2,caca,60,714,0.4,15.7,3,South,22.89,23.67,,0,RE,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-70495,1,caca,79,714,1.7,18.6,3,South,14.51,15.7,,0,,dead? missing twigs,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-70581,1,quru,614.5,714,13.7,1.2,3,South,35.48,36.46,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-101223,1,qupr,679,1013,9.4,17.8,3,South,50.54,40.15,,0,BA,47.59 before BA,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-101244,1,quve,815.3,1014,9,9.2,3,South,89.29,88.43,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-121438,1,caco,393,1215,19.1,6.5,3,South,34.73,30.53,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-131188,1,litu,586.3,1313,10,15.3,3,South,62.05,60.65,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-131233,1,litu,301.6,1313,18.3,19.6,3,South,82.79,82.71,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-131239,1,quru,587.1,1314,19.5,5.7,3,South,32.13,32.56,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-140872,1,litu,599.8,1413,6.1,14.9,3,South,63.36,63.48,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-141216,1,caco,147,1415,2.1,6.2,3,South,26.47,24.26,,0,,,,,2022.01,2022,3,15,Kristina Anderson-Teixeira,Jessica Shue
-10469,1,litu,838.8,109,9.7,1,3,South,71.72,70.8,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-10609,1,cagl,439,111,19.5,2.9,3,South,95.04,92.23,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-20587,1,litu,1207.3,208,14.8,1.3,3,South,39.54,24.7,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-20617,1,litu,851,209,6.9,7.6,3,South,62.43,60.33,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30225,1,qual,301,306,20,3.1,3,South,35.27,36.06,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30233,1,fagr,1072,306,15.6,16.2,3,South,63.57,62.7,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30234,1,fagr,81,306,15.3,18.5,3,South,15.94,15.87,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30331,1,cagl,216,306,8.3,19.5,3,South,52.27,13.84,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30333,1,fagr,222,306,14,19.3,3,South,79.94,81.51,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30339,1,litu,153.1,307,8.6,4.1,3,South,108.94,107.23,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30339,2,litu,153.1,307,8.6,4.1,3,South,116.12,112.31,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30339,3,litu,153.1,307,8.6,4.1,3,South,48.59,47.85,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40562,1,fagr,86,406,6.3,16.2,3,South,11.09,11.5,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40563,1,fagr,365,406,3.6,17.8,3,South,76.06,76.86,,0,,needs new tag embedded,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40564,1,fagr,57.8,406,2.4,12.4,3,South,NA,8.7,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40565,1,cagl,184,406,1.9,10.1,3,South,4.54,NA,,0,RE,band needs replacing,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40566,1,cagl,270.2,406,1.1,9.4,3,South,31.12,28.9,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40567,1,fagr,93.3,406,1.6,7.2,3,South,20.63,21.6,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40568,1,fagr,206,406,0.1,5.2,3,South,43.32,44.69,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40569,1,litu,280,407,5.6,1.7,3,South,117.89,117.39,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-40635,1,cagl,258.7,408,18.7,1,3,South,57.63,53.03,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-50525,1,qual,514,512,8.3,7.4,3,South,37.18,36.4,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-70216,1,quve,930.2,701,18.7,11.6,3,South,24.27,22.65,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-70220,1,qual,557,702,18.3,0.8,3,South,39.84,39.62,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-80121,1,quve,114,801,8.8,19.2,3,South,10.96,11.73,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-12025,1,quru,832.5,117,15,16.3,4,North,92.63,91.47,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-12259,1,litu,1018.8,125,16.3,1.5,4,North,31.32,25.99,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-12416,1,cato,126,129,17.1,16.1,4,North,13.17,10.93,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-12508,1,litu,920,131,10.7,10.4,4,North,53.81,46.15,,0,,"tag on ground, needs replacing",,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22004,1,litu,896.2,217,11.4,1.7,4,North,57.5,57.35,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22041,1,litu,817,217,1.8,19,4,North,66.04,65.23,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22141,1,tiam,142,221,1.9,1.2,4,North,NA,10.55,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22170,1,litu,1128,221,7.9,13.8,4,North,46.49,38.41,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22186,1,tiam,370,222,17,7.5,4,North,NA,4.9,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22198,2,tiam,160,222,16.1,10.9,4,North,NA,14.86,,1,L,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-22315,1,caco,550,225,11,4,4,North,19.58,12.22,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-30584,1,quve,873.5,316,2.2,14.4,4,North,80.23,79.69,,0,,second band = 15.24 + 150.92 (est),,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32097,1,litu,651,320,17.9,3,4,North,45.63,44.3,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32126,1,litu,995.5,321,9.6,5,4,North,116.76,116.11,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32157,1,tiam,382,322,7.5,4,4,North,NA,6.85,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32180,2,tiam,183,322,6.4,12.3,4,North,NA,15.04,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32381,1,qupr,834,327,4.6,12.8,4,North,98.09,97.15,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32423,1,litu,914,329,17.6,13.1,4,North,97.69,99.39,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-32540,1,qupr,841.8,332,19.9,15.6,4,North,120.11,111.87,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-42009,1,ploc,576.8,417,4.1,19.2,4,North,124.75,125.98,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-42397,1,quru,1531,428,10.4,5.5,4,North,112.02,111.35,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-52087,1,quru,1451,519,1.1,11.1,4,North,34.94,33.67,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-52190,1,quru,968.5,522,16.4,3.4,4,North,56.98,55.46,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-52344,1,cagl,269,528,14.3,5.9,4,North,8.27,6.79,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-52384,1,caovl,121,529,1.2,13.1,4,North,NA,7.59,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-62114,1,quve,306,619,18.7,12.6,4,North,32.4,32.14,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-62128,1,quru,831,620,8,0.8,4,North,131.4,7.07,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-62181,1,quve,1118.5,621,8.8,13.5,4,North,129.29,130.03,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-62224,1,litu,1040.5,622,3.2,17.3,4,North,28.61,31.8,,0,,152.32,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-62241,1,litu,928.5,623,13.9,0.7,4,North,32.88,30.71,,0,,141.55,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72024,1,quve,482.3,717,20,9.6,4,North,59.43,58.99,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72104,1,qual,260,718,6.2,17.8,4,North,15.68,15.47,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72115,1,litu,479.9,719,11.2,10.7,4,North,102.42,104.36,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72116,1,litu,502,719,14.4,10.8,4,North,45.1,43.3,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72122,1,caca,83.3,719,19.9,19,4,North,18.04,18.65,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72124,1,quru,747.2,719,12.5,19.4,4,North,43.35,42.42,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72149,1,litu,554.1,720,13.8,0.7,4,North,41.44,41.38,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72173,1,qual,450,720,6,10.2,4,North,21.56,21.61,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72210,1,qual,872,721,5.2,11.5,4,North,31.39,30.87,,0,RA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72232,1,qual,728.5,722,14.5,12.6,4,North,124.3,125.1,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-72248,1,caco,313.2,723,15,0.3,4,North,70.29,67.26,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82091,1,caovl,193,819,3.5,1.3,4,North,NA,5.27,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82117,1,cato,155,819,11.6,14.3,4,North,NA,13.5,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82125,1,cagl,145.9,819,1.6,14.3,4,North,33.55,32.35,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82138,1,quru,632.1,820,1.1,2.7,4,North,56.95,56.14,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82203,1,litu,654,822,8,9.4,4,North,53.63,53.06,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82219,1,ceca,87,822,14.7,18.8,4,North,NA,14.63,,1,L,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82223,1,litu,427,822,0.5,17.7,4,North,50.41,50.98,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-82226,1,litu,253.3,823,2,4,4,North,62.6,62.42,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-151618,1,ulru,151,1516,8.6,1.8,6,North,NA,14.58,,1,,tag has wrong # on it,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-152153,1,ploc,961.6,1520,6.8,0.3,6,North,105.69,104.58,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-161578,1,qual,228,1616,5.6,14.7,6,North,17.3,20.65,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-162293,1,qual,865.7,1623,3,9.4,6,North,126.1,126.4,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-162503,1,quve,898.4,1624,1.3,12.3,6,North,13.34,30.78,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-171505,1,litu,452,1716,14.1,12.4,6,North,94.82,95.49,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-171506,1,litu,482.1,1716,12,12.9,6,North,36.91,34.74,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-172201,1,cagl,68,1717,19.5,1.2,6,North,45.44,44.84,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-172202,1,quru,555.1,1717,17.1,1.8,6,North,81.08,82.38,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-172203,1,qual,368.5,1717,15.5,0.3,6,North,22.91,22.84,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-172205,1,qual,493,1717,16.1,3.5,6,North,15.57,13.77,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-172248,1,cato,274.2,1719,19.2,19.3,6,North,33.87,29.18,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-172382,1,juni,459.2,1723,18.2,14.9,6,North,120.6,114.98,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-181030,1,qual,779,1816,5.4,10.6,6,North,29.58,29.24,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-181033,1,litu,515.5,1816,3.4,18.6,6,North,26.79,26.55,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-182207,1,qual,539,1817,5.6,11.2,6,North,117.11,116.3,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-182208,1,quru,513,1817,4,10.1,6,North,115.78,116.49,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-182376,1,ploc,608.5,1823,2.9,12.6,6,North,125.3,128.12,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-182570,1,juni,530,1823,2.7,13.5,6,North,120.02,117.05,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-190840,1,litu,164.9,1916,15,17.2,6,North,24.61,25.12,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-192008,1,qual,655.8,1917,12,2,6,North,25.57,23.89,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-192244,1,qual,443.5,1919,18.1,16.8,6,North,47.62,47.19,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-192133,1,caovl,565,1923,11.7,2.3,6,North,34.85,30.63,,0,BA,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-201432,1,quve,429,2016,0.3,12.5,6,North,88.98,87.75,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-201441,1,litu,763,2016,11.8,19.2,6,North,32.76,33.94,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202201,1,cato,131,2017,3.2,1.1,6,North,33.44,31.92,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202203,1,quru,479.9,2017,9.2,1.4,6,North,82.8,82.9,,0,,tag on ground,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202212,1,quve,598.7,2017,4.3,9.5,6,North,69.41,69.85,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202215,1,qual,549.9,2017,5.5,11.7,6,North,106.55,106.64,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202050,1,qual,480.5,2019,9.2,14.5,6,North,38.51,39.33,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202276,1,caovl,264,2019,7.1,13.8,6,North,NA,16.3,,1,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202072,1,qual,710.1,2020,2.1,10.8,6,North,35.77,33.9,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202283,1,litu,258.1,2020,4.5,2.9,6,North,40.81,38.4,,0,,needs tag,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202336,1,cagl,430,2022,3,10.7,6,North,125.15,126.56,,0,,,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-202337,1,cagl,417.2,2023,1,0.2,6,North,77.49,77.13,,0,,tag embedded,,,2022.01,2022,3,15,"Isabella Dangler, Jen Jordan",Jessica Shue
-20737,1,tiam,180,213,12.6,3.8,3,South,NA,,,1,,,,,2022.01,2022,3,15,,Jessica Shue
-40465,1,qupr,451,404,8.2,12.5,2,South,52.43,51.9,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-50288,1,quru,877.7,505,10.8,10.6,2,South,57.96,58.15,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-50364,1,qual,661.9,507,4.2,18.1,2,South,16.18,13.82,,0,,checked,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-60266,1,cato,496,604,5.5,9.2,2,South,18.06,14.95,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-60161,1,qupr,867,608,17.5,14.1,2,South,104.71,104.84,,0,,double spring,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70096,1,quru,893,704,3.3,12.7,2,South,38.79,39.52,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70278,1,qupr,679.8,704,15.6,15.4,2,South,61.52,59.66,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70126,1,quru,821,705,9.3,12.5,2,South,109.53,113.64,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70292,1,cagl,456.3,705,14.6,2.1,2,South,78.02,73.98,,0,,checked,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70146,1,quve,662,706,8.8,7.2,2,South,16.1,15.39,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70352,1,litu,751.1,707,20,11,2,South,110.13,109.32,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70358,1,litu,363.8,708,18.1,2.3,2,South,17.92,16.72,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70433,1,litu,716.9,710,11.4,13.8,2,South,20.76,18.92,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70519,1,qual,544.8,711,15.5,3.3,2,South,95.9,95.12,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70536,1,qual,599,711,11.9,7.4,2,South,27.68,26.22,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-70579,1,caco,236.1,714,19.2,4.3,2,South,45.7,40.93,,0,,checked,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80100,1,litu,582,804,3.4,12.6,2,South,55.42,54.02,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80180,1,cato,1015,804,11.6,5.6,2,South,46.67,43.01,,0,BA,44.26; replaced double spring; SP QUVE,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80401,1,caco,469,807,7.4,19.4,2,South,39.99,37.17,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80615,1,litu,653.2,810,4.4,16.8,2,South,58.31,56.62,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80628,1,quru,544.5,811,7.5,3,2,South,51.75,51.53,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80631,1,litu,521.4,811,0.2,6.1,2,South,24.78,22.45,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80554,1,caovl,489.2,813,6.9,11.2,2,South,130.96,9.71,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-80559,1,nysy,434.6,813,8.9,17.8,2,South,6.45,6.17,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-90162,1,litu,655.9,904,16.9,11.1,2,South,107.23,106.2,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-90311,1,cagl,167.8,904,17.5,15.8,2,South,21.84,19.84,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-90354,1,litu,670.9,905,10.6,5,2,South,19.77,19.88,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-91451,1,litu,555.1,907,18.7,17.6,2,South,37.92,37.22,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-91474,1,litu,438.2,908,14.5,4.7,2,South,69.02,68.9,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-91476,1,litu,505.4,908,18.4,2.4,2,South,108.55,107.77,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-91477,1,litu,210,908,19.3,3.5,2,South,53.05,54.01,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-91486,1,cagl,570.9,908,17.5,9.2,2,South,61.01,60.86,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-90612,1,quru,552,910,10.7,14,2,South,19.24,19.29,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-90660,1,quru,947.4,913,4.9,7.9,2,South,142.02,15.98,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-90684,1,ploc,446,915,9.1,6.2,2,South,NA,11.52,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100498,1,caco,152,1003,16.7,14.2,2,South,NA,14.4,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100612,1,litu,1200.9,1003,12,4.4,2,South,31.33,27.97,,0,,new nail needed,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100516,1,litu,1036.1,1004,17.9,2.3,2,South,96.02,95.46,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100562,1,litu,628.2,1004,9.1,19.2,2,South,24.11,23.37,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100754,1,quru,430.2,1005,3.8,6.8,2,South,43.83,44.27,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100771,1,quru,968,1005,8.5,17,2,South,76.31,73.52,,0,,75.98; replaced double spring; SP QUVE,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-101008,1,tiam,177,1006,4.2,11.6,2,South,NA,12.54,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100905,1,litu,680,1008,10,1.6,2,South,31.56,29.95,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100906,1,litu,497,1008,9.3,1.1,2,South,33.19,32.37,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100955,1,quru,321,1010,16.7,6.8,2,South,18.21,17.28,,0,I,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100960,1,quru,563.5,1010,13.8,10.5,2,South,100.68,101.42,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-100963,1,caovl,204,1010,11.1,14.7,2,South,NA,19.12,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-101111,1,litu,96.2,1011,0.1,1.3,2,South,36.16,36.57,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-101118,1,litu,190.7,1011,0.3,3,2,South,24.9,25.08,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110061,1,litu,1205,1101,17,10,2,South,28.94,22.01,,0,BA,25.74; replaced double spring,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110526,1,ceca,143,1103,15.1,3,2,South,NA,17.83,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110680,1,litu,683.9,1104,2,6.5,2,South,23.12,24.14,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110788,1,litu,638.3,1104,19.9,11.7,2,South,132.6,11.84,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110791,1,litu,660,1104,11.3,10,2,South,20.31,19.44,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110798,1,qupr,712.3,1104,16,15.5,2,South,55.9,56.5,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-110901,1,litu,524.1,1105,20,4.1,2,South,97.3,96.33,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111014,1,litu,671.3,1107,13.9,12.2,2,South,19.14,17.29,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111030,1,litu,600.5,1107,15.1,19.9,2,South,102.94,100.75,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111032,1,litu,600,1107,10.3,19,2,South,65.27,64.98,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111032,2,litu,424.3,1107,10.3,19,2,South,58.53,57.96,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111039,1,litu,463,1108,19.7,4.1,2,South,23.18,22.88,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111092,1,litu,543.6,1110,18.3,17.7,2,South,39.57,38.83,,0,,140.43; old band removed,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111093,1,litu,460.5,1110,13.4,16.4,2,South,91.69,92.46,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-111305,1,caovl,229,1113,4.7,19.3,2,South,NA,5.77,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-120278,1,litu,830,1201,5,8.6,2,South,28.69,27.8,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-120755,1,litu,639,1204,6.8,10,2,South,29.97,27.65,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-120777,1,litu,527,1205,3.8,0.2,2,South,125.12,123.7,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-120781,1,litu,605.9,1205,3,2.2,2,South,116.7,114.59,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-120790,1,litu,452.5,1205,7.3,6.2,2,South,20.93,20.56,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-121221,1,litu,117.2,1207,1.7,19.3,2,South,8.08,8.18,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-121275,1,qupr,256,1209,1.7,16.9,2,South,27.16,26.87,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-121291,1,qupr,439.2,1210,2.8,9.4,2,South,116.2,8.96,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-121195,1,quru,914.7,1211,12.4,0.4,2,South,111.55,112.62,,0,,double springs,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-121301,1,caovl,241.3,1211,1.2,2.5,2,South,118.62,10.3,,1,,116.88; old band removed,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-121305,1,quru,753.8,1211,1.1,11.2,2,South,16.2,17,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-130838,1,litu,652.4,1305,12.2,1,2,South,51.3,50.21,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-131009,1,quve,757.6,1308,13.9,0.7,2,South,67.55,66.92,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-131087,1,quru,665,1310,17.3,17.8,2,South,76.15,75.85,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-131092,1,litu,472.9,1311,13.1,2.7,2,South,71.62,71,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-131096,1,litu,280.8,1311,19,4.7,2,South,18.21,17.67,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140646,1,litu,716.8,1405,1,8.3,2,South,95.78,94.66,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140751,1,quru,677.1,1408,9.9,1.5,2,South,102.45,16.78,,1,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140813,1,litu,700.6,1410,8.3,11.2,2,South,112.53,110.9,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140821,1,litu,531.4,1411,4.6,0.4,2,South,63.11,61.01,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140825,1,litu,523,1411,8,5.9,2,South,43.85,42.86,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140829,1,litu,642,1411,0.6,4.9,2,South,50.25,49.3,,0,,replace tag,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-140833,1,litu,561.3,1411,5.6,9.5,2,South,15.72,14.96,,0,,,,,2022.01,2022,3,15,Jessica Shue,Jessica Shue
-130348,1,litu,578.3,1302,19.9,1.9,1,South,35.65,33.38,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-140609,1,litu,1081.9,1403,4.3,3.6,1,South,25.64,21.95,,0,,new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-150781,1,ulru,126,1504,1.2,18.5,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-160713,1,litu,838,1603,10.4,13.7,1,South,48.62,46.2,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-160742,1,litu,860,1605,19.3,6.6,1,South,111.46,110.58,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-160910,1,litu,973,1607,8.6,1.1,1,South,143.23,8.8,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-160814,1,cato,441,1611,14.3,5.7,1,South,14.08,14.43,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-160985,1,litu,873,1612,1.2,17.2,1,South,27.72,28.45,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-160862,1,ploc,834,1614,12.4,15.2,1,South,79.47,79.68,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-170175,1,litu,885,1702,4.7,1.6,1,South,40.7,38.17,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-170992,1,litu,686.7,1704,12.2,15.2,1,South,111.7,110.95,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-170994,1,litu,555.9,1704,18.4,16.1,1,South,27.07,25.96,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171127,1,litu,737.2,1705,9.3,1.8,1,South,32.42,32.55,,0,,band >bh,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171245,1,ulru,133,1707,17.3,8.8,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171254,1,litu,765,1708,15.3,3.4,1,South,97.6,96.72,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171257,1,litu,621,1708,12.2,4.5,1,South,94.63,94.06,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171262,1,litu,616.9,1708,15.9,8.2,1,South,20.55,19.05,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171348,1,ceca,155.4,1714,19.4,2.4,1,South,86.77,86.08,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171454,1,caco,118,1714,1.6,13.8,1,South,18.28,16.05,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171456,1,acru,715,1714,0.8,13.4,1,South,35.89,30.74,,0,BA,band bent near spring,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-171462,1,qual,845,1715,7.9,7.5,1,North,48.82,46.78,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180235,1,litu,1035,1802,11,4.6,1,South,70.17,69.85,,0,,new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180728,1,litu,409,1804,3.1,12.7,1,South,48.47,47.5,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180654,1,litu,332.2,1805,6,0.3,1,South,30.35,29.49,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180691,1,litu,716,1807,6.2,17.3,1,South,67.75,66.2,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180903,1,litu,327,1808,4.8,2.3,1,South,21.56,20.05,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180904,1,litu,372.2,1808,2.8,6.5,1,South,60.71,60.39,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180984,1,litu,923.5,1813,4,11.8,1,South,78.07,75.55,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-180991,1,ploc,936.2,1814,1.5,6.7,1,South,17.29,18.07,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190065,1,litu,539,1902,18.8,0.4,1,South,19.22,17.52,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190067,1,litu,739,1902,19,2.2,1,South,52.2,50.12,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190071,1,litu,211.6,1902,20,4.3,1,South,24.39,24.22,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190115,1,litu,923.5,1902,4.8,18.6,1,South,137.68,137.12,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190413,1,litu,1001.6,1904,14.7,4.6,1,South,119.16,119.39,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190426,1,litu,1016.2,1904,11,14.2,1,South,91.46,88.6,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190429,1,litu,724.9,1904,12.5,19.1,1,South,124.82,123.77,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190655,1,litu,545.6,1907,12.9,16.1,1,South,64.06,62.08,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190658,1,litu,473.2,1907,10.6,16.7,1,South,49.18,49.46,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190670,1,litu,548.9,1908,8,3.2,1,South,84.7,82.53,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190694,1,quru,1265.5,1909,18.2,14.7,1,South,21.93,8.38,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190704,1,caco,209,1910,15.2,4.3,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190568,1,juni,903,1912,2.6,18.8,1,South,39.9,35.22,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190793,1,litu,601,1914,12.2,1.3,1,South,18.63,16.6,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190794,1,quru,639.8,1914,10.6,1.4,1,South,23.33,23.27,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-190798,1,cagl,269.3,1914,12.5,8.4,1,South,14.4,12.28,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200142,1,litu,604,2002,1.3,3.5,1,South,23.49,23.1,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200151,1,litu,669.3,2002,6.9,4,1,South,69.79,67.52,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200547,1,litu,654,2005,2.6,1.1,1,South,15.05,14.13,,0,,tree nearby no tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200551,1,litu,576,2005,1,5.3,1,South,125.18,123.87,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200577,1,juni,535.2,2007,8.8,9.6,1,South,13.12,12.79,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200586,1,juni,437.2,2007,2,13.9,1,South,131.95,12.34,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200676,1,litu,869.1,2008,12.2,5.9,1,South,23.23,20.28,,0,,new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200812,1,juni,548,2008,8,1.2,1,South,47.77,44.59,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200818,1,litu,344.5,2008,4.4,3.9,1,South,50.26,50.1,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-200822,1,litu,820,2008,8.7,10.3,1,South,129.42,128.87,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201171,1,ceca,116,2011,8.7,9.4,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201180,1,caco,125,2011,10.5,14.6,1,South,NA,,,1,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201207,1,litu,1310.5,2012,10,17.3,1,South,72.66,68.5,,0,RE,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201261,1,juni,492,2013,0.3,17.3,1,South,30.71,26.76,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201264,1,litu,419.1,2014,0.3,6.8,1,South,72.05,70.86,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201274,1,litu,606.8,2014,5.3,8.9,1,South,17.06,16.77,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201278,1,litu,641.8,2014,2.2,11.8,1,South,21.41,19.78,,0,,,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201279,1,quru,446.3,2014,1.9,13,1,South,123.11,123.52,,0,RE,need new tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
-201331,1,qupr,432,2015,14.3,9.5,1,South,28.1,27.01,,0,,missing tag,,,2022.01,2022,3,15,John Whitmoyer,Jessica Shue
