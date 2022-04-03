@@ -20,6 +20,7 @@ library(knitr)
 library(googlesheets4)
 library(lubridate)
 
+# DO THIS FIRST:
 # Authenticate for Google Sheets
 gs4_auth()
 
@@ -592,7 +593,7 @@ bind_rows(
     left_join(census_2018, by = c("tag", "stemtag", "sp", "quadrat", "tag_stemtag")) %>% 
     mutate(action = "retrieve band: stem dead") %>% 
     select(-tag_stemtag),
-  # Healthy stems, but won't replace band for reallocation purposes
+  # Healthy stems, but won't replace band for re-allocation purposes
   all_2021_stems %>% 
     filter(tag_stemtag %in% stems_to_retrieve) %>% 
     left_join(census_2018, by = c("tag", "stemtag", "sp", "quadrat", "tag_stemtag")) %>% 
@@ -625,7 +626,7 @@ bind_rows(
   write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list.csv")
 
 
-bind_rows(
+action_item_list_backup_stems <- bind_rows(
   # Biweekly bands to install:
   census_2018 %>% 
     filter(tag_stemtag %in% c(biweekly_sample_backup)) %>% 
@@ -643,8 +644,10 @@ bind_rows(
     ) %>% 
     select(tag, stemtag, sp, quadrat, dbh, dbh18, action)
 ) %>% 
-  arrange(sp, dbh18) %>% 
-  write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list_backup_stems.csv")
+  arrange(sp, dbh18)
+
+# action_item_list_backup_stems %>% 
+#   write_csv("resources/raw_data/2021/identifying_stems_with_issues/action_item_list_backup_stems.csv")
 
 
 
@@ -725,8 +728,7 @@ bind_rows(
 # 4. Make blank spring 2022 field form based on Fall 2021 form ----
 ## Load data -----
 # Load temporary blank spring 2022 field form
-# TODO: right now this is created in create_master_csv_2021_and_after.R, can this be improved on?
-spring2022_field_form <- here("resources/raw_data/2022/data_entry_biannual_spr2022_BLANK.csv") %>% 
+spring2022_field_form <- here("resources/raw_data/2021/identifying_stems_with_issues/data_entry_biannual_spr2022_BLANK.csv") %>% 
   read_csv(show_col_types = FALSE)
 
 # Load action item list
@@ -830,15 +832,8 @@ spring2022_field_form_new <- spring2022_field_form %>%
     survey.ID, year, month, day, field.recorders, data.enter
   )
 
-# write_csv(spring2022_field_form_new, file = "resources/raw_data/2022/data_entry_biannual_spr2022_BLANK_version_2.csv")
+# write_csv(spring2022_field_form_new, file = "resources/raw_data/2021/identifying_stems_with_issues/data_entry_biannual_spr2022_BLANK_version_2.csv")
 
-
-# Sanity check with Google Sheet.
-# Should have for
-# new.band = 0: 126 + 322 = 448
-# new.band = 1: 12 + 6 + 4 + 30 = 52
-spring2022_field_form_new %>% 
-  count(new.band)
 
 
 
@@ -857,7 +852,7 @@ data_entry_fix_2022 %>%
 # install band on new stem: biannual matches N24 in Google Sheet = 30. YES
 # install band on new stem: biweekly matches G24 in Google Sheet = 6. YES
 # retrieve band: band issue, stem dropped from database should match sum of yellow cells in Google Sheet. NOT DONE YET.
-# reband stem: should match F24 + M24 = 16, but there are 19. NO these 19-(12+4)=3 are it:
+# reband stem: should match F24 + M24 = 12 + 4 = 16, but there are 19. NO these 19-16=3 are it:
 unidentified_reband_stems <- anti_join(
   data_entry_fix_2022 %>% filter(action == "reband stem") %>% select(tag_stemtag),
   action_item_list %>% filter(action == "reband stem") %>% select(tag_stemtag),
@@ -865,10 +860,15 @@ unidentified_reband_stems <- anti_join(
 ) %>% 
   pull(tag_stemtag)
 
-# Conclusion: Ask Jess about these
+# Ask Jess about these:
 data_entry_fix_2022 %>% 
   filter(tag_stemtag %in% unidentified_reband_stems) %>% 
   select(tag, sp, action, new.band, codes, intraannual, notes)
+
+# Resolution: Based on meeting with Jess Shue on 2022/3/31
+# -92140 is only a tag issue (marked in resources/raw_data/2021/identifying_stems_with_issues/tag_issue.csv)
+# -30233 and 190115 should be marked as BA in the spring survey sheet
+
 
 ## Sanity check: Reconcile "reband stem" data_entry_fix actions with Google Sheet ----
 # These counts should match purple columns F & M in Google Sheet:
@@ -892,16 +892,20 @@ data_entry_fix_2022 %>%
 
 # On top of unidentified_reband_stems (action item one), we have the following
 # three reband stem with new.band = 0
+# Ask Jess about these:
 data_entry_fix_2022 %>% 
   filter(action == "reband stem") %>% 
   filter(new.band == 0) %>% 
   select(tag_stemtag, sp, action, new.band, codes, intraannual, notes) %>% 
   filter(!tag_stemtag %in% unidentified_reband_stems)
 
-# Conclusion: Must have been field identified rebands
+# Resolution: Based on meeting with Jess Shue on 2022/3/31
+# -40465 needs new tag (added to resources/raw_data/2021/identifying_stems_with_issues/tag_issue.csv)
+# -All stems with codes = F need to be cataloged as inside deer exclosure
+# -100771 and 190413 should be marked as BA in the spring survey sheet
+
 
 ## Sanity check: Reconcile "new band" data_entry_fix actions with Google Sheet ----
-
 # These counts should match purple columns G & N in Google Sheet.
 data_entry_fix_2022 %>% 
   filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
@@ -921,14 +925,18 @@ action_item_list %>%
   filter(sp %in% c("cato", "ulru"))
 
 # Conclusion: Was there a mix up?
+# Resolution: Based on meeting with Jess Shue on 2022/3/31
+# This mix-up was very likely and understandable. Leave them as is.
 
-## Update CSV -----
-# Rebanded stems
-updated_bands <- data_entry_fix_2022 %>% 
-  # Important to include new.band == 1 condition, some stems with action =
-  # "reband stem" were mere band adjustments (code = BA)
-  # TODO: Make sure of this
-  filter(action == "reband stem" & new.band == 1) %>% 
+
+## Write updated dendroID.csv -----
+dendroID <- here("data/dendroID.csv") %>%
+  read_csv(show_col_types = FALSE)
+
+dendroID_bands_to_add <- data_entry_fix_2022 %>% 
+  # This includes bands installed on new stems and bands replaced on 
+  # existing stems
+  filter(new.band == 1) %>% 
   mutate(
     dendDiam = dendDiam.mm, 
     dbh = dbh18, 
@@ -940,40 +948,23 @@ updated_bands <- data_entry_fix_2022 %>%
     measureID = NA
   ) 
 
-# Stems with new bands
-new_bands <- data_entry_fix_2022 %>% 
-  filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
-  mutate(
-    dendDiam = dendDiam.mm, 
-    dbh = dbh18, 
-    dir = NA, 
-    dendHt = dendHt.m, 
-    crown.condition = NA, 
-    crown.illum = NA, 
-    lianas = NA, 
-    measureID = NA
-  )
+dendroID <- dendroID_bands_to_add %>%
+  select(
+    tag, stemtag, survey.ID, biannual, intraannual, sp,
+    quadrat, stemID, treeID,
+    dendDiam, dbh, new.band,
+    dendroID, type, dir,
+    dendHt, crown.condition, crown.illum, lianas, measureID
+  ) %>%
+  bind_rows(dendroID) %>% 
+  arrange(tag, stemtag)
 
-## Update dendroID.csv
-# dendroID <- here("data/dendroID.csv") %>% 
-#   read_csv(show_col_types = FALSE)
-# 
-# dendroID <- bind_rows(new_bands, updated_bands) %>% 
-#   select(
-#     tag, stemtag, survey.ID, biannual, intraannual, sp, 
-#     quadrat, stemID, treeID, 
-#     dendDiam, dbh, new.band, 
-#     dendroID, type, dir, 
-#     dendHt, crown.condition, crown.illum, lianas, measureID
-#   ) %>% 
-#   bind_rows(dendroID)
-# 
-# write_csv(dendroID, file = "data/dendroID.csv")
+# write_csv(dendroID, file = "data/dendroID.csv", quote = "all")
 
 
 
 # 6. Update master CSV ----
-## TODO: Reuse data frame from earlier in spirit of DRY ----
+## New stems and replaced bands ----
 new_bands <- data_entry_fix_2022 %>% 
   filter(action %in% c("install band on new stem: biannual", "install band on new stem: biweekly")) %>% 
   mutate(
@@ -996,8 +987,8 @@ new_bands <- data_entry_fix_2022 %>%
   ) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
-updated_bands <- data_entry_fix_2022 %>% 
-  filter(action == "reband stem") %>% 
+replaced_bands <- data_entry_fix_2022 %>% 
+  filter(action == "reband stem" & new.band == 1) %>% 
   mutate(
     survey.ID = NA, year = NA, month = NA, day = NA,
     measure = NA, codes = NA, notes = NA, status = NA,
@@ -1019,7 +1010,7 @@ updated_bands <- data_entry_fix_2022 %>%
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
   
 ## Drop dead stems and stems to drop from database, add new stems ----
-master_2022_sheet <- here("data/scbi.dendroAll_2022.csv") %>% 
+master_2022_sheet <- here("resources/raw_data/2021/identifying_stems_with_issues/scbi.dendroAll_BLANK.csv") %>% 
   read_csv(show_col_types = FALSE) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-")) %>% 
   # 1. Remove dead stems.
@@ -1035,20 +1026,15 @@ master_2022_sheet <- here("data/scbi.dendroAll_2022.csv") %>%
   # Number of rows added should be sum of columns G, N
   # WE'RE ALMOST GOOD (note above potential mix up between biannual cato and ulru)
   bind_rows(new_bands) %>% 
-  # 4. Update rows for rebanded stems.
-  # Number of rows should remain constant.
-  # As of 2022/3/16 this drops by 3 however
-  # As of 2022/3/25 this increases by 3 however
-  filter(!tag_stemtag %in% stems_to_reband) %>% 
-  bind_rows(updated_bands)
+  # 4. Update rows for rebanded stems
+  filter(!tag_stemtag %in% replaced_bands$tag_stemtag) %>% 
+  bind_rows(replaced_bands)
 
 ## Sanity check: Check for duplicate entries ----
 master_2022_sheet %>% 
   count(tag_stemtag) %>% 
   filter(n > 1)
 
-# They are all in this set:
-unidentified_reband_stems
 
 
 ## Make sure autodendrometer tags are biweekly ----
@@ -1089,12 +1075,12 @@ master_2022_sheet %>%
 
 
 ## Identify stems to shift between biweekly and biannual ----
-# Should match positive values in Column O, except autodendrometer cagl
+# Should match positive values in Column O, except autodendrometer 91486 cagl
 shift_biweekly_to_biannual_numbers <- master_list %>% 
   filter(biweekly_shift_to_biannual>0) %>% 
   mutate(n = biweekly_shift_to_biannual) %>% 
   select(sp, n)
-# Should match positive values in Column H, except autodendrometer cagl
+# Should match positive values in Column H, except autodendrometer 91486 cagl
 shift_biannual_to_biweekly_numbers <- master_list %>% 
   filter(biweekly_shift_to_biannual<0) %>% 
   mutate(n = -biweekly_shift_to_biannual) %>% 
@@ -1135,7 +1121,7 @@ for(i in 1:nrow(shift_biweekly_to_biannual_numbers)){
     bind_rows(shift_biweekly_to_biannual)
 }
 
-# Should match positive values in Column H, except autodendrometer cagl
+# Should match positive values in Column O, except autodendrometer 91486 cagl
 shift_biweekly_to_biannual %>% 
   count(sp) %>% 
   arrange(factor(sp, levels = master_list$sp))
@@ -1151,11 +1137,10 @@ for(i in 1:nrow(shift_biannual_to_biweekly_numbers)){
     bind_rows(shift_biannual_to_biweekly)
 }
 
-# Should match positive values in Column O, except autodendrometer cagl
+# Should match positive values in Column H, except autodendrometer 91486 cagl
 shift_biannual_to_biweekly %>% 
   count(sp) %>% 
   arrange(factor(sp, levels = master_list$sp))
-
 
 
 ## Switch stems between biweekly and biannual ----
@@ -1166,7 +1151,8 @@ master_2022_sheet <- master_2022_sheet %>%
   ) %>% 
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
-## Sanity check: with Google sheet -----
+
+## FINAL Sanity check: with Google sheet -----
 master_2022_sheet %>% 
   group_by(intraannual, sp) %>% 
   count() %>% 
@@ -1174,21 +1160,42 @@ master_2022_sheet %>%
   arrange(factor(sp, levels = master_list$sp)) %>% 
   select(sp, `1`, `0`)
 
-# Should match columns I and P. Differences:
+# Should match columns I and P. Differences are all accounted for:
 # Biweekly:
-# +1 cagl
-# +1 fagr
-# -1 cato
-# +1 caco
-# -1 caovl
-# Net = + 1
+# +1 cagl: autodendrometer 91486 cagl later switched to biweekly
+# -1 cato: Mix up in sp in https://github.com/SCBI-ForestGEO/Dendrobands/pull/33
+# +1 caco: Mix up in sp in https://github.com/SCBI-ForestGEO/Dendrobands/pull/33
+# -1 caovl: Mix up in sp in https://github.com/SCBI-ForestGEO/Dendrobands/pull/33
+# Net = +0
+#
 # Biannual:
-# +1 litu
-# -1 cagl
-# +3 cato
-# -1 caco
-# +1 caovl
-# -1 ulru
-# Net = + 2
+# +1 cagl: autodendrometer 91486 cagl later switched to biweekly
+# +1 cato: Biannual new band on new stem mix-up acknowledged by Jess 
+# +1 cato: Mix up in sp in https://github.com/SCBI-ForestGEO/Dendrobands/pull/33
+# -1 caco: Mix up in sp in https://github.com/SCBI-ForestGEO/Dendrobands/pull/33
+# +1 caovl: Mix up in sp in https://github.com/SCBI-ForestGEO/Dendrobands/pull/33
+# -1 ulru: Biannual new band on new stem mix-up acknowledged by Jess
+# Net = 0
 
-  
+
+## Write updated master CSV ----
+# Clear columns (code modified from Ian's Rscripts/survey_forms/new_scbidendroAll_[YEAR].R)
+variables_to_reset <- c(
+  "survey.ID", "year", "month", "day", "measure", "codes", "notes", 
+  "status", "field.recorders", "data.enter", "new.band", 
+  "crown.condition", "crown.illum"
+)
+master_2022_sheet[, variables_to_reset] <- ""
+
+master_2022_sheet %>%
+  select(-tag_stemtag) %>%
+  write_csv(file = "data/scbi.dendroAll_BLANK.csv")
+
+
+
+
+
+
+
+
+
