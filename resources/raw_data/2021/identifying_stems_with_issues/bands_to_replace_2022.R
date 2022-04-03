@@ -1192,10 +1192,36 @@ master_2022_sheet %>%
   write_csv(file = "data/scbi.dendroAll_BLANK.csv")
 
 
+# 7. Retroactively update spring biannual form with results from data_entry_fix forms -----
+spring_biannual <- read_csv("resources/raw_data/2022/data_entry_biannual_spr2022.csv")
 
+# Field fixes
+data_entry_fix_2022 <- 
+  bind_rows(
+    here("resources/raw_data/2022/data_entry_fix_2022.csv") %>% read_csv(show_col_types = FALSE),
+    here("resources/raw_data/2022/data_entry_fix_2022-01.csv") %>% read_csv(show_col_types = FALSE),
+  ) %>% 
+  mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
+## code == BA ----
+data_entry_fix_2022 %>% 
+  filter(str_detect(codes, "BA")) %>% 
+  pull(tag)
 
+## new.band == 1 ----
+A <- spring_biannual %>% 
+  filter(new.band == 1) %>% 
+  select(tag, stemtag)
+B <- data_entry_fix_2022 %>% 
+  filter(new.band == 1) %>% 
+  select(tag, stemtag)
 
+# Here
+# 40465: replace tag; band fine
+# 121301: TODO Ask jess about spring biannual code: 116.88; old band removed
+anti_join(A, B, by = c("tag", "stemtag"))
 
-
+# Here
+# TODO: 6 new stems have to be marked as new.band = 1 in first biweekly
+anti_join(B, A, by = c("tag", "stemtag"))
 
