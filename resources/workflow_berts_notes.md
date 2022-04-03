@@ -1,3 +1,14 @@
+# Main things to keep in mind:
+
+1. `data/scbi.dendroAll_BLANK.csv` is a blank csv that contains all ~500 stems currently in our database. It should be kept up-to-date b/c the following csv's are constructed from it:
+    a) The current year's master data csv `data/scbi.dendroAll_YEAR.csv`
+    a) The next survey's data entry field form `resources/raw_data/YEAR/data_entry_*.csv`
+1. Whenever there is a change in a band in a field fix form `resources/raw_data/YEAR/data_entry_fix_YEAR.csv`, these need to be manually incorporated in the next field form. Ex: `new.band = 1` or `codes = BA`
+1. `dendroID.csv` needs to be manually updated
+1. `dendro_trees.csv` needs to be manually updated
+
+
+
 # What we did in early 2022
 
 1. After fall biannual census `create_master_csv_2021_and_after.R` will create a blank master `scbi.dendroAll_2022.csv` file for next year
