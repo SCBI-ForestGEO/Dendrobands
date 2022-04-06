@@ -97,3 +97,7 @@ new_measure_too_different_from_previous_biannual,140819,1,2021.11,2021,10,27,1,0
 new_measure_too_different_from_previous_biannual,171348,1,2021.11,2021,10,26,1,0,ceca,1714,19.4,2.4,86.77,NA,NA,alive,Bill McShea,Jen Jordan,25171,25171,NA,155.4,0,381,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous_biannual,172417,1,2021.11,2021,10,27,1,0,nysy,1725,20,18.4,19.98,NA,NA,alive,Bill McShea,Jen Jordan,25709,25709,NA,98.8,0,395,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous_biannual,180791,1,2021.11,2021,10,26,1,0,cagl,1811,9.6,4.1,0,NA,No gap in band,alive,Bill McShea,Jen Jordan,26609,26609,NA,396,0,948,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,30339,1,2022.02,2022,4,4,1,1,litu,307,8.6,4.1,104.1,BA(2022.02),Band adjusted,alive,Jen Jordan,NA,3975,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+code_not_defined,72210,1,2022.01,2022,3,15,1,1,qual,721,5.2,11.5,30.87,RA,NA,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,72427,1,2022.02,2022,4,4,1,1,litu,730,3.6,19.4,81.19,BA(2022.02),Band adjusted,alive,Isabella Dangler,NA,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+code_not_defined,82422,1,2022.02,2022,4,4,1,1,litu,831,6.9,19.5,98.77,BA(2022.02),Band adjusted,alive,Isabella Dangler,NA,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
