@@ -143,8 +143,8 @@ tag,stemtag,sp,quadrat,survey.ID,measure,codes,notes,field.recorders,caliper_lim
 141146,1,caco,1416,2021.11,19.14,DS,NA,Jen Jordan,FALSE,TRUE,FALSE
 142206,1,fram,1419,2021.01,97.9,DS,NA,"Bill McShea, Jessica Shue",FALSE,TRUE,FALSE
 142206,1,fram,1419,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
-142735,1,qual,1432,2021.01,85.48,RE,quve; stuck under nail,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
-142735,1,qual,1432,2021.11,91.54,RE,NA,Jen Jordan,FALSE,FALSE,TRUE
+142735,1,quve,1432,2021.01,85.48,RE,quve; stuck under nail,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
+142735,1,quve,1432,2021.11,91.54,RE,NA,Jen Jordan,FALSE,FALSE,TRUE
 150756,1,quve,1503,2021.01,NA,DS,prse,"Bill McShea, Jessica Shue",NA,TRUE,FALSE
 150756,1,quve,1503,2021.11,NA,DS,NA,Bill McShea,NA,TRUE,FALSE
 160910,1,litu,1607,2021.01,124.46,RE,NA,"Bill McShea, Jessica Shue",FALSE,FALSE,TRUE
