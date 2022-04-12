@@ -38,7 +38,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders,action_needed
 102348,1,qual,1025,2021.11,37.21,band irregular & didn’t adjust/ measurement error likely,Nate Looker,RE
 102364,1,qual,1025,2021.08,115.28,needs new band,Jen Jordan,RE
 102501,1,litu,1031,2021.01,60.65,band removed,"Bill McShea, Jessica Shue",none
-110798,1,qupr,1104,2021.01,43.58,litu,"Bill McShea, Jessica Shue",check and correct species
+110798,1,litu,1104,2021.01,43.58,litu,"Bill McShea, Jessica Shue",check and correct species
 111092,1,litu,1110,2021,23.39,band short; left old band,Jessica Shue,none
 120278,1,litu,1201,2021,16.5,dbh at 1.4,Jessica Shue,none
 120278,1,litu,1201,2021.01,12.96,"only one band, double-checked","Bill McShea, Jessica Shue",none
