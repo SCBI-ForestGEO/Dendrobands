@@ -94,6 +94,7 @@ stem_locations <-
     ),
     # Special cases
     area = ifelse(tag == 70579, 2, area),
+    area = ifelse(tag == 111305, 3, area), # https://github.com/SCBI-ForestGEO/Dendrobands/issues/109 
     area = ifelse(quadrat == 714 & tag != 70579, 3, area),
     # Convert to character
     area = as.character(area)
