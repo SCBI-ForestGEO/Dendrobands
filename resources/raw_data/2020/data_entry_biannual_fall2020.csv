@@ -2,7 +2,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 130348,1,litu,1302,2020.16,2020,11,5,NA, , ,RE,window too large,Cameron Dow,Cameron Dow,1
 140467,1,quve,1404,2020.16,2020,11,5,NA, , ,,,Cameron Dow,Cameron Dow,1
 140609,1,litu,1403,2020.16,2020,11,5,56.2, , ,,band slightly damaged,Cameron Dow,Cameron Dow,1
-150756,1,quve,1503,2020.16,2020,11,5,NA, , ,,,Cameron Dow,Cameron Dow,1
+150756,1,prse,1503,2020.16,2020,11,5,NA, , ,,,Cameron Dow,Cameron Dow,1
 160713,1,litu,1603,2020.16,2020,11,5,NA, , ,RE,band broken,Cameron Dow,Cameron Dow,1
 160742,1,litu,1605,2020.16,2020,11,5,93.4, , ,,,Cameron Dow,Cameron Dow,1
 160814,1,cato,1611,2020.16,2020,11,5,2.51, , ,,,Cameron Dow,Cameron Dow,1
@@ -84,9 +84,9 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 70433,1,litu,710,2020.16,2020,11,5,133.35, , ,,,Ellie Grant,Cameron Dow,2
 70519,1,qual,711,2020.16,2020,11,5,92.39, , ,,,Ellie Grant,Cameron Dow,2
 70536,1,qual,711,2020.16,2020,11,5,20.1, , ,,,Ellie Grant,Cameron Dow,2
-70579,1,caco,714,2020.16,2020,11,5,42.88, , ,,,Ellie Grant,Cameron Dow,2
+70579,1,caovl,714,2020.16,2020,11,5,42.88, , ,,,Ellie Grant,Cameron Dow,2
 80100,1,litu,804,2020.16,2020,11,5,42.31, , ,,,Ellie Grant,Cameron Dow,2
-80180,1,cato,804,2020.16,2020,11,5,39.18,, ,,double-checked; species quercus,Ellie Grant,Cameron Dow,2
+80180,1,cagl,804,2020.16,2020,11,5,39.18,, ,,double-checked; species quercus,Ellie Grant,Cameron Dow,2
 80398,1,caco,807,2020.16,2020,11,5,NA,,,,,Ellie Grant,Cameron Dow,2
 80401,1,caco,807,2020.16,2020,11,5,31.52, , ,,,Ellie Grant,Cameron Dow,2
 80554,1,caovl,813,2020.16,2020,11,5,111.82, , ,F,double-checked,Ellie Grant,Cameron Dow,2
@@ -123,7 +123,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 110680,1,litu,1104,2020.16,2020,11,5,143.79, , ,,,Ellie Grant,Cameron Dow,2
 110788,1,litu,1104,2020.16,2020,11,5,123.38, , ,,,Ellie Grant,Cameron Dow,2
 110791,1,litu,1104,2020.16,2020,11,5,16.4, , ,,,Ellie Grant,Cameron Dow,2
-110798,1,qupr,1104,2020.16,2020,11,5,43.31, , ,,,Ellie Grant,Cameron Dow,2
+110798,1,litu,1104,2020.16,2020,11,5,43.31, , ,,,Ellie Grant,Cameron Dow,2
 110901,1,litu,1105,2020.16,2020,11,5,85.35, , ,,,Ellie Grant,Cameron Dow,2
 111014,1,litu,1107,2020.16,2020,11,5,153.58, , ,,,Ellie Grant,Cameron Dow,2
 111029,1,litu,1107,2020.16,2020,11,5,NA, , ,DC,,Jessica Shue,Cameron Dow,2
@@ -191,7 +191,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 40567,1,fagr,406,2020.16,2020,11,5,15.33, , ,,,Cameron Dow,Cameron Dow,3
 40568,1,fagr,406,2020.16,2020,11,5,24.4, , ,,,Cameron Dow,Cameron Dow,3
 40569,1,litu,407,2020.16,2020,11,5,106.53, , ,,,Cameron Dow,Cameron Dow,3
-40635,1,cagl,408,2020.16,2020,11,5,51.62, , ,,,Cameron Dow,Cameron Dow,3
+40635,1,cato,408,2020.16,2020,11,5,51.62, , ,,,Cameron Dow,Cameron Dow,3
 40941,1,litu,414,2020.16,2020,11,5,NA, , ,RE,,Cameron Dow,Cameron Dow,3
 40942,1,acru,414,2020.16,2020,11,5,108.67, , ,,,Cameron Dow,Cameron Dow,3
 40972,1,litu,415,2020.16,2020,11,5,34.01, , ,,,Cameron Dow,Cameron Dow,3
@@ -286,7 +286,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 72173,1,qual,720,2020.16,2020,11,5,15.29, , ,,,Jessica Shue,Cameron Dow,4
 72210,1,qual,721,2020.16,2020,11,5,18.31, , ,,double-checked,Jessica Shue,Cameron Dow,4
 72232,1,qual,722,2020.16,2020,11,5,116.77, , ,,,Jessica Shue,Cameron Dow,4
-72248,1,caco,723,2020.16,2020,11,5,80.52, , ,RE,,Jessica Shue,Cameron Dow,4
+72248,1,caovl,723,2020.16,2020,11,5,80.52, , ,RE,,Jessica Shue,Cameron Dow,4
 82125,1,cagl,819,2020.16,2020,11,5,31.93, , ,,,Jessica Shue,Cameron Dow,4
 82138,1,quru,820,2020.16,2020,11,5,115.06, , ,RE,"double-checked; clip end undone, new tag",Jessica Shue,Cameron Dow,4
 82203,1,litu,822,2020.16,2020,11,5,41.14, , ,,double-checked,Jessica Shue,Cameron Dow,4
@@ -497,7 +497,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 142731,1,litu,1432,2020.16,2020,11,5,61.78, , ,,,Cameron Dow,Cameron Dow,8
 142732,1,cagl,1432,2020.16,2020,11,5,37.98, , ,,,Cameron Dow,Cameron Dow,8
 142733,1,litu,1432,2020.16,2020,11,5,42.13, , ,,,Cameron Dow,Cameron Dow,8
-142735,1,qual,1432,2020.16,2020,11,5,85.28, , ,,,Cameron Dow,Cameron Dow,8
+142735,1,quve,1432,2020.16,2020,11,5,85.28, , ,,,Cameron Dow,Cameron Dow,8
 143707,1,cagl,1426,2020.16,2020,11,5,20.51, , ,,,Cameron Dow,Cameron Dow,8
 152513,1,qupr,1525,2020.16,2020,11,5,12.87, , ,,,Ellie Grant,Cameron Dow,9
 152673,1,litu,1530,2020.16,2020,11,5,90.71, , ,,,Ellie Grant,Cameron Dow,9

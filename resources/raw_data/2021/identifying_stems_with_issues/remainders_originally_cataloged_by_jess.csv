@@ -5,7 +5,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders,action_needed
 30331,1,cagl,306,2021.1,61.48,band needs repairs - prior measurements incorrect,Jen Jordan,RE
 30462,1,litu,313,2021,10.37,left original band,Bill McShea,none
 30462,1,litu,313,2021.01,72.54,band removed,"Bill McShea, Jessica Shue",none
-40635,1,cagl,408,2021.01,49.13,cato,"Bill McShea, Jessica Shue",check and correct species
+40635,1,cato,408,2021.01,49.13,cato,"Bill McShea, Jessica Shue",check and correct species
 40941,1,litu,414,2021,19.25,original band was around both stems now only on 40941 stem 1,Jessica Shue,none
 50364,1,qual,507,2021,13.52,left old band,Jessica Shue,none
 60563,1,caca,614,2021.09,28.26,needs band adjustment,Jen Jordan,RE
@@ -22,11 +22,11 @@ tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders,action_needed
 70358,1,litu,708,2021,13.61,left old band,Jessica Shue,none
 70494,1,caca,714,2021.09,43.06,past measurement might be wrong as band needed adjusting which i did today,Jen Jordan,none
 70494,1,caca,714,2021.1,42.91,new band needed,Jen Jordan,RE
-70579,1,caco,714,2021.01,39.08,cato,"Bill McShea, Jessica Shue",check and correct species
+70579,1,caovl,714,2021.01,39.08,cato,"Bill McShea, Jessica Shue",check and correct species
 72124,1,quru,719,2021.01,80.52,band removed,"Bill McShea, Jessica Shue",none
 72210,1,qual,721,2021.11,31.39,readjusted band,Jen Jordan,none
-72248,1,caco,723,2021.01,71.145,"band removed; cagl, cagl; new band window is short","Bill McShea, Jessica Shue",check and correct species
-80180,1,cato,804,2021.01,34.67,quve; double-checked,"Bill McShea, Jessica Shue",check and correct species
+72248,1,caovl,723,2021.01,71.145,"band removed; cagl, cagl; new band window is short","Bill McShea, Jessica Shue",check and correct species
+80180,1,cagl,804,2021.01,34.67,quve; double-checked,"Bill McShea, Jessica Shue",check and correct species
 90084,1,quve,902,2021.11,94.98,band irregular & didn’t adjust/ measurement error likely. nail impeding,Nate Looker,RE
 90354,1,litu,905,2021,13.95,irregular,Jessica Shue,none
 90530,1,litu,910,2021,16.75,irregular; left old band,Jessica Shue,none
@@ -38,7 +38,7 @@ tag,stemtag,sp,quadrat,survey.ID,measure,notes,field.recorders,action_needed
 102348,1,qual,1025,2021.11,37.21,band irregular & didn’t adjust/ measurement error likely,Nate Looker,RE
 102364,1,qual,1025,2021.08,115.28,needs new band,Jen Jordan,RE
 102501,1,litu,1031,2021.01,60.65,band removed,"Bill McShea, Jessica Shue",none
-110798,1,qupr,1104,2021.01,43.58,litu,"Bill McShea, Jessica Shue",check and correct species
+110798,1,litu,1104,2021.01,43.58,litu,"Bill McShea, Jessica Shue",check and correct species
 111092,1,litu,1110,2021,23.39,band short; left old band,Jessica Shue,none
 120278,1,litu,1201,2021,16.5,dbh at 1.4,Jessica Shue,none
 120278,1,litu,1201,2021.01,12.96,"only one band, double-checked","Bill McShea, Jessica Shue",none

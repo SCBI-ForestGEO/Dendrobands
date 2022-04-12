@@ -47,7 +47,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 40567,1,fagr,406,2017.12,11/16/2017,31.55,,"band damaged, replace band; band replaced after Nov survey","Lauren Bowman, Mario Morales",Lauren Bowman,0,556
 40568,1,fagr,406,2017.12,11/16/2017,99.55,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,728
 40569,1,litu,407,2017.12,11/16/2017,52.56,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,701
-40635,1,cagl,408,2017.12,11/16/2017,38.1,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,31
+40635,1,cato,408,2017.12,11/16/2017,38.1,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,31
 40875,1,qual,412,2017.12,11/16/2017,NA,,dead,"Lauren Bowman, Mario Morales",Lauren Bowman,0,32
 40941,1,litu,414,2017.12,11/16/2017,118.4,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,33
 40942,1,acru,414,2017.12,11/16/2017,78.43,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,34
@@ -118,7 +118,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 70495,1,caca,714,2017.12,11/16/2017,22.23,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,591
 70519,1,qual,711,2017.12,11/16/2017,78.69,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,65
 70536,1,qual,711,2017.12,11/16/2017,102.12,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,66
-70579,1,caco,714,2017.12,11/16/2017,33.22,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,67
+70579,1,caovl,714,2017.12,11/16/2017,33.22,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,67
 70581,1,quru,714,2017.12,11/16/2017,6.51,,band replaced in 07/2017,"Lauren Bowman, Mario Morales",Lauren Bowman,1,757
 70588,1,quve,714,2017.12,11/16/2017,NA,,dead,"Lauren Bowman, Mario Morales",Lauren Bowman,0,69
 72024,1,quve,717,2017.12,11/14/2017,22.94,,band replaced 04/21/2017,"Lauren Bowman, Mario Morales",Mario Morales,1,758
@@ -129,7 +129,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 72149,1,litu,720,2017.12,11/14/2017,158.04,,"window too large, replace band; band replaced after Nov survey","Lauren Bowman, Mario Morales",Mario Morales,0,75
 72210,1,qual,721,2017.12,11/14/2017,118.02,,,"Lauren Bowman, Mario Morales",Mario Morales,0,76
 72232,1,qual,722,2017.12,11/14/2017,98.35,,,"Lauren Bowman, Mario Morales",Mario Morales,0,77
-72248,1,caco,723,2017.12,11/14/2017,59.12,,,"Lauren Bowman, Mario Morales",Mario Morales,0,78
+72248,1,caovl,723,2017.12,11/14/2017,59.12,,,"Lauren Bowman, Mario Morales",Mario Morales,0,78
 72308,1,qual,725,2017.12,11/14/2017,41.25,,,"Lauren Bowman, Mario Morales",Mario Morales,0,79
 72322,1,litu,726,2017.12,11/14/2017,19.42,,,"Lauren Bowman, Mario Morales",Mario Morales,0,80
 72324,1,litu,726,2017.12,11/14/2017,148.67,,,"Lauren Bowman, Mario Morales",Mario Morales,0,81
@@ -146,7 +146,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 72460,1,quru,732,2017.12,11/14/2017,NA,,dead,"Lauren Bowman, Mario Morales",Mario Morales,0,512
 80005,1,fram,801,2017.12,11/16/2017,29.49,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,92
 80100,1,litu,804,2017.12,11/16/2017,131.09,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,93
-80180,1,cato,804,2017.12,11/16/2017,119.03,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,94
+80180,1,cagl,804,2017.12,11/16/2017,119.03,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,94
 80398,1,caco,807,2017.12,11/16/2017,11.18,,looks dead,"Lauren Bowman, Mario Morales",Lauren Bowman,0,95
 80401,1,caco,807,2017.12,11/16/2017,137.55,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,96
 80491,1,quru,809,2017.12,11/16/2017,NA,,dead,"Lauren Bowman, Mario Morales",Lauren Bowman,0,97
@@ -191,7 +191,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 91476,1,litu,908,2017.12,11/15/2017,99.15,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,257
 91477,1,litu,908,2017.12,11/15/2017,42.76,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,258
 91486,1,cagl,908,2017.12,11/15/2017,26.36,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,711
-92006,1,litu,917,2017.12,11/15/2017,40.88,,,"Lauren Bowman, Mario Morales",Mario Morales,0,260
+92006,1,fram,917,2017.12,11/15/2017,40.88,,,"Lauren Bowman, Mario Morales",Mario Morales,0,260
 92018,1,acru,917,2017.12,11/15/2017,67.25,,,"Lauren Bowman, Mario Morales",Mario Morales,0,261
 92112,1,litu,919,2017.12,11/15/2017,91.73,,,"Lauren Bowman, Mario Morales",Mario Morales,0,597
 92139,1,quru,920,2017.12,11/15/2017,37.13,,,"Lauren Bowman, Mario Morales",Mario Morales,0,263
@@ -226,7 +226,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 101244,1,quve,1014,2017.12,11/15/2017,76.88,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,129
 101310,1,fram,1016,2017.12,11/15/2017,95.45,,,"Lauren Bowman, Mario Morales",Mario Morales,0,283
 101312,1,fram,1016,2017.12,11/15/2017,138.15,,,"Lauren Bowman, Mario Morales",Mario Morales,0,284
-102001,1,fram,1017,2017.12,11/15/2017,NA,,dead,"Lauren Bowman, Mario Morales",Mario Morales,0,285
+102001,1,frni,1017,2017.12,11/15/2017,NA,,dead,"Lauren Bowman, Mario Morales",Mario Morales,0,285
 102148,1,cato,1019,2017.12,11/15/2017,25.61,,,"Lauren Bowman, Mario Morales",Mario Morales,0,286
 102149,1,cagl,1020,2017.12,11/15/2017,40.52,,,"Lauren Bowman, Mario Morales",Mario Morales,0,287
 102150,1,qual,1020,2017.12,11/15/2017,48.44,,,"Lauren Bowman, Mario Morales",Mario Morales,0,599
@@ -259,7 +259,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 110680,1,litu,1104,2017.12,11/15/2017,106.96,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,604
 110788,1,litu,1104,2017.12,11/15/2017,92.43,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,307
 110791,1,litu,1104,2017.12,11/15/2017,139.96,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,308
-110798,1,qupr,1104,2017.12,11/15/2017,161.35,,"window too large, replace band","Lauren Bowman, Mario Morales",Lauren Bowman,0,309
+110798,1,litu,1104,2017.12,11/15/2017,161.35,,"window too large, replace band","Lauren Bowman, Mario Morales",Lauren Bowman,0,309
 110901,1,litu,1105,2017.12,11/15/2017,50.67,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,668
 110904,1,quve,1105,2017.12,11/15/2017,NA,,dead,"Lauren Bowman, Mario Morales",Lauren Bowman,0,134
 111014,1,litu,1107,2017.12,11/15/2017,129.09,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,311
@@ -342,7 +342,7 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 122492,1,litu,1229,2017.12,11/14/2017,120.13,,,"Lauren Bowman, Mario Morales",Mario Morales,0,647
 122522,1,litu,1232,2017.12,11/14/2017,77.07,,,"Lauren Bowman, Mario Morales",Mario Morales,0,523
 122561,1,litu,1231,2017.12,11/14/2017,124.74,,,"Lauren Bowman, Mario Morales",Mario Morales,0,370
-122563,2,litu,1232,2017.12,11/14/2017,NA,,Band removed in 2013,"Lauren Bowman, Mario Morales",Mario Morales,0,NA
+122563,2,quve,1232,2017.12,11/14/2017,NA,,Band removed in 2013,"Lauren Bowman, Mario Morales",Mario Morales,0,NA
 130348,1,litu,1302,2017.12,11/15/2017,115.8,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,640
 130718,1,litu,1306,2017.12,11/15/2017,139.81,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,144
 130838,1,litu,1305,2017.12,11/15/2017,132.32,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,145
@@ -407,9 +407,9 @@ tag,stemtag,sp,quadrat,survey.ID,exactdate,measure,codes,notes,field.recorders,d
 142731,1,litu,1432,2017.12,11/15/2017,53.7,,,"Lauren Bowman, Mario Morales",Mario Morales,0,204
 142732,1,cagl,1432,2017.12,11/15/2017,28.56,,,"Lauren Bowman, Mario Morales",Mario Morales,0,205
 142733,1,litu,1432,2017.12,11/15/2017,133.45,,,"Lauren Bowman, Mario Morales",Mario Morales,0,206
-142735,1,qual,1432,2017.12,11/15/2017,64.01,,,"Lauren Bowman, Mario Morales",Mario Morales,0,207
+142735,1,quve,1432,2017.12,11/15/2017,64.01,,,"Lauren Bowman, Mario Morales",Mario Morales,0,207
 143707,1,cagl,1426,2017.12,11/14/2017,15.68,,,"Lauren Bowman, Mario Morales",Mario Morales,0,630
-150756,1,quve,1503,2017.12,11/16/2017,27.36,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,208
+150756,1,prse,1503,2017.12,11/16/2017,27.36,,,"Lauren Bowman, Mario Morales",Lauren Bowman,0,208
 150830,1,litu,1508,2017.12,11/14/2017,NA,,Band removed in 2013,"Lauren Bowman, Mario Morales",Mario Morales,0,NA
 152153,1,ploc,1520,2017.12,11/15/2017,34.23,,band replaced 4/26/2017,"Lauren Bowman, Mario Morales",Mario Morales,1,775
 152673,1,litu,1530,2017.12,11/15/2017,39.66,,band replaced 4/21/2017,"Lauren Bowman, Mario Morales",Mario Morales,1,776

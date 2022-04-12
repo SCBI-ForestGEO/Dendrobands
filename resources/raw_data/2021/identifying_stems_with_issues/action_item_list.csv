@@ -72,7 +72,7 @@ tag,stemtag,sp,quadrat,dbh,dbh18,action
 132508,1,quve,1328,422.5,435,"retrieve band: band issue, stem dropped from database"
 140736,1,quve,1407,684,677,"retrieve band: band issue, stem dropped from database"
 140818,1,litu,1410,521.9,549,"retrieve band: band issue, stem dropped from database"
-142735,1,qual,1432,639.6,NA,"retrieve band: band issue, stem dropped from database"
+142735,1,quve,1432,639.6,NA,"retrieve band: band issue, stem dropped from database"
 180791,1,cagl,1811,396,404,"retrieve band: band issue, stem dropped from database"
 190835,1,litu,1916,409.3,432,"retrieve band: band issue, stem dropped from database"
 192055,1,qual,1919,595,612,"retrieve band: band issue, stem dropped from database"
@@ -117,7 +117,7 @@ tag,stemtag,sp,quadrat,dbh,dbh18,action
 141088,1,fram,1415,770,771,retrieve band: stem dead
 141146,1,caco,1416,770,361,retrieve band: stem dead
 142206,1,fram,1419,477.2,876,retrieve band: stem dead
-150756,1,quve,1503,939.1,NA,retrieve band: stem dead
+150756,1,prse,1503,939.1,NA,retrieve band: stem dead
 171314,1,quru,1712,616.9,880,retrieve band: stem dead
 171358,1,fram,1714,920,924,retrieve band: stem dead
 172255,1,qual,1720,274.2,675,retrieve band: stem dead

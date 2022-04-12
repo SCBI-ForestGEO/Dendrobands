@@ -43,7 +43,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 40567,1,fagr,406,2019.01,2019,March,28,6.76,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 40568,1,fagr,406,2019.01,2019,March,28,113.71,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 40569,1,litu,407,2019.01,2019,March,28,70.21,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
-40635,1,cagl,408,2019.01,2019,March,28,39.53,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
+40635,1,cato,408,2019.01,2019,March,28,39.53,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 40941,1,litu,414,2019.01,2019,March,28,104,1, , ,,band adjusted,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 40942,1,acru,414,2019.01,2019,March,28,91.17,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 40972,1,litu,415,2019.01,2019,March,28,5,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
@@ -118,7 +118,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 70494,1,caca,714,2019.01,2019,March,25,17.95,0, , ,,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,3
 70494,2,caca,714,2019.01,2019,March,25,3.32,0, , ,,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,3
 70495,1,caca,714,2019.01,2019,March,25,28.54,0, , ,,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,3
-70579,1,caco,714,2019.01,2019,March,25,35.22,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
+70579,1,caovl,714,2019.01,2019,March,25,35.22,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 70581,1,quru,714,2019.01,2019,March,25,18.35,0, , ,,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,3
 72024,1,quve,717,2019.01,2019,March,28,34.85,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
 72104,1,qual,718,2019.01,2019,March,28,4.58,0, , ,M;main,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
@@ -130,7 +130,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 72149,1,litu,720,2019.01,2019,March,28,14.25,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
 72210,1,qual,721,2019.01,2019,March,28,128.67,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
 72232,1,qual,722,2019.01,2019,March,28,103.65,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
-72248,1,caco,723,2019.01,2019,March,28,64.4,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
+72248,1,caovl,723,2019.01,2019,March,28,64.4,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,4
 72308,1,qual,725,2019.01,2019,March,28,44.54,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,7
 72322,1,litu,726,2019.01,2019,March,28,20.6,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,7
 72324,1,litu,726,2019.01,2019,March,28,14.61,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,7
@@ -145,7 +145,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 80005,1,fram,801,2019.01,2019,March,28,23.72,0, , ,,previous years have code A,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 80121,1,quve,801,2019.01,2019,March,28,4.54,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,3
 80100,1,litu,804,2019.01,2019,March,25,17.62,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
-80180,1,cato,804,2019.01,2019,March,25,150.85,0, , ,RE;F,checked previous measure,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
+80180,1,cagl,804,2019.01,2019,March,25,150.85,0, , ,RE;F,checked previous measure,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 80398,1,caco,807,2019.01,2019,March,25,NA,0, , ,DC;F,"dead, fallen, not removed because crushed","Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 80401,1,caco,807,2019.01,2019,March,25,145.4,0, , ,RE;F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 80615,1,litu,810,2019.01,2019,March,25,18.62,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
@@ -250,7 +250,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 110680,1,litu,1104,2019.01,2019,March,25,121.7,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 110788,1,litu,1104,2019.01,2019,March,25,105.03,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 110791,1,litu,1104,2019.01,2019,March,25,147.84,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
-110798,1,qupr,1104,2019.01,2019,March,25,23.13,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
+110798,1,litu,1104,2019.01,2019,March,25,23.13,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 110901,1,litu,1105,2019.01,2019,March,25,62.61,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 111014,1,litu,1107,2019.01,2019,March,25,139.2,0, , ,F,,"Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
 111029,1,litu,1107,2019.01,2019,March,25,16.14,0, , ,F,"written measurement was 161.43, should double check band is good in fall","Fanfan, Helen Bontrager, Ian McGregor",Ian McGregor,2
@@ -390,8 +390,8 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 142731,1,litu,1432,2019.01,2019,March,28,55.83,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,8
 142732,1,cagl,1432,2019.01,2019,March,28,30.7,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,8
 142733,1,litu,1432,2019.01,2019,March,28,21.28,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,8
-142735,1,qual,1432,2019.01,2019,March,28,72.7,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,8
-150756,1,quve,1503,2019.01,2019,March,28,30.98,0, , ,,,"Fanfan, Helen Bontrager",Ian McGregor,1
+142735,1,quve,1432,2019.01,2019,March,28,72.7,0, , ,,,"Rebecca Banbury Morgan, Ian McGregor",Ian McGregor,8
+150756,1,prse,1503,2019.01,2019,March,28,30.98,0, , ,,,"Fanfan, Helen Bontrager",Ian McGregor,1
 152153,1,ploc,1520,2019.01,2019,March,28,50.18,0, , ,,,"Fanfan, Helen Bontrager",Ian McGregor,6
 152513,1,qupr,1525,2019.01,2019,March ,28,5.36,0, , ,,,"Fanfan, Helen Bontrager",Ian McGregor,9
 152673,1,litu,1530,2019.01,2019,March ,28,57.6,0, , ,,,"Fanfan, Helen Bontrager",Ian McGregor,9

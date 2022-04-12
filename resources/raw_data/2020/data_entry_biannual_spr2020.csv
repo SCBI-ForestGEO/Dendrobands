@@ -2,7 +2,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 130348,1,litu,1302,2020.01,2020,3,11,151.3,0, , ,RE,,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
 140467,1,quve,1404,2020.01,2020,3,11,NA,0, , , ,band removed June 2019,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
 140609,1,litu,1403,2020.01,2020,3,11,NA,0, , ,RE,,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
-150756,1,quve,1503,2020.01,2020,3,11,NA,0, , , ,band removed June 2019,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
+150756,1,prse,1503,2020.01,2020,3,11,NA,0, , , ,band removed June 2019,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
 160713,1,litu,1603,2020.01,2020,3,11,141.75,0, , , ,,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
 160742,1,litu,1605,2020.01,2020,3,11,74.68,0, , , ,,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
 160814,1,cato,1611,2020.01,2020,3,11,NA,0, , , ,gap closed,"Krista Anderson-Teixeira, Sean McMahon",Jessica Shue,1
@@ -84,9 +84,9 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 70433,1,litu,710,2020.01,2020,4,11,133.19,0, , ,F,,Cameron Dow,Cameron Dow,2
 70519,1,qual,711,2020.01,2020,3,11,87.55,0, , ,F,,Jessica Shue,Jessica Shue,2
 70536,1,qual,711,2020.01,2020,3,11,12.22,0, , ,F,,Jessica Shue,Jessica Shue,2
-70579,1,caco,714,2020.01,2020,3,11,37.11,0, , ,F,,Jessica Shue,Jessica Shue,2
+70579,1,caovl,714,2020.01,2020,3,11,37.11,0, , ,F,,Jessica Shue,Jessica Shue,2
 80100,1,litu,804,2020.01,2020,3,11,31.08,0, , ,F,,Jessica Shue,Jessica Shue,2
-80180,1,cato,804,2020.01,2020,3,11,21.54,0, , ,F,double-checked,Jessica Shue,Jessica Shue,2
+80180,1,cagl,804,2020.01,2020,3,11,21.54,0, , ,F,double-checked,Jessica Shue,Jessica Shue,2
 80398,1,caco,807,2020.01,2020,3,11,NA,0,NA,NA,F;DN,,Jessica Shue,Jessica Shue,2
 80401,1,caco,807,2020.01,2020,3,11,21.15,0, , ,F,,Jessica Shue,Jessica Shue,2
 80554,1,caovl,813,2020.01,2020,3,11,91.48,0, , ,F,double-checked,Jessica Shue,Jessica Shue,2
@@ -123,7 +123,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 110680,1,litu,1104,2020.01,2020,3,11,131.05,0, , ,F,,Jessica Shue,Jessica Shue,2
 110788,1,litu,1104,2020.01,2020,3,11,113.8,0, , ,F,double-checked,Jessica Shue,Jessica Shue,2
 110791,1,litu,1104,2020.01,2020,3,11,11.16,0, , ,F,,Jessica Shue,Jessica Shue,2
-110798,1,qupr,1104,2020.01,2020,3,11,30.35,0, , ,F,species should be LITU; double-checked,Jessica Shue,Jessica Shue,2
+110798,1,litu,1104,2020.01,2020,3,11,30.35,0, , ,F,species should be LITU; double-checked,Jessica Shue,Jessica Shue,2
 110901,1,litu,1105,2020.01,2020,3,11,74.65,0, , ,F,,Jessica Shue,Jessica Shue,2
 111014,1,litu,1107,2020.01,2020,3,11,144.43,0, , ,F,,Jessica Shue,Jessica Shue,2
 111029,1,litu,1107,2020.01,2020,3,11,15.13,1, , ,F;DS,woodpecker damage,Jessica Shue,Jessica Shue,2
@@ -191,7 +191,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 40567,1,fagr,406,2020.01,2020,3,11,12.08,0, , , , ,Cameron Dow,Jessica Shue,3
 40568,1,fagr,406,2020.01,2020,3,11,12.04,0, , , , ,Cameron Dow,Jessica Shue,3
 40569,1,litu,407,2020.01,2020,3,11,90.42,0, , , , ,Cameron Dow,Jessica Shue,3
-40635,1,cagl,408,2020.01,2020,3,11,44.24,0, , , ,double-checked,Cameron Dow,Jessica Shue,3
+40635,1,cato,408,2020.01,2020,3,11,44.24,0, , , ,double-checked,Cameron Dow,Jessica Shue,3
 40941,1,litu,414,2020.01,2020,3,11,113.4,0, , ,RE,band is twisted up and at knee height,Cameron Dow,Jessica Shue,3
 40942,1,acru,414,2020.01,2020,3,11,101.93,0, , , , ,Cameron Dow,Jessica Shue,3
 40972,1,litu,415,2020.01,2020,3,11,23.6,0, , , ,double-checked,Cameron Dow,Jessica Shue,3
@@ -286,7 +286,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 72173,1,qual,720,2020.01,2020,3,11,8.8,0, , , , ,Cameron Dow,Jessica Shue,4
 72210,1,qual,721,2020.01,2020,3,11,8.49,0, , , , ,Cameron Dow,Jessica Shue,4
 72232,1,qual,722,2020.01,2020,3,11,109.7,0, , , , ,Cameron Dow,Jessica Shue,4
-72248,1,caco,723,2020.01,2020,3,11,70.82,0, , , , ,Cameron Dow,Jessica Shue,4
+72248,1,caovl,723,2020.01,2020,3,11,70.82,0, , , , ,Cameron Dow,Jessica Shue,4
 82125,1,cagl,819,2020.01,2020,3,11,30.9,0, , , , ,Cameron Dow,Jessica Shue,4
 82138,1,quru,820,2020.01,2020,3,11,87.64,0, , , , ,Cameron Dow,Jessica Shue,4
 82203,1,litu,822,2020.01,2020,3,11,26.68,0, , , , ,Cameron Dow,Jessica Shue,4
@@ -497,7 +497,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 142731,1,litu,1432,2020.01,2020,3,11,57.45,0, , , , ,Jessica Shue,Jessica Shue,8
 142732,1,cagl,1432,2020.01,2020,3,11,32.68,0, , , , ,Jessica Shue,Jessica Shue,8
 142733,1,litu,1432,2020.01,2020,3,11,31.61,0, , , , ,Jessica Shue,Jessica Shue,8
-142735,1,qual,1432,2020.01,2020,3,11,77.43,0, , , ,double-checked ,Jessica Shue,Jessica Shue,8
+142735,1,quve,1432,2020.01,2020,3,11,77.43,0, , , ,double-checked ,Jessica Shue,Jessica Shue,8
 143707,1,cagl,1426,2020.01,2020,3,11,18.63,0, , , , ,Jessica Shue,Jessica Shue,8
 152513,1,qupr,1525,2020.01,2020,3,,8.35,0, , , , ,"Sean McMahon, Jessica Shue",Jessica Shue,9
 152673,1,litu,1530,2020.01,2020,3,,74.24,0, , , , ,"Sean McMahon, Jessica Shue",Jessica Shue,9

@@ -43,7 +43,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 40567,1,fagr,406,2019.15,2019,November,6,12.05,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 40568,1,fagr,406,2019.15,2019,November,6,11.86,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 40569,1,litu,407,2019.15,2019,November,6,90.34,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
-40635,1,cagl,408,2019.15,2019,November,6,47.88,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
+40635,1,cato,408,2019.15,2019,November,6,47.88,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 40941,1,litu,414,2019.15,2019,November,6,127.13,1, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 40942,1,acru,414,2019.15,2019,November,6,102.13,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 40972,1,litu,415,2019.15,2019,November,6,11.04,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
@@ -118,7 +118,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 70494,1,caca,714,2019.15,2019,November,6,26.41,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 70494,2,caca,714,2019.15,2019,November,6,9.68,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 70495,1,caca,714,2019.15,2019,November,6,9.26,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
-70579,1,caco,714,2019.15,2019,November,6,39.91,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+70579,1,caovl,714,2019.15,2019,November,6,39.91,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 70581,1,quru,714,2019.15,2019,November,6,27.07,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 72024,1,quve,717,2019.15,2019,November,6,44.73,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
 72104,1,qual,718,2019.15,2019,November,6,7,0, , ,M;main,M;main,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
@@ -130,7 +130,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 72149,1,litu,720,2019.15,2019,November,6,22.52,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
 72210,1,qual,721,2019.15,2019,November,6,8.06,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
 72232,1,qual,722,2019.15,2019,November,6,107.97,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
-72248,1,caco,723,2019.15,2019,November,6,73.76,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
+72248,1,caovl,723,2019.15,2019,November,6,73.76,0, , ,,,"Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,4
 72308,1,qual,725,2019.15,2019,November,6,49.72,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
 72322,1,litu,726,2019.15,2019,November,6,21.75,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
 72324,1,litu,726,2019.15,2019,November,6,27.98,0, , ,,,Alyssa Terrell,Alyssa Terrell,7
@@ -145,7 +145,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 80005,1,fram,801,2019.15,2019,November,6,22.88,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 80121,1,quve,801,2019.15,2019,November,6,6.21,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,3
 80100,1,litu,804,2019.15,2019,November,6,31.1,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
-80180,1,cato,804,2019.15,2019,November,6,25.31,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+80180,1,cagl,804,2019.15,2019,November,6,25.31,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 80398,1,caco,807,2019.15,2019,November,6,NA,0, , ,DC;F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 80401,1,caco,807,2019.15,2019,November,6,23.39,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 80615,1,litu,810,2019.15,2019,November,6,35.54,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
@@ -250,7 +250,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 110680,1,litu,1104,2019.15,2019,November,6,131.87,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 110788,1,litu,1104,2019.15,2019,November,6,106.47,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 110791,1,litu,1104,2019.15,2019,November,6,11.82,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
-110798,1,qupr,1104,2019.15,2019,November,6,33.53,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
+110798,1,litu,1104,2019.15,2019,November,6,33.53,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 110901,1,litu,1105,2019.15,2019,November,6,75.05,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 111014,1,litu,1107,2019.15,2019,November,6,142.39,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
 111029,1,litu,1107,2019.15,2019,November,6,170.18,0, , ,F,,Alyssa Terrell; Cameron Dow; Kate Heneberry,Alyssa Terrell,2
@@ -390,8 +390,8 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,new.band,crown.condition
 142731,1,litu,1432,2019.15,2019,November,6,59.25,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
 142732,1,cagl,1432,2019.15,2019,November,6,34.26,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
 142733,1,litu,1432,2019.15,2019,November,6,31.82,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
-142735,1,qual,1432,2019.15,2019,November,6,82.21,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
-150756,1,quve,1503,2019.15,2019,November,6,36.67,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
+142735,1,quve,1432,2019.15,2019,November,6,82.21,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,8
+150756,1,prse,1503,2019.15,2019,November,6,36.67,0, , ,,,Alyssa Terrell,Alyssa Terrell,1
 152153,1,ploc,1520,2019.15,2019,November,6,60.11,0, , ,,,"Cameron Dow, Kate Heneberry",Alyssa Terrell,6
 152513,1,qupr,1525,2019.15,2019,November,6,10.54,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
 152673,1,litu,1530,2019.15,2019,November,6,70.88,0, , ,,,"Cameron Dow, Helen Bontrager, Zoi Paraskevopoulou",Alyssa Terrell,9
