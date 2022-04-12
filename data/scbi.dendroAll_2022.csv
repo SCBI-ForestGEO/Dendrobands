@@ -17,9 +17,9 @@
 22141,1,2022.01,2022,3,15,1,0,"tiam",221,1.9,1.2,10.55,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3170,3170,NA,142,1,1091,2,NA,1.4,NA,NA,NA,NA
 22170,1,2022.01,2022,3,15,1,0,"litu",221,7.9,13.8,38.41,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3197,3197,NA,1128,0,979,2,NA,1.2,NA,NA,NA,NA
 22186,1,2022.01,2022,3,15,1,1,"tiam",222,17,7.5,4.9,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3212,3212,NA,370,1,1092,2,NA,1.4,NA,NA,NA,NA
-22186,1,2022.02,2022,4,4,1,1,"tiam",222,17,7.5,NA,"","","alive","Isabella Dangler",NA,3212,3212,NA,370,0,1092,2,NA,1.4,NA,NA,NA,NA
+22186,1,2022.02,2022,4,4,1,1,"tiam",222,17,7.5,4.26,"","","alive","Isabella Dangler",NA,3212,3212,NA,370,0,1092,2,NA,1.4,NA,NA,NA,NA
 22198,2,2022.01,2022,3,15,1,1,"tiam",222,16.1,10.9,14.86,"L","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",32585,3223,NA,160,1,1093,2,NA,1.4,NA,NA,NA,NA
-22198,2,2022.02,2022,4,4,1,1,"tiam",222,16.1,10.9,NA,"","","alive","Isabella Dangler",NA,32585,3223,NA,160,0,1093,2,NA,1.4,NA,NA,NA,NA
+22198,2,2022.02,2022,4,4,1,1,"tiam",222,16.1,10.9,14.03,"L","","alive","Isabella Dangler",NA,32585,3223,NA,160,0,1093,2,NA,1.4,NA,NA,NA,NA
 22315,1,2022.01,2022,3,15,1,1,"caco",225,11,4,12.22,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3338,3338,NA,550,0,863,2,NA,1.4,NA,NA,NA,NA
 22315,1,2022.02,2022,4,4,1,1,"caco",225,11,4,13.7,"","","alive","Jen Jordan",NA,3338,3338,NA,550,0,863,2,NA,1.4,NA,NA,NA,NA
 30225,1,2022.01,2022,3,15,1,0,"qual",306,20,3.1,36.06,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3866,3866,NA,301,0,543,2,NA,1.42,NA,NA,NA,NA
@@ -32,7 +32,7 @@
 30333,1,2022.01,2022,3,15,1,1,"fagr",306,14,19.3,81.51,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3969,3969,NA,222,0,726,2,NA,1.52,NA,NA,NA,NA
 30333,1,2022.02,2022,4,4,1,1,"fagr",306,14,19.3,80.4,"","","alive","Jen Jordan",NA,3969,3969,NA,222,0,726,2,NA,1.52,NA,NA,NA,NA
 30339,1,2022.01,2022,3,15,1,1,"litu",307,8.6,4.1,107.23,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",3975,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
-30339,1,2022.02,2022,4,4,1,1,"litu",307,8.6,4.1,104.1,"BA","Band adjusted","alive","Jen Jordan",NA,3975,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+30339,1,2022.02,2022,4,4,1,1,"litu",307,8.6,4.1,104.1,"BA","","alive","Jen Jordan",NA,3975,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
 30339,2,2022.01,2022,3,15,1,1,"litu",307,8.6,4.1,112.31,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",32681,3975,NA,153.1,0,752,2,NA,1.3,NA,NA,NA,NA
 30339,2,2022.02,2022,4,4,1,1,"litu",307,8.6,4.1,111.39,"","","alive","Jen Jordan",NA,32681,3975,NA,153.1,0,752,2,NA,1.3,NA,NA,NA,NA
 30339,3,2022.01,2022,3,15,1,1,"litu",307,8.6,4.1,47.85,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",37149,3975,NA,153.1,0,549,2,NA,1.3,NA,NA,NA,NA
@@ -58,11 +58,11 @@
 40562,1,2022.01,2022,3,15,1,1,"fagr",406,6.3,16.2,11.5,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",5039,5039,NA,86,0,952,2,NA,1.4,NA,NA,NA,NA
 40562,1,2022.02,2022,4,4,1,1,"fagr",406,6.3,16.2,11.15,"","","alive","Jen Jordan",NA,5039,5039,NA,86,0,952,2,NA,1.4,NA,NA,NA,NA
 40563,1,2022.01,2022,3,15,1,1,"fagr",406,3.6,17.8,76.86,"","needs new tag embedded","alive","Isabella Dangler, Jen Jordan","Jessica Shue",5040,5040,NA,365,0,832,2,NA,1.44,NA,NA,NA,NA
-40563,1,2022.02,2022,4,4,1,1,"fagr",406,3.6,17.8,76.92,"","Embedded tag (2022.02)","alive","Jen Jordan",NA,5040,5040,NA,365,0,832,2,NA,1.44,NA,NA,NA,NA
+40563,1,2022.02,2022,4,4,1,1,"fagr",406,3.6,17.8,76.92,"","Tag embedded","alive","Jen Jordan",NA,5040,5040,NA,365,0,832,2,NA,1.44,NA,NA,NA,NA
 40564,1,2022.01,2022,3,15,1,1,"fagr",406,2.4,12.4,8.7,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",5041,5041,NA,57.8,1,1115,2,NA,1.38,NA,NA,NA,NA
 40564,1,2022.02,2022,4,4,1,1,"fagr",406,2.4,12.4,8.66,"","","alive","Jen Jordan",NA,5041,5041,NA,57.8,0,1115,2,NA,1.38,NA,NA,NA,NA
 40565,1,2022.01,2022,3,15,1,1,"cagl",406,1.9,10.1,NA,"RE","band needs replacing","alive","Isabella Dangler, Jen Jordan","Jessica Shue",5042,5042,NA,184,0,959,2,NA,1.4,NA,NA,NA,NA
-40565,1,2022.02,2022,4,4,1,1,"cagl",406,1.9,10.1,NA,"","Unable to read band - no gap (2022.02)","alive","Jen Jordan",NA,5042,5042,NA,184,0,959,2,NA,1.4,NA,NA,NA,NA
+40565,1,2022.02,2022,4,4,1,1,"cagl",406,1.9,10.1,NA,"RE","Unable to read band - no gap","alive","Jen Jordan",NA,5042,5042,NA,184,0,959,2,NA,1.4,NA,NA,NA,NA
 40566,1,2022.01,2022,3,15,1,1,"cagl",406,1.1,9.4,28.9,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",5043,5043,NA,270.2,0,833,2,NA,1.41,NA,NA,NA,NA
 40566,1,2022.02,2022,4,4,1,1,"cagl",406,1.1,9.4,28.79,"","","alive","Jen Jordan",NA,5043,5043,NA,270.2,0,833,2,NA,1.41,NA,NA,NA,NA
 40567,1,2022.01,2022,3,15,1,1,"fagr",406,1.6,7.2,21.6,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",5044,5044,NA,93.3,0,801,2,NA,1.43,NA,NA,NA,NA
@@ -101,7 +101,7 @@
 60459,1,2022.01,2022,3,15,1,1,"fagr",615,2,3,25.03,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",7444,7444,NA,99.7,0,755,2,NA,1.36,NA,NA,NA,NA
 60459,1,2022.02,2022,4,4,1,1,"fagr",615,2,3,24.86,"","","alive","Jen Jordan",NA,7444,7444,NA,99.7,0,755,2,NA,1.36,NA,NA,NA,NA
 60462,1,2022.01,2022,3,15,1,1,"fagr",615,5.6,7.6,97.74,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
-60462,1,2022.02,2022,4,4,1,1,"fagr",615,5.6,7.6,97.14,"","Embedded tag (2022.02)","alive","Jen Jordan",NA,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
+60462,1,2022.02,2022,4,4,1,1,"fagr",615,5.6,7.6,97.14,"","Embedded tag","alive","Jen Jordan",NA,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
 60463,1,2022.01,2022,3,15,1,1,"juni",615,7.2,8,71.71,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",7448,7448,NA,468,0,756,2,NA,1.43,NA,NA,NA,NA
 60463,1,2022.02,2022,4,4,1,1,"juni",615,7.2,8,71.14,"","","alive","Jen Jordan",NA,7448,7448,NA,468,0,756,2,NA,1.43,NA,NA,NA,NA
 60468,1,2022.01,2022,3,15,1,0,"caca",615,5.4,9.6,12.21,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",7453,7453,NA,74,0,926,2,NA,1.25,NA,NA,NA,NA
@@ -166,7 +166,7 @@
 70581,1,2022.01,2022,3,15,1,1,"quru",714,13.7,1.2,36.46,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
 70581,1,2022.02,2022,4,4,1,1,"quru",714,13.7,1.2,36.45,"","","alive","Jen Jordan",NA,8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
 72024,1,2022.01,2022,3,15,1,1,"quve",717,20,9.6,58.99,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8670,8670,NA,482.3,0,758,2,NA,1.4,NA,NA,NA,NA
-72024,1,2022.02,2022,4,4,1,1,"quve",717,20,9.6,NA,"","","alive","",NA,8670,8670,NA,482.3,0,758,2,NA,1.4,NA,NA,NA,NA
+72024,1,2022.02,2022,4,4,1,1,"quve",717,20,9.6,59.83,"","","alive","Isabella Dangler",NA,8670,8670,NA,482.3,0,758,2,NA,1.4,NA,NA,NA,NA
 72104,1,2022.01,2022,3,15,1,0,"qual",718,6.2,17.8,15.47,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8749,8749,NA,260,0,877,2,NA,1.4,NA,NA,NA,NA
 72115,1,2022.01,2022,3,15,1,0,"litu",719,11.2,10.7,104.36,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8760,8760,NA,479.9,0,71,2,NA,1.51,NA,NA,NA,NA
 72116,1,2022.01,2022,3,15,1,1,"litu",719,14.4,10.8,43.3,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8761,8761,NA,502,0,973,2,NA,1.4,NA,NA,NA,NA
@@ -176,7 +176,7 @@
 72124,1,2022.02,2022,4,4,1,1,"quru",719,12.5,19.4,42.52,"","","alive","Jen Jordan",NA,8769,8769,NA,747.2,0,850,2,NA,1.54,NA,NA,NA,NA
 72149,1,2022.01,2022,3,15,1,0,"litu",720,13.8,0.7,41.38,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8794,8794,NA,554.1,0,804,2,NA,1.45,NA,NA,NA,NA
 72173,1,2022.01,2022,3,15,1,0,"qual",720,6,10.2,21.61,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8818,8818,NA,450,0,897,2,NA,1.4,NA,NA,NA,NA
-72210,1,2022.01,2022,3,15,1,1,"qual",721,5.2,11.5,30.87,"RA","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
+72210,1,2022.01,2022,3,15,1,1,"qual",721,5.2,11.5,30.87,"BA","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
 72210,1,2022.02,2022,4,4,1,1,"qual",721,5.2,11.5,29.35,"","","alive","Isabella Dangler",NA,8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
 72232,1,2022.01,2022,3,15,1,0,"qual",722,14.5,12.6,125.1,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8875,8875,NA,728.5,0,77,2,NA,1.45,NA,NA,NA,NA
 72248,1,2022.01,2022,3,15,1,0,"caco",723,15,0.3,67.26,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
@@ -194,7 +194,7 @@
 72375,1,2022.01,2022,3,15,1,0,"litu",728,13.7,17.1,101.16,"","","alive","Bill McShea","Jessica Shue",9015,9015,NA,669.1,0,85,2,NA,1.28,NA,NA,NA,NA
 72377,1,2022.01,2022,3,15,1,0,"litu",728,10.6,16.1,51.9,"","","alive","Bill McShea","Jessica Shue",9016,9016,NA,768,0,931,2,NA,1.2,NA,NA,NA,NA
 72427,1,2022.01,2022,3,15,1,1,"litu",730,3.6,19.4,81.04,"","Band messed","alive","Bill McShea","Jessica Shue",9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2022.02,2022,4,4,1,1,"litu",730,3.6,19.4,81.19,"BA","Band adjusted","alive","Isabella Dangler",NA,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+72427,1,2022.02,2022,4,4,1,1,"litu",730,3.6,19.4,81.19,"BA","","alive","Isabella Dangler",NA,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72447,1,2022.01,2022,3,15,1,0,"litu",732,14.9,4.1,95.08,"","","alive","Bill McShea","Jessica Shue",9085,9085,NA,591.3,0,710,2,NA,1.31,NA,NA,NA,NA
 72448,1,2022.01,2022,3,15,1,0,"litu",732,18.9,4.7,38.9,"","","alive","Bill McShea","Jessica Shue",9086,9086,NA,490,0,902,2,NA,1.35,NA,NA,NA,NA
 80100,1,2022.01,2022,3,15,1,0,"litu",804,3.4,12.6,54.02,"","","alive","Jessica Shue","Jessica Shue",9197,9197,NA,582,0,903,2,NA,1.4,NA,NA,NA,NA
@@ -216,7 +216,7 @@
 82203,1,2022.01,2022,3,15,1,1,"litu",822,8,9.4,53.06,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",10045,10045,NA,654,0,934,2,NA,1.4,NA,NA,NA,NA
 82203,1,2022.02,2022,4,4,1,1,"litu",822,8,9.4,52.53,"","","alive","Isabella Dangler",NA,10045,10045,NA,654,0,934,2,NA,1.4,NA,NA,NA,NA
 82219,1,2022.01,2022,3,15,1,1,"ceca",822,14.7,18.8,14.63,"L","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",10061,10061,NA,87,1,1100,2,NA,1.4,NA,NA,NA,NA
-82219,1,2022.02,2022,4,4,1,1,"ceca",822,14.7,18.8,NA,"","","alive","Isabella Dangler",NA,10061,10061,NA,87,0,1100,2,NA,1.4,NA,NA,NA,NA
+82219,1,2022.02,2022,4,4,1,1,"ceca",822,14.7,18.8,14.53,"L","","alive","Isabella Dangler",NA,10061,10061,NA,87,0,1100,2,NA,1.4,NA,NA,NA,NA
 82223,1,2022.01,2022,3,15,1,0,"litu",822,0.5,17.7,50.98,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",10065,10065,NA,427,0,935,2,NA,1.35,NA,NA,NA,NA
 82226,1,2022.01,2022,3,15,1,0,"litu",823,2,4,62.42,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",10068,10068,NA,253.3,0,108,2,NA,1.39,NA,NA,NA,NA
 82284,1,2022.01,2022,3,15,1,0,"quve",825,1.3,12,79.25,"","","alive","Bill McShea","Jessica Shue",10124,10124,NA,801.8,0,109,2,NA,1.27,NA,NA,NA,NA
@@ -232,7 +232,7 @@
 82419,1,2022.01,2022,3,15,1,0,"litu",831,3.3,10,58.18,"","","alive","Bill McShea","Jessica Shue",10257,10257,NA,804.5,0,807,2,NA,1.24,NA,NA,NA,NA
 82421,1,2022.01,2022,3,15,1,0,"litu",831,5.6,14.7,13.09,"","","alive","Bill McShea","Jessica Shue",10259,10259,NA,561,0,118,2,NA,1.19,NA,NA,NA,NA
 82422,1,2022.01,2022,3,15,1,1,"litu",831,6.9,19.5,97.83,"","","alive","Bill McShea","Jessica Shue",10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
-82422,1,2022.02,2022,4,4,1,1,"litu",831,6.9,19.5,98.77,"BA","Band adjusted","alive","Isabella Dangler",NA,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
+82422,1,2022.02,2022,4,4,1,1,"litu",831,6.9,19.5,98.77,"BA","","alive","Isabella Dangler",NA,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 82434,1,2022.01,2022,3,15,1,0,"quve",832,6,15.6,22.88,"","","alive","Bill McShea","Jessica Shue",10272,10272,NA,826.8,0,120,2,NA,1.33,NA,NA,NA,NA
 90162,1,2022.01,2022,3,15,1,0,"litu",904,16.9,11.1,106.2,"","","alive","Jessica Shue","Jessica Shue",10426,10426,NA,655.9,0,596,2,NA,1.35,NA,NA,NA,NA
 90311,1,2022.01,2022,3,15,1,0,"cagl",904,17.5,15.8,19.84,"","","alive","Jessica Shue","Jessica Shue",10565,10565,NA,167.8,0,513,2,NA,1.3,NA,NA,NA,NA
@@ -344,10 +344,10 @@
 112137,1,2022.01,2022,3,15,1,0,"qual",1120,13.4,3.9,51.22,"","","alive","Albert Kim","Jessica Shue",14863,14863,NA,572,0,810,2,NA,1.45,NA,NA,NA,NA
 112142,1,2022.01,2022,3,15,1,0,"qual",1120,16,3.5,34.39,"","","alive","Albert Kim","Jessica Shue",14868,14868,NA,385.6,0,811,2,NA,1.3,NA,NA,NA,NA
 112250,1,2022.01,2022,3,15,1,1,"pist",1122,10.8,18.4,67.55,"","Tag swallowed","alive","Albert Kim","Jessica Shue",14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
-112250,1,2022.02,2022,4,4,1,1,"pist",1122,10.8,18.4,NA,"","","alive","Isabella Dangler",NA,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
+112250,1,2022.02,2022,4,4,1,1,"pist",1122,10.8,18.4,69.41,"","Embedded tag","alive","Isabella Dangler",NA,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
 112252,1,2022.01,2022,3,15,1,0,"litu",1122,13.6,19.4,103.19,"","","alive","Albert Kim","Jessica Shue",14969,14969,NA,451,0,988,2,NA,1.4,NA,NA,NA,NA
 112262,1,2022.01,2022,3,15,1,1,"quru",1123,17.5,1.5,59.71,"","","alive","Albert Kim","Jessica Shue",14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
-112262,1,2022.02,2022,4,4,1,1,"quru",1123,17.5,1.5,NA,"","","alive","Isabella Dangler",NA,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
+112262,1,2022.02,2022,4,4,1,1,"quru",1123,17.5,1.5,59.92,"","","alive","Isabella Dangler",NA,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
 112316,1,2022.01,2022,3,15,1,0,"quve",1125,8.7,1,126.18,"","","alive","Bill McShea","Jessica Shue",15032,15032,NA,822.8,0,137,2,NA,1.45,NA,NA,NA,NA
 112336,1,2022.01,2022,3,15,1,1,"qual",1125,17,13.8,14.65,"","","alive","Bill McShea","Jessica Shue",15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
 112336,1,2022.02,2022,4,4,1,1,"qual",1125,17,13.8,14.68,"","","alive","Isabella Dangler",NA,15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
@@ -378,10 +378,10 @@
 121305,1,2022.02,2022,4,4,1,1,"quru",1211,1.1,11.2,17.14,"","","alive","Jen Jordan",NA,16400,16400,NA,753.8,0,350,2,NA,1.4,NA,NA,NA,NA
 121367,1,2022.01,2022,3,15,1,0,"nysy",1216,4.6,10.8,76.67,"","","alive","Albert Kim","Jessica Shue",16460,16460,NA,255.6,0,519,2,NA,1.31,NA,NA,NA,NA
 121374,1,2022.01,2022,3,15,1,1,"juni",1216,0.7,18.5,115.75,"","","alive","Albert Kim","Jessica Shue",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
-121374,1,2022.02,2022,4,4,1,1,"juni",1216,0.7,18.5,115.38,"","Embedded tag (2022.02)","alive","Jen Jordan",NA,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
+121374,1,2022.02,2022,4,4,1,1,"juni",1216,0.7,18.5,115.38,"","Embedded tag","alive","Jen Jordan",NA,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.01,2022,3,15,1,0,"caco",1215,19.1,6.5,30.53,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 122006,1,2022.01,2022,3,15,1,1,"acru",1217,9.9,8.3,49.83,"","","alive","Albert Kim","Jessica Shue",16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
-122006,1,2022.02,2022,4,4,1,1,"acru",1217,9.9,8.3,49.21,"","Needs new band (back of it is twisted) (2022.02)","alive","Jen Jordan",NA,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
+122006,1,2022.02,2022,4,4,1,1,"acru",1217,9.9,8.3,49.21,"RE","Needs new band (back of it is twisted)","alive","Jen Jordan",NA,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
 122009,1,2022.01,2022,3,15,1,1,"acru",1217,1.2,4.1,20.56,"","","alive","Albert Kim","Jessica Shue",16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122009,1,2022.02,2022,4,4,1,1,"acru",1217,1.2,4.1,20.12,"","","alive","Jen Jordan",NA,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122120,1,2022.01,2022,3,15,1,0,"qual",1220,2.6,0.6,27.46,"","","alive","Albert Kim","Jessica Shue",16654,16654,NA,305.8,0,354,2,NA,1.3,NA,NA,NA,NA
@@ -453,7 +453,7 @@
 141216,1,2022.01,2022,3,15,1,0,"caco",1415,2.1,6.2,24.26,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",19931,19931,NA,147,0,886,2,NA,1.4,NA,NA,NA,NA
 142113,1,2022.01,2022,3,15,1,0,"cagl",1417,3,5,43.63,"","","alive","Albert Kim","Jessica Shue",20076,20076,NA,477.2,0,192,2,NA,1.39,NA,NA,NA,NA
 142380,1,2022.01,2022,3,15,1,1,"qual",1425,6.8,13.1,39.53,"","","alive","Bill McShea","Jessica Shue",20329,20329,NA,593,0,971,2,NA,1.4,NA,NA,NA,NA
-142380,1,2022.02,2022,4,4,1,1,"qual",1425,6.8,13.1,41.21,"","No tag (2022.02)","alive","Isabella Dangler",NA,20329,20329,NA,593,0,971,2,NA,1.4,NA,NA,NA,NA
+142380,1,2022.02,2022,4,4,1,1,"qual",1425,6.8,13.1,41.21,"","No tag","alive","Isabella Dangler",NA,20329,20329,NA,593,0,971,2,NA,1.4,NA,NA,NA,NA
 142399,1,2022.01,2022,3,15,1,0,"qual",1427,14.4,0.5,32.87,"","","alive","Bill McShea","Jessica Shue",20345,20345,NA,628,0,887,2,NA,1.4,NA,NA,NA,NA
 142521,1,2022.01,2022,3,15,1,1,"pist",1422,6.4,11.1,104.36,"","","alive","Albert Kim","Jessica Shue",20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
 142521,1,2022.02,2022,4,4,1,1,"pist",1422,6.4,11.1,104.81,"","","alive","Isabella Dangler",NA,20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
@@ -530,7 +530,7 @@
 172470,1,2022.01,2022,3,15,1,1,"quru",1728,11.1,12,43.96,"","","alive","Bill McShea","Jessica Shue",25755,25755,NA,710,0,721,2,NA,1.25,NA,NA,NA,NA
 172470,1,2022.02,2022,4,4,1,1,"quru",1728,11.1,12,44.71,"","","alive","Isabella Dangler",NA,25755,25755,NA,710,0,721,2,NA,1.25,NA,NA,NA,NA
 172499,1,2022.01,2022,3,15,1,1,"qual",1730,17,3.1,43.94,"","","alive","Bill McShea","Jessica Shue",25783,25783,NA,1056,0,957,2,NA,1.35,NA,NA,NA,NA
-172499,1,2022.02,2022,4,4,1,1,"qual",1730,17,3.1,44.42,"","No tag (2022.02)","alive","Isabella Dangler",NA,25783,25783,NA,1056,0,957,2,NA,1.35,NA,NA,NA,NA
+172499,1,2022.02,2022,4,4,1,1,"qual",1730,17,3.1,44.42,"","No tag","alive","Isabella Dangler",NA,25783,25783,NA,1056,0,957,2,NA,1.35,NA,NA,NA,NA
 172556,1,2022.01,2022,3,15,1,0,"litu",1729,5.1,3.9,99.42,"","","alive","Bill McShea","Jessica Shue",25837,25837,NA,817.5,0,819,2,NA,1.2,NA,NA,NA,NA
 172624,1,2022.01,2022,3,15,1,0,"litu",1731,17.1,14.5,56.3,"","","alive","Bill McShea","Jessica Shue",25900,25900,NA,464.5,0,793,2,NA,1.45,NA,NA,NA,NA
 180235,1,2022.01,2022,3,15,1,0,"litu",1802,11,4.6,69.85,"","new tag","alive","John Whitmoyer","Jessica Shue",26127,26127,NA,1035,0,947,2,NA,1.4,NA,NA,NA,NA
@@ -632,7 +632,7 @@
 202203,1,2022.01,2022,3,15,1,0,"quru",2017,9.2,1.4,82.9,"","tag on ground","alive","Isabella Dangler, Jen Jordan","Jessica Shue",30583,30583,NA,479.9,0,798,2,NA,1.3,NA,NA,NA,NA
 202212,1,2022.01,2022,3,15,1,0,"quve",2017,4.3,9.5,69.85,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",30592,30592,NA,598.7,0,541,2,NA,1.3,NA,NA,NA,NA
 202215,1,2022.01,2022,3,15,1,1,"qual",2017,5.5,11.7,106.64,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
-202215,1,2022.02,2022,4,4,1,1,"qual",2017,5.5,11.7,105.85,"","Tag on ground (2022.02)","alive","Jen Jordan",NA,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
+202215,1,2022.02,2022,4,4,1,1,"qual",2017,5.5,11.7,105.85,"","Tag on ground","alive","Jen Jordan",NA,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
 202276,1,2022.01,2022,3,15,1,0,"caovl",2019,7.1,13.8,16.3,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",30649,30649,NA,264,1,1112,2,NA,1.4,NA,NA,NA,NA
 202283,1,2022.01,2022,3,15,1,0,"litu",2020,4.5,2.9,38.4,"","needs tag","alive","Isabella Dangler, Jen Jordan","Jessica Shue",30656,30656,NA,258.1,0,748,2,NA,1.3,NA,NA,NA,NA
 202336,1,2022.01,2022,3,15,1,0,"cagl",2022,3,10.7,126.56,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",30709,30709,NA,430,0,655,2,NA,1.3,NA,NA,NA,NA

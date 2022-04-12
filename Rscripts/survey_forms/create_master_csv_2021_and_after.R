@@ -167,8 +167,10 @@ if(file.exists(current_year_spring_biannual_filename)){
   
   
   
-  ## 2.b) Create field form for next biweekly (if no such surveys have taken place yet)----
+  ## 2.b) Create field form for first biweekly (if it hasn't taken place yet)----
   if(length(current_year_intraannual_filename_list) == 0){
+    new_survey_ID <- "02"
+    
     blank_form <- scbi.dendroAll_BLANK %>% 
       as_tibble() %>% 
       # IMPORTANT: Keep only intraannual
@@ -177,7 +179,10 @@ if(file.exists(current_year_spring_biannual_filename)){
       left_join(stem_locations, by = c("tag", "stemtag", "quadrat")) %>% 
       # Join previous measure
       left_join(
-        test %>% select(tag, stemtag, previous_measure = measure),
+        test %>% 
+          filter(survey.ID == max(survey.ID)) %>% 
+          select(tag, stemtag, previous_measure = measure) %>% 
+          distinct(),
         by = c("tag", "stemtag")
       ) %>% 
       mutate(measure_verified = "")
@@ -199,10 +204,10 @@ if(file.exists(current_year_spring_biannual_filename)){
       ) %>% 
       mutate(
         year = current_year, 
-        survey.ID = str_c(year, ".02")
+        survey.ID = str_c(year, ".", new_survey_ID)
       )
     
-    str_c(here(), "/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-02-BLANK.csv") %>% 
+    str_c(here(), "/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-", new_survey_ID, "-BLANK.csv") %>% 
       write_csv(x = blank_form, file = .)
   }
   
@@ -280,12 +285,53 @@ if(length(current_year_intraannual_filename_list) > 0){
     
     # Write to CSV
     write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
-    
-    
-    ## 3.b) Create field form for next biweekly -----
-    
-    
   }
+  
+  ## 3.b) Create field form for next biweekly -----
+  # Create survey.ID in double digit form
+  new_survey_ID <- length(current_year_intraannual_filename_list) + 2
+  new_survey_ID <- str_pad(new_survey_ID, width = 2, side = "left", pad = "0")
+  
+  blank_form <- scbi.dendroAll_BLANK %>% 
+    as_tibble() %>% 
+    # IMPORTANT: Keep only intraannual
+    filter(intraannual == 1) %>% 
+    # Join location data
+    left_join(stem_locations, by = c("tag", "stemtag", "quadrat")) %>% 
+    # Join previous measure from last survey
+    left_join(
+      test %>% 
+        filter(survey.ID == max(survey.ID)) %>% 
+        select(tag, stemtag, previous_measure = measure) %>% 
+        distinct(),
+      by = c("tag", "stemtag")
+    ) %>% 
+    mutate(measure_verified = "")
+  
+  blank_form[, variables_to_reset] <- ""
+  
+  blank_form <- blank_form %>% 
+    select(
+      # Variables identifying stem:
+      tag, stemtag, sp, dbh, 
+      # Location variables:
+      quadrat, lx, ly, area, location, 
+      # Measured variables:
+      previous_measure, measure, measure_verified, 
+      # crown.condition, crown.illum, 
+      new.band, codes, notes, 
+      # Variables with values that won't vary within one survey:
+      survey.ID, year, month, day, field.recorders, data.enter
+    ) %>% 
+    mutate(
+      year = current_year, 
+      survey.ID = str_c(year, ".", new_survey_ID)
+    )
+  
+  str_c(here(), "/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-", new_survey_ID, "-BLANK.csv") %>% 
+    write_csv(x = blank_form, file = .)
+  
+  
 }
 
 
