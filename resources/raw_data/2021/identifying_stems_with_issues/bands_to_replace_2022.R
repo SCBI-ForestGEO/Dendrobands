@@ -1152,6 +1152,13 @@ master_2022_sheet <- master_2022_sheet %>%
   mutate(tag_stemtag = str_c(tag, stemtag, sep = "-"))
 
 
+
+## Switch back autodendrometer tags that were accidentally reverted back to biannual
+# https://github.com/SCBI-ForestGEO/Dendrobands/issues/117
+master_2022_sheet <- master_2022_sheet %>% 
+  mutate(intraannual = ifelse(tag %in% c(50650,60582), 1, intraannual)) 
+
+
 ## FINAL Sanity check: with Google sheet -----
 master_2022_sheet %>% 
   group_by(intraannual, sp) %>% 
