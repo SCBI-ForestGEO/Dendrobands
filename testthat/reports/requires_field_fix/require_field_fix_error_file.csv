@@ -1,2 +1,0 @@
-alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
-survey_ID_increment_wrong,72024,1,2022.02,2022,5,4,1,1,quve,717,20,9.6,59.83,NA,NA,alive,Isabella Dangler,Jen Jordan,8670,8670,NA,482.3,0,758,2,NA,1.4,NA,NA,NA,NA
