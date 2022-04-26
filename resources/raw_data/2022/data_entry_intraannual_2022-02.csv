@@ -51,7 +51,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 70536,1,qual,599,711,11.9,7.4,2,South,26.22,25.25,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
 70579,1,caovl,236.1,714,19.2,4.3,2,South,40.93,41.62,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
 70581,1,quru,614.5,714,13.7,1.2,3,South,36.46,36.45,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
-72024,1,quve,482.3,717,20,9.6,4,North,58.99,59.83,,,,,2022.02,2022,5,4,Isabella Dangler,Jen Jordan
+72024,1,quve,482.3,717,20,9.6,4,North,58.99,59.83,,,,,2022.02,2022,4,5,Isabella Dangler,Jen Jordan
 72116,1,litu,502,719,14.4,10.8,4,North,43.3,43.41,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
 72124,1,quru,747.2,719,12.5,19.4,4,North,42.42,42.52,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
 72210,1,qual,872,721,5.2,11.5,4,North,30.87,29.35,,,,,2022.02,2022,4,4,Isabella Dangler,Jen Jordan
@@ -65,7 +65,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 80554,1,caovl,529,813,6.9,11.2,2,South,9.71,12.96,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
 80559,1,nysy,434.6,813,8.9,17.8,2,South,6.17,6.19,,,,,2022.02,2022,4,4,Jen Jordan,Jen Jordan
 82203,1,litu,654,822,8,9.4,4,North,53.06,52.53,,,,,2022.02,2022,4,4,Isabella Dangler,Jen Jordan
-82219,1,ceca,87,822,14.7,18.8,4,North,14.63,14.53,,,L,,2022.02,2022,5,4,Isabella Dangler,Jen Jordan
+82219,1,ceca,87,822,14.7,18.8,4,North,14.63,14.53,,,L,,2022.02,2022,4,5,Isabella Dangler,Jen Jordan
 82360,1,litu,604.5,829,2.3,0.7,7,North,47.45,47.36,,,,,2022.02,2022,4,4,Isabella Dangler,Jen Jordan
 82365,1,qual,438.1,829,4.9,4.7,7,North,63.04,62.81,,,,,2022.02,2022,4,4,Isabella Dangler,Jen Jordan
 82422,1,litu,546.5,831,6.9,19.5,7,North,97.83,98.77,,,BA,,2022.02,2022,4,4,Isabella Dangler,Jen Jordan
