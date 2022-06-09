@@ -5,4 +5,3 @@
 .DS_Store
 *.rds
 .httr-oauth
-data/dendro_trees.csv
