@@ -337,7 +337,9 @@ if(nrow(stems_to_alert) > 0) {
     anomaly_stemtag <- stems_to_alert$stemtag[i]
     
     anomaly_raw_data_file <- str_c(
-      "resources/raw_data/2021/data_entry_intraannual_", 
+      "resources/raw_data/",
+      current_year, 
+      "/data_entry_intraannual_", 
       # Because of differences in survey.ID variable and filename
       # Ex: 2021.02 vs 2021-02:
       anomaly_survey_id %>% str_replace("\\.", "-"), 
@@ -347,7 +349,14 @@ if(nrow(stems_to_alert) > 0) {
     # Special case for fall survey
     if(file.exists(fall_biannual_survey)){
       if(stems_to_alert$survey.ID[i] == fall_biannual_survey_ID) {
-        anomaly_raw_data_file <- "resources/raw_data/2021/data_entry_biannual_fall2021.csv"
+        anomaly_raw_data_file <- 
+          str_c(
+            "resources/raw_data/",
+            current_year,
+            "/data_entry_biannual_fall",
+            current_year,
+            ".csv"
+          )
       }
     }
     
@@ -386,7 +395,6 @@ if(nrow(anamoly_dendroband_measurements) > 0){
     geom_point(data = stems_to_alert, col = "black", size = 4, shape = 18) +
     facet_wrap(~tag_sp, scales = "free_y") +
     theme_bw() +
-    geom_vline(xintercept = ymd("2021-07-21"), col = "black", linetype = "dashed") +
     geom_vline(data = anamoly_dendroband_measurements %>% filter(new.band == 1), aes(xintercept = date)) + 
     labs(
       x = "Biweekly survey date",
