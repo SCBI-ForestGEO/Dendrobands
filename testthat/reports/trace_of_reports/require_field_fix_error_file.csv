@@ -102,3 +102,5 @@ code_not_defined,72210,1,2022.01,2022,3,15,1,1,qual,721,5.2,11.5,30.87,RA,NA,ali
 code_not_defined,72427,1,2022.02,2022,4,4,1,1,litu,730,3.6,19.4,81.19,BA(2022.02),Band adjusted,alive,Isabella Dangler,NA,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 code_not_defined,82422,1,2022.02,2022,4,4,1,1,litu,831,6.9,19.5,98.77,BA(2022.02),Band adjusted,alive,Isabella Dangler,NA,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 survey_ID_increment_wrong,72024,1,2022.02,2022,5,4,1,1,quve,717,20,9.6,59.83,NA,NA,alive,Isabella Dangler,Jen Jordan,8670,8670,NA,482.3,0,758,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,30584,1,2022.06,2022,6,8,1,1,quve,316,2.2,14.4,135.19,NA,NA,alive,Erin MacMonigle,Jen Jordan,4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
+new_measure_too_different_from_previous,62224,1,2022.06,2022,6,8,1,1,litu,622,3.2,17.3,57.62,NA,NA,alive,Erin MacMonigle,Jen Jordan,7801,7801,NA,1040.5,0,849,2,NA,1.3,NA,NA,NA,NA
