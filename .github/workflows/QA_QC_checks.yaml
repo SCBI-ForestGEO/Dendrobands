@@ -1,7 +1,10 @@
-# This file determines when GitHub Actions (GA) is triggered and if so what
-# sequence of steps continous integration takes
+# Set the list of files that when modified will trigger GitHub Actions
+# (GA) continuous integration (CI) to run
 
-# When any of these files are modified trigger GAs:
+# For a video tutorial explaining these steps for the similarly structured
+# SCBI mortality census (https://github.com/SCBI-ForestGEO/SCBImortality),
+# click this link to YouTube: https://youtu.be/JKF6aXtdLHs
+
 on:
   push:
     paths:
