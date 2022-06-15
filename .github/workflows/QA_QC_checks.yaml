@@ -1,5 +1,7 @@
-# Set the list of files that when modified will trigger GitHub Actions
-# (GA) continuous integration (CI) to run
+# This file determines when GitHub Actions (GA) is triggered and if so what
+# sequence of steps continous integration takes
+
+# When any of these files are modified trigger GAs:
 on:
   push:
     paths:
@@ -22,16 +24,16 @@ name: QA_QC_checks
 
 jobs:
   QA_QC_checks:
-    # Set the operating system CI assumes
+    # Set the operating system CI assumes:
     runs-on: macOS-latest
     
-    # Allow only authorized collaborators to trigger GA
+    # Allow only authorized collaborators to trigger GA:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       
-    # All steps in workflow
+    # All steps in workflow:
     steps:
-      # Housekeeping: various GA tools, install R, install pandoc
+      # Housekeeping: Use various GA tools, install R, install pandoc
       # (to be able to use RMarkdown)
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@v1
