@@ -112,7 +112,7 @@
 30584,1,2022.03,2022,4,20,1,1,"quve",316,2.2,14.4,84.89,"","","alive","Isabella Dangler","Isabella Dangler",4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
 30584,1,2022.04,2022,5,5,1,1,"quve",316,2.2,14.4,87.85,"","","alive","Isabella Dangler","Isabella Dangler",4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
 30584,1,2022.05,2022,5,19,1,1,"quve",316,2.2,14.4,89.44,"","","alive","Erin MacMonigle","Jen Jordan",4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
-30584,1,2022.06,2022,6,8,1,1,"quve",316,2.2,14.4,135.19,"","","alive","Erin MacMonigle","Jen Jordan",4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
+30584,1,2022.06,2022,6,8,1,1,"quve",316,2.2,14.4,NA,"","Retroactive anomaly deletion b/c it couldn't be verified soon after","alive","Erin MacMonigle","Jen Jordan",4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
 30584,1,2022.07,2022,6,21,1,1,"quve",316,2.2,14.4,98.57,"","","alive","Erin Macmonigle","Jen Jordan",4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
 32097,1,2022.01,2022,3,15,1,0,"litu",320,17.9,3,44.3,"BA","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",4326,4326,NA,651,0,899,2,NA,1.4,NA,NA,NA,NA
 32126,1,2022.01,2022,3,15,1,1,"litu",321,9.6,5,116.11,"","","alive","Isabella Dangler, Jen Jordan","Jessica Shue",4355,4355,NA,995.5,0,753,2,NA,1.48,NA,NA,NA,NA
@@ -305,7 +305,7 @@
 60582,1,2022.04,2022,5,5,1,1,"quru",615,20,10.2,41.83,"","Gap difficult to measure; measurement may be inaccurate","alive","Jen Jordan","Jen Jordan",7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2022.05,2022,5,18,1,1,"quru",615,20,10.2,41.26,"","","alive","Jen Jordan","Jen Jordan",7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2022.06,2022,6,7,1,1,"quru",615,20,10.2,41.47,"","","alive","Jen Jordan","Jen Jordan",7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
-60582,1,2022.07,2022,6,21,1,1,"quru",615,20,10.2,43.69,"code","Band needs adjusting. Gap not right","alive","Jen Jordan","Jen Jordan",7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
+60582,1,2022.07,2022,6,21,1,1,"quru",615,20,10.2,43.69,"RE","Gap not right","alive","Jen Jordan","Jen Jordan",7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 60586,1,2022.01,2022,3,15,1,1,"caca",615,16.2,9.3,12.81,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",7565,7565,NA,62.5,0,992,2,NA,1.38,NA,NA,NA,NA
 60586,1,2022.02,2022,4,4,1,1,"caca",615,16.2,9.3,12.59,"","","alive","Jen Jordan","Jen Jordan",7565,7565,NA,62.5,0,992,2,NA,1.38,NA,NA,NA,NA
 60586,1,2022.03,2022,4,21,1,1,"caca",615,16.2,9.3,11.87,"","","alive","Jen Jordan","Jen Jordan",7565,7565,NA,62.5,0,992,2,NA,1.38,NA,NA,NA,NA
