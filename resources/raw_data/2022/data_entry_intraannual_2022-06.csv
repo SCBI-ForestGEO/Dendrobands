@@ -2,7 +2,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 22198,2,tiam,160,222,16.1,10.9,4,North,13.78,14.2,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
 22186,1,tiam,370,222,17,7.5,4,North,3.02,2.89,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
 22315,1,caco,550,225,11,4,4,North,19.27,21.46,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
-30584,1,quve,873.5,316,2.2,14.4,4,North,89.44,135.19,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
+30584,1,quve,873.5,316,2.2,14.4,4,North,89.44,NA,,,,Retroactive anomaly deletion b/c it couldn't be verified soon after,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
 32126,1,litu,995.5,321,9.6,5,4,North,116.64,118.32,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
 32381,1,qupr,834,327,4.6,12.8,4,North,102.17,104.14,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
 32540,1,qupr,841.8,332,19.9,15.6,4,North,114.07,113.63,,,,,2022.06,2022,6,8,Erin MacMonigle,Jen Jordan
