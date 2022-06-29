@@ -7,7 +7,7 @@ SCBI Dendrometer bands
 
 ### Data collection errors to resolve
 
-[![QA_QC_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/QA_QC_checks/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
+[![QA\_QC\_checks](https://github.com/SCBI-ForestGEO/Dendrobands/workflows/QA_QC_checks/badge.svg)](https://github.com/SCBI-ForestGEO/Dendrobands/actions)
 
 **[Click here to view error
 reports.](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports)**
@@ -17,7 +17,7 @@ reports.](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/rep
 *These do not cause the tests to fail, but may indicate problems and
 should be reviewed.*
 
-[![There_is_no_warnings\_:-)](testthat/reports/warnings.png)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports/warnings)
+[![There\_is\_no\_warnings\_:-)](testthat/reports/warnings.png)](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/testthat/reports/warnings)
 
 ### Anomalous measurement report
 
@@ -75,15 +75,15 @@ plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biol
 
 ### Workflow
 
--   [field_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms)
+  - [field\_forms](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/field_forms)
     and
-    [raw_data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data)
+    [raw\_data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data)
     are pulled from the year’s master file via R-scripts
--   [maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps)
+  - [maps](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/maps)
     are generated based on the [current list of trees with
     dendrobands](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
--   data recorded in the field are entered in
-    [raw_data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data)
+  - data recorded in the field are entered in
+    [raw\_data](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/resources/raw_data)
     and immediately merged into the current year’s master file using an
     R script.
 
@@ -92,16 +92,17 @@ plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biol
 A dataset for each year of collection is found in the [data
 folder](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/data).
 Each year has a master data set that includes both biannual and
-intra-annual surveys (with a file name format “scbi.dendroAll_YEAR.csv”)
+intra-annual surveys (with a file name format
+“scbi.dendroAll\_YEAR.csv”)
 
 In the interest of keeping survey data entry simplified, each type of
 survey (biannual and intra-annual) has its own .csv for data entry for
 the current year. This is where the current year’s data will be entered
 during the growing season (March – November). When the growing season is
 finished and the November biannual survey is complete, data should be
-transferred to the scbi.dendroAll_YEAR.csv via joining/merging in R. 1.
+transferred to the scbi.dendroAll\_YEAR.csv via joining/merging in R. 1.
 Metadata for these individual forms are consistent with the
-scbi.dendroAll_YEAR.csv
+scbi.dendroAll\_YEAR.csv
 [metadata](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/metadata/scbi.dendroALL_%5BYEAR%5D_metadata.csv)
 (the master).
 
@@ -113,7 +114,7 @@ available
 
 Some relevant data on dendrometer banded trees (geographic location,
 date started/end, mortalitity year, etc) is available here
-[dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
+[dendro\_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
 
 ## Data Management
 
@@ -134,7 +135,7 @@ Dendro repository](https://github.com/forestgeo/dendro).
 ## Contributors
 
 | name                       | GitHub ID    | position\*                   | role                                              |
-|----------------------------|--------------|------------------------------|---------------------------------------------------|
+| -------------------------- | ------------ | ---------------------------- | ------------------------------------------------- |
 | Kristina Anderson-Teixeira | teixeirak    | staff scientist, SCBI & STRI | plot PI                                           |
 | William McShea             |              | staff scientist, SCBI        | plot PI                                           |
 | Erika Gonzalez-Akre        | gonzalezeb   | lab manager, SCBI            | oversight of data collection                      |
