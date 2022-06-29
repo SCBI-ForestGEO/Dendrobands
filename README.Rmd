@@ -50,6 +50,8 @@ This data exists in two forms:
 
 Whenever raw data is pushed to GitHub, GitHub Actions continuous integration follows the steps in [`.github/workflows/QA_QC_checks.yaml`](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/.github/workflows/QA_QC_checks.yaml), which automatically 1) takes the raw data and produces the post-processed data and 2) performs data QA/QC
 
+To learn how to address both 1) code scripting and 2) data collection errors identified by GitHub Actions, watch this [screencast training video](https://sinet-my.sharepoint.com/:v:/g/personal/kimay_si_edu/EQ4BrXfDnk5MrtPihpFc4cYBMmn287nAxw6Rjn4P6Ruifg). 
+
 ## Sampling location
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
 
