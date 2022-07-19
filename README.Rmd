@@ -87,7 +87,7 @@ Collection of these data is a collaboration between the Anderson-Teixeira and Mc
 
 ## Data use
 
-Contact [Kristina Anderson-Texeira](teixeirak@si.edu )
+Contact [Kristina Anderson-Texeira](teixeirak@si.edu)
 
 Note: Also relevant (for code, cross-site integration) is the [ForestGEO Dendro repository](https://github.com/forestgeo/dendro).
 
