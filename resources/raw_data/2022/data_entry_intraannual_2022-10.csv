@@ -1,0 +1,152 @@
+tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,survey.ID,year,month,day,field.recorders,data.enter
+10671,1,quru,851,114,6.2,14.5,3,South,110.29,110.36,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+22186,1,tiam,370,222,17,7.5,4,North,8.68,9.42,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+22198,2,tiam,160,222,16.1,10.9,4,North,14.08,13.82,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+22315,1,caco,550,225,11,4,4,North,25.09,25.99,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+30233,1,fagr,1072,306,15.6,16.2,3,South,75.51,77.39,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30234,1,fagr,81,306,15.3,18.5,3,South,18.79,18.66,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30331,1,cagl,231,306,8.3,19.5,3,South,22.07,22.28,,,,Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30333,1,fagr,222,306,14,19.3,3,South,89.93,91.9,,,RT,Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30339,1,litu,153.1,307,8.6,4.1,3,South,111.42,114.31,,,"RT, New Band needed",,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30339,2,litu,153.1,307,8.6,4.1,3,South,126.22,129.55,,,New Band Needed,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30339,3,litu,153.1,307,8.6,4.1,3,South,50.77,51.09,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30512,1,quru,845.5,313,2.9,14.3,3,South,68.41,69.5,,,RT,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+30467,1,litu,608,314,17.3,3,3,South,126.77,128.13,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30584,1,quve,873.5,316,2.2,14.4,4,North,107.3,110.51,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+32126,1,litu,995.5,321,9.6,5,4,North,127.72,131.54,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+32381,1,qupr,834,327,4.6,12.8,4,North,108.51,109.25,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+32540,1,qupr,841.8,332,19.9,15.6,4,North,114,114.19,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+40562,1,fagr,86,406,6.3,16.2,3,South,12.23,12.27,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40563,1,fagr,365,406,3.6,17.8,3,South,90.51,93.17,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40564,1,fagr,69,406,2.4,12.4,3,South,9.11,9.16,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40565,1,cagl,184,406,1.9,10.1,3,South,NA,,,,New Band needed,No Window cut out to measure,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40566,1,cagl,270.2,406,1.1,9.4,3,South,39.29,39.46,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40567,1,fagr,93.3,406,1.6,7.2,3,South,25.67,25.67,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40568,1,fagr,206,406,0.1,5.2,3,South,54.08,56.05,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40635,1,cagl,258.7,408,18.7,1,3,South,61.95,62.29,,,,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+40942,1,acru,395.9,414,2.2,2,3,South,120.01,121.08,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+50364,1,qual,661.9,507,4.2,18.1,2,South,22.62,23.24,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+50650,1,litu,184.3,514,19.5,14.9,3,South,26.06,26.53,,,,Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+52190,1,quru,968.5,522,16.4,3.4,4,North,67.13,68.54,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+60161,1,qupr,867,608,17.5,14.1,2,South,106.93,106.63,,,,"Inside Deer Exclosure, Dying?",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+60566,1,fagr,194.2,614,10,11,3,South,127.15,127.45,,,"RT, New Band needed",,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60573,1,tiam,258.5,614,8.5,16.3,3,South,57.41,57.61,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60458,1,fagr,269.5,615,1.9,0,3,South,57.02,58.38,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60459,1,fagr,99.7,615,2,3,3,South,27.61,27.65,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60462,1,fagr,209.5,615,5.6,7.6,3,South,108.78,111.7,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60463,1,juni,468,615,7.2,8,3,South,84.74,86.23,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60469,1,cofl,70,615,6.8,9.8,3,South,10.51,10.61,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60582,1,quru,285.1,615,20,10.2,3,South,48,45.8,,,New Band Needed,Dying? Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60586,1,caca,62.5,615,16.2,9.3,3,South,12.95,12.78,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60587,1,caca,81,615,14,9.8,3,South,23.48,23.45,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60588,1,caco,292.3,615,13.4,7.3,3,South,57.44,57.98,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+62181,1,quve,1118.5,621,8.8,13.5,4,North,136.5,137.47,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+62224,1,litu,1040.5,622,3.2,17.3,4,North,58.56,58.86,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+70216,1,quve,930.2,701,18.7,11.6,3,South,29.26,29.24,,,RT,Crown Poor,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+70220,1,qual,557,702,18.3,0.8,3,South,56.7,58.43,,,RT,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+70096,1,quru,893,704,3.3,12.7,2,South,54.01,57.58,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+70278,1,qupr,679.8,704,15.6,15.4,2,South,69.01,71.03,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+70519,1,qual,544.8,711,15.5,3.3,2,South,98.66,99.03,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+70536,1,qual,599,711,11.9,7.4,2,South,34.96,35.81,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+70492,1,nysy,198.6,714,0.1,11.2,3,South,30.94,32.58,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+70494,2,caca,60,714,0.4,15.7,3,South,29.98,24.21,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+70495,1,caca,79,714,1.7,18.6,3,South,22.76,23.33,,,New Band Needed,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+70579,1,caco,236.1,714,19.2,4.3,2,South,47.26,47.63,,,,"Inside Deer Exclosure, Auto Dendrometer",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+70581,1,quru,614.5,714,13.7,1.2,3,South,40.65,41,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+72024,1,quve,482.3,717,20,9.6,4,North,66.14,66.31,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72116,1,litu,502,719,14.4,10.8,4,North,53.7,55.3,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72124,1,quru,747.2,719,12.5,19.4,4,North,61.25,63.34,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72210,1,qual,872,721,5.2,11.5,4,North,37.03,39.55,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72308,1,qual,654.2,725,15.2,13.3,7,North,73.01,73.4,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72324,1,litu,667.2,726,14.4,6.6,7,North,75.16,76.63,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72337,1,quru,905.8,727,7.9,2.6,7,North,75.63,76.55,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72348,1,quru,971,727,12,15.1,7,North,51,52.06,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72357,1,quru,938,728,1.7,2,7,North,127,129.92,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+72427,1,litu,1422.3,730,3.6,19.4,7,North,89.45,90.06,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+80401,1,caco,469,807,7.4,19.4,2,South,46.66,46.66,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+80554,1,caovl,529,813,6.9,11.2,2,South,34.53,36.42,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+80559,1,nysy,434.6,813,8.9,17.8,2,South,6.53,6.69,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+82203,1,litu,654,822,8,9.4,4,North,66.27,67.1,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+82219,1,ceca,87,822,14.7,18.8,4,North,15.18,15.36,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+82360,1,litu,604.5,829,2.3,0.7,7,North,57.85,58.43,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+82365,1,qual,438.1,829,4.9,4.7,7,North,66.41,66.34,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+82422,1,litu,546.5,831,6.9,19.5,7,North,98.62,98.74,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+91477,1,litu,210,908,19.3,3.5,2,South,56.38,56.44,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+91486,1,cagl,570.9,908,17.5,9.2,2,South,68.93,69.64,,,RT,"Inside Deer Exclosure, Auto Dendrometer",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+90660,1,quru,988,913,4.9,7.9,2,South,38,39.62,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+92237,1,nysy,218.1,922,14.7,19.5,5,North,18.7,18.75,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+100771,1,quru,968,1005,8.5,17,2,South,93.9,96.08,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+101008,1,tiam,177,1006,4.2,11.6,2,South,14.28,14.63,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+100905,1,litu,680,1008,10,1.6,2,South,42.84,43.24,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+101244,1,quve,815.3,1014,9,9.2,3,South,85.96,86.01,,,,Crown Poor,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+102148,1,cato,251.2,1019,2,15.4,5,North,27.67,27.71,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+102348,1,qual,888,1025,16.5,11.5,7,North,46.38,46.9,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+102364,1,qual,649,1025,2.1,18,7,North,10.34,10.37,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+110061,1,litu,1205,1101,17,10,2,South,29.03,29.5,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+110788,1,litu,656,1104,19.9,11.7,2,South,22.8,23.6,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+110791,1,litu,660,1104,11.3,10,2,South,25.29,25.5,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+110901,1,litu,524.1,1105,20,4.1,2,South,107.67,108.08,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+111030,1,litu,600.5,1107,15.1,19.9,2,South,109.35,109.85,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+112136,1,pist,274.1,1120,13.9,2.5,5,North,58.5,59.36,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+112250,1,pist,436,1122,10.8,18.4,5,North,87.72,89.66,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+112262,1,quru,123,1123,17.5,1.5,5,North,64.98,64.95,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+112336,1,qual,516,1125,17,13.8,8,North,14.49,14.45,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+112482,1,litu,263.2,1131,17.8,15.9,8,North,15.92,15.71,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+120781,1,litu,605.9,1205,3,2.2,2,South,12.3,125.66,,,RT,"Inside Deer Exclosure, Measured wrong last time?",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+121221,1,litu,117.2,1207,1.7,19.3,2,South,9.8,9.73,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+121195,1,quru,914.7,1211,12.4,0.4,2,South,125.35,126.48,,,NN,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+121301,1,caovl,241.3,1211,1.2,2.5,2,South,16.81,16.75,,,,"Inside Deer Exclosure, Auro Dendrometer",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+121305,1,quru,753.8,1211,1.1,11.2,2,South,23.76,24.61,,,,"Inside Deer Exclosure, Band shifted",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+121374,1,juni,310.4,1216,0.7,18.5,5,North,114.62,114.68,,,,replace tag,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122006,1,acru,395.9,1217,9.9,8.3,5,North,60.75,64.15,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122009,1,acru,277,1217,1.2,4.1,5,North,30.29,30.85,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122136,1,quru,587.7,1220,5.5,7.6,5,North,108.56,110.42,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122184,1,pist,217.8,1222,2.9,13.9,5,North,17.92,17.91,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122189,1,qual,665.1,1222,5.5,19.5,5,North,124.77,125.16,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122303,1,qual,624.3,1223,1.9,8.5,5,North,104.45,106.42,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122343,1,qual,638,1225,10.7,14.4,8,North,25.81,26.11,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122427,1,qual,832.7,1227,17,15.6,8,North,60.93,61.52,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+122482,1,litu,562.4,1228,14.5,2.4,8,North,114.68,115.15,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+130838,1,litu,652.4,1305,12.2,1,2,South,64.02,65.37,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+131087,1,quru,665,1310,17.3,17.8,2,South,86.99,87.82,,,RT,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+131239,1,quru,587.1,1314,19.5,5.7,3,South,51.34,53,,,RT,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+131364,1,acru,460,1316,12,12.9,5,North,75.63,77.57,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+132077,1,qual,592.4,1319,9.9,15.9,5,North,113.65,115.17,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+132539,1,litu,604.5,1331,15,15.9,8,North,57.9,58.44,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+140825,1,litu,523,1411,8,5.9,2,South,55.94,56.03,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
+142521,1,pist,452,1422,6.4,11.1,5,North,121.57,123.08,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+142380,1,qual,593,1425,6.8,13.1,8,North,53.59,54.07,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+142708,1,juni,423.1,1429,4.3,6.2,8,North,25.58,25.59,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+142729,1,litu,474,1431,4.7,14.7,8,North,67.99,68.09,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+160910,1,litu,996,1607,8.6,1.1,1,South,24.67,26.73,,,,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+160985,1,litu,873,1612,1.2,17.2,1,South,35.2,36.31,,,NN,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+162439,1,quru,832.5,1627,16.3,0.3,9,North,59.73,61.89,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+162543,1,qual,890,1627,7.5,16.6,9,North,85.9,85.94,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+162581,1,ceca,93,1629,15.4,3.9,9,North,4.42,4.47,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+171348,1,ceca,155.4,1714,19.4,2.4,1,South,85.95,,,,,Couldn't locate,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+171454,1,caco,118,1714,1.6,13.8,1,South,22.31,22.5,,,,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+172202,1,quru,555.1,1717,17.1,1.8,6,North,92.27,92.91,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+172203,1,qual,368.5,1717,15.5,0.3,6,North,26.39,26.42,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+172248,1,cato,274.2,1719,19.2,19.3,6,North,37.32,37.52,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+172417,1,nysy,98.8,1725,20,18.4,9,North,20.25,20.32,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+172470,1,quru,710,1728,11.1,12,9,North,71.82,74,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+172499,1,qual,1056,1730,17,3.1,9,North,58.2,58.98,,,,replace tag,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+181030,1,qual,779,1816,5.4,10.6,6,North,34.44,35.13,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+182471,1,ceca,78,1829,2.5,19,9,North,12.79,13.63,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+190067,1,litu,739,1902,19,2.2,1,South,62.42,63.72,,,,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+190413,1,litu,1001.6,1904,14.7,4.6,1,South,135.75,138.68,,,,Auto Dendrometer,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+190694,1,quru,1265.5,1909,18.2,14.7,1,South,16.79,17.07,,,,Band Slanted,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+190568,1,juni,903,1912,2.6,18.8,1,South,50.13,52.84,,,,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+192244,1,qual,443.5,1919,18.1,16.8,6,North,56.81,57.41,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192133,1,caovl,565,1923,11.7,2.3,6,North,39.15,38.33,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192437,1,litu,436.9,1925,17,11.5,9,North,26.13,26.25,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192466,1,quru,809,1926,13.3,1.7,9,North,132.78,133.9,,,,replace nail,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192484,1,quru,422.5,1926,17.4,11.2,9,North,74.46,74.65,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192619,1,quru,787,1926,12.6,8.5,9,North,91.63,92.85,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192542,1,litu,326,1929,18.9,3.8,9,North,17.56,18.21,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192544,1,litu,349,1929,14.4,1.8,9,North,15.22,15.28,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+192560,1,qual,933.1,1930,12.9,19.5,9,North,22.21,23.06,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+200142,1,litu,604,2002,1.3,3.5,1,South,33.12,34.77,,,,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
+202201,1,cato,131,2017,3.2,1.1,6,North,37.33,37.62,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+202215,1,qual,549.9,2017,5.5,11.7,6,North,112.59,112.62,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
+202072,1,qual,710.1,2020,2.1,10.8,6,North,44.53,44.99,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
