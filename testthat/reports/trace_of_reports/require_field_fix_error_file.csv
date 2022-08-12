@@ -108,3 +108,39 @@ new_measure_too_different_from_previous,30584,1,2022.07,2022,6,21,1,1,quve,316,2
 code_not_defined,60582,1,2022.07,2022,6,21,1,1,quru,615,20,10.2,43.69,code,Band needs adjusting. Gap not right,alive,Jen Jordan,Jen Jordan,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 new_measure_too_different_from_previous,72324,1,2022.09,2022,7,20,1,1,litu,726,14.4,6.6,75.16,NA,NA,alive,Erin Macmonigle,Jen Jordan,8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 new_measure_too_different_from_previous,120781,1,2022.09,2022,7,20,1,1,litu,1205,3,2.2,12.3,NA,NA,alive,Jen Jordan,Jen Jordan,15914,15914,NA,605.9,0,343,2,NA,1.28,NA,NA,NA,NA
+code_not_defined,10671,1,2022.1,2022,8,2,1,1,quru,114,6.2,14.5,110.36,RT,NA,alive,John Whitmoyer,Jen Jordan,1609,1609,NA,851,0,750,2,NA,1.32,NA,NA,NA,NA
+code_not_defined,30333,1,2022.1,2022,8,2,1,1,fagr,306,14,19.3,91.9,RT,Auto Dendrometer,alive,John Whitmoyer,Jen Jordan,3969,3969,NA,222,0,726,2,NA,1.52,NA,NA,NA,NA
+code_not_defined,30339,1,2022.1,2022,8,2,1,1,litu,307,8.6,4.1,114.31,"RT,NewBandneeded",NA,alive,John Whitmoyer,Jen Jordan,3975,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
+code_not_defined,30339,2,2022.1,2022,8,2,1,1,litu,307,8.6,4.1,129.55,NewBandNeeded,NA,alive,John Whitmoyer,Jen Jordan,32681,3975,NA,153.1,0,752,2,NA,1.3,NA,NA,NA,NA
+code_not_defined,30512,1,2022.1,2022,8,4,1,1,quru,313,2.9,14.3,69.5,RT,NA,alive,John Whitmoyer,Jen Jordan,4137,4137,NA,845.5,0,831,2,NA,1.28,NA,NA,NA,NA
+code_not_defined,40563,1,2022.1,2022,8,2,1,1,fagr,406,3.6,17.8,93.17,RT,NA,alive,John Whitmoyer,Jen Jordan,5040,5040,NA,365,0,832,2,NA,1.44,NA,NA,NA,NA
+code_not_defined,40564,1,2022.1,2022,8,2,1,1,fagr,406,2.4,12.4,9.16,RT,NA,alive,John Whitmoyer,Jen Jordan,5041,5041,NA,57.8,0,1115,2,NA,1.38,NA,NA,NA,NA
+code_not_defined,40565,1,2022.1,2022,8,2,1,1,cagl,406,1.9,10.1,NA,NewBandneeded,No Window cut out to measure,alive,John Whitmoyer,Jen Jordan,5042,5042,NA,184,0,959,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,40568,1,2022.1,2022,8,2,1,1,fagr,406,0.1,5.2,56.05,RT,NA,alive,John Whitmoyer,Jen Jordan,5045,5045,NA,206,0,975,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,50364,1,2022.1,2022,8,3,1,1,qual,507,4.2,18.1,23.24,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,6249,6249,NA,661.9,0,41,2,NA,1.35,NA,NA,NA,NA
+code_not_defined,60566,1,2022.1,2022,8,2,1,1,fagr,614,10,11,127.45,"RT,NewBandneeded",NA,alive,John Whitmoyer,Jen Jordan,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
+code_not_defined,60573,1,2022.1,2022,8,2,1,1,tiam,614,8.5,16.3,57.61,RT,NA,alive,John Whitmoyer,Jen Jordan,7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
+code_not_defined,60458,1,2022.1,2022,8,2,1,1,fagr,615,1.9,0,58.38,RT,NA,alive,John Whitmoyer,Jen Jordan,7443,7443,NA,269.5,0,834,2,NA,1.39,NA,NA,NA,NA
+code_not_defined,60462,1,2022.1,2022,8,2,1,1,fagr,615,5.6,7.6,111.7,RT,NA,alive,John Whitmoyer,Jen Jordan,7447,7447,NA,209.5,0,704,2,NA,1.43,NA,NA,NA,NA
+code_not_defined,60582,1,2022.1,2022,8,2,1,1,quru,615,20,10.2,45.8,NewBandNeeded,Dying? Auto Dendrometer,alive,John Whitmoyer,Jen Jordan,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
+code_not_defined,70216,1,2022.1,2022,8,4,1,1,quve,701,18.7,11.6,29.24,RT,Crown Poor,alive,John Whitmoyer,Jen Jordan,8234,8234,NA,930.2,0,56,2,NA,1.29,NA,NA,NA,NA
+code_not_defined,70220,1,2022.1,2022,8,4,1,1,qual,702,18.3,0.8,58.43,RT,NA,alive,John Whitmoyer,Jen Jordan,8238,8238,NA,557,0,967,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,70278,1,2022.1,2022,8,3,1,1,qupr,704,15.6,15.4,71.03,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,8293,8293,NA,679.8,0,803,2,NA,1.23,NA,NA,NA,NA
+code_not_defined,70492,1,2022.1,2022,8,2,1,1,nysy,714,0.1,11.2,32.58,RT,NA,alive,John Whitmoyer,Jen Jordan,8495,8495,NA,198.6,0,836,2,NA,1.44,NA,NA,NA,NA
+code_not_defined,70495,1,2022.1,2022,8,2,1,1,caca,714,1.7,18.6,23.33,NewBandNeeded,NA,alive,John Whitmoyer,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,70581,1,2022.1,2022,8,2,1,1,quru,714,13.7,1.2,41,RT,NA,alive,John Whitmoyer,Jen Jordan,8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
+code_not_defined,80401,1,2022.1,2022,8,3,1,1,caco,807,7.4,19.4,46.66,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,9477,9477,NA,469,0,933,2,NA,1.35,NA,NA,NA,NA
+code_not_defined,80554,1,2022.1,2022,8,3,1,1,caovl,813,6.9,11.2,36.42,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,9630,9630,NA,489.2,0,1116,2,NA,1.5,NA,NA,NA,NA
+code_not_defined,91486,1,2022.1,2022,8,3,1,1,cagl,908,17.5,9.2,69.64,RT,"Inside Deer Exclosure, Auto Dendrometer",alive,John Whitmoyer,Jen Jordan,11152,11152,NA,570.9,0,711,2,NA,1.3,NA,NA,NA,NA
+code_not_defined,110061,1,2022.1,2022,8,3,1,1,litu,1101,17,10,29.5,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,13507,13507,NA,1205,0,905,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,110788,1,2022.1,2022,8,3,1,1,litu,1104,19.9,11.7,23.6,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,14155,14155,NA,638.3,0,1123,2,NA,1.45,NA,NA,NA,NA
+code_not_defined,110791,1,2022.1,2022,8,3,1,1,litu,1104,11.3,10,25.5,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,14158,14158,NA,660,0,961,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,110901,1,2022.1,2022,8,3,1,1,litu,1105,20,4.1,108.08,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,14265,14265,NA,524.1,0,955,2,NA,1.35,NA,NA,NA,NA
+code_not_defined,111030,1,2022.1,2022,8,3,1,1,litu,1107,15.1,19.9,109.85,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,14380,14380,NA,600.5,0,313,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,120781,1,2022.1,2022,8,3,1,1,litu,1205,3,2.2,125.66,RT,"Inside Deer Exclosure, Measured wrong last time?",alive,John Whitmoyer,Jen Jordan,15914,15914,NA,605.9,0,343,2,NA,1.28,NA,NA,NA,NA
+code_not_defined,120781,1,2022.1,2022,8,3,1,1,litu,1205,3,2.2,125.66,RT,"Inside Deer Exclosure, Measured wrong last time?",alive,John Whitmoyer,Jen Jordan,15914,15914,NA,605.9,0,343,2,NA,1.28,NA,NA,NA,NA
+code_not_defined,121195,1,2022.1,2022,8,3,1,1,quru,1211,12.4,0.4,126.48,NN,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,16293,16293,NA,914.7,0,716,2,NA,1.22,NA,NA,NA,NA
+code_not_defined,130838,1,2022.1,2022,8,3,1,1,litu,1305,12.2,1,65.37,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,17779,17779,NA,652.4,0,845,2,NA,1.36,NA,NA,NA,NA
+code_not_defined,131087,1,2022.1,2022,8,3,1,1,quru,1310,17.3,17.8,87.82,RT,Inside Deer Exclosure,alive,John Whitmoyer,Jen Jordan,18013,18013,NA,665,0,770,2,NA,1.21,NA,NA,NA,NA
+code_not_defined,131239,1,2022.1,2022,8,4,1,1,quru,1314,19.5,5.7,53,RT,NA,alive,John Whitmoyer,Jen Jordan,18164,18164,NA,587.1,0,735,2,NA,1.47,NA,NA,NA,NA
+code_not_defined,160985,1,2022.1,2022,8,4,1,1,litu,1612,1.2,17.2,36.31,NN,NA,alive,John Whitmoyer,Jen Jordan,23254,23254,NA,873,0,978,2,NA,1.25,NA,NA,NA,NA
