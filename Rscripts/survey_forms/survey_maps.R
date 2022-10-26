@@ -15,7 +15,7 @@
 dendro_trees <- read.csv("data/dendro_trees.csv")
 
 #to start off, filter by all the trees that are alive as of the end of last year's fall survey.
-bands_2019 <- dendro_trees[is.na(dendro_trees$mortality.year), ]
+bands_2022 <- dendro_trees[is.na(dendro_trees$mortality.year), ]
 
 library(ggplot2)
 library(rgdal)
@@ -24,11 +24,11 @@ library(sf) #for mapping
 library(ggthemes) #for removing graticules when making pdf
 
 ## the source for these files is the ForestGEO-Data repo in Github
-scbi_plot <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp")
-deer <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
-roads <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_edits.shp")
-streams <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/streams_ForestGEO/streams_ForestGEO_full.shp")
-contour_10m <- readOGR("~SCBI-ForestGEO-Data/spatial_data/shapefiles/contour10m_SIGEO_clipped.shp")
+scbi_plot <- readOGR("C:/Users/jessh/Documents/GitHub/SCBI/SCBI-ForestGEO-Data/spatial_data/shapefiles/20m_grid.shp")
+deer <- readOGR("C:/Users/jessh/Documents/GitHub/SCBI/SCBI-ForestGEO-Data/spatial_data/shapefiles/deer_exclosure_2011.shp")
+roads <- readOGR("C:/Users/jessh/Documents/GitHub/SCBI/SCBI-ForestGEO-Data/spatial_data/shapefiles/SCBI_roads_clipped_to_plot.shp")
+streams <- readOGR("C:/Users/jessh/Documents/GitHub/SCBI/SCBI-ForestGEO-Data/spatial_data/shapefiles/streams_ForestGEO/streams_ForestGEO_full.shp")
+contour_10m <- readOGR("C:/Users/jessh/Documents/GitHub/SCBI/SCBI-ForestGEO-Data/spatial_data/shapefiles/contour10m_SIGEO_clipped.shp")
 
 ## the source for these files is in the dendrobands repo
 survey_areas <- readOGR("resources/maps/shapefiles/biannual_survey_areas.shp")
@@ -68,12 +68,12 @@ map <- ggplot() +
             color="#996600", linetype=2)+
   geom_path(data=streams_df, aes(x=long, y=lat, group=group), color="blue")+
   geom_path(data=survey_areas_df, aes(x=long, y=lat, group=group), size=1.1)+
-  geom_point(data=bands_2019, aes(x=NAD83_X, y=NAD83_Y), shape=19)+
-  geom_text(data=bands_2019, aes(x=NAD83_X, y=NAD83_Y, label=tag), 
+  geom_point(data=bands_2022, aes(x=NAD83_X, y=NAD83_Y), shape=19)+
+  geom_text(data=bands_2022, aes(x=NAD83_X, y=NAD83_Y, label=tag), 
             size=3, hjust=1.25, nudge_y=-1, nudge_x=1, check_overlap=TRUE)+
-  labs(title="Dendrobands_Biannual_2019")+
-  theme(plot.title=element_text(vjust=0.1))+
-  coord_sf(crs = "crs = +proj=merc", xlim=c(747350,747800), ylim=c(4308500, 4309125))
+  labs(title="Dendrobands_Biannual_2022")+
+  theme(plot.title=element_text(vjust=0.1))
+  #coord_sf(crs = "crs = +proj=merc", xlim=c(747350,747800), ylim=c(4308500, 4309125))
 
 #now, we add the row and column labels
 ##to get rid of the graticules (the lat/lon labels and lines), you need to have both "theme" calls in the following function. 
@@ -88,7 +88,7 @@ map +
 dev.off() #when printing, choose "fit to page"
 
 #intraannual survey map ####
-intra <- subset(bands_2019, intraannual==1)
+intra <- subset(bands_2022, intraannual==1)
 
 map_intra <- ggplot() +
   geom_path(data = scbi_plot_df, aes(x = long, y = lat, group = group))+
@@ -102,7 +102,7 @@ map_intra <- ggplot() +
   geom_text(data=intra, aes(x=NAD83_X, y=NAD83_Y, label=tag), 
             size=3, hjust=1.25, nudge_y=-1, nudge_x=1, check_overlap=TRUE)+
   labs(title="Dendrobands_Intraannual_2019")+
-  coord_sf(crs = "crs = +proj=merc", xlim=c(747350,747800), ylim=c(4308500, 4309125)) 
+  #coord_sf(crs = "crs = +proj=merc", xlim=c(747350,747800), ylim=c(4308500, 4309125)) 
 
 #north and south labels
 north <- annotate(geom="text", x=747793, y=4308810, label="N", colour="black", size=5, fontface=2)
