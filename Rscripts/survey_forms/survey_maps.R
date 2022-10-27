@@ -101,7 +101,7 @@ map_intra <- ggplot() +
   geom_point(data=intra, aes(x=NAD83_X, y=NAD83_Y), shape=19)+
   geom_text(data=intra, aes(x=NAD83_X, y=NAD83_Y, label=tag), 
             size=3, hjust=1.25, nudge_y=-1, nudge_x=1, check_overlap=TRUE)+
-  labs(title="Dendrobands_Intraannual_2019")+
+  labs(title="Dendrobands_Intraannual_2022")
   #coord_sf(crs = "crs = +proj=merc", xlim=c(747350,747800), ylim=c(4308500, 4309125)) 
 
 #north and south labels
