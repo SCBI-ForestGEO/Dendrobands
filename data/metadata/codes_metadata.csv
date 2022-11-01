@@ -1,7 +1,7 @@
 Code,Description
 A,"alternate POM (point of measurement, different than 1.3m)"
 B,stem broken above 1.3m
-BA,"band adjusted: (not quite replaced) spring replaced or window tightened"
+BA,band adjusted: (not quite replaced) spring replaced or window tightened
 C ,stem dead above 1.3m
 DS,"dead, stem standing"
 DC,"dead, stem fallen"
@@ -18,6 +18,8 @@ Q,"stem broken above 1.3m (Same as B, but from CTFS census protocol, see https:/
 RE,dendroband needs replacing or fixing
 S,secondary stem
 X,stem broken below 1.3m
+RT,replace tag
+NN,new nail or wire
 ,
 "*  If current measurement varies by more than 3mm from the last survey, ",
 "please double check and write ""double-checked"" in this column.",
