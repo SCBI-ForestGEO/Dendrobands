@@ -1,27 +1,80 @@
 alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
+new_measure_too_different_from_previous_biannual,20737,1,2022.15,2022,11,9,1,0,tiam,213,12.6,3.8,12.93,NA,NA,alive,Katherina Wilkins,Jessica Shue,2922,2922,NA,180,0,1113,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,22141,1,2022.15,2022,11,9,1,0,tiam,221,1.9,1.2,12.18,NA,NA,alive,Bill McShea,Jessica Shue,3170,3170,NA,142,0,1091,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,22186,1,2022.15,2022,11,9,1,1,tiam,222,17,7.5,10.04,NA,NA,alive,Bill McShea,Jessica Shue,3212,3212,NA,370,0,1092,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,22198,2,2022.15,2022,11,10,1,1,tiam,222,16.1,10.9,13.71,L,injured,alive,Jessica Shue,Jessica Shue,32585,3223,NA,160,0,1093,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,30339,1,2022.1,2022,8,2,1,1,litu,307,8.6,4.1,114.31,"RT,NewBandneeded",NA,alive,John Whitmoyer,Jen Jordan,3975,3975,NA,153.1,0,547,2,NA,1.3,NA,NA,NA,NA
 code_not_defined,30339,2,2022.1,2022,8,2,1,1,litu,307,8.6,4.1,129.55,NewBandNeeded,NA,alive,John Whitmoyer,Jen Jordan,32681,3975,NA,153.1,0,752,2,NA,1.3,NA,NA,NA,NA
-code_not_defined,32540,1,2022.13,2022,9,26,1,1,qupr,332,19.9,15.6,114.64,unhealthy,NA,dead,John Whitmoyer,Jen Jordan,4760,4760,NA,841.8,0,30,2,NA,1.35,NA,NA,NA,NA
-code_not_defined,32540,1,2022.14,2022,10,5,1,1,qupr,332,19.9,15.6,114.75,unhealthy,NA,dead,John Whitmoyer,Jen Jordan,4760,4760,NA,841.8,0,30,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,30584,1,2022.15,2022,11,9,1,1,quve,316,2.2,14.4,114.18,RE,verified,alive,Bill McShea,Jessica Shue,4207,4207,NA,873.5,0,688,2,NA,1.32,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,32157,1,2022.15,2022,11,9,1,0,tiam,322,7.5,4,9.17,NA,NA,alive,Bill McShea,Jessica Shue,4384,4384,NA,382,0,1094,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,32180,2,2022.15,2022,11,9,1,0,tiam,322,6.4,12.3,15.79,NA,NA,alive,Bill McShea,Jessica Shue,32736,4407,NA,183,0,1095,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,32540,1,2022.13,2022,9,26,1,1,qupr,332,19.9,15.6,114.64,unhealthy,NA,alive,John Whitmoyer,Jen Jordan,4760,4760,NA,841.8,0,30,2,NA,1.35,NA,NA,NA,NA
+code_not_defined,32540,1,2022.14,2022,10,5,1,1,qupr,332,19.9,15.6,114.75,unhealthy,NA,alive,John Whitmoyer,Jen Jordan,4760,4760,NA,841.8,0,30,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40465,1,2022.15,2022,11,9,1,0,qupr,404,8.2,12.5,74.38,BA,NA,alive,Jessica Shue,Jessica Shue,4942,4942,NA,451,0,864,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40563,1,2022.15,2022,11,9,1,1,fagr,406,3.6,17.8,98.57,RT,NA,alive,Katherina Wilkins,Jessica Shue,5040,5040,NA,365,0,832,2,NA,1.44,NA,NA,NA,NA
 code_not_defined,40565,1,2022.1,2022,8,2,1,1,cagl,406,1.9,10.1,NA,NewBandneeded,No Window cut out to measure,alive,John Whitmoyer,Jen Jordan,5042,5042,NA,184,0,959,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,52384,1,2022.15,2022,11,9,1,0,caovl,529,1.2,13.1,8.4,NA,NA,alive,Bill McShea,Jessica Shue,6934,6934,NA,121,0,1096,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,60566,1,2022.1,2022,8,2,1,1,fagr,614,10,11,127.45,"RT,NewBandneeded",NA,alive,John Whitmoyer,Jen Jordan,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60573,1,2022.15,2022,11,9,1,1,tiam,614,8.5,16.3,58.31,NN,NA,alive,Katherina Wilkins,Jessica Shue,7552,7552,NA,258.5,0,708,2,NA,1.45,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60469,1,2022.15,2022,11,9,1,1,cofl,615,6.8,9.8,10.96,NA,NA,alive,Katherina Wilkins,Jessica Shue,7454,7454,NA,70,0,568,2,NA,1.43,NA,NA,NA,NA
 code_not_defined,60582,1,2022.1,2022,8,2,1,1,quru,615,20,10.2,45.8,NewBandNeeded,Dying? Auto Dendrometer,alive,John Whitmoyer,Jen Jordan,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 new_measure_too_different_from_previous,62224,1,2022.12,2022,9,6,1,1,litu,622,3.2,17.3,45.08,NA,replace tag; band adjusted,alive,John Whitmoyer,Jen Jordan,7801,7801,NA,1040.5,0,849,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70220,1,2022.15,2022,11,9,1,1,qual,702,18.3,0.8,59.07,NN,NA,alive,Katherina Wilkins,Jessica Shue,8238,8238,NA,557,0,967,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70492,1,2022.15,2022,11,9,1,1,nysy,714,0.1,11.2,34.54,NN,NA,alive,Katherina Wilkins,Jessica Shue,8495,8495,NA,198.6,0,836,2,NA,1.44,NA,NA,NA,NA
 code_not_defined,70495,1,2022.1,2022,8,2,1,1,caca,714,1.7,18.6,23.33,NewBandNeeded,NA,alive,John Whitmoyer,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70579,1,2022.15,2022,11,9,1,1,caovl,714,19.2,4.3,47.05,NA,NA,alive,Jessica Shue,Jessica Shue,8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
 new_measure_too_different_from_previous,72210,1,2022.11,2022,8,17,1,1,qual,721,5.2,11.5,57.91,NA,NA,alive,Erin MacMonigle,Jen Jordan,8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous,72210,1,2022.12,2022,9,6,1,1,qual,721,5.2,11.5,45.4,NA,replace tag,alive,John Whitmoyer,Jen Jordan,8853,8853,NA,872,0,976,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,72248,1,2022.15,2022,11,9,1,0,caovl,723,15,0.3,76.9,NA,NA,alive,Bill McShea,Jessica Shue,8890,8890,NA,313.2,0,78,2,NA,1.39,NA,NA,NA,NA
 new_measure_too_different_from_previous,72324,1,2022.09,2022,7,20,1,1,litu,726,14.4,6.6,75.16,NA,NA,alive,Erin Macmonigle,Jen Jordan,8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 code_not_defined,72324,1,2022.13,2022,9,26,1,1,litu,726,14.4,6.6,77.62,RN,NA,alive,John Whitmoyer,Jen Jordan,8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 code_not_defined,72324,1,2022.14,2022,10,5,1,1,litu,726,14.4,6.6,78.69,RN,NA,alive,John Whitmoyer,Jen Jordan,8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
+code_not_defined,80554,1,2022.15,2022,11,9,1,1,caovl,813,6.9,11.2,31.63,CH,NA,alive,Jessica Shue,Jessica Shue,9630,9630,NA,489.2,0,1116,2,NA,1.5,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,82091,1,2022.15,2022,11,9,1,0,caovl,819,3.5,1.3,5.49,NA,NA,alive,Bill McShea,Jessica Shue,9938,9938,NA,193,0,1098,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,82117,1,2022.15,2022,11,9,1,0,cato,819,11.6,14.3,13.87,NA,NA,alive,Bill McShea,Jessica Shue,9964,9964,NA,155,0,1099,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,82219,1,2022.15,2022,11,9,1,1,ceca,822,14.7,18.8,16.7,NA,NA,alive,Bill McShea,Jessica Shue,10061,10061,NA,87,0,1100,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,82360,1,2022.13,2022,9,26,1,1,litu,829,2.3,0.7,58.36,RN,NA,alive,John Whitmoyer,Jen Jordan,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 code_not_defined,82360,1,2022.14,2022,10,5,1,1,litu,829,2.3,0.7,59.61,RN,NA,alive,John Whitmoyer,Jen Jordan,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 new_measure_too_different_from_previous,91486,1,2022.14,2022,10,10,1,1,cagl,908,17.5,9.2,46.43,NA,NA,alive,Jen Jordan,Jen Jordan,11152,11152,NA,570.9,0,711,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous,91486,1,2022.15,2022,11,9,1,1,cagl,908,17.5,9.2,69.76,NA,NA,alive,Jessica Shue,Jessica Shue,11152,11152,NA,570.9,0,711,2,NA,1.3,NA,NA,NA,NA
+code_not_defined,90660,1,2022.15,2022,11,9,1,1,quru,913,4.9,7.9,40.9,CH,NA,alive,Jessica Shue,Jessica Shue,10904,10904,NA,947.4,0,1117,2,NA,1.55,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,92115,1,2022.15,2022,11,9,1,0,acru,919,10.1,19.3,12.9,NA,verified,alive,Bridgette; Paula,Jessica Shue,11279,11279,NA,153,0,1101,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,92141,1,2022.15,2022,11,9,1,0,cagl,920,19.4,4.7,8.03,NA,verified; newer band,alive,Bridgette; Paula,Jessica Shue,11305,11305,NA,84.3,0,535,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,101008,1,2022.15,2022,11,9,1,1,tiam,1006,4.2,11.6,15.03,NA,NA,alive,Jessica Shue,Jessica Shue,12628,12628,NA,177,0,1120,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,100963,1,2022.15,2022,11,9,1,0,caovl,1010,11.1,14.7,21.3,NA,NA,alive,Jessica Shue,Jessica Shue,12586,12586,NA,204,0,1121,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102163,1,2022.15,2022,11,9,1,0,cato,1020,14.3,14.8,7.97,NA,new band installed spring 2022,alive,Bridgette; Paula,Jessica Shue,13101,13101,NA,101,1,1102,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102177,1,2022.15,2022,11,9,1,0,qual,1020,3.4,11.7,12,NA,new band installed spring 2022,alive,Bridgette; Paula,Jessica Shue,13115,13115,NA,702.8,1,1103,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102199,1,2022.15,2022,11,10,1,0,cagl,1021,1.3,8,102.38,NA,verified,alive,Jessica Shue,Jessica Shue,13136,13136,NA,449,0,882,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102502,1,2022.15,2022,11,9,1,0,ulru,1031,0.1,18.6,67,NA,NA,alive,Bridgette; Paula,Jessica Shue,13438,13438,NA,126,0,305,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,110526,1,2022.15,2022,11,9,1,0,ceca,1103,15.1,3,19.84,NA,NA,alive,Jessica Shue,Jessica Shue,13927,13927,NA,143,0,1122,2,NA,1.6,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,111305,1,2022.15,2022,11,9,1,0,caovl,1113,4.7,19.3,4.97,NA,checked; may be normal response to dry fall weather,alive,Katherina Wilkins,Jessica Shue,14647,14647,NA,229,0,1124,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,112250,1,2022.15,2022,11,10,1,1,pist,1122,10.8,18.4,92.45,RT,NA,alive,Jessica Shue,Jessica Shue,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,112342,1,2022.15,2022,11,9,1,0,nysy,1125,14.2,16.7,2.96,RE,band damaged by CWD,alive,Jen Jordan,Jessica Shue,15055,15055,NA,196.7,0,332,2,NA,1.3,NA,NA,NA,NA
 new_measure_too_different_from_previous,120781,1,2022.09,2022,7,20,1,1,litu,1205,3,2.2,12.3,NA,NA,alive,Jen Jordan,Jen Jordan,15914,15914,NA,605.9,0,343,2,NA,1.28,NA,NA,NA,NA
 new_measure_too_different_from_previous,120781,1,2022.1,2022,8,3,1,1,litu,1205,3,2.2,125.66,RT,"Inside Deer Exclosure, Measured wrong last time?",alive,John Whitmoyer,Jen Jordan,15914,15914,NA,605.9,0,343,2,NA,1.28,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,121301,1,2022.15,2022,11,9,1,1,caovl,1211,1.2,2.5,16.11,NA,NA,alive,Jessica Shue,Jessica Shue,16396,16396,NA,241.3,0,349,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,121438,1,2022.15,2022,11,9,1,0,caco,1215,19.1,6.5,42.65,NA,NA,alive,Katherina Wilkins,Jessica Shue,16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous,121374,1,2022.14,2022,10,10,1,1,juni,1216,0.7,18.5,154.13,RE,Band gap error,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,122150,1,2022.15,2022,11,9,1,0,pist,1221,0.8,0.7,2.59,NA,verified,alive,Bridgette; Paula,Jessica Shue,16679,16679,NA,340,0,1105,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,122154,1,2022.15,2022,11,9,1,0,pist,1221,5.8,5.2,5.09,NA,verified,alive,Bridgette; Paula,Jessica Shue,16683,16683,NA,148,0,1106,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,122189,1,2022.13,2022,9,26,1,1,qual,1222,5.5,19.5,125.56,RN,NA,alive,John Whitmoyer,Jen Jordan,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
 code_not_defined,122189,1,2022.14,2022,10,5,1,1,qual,1222,5.5,19.5,126.25,RN,NA,alive,John Whitmoyer,Jen Jordan,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,131422,1,2022.15,2022,11,9,1,0,caco,1316,13.4,9.6,16.33,NA,NA,alive,Bridgette; Paula,Jessica Shue,18325,18325,NA,139,0,1108,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,132077,1,2022.15,2022,11,9,1,1,qual,1319,9.9,15.9,116.58,RT,NA,alive,Bridgette; Paula,Jessica Shue,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 code_not_defined,132539,1,2022.13,2022,9,26,1,1,litu,1331,15,15.9,59,RN,NA,alive,John Whitmoyer,Jen Jordan,18832,18832,NA,604.5,0,773,2,NA,1.37,NA,NA,NA,NA
 code_not_defined,132539,1,2022.14,2022,10,5,1,1,litu,1331,15,15.9,59.54,RN,NA,alive,John Whitmoyer,Jen Jordan,18832,18832,NA,604.5,0,773,2,NA,1.37,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,141216,1,2022.15,2022,11,9,1,0,caco,1415,2.1,6.2,37.3,NA,NA,alive,Katherina Wilkins,Jessica Shue,19931,19931,NA,147,0,886,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,142575,1,2022.15,2022,11,9,1,0,quve,1426,1.8,6.4,124.72,BA,verified,alive,Jen Jordan,Jessica Shue,20508,20508,NA,499.5,0,789,2,NA,1.26,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,160713,1,2022.15,2022,11,9,1,0,litu,1603,10.4,13.7,80.41,NA,NA,alive,John Whitmoyer,Jessica Shue,23030,23030,NA,838,0,673,2,NA,1.5,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,160814,1,2022.15,2022,11,9,1,0,cato,1611,14.3,5.7,13.32,NA,verified; hickory response to dry fall weather,alive,John Whitmoyer,Jessica Shue,23125,23125,NA,441,0,890,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,162581,1,2022.15,2022,11,9,1,1,ceca,1629,15.4,3.9,4.21,DS,NA,dead,Jen Jordan,Jessica Shue,23912,23912,NA,93,0,1110,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,171348,1,2022.15,2022,11,9,1,1,ceca,1714,19.4,2.4,10.84,NA,band removed; outgrown,alive,John Whitmoyer,Jessica Shue,25171,25171,NA,155.4,1,381,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,171348,1,2022.15,2022,11,9,1,1,ceca,1714,19.4,2.4,10.84,NA,band removed; outgrown,alive,John Whitmoyer,Jessica Shue,25171,25171,NA,155.4,1,381,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,171456,1,2022.15,2022,11,10,1,0,acru,1714,0.8,13.4,57.79,BA; NN,tree has injury/split on North side and irregular bark,alive,Jessica Shue,Jessica Shue,25273,25273,NA,715,0,617,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,171462,1,2022.15,2022,11,9,1,0,qual,1715,7.9,7.5,65.39,NA,NA,alive,John Whitmoyer,Jessica Shue,25278,25278,NA,845,0,912,2,NA,1.32,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,182398,1,2022.15,2022,11,9,1,0,ceca,1825,0.6,5.5,14.42,NA,NA,alive,Jen Jordan,Jessica Shue,27308,27308,NA,110,0,1111,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,192133,1,2022.15,2022,11,9,1,1,caovl,1923,11.7,2.3,37.72,NA,NA,alive,Bridgette; Paula,Jessica Shue,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,192466,1,2022.13,2022,9,26,1,1,quru,1926,13.3,1.7,134.91,RN,NA,alive,John Whitmoyer,Jen Jordan,28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
 code_not_defined,192466,1,2022.14,2022,10,5,1,1,quru,1926,13.3,1.7,135.49,RN,NA,alive,John Whitmoyer,Jen Jordan,28877,28877,NA,809,0,723,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,200577,1,2022.15,2022,11,9,1,0,juni,2007,8.8,9.6,12.7,NA,tree irregular; band removed and new installed,alive,John Whitmoyer,Jessica Shue,29636,29636,NA,535.2,0,459,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,202276,1,2022.15,2022,11,9,1,0,caovl,2019,7.1,13.8,16.37,NA,NA,alive,Bridgette; Paula,Jessica Shue,30649,30649,NA,264,0,1112,2,NA,1.4,NA,NA,NA,NA

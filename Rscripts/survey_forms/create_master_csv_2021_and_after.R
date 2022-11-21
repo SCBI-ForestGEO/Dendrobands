@@ -349,35 +349,36 @@ if(length(current_year_intraannual_filename_list) > 0){
 # 4. Process fall biannual field form -----
 # Code taken from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_fall_biannual_filename)){
-  ## 4.a) Merge data_entry form fall biannual with the year's master file ----
+  ## 4.a) Merge data_entry form spring biannual with the year's master file ----
   current_year_data <- read.csv(current_year_data_filename)
   data_biannual <- read.csv(current_year_fall_biannual_filename)
   
   names_current_year <- c(colnames(current_year_data))
   namesbi <- c(colnames(data_biannual))
   
-  ## find the names that are in current_year_data but not in data_biannual
-  missing <- setdiff(names_current_year, namesbi)
-  
-  ## if need be, do the opposite
-  # missing <- setdiff(namesbi, names_current_year)
-  
+  # find the names that are in current_year_data but not in data_biannual
   ## add these missed names to data_biannual in order to combine to the master
-  data_biannual[missing] <- NA
-  data_biannual$area <- NULL #this column is only relevant for field
-  data_biannual$measure_verified <- NULL #this column is only relevant for verifying measurements in the field
+  missing_vars <- setdiff(names_current_year, namesbi)
+  data_biannual[missing_vars] <- NA
+  
+  # if need be, do the opposite
+  # these variables are only relevant for field
+  drop_vars <- setdiff(namesbi, names_current_year)
+  data_biannual <- data_biannual %>% 
+    select(-all_of(drop_vars))
   
   test <- rbind(current_year_data, data_biannual)
   
-  test <- test[order(test$tag, test$stemtag, test$survey.ID, na.last=FALSE), ] #order by tag, then stemtag, then survey.ID (IMPORTANT for multistem plants)
+  # order by tag, then stemtag, then survey.ID (IMPORTANT for multistem plants):
+  test <- test[order(test$tag, test$stemtag, test$survey.ID, na.last=FALSE), ] 
   
-  ## this section (next ten lines) was specifically generated for adding in spring biannual survey to a new dataframe for that year, just fyi
-  cols <- c(7,8,11,12,19,20,22,24,25,27)
-  # cols <- c("biannual", "intraannual", "lx", "ly", "stemID", "treeID", "dbh", "new.band", "dendroID", "type", "dendHt") #these are the columns that the numbers are referring to
-  
+  ## this section (next ten lines) was specifically generated for adding
+  ## in spring biannual survey to a new dataframe for that year, just
+  ## fyi
+  cols <- c("biannual", "intraannual", "lx", "ly", "stemID", "treeID", "dbh", "new.band", "dendroID", "type", "dendHt")
   for (i in seq(along=cols)){
-    col_no <- cols[[i]]
-    test[,col_no] <- ifelse(is.na(test[,col_no]) & test$tag == lag(test$tag), na.locf(test[,col_no]), test[,col_no])
+    col <- cols[[i]]
+    test[,col] <- ifelse(is.na(test[,col]) & test$tag == lag(test$tag), na.locf(test[,col]), test[,col])
   }
   
   # continue like normal
@@ -401,44 +402,6 @@ if(file.exists(current_year_fall_biannual_filename)){
   # Write to CSV
   write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
   
-  
-  ## 4.b) Create blank field form for next year's spring biannual -----
-  blank_form <- test %>% 
-    as_tibble() %>% 
-    # Join location data
-    left_join(stem_locations, by = c("tag", "stemtag", "quadrat")) %>% 
-    mutate(
-      measure_verified = "",
-      previous_measure = measure
-    ) %>% 
-    group_by(tag, stemtag) %>% 
-    arrange(survey.ID, .by_group = TRUE) %>% 
-    slice(n()) %>% 
-    mutate(previous_measure = measure)
-    
-  blank_form[, variables_to_reset] <- ""
-  
-  blank_form <- blank_form %>% 
-    select(
-      # Variables identifying stem:
-      tag, stemtag, sp, dbh, 
-      # Location variables:
-      quadrat, lx, ly, area, location, 
-      # Measured variables:
-      previous_measure, measure, measure_verified, crown.condition, crown.illum, new.band, codes, notes, 
-      # Variables with values that won't vary within one survey:
-      survey.ID, year, month, day, field.recorders, data.enter
-    ) %>% 
-    mutate(
-      year = current_year + 1, 
-      survey.ID = str_c(year, ".01")
-    )
-
-  if(!dir.exists(str_c(here(), "/resources/raw_data/", current_year+1))){
-    dir.create(str_c(here(), "/resources/raw_data/", current_year+1))
-  }    
-  str_c(here(), "/resources/raw_data/", current_year+1, "/data_entry_biannual_spr", current_year+1,"_BLANK.csv") %>% 
-    write_csv(x = blank_form, file = .)
 }
 
 
