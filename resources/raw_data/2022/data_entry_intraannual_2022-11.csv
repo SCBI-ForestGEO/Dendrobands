@@ -90,7 +90,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 72024,1,quve,482.3,717,20,9.6,4,North,66.31,66.37,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
 72116,1,litu,502,719,14.4,10.8,4,North,55.3,55.57,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
 72124,1,quru,747.2,719,12.5,19.4,4,North,63.34,65.11,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
-72210,1,qual,872,721,5.2,11.5,4,North,39.55,57.91,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
+72210,1,qual,872,721,5.2,11.5,4,North,39.55,NA,,,,anomalous measurement of 57.91 retrospectively removed,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
 72308,1,qual,654.2,725,15.2,13.3,7,North,73.4,73.49,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
 72324,1,litu,667.2,726,14.4,6.6,7,North,76.63,77.62,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
 72337,1,quru,905.8,727,7.9,2.6,7,North,76.55,77.77,,,,,2022.11,2022,8,17,Erin MacMonigle,Jen Jordan
