@@ -105,7 +105,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 60588,1,caco,292.3,615,13.4,7.3,3,South,56.75,57.44,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 60587,1,caca,81,615,14,9.8,3,South,22.99,23.48,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 60586,1,caca,62.5,615,16.2,9.3,3,South,12.71,12.95,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
-60582,1,quru,285.1,615,20,10.2,3,South,48.4,48.0,,,RE,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
+60582,1,quru,285.1,615,20,10.2,3,South,48.4,48,,,RE,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 70216,1,quve,930.2,701,18.7,11.6,3,South,29.1,29.26,,,,Unhealthy 50% defoli,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 70220,1,qual,557,702,18.3,0.8,3,South,53.19,56.7,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 70096,1,quru,893,704,3.3,12.7,2,South,53.56,54.01,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
@@ -122,7 +122,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 80559,1,nysy,434.6,813,8.9,17.8,2,South,6.37,6.53,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 91486,1,cagl,570.9,908,17.5,9.2,2,South,67.6,68.93,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 91477,1,litu,210,908,19.3,3.5,2,South,55.97,56.38,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
-90660,1,quru,988,913,4.9,7.9,2,South,35.78,38.00,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
+90660,1,quru,988,913,4.9,7.9,2,South,35.78,38,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 100771,1,quru,968,1005,8.5,17,2,South,89.84,93.9,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 101008,1,tiam,177,1006,4.2,11.6,2,South,13.56,14.28,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 100905,1,litu,680,1008,10,1.6,2,South,39.79,42.84,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
@@ -132,7 +132,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 110788,1,litu,656,1104,19.9,11.7,2,South,20.01,22.8,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 110901,1,litu,524.1,1105,20,4.1,2,South,105.38,107.67,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 111030,1,litu,600.5,1107,15.1,19.9,2,South,107.8,109.35,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
-120781,1,litu,605.9,1205,3,2.2,2,South,122.97,12.3,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
+120781,1,litu,605.9,1205,3,2.2,2,South,122.97,NA,,,,original measurement of 12.3 removed - decimal error,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 121221,1,litu,117.2,1207,1.7,19.3,2,South,10.5,9.8,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 121305,1,quru,753.8,1211,1.1,11.2,2,South,21.86,23.76,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
 121301,1,caovl,241.3,1211,1.2,2.5,2,South,16.19,16.81,,,,,2022.09,2022,7,20,Jen Jordan,Jen Jordan
