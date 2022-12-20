@@ -5,7 +5,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 30584,1,quve,873.5,316,2.2,14.4,4,North,114.1,114.63,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 32126,1,litu,995.5,321,9.6,5,4,North,135.7,136.6,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 32381,1,qupr,834,327,4.6,12.8,4,North,110.34,111.33,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
-32540,1,qupr,841.8,332,19.9,15.6,4,North,114.64,114.75,,,unhealthy,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
+32540,1,qupr,841.8,332,19.9,15.6,4,North,114.64,114.75,,,,unhealthy,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 52190,1,quru,968.5,522,16.4,3.4,4,North,68.83,70.59,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 62181,1,quve,1118.5,621,8.8,13.5,4,North,138.83,140,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 62224,1,litu,1040.5,622,3.2,17.3,4,North,44.2,44.97,,,RT,Measured top band,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
@@ -14,14 +14,14 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 72116,1,litu,502,719,14.4,10.8,4,North,56.07,55.91,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 72210,1,qual,872,721,5.2,11.5,4,North,41.97,42.11,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 72308,1,qual,654.2,725,15.2,13.3,7,North,73.08,74.54,,,,Broken tree top laying in crown,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
-72324,1,litu,667.2,726,14.4,6.6,7,North,77.62,78.69,,,RN,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
+72324,1,litu,667.2,726,14.4,6.6,7,North,77.62,78.69,,,NN,originally coded RN (invalid code),2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 72337,1,quru,905.8,727,7.9,2.6,7,North,77.7,78.38,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 72348,1,quru,971,727,12,15.1,7,North,53.09,53.35,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 72357,1,quru,938,728,1.7,2,7,North,135.37,136.53,,,RT,Replace Band,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 72427,1,litu,1422.3,730,3.6,19.4,7,North,90.2,96.7,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 82203,1,litu,654,822,8,9.4,4,North,67.15,68,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 82219,1,ceca,87,822,14.7,18.8,4,North,15.74,15.77,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
-82360,1,litu,604.5,829,2.3,0.7,7,North,58.36,59.61,,,RN,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
+82360,1,litu,604.5,829,2.3,0.7,7,North,58.36,59.61,,,NN,originally coded RN (invalid code),2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 82365,1,qual,438.1,829,4.9,4.7,7,North,66.18,66.99,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 82422,1,litu,546.5,831,6.9,19.5,7,North,99.45,100.06,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 92237,1,nysy,218.1,922,14.7,19.5,5,North,18.42,18.79,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
@@ -38,14 +38,14 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 122006,1,acru,395.9,1217,9.9,8.3,5,North,67.63,68,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 122136,1,quru,587.7,1220,5.5,7.6,5,North,112.66,113.06,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 122184,1,pist,217.8,1222,2.9,13.9,5,North,17.29,18.15,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
-122189,1,qual,665.1,1222,5.5,19.5,5,North,125.56,126.25,,,RN,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
+122189,1,qual,665.1,1222,5.5,19.5,5,North,125.56,126.25,,,NN,originally coded RN (invalid code),2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 122303,1,qual,624.3,1223,1.9,8.5,5,North,105.87,106.47,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 122343,1,qual,638,1225,10.7,14.4,8,North,25.64,27.47,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 122427,1,qual,832.7,1227,17,15.6,8,North,61.55,62.76,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 122482,1,litu,562.4,1228,14.5,2.4,8,North,115.14,115.27,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 131364,1,acru,460,1316,12,12.9,5,North,78.19,79.59,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 132077,1,qual,592.4,1319,9.9,15.9,5,North,117.1,118.03,,,,replace tag,2022.14,2022,10,10,Jen Jordan,Jen Jordan
-132539,1,litu,604.5,1331,15,15.9,8,North,59,59.54,,,RN,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
+132539,1,litu,604.5,1331,15,15.9,8,North,59,59.54,,,NN,originally coded RN (invalid code),2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 142521,1,pist,452,1422,6.4,11.1,5,North,124.86,127.77,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 142380,1,qual,593,1425,6.8,13.1,8,North,53.57,55.35,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 142708,1,juni,423.1,1429,4.3,6.2,8,North,25.9,27.2,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
@@ -65,7 +65,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 192133,1,caovl,565,1923,11.7,2.3,6,North,37.21,39.62,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 192437,1,litu,436.9,1925,17,11.5,9,North,26.36,27.57,,,RT,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 192619,1,quru,787,1926,12.6,8.5,9,North,93.87,94.32,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
-192466,1,quru,809,1926,13.3,1.7,9,North,134.91,135.49,,,RN,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
+192466,1,quru,809,1926,13.3,1.7,9,North,134.91,135.49,,,NN,originally coded RN (invalid code),2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 192484,1,quru,422.5,1926,17.4,11.2,9,North,75.03,75.27,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 192544,1,litu,349,1929,14.4,1.8,9,North,15.22,15.76,,,,Top/ Crown broken,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
 192542,1,litu,326,1929,18.9,3.8,9,North,18.63,18.96,,,,,2022.14,2022,10,5,John Whitmoyer,Jen Jordan
