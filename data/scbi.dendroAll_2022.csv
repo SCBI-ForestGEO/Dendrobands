@@ -618,7 +618,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60566,1,2022.12,2022,9,6,1,1,fagr,614,10,11,129.09,RE,gap too wide,alive,Jen Jordan,Jen Jordan,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
 60566,1,2022.13,2022,9,22,1,1,fagr,614,10,11,128.12,RE,gap too wide,alive,Jen Jordan,Jen Jordan,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
 60566,1,2022.14,2022,10,10,1,1,fagr,614,10,11,128.45,RE,gap too wide,alive,Jen Jordan,Jen Jordan,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
-60566,1,2022.15,2022,11,9,1,1,fagr,614,10,11,128.52,NN,,alive,Katherina Wilkins,Jessica Shue,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
+60566,1,2022.15,2022,11,9,1,1,fagr,614,10,11,128.52,NN,old band removed and new band installed,alive,Katherina Wilkins,Jessica Shue,7545,7545,NA,194.2,0,729,2,NA,1.44,NA,NA,NA,NA
 60567,1,2022.01,2022,3,15,1,0,litu,614,11.6,11.2,76.34,,,alive,Kristina Anderson-Teixeira,Jessica Shue,7546,7546,NA,536.8,0,706,2,NA,1.54,NA,NA,NA,NA
 60567,1,2022.15,2022,11,9,1,0,litu,614,11.6,11.2,81.95,,,alive,Katherina Wilkins,Jessica Shue,7546,7546,NA,536.8,0,706,2,NA,1.54,NA,NA,NA,NA
 60568,1,2022.01,2022,3,15,1,0,caca,614,15.5,15.6,9.72,,,alive,Kristina Anderson-Teixeira,Jessica Shue,7547,7547,NA,96,0,953,2,NA,1.35,NA,NA,NA,NA
@@ -658,7 +658,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 60582,1,2022.12,2022,9,6,1,1,quru,615,20,10.2,48.48,RE,Gap error,alive,Jen Jordan,Jen Jordan,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2022.13,2022,9,22,1,1,quru,615,20,10.2,48.01,RE,Gap error,alive,Jen Jordan,Jen Jordan,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 60582,1,2022.14,2022,10,10,1,1,quru,615,20,10.2,47.92,RE,Gap error,alive,Jen Jordan,Jen Jordan,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
-60582,1,2022.15,2022,11,9,1,1,quru,615,20,10.2,41.4,,,alive,Katherina Wilkins,Jessica Shue,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
+60582,1,2022.15,2022,11,9,1,1,quru,615,20,10.2,41.4,,old band removed and new band installed,alive,Katherina Wilkins,Jessica Shue,7561,7561,NA,285.1,0,583,2,NA,1.37,NA,NA,NA,NA
 60586,1,2022.01,2022,3,15,1,1,caca,615,16.2,9.3,12.81,,,alive,Kristina Anderson-Teixeira,Jessica Shue,7565,7565,NA,62.5,0,992,2,NA,1.38,NA,NA,NA,NA
 60586,1,2022.02,2022,4,4,1,1,caca,615,16.2,9.3,12.59,,,alive,Jen Jordan,Jen Jordan,7565,7565,NA,62.5,0,992,2,NA,1.38,NA,NA,NA,NA
 60586,1,2022.03,2022,4,21,1,1,caca,615,16.2,9.3,11.87,,,alive,Jen Jordan,Jen Jordan,7565,7565,NA,62.5,0,992,2,NA,1.38,NA,NA,NA,NA
@@ -855,7 +855,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 70494,2,2022.12,2022,9,6,1,1,caca,714,0.4,15.7,27.3,RE,Gap error,alive,Jen Jordan,Jen Jordan,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
 70494,2,2022.13,2022,9,22,1,1,caca,714,0.4,15.7,28.82,RE,Gap error,alive,Jen Jordan,Jen Jordan,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
 70494,2,2022.14,2022,10,10,1,1,caca,714,0.4,15.7,27.05,RE,Gap error,alive,Jen Jordan,Jen Jordan,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
-70494,2,2022.15,2022,11,9,1,1,caca,714,0.4,15.7,24.37,,,alive,Katherina Wilkins,Jessica Shue,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
+70494,2,2022.15,2022,11,9,1,1,caca,714,0.4,15.7,24.37,,old band removed and new band installed,alive,Katherina Wilkins,Jessica Shue,31371,181,NA,60,0,838,2,NA,1.42,NA,NA,NA,NA
 70495,1,2022.01,2022,3,15,1,1,caca,714,1.7,18.6,15.7,,dead? missing twigs,alive,Kristina Anderson-Teixeira,Jessica Shue,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
 70495,1,2022.02,2022,4,4,1,1,caca,714,1.7,18.6,15.43,,,alive,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
 70495,1,2022.03,2022,4,21,1,1,caca,714,1.7,18.6,15.06,,,alive,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
@@ -870,7 +870,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 70495,1,2022.12,2022,9,6,1,1,caca,714,1.7,18.6,24.76,RE,Gap error,alive,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
 70495,1,2022.13,2022,9,22,1,1,caca,714,1.7,18.6,24.03,RE,Gap error,alive,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
 70495,1,2022.14,2022,10,10,1,1,caca,714,1.7,18.6,24.18,,Gap ok,alive,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
-70495,1,2022.15,2022,11,9,1,1,caca,714,1.7,18.6,24.43,,,alive,Katherina Wilkins,Jessica Shue,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
+70495,1,2022.15,2022,11,9,1,1,caca,714,1.7,18.6,24.43,,old band removed and new band installed,alive,Katherina Wilkins,Jessica Shue,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
 70519,NA,2022.07,2022,6,21,1,1,qual,711,15.5,3.3,96.88,,,alive,Jen Jordan,Jen Jordan,8520,8520,NA,544.8,0,65,2,NA,1.21,NA,NA,NA,NA
 70519,1,2022.01,2022,3,15,1,1,qual,711,15.5,3.3,95.12,,,alive,Jessica Shue,Jessica Shue,8520,8520,NA,544.8,0,65,2,NA,1.21,NA,NA,NA,NA
 70519,1,2022.02,2022,4,4,1,1,qual,711,15.5,3.3,94.83,,,alive,Jen Jordan,Jen Jordan,8520,8520,NA,544.8,0,65,2,NA,1.21,NA,NA,NA,NA
@@ -1496,7 +1496,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102264,1,2022.01,2022,3,15,1,0,qual,1022,1.5,14.2,49.72,,,alive,Albert Kim,Jessica Shue,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102264,1,2022.15,2022,11,9,1,0,qual,1022,1.5,14.2,55.97,,,alive,Bridgette; Paula,Jessica Shue,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102303,1,2022.01,2022,3,15,1,0,quve,1024,8.2,0.9,56.62,RE; BA,Double spring,alive,Albert Kim,Jessica Shue,13239,13239,NA,909,0,939,2,NA,1.4,NA,NA,NA,NA
-102303,1,2022.15,2022,11,9,1,0,quve,1024,8.2,0.9,74.13, ,band removed and new band installed,alive,Bridgette; Paula,Jessica Shue,13239,13239,NA,909,0,939,2,NA,1.4,NA,NA,NA,NA
+102303,1,2022.15,2022,11,9,1,0,quve,1024,8.2,0.9,74.13, ,old band removed and new band installed,alive,Bridgette; Paula,Jessica Shue,13239,13239,NA,909,0,939,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.01,2022,3,15,1,1,qual,1025,16.5,11.5,34.45,,,alive,Bill McShea,Jessica Shue,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.02,2022,4,4,1,1,qual,1025,16.5,11.5,34.84,,,alive,Isabella Dangler,Jen Jordan,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.03,2022,4,20,1,1,qual,1025,16.5,11.5,37.26,,,alive,Isabella Dangler,Isabella Dangler,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
@@ -1854,7 +1854,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 121374,1,2022.12,2022,9,6,1,1,juni,1216,0.7,18.5,116.01,RT,replace tag,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.13,2022,9,22,1,1,juni,1216,0.7,18.5,114.74,,replace tag,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.14,2022,10,10,1,1,juni,1216,0.7,18.5,NA,RE,Band gap error. Anomalous reading of 154.13 removed retrospectively.,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
-121374,1,2022.15,2022,11,9,1,1,juni,1216,0.7,18.5,NA,RE; RT,,alive,Bridgette; Paula,Jessica Shue,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
+121374,1,2022.15,2022,11,9,1,1,juni,1216,0.7,18.5,NA,RE; RT,old band removed and new band installed,alive,Bridgette; Paula,Jessica Shue,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.01,2022,3,15,1,0,caco,1215,19.1,6.5,30.53,,,alive,Kristina Anderson-Teixeira,Jessica Shue,16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.15,2022,11,9,1,0,caco,1215,19.1,6.5,42.65,,,alive,Katherina Wilkins,Jessica Shue,16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 122006,1,2022.01,2022,3,15,1,1,acru,1217,9.9,8.3,49.83,,,alive,Albert Kim,Jessica Shue,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
