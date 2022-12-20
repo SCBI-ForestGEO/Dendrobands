@@ -1029,7 +1029,7 @@
 72324,1,2022.05,2022,5,19,1,1,"litu",726,14.4,6.6,60.1,"","","alive","Erin MacMonigle","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 72324,1,2022.06,2022,6,8,1,1,"litu",726,14.4,6.6,64.03,"","","alive","Erin MacMonigle","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 72324,1,2022.07,2022,6,21,1,1,"litu",726,14.4,6.6,67.5,"","","alive","Erin Macmonigle","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
-72324,1,2022.08,2022,7,7,1,1,"litu",726,14.4,6.6,59.02,"","Measurement checked 2x, but still appears to be anomalous, so original 59.02 measurement retroactively deleted","alive","Eva Noroski","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
+72324,1,2022.08,2022,7,7,1,1,"litu",726,14.4,6.6,NA,"","Measurement checked 2x, but still appears to be anomalous, so original 59.02 measurement retroactively deleted","alive","Eva Noroski","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 72324,1,2022.09,2022,7,20,1,1,"litu",726,14.4,6.6,75.16,"","","alive","Erin Macmonigle","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 72324,1,2022.1,2022,8,2,1,1,"litu",726,14.4,6.6,76.63,"","","alive","Erin MacMonigle","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
 72324,1,2022.11,2022,8,17,1,1,"litu",726,14.4,6.6,77.62,"","","alive","Erin MacMonigle","Jen Jordan",8964,8964,NA,667.2,0,840,2,NA,1.31,NA,NA,NA,NA
@@ -1853,7 +1853,7 @@
 121374,1,2022.11,2022,8,17,1,1,"juni",1216,0.7,18.5,114.82,"","replace tag","alive","Erin MacMonigle","Jen Jordan",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.12,2022,9,6,1,1,"juni",1216,0.7,18.5,116.01,"","replace tag","alive","Jen Jordan","Jen Jordan",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.13,2022,9,22,1,1,"juni",1216,0.7,18.5,114.74,"","replace tag","alive","Jen Jordan","Jen Jordan",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
-121374,1,2022.14,2022,10,10,1,1,"juni",1216,0.7,18.5,154.13,"RE","Band gap error","alive","Jen Jordan","Jen Jordan",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
+121374,1,2022.14,2022,10,10,1,1,"juni",1216,0.7,18.5,NA,"RE","Band gap error. Anomalous reading of 154.13 removed retrospectively.","alive","Jen Jordan","Jen Jordan",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.15,2022,11,9,1,1,"juni",1216,0.7,18.5,NA,"RE; RT","","alive","Bridgette; Paula","Jessica Shue",16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.01,2022,3,15,1,0,"caco",1215,19.1,6.5,30.53,"","","alive","Kristina Anderson-Teixeira","Jessica Shue",16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.15,2022,11,9,1,0,"caco",1215,19.1,6.5,42.65,"","","alive","Katherina Wilkins","Jessica Shue",16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
