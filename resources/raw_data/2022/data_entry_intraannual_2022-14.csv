@@ -120,7 +120,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 80401,1,caco,469,807,7.4,19.4,2,South,46.19,46.81,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 80554,1,caovl,529,813,6.9,11.2,2,South,36.03,35.11,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 80559,1,nysy,434.6,813,8.9,17.8,2,South,6.46,6.99,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
-91486,1,cagl,570.9,908,17.5,9.2,2,South,69.85,46.43,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
+91486,1,cagl,570.9,908,17.5,9.2,2,South,69.85,NA,,,,anomalous measurement of 46.43 retrospectively removed,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 91477,1,litu,210,908,19.3,3.5,2,South,56.18,56.09,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 90660,1,quru,988,913,4.9,7.9,2,South,40.83,41.54,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
 100771,1,quru,968,1005,8.5,17,2,South,100.61,100.96,,,,,2022.14,2022,10,10,Jen Jordan,Jen Jordan
