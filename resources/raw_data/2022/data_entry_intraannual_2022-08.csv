@@ -14,7 +14,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 72116,1,litu,502,719,14.4,10.8,4,North,46.86,50.18,,,,,2022.08,2022,7,7,Eva Noroski,Jen Jordan
 72210,1,qual,872,721,5.2,11.5,4,North,36.39,37.03,,,,New Tag,2022.08,2022,7,7,Eva Noroski,Jen Jordan
 72308,1,qual,654.2,725,15.2,13.3,7,North,71.04,72.06,,,,,2022.08,2022,7,7,Eva Noroski,Jen Jordan
-72324,1,litu,667.2,726,14.4,6.6,7,North,67.5,59.02,,,,"Measurement checked 2x, but still appears to be anomalous, so original 59.02 measurement retroactively deleted",2022.08,2022,7,7,Eva Noroski,Jen Jordan
+72324,1,litu,667.2,726,14.4,6.6,7,North,67.5,NA,,,,"Measurement checked 2x, but still appears to be anomalous, so original 59.02 measurement retroactively deleted",2022.08,2022,7,7,Eva Noroski,Jen Jordan
 72337,1,quru,905.8,727,7.9,2.6,7,North,73.45,74.41,,,,,2022.08,2022,7,7,Eva Noroski,Jen Jordan
 72348,1,quru,971,727,12,15.1,7,North,47.01,49.09,,,,,2022.08,2022,7,7,Eva Noroski,Jen Jordan
 72357,1,quru,938,728,1.7,2,7,North,119.04,122.76,,,,,2022.08,2022,7,7,Eva Noroski,Jen Jordan
