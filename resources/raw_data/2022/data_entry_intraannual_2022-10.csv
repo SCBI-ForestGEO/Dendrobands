@@ -7,8 +7,8 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 30234,1,fagr,81,306,15.3,18.5,3,South,18.79,18.66,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 30331,1,cagl,231,306,8.3,19.5,3,South,22.07,22.28,,,,Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 30333,1,fagr,222,306,14,19.3,3,South,89.93,91.9,,,RT,Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
-30339,1,litu,153.1,307,8.6,4.1,3,South,111.42,114.31,,,"RT, New Band needed",,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
-30339,2,litu,153.1,307,8.6,4.1,3,South,126.22,129.55,,,New Band Needed,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30339,1,litu,153.1,307,8.6,4.1,3,South,111.42,114.31,,,"RT, RE",New Band needed,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+30339,2,litu,153.1,307,8.6,4.1,3,South,126.22,129.55,,,RE,New Band Needed,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 30339,3,litu,153.1,307,8.6,4.1,3,South,50.77,51.09,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 30512,1,quru,845.5,313,2.9,14.3,3,South,68.41,69.5,,,RT,,2022.10,2022,8,4,John Whitmoyer,Jen Jordan
 30467,1,litu,608,314,17.3,3,3,South,126.77,128.13,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
@@ -19,7 +19,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 40562,1,fagr,86,406,6.3,16.2,3,South,12.23,12.27,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 40563,1,fagr,365,406,3.6,17.8,3,South,90.51,93.17,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 40564,1,fagr,69,406,2.4,12.4,3,South,9.11,9.16,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
-40565,1,cagl,184,406,1.9,10.1,3,South,NA,,,,New Band needed,No Window cut out to measure,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+40565,1,cagl,184,406,1.9,10.1,3,South,NA,,,,RE,No Window cut out to measure,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 40566,1,cagl,270.2,406,1.1,9.4,3,South,39.29,39.46,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 40567,1,fagr,93.3,406,1.6,7.2,3,South,25.67,25.67,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 40568,1,fagr,206,406,0.1,5.2,3,South,54.08,56.05,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
@@ -29,14 +29,14 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 50650,1,litu,184.3,514,19.5,14.9,3,South,26.06,26.53,,,,Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 52190,1,quru,968.5,522,16.4,3.4,4,North,67.13,68.54,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
 60161,1,qupr,867,608,17.5,14.1,2,South,106.93,106.63,,,,"Inside Deer Exclosure, Dying?",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
-60566,1,fagr,194.2,614,10,11,3,South,127.15,127.45,,,"RT, New Band needed",,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60566,1,fagr,194.2,614,10,11,3,South,127.15,127.45,,,"RT, RE",New Band needed,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60573,1,tiam,258.5,614,8.5,16.3,3,South,57.41,57.61,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60458,1,fagr,269.5,615,1.9,0,3,South,57.02,58.38,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60459,1,fagr,99.7,615,2,3,3,South,27.61,27.65,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60462,1,fagr,209.5,615,5.6,7.6,3,South,108.78,111.7,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60463,1,juni,468,615,7.2,8,3,South,84.74,86.23,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60469,1,cofl,70,615,6.8,9.8,3,South,10.51,10.61,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
-60582,1,quru,285.1,615,20,10.2,3,South,48,45.8,,,New Band Needed,Dying? Auto Dendrometer,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+60582,1,quru,285.1,615,20,10.2,3,South,48,45.8,,,RE,Dying? Auto Dendrometer. New Band Needed,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60586,1,caca,62.5,615,16.2,9.3,3,South,12.95,12.78,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60587,1,caca,81,615,14,9.8,3,South,23.48,23.45,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 60588,1,caco,292.3,615,13.4,7.3,3,South,57.44,57.98,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
@@ -50,7 +50,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 70536,1,qual,599,711,11.9,7.4,2,South,34.96,35.81,,,,Inside Deer Exclosure,2022.10,2022,8,3,John Whitmoyer,Jen Jordan
 70492,1,nysy,198.6,714,0.1,11.2,3,South,30.94,32.58,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 70494,2,caca,60,714,0.4,15.7,3,South,29.98,24.21,,,,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
-70495,1,caca,79,714,1.7,18.6,3,South,22.76,23.33,,,New Band Needed,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
+70495,1,caca,79,714,1.7,18.6,3,South,22.76,23.33,,,RE,New Band Needed,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 70579,1,caco,236.1,714,19.2,4.3,2,South,47.26,47.63,,,,"Inside Deer Exclosure, Auto Dendrometer",2022.10,2022,8,3,John Whitmoyer,Jen Jordan
 70581,1,quru,614.5,714,13.7,1.2,3,South,40.65,41,,,RT,,2022.10,2022,8,2,John Whitmoyer,Jen Jordan
 72024,1,quve,482.3,717,20,9.6,4,North,66.14,66.31,,,,,2022.10,2022,8,2,Erin MacMonigle,Jen Jordan
