@@ -8,7 +8,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 32540,1,qupr,841.8,332,19.9,15.6,4,North,114,114.6,,,,unhealthy,2022.12,2022,9,6,John Whitmoyer,Jen Jordan
 52190,1,quru,968.5,522,16.4,3.4,4,North,69.07,69.35,,,,,2022.12,2022,9,6,John Whitmoyer,Jen Jordan
 62181,1,quve,1118.5,621,8.8,13.5,4,North,137.88,140.25,,,,,2022.12,2022,9,6,John Whitmoyer,Jen Jordan
-62224,1,litu,1040.5,622,3.2,17.3,4,North,59.11,45.08,,,BA; RT,replace tag; band adjusted,2022.12,2022,9,6,John Whitmoyer,Jen Jordan
+62224,1,litu,1040.5,622,3.2,17.3,4,North,59.11,45.08,,,BA,replace tag; band adjusted,2022.12,2022,9,6,John Whitmoyer,Jen Jordan
 72024,1,quve,482.3,717,20,9.6,4,North,66.37,66.48,,,,,2022.12,2022,9,6,Jen Jordan,Jen Jordan
 72124,1,quru,747.2,719,12.5,19.4,4,North,65.11,65.58,,,,,2022.12,2022,9,6,Jen Jordan,Jen Jordan
 72116,1,litu,502,719,14.4,10.8,4,North,55.57,55.9,,,,,2022.12,2022,9,6,Jen Jordan,Jen Jordan
