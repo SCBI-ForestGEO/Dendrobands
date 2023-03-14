@@ -745,13 +745,13 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 62285,1,2022.01,2022,3,15,1,0,quru,625,4.8,2,58.89,,,alive,Bill McShea,Jessica Shue,7862,7862,NA,714,0,873,2,NA,1.4,NA,NA,NA,NA
 62285,1,2022.15,2022,11,9,1,0,quru,625,4.8,2,76.84,,,alive,John Whitmoyer,Jessica Shue,7862,7862,NA,714,0,873,2,NA,1.4,NA,NA,NA,NA
 62300,1,2022.01,2022,3,15,1,0,quve,625,13.8,17.5,32.24,,,alive,Bill McShea,Jessica Shue,7877,7877,NA,450,0,950,2,NA,1.4,NA,NA,NA,NA
-62300,1,2022.15,2022,11,9,1,0,quve,625,13.8,17.5,46,,,alive,Brigit Rooney; Paula,Jessica Shue,7877,7877,NA,450,0,950,2,NA,1.4,NA,NA,NA,NA
+62300,1,2022.15,2022,11,9,1,0,quve,625,13.8,17.5,46,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,7877,7877,NA,450,0,950,2,NA,1.4,NA,NA,NA,NA
 62312,1,2022.01,2022,3,15,1,0,cato,626,14.3,0.4,4.87,,,alive,Bill McShea,Jessica Shue,7889,7889,NA,129,0,875,2,NA,1.4,NA,NA,NA,NA
-62312,1,2022.15,2022,11,9,1,0,cato,626,14.3,0.4,6.29,,,alive,Brigit Rooney; Paula,Jessica Shue,7889,7889,NA,129,0,875,2,NA,1.4,NA,NA,NA,NA
+62312,1,2022.15,2022,11,9,1,0,cato,626,14.3,0.4,6.29,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,7889,7889,NA,129,0,875,2,NA,1.4,NA,NA,NA,NA
 62417,1,2022.01,2022,3,15,1,0,quve,630,8.9,17,84.76,,Dead?,alive,Bill McShea,Jessica Shue,7992,7992,NA,944,0,51,2,NA,1.4,NA,NA,NA,NA
-62417,1,2022.15,2022,11,9,1,0,quve,630,8.9,17,NA,DS,,dead,Brigit Rooney; Paula,Jessica Shue,7992,7992,NA,944,0,51,2,NA,1.4,NA,NA,NA,NA
+62417,1,2022.15,2022,11,9,1,0,quve,630,8.9,17,NA,DS,,dead,"Brigit Rooney, Paula Castiblanco",Jessica Shue,7992,7992,NA,944,0,51,2,NA,1.4,NA,NA,NA,NA
 62449,1,2022.01,2022,3,15,1,0,qual,632,18.7,3.9,14.76,,,alive,Bill McShea,Jessica Shue,8020,8020,NA,891,0,52,2,NA,1.25,NA,NA,NA,NA
-62449,1,2022.15,2022,11,9,1,0,qual,632,18.7,3.9,21.26,,,alive,Brigit Rooney; Paula,Jessica Shue,8020,8020,NA,891,0,52,2,NA,1.25,NA,NA,NA,NA
+62449,1,2022.15,2022,11,9,1,0,qual,632,18.7,3.9,21.26,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,8020,8020,NA,891,0,52,2,NA,1.25,NA,NA,NA,NA
 70096,1,2022.01,2022,3,15,1,1,quru,704,3.3,12.7,39.52,,,alive,Jessica Shue,Jessica Shue,8126,8126,NA,893,0,901,2,NA,1.4,NA,NA,NA,NA
 70096,1,2022.02,2022,4,4,1,1,quru,704,3.3,12.7,39.38,,,alive,Jen Jordan,Jen Jordan,8126,8126,NA,893,0,901,2,NA,1.4,NA,NA,NA,NA
 70096,1,2022.03,2022,4,21,1,1,quru,704,3.3,12.7,41.2,,,alive,Jen Jordan,Jen Jordan,8126,8126,NA,893,0,901,2,NA,1.4,NA,NA,NA,NA
@@ -1066,7 +1066,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72348,1,2022.12,2022,9,6,1,1,quru,727,12,15.1,52.72,NN,replace nail,alive,John Whitmoyer,Jen Jordan,8988,8988,NA,971,0,930,2,NA,1.4,NA,NA,NA,NA
 72348,1,2022.13,2022,9,26,1,1,quru,727,12,15.1,53.09,RT,,alive,John Whitmoyer,Jen Jordan,8988,8988,NA,971,0,930,2,NA,1.4,NA,NA,NA,NA
 72348,1,2022.14,2022,10,5,1,1,quru,727,12,15.1,53.35,RT,,alive,John Whitmoyer,Jen Jordan,8988,8988,NA,971,0,930,2,NA,1.4,NA,NA,NA,NA
-72348,1,2022.15,2022,11,9,1,1,quru,727,12,15.1,53.32,,,alive,Brigit Rooney; Paula,Jessica Shue,8988,8988,NA,971,0,930,2,NA,1.4,NA,NA,NA,NA
+72348,1,2022.15,2022,11,9,1,1,quru,727,12,15.1,53.32,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,8988,8988,NA,971,0,930,2,NA,1.4,NA,NA,NA,NA
 72357,1,2022.01,2022,3,15,1,1,quru,728,1.7,2,100.16,,,alive,Bill McShea,Jessica Shue,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
 72357,1,2022.02,2022,4,4,1,1,quru,728,1.7,2,100.88,,,alive,Isabella Dangler,Jen Jordan,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
 72357,1,2022.03,2022,4,20,1,1,quru,728,1.7,2,105.32,,,alive,Isabella Dangler,Isabella Dangler,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
@@ -1081,11 +1081,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72357,1,2022.12,2022,9,6,1,1,quru,728,1.7,2,135.4,NN,replace nail,alive,John Whitmoyer,Jen Jordan,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
 72357,1,2022.13,2022,9,26,1,1,quru,728,1.7,2,135.37,RT,Replace Band,alive,John Whitmoyer,Jen Jordan,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
 72357,1,2022.14,2022,10,5,1,1,quru,728,1.7,2,136.53,RT,Replace Band,alive,John Whitmoyer,Jen Jordan,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
-72357,1,2022.15,2022,11,9,1,1,quru,728,1.7,2,135.47,NN; RE,verified,alive,Brigit Rooney; Paula,Jessica Shue,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
+72357,1,2022.15,2022,11,9,1,1,quru,728,1.7,2,135.47,NN; RE,verified,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
 72375,1,2022.01,2022,3,15,1,0,litu,728,13.7,17.1,101.16,,,alive,Bill McShea,Jessica Shue,9015,9015,NA,669.1,0,85,2,NA,1.28,NA,NA,NA,NA
-72375,1,2022.15,2022,11,9,1,0,litu,728,13.7,17.1,109.13,,,alive,Brigit Rooney; Paula,Jessica Shue,9015,9015,NA,669.1,0,85,2,NA,1.28,NA,NA,NA,NA
+72375,1,2022.15,2022,11,9,1,0,litu,728,13.7,17.1,109.13,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,9015,9015,NA,669.1,0,85,2,NA,1.28,NA,NA,NA,NA
 72377,1,2022.01,2022,3,15,1,0,litu,728,10.6,16.1,51.9,,,alive,Bill McShea,Jessica Shue,9016,9016,NA,768,0,931,2,NA,1.2,NA,NA,NA,NA
-72377,1,2022.15,2022,11,9,1,0,litu,728,10.6,16.1,66.2,,,alive,Brigit Rooney; Paula,Jessica Shue,9016,9016,NA,768,0,931,2,NA,1.2,NA,NA,NA,NA
+72377,1,2022.15,2022,11,9,1,0,litu,728,10.6,16.1,66.2,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,9016,9016,NA,768,0,931,2,NA,1.2,NA,NA,NA,NA
 72427,1,2022.01,2022,3,15,1,1,litu,730,3.6,19.4,81.04,,Band messed,alive,Bill McShea,Jessica Shue,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2022.02,2022,4,4,1,1,litu,730,3.6,19.4,81.19,BA,,alive,Isabella Dangler,Jen Jordan,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2022.03,2022,4,20,1,1,litu,730,3.6,19.4,81.41,,,alive,Isabella Dangler,Isabella Dangler,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
@@ -1100,11 +1100,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 72427,1,2022.12,2022,9,6,1,1,litu,730,3.6,19.4,90.74,,,alive,John Whitmoyer,Jen Jordan,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2022.13,2022,9,26,1,1,litu,730,3.6,19.4,90.2,,,alive,John Whitmoyer,Jen Jordan,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72427,1,2022.14,2022,10,5,1,1,litu,730,3.6,19.4,96.7,,,alive,John Whitmoyer,Jen Jordan,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
-72427,1,2022.15,2022,11,9,1,1,litu,730,3.6,19.4,91.03,,,alive,Brigit Rooney; Paula,Jessica Shue,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
+72427,1,2022.15,2022,11,9,1,1,litu,730,3.6,19.4,91.03,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,9066,9066,NA,1422.3,0,664,2,NA,1.35,NA,NA,NA,NA
 72447,1,2022.01,2022,3,15,1,0,litu,732,14.9,4.1,95.08,,,alive,Bill McShea,Jessica Shue,9085,9085,NA,591.3,0,710,2,NA,1.31,NA,NA,NA,NA
-72447,1,2022.15,2022,11,9,1,0,litu,732,14.9,4.1,106.14,RT,,alive,Brigit Rooney; Paula,Jessica Shue,9085,9085,NA,591.3,0,710,2,NA,1.31,NA,NA,NA,NA
+72447,1,2022.15,2022,11,9,1,0,litu,732,14.9,4.1,106.14,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,9085,9085,NA,591.3,0,710,2,NA,1.31,NA,NA,NA,NA
 72448,1,2022.01,2022,3,15,1,0,litu,732,18.9,4.7,38.9,,,alive,Bill McShea,Jessica Shue,9086,9086,NA,490,0,902,2,NA,1.35,NA,NA,NA,NA
-72448,1,2022.15,2022,11,9,1,0,litu,732,18.9,4.7,62.66,,,alive,Brigit Rooney; Paula,Jessica Shue,9086,9086,NA,490,0,902,2,NA,1.35,NA,NA,NA,NA
+72448,1,2022.15,2022,11,9,1,0,litu,732,18.9,4.7,62.66,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,9086,9086,NA,490,0,902,2,NA,1.35,NA,NA,NA,NA
 80100,1,2022.01,2022,3,15,1,0,litu,804,3.4,12.6,54.02,,,alive,Jessica Shue,Jessica Shue,9197,9197,NA,582,0,903,2,NA,1.4,NA,NA,NA,NA
 80100,1,2022.15,2022,11,9,1,0,litu,804,3.4,12.6,69.52,,,alive,Jessica Shue,Jessica Shue,9197,9197,NA,582,0,903,2,NA,1.4,NA,NA,NA,NA
 80121,1,2022.01,2022,3,15,1,0,quve,801,8.8,19.2,11.73,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,9215,9215,NA,114,0,878,2,NA,1.4,NA,NA,NA,NA
@@ -1213,7 +1213,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 82326,1,2022.01,2022,3,15,1,0,quve,827,14.6,8.3,16.37,,,alive,Bill McShea,Jessica Shue,10165,10165,NA,842.7,0,112,2,NA,1.41,NA,NA,NA,NA
 82326,1,2022.15,2022,11,9,1,0,quve,827,14.6,8.3,25.12,NN,,alive,John Whitmoyer,Jessica Shue,10165,10165,NA,842.7,0,112,2,NA,1.41,NA,NA,NA,NA
 82357,1,2022.01,2022,3,15,1,0,litu,828,4,13.8,60.44,,,alive,Bill McShea,Jessica Shue,10196,10196,NA,518.4,0,806,2,NA,1.37,NA,NA,NA,NA
-82357,1,2022.15,2022,11,9,1,0,litu,828,4,13.8,74.57,,,alive,Brigit Rooney; Paula,Jessica Shue,10196,10196,NA,518.4,0,806,2,NA,1.37,NA,NA,NA,NA
+82357,1,2022.15,2022,11,9,1,0,litu,828,4,13.8,74.57,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10196,10196,NA,518.4,0,806,2,NA,1.37,NA,NA,NA,NA
 82360,1,2022.01,2022,3,15,1,1,litu,829,2.3,0.7,47.45,,,alive,Bill McShea,Jessica Shue,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 82360,1,2022.02,2022,4,4,1,1,litu,829,2.3,0.7,47.36,,,alive,Isabella Dangler,Jen Jordan,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 82360,1,2022.03,2022,4,20,1,1,litu,829,2.3,0.7,47.53,,,alive,Isabella Dangler,Isabella Dangler,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
@@ -1228,7 +1228,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 82360,1,2022.12,2022,9,6,1,1,litu,829,2.3,0.7,59.07,NN,replace nail,alive,John Whitmoyer,Jen Jordan,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 82360,1,2022.13,2022,9,26,1,1,litu,829,2.3,0.7,58.36,NN,originally coded RN (invalid tag),alive,John Whitmoyer,Jen Jordan,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 82360,1,2022.14,2022,10,5,1,1,litu,829,2.3,0.7,59.61,NN,originally coded RN (invalid code),alive,John Whitmoyer,Jen Jordan,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
-82360,1,2022.15,2022,11,9,1,1,litu,829,2.3,0.7,58.9,,,alive,Brigit Rooney; Paula,Jessica Shue,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
+82360,1,2022.15,2022,11,9,1,1,litu,829,2.3,0.7,58.9,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10198,10198,NA,604.5,0,841,2,NA,1.23,NA,NA,NA,NA
 82365,1,2022.01,2022,3,15,1,1,qual,829,4.9,4.7,63.04,,,alive,Bill McShea,Jessica Shue,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
 82365,1,2022.02,2022,4,4,1,1,qual,829,4.9,4.7,62.81,,,alive,Isabella Dangler,Jen Jordan,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
 82365,1,2022.03,2022,4,20,1,1,qual,829,4.9,4.7,63.18,,,alive,Isabella Dangler,Isabella Dangler,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
@@ -1243,13 +1243,13 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 82365,1,2022.12,2022,9,6,1,1,qual,829,4.9,4.7,66.37,,,alive,John Whitmoyer,Jen Jordan,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
 82365,1,2022.13,2022,9,26,1,1,qual,829,4.9,4.7,66.18,,,alive,John Whitmoyer,Jen Jordan,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
 82365,1,2022.14,2022,10,5,1,1,qual,829,4.9,4.7,66.99,,,alive,John Whitmoyer,Jen Jordan,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
-82365,1,2022.15,2022,11,9,1,1,qual,829,4.9,4.7,65.11,,,alive,Brigit Rooney; Paula,Jessica Shue,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
+82365,1,2022.15,2022,11,9,1,1,qual,829,4.9,4.7,65.11,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10203,10203,NA,438.1,0,115,2,NA,1.21,NA,NA,NA,NA
 82368,1,2022.01,2022,3,15,1,0,litu,829,16.8,3.4,118.01,,,alive,Bill McShea,Jessica Shue,10206,10206,NA,993.9,0,116,2,NA,1.42,NA,NA,NA,NA
 82368,1,2022.15,2022,11,9,1,0,litu,829,16.8,3.4,124.22,,,alive,John Whitmoyer,Jessica Shue,10206,10206,NA,993.9,0,116,2,NA,1.42,NA,NA,NA,NA
 82419,1,2022.01,2022,3,15,1,0,litu,831,3.3,10,58.18,,,alive,Bill McShea,Jessica Shue,10257,10257,NA,804.5,0,807,2,NA,1.24,NA,NA,NA,NA
-82419,1,2022.15,2022,11,9,1,0,litu,831,3.3,10,69.31,,,alive,Brigit Rooney; Paula,Jessica Shue,10257,10257,NA,804.5,0,807,2,NA,1.24,NA,NA,NA,NA
+82419,1,2022.15,2022,11,9,1,0,litu,831,3.3,10,69.31,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10257,10257,NA,804.5,0,807,2,NA,1.24,NA,NA,NA,NA
 82421,1,2022.01,2022,3,15,1,0,litu,831,5.6,14.7,13.09,,,alive,Bill McShea,Jessica Shue,10259,10259,NA,561,0,118,2,NA,1.19,NA,NA,NA,NA
-82421,1,2022.15,2022,11,9,1,0,litu,831,5.6,14.7,23.39,NN,,alive,Brigit Rooney; Paula,Jessica Shue,10259,10259,NA,561,0,118,2,NA,1.19,NA,NA,NA,NA
+82421,1,2022.15,2022,11,9,1,0,litu,831,5.6,14.7,23.39,NN,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10259,10259,NA,561,0,118,2,NA,1.19,NA,NA,NA,NA
 82422,1,2022.01,2022,3,15,1,1,litu,831,6.9,19.5,97.83,,,alive,Bill McShea,Jessica Shue,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 82422,1,2022.02,2022,4,4,1,1,litu,831,6.9,19.5,98.77,BA,,alive,Isabella Dangler,Jen Jordan,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 82422,1,2022.03,2022,4,20,1,1,litu,831,6.9,19.5,95.66,,,alive,Isabella Dangler,Isabella Dangler,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
@@ -1264,9 +1264,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 82422,1,2022.12,2022,9,6,1,1,litu,831,6.9,19.5,99,,,alive,John Whitmoyer,Jen Jordan,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 82422,1,2022.13,2022,9,26,1,1,litu,831,6.9,19.5,99.45,,,alive,John Whitmoyer,Jen Jordan,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 82422,1,2022.14,2022,10,5,1,1,litu,831,6.9,19.5,100.06,,,alive,John Whitmoyer,Jen Jordan,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
-82422,1,2022.15,2022,11,9,1,1,litu,831,6.9,19.5,99.49,,,alive,Brigit Rooney; Paula,Jessica Shue,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
+82422,1,2022.15,2022,11,9,1,1,litu,831,6.9,19.5,99.49,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10260,10260,NA,546.5,0,119,2,NA,1.24,NA,NA,NA,NA
 82434,1,2022.01,2022,3,15,1,0,quve,832,6,15.6,22.88,,,alive,Bill McShea,Jessica Shue,10272,10272,NA,826.8,0,120,2,NA,1.33,NA,NA,NA,NA
-82434,1,2022.15,2022,11,9,1,0,quve,832,6,15.6,33.18,,,alive,Brigit Rooney; Paula,Jessica Shue,10272,10272,NA,826.8,0,120,2,NA,1.33,NA,NA,NA,NA
+82434,1,2022.15,2022,11,9,1,0,quve,832,6,15.6,33.18,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10272,10272,NA,826.8,0,120,2,NA,1.33,NA,NA,NA,NA
 90162,1,2022.01,2022,3,15,1,0,litu,904,16.9,11.1,106.2,,,alive,Jessica Shue,Jessica Shue,10426,10426,NA,655.9,0,596,2,NA,1.35,NA,NA,NA,NA
 90162,1,2022.15,2022,11,9,1,0,litu,904,16.9,11.1,117.08,,,alive,Jessica Shue,Jessica Shue,10426,10426,NA,655.9,0,596,2,NA,1.35,NA,NA,NA,NA
 90236,1,2022.01,2022,3,15,1,0,ulru,902,14.4,2.5,NA,,VITIS,alive,Jessica Shue,Jessica Shue,10496,10496,NA,115,1,1136,2,NA,1.4,NA,NA,NA,NA
@@ -1295,7 +1295,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 90684,1,2022.01,2022,3,15,1,0,ploc,915,9.1,6.2,11.52,,,alive,Jessica Shue,Jessica Shue,10927,10927,NA,446,1,1118,2,NA,1.2,NA,NA,NA,NA
 90684,1,2022.15,2022,11,9,1,0,ploc,915,9.1,6.2,25.33,NN,,alive,Katherina Wilkins,Jessica Shue,10927,10927,NA,446,0,1118,2,NA,1.2,NA,NA,NA,NA
 90752,1,2022.01,2022,3,15,1,0,qual,916,12.4,7.4,89.98,,,alive,Albert Kim,Jessica Shue,10963,10963,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
-90752,1,2022.15,2022,11,9,1,0,qual,916,12.4,7.4,103.77,,,alive,Brigit Rooney; Paula,Jessica Shue,10963,10963,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
+90752,1,2022.15,2022,11,9,1,0,qual,916,12.4,7.4,103.77,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,10963,10963,NA,510.1,0,642,2,NA,1.3,NA,NA,NA,NA
 91451,1,2022.01,2022,3,15,1,0,litu,907,18.7,17.6,37.22,RT,replace tag,alive,Jessica Shue,Jessica Shue,11118,11118,NA,555.1,0,255,2,NA,1.3,NA,NA,NA,NA
 91451,1,2022.15,2022,11,9,1,0,litu,907,18.7,17.6,53.33,RT,,alive,Jessica Shue,Jessica Shue,11118,11118,NA,555.1,0,255,2,NA,1.3,NA,NA,NA,NA
 91474,1,2022.01,2022,3,15,1,0,litu,908,14.5,4.7,68.9,RT,replace tag,alive,Jessica Shue,Jessica Shue,11140,11140,NA,438.2,0,733,2,NA,1.33,NA,NA,NA,NA
@@ -1333,14 +1333,14 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 91486,1,2022.14,2022,10,10,1,1,cagl,908,17.5,9.2,NA,,anomalous measurement of 46.43 retrospectively removed,alive,Jen Jordan,Jen Jordan,11152,11152,NA,570.9,0,711,2,NA,1.3,NA,NA,NA,NA
 91486,1,2022.15,2022,11,9,1,1,cagl,908,17.5,9.2,69.76,,,alive,Jessica Shue,Jessica Shue,11152,11152,NA,570.9,0,711,2,NA,1.3,NA,NA,NA,NA
 92018,1,2022.01,2022,3,15,1,0,acru,917,16.2,5.6,106.64,,,alive,Albert Kim,Jessica Shue,11184,11184,NA,519.5,0,261,2,NA,1.3,NA,NA,NA,NA
-92018,1,2022.15,2022,11,9,1,0,acru,917,16.2,5.6,120.44,,"No tag, next to tree 92020",alive,Brigit Rooney; Paula,Jessica Shue,11184,11184,NA,519.5,0,261,2,NA,1.3,NA,NA,NA,NA
+92018,1,2022.15,2022,11,9,1,0,acru,917,16.2,5.6,120.44,,"No tag, next to tree 92020",alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11184,11184,NA,519.5,0,261,2,NA,1.3,NA,NA,NA,NA
 92112,1,2022.01,2022,3,15,1,0,litu,919,14.4,18.8,20.87,,,alive,Albert Kim,Jessica Shue,11276,11276,NA,489.1,0,597,2,NA,1.3,NA,NA,NA,NA
-92112,1,2022.15,2022,11,9,1,0,litu,919,14.4,18.8,42.76,,,alive,Brigit Rooney; Paula,Jessica Shue,11276,11276,NA,489.1,0,597,2,NA,1.3,NA,NA,NA,NA
+92112,1,2022.15,2022,11,9,1,0,litu,919,14.4,18.8,42.76,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11276,11276,NA,489.1,0,597,2,NA,1.3,NA,NA,NA,NA
 92115,1,2022.01,2022,3,15,1,0,acru,919,10.1,19.3,13.78,,,alive,Albert Kim,Jessica Shue,11279,11279,NA,153,1,1101,2,NA,1.4,NA,NA,NA,NA
-92115,1,2022.15,2022,11,9,1,0,acru,919,10.1,19.3,12.9,,verified,alive,Brigit Rooney; Paula,Jessica Shue,11279,11279,NA,153,0,1101,2,NA,1.4,NA,NA,NA,NA
+92115,1,2022.15,2022,11,9,1,0,acru,919,10.1,19.3,12.9,,verified,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11279,11279,NA,153,0,1101,2,NA,1.4,NA,NA,NA,NA
 92140,1,2022.15,2022,11,10,NA,NA,cato,920,18.7,0.7,12.24,,tree mistakenly given second 92138 tag,alive,Jessica Shue,Jessica Shue,NA,NA,NA,60,0,NA,NA,NA,NA,NA,NA,NA,NA
 92141,1,2022.01,2022,3,15,1,0,cagl,920,19.4,4.7,13.59,,,alive,Albert Kim,Jessica Shue,11305,11305,NA,84.3,0,535,2,NA,1.3,NA,NA,NA,NA
-92141,1,2022.15,2022,11,9,1,0,cagl,920,19.4,4.7,8.03,,verified; newer band,alive,Brigit Rooney; Paula,Jessica Shue,11305,11305,NA,84.3,0,535,2,NA,1.3,NA,NA,NA,NA
+92141,1,2022.15,2022,11,9,1,0,cagl,920,19.4,4.7,8.03,,verified; newer band,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11305,11305,NA,84.3,0,535,2,NA,1.3,NA,NA,NA,NA
 92237,1,2022.01,2022,3,15,1,1,nysy,922,14.7,19.5,18.23,,,alive,Albert Kim,Jessica Shue,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
 92237,1,2022.02,2022,4,4,1,1,nysy,922,14.7,19.5,18.01,,,alive,Isabella Dangler,Jen Jordan,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
 92237,1,2022.03,2022,4,20,1,1,nysy,922,14.7,19.5,18.29,,,alive,Isabella Dangler,Isabella Dangler,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
@@ -1355,27 +1355,27 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 92237,1,2022.12,2022,9,6,1,1,nysy,922,14.7,19.5,18.74,,,alive,John Whitmoyer,Jen Jordan,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
 92237,1,2022.13,2022,9,26,1,1,nysy,922,14.7,19.5,18.42,,,alive,John Whitmoyer,Jen Jordan,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
 92237,1,2022.14,2022,10,5,1,1,nysy,922,14.7,19.5,18.79,,,alive,John Whitmoyer,Jen Jordan,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
-92237,1,2022.15,2022,11,9,1,1,nysy,922,14.7,19.5,18.33,,Tree next to it is 92238 and has band,alive,Brigit Rooney; Paula,Jessica Shue,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
+92237,1,2022.15,2022,11,9,1,1,nysy,922,14.7,19.5,18.33,,Tree next to it is 92238 and has band,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11397,11397,NA,218.1,0,266,2,NA,1.3,NA,NA,NA,NA
 92280,1,2022.01,2022,3,15,1,0,quve,923,15,7.9,22.45,,,alive,Albert Kim,Jessica Shue,11438,11438,NA,650.3,0,269,2,NA,1.3,NA,NA,NA,NA
-92280,1,2022.15,2022,11,9,1,0,quve,923,15,7.9,36.79,,,alive,Brigit Rooney; Paula,Jessica Shue,11438,11438,NA,650.3,0,269,2,NA,1.3,NA,NA,NA,NA
+92280,1,2022.15,2022,11,9,1,0,quve,923,15,7.9,36.79,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11438,11438,NA,650.3,0,269,2,NA,1.3,NA,NA,NA,NA
 92347,1,2022.01,2022,3,15,1,0,quru,923,1.4,14.5,15.27,,,alive,Albert Kim,Jessica Shue,11498,11498,NA,576,0,879,2,NA,1.4,NA,NA,NA,NA
-92347,1,2022.15,2022,11,9,1,0,quru,923,1.4,14.5,18.2,,,alive,Brigit Rooney; Paula,Jessica Shue,11498,11498,NA,576,0,879,2,NA,1.4,NA,NA,NA,NA
+92347,1,2022.15,2022,11,9,1,0,quru,923,1.4,14.5,18.2,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11498,11498,NA,576,0,879,2,NA,1.4,NA,NA,NA,NA
 92393,1,2022.01,2022,3,15,1,0,cagl,925,19.8,7.7,111.23,,,alive,Bill McShea,Jessica Shue,11540,11540,NA,617,0,270,2,NA,1.3,NA,NA,NA,NA
-92393,1,2022.15,2022,11,9,1,0,cagl,925,19.8,7.7,121.61,,,alive,Brigit Rooney; Paula,Jessica Shue,11540,11540,NA,617,0,270,2,NA,1.3,NA,NA,NA,NA
+92393,1,2022.15,2022,11,9,1,0,cagl,925,19.8,7.7,121.61,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11540,11540,NA,617,0,270,2,NA,1.3,NA,NA,NA,NA
 92414,1,2022.01,2022,3,15,1,0,litu,926,11.2,0.9,23.42,,,alive,Bill McShea,Jessica Shue,11561,11561,NA,440,0,937,2,NA,1.4,NA,NA,NA,NA
 92414,1,2022.15,2022,11,9,1,0,litu,926,11.2,0.9,28.5,,,alive,John Whitmoyer,Jessica Shue,11561,11561,NA,440,0,937,2,NA,1.4,NA,NA,NA,NA
 92466,1,2022.01,2022,3,15,1,0,litu,927,0.6,16.3,37.18,,,alive,Bill McShea,Jessica Shue,11610,11610,NA,834.5,0,124,2,NA,1.38,NA,NA,NA,NA
 92466,1,2022.15,2022,11,9,1,0,litu,927,0.6,16.3,48.44,,,alive,John Whitmoyer,Jessica Shue,11610,11610,NA,834.5,0,124,2,NA,1.38,NA,NA,NA,NA
 92487,1,2022.01,2022,3,15,1,0,quve,928,9.8,15,26.86,,,alive,Bill McShea,Jessica Shue,11631,11631,NA,659,0,500,2,NA,1.3,NA,NA,NA,NA
-92487,1,2022.15,2022,11,9,1,0,quve,928,9.8,15,24.9,DS,,dead,Brigit Rooney; Paula,Jessica Shue,11631,11631,NA,659,0,500,2,NA,1.3,NA,NA,NA,NA
+92487,1,2022.15,2022,11,9,1,0,quve,928,9.8,15,24.9,DS,,dead,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11631,11631,NA,659,0,500,2,NA,1.3,NA,NA,NA,NA
 92488,1,2022.01,2022,3,15,1,0,litu,928,12.7,13.5,120.09,,,alive,Bill McShea,Jessica Shue,11632,11632,NA,674,0,712,2,NA,1.3,NA,NA,NA,NA
-92488,1,2022.15,2022,11,9,1,0,litu,928,12.7,13.5,145.6,RE,verified,alive,Brigit Rooney; Paula,Jessica Shue,11632,11632,NA,674,0,712,2,NA,1.3,NA,NA,NA,NA
+92488,1,2022.15,2022,11,9,1,0,litu,928,12.7,13.5,145.6,RE,verified,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11632,11632,NA,674,0,712,2,NA,1.3,NA,NA,NA,NA
 92545,1,2022.01,2022,3,15,1,0,litu,931,15.3,15.6,77.9,,,alive,Bill McShea,Jessica Shue,11689,11689,NA,577.3,0,273,2,NA,1.3,NA,NA,NA,NA
-92545,1,2022.15,2022,11,9,1,0,litu,931,15.3,15.6,83.4,NN,,alive,Brigit Rooney; Paula,Jessica Shue,11689,11689,NA,577.3,0,273,2,NA,1.3,NA,NA,NA,NA
+92545,1,2022.15,2022,11,9,1,0,litu,931,15.3,15.6,83.4,NN,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11689,11689,NA,577.3,0,273,2,NA,1.3,NA,NA,NA,NA
 92546,1,2022.01,2022,3,15,1,0,litu,931,16.5,16.7,69.46,,,alive,Bill McShea,Jessica Shue,11690,11690,NA,647.2,0,713,2,NA,1.3,NA,NA,NA,NA
-92546,1,2022.15,2022,11,9,1,0,litu,931,16.5,16.7,76.9,,,alive,Brigit Rooney; Paula,Jessica Shue,11690,11690,NA,647.2,0,713,2,NA,1.3,NA,NA,NA,NA
+92546,1,2022.15,2022,11,9,1,0,litu,931,16.5,16.7,76.9,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11690,11690,NA,647.2,0,713,2,NA,1.3,NA,NA,NA,NA
 92547,1,2022.01,2022,3,15,1,0,litu,931,11.7,13.9,95.87,,,alive,Bill McShea,Jessica Shue,11691,11691,NA,638.8,0,274,2,NA,1.3,NA,NA,NA,NA
-92547,1,2022.15,2022,11,9,1,0,litu,931,11.7,13.9,101.03,NN,,alive,Brigit Rooney; Paula,Jessica Shue,11691,11691,NA,638.8,0,274,2,NA,1.3,NA,NA,NA,NA
+92547,1,2022.15,2022,11,9,1,0,litu,931,11.7,13.9,101.03,NN,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,11691,11691,NA,638.8,0,274,2,NA,1.3,NA,NA,NA,NA
 100498,1,2022.01,2022,3,15,1,0,caco,1003,16.7,14.2,14.4,,,alive,Jessica Shue,Jessica Shue,12165,12165,NA,152,1,1119,2,NA,1.4,NA,NA,NA,NA
 100498,1,2022.15,2022,11,9,1,0,caco,1003,16.7,14.2,20.92,,,alive,Jessica Shue,Jessica Shue,12165,12165,NA,152,0,1119,2,NA,1.4,NA,NA,NA,NA
 100516,1,2022.01,2022,3,15,1,0,litu,1004,17.9,2.3,95.46,,,alive,Jessica Shue,Jessica Shue,12180,12180,NA,1036.1,0,638,2,NA,1.42,NA,NA,NA,NA
@@ -1474,29 +1474,29 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102148,1,2022.12,2022,9,6,1,1,cato,1019,2,15.4,27.75,,,alive,Jen Jordan,Jen Jordan,13086,13086,NA,251.2,0,286,2,NA,1.3,NA,NA,NA,NA
 102148,1,2022.13,2022,9,22,1,1,cato,1019,2,15.4,27.56,,,alive,Jen Jordan,Jen Jordan,13086,13086,NA,251.2,0,286,2,NA,1.3,NA,NA,NA,NA
 102148,1,2022.14,2022,10,10,1,1,cato,1019,2,15.4,27.65,,,alive,Jen Jordan,Jen Jordan,13086,13086,NA,251.2,0,286,2,NA,1.3,NA,NA,NA,NA
-102148,1,2022.15,2022,11,9,1,1,cato,1019,2,15.4,27.62,,,alive,Brigit Rooney; Paula,Jessica Shue,13086,13086,NA,251.2,0,286,2,NA,1.3,NA,NA,NA,NA
+102148,1,2022.15,2022,11,9,1,1,cato,1019,2,15.4,27.62,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13086,13086,NA,251.2,0,286,2,NA,1.3,NA,NA,NA,NA
 102149,1,2022.01,2022,3,15,1,0,cagl,1020,1.4,0.2,44.84,,,alive,Albert Kim,Jessica Shue,13087,13087,NA,70.1,0,287,2,NA,1.3,NA,NA,NA,NA
-102149,1,2022.15,2022,11,9,1,0,cagl,1020,1.4,0.2,46.8,,"Band is bent, not straight",alive,Brigit Rooney; Paula,Jessica Shue,13087,13087,NA,70.1,0,287,2,NA,1.3,NA,NA,NA,NA
+102149,1,2022.15,2022,11,9,1,0,cagl,1020,1.4,0.2,46.8,,"Band is bent, not straight",alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13087,13087,NA,70.1,0,287,2,NA,1.3,NA,NA,NA,NA
 102150,1,2022.01,2022,3,15,1,0,qual,1020,4.3,2.1,81.31,RT,Tag swallowed,alive,Albert Kim,Jessica Shue,13088,13088,NA,479,0,599,2,NA,1.3,NA,NA,NA,NA
-102150,1,2022.15,2022,11,9,1,0,qual,1020,4.3,2.1,90.04,RT,No tag,alive,Brigit Rooney; Paula,Jessica Shue,13088,13088,NA,479,0,599,2,NA,1.3,NA,NA,NA,NA
+102150,1,2022.15,2022,11,9,1,0,qual,1020,4.3,2.1,90.04,RT,No tag,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13088,13088,NA,479,0,599,2,NA,1.3,NA,NA,NA,NA
 102154,1,2022.01,2022,3,15,1,0,qual,1020,5.4,8.5,15.34,BA,,alive,Albert Kim,Jessica Shue,13092,13092,NA,512.5,0,288,2,NA,1.8,NA,NA,NA,NA
-102154,1,2022.15,2022,11,9,1,0,qual,1020,5.4,8.5,13.74,,verified,alive,Brigit Rooney; Paula,Jessica Shue,13092,13092,NA,512.5,0,288,2,NA,1.8,NA,NA,NA,NA
+102154,1,2022.15,2022,11,9,1,0,qual,1020,5.4,8.5,13.74,,verified,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13092,13092,NA,512.5,0,288,2,NA,1.8,NA,NA,NA,NA
 102163,1,2022.01,2022,3,15,1,0,cato,1020,14.3,14.8,7.85,,,alive,Albert Kim,Jessica Shue,13101,13101,NA,101,1,1102,2,NA,1.4,NA,NA,NA,NA
-102163,1,2022.15,2022,11,9,1,0,cato,1020,14.3,14.8,7.97,,new band installed spring 2022,alive,Brigit Rooney; Paula,Jessica Shue,13101,13101,NA,101,1,1102,2,NA,1.4,NA,NA,NA,NA
+102163,1,2022.15,2022,11,9,1,0,cato,1020,14.3,14.8,7.97,,new band installed spring 2022,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13101,13101,NA,101,1,1102,2,NA,1.4,NA,NA,NA,NA
 102177,1,2022.01,2022,3,15,1,0,qual,1020,3.4,11.7,132.86,,,alive,Albert Kim,Jessica Shue,13115,13115,NA,702.8,1,1103,2,NA,1.4,NA,NA,NA,NA
-102177,1,2022.15,2022,11,9,1,0,qual,1020,3.4,11.7,12,,new band installed spring 2022,alive,Brigit Rooney; Paula,Jessica Shue,13115,13115,NA,702.8,1,1103,2,NA,1.4,NA,NA,NA,NA
+102177,1,2022.15,2022,11,9,1,0,qual,1020,3.4,11.7,12,,new band installed spring 2022,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13115,13115,NA,702.8,1,1103,2,NA,1.4,NA,NA,NA,NA
 102199,1,2022.01,2022,3,15,1,0,cagl,1021,1.3,8,76.76,,,alive,Albert Kim,Jessica Shue,13136,13136,NA,449,0,882,2,NA,1.4,NA,NA,NA,NA
 102199,1,2022.15,2022,11,10,1,0,cagl,1021,1.3,8,102.38,,verified,alive,Jessica Shue,Jessica Shue,13136,13136,NA,449,0,882,2,NA,1.4,NA,NA,NA,NA
 102258,1,2022.01,2022,3,15,1,0,qual,1022,10.3,17.4,11.78,,,alive,Albert Kim,Jessica Shue,13195,13195,NA,430,0,938,2,NA,1.35,NA,NA,NA,NA
-102258,1,2022.15,2022,11,9,1,0,qual,1022,10.3,17.4,15.2,,,alive,Brigit Rooney; Paula,Jessica Shue,13195,13195,NA,430,0,938,2,NA,1.35,NA,NA,NA,NA
+102258,1,2022.15,2022,11,9,1,0,qual,1022,10.3,17.4,15.2,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13195,13195,NA,430,0,938,2,NA,1.35,NA,NA,NA,NA
 102261,1,2022.01,2022,3,15,1,0,qual,1022,5.3,20.1,36.34,,,alive,Albert Kim,Jessica Shue,13198,13198,NA,675,0,969,2,NA,1.4,NA,NA,NA,NA
-102261,1,2022.15,2022,11,9,1,0,qual,1022,5.3,20.1,48.82,,,alive,Brigit Rooney; Paula,Jessica Shue,13198,13198,NA,675,0,969,2,NA,1.4,NA,NA,NA,NA
+102261,1,2022.15,2022,11,9,1,0,qual,1022,5.3,20.1,48.82,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13198,13198,NA,675,0,969,2,NA,1.4,NA,NA,NA,NA
 102262,1,2022.01,2022,3,15,1,0,qual,1022,1.8,20,98.77,,,alive,Albert Kim,Jessica Shue,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
-102262,1,2022.15,2022,11,9,1,0,qual,1022,1.8,20,104.14,,,alive,Brigit Rooney; Paula,Jessica Shue,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
+102262,1,2022.15,2022,11,9,1,0,qual,1022,1.8,20,104.14,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13199,13199,NA,532.8,0,292,2,NA,1.3,NA,NA,NA,NA
 102264,1,2022.01,2022,3,15,1,0,qual,1022,1.5,14.2,49.72,,,alive,Albert Kim,Jessica Shue,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
-102264,1,2022.15,2022,11,9,1,0,qual,1022,1.5,14.2,55.97,,,alive,Brigit Rooney; Paula,Jessica Shue,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
+102264,1,2022.15,2022,11,9,1,0,qual,1022,1.5,14.2,55.97,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13201,13201,NA,464.4,0,293,2,NA,1.3,NA,NA,NA,NA
 102303,1,2022.01,2022,3,15,1,0,quve,1024,8.2,0.9,56.62,RE; BA,Double spring,alive,Albert Kim,Jessica Shue,13239,13239,NA,909,0,939,2,NA,1.4,NA,NA,NA,NA
-102303,1,2022.15,2022,11,9,1,0,quve,1024,8.2,0.9,74.13, ,old band removed and new band installed,alive,Brigit Rooney; Paula,Jessica Shue,13239,13239,NA,909,0,939,2,NA,1.4,NA,NA,NA,NA
+102303,1,2022.15,2022,11,9,1,0,quve,1024,8.2,0.9,74.13, ,old band removed and new band installed,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13239,13239,NA,909,0,939,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.01,2022,3,15,1,1,qual,1025,16.5,11.5,34.45,,,alive,Bill McShea,Jessica Shue,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.02,2022,4,4,1,1,qual,1025,16.5,11.5,34.84,,,alive,Isabella Dangler,Jen Jordan,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.03,2022,4,20,1,1,qual,1025,16.5,11.5,37.26,,,alive,Isabella Dangler,Isabella Dangler,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
@@ -1511,7 +1511,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102348,1,2022.12,2022,9,6,1,1,qual,1025,16.5,11.5,47.37,NN,replace nail,alive,John Whitmoyer,Jen Jordan,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.13,2022,9,26,1,1,qual,1025,16.5,11.5,47,RT,,alive,John Whitmoyer,Jen Jordan,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102348,1,2022.14,2022,10,5,1,1,qual,1025,16.5,11.5,48.11,RT,,alive,John Whitmoyer,Jen Jordan,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
-102348,1,2022.15,2022,11,9,1,1,qual,1025,16.5,11.5,48.01,,,alive,Brigit Rooney; Paula,Jessica Shue,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
+102348,1,2022.15,2022,11,9,1,1,qual,1025,16.5,11.5,48.01,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13284,13284,NA,888,0,970,2,NA,1.4,NA,NA,NA,NA
 102364,1,2022.01,2022,3,15,1,1,qual,1025,2.1,18,12.95,,,alive,Bill McShea,Jessica Shue,13300,13300,NA,630.5,1,1104,2,NA,1.4,NA,NA,NA,NA
 102364,1,2022.02,2022,4,4,1,1,qual,1025,2.1,18,11.02,,,alive,Isabella Dangler,Jen Jordan,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
 102364,1,2022.03,2022,4,20,1,1,qual,1025,2.1,18,10.14,,,alive,Isabella Dangler,Isabella Dangler,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
@@ -1526,33 +1526,33 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 102364,1,2022.12,2022,9,6,1,1,qual,1025,2.1,18,10.3,,,alive,John Whitmoyer,Jen Jordan,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
 102364,1,2022.13,2022,9,26,1,1,qual,1025,2.1,18,9.8,,,alive,John Whitmoyer,Jen Jordan,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
 102364,1,2022.14,2022,10,5,1,1,qual,1025,2.1,18,11.08,,,alive,John Whitmoyer,Jen Jordan,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
-102364,1,2022.15,2022,11,9,1,1,qual,1025,2.1,18,9.87,,verified; new band installed spring 2022,alive,Brigit Rooney; Paula,Jessica Shue,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
+102364,1,2022.15,2022,11,9,1,1,qual,1025,2.1,18,9.87,,verified; new band installed spring 2022,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13300,13300,NA,630.5,0,1104,2,NA,1.4,NA,NA,NA,NA
 102371,1,2022.01,2022,3,15,1,0,qual,1026,1.6,6.6,92.46,,,alive,Bill McShea,Jessica Shue,13307,13307,NA,783,0,296,2,NA,1.3,NA,NA,NA,NA
-102371,1,2022.15,2022,11,9,1,0,qual,1026,1.6,6.6,NA,RE; RT,band damaged,alive,Brigit Rooney; Paula,Jessica Shue,13307,13307,NA,783,0,296,2,NA,1.3,NA,NA,NA,NA
+102371,1,2022.15,2022,11,9,1,0,qual,1026,1.6,6.6,NA,RE; RT,band damaged,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13307,13307,NA,783,0,296,2,NA,1.3,NA,NA,NA,NA
 102438,1,2022.01,2022,3,15,1,0,litu,1028,8.5,16.6,97.18,,,alive,Bill McShea,Jessica Shue,13374,13374,NA,468.2,0,600,2,NA,1.34,NA,NA,NA,NA
-102438,1,2022.15,2022,11,9,1,0,litu,1028,8.5,16.6,97.45,NN,,alive,Brigit Rooney; Paula,Jessica Shue,13374,13374,NA,468.2,0,600,2,NA,1.34,NA,NA,NA,NA
+102438,1,2022.15,2022,11,9,1,0,litu,1028,8.5,16.6,97.45,NN,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13374,13374,NA,468.2,0,600,2,NA,1.34,NA,NA,NA,NA
 102438,2,2022.01,2022,3,15,1,0,litu,1028,8.5,16.6,87.45,,,alive,Bill McShea,Jessica Shue,33848,13374,NA,462.6,0,601,2,NA,1.34,NA,NA,NA,NA
-102438,2,2022.15,2022,11,9,1,0,litu,1028,8.5,16.6,111.69,,,alive,Brigit Rooney; Paula,Jessica Shue,33848,13374,NA,462.6,0,601,2,NA,1.34,NA,NA,NA,NA
+102438,2,2022.15,2022,11,9,1,0,litu,1028,8.5,16.6,111.69,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,33848,13374,NA,462.6,0,601,2,NA,1.34,NA,NA,NA,NA
 102439,1,2022.01,2022,3,15,1,0,litu,1028,4.3,19.6,20.13,,,alive,Bill McShea,Jessica Shue,13375,13375,NA,224,0,298,2,NA,1.3,NA,NA,NA,NA
-102439,1,2022.15,2022,11,9,1,0,litu,1028,4.3,19.6,20.84,,,alive,Brigit Rooney; Paula,Jessica Shue,13375,13375,NA,224,0,298,2,NA,1.3,NA,NA,NA,NA
+102439,1,2022.15,2022,11,9,1,0,litu,1028,4.3,19.6,20.84,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13375,13375,NA,224,0,298,2,NA,1.3,NA,NA,NA,NA
 102441,1,2022.01,2022,3,15,1,0,litu,1029,1.3,3,82.31,,,alive,Bill McShea,Jessica Shue,13377,13377,NA,484,0,667,2,NA,1.3,NA,NA,NA,NA
-102441,1,2022.15,2022,11,9,1,0,litu,1029,1.3,3,92.35,,,alive,Brigit Rooney; Paula,Jessica Shue,13377,13377,NA,484,0,667,2,NA,1.3,NA,NA,NA,NA
+102441,1,2022.15,2022,11,9,1,0,litu,1029,1.3,3,92.35,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13377,13377,NA,484,0,667,2,NA,1.3,NA,NA,NA,NA
 102443,1,2022.01,2022,3,15,1,0,litu,1029,4.1,7,76.54,,,alive,Bill McShea,Jessica Shue,13379,13379,NA,512.5,0,301,2,NA,1.3,NA,NA,NA,NA
-102443,1,2022.15,2022,11,9,1,0,litu,1029,4.1,7,79.08,,,alive,Brigit Rooney; Paula,Jessica Shue,13379,13379,NA,512.5,0,301,2,NA,1.3,NA,NA,NA,NA
+102443,1,2022.15,2022,11,9,1,0,litu,1029,4.1,7,79.08,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13379,13379,NA,512.5,0,301,2,NA,1.3,NA,NA,NA,NA
 102444,1,2022.01,2022,3,15,1,0,litu,1029,4.3,5.3,71.46,,,alive,Bill McShea,Jessica Shue,13380,13380,NA,630,0,808,2,NA,1.3,NA,NA,NA,NA
-102444,1,2022.15,2022,11,9,1,0,litu,1029,4.3,5.3,89.62,,,alive,Brigit Rooney; Paula,Jessica Shue,13380,13380,NA,630,0,808,2,NA,1.3,NA,NA,NA,NA
+102444,1,2022.15,2022,11,9,1,0,litu,1029,4.3,5.3,89.62,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13380,13380,NA,630,0,808,2,NA,1.3,NA,NA,NA,NA
 102446,1,2022.01,2022,3,15,1,0,litu,1029,0.5,3.7,59.51,,,alive,Bill McShea,Jessica Shue,13382,13382,NA,494,0,602,2,NA,1.3,NA,NA,NA,NA
-102446,1,2022.15,2022,11,9,1,0,litu,1029,0.5,3.7,66.25,,,alive,Brigit Rooney; Paula,Jessica Shue,13382,13382,NA,494,0,602,2,NA,1.3,NA,NA,NA,NA
+102446,1,2022.15,2022,11,9,1,0,litu,1029,0.5,3.7,66.25,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13382,13382,NA,494,0,602,2,NA,1.3,NA,NA,NA,NA
 102446,2,2022.01,2022,3,15,1,0,litu,1029,0.5,3.7,30.15,,,alive,Bill McShea,Jessica Shue,33849,13382,NA,273.2,0,603,2,NA,1.3,NA,NA,NA,NA
-102446,2,2022.15,2022,11,9,1,0,litu,1029,0.5,3.7,30.94,,,alive,Brigit Rooney; Paula,Jessica Shue,33849,13382,NA,273.2,0,603,2,NA,1.3,NA,NA,NA,NA
+102446,2,2022.15,2022,11,9,1,0,litu,1029,0.5,3.7,30.94,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,33849,13382,NA,273.2,0,603,2,NA,1.3,NA,NA,NA,NA
 102475,1,2022.01,2022,3,15,1,0,litu,1030,20,14.3,15.1,,,alive,Bill McShea,Jessica Shue,13411,13411,NA,881.1,0,516,2,NA,1.3,NA,NA,NA,NA
 102475,1,2022.15,2022,11,9,1,0,litu,1030,20,14.3,28.09,,,alive,Jen Jordan,Jessica Shue,13411,13411,NA,881.1,0,516,2,NA,1.3,NA,NA,NA,NA
 102501,1,2022.01,2022,3,15,1,0,litu,1031,9.8,17.3,9.87,,,alive,Bill McShea,Jessica Shue,13437,13437,NA,634.2,0,304,2,NA,1.3,NA,NA,NA,NA
-102501,1,2022.15,2022,11,9,1,0,litu,1031,9.8,17.3,15.62,,,alive,Brigit Rooney; Paula,Jessica Shue,13437,13437,NA,634.2,0,304,2,NA,1.3,NA,NA,NA,NA
+102501,1,2022.15,2022,11,9,1,0,litu,1031,9.8,17.3,15.62,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13437,13437,NA,634.2,0,304,2,NA,1.3,NA,NA,NA,NA
 102502,1,2022.01,2022,3,15,1,0,ulru,1031,0.1,18.6,60.75,,,alive,Bill McShea,Jessica Shue,13438,13438,NA,126,0,305,2,NA,1.3,NA,NA,NA,NA
-102502,1,2022.15,2022,11,9,1,0,ulru,1031,0.1,18.6,67,,,alive,Brigit Rooney; Paula,Jessica Shue,13438,13438,NA,126,0,305,2,NA,1.3,NA,NA,NA,NA
+102502,1,2022.15,2022,11,9,1,0,ulru,1031,0.1,18.6,67,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13438,13438,NA,126,0,305,2,NA,1.3,NA,NA,NA,NA
 102509,1,2022.01,2022,3,15,1,0,quve,1032,9.6,0.9,119.58,,,alive,Bill McShea,Jessica Shue,13445,13445,NA,859.2,0,766,2,NA,1.4,NA,NA,NA,NA
-102509,1,2022.15,2022,11,9,1,0,quve,1032,9.6,0.9,138.24,,,alive,Brigit Rooney; Paula,Jessica Shue,13445,13445,NA,859.2,0,766,2,NA,1.4,NA,NA,NA,NA
+102509,1,2022.15,2022,11,9,1,0,quve,1032,9.6,0.9,138.24,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,13445,13445,NA,859.2,0,766,2,NA,1.4,NA,NA,NA,NA
 110061,1,2022.01,2022,3,15,1,1,litu,1101,17,10,22.01,BA,25.74; replaced double spring,alive,Jessica Shue,Jessica Shue,13507,13507,NA,1205,0,905,2,NA,1.4,NA,NA,NA,NA
 110061,1,2022.02,2022,4,4,1,1,litu,1101,17,10,20.74,,,alive,Jen Jordan,Jen Jordan,13507,13507,NA,1205,0,905,2,NA,1.4,NA,NA,NA,NA
 110061,1,2022.03,2022,4,21,1,1,litu,1101,17,10,22.37,,,alive,Jen Jordan,Jen Jordan,13507,13507,NA,1205,0,905,2,NA,1.4,NA,NA,NA,NA
@@ -1649,11 +1649,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 111305,1,2022.01,2022,3,15,1,0,caovl,1113,4.7,19.3,5.85,,,alive,Kristina Anderson-Teixeira,Jessica Shue,14647,14647,NA,229,1,1124,2,NA,1.4,NA,NA,NA,NA
 111305,1,2022.15,2022,11,9,1,0,caovl,1113,4.7,19.3,4.97,,checked; may be normal response to dry fall weather,alive,Katherina Wilkins,Jessica Shue,14647,14647,NA,229,0,1124,2,NA,1.4,NA,NA,NA,NA
 112014,1,2022.01,2022,3,15,1,0,cagl,1117,14.3,11.2,91.07,,,alive,Albert Kim,Jessica Shue,14747,14747,NA,480.4,0,644,2,NA,1.3,NA,NA,NA,NA
-112014,1,2022.15,2022,11,9,1,0,cagl,1117,14.3,11.2,108.46,,,alive,Brigit Rooney; Paula,Jessica Shue,14747,14747,NA,480.4,0,644,2,NA,1.3,NA,NA,NA,NA
+112014,1,2022.15,2022,11,9,1,0,cagl,1117,14.3,11.2,108.46,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14747,14747,NA,480.4,0,644,2,NA,1.3,NA,NA,NA,NA
 112057,1,2022.01,2022,3,15,1,0,acru,1117,8.8,4.2,96.9,,,alive,Albert Kim,Jessica Shue,14787,14787,NA,700.2,0,320,2,NA,1.3,NA,NA,NA,NA
-112057,1,2022.15,2022,11,9,1,0,acru,1117,8.8,4.2,108.12,,,alive,Brigit Rooney; Paula,Jessica Shue,14787,14787,NA,700.2,0,320,2,NA,1.3,NA,NA,NA,NA
+112057,1,2022.15,2022,11,9,1,0,acru,1117,8.8,4.2,108.12,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14787,14787,NA,700.2,0,320,2,NA,1.3,NA,NA,NA,NA
 112130,1,2022.01,2022,3,15,1,0,qual,1119,17.2,18.3,11.18,,,alive,Albert Kim,Jessica Shue,14857,14857,NA,147.8,0,608,2,NA,1.35,NA,NA,NA,NA
-112130,1,2022.15,2022,11,9,1,0,qual,1119,17.2,18.3,12.43,,,alive,Brigit Rooney; Paula,Jessica Shue,14857,14857,NA,147.8,0,608,2,NA,1.35,NA,NA,NA,NA
+112130,1,2022.15,2022,11,9,1,0,qual,1119,17.2,18.3,12.43,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14857,14857,NA,147.8,0,608,2,NA,1.35,NA,NA,NA,NA
 112136,1,2022.01,2022,3,15,1,1,pist,1120,13.9,2.5,45.39,,,alive,Albert Kim,Jessica Shue,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
 112136,1,2022.02,2022,4,4,1,1,pist,1120,13.9,2.5,46.33,,,alive,Isabella Dangler,Jen Jordan,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
 112136,1,2022.03,2022,4,20,1,1,pist,1120,13.9,2.5,48.94,,,alive,Isabella Dangler,Isabella Dangler,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
@@ -1668,11 +1668,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 112136,1,2022.12,2022,9,6,1,1,pist,1120,13.9,2.5,60.38,NN,replace nail,alive,Jen Jordan,Jen Jordan,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
 112136,1,2022.13,2022,9,22,1,1,pist,1120,13.9,2.5,60,,replace nail,alive,Jen Jordan,Jen Jordan,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
 112136,1,2022.14,2022,10,10,1,1,pist,1120,13.9,2.5,60.84,,replace nail,alive,Jen Jordan,Jen Jordan,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
-112136,1,2022.15,2022,11,9,1,1,pist,1120,13.9,2.5,59.14,,,alive,Brigit Rooney; Paula,Jessica Shue,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
+112136,1,2022.15,2022,11,9,1,1,pist,1120,13.9,2.5,59.14,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14862,14862,NA,274.1,0,809,2,NA,1.3,NA,NA,NA,NA
 112137,1,2022.01,2022,3,15,1,0,qual,1120,13.4,3.9,51.22,,,alive,Albert Kim,Jessica Shue,14863,14863,NA,572,0,810,2,NA,1.45,NA,NA,NA,NA
-112137,1,2022.15,2022,11,9,1,0,qual,1120,13.4,3.9,64.39,,,alive,Brigit Rooney; Paula,Jessica Shue,14863,14863,NA,572,0,810,2,NA,1.45,NA,NA,NA,NA
+112137,1,2022.15,2022,11,9,1,0,qual,1120,13.4,3.9,64.39,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14863,14863,NA,572,0,810,2,NA,1.45,NA,NA,NA,NA
 112142,1,2022.01,2022,3,15,1,0,qual,1120,16,3.5,34.39,,,alive,Albert Kim,Jessica Shue,14868,14868,NA,385.6,0,811,2,NA,1.3,NA,NA,NA,NA
-112142,1,2022.15,2022,11,9,1,0,qual,1120,16,3.5,41.47,,,alive,Brigit Rooney; Paula,Jessica Shue,14868,14868,NA,385.6,0,811,2,NA,1.3,NA,NA,NA,NA
+112142,1,2022.15,2022,11,9,1,0,qual,1120,16,3.5,41.47,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14868,14868,NA,385.6,0,811,2,NA,1.3,NA,NA,NA,NA
 112250,1,2022.01,2022,3,15,1,1,pist,1122,10.8,18.4,67.55,RT,Tag swallowed,alive,Albert Kim,Jessica Shue,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
 112250,1,2022.02,2022,4,5,1,1,pist,1122,10.8,18.4,69.41,,2022.02: Embedded tag,alive,Isabella Dangler,Jen Jordan,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
 112250,1,2022.03,2022,4,20,1,1,pist,1122,10.8,18.4,71.59,,Tag grown into tree,alive,Isabella Dangler,Isabella Dangler,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
@@ -1689,7 +1689,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 112250,1,2022.14,2022,10,5,1,1,pist,1122,10.8,18.4,94.56,RT,,alive,John Whitmoyer,Jen Jordan,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
 112250,1,2022.15,2022,11,10,1,1,pist,1122,10.8,18.4,92.45,RT,,alive,Jessica Shue,Jessica Shue,14967,14967,NA,436,0,941,2,NA,1.4,NA,NA,NA,NA
 112252,1,2022.01,2022,3,15,1,0,litu,1122,13.6,19.4,103.19,,,alive,Albert Kim,Jessica Shue,14969,14969,NA,451,0,988,2,NA,1.4,NA,NA,NA,NA
-112252,1,2022.15,2022,11,9,1,0,litu,1122,13.6,19.4,119.3,,,alive,Brigit Rooney; Paula,Jessica Shue,14969,14969,NA,451,0,988,2,NA,1.4,NA,NA,NA,NA
+112252,1,2022.15,2022,11,9,1,0,litu,1122,13.6,19.4,119.3,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14969,14969,NA,451,0,988,2,NA,1.4,NA,NA,NA,NA
 112262,1,2022.01,2022,3,15,1,1,quru,1123,17.5,1.5,59.71,,,alive,Albert Kim,Jessica Shue,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
 112262,1,2022.02,2022,4,5,1,1,quru,1123,17.5,1.5,59.92,,,alive,Isabella Dangler,Jen Jordan,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
 112262,1,2022.03,2022,4,20,1,1,quru,1123,17.5,1.5,60.51,,,alive,Isabella Dangler,Isabella Dangler,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
@@ -1704,7 +1704,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 112262,1,2022.12,2022,9,6,1,1,quru,1123,17.5,1.5,64.44,,unhealthy,alive,John Whitmoyer,Jen Jordan,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
 112262,1,2022.13,2022,9,26,1,1,quru,1123,17.5,1.5,63.88,,unhealthy/ dead?,alive,John Whitmoyer,Jen Jordan,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
 112262,1,2022.14,2022,10,5,1,1,quru,1123,17.5,1.5,63.59,,unhealthy/ dead?,alive,John Whitmoyer,Jen Jordan,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
-112262,1,2022.15,2022,11,9,1,1,quru,1123,17.5,1.5,63.88,,Band is curved around tree,alive,Brigit Rooney; Paula,Jessica Shue,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
+112262,1,2022.15,2022,11,9,1,1,quru,1123,17.5,1.5,63.88,,Band is curved around tree,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,14979,14979,NA,123,0,329,2,NA,1.3,NA,NA,NA,NA
 112316,1,2022.01,2022,3,15,1,0,quve,1125,8.7,1,126.18,,,alive,Bill McShea,Jessica Shue,15032,15032,NA,822.8,0,137,2,NA,1.45,NA,NA,NA,NA
 112316,1,2022.15,2022,11,9,1,0,quve,1125,8.7,1,135,,,alive,Jen Jordan,Jessica Shue,15032,15032,NA,822.8,0,137,2,NA,1.45,NA,NA,NA,NA
 112336,1,2022.01,2022,3,15,1,1,qual,1125,17,13.8,14.65,,,alive,Bill McShea,Jessica Shue,15051,15051,NA,516,0,767,2,NA,1.3,NA,NA,NA,NA
@@ -1839,7 +1839,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 121305,1,2022.14,2022,10,10,1,1,quru,1211,1.1,11.2,26.09,,New tag,alive,Jen Jordan,Jen Jordan,16400,16400,NA,753.8,0,350,2,NA,1.4,NA,NA,NA,NA
 121305,1,2022.15,2022,11,9,1,1,quru,1211,1.1,11.2,26.03,,,alive,Jessica Shue,Jessica Shue,16400,16400,NA,753.8,0,350,2,NA,1.4,NA,NA,NA,NA
 121367,1,2022.01,2022,3,15,1,0,nysy,1216,4.6,10.8,76.67,,,alive,Albert Kim,Jessica Shue,16460,16460,NA,255.6,0,519,2,NA,1.31,NA,NA,NA,NA
-121367,1,2022.15,2022,11,9,1,0,nysy,1216,4.6,10.8,83.5,,,alive,Brigit Rooney; Paula,Jessica Shue,16460,16460,NA,255.6,0,519,2,NA,1.31,NA,NA,NA,NA
+121367,1,2022.15,2022,11,9,1,0,nysy,1216,4.6,10.8,83.5,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16460,16460,NA,255.6,0,519,2,NA,1.31,NA,NA,NA,NA
 121374,1,2022.01,2022,3,15,1,1,juni,1216,0.7,18.5,115.75,,,alive,Albert Kim,Jessica Shue,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.02,2022,4,4,1,1,juni,1216,0.7,18.5,115.38,,2022.02: Embedded tag,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.03,2022,4,20,1,1,juni,1216,0.7,18.5,115.93,,,alive,Isabella Dangler,Isabella Dangler,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
@@ -1854,7 +1854,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 121374,1,2022.12,2022,9,6,1,1,juni,1216,0.7,18.5,116.01,RT,replace tag,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.13,2022,9,22,1,1,juni,1216,0.7,18.5,114.74,,replace tag,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121374,1,2022.14,2022,10,10,1,1,juni,1216,0.7,18.5,NA,RE,Band gap error. Anomalous reading of 154.13 removed retrospectively.,alive,Jen Jordan,Jen Jordan,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
-121374,1,2022.15,2022,11,9,1,1,juni,1216,0.7,18.5,NA,RE; RT,old band removed and new band installed,alive,Brigit Rooney; Paula,Jessica Shue,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
+121374,1,2022.15,2022,11,9,1,1,juni,1216,0.7,18.5,NA,RE; RT,old band removed and new band installed,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16466,16466,NA,310.4,0,769,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.01,2022,3,15,1,0,caco,1215,19.1,6.5,30.53,,,alive,Kristina Anderson-Teixeira,Jessica Shue,16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 121438,1,2022.15,2022,11,9,1,0,caco,1215,19.1,6.5,42.65,,,alive,Katherina Wilkins,Jessica Shue,16509,16509,NA,393,0,989,2,NA,1.4,NA,NA,NA,NA
 122006,1,2022.01,2022,3,15,1,1,acru,1217,9.9,8.3,49.83,,,alive,Albert Kim,Jessica Shue,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
@@ -1871,7 +1871,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122006,1,2022.12,2022,9,6,1,1,acru,1217,9.9,8.3,67.01,,,alive,Jen Jordan,Jen Jordan,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
 122006,1,2022.13,2022,9,22,1,1,acru,1217,9.9,8.3,67.63,,,alive,Jen Jordan,Jen Jordan,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
 122006,1,2022.14,2022,10,10,1,1,acru,1217,9.9,8.3,68,,,alive,Jen Jordan,Jen Jordan,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
-122006,1,2022.15,2022,11,9,1,1,acru,1217,9.9,8.3,68.3,,band removed and new band installed,alive,Brigit Rooney; Paula,Jessica Shue,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
+122006,1,2022.15,2022,11,9,1,1,acru,1217,9.9,8.3,68.3,,band removed and new band installed,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16543,16543,NA,395.9,0,352,2,NA,1.3,NA,NA,NA,NA
 122009,1,2022.01,2022,3,15,1,1,acru,1217,1.2,4.1,20.56,,,alive,Albert Kim,Jessica Shue,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122009,1,2022.02,2022,4,4,1,1,acru,1217,1.2,4.1,20.12,,,alive,Jen Jordan,Jen Jordan,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122009,1,2022.03,2022,4,20,1,1,acru,1217,1.2,4.1,20.22,,,alive,Isabella Dangler,Isabella Dangler,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
@@ -1886,11 +1886,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122009,1,2022.12,2022,9,6,1,1,acru,1217,1.2,4.1,31.42,,,alive,Jen Jordan,Jen Jordan,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122009,1,2022.13,2022,9,22,1,1,acru,1217,1.2,4.1,31.53,,,alive,Jen Jordan,Jen Jordan,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122009,1,2022.14,2022,10,10,1,1,acru,1217,1.2,4.1,31.56,,,alive,Jen Jordan,Jen Jordan,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
-122009,1,2022.15,2022,11,9,1,1,acru,1217,1.2,4.1,31.71,,,alive,Brigit Rooney; Paula,Jessica Shue,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
+122009,1,2022.15,2022,11,9,1,1,acru,1217,1.2,4.1,31.71,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16546,16546,NA,277,0,353,2,NA,1.25,NA,NA,NA,NA
 122120,1,2022.01,2022,3,15,1,0,qual,1220,2.6,0.6,27.46,,,alive,Albert Kim,Jessica Shue,16654,16654,NA,305.8,0,354,2,NA,1.3,NA,NA,NA,NA
-122120,1,2022.15,2022,11,9,1,0,qual,1220,2.6,0.6,31.19,,,alive,Brigit Rooney; Paula,Jessica Shue,16654,16654,NA,305.8,0,354,2,NA,1.3,NA,NA,NA,NA
+122120,1,2022.15,2022,11,9,1,0,qual,1220,2.6,0.6,31.19,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16654,16654,NA,305.8,0,354,2,NA,1.3,NA,NA,NA,NA
 122121,1,2022.01,2022,3,15,1,0,pist,1220,1.6,2.3,31.05,,,alive,Albert Kim,Jessica Shue,16655,16655,NA,271.5,0,812,2,NA,1.3,NA,NA,NA,NA
-122121,1,2022.15,2022,11,9,1,0,pist,1220,1.6,2.3,41.89,RT,,alive,Brigit Rooney; Paula,Jessica Shue,16655,16655,NA,271.5,0,812,2,NA,1.3,NA,NA,NA,NA
+122121,1,2022.15,2022,11,9,1,0,pist,1220,1.6,2.3,41.89,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16655,16655,NA,271.5,0,812,2,NA,1.3,NA,NA,NA,NA
 122136,1,2022.01,2022,3,15,1,1,quru,1220,5.5,7.6,96.88,,,alive,Albert Kim,Jessica Shue,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
 122136,1,2022.02,2022,4,4,1,1,quru,1220,5.5,7.6,93.14,,,alive,Isabella Dangler,Jen Jordan,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
 122136,1,2022.03,2022,4,20,1,1,quru,1220,5.5,7.6,93.98,,,alive,Isabella Dangler,Isabella Dangler,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
@@ -1905,11 +1905,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122136,1,2022.12,2022,9,6,1,1,quru,1220,5.5,7.6,112.55,,,alive,Jen Jordan,Jen Jordan,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
 122136,1,2022.13,2022,9,22,1,1,quru,1220,5.5,7.6,112.66,,,alive,Jen Jordan,Jen Jordan,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
 122136,1,2022.14,2022,10,10,1,1,quru,1220,5.5,7.6,113.06,,,alive,Jen Jordan,Jen Jordan,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
-122136,1,2022.15,2022,11,9,1,1,quru,1220,5.5,7.6,113.04,,,alive,Brigit Rooney; Paula,Jessica Shue,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
+122136,1,2022.15,2022,11,9,1,1,quru,1220,5.5,7.6,113.04,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16665,16665,NA,587.7,0,843,2,NA,1.3,NA,NA,NA,NA
 122150,1,2022.01,2022,3,15,1,0,pist,1221,0.8,0.7,5.59,,,alive,Albert Kim,Jessica Shue,16679,16679,NA,340,1,1105,2,NA,1.4,NA,NA,NA,NA
-122150,1,2022.15,2022,11,9,1,0,pist,1221,0.8,0.7,2.59,,verified,alive,Brigit Rooney; Paula,Jessica Shue,16679,16679,NA,340,0,1105,2,NA,1.4,NA,NA,NA,NA
+122150,1,2022.15,2022,11,9,1,0,pist,1221,0.8,0.7,2.59,,verified,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16679,16679,NA,340,0,1105,2,NA,1.4,NA,NA,NA,NA
 122154,1,2022.01,2022,3,15,1,0,pist,1221,5.8,5.2,7.34,,,alive,Albert Kim,Jessica Shue,16683,16683,NA,148,1,1106,2,NA,1.4,NA,NA,NA,NA
-122154,1,2022.15,2022,11,9,1,0,pist,1221,5.8,5.2,5.09,,verified,alive,Brigit Rooney; Paula,Jessica Shue,16683,16683,NA,148,0,1106,2,NA,1.4,NA,NA,NA,NA
+122154,1,2022.15,2022,11,9,1,0,pist,1221,5.8,5.2,5.09,,verified,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16683,16683,NA,148,0,1106,2,NA,1.4,NA,NA,NA,NA
 122184,1,2022.01,2022,3,15,1,1,pist,1222,2.9,13.9,14.48,,,alive,Albert Kim,Jessica Shue,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
 122184,1,2022.02,2022,4,4,1,1,pist,1222,2.9,13.9,14.37,,,alive,Isabella Dangler,Jen Jordan,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
 122184,1,2022.03,2022,4,20,1,1,pist,1222,2.9,13.9,16.82,BA,,alive,Isabella Dangler,Isabella Dangler,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
@@ -1924,9 +1924,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122184,1,2022.12,2022,9,6,1,1,pist,1222,2.9,13.9,17.98,,,alive,John Whitmoyer,Jen Jordan,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
 122184,1,2022.13,2022,9,26,1,1,pist,1222,2.9,13.9,17.29,,,alive,John Whitmoyer,Jen Jordan,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
 122184,1,2022.14,2022,10,5,1,1,pist,1222,2.9,13.9,18.15,,,alive,John Whitmoyer,Jen Jordan,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
-122184,1,2022.15,2022,11,9,1,1,pist,1222,2.9,13.9,17.38,,,alive,Brigit Rooney; Paula,Jessica Shue,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
+122184,1,2022.15,2022,11,9,1,1,pist,1222,2.9,13.9,17.38,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16710,16710,NA,217.8,0,358,2,NA,1.3,NA,NA,NA,NA
 122185,1,2022.01,2022,3,15,1,0,pist,1222,5.6,14.9,32.17,,,alive,Albert Kim,Jessica Shue,16711,16711,NA,149.3,0,612,2,NA,1.35,NA,NA,NA,NA
-122185,1,2022.15,2022,11,9,1,0,pist,1222,5.6,14.9,32.2,,,alive,Brigit Rooney; Paula,Jessica Shue,16711,16711,NA,149.3,0,612,2,NA,1.35,NA,NA,NA,NA
+122185,1,2022.15,2022,11,9,1,0,pist,1222,5.6,14.9,32.2,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16711,16711,NA,149.3,0,612,2,NA,1.35,NA,NA,NA,NA
 122189,1,2022.01,2022,3,15,1,1,qual,1222,5.5,19.5,117.26,,,alive,Albert Kim,Jessica Shue,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
 122189,1,2022.02,2022,4,4,1,1,qual,1222,5.5,19.5,117.38,,,alive,Isabella Dangler,Jen Jordan,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
 122189,1,2022.03,2022,4,20,1,1,qual,1222,5.5,19.5,118.98,,,alive,Isabella Dangler,Isabella Dangler,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
@@ -1941,9 +1941,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122189,1,2022.12,2022,9,6,1,1,qual,1222,5.5,19.5,125.63,NN,replace nail,alive,John Whitmoyer,Jen Jordan,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
 122189,1,2022.13,2022,9,26,1,1,qual,1222,5.5,19.5,125.56,NN,originally coded RN (invalid tag),alive,John Whitmoyer,Jen Jordan,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
 122189,1,2022.14,2022,10,5,1,1,qual,1222,5.5,19.5,126.25,NN,originally coded RN (invalid code),alive,John Whitmoyer,Jen Jordan,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
-122189,1,2022.15,2022,11,9,1,1,qual,1222,5.5,19.5,125.76,,,alive,Brigit Rooney; Paula,Jessica Shue,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
+122189,1,2022.15,2022,11,9,1,1,qual,1222,5.5,19.5,125.76,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16715,16715,NA,665.1,0,359,2,NA,1.3,NA,NA,NA,NA
 122248,1,2022.01,2022,3,15,1,0,qual,1222,10.5,13.1,64.35,,,alive,Albert Kim,Jessica Shue,16767,16767,NA,559,0,990,2,NA,1.25,NA,NA,NA,NA
-122248,1,2022.15,2022,11,9,1,0,qual,1222,10.5,13.1,73.67,,,alive,Brigit Rooney; Paula,Jessica Shue,16767,16767,NA,559,0,990,2,NA,1.25,NA,NA,NA,NA
+122248,1,2022.15,2022,11,9,1,0,qual,1222,10.5,13.1,73.67,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16767,16767,NA,559,0,990,2,NA,1.25,NA,NA,NA,NA
 122303,1,2022.01,2022,3,15,1,1,qual,1223,1.9,8.5,97.51,,,alive,Albert Kim,Jessica Shue,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
 122303,1,2022.02,2022,4,4,1,1,qual,1223,1.9,8.5,97.2,,,alive,Isabella Dangler,Jen Jordan,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
 122303,1,2022.03,2022,4,20,1,1,qual,1223,1.9,8.5,98,,,alive,Isabella Dangler,Isabella Dangler,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
@@ -1958,7 +1958,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 122303,1,2022.12,2022,9,6,1,1,qual,1223,1.9,8.5,105.96,,,alive,John Whitmoyer,Jen Jordan,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
 122303,1,2022.13,2022,9,26,1,1,qual,1223,1.9,8.5,105.87,,,alive,John Whitmoyer,Jen Jordan,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
 122303,1,2022.14,2022,10,5,1,1,qual,1223,1.9,8.5,106.47,,,alive,John Whitmoyer,Jen Jordan,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
-122303,1,2022.15,2022,11,9,1,1,qual,1223,1.9,8.5,105.17,,,alive,Brigit Rooney; Paula,Jessica Shue,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
+122303,1,2022.15,2022,11,9,1,1,qual,1223,1.9,8.5,105.17,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,16814,16814,NA,624.3,0,360,2,NA,1.3,NA,NA,NA,NA
 122343,1,2022.01,2022,3,15,1,1,qual,1225,10.7,14.4,16.72,,,alive,Bill McShea,Jessica Shue,16851,16851,NA,623.9,1,1107,2,NA,1.4,NA,NA,NA,NA
 122343,1,2022.02,2022,4,4,1,1,qual,1225,10.7,14.4,15.64,,,alive,Isabella Dangler,Jen Jordan,16851,16851,NA,623.9,0,1107,2,NA,1.4,NA,NA,NA,NA
 122343,1,2022.03,2022,4,20,1,1,qual,1225,10.7,14.4,16.96,,,alive,Isabella Dangler,Isabella Dangler,16851,16851,NA,623.9,0,1107,2,NA,1.4,NA,NA,NA,NA
@@ -2091,9 +2091,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 131364,1,2022.12,2022,9,6,1,1,acru,1316,12,12.9,79.08,,,alive,Jen Jordan,Jen Jordan,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
 131364,1,2022.13,2022,9,22,1,1,acru,1316,12,12.9,78.19,,,alive,Jen Jordan,Jen Jordan,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
 131364,1,2022.14,2022,10,10,1,1,acru,1316,12,12.9,79.59,,,alive,Jen Jordan,Jen Jordan,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
-131364,1,2022.15,2022,11,9,1,1,acru,1316,12,12.9,79.71,RT,,alive,Brigit Rooney; Paula,Jessica Shue,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
+131364,1,2022.15,2022,11,9,1,1,acru,1316,12,12.9,79.71,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18286,18286,NA,460,0,943,2,NA,1.5,NA,NA,NA,NA
 131422,1,2022.01,2022,3,15,1,0,caco,1316,13.4,9.6,4.47,,,alive,Albert Kim,Jessica Shue,18325,18325,NA,139,1,1108,2,NA,1.4,NA,NA,NA,NA
-131422,1,2022.15,2022,11,9,1,0,caco,1316,13.4,9.6,16.33,,,alive,Brigit Rooney; Paula,Jessica Shue,18325,18325,NA,139,0,1108,2,NA,1.4,NA,NA,NA,NA
+131422,1,2022.15,2022,11,9,1,0,caco,1316,13.4,9.6,16.33,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18325,18325,NA,139,0,1108,2,NA,1.4,NA,NA,NA,NA
 132077,1,2022.01,2022,3,15,1,1,qual,1319,9.9,15.9,96.72,,,alive,Albert Kim,Jessica Shue,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 132077,1,2022.02,2022,4,4,1,1,qual,1319,9.9,15.9,96.9,,,alive,Jen Jordan,Jen Jordan,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 132077,1,2022.03,2022,4,20,1,1,qual,1319,9.9,15.9,99.96,,,alive,Isabella Dangler,Isabella Dangler,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
@@ -2108,17 +2108,17 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 132077,1,2022.12,2022,9,6,1,1,qual,1319,9.9,15.9,117.28,RT,replace tag,alive,Jen Jordan,Jen Jordan,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 132077,1,2022.13,2022,9,22,1,1,qual,1319,9.9,15.9,117.1,,replace tag,alive,Jen Jordan,Jen Jordan,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 132077,1,2022.14,2022,10,10,1,1,qual,1319,9.9,15.9,118.03,,replace tag,alive,Jen Jordan,Jen Jordan,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
-132077,1,2022.15,2022,11,9,1,1,qual,1319,9.9,15.9,116.58,RT,,alive,Brigit Rooney; Paula,Jessica Shue,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
+132077,1,2022.15,2022,11,9,1,1,qual,1319,9.9,15.9,116.58,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18414,18414,NA,592.4,0,771,2,NA,1.45,NA,NA,NA,NA
 132171,1,2022.01,2022,3,15,1,0,litu,1320,13.7,6.7,77.12,,,alive,Albert Kim,Jessica Shue,18501,18501,NA,522.3,0,772,2,NA,1.39,NA,NA,NA,NA
-132171,1,2022.15,2022,11,9,1,0,litu,1320,13.7,6.7,88.5,RT,Tag being eaten,alive,Brigit Rooney; Paula,Jessica Shue,18501,18501,NA,522.3,0,772,2,NA,1.39,NA,NA,NA,NA
+132171,1,2022.15,2022,11,9,1,0,litu,1320,13.7,6.7,88.5,RT,Tag being eaten,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18501,18501,NA,522.3,0,772,2,NA,1.39,NA,NA,NA,NA
 132280,1,2022.01,2022,3,15,1,0,fram,1324,6.1,18.2,18.32,,,alive,Albert Kim,Jessica Shue,18603,18603,NA,106,0,884,2,NA,1.4,NA,NA,NA,NA
-132280,1,2022.15,2022,11,9,1,0,fram,1324,6.1,18.2,NA,RE,Band on ground,alive,Brigit Rooney; Paula,Jessica Shue,18603,18603,NA,106,0,884,2,NA,1.4,NA,NA,NA,NA
+132280,1,2022.15,2022,11,9,1,0,fram,1324,6.1,18.2,NA,RE,Band on ground,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18603,18603,NA,106,0,884,2,NA,1.4,NA,NA,NA,NA
 132302,1,2022.01,2022,3,15,1,0,quru,1321,13,14.4,58.96,RE,,alive,Albert Kim,Jessica Shue,18624,18624,NA,948,0,908,2,NA,1.4,NA,NA,NA,NA
-132302,1,2022.15,2022,11,9,1,0,quru,1321,13,14.4,66.57,,,alive,Brigit Rooney; Paula,Jessica Shue,18624,18624,NA,948,0,908,2,NA,1.4,NA,NA,NA,NA
+132302,1,2022.15,2022,11,9,1,0,quru,1321,13,14.4,66.57,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18624,18624,NA,948,0,908,2,NA,1.4,NA,NA,NA,NA
 132311,1,2022.01,2022,3,15,1,0,qual,1322,12.9,14.2,20.82,,,alive,Albert Kim,Jessica Shue,18633,18633,NA,536.5,0,737,2,NA,1.47,NA,NA,NA,NA
-132311,1,2022.15,2022,11,9,1,0,qual,1322,12.9,14.2,31.21,,,alive,Brigit Rooney; Paula,Jessica Shue,18633,18633,NA,536.5,0,737,2,NA,1.47,NA,NA,NA,NA
+132311,1,2022.15,2022,11,9,1,0,qual,1322,12.9,14.2,31.21,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18633,18633,NA,536.5,0,737,2,NA,1.47,NA,NA,NA,NA
 132321,1,2022.01,2022,3,15,1,0,quru,1323,17.6,1,114.05,,,alive,Albert Kim,Jessica Shue,18643,18643,NA,628.9,0,165,2,NA,1.38,NA,NA,NA,NA
-132321,1,2022.15,2022,11,9,1,0,quru,1323,17.6,1,122.32,,,alive,Brigit Rooney; Paula,Jessica Shue,18643,18643,NA,628.9,0,165,2,NA,1.38,NA,NA,NA,NA
+132321,1,2022.15,2022,11,9,1,0,quru,1323,17.6,1,122.32,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,18643,18643,NA,628.9,0,165,2,NA,1.38,NA,NA,NA,NA
 132371,1,2022.01,2022,3,15,1,0,quru,1325,19.9,12.9,82.32,,,alive,Bill McShea,Jessica Shue,18692,18692,NA,752,0,909,2,NA,1.4,NA,NA,NA,NA
 132371,1,2022.15,2022,11,10,1,0,quru,1325,19.9,12.9,109.25,RT,,alive,Jessica Shue,Jessica Shue,18692,18692,NA,752,0,909,2,NA,1.4,NA,NA,NA,NA
 132529,1,2022.01,2022,3,15,1,0,litu,1329,16.6,13.2,39.73,,,alive,Bill McShea,Jessica Shue,18822,18822,NA,872.5,0,718,2,NA,1.29,NA,NA,NA,NA
@@ -2176,7 +2176,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 141216,1,2022.01,2022,3,15,1,0,caco,1415,2.1,6.2,24.26,,,alive,Kristina Anderson-Teixeira,Jessica Shue,19931,19931,NA,147,0,886,2,NA,1.4,NA,NA,NA,NA
 141216,1,2022.15,2022,11,9,1,0,caco,1415,2.1,6.2,37.3,,,alive,Katherina Wilkins,Jessica Shue,19931,19931,NA,147,0,886,2,NA,1.4,NA,NA,NA,NA
 142113,1,2022.01,2022,3,15,1,0,cagl,1417,3,5,43.63,,,alive,Albert Kim,Jessica Shue,20076,20076,NA,477.2,0,192,2,NA,1.39,NA,NA,NA,NA
-142113,1,2022.15,2022,11,9,1,0,cagl,1417,3,5,47.75,,,alive,Brigit Rooney; Paula,Jessica Shue,20076,20076,NA,477.2,0,192,2,NA,1.39,NA,NA,NA,NA
+142113,1,2022.15,2022,11,9,1,0,cagl,1417,3,5,47.75,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,20076,20076,NA,477.2,0,192,2,NA,1.39,NA,NA,NA,NA
 142380,1,2022.01,2022,3,15,1,1,qual,1425,6.8,13.1,39.53,,,alive,Bill McShea,Jessica Shue,20329,20329,NA,593,0,971,2,NA,1.4,NA,NA,NA,NA
 142380,1,2022.02,2022,4,4,1,1,qual,1425,6.8,13.1,41.21,,2022.02: No tag,alive,Isabella Dangler,Jen Jordan,20329,20329,NA,593,0,971,2,NA,1.4,NA,NA,NA,NA
 142380,1,2022.03,2022,4,20,1,1,qual,1425,6.8,13.1,43.55,,,alive,Isabella Dangler,Isabella Dangler,20329,20329,NA,593,0,971,2,NA,1.4,NA,NA,NA,NA
@@ -2208,11 +2208,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 142521,1,2022.12,2022,9,6,1,1,pist,1422,6.4,11.1,126.04,,,alive,John Whitmoyer,Jen Jordan,20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
 142521,1,2022.13,2022,9,26,1,1,pist,1422,6.4,11.1,124.86,,,alive,John Whitmoyer,Jen Jordan,20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
 142521,1,2022.14,2022,10,5,1,1,pist,1422,6.4,11.1,127.77,,,alive,John Whitmoyer,Jen Jordan,20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
-142521,1,2022.15,2022,11,9,1,1,pist,1422,6.4,11.1,125.21,,,alive,Brigit Rooney; Paula,Jessica Shue,20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
+142521,1,2022.15,2022,11,9,1,1,pist,1422,6.4,11.1,125.21,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,20457,20457,NA,452,0,739,2,NA,1.42,NA,NA,NA,NA
 142527,1,2022.01,2022,3,15,1,0,cagl,1422,1.9,18.4,36.13,,,alive,Albert Kim,Jessica Shue,20461,20461,NA,159.8,0,196,2,NA,1.35,NA,NA,NA,NA
-142527,1,2022.15,2022,11,9,1,0,cagl,1422,1.9,18.4,40.21,,,alive,Brigit Rooney; Paula,Jessica Shue,20461,20461,NA,159.8,0,196,2,NA,1.35,NA,NA,NA,NA
+142527,1,2022.15,2022,11,9,1,0,cagl,1422,1.9,18.4,40.21,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,20461,20461,NA,159.8,0,196,2,NA,1.35,NA,NA,NA,NA
 142548,1,2022.01,2022,3,15,1,0,qual,1424,4,4.7,22.67,,,alive,Albert Kim,Jessica Shue,20482,20482,NA,613,0,888,2,NA,1.4,NA,NA,NA,NA
-142548,1,2022.15,2022,11,9,1,0,qual,1424,4,4.7,32.21,,,alive,Brigit Rooney; Paula,Jessica Shue,20482,20482,NA,613,0,888,2,NA,1.4,NA,NA,NA,NA
+142548,1,2022.15,2022,11,9,1,0,qual,1424,4,4.7,32.21,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,20482,20482,NA,613,0,888,2,NA,1.4,NA,NA,NA,NA
 142575,1,2022.01,2022,3,15,1,0,quve,1426,1.8,6.4,93.89,,,alive,Bill McShea,Jessica Shue,20508,20508,NA,499.5,0,789,2,NA,1.26,NA,NA,NA,NA
 142575,1,2022.15,2022,11,9,1,0,quve,1426,1.8,6.4,124.72,BA,verified,alive,Jen Jordan,Jessica Shue,20508,20508,NA,499.5,0,789,2,NA,1.26,NA,NA,NA,NA
 142650,1,2022.01,2022,3,15,1,0,ceca,1430,17.4,5.7,NA,,,alive,Jessica Shue,Jessica Shue,20574,20574,NA,78,1,1134,2,NA,1.4,NA,NA,NA,NA
@@ -2264,9 +2264,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 150781,1,2022.01,2022,3,15,1,0,ulru,1504,1.2,18.5,NA,,missed,alive,John Whitmoyer,Jessica Shue,21327,21327,NA,126,1,1127,2,NA,1.53,NA,NA,NA,NA
 150781,1,2022.15,2022,11,9,1,0,ulru,1504,1.2,18.5,7.67,,,alive,John Whitmoyer,Jessica Shue,21327,21327,NA,126,1,1127,2,NA,1.53,NA,NA,NA,NA
 151618,1,2022.01,2022,3,15,1,0,ulru,1516,8.6,1.8,14.58,,tag has wrong # on it,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,21740,21740,NA,151,1,1109,2,NA,1.4,NA,NA,NA,NA
-151618,1,2022.15,2022,11,9,1,0,ulru,1516,8.6,1.8,NA,RE; RT,band gone,alive,Brigit Rooney; Paula,Jessica Shue,21740,21740,NA,151,0,1109,2,NA,1.4,NA,NA,NA,NA
+151618,1,2022.15,2022,11,9,1,0,ulru,1516,8.6,1.8,NA,RE; RT,band gone,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,21740,21740,NA,151,0,1109,2,NA,1.4,NA,NA,NA,NA
 152153,1,2022.01,2022,3,15,1,0,ploc,1520,6.8,0.3,104.58,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,21906,21906,NA,961.6,0,775,2,NA,1.46,NA,NA,NA,NA
-152153,1,2022.15,2022,11,9,1,0,ploc,1520,6.8,0.3,117.26,,,alive,Brigit Rooney; Paula,Jessica Shue,21906,21906,NA,961.6,0,775,2,NA,1.46,NA,NA,NA,NA
+152153,1,2022.15,2022,11,9,1,0,ploc,1520,6.8,0.3,117.26,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,21906,21906,NA,961.6,0,775,2,NA,1.46,NA,NA,NA,NA
 152513,1,2022.01,2022,3,15,1,0,qupr,1525,4.6,19.2,17.68,,,alive,Bill McShea,Jessica Shue,22252,22252,NA,615,0,889,2,NA,1.4,NA,NA,NA,NA
 152513,1,2022.15,2022,11,9,1,0,qupr,1525,4.6,19.2,21.93,BA,Adjusted band,alive,Jen Jordan,Jessica Shue,22252,22252,NA,615,0,889,2,NA,1.4,NA,NA,NA,NA
 152673,1,2022.01,2022,3,15,1,0,litu,1530,3.6,18.8,97.48,,,alive,Bill McShea,Jessica Shue,22390,22390,NA,932.7,0,776,2,NA,1.23,NA,NA,NA,NA
@@ -2312,9 +2312,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 160985,1,2022.14,2022,10,10,1,1,litu,1612,1.2,17.2,NA,RE,Band broken,alive,Jen Jordan,Jen Jordan,23254,23254,NA,873,0,978,2,NA,1.25,NA,NA,NA,NA
 160985,1,2022.15,2022,11,9,1,1,litu,1612,1.2,17.2,45.58,NN,,alive,John Whitmoyer,Jessica Shue,23254,23254,NA,873,0,978,2,NA,1.25,NA,NA,NA,NA
 161578,1,2022.01,2022,3,15,1,0,qual,1616,5.6,14.7,20.65,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,23356,23356,NA,228,0,891,2,NA,1.4,NA,NA,NA,NA
-161578,1,2022.15,2022,11,9,1,0,qual,1616,5.6,14.7,28.1,,,alive,Brigit Rooney; Paula,Jessica Shue,23356,23356,NA,228,0,891,2,NA,1.4,NA,NA,NA,NA
+161578,1,2022.15,2022,11,9,1,0,qual,1616,5.6,14.7,28.1,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,23356,23356,NA,228,0,891,2,NA,1.4,NA,NA,NA,NA
 162293,1,2022.01,2022,3,15,1,0,qual,1623,3,9.4,126.4,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,23639,23639,NA,865.7,0,217,2,NA,1.34,NA,NA,NA,NA
-162293,1,2022.15,2022,11,9,1,0,qual,1623,3,9.4,135.77,,,alive,Brigit Rooney; Paula,Jessica Shue,23639,23639,NA,865.7,0,217,2,NA,1.34,NA,NA,NA,NA
+162293,1,2022.15,2022,11,9,1,0,qual,1623,3,9.4,135.77,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,23639,23639,NA,865.7,0,217,2,NA,1.34,NA,NA,NA,NA
 162439,1,2022.01,2022,3,15,1,1,quru,1627,16.3,0.3,50.61,,,alive,Bill McShea,Jessica Shue,23778,23778,NA,832.5,0,846,2,NA,1.37,NA,NA,NA,NA
 162439,1,2022.02,2022,4,4,1,1,quru,1627,16.3,0.3,51.8,,,alive,Isabella Dangler,Jen Jordan,23778,23778,NA,832.5,0,846,2,NA,1.37,NA,NA,NA,NA
 162439,1,2022.03,2022,4,20,1,1,quru,1627,16.3,0.3,52.29,,,alive,Isabella Dangler,Isabella Dangler,23778,23778,NA,832.5,0,846,2,NA,1.37,NA,NA,NA,NA
@@ -2333,7 +2333,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 162446,1,2022.01,2022,3,15,1,0,quru,1630,14.1,2.9,36.97,,,alive,Bill McShea,Jessica Shue,23785,23785,NA,803,0,892,2,NA,1.4,NA,NA,NA,NA
 162446,1,2022.15,2022,11,9,1,0,quru,1630,14.1,2.9,48.55,,,alive,Jen Jordan,Jessica Shue,23785,23785,NA,803,0,892,2,NA,1.4,NA,NA,NA,NA
 162503,1,2022.01,2022,3,15,1,0,quve,1624,1.3,12.3,30.78,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,23838,23838,NA,898.4,0,219,2,NA,1.24,NA,NA,NA,NA
-162503,1,2022.15,2022,11,9,1,0,quve,1624,1.3,12.3,44.25,,,alive,Brigit Rooney; Paula,Jessica Shue,23838,23838,NA,898.4,0,219,2,NA,1.24,NA,NA,NA,NA
+162503,1,2022.15,2022,11,9,1,0,quve,1624,1.3,12.3,44.25,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,23838,23838,NA,898.4,0,219,2,NA,1.24,NA,NA,NA,NA
 162541,1,2022.01,2022,3,15,1,0,qupr,1627,3.4,15.4,13.33,,,alive,Bill McShea,Jessica Shue,23876,23876,NA,409,0,893,2,NA,1.4,NA,NA,NA,NA
 162541,1,2022.15,2022,11,9,1,0,qupr,1627,3.4,15.4,16.56,,,alive,Jen Jordan,Jessica Shue,23876,23876,NA,409,0,893,2,NA,1.4,NA,NA,NA,NA
 162543,1,2022.01,2022,3,15,1,1,qual,1627,7.5,16.6,83.63,,,alive,Bill McShea,Jessica Shue,23878,23878,NA,890,0,220,2,NA,1.42,NA,NA,NA,NA
@@ -2417,11 +2417,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 171462,1,2022.01,2022,3,15,1,0,qual,1715,7.9,7.5,46.78,,,alive,John Whitmoyer,Jessica Shue,25278,25278,NA,845,0,912,2,NA,1.32,NA,NA,NA,NA
 171462,1,2022.15,2022,11,9,1,0,qual,1715,7.9,7.5,65.39,,,alive,John Whitmoyer,Jessica Shue,25278,25278,NA,845,0,912,2,NA,1.32,NA,NA,NA,NA
 171505,1,2022.01,2022,3,15,1,0,litu,1716,14.1,12.4,95.49,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25303,25303,NA,452,0,648,2,NA,1.3,NA,NA,NA,NA
-171505,1,2022.15,2022,11,9,1,0,litu,1716,14.1,12.4,106.18,,,alive,Brigit Rooney; Paula,Jessica Shue,25303,25303,NA,452,0,648,2,NA,1.3,NA,NA,NA,NA
+171505,1,2022.15,2022,11,9,1,0,litu,1716,14.1,12.4,106.18,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25303,25303,NA,452,0,648,2,NA,1.3,NA,NA,NA,NA
 171506,1,2022.01,2022,3,15,1,0,litu,1716,12,12.9,34.74,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25304,25304,NA,482.1,0,618,2,NA,1.3,NA,NA,NA,NA
-171506,1,2022.15,2022,11,9,1,0,litu,1716,12,12.9,54.91,NN,,alive,Brigit Rooney; Paula,Jessica Shue,25304,25304,NA,482.1,0,618,2,NA,1.3,NA,NA,NA,NA
+171506,1,2022.15,2022,11,9,1,0,litu,1716,12,12.9,54.91,NN,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25304,25304,NA,482.1,0,618,2,NA,1.3,NA,NA,NA,NA
 172201,1,2022.01,2022,3,15,1,0,cagl,1717,19.5,1.2,44.84,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25503,25503,NA,68,0,913,2,NA,1.4,NA,NA,NA,NA
-172201,1,2022.15,2022,11,9,1,0,cagl,1717,19.5,1.2,45.92,,,alive,Brigit Rooney; Paula,Jessica Shue,25503,25503,NA,68,0,913,2,NA,1.4,NA,NA,NA,NA
+172201,1,2022.15,2022,11,9,1,0,cagl,1717,19.5,1.2,45.92,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25503,25503,NA,68,0,913,2,NA,1.4,NA,NA,NA,NA
 172202,1,2022.01,2022,3,15,1,1,quru,1717,17.1,1.8,82.38,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
 172202,1,2022.02,2022,4,4,1,1,quru,1717,17.1,1.8,82.46,,,alive,Jen Jordan,Jen Jordan,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
 172202,1,2022.03,2022,4,20,1,1,quru,1717,17.1,1.8,84.72,,,alive,Isabella Dangler,Isabella Dangler,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
@@ -2436,7 +2436,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 172202,1,2022.12,2022,9,6,1,1,quru,1717,17.1,1.8,93.35,,,alive,Jen Jordan,Jen Jordan,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
 172202,1,2022.13,2022,9,22,1,1,quru,1717,17.1,1.8,93.13,,,alive,Jen Jordan,Jen Jordan,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
 172202,1,2022.14,2022,10,10,1,1,quru,1717,17.1,1.8,93.64,,,alive,Jen Jordan,Jen Jordan,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
-172202,1,2022.15,2022,11,9,1,1,quru,1717,17.1,1.8,93.04,,,alive,Brigit Rooney; Paula,Jessica Shue,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
+172202,1,2022.15,2022,11,9,1,1,quru,1717,17.1,1.8,93.04,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25504,25504,NA,555.1,0,649,2,NA,1.3,NA,NA,NA,NA
 172203,1,2022.01,2022,3,15,1,1,qual,1717,15.5,0.3,22.84,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
 172203,1,2022.02,2022,4,4,1,1,qual,1717,15.5,0.3,22.4,,,alive,Jen Jordan,Jen Jordan,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
 172203,1,2022.03,2022,4,20,1,1,qual,1717,15.5,0.3,23.98,,,alive,Isabella Dangler,Isabella Dangler,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
@@ -2451,9 +2451,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 172203,1,2022.12,2022,9,6,1,1,qual,1717,15.5,0.3,26.61,,,alive,Jen Jordan,Jen Jordan,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
 172203,1,2022.13,2022,9,22,1,1,qual,1717,15.5,0.3,26.18,,,alive,Jen Jordan,Jen Jordan,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
 172203,1,2022.14,2022,10,10,1,1,qual,1717,15.5,0.3,26.44,,,alive,Jen Jordan,Jen Jordan,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
-172203,1,2022.15,2022,11,9,1,1,qual,1717,15.5,0.3,25.97,,,alive,Brigit Rooney; Paula,Jessica Shue,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
+172203,1,2022.15,2022,11,9,1,1,qual,1717,15.5,0.3,25.97,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25505,25505,NA,368.5,0,852,2,NA,1.3,NA,NA,NA,NA
 172205,1,2022.01,2022,3,15,1,0,qual,1717,16.1,3.5,13.77,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25507,25507,NA,493,0,388,2,NA,1.3,NA,NA,NA,NA
-172205,1,2022.15,2022,11,9,1,0,qual,1717,16.1,3.5,20.56,,,alive,Brigit Rooney; Paula,Jessica Shue,25507,25507,NA,493,0,388,2,NA,1.3,NA,NA,NA,NA
+172205,1,2022.15,2022,11,9,1,0,qual,1717,16.1,3.5,20.56,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25507,25507,NA,493,0,388,2,NA,1.3,NA,NA,NA,NA
 172248,1,2022.01,2022,3,15,1,1,cato,1719,19.2,19.3,29.18,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
 172248,1,2022.02,2022,4,4,1,1,cato,1719,19.2,19.3,29.9,,,alive,Jen Jordan,Jen Jordan,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
 172248,1,2022.03,2022,4,20,1,1,cato,1719,19.2,19.3,33.09,,,alive,Isabella Dangler,Isabella Dangler,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
@@ -2468,9 +2468,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 172248,1,2022.12,2022,9,6,1,1,cato,1719,19.2,19.3,37.35,,,alive,Jen Jordan,Jen Jordan,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
 172248,1,2022.13,2022,9,22,1,1,cato,1719,19.2,19.3,36.36,,,alive,Jen Jordan,Jen Jordan,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
 172248,1,2022.14,2022,10,10,1,1,cato,1719,19.2,19.3,35.98,,,alive,Jen Jordan,Jen Jordan,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
-172248,1,2022.15,2022,11,9,1,1,cato,1719,19.2,19.3,34.63,,,alive,Brigit Rooney; Paula,Jessica Shue,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
+172248,1,2022.15,2022,11,9,1,1,cato,1719,19.2,19.3,34.63,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25549,25549,NA,274.2,0,389,2,NA,1.3,NA,NA,NA,NA
 172382,1,2022.01,2022,3,15,1,0,juni,1723,18.2,14.9,114.98,BA,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,25675,25675,NA,459.2,0,657,2,NA,1.3,NA,NA,NA,NA
-172382,1,2022.15,2022,11,9,1,0,juni,1723,18.2,14.9,122.37,,,alive,Brigit Rooney; Paula,Jessica Shue,25675,25675,NA,459.2,0,657,2,NA,1.3,NA,NA,NA,NA
+172382,1,2022.15,2022,11,9,1,0,juni,1723,18.2,14.9,122.37,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,25675,25675,NA,459.2,0,657,2,NA,1.3,NA,NA,NA,NA
 172416,1,2022.01,2022,3,15,1,0,nysy,1725,19.9,15.6,4.76,,,alive,Bill McShea,Jessica Shue,25708,25708,NA,206,0,914,2,NA,1.35,NA,NA,NA,NA
 172416,1,2022.15,2022,11,9,1,0,nysy,1725,19.9,15.6,6.13,,,alive,Jen Jordan,Jessica Shue,25708,25708,NA,206,0,914,2,NA,1.35,NA,NA,NA,NA
 172417,1,2022.01,2022,3,15,1,1,nysy,1725,20,18.4,19.69,,,alive,Bill McShea,Jessica Shue,25709,25709,NA,98.8,0,395,2,NA,1.4,NA,NA,NA,NA
@@ -2560,15 +2560,15 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 181030,1,2022.12,2022,9,6,1,1,qual,1816,5.4,10.6,35.46,,,alive,Jen Jordan,Jen Jordan,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
 181030,1,2022.13,2022,9,22,1,1,qual,1816,5.4,10.6,35.41,,,alive,Jen Jordan,Jen Jordan,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
 181030,1,2022.14,2022,10,10,1,1,qual,1816,5.4,10.6,36.08,,,alive,Jen Jordan,Jen Jordan,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
-181030,1,2022.15,2022,11,9,1,1,qual,1816,5.4,10.6,34.56,,,alive,Brigit Rooney; Paula,Jessica Shue,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
+181030,1,2022.15,2022,11,9,1,1,qual,1816,5.4,10.6,34.56,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
 181033,1,2022.01,2022,3,15,1,0,litu,1816,3.4,18.6,26.55,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,26820,26820,NA,515.5,0,410,2,NA,1.3,NA,NA,NA,NA
-181033,1,2022.15,2022,11,9,1,0,litu,1816,3.4,18.6,48.86,,,alive,Brigit Rooney; Paula,Jessica Shue,26820,26820,NA,515.5,0,410,2,NA,1.3,NA,NA,NA,NA
+181033,1,2022.15,2022,11,9,1,0,litu,1816,3.4,18.6,48.86,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,26820,26820,NA,515.5,0,410,2,NA,1.3,NA,NA,NA,NA
 182207,1,2022.01,2022,3,15,1,0,qual,1817,5.6,11.2,116.3,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,27118,27118,NA,539,0,411,2,NA,1.3,NA,NA,NA,NA
-182207,1,2022.15,2022,11,9,1,0,qual,1817,5.6,11.2,119.93,RT,,alive,Brigit Rooney; Paula,Jessica Shue,27118,27118,NA,539,0,411,2,NA,1.3,NA,NA,NA,NA
+182207,1,2022.15,2022,11,9,1,0,qual,1817,5.6,11.2,119.93,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,27118,27118,NA,539,0,411,2,NA,1.3,NA,NA,NA,NA
 182208,1,2022.01,2022,3,15,1,0,quru,1817,4,10.1,116.49,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,27119,27119,NA,513,0,650,2,NA,1.3,NA,NA,NA,NA
-182208,1,2022.15,2022,11,9,1,0,quru,1817,4,10.1,129.5,NN,,alive,Brigit Rooney; Paula,Jessica Shue,27119,27119,NA,513,0,650,2,NA,1.3,NA,NA,NA,NA
+182208,1,2022.15,2022,11,9,1,0,quru,1817,4,10.1,129.5,NN,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,27119,27119,NA,513,0,650,2,NA,1.3,NA,NA,NA,NA
 182376,1,2022.01,2022,3,15,1,0,ploc,1823,2.9,12.6,128.12,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,27286,27286,NA,608.5,0,823,2,NA,1.3,NA,NA,NA,NA
-182376,1,2022.15,2022,11,9,1,0,ploc,1823,2.9,12.6,NA,RE,Too big to be measured,alive,Brigit Rooney; Paula,Jessica Shue,27286,27286,NA,608.5,0,823,2,NA,1.3,NA,NA,NA,NA
+182376,1,2022.15,2022,11,9,1,0,ploc,1823,2.9,12.6,NA,RE,Too big to be measured,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,27286,27286,NA,608.5,0,823,2,NA,1.3,NA,NA,NA,NA
 182398,1,2022.01,2022,3,15,1,0,ceca,1825,0.6,5.5,10.21,,,alive,Bill McShea,Jessica Shue,27308,27308,NA,110,1,1111,2,NA,1.4,NA,NA,NA,NA
 182398,1,2022.15,2022,11,9,1,0,ceca,1825,0.6,5.5,14.42,,,alive,Jen Jordan,Jessica Shue,27308,27308,NA,110,0,1111,2,NA,1.4,NA,NA,NA,NA
 182471,1,2022.01,2022,3,15,1,1,ceca,1829,2.6,19,NA,,,alive,Jessica Shue,Jessica Shue,27378,27378,NA,299,1,1135,2,NA,1.4,NA,NA,NA,NA
@@ -2589,7 +2589,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 182491,1,2022.01,2022,3,15,1,0,litu,1831,7.6,7.9,96.22,,,alive,Bill McShea,Jessica Shue,27397,27397,NA,410,0,741,2,NA,1.35,NA,NA,NA,NA
 182491,1,2022.15,2022,11,9,1,0,litu,1831,7.6,7.9,103.96,DC,Dead on ground,dead,Jen Jordan,Jessica Shue,27397,27397,NA,410,0,741,2,NA,1.35,NA,NA,NA,NA
 182570,1,2022.01,2022,3,15,1,0,juni,1823,2.7,13.5,117.05,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,27471,27471,NA,530,0,509,2,NA,1.3,NA,NA,NA,NA
-182570,1,2022.15,2022,11,9,1,0,juni,1823,2.7,13.5,131.12,,,alive,Brigit Rooney; Paula,Jessica Shue,27471,27471,NA,530,0,509,2,NA,1.3,NA,NA,NA,NA
+182570,1,2022.15,2022,11,9,1,0,juni,1823,2.7,13.5,131.12,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,27471,27471,NA,530,0,509,2,NA,1.3,NA,NA,NA,NA
 182681,1,2022.01,2022,3,15,1,0,litu,1829,13,1,23.95,,,alive,Bill McShea,Jessica Shue,27575,27575,NA,590.1,0,418,2,NA,1.4,NA,NA,NA,NA
 182681,1,2022.15,2022,11,9,1,0,litu,1829,13,1,39.04,,,alive,Jen Jordan,Jessica Shue,27575,27575,NA,590.1,0,418,2,NA,1.4,NA,NA,NA,NA
 182693,1,2022.01,2022,3,15,1,0,litu,1830,15.3,13.2,43.84,,,alive,Bill McShea,Jessica Shue,27584,27584,NA,680,0,972,2,NA,1.4,NA,NA,NA,NA
@@ -2679,9 +2679,9 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 190798,1,2022.01,2022,3,15,1,0,cagl,1914,12.5,8.4,12.28,,,alive,John Whitmoyer,Jessica Shue,28340,28340,NA,269.3,0,796,2,NA,1.32,NA,NA,NA,NA
 190798,1,2022.15,2022,11,9,1,0,cagl,1914,12.5,8.4,16.8,,,alive,John Whitmoyer,Jessica Shue,28340,28340,NA,269.3,0,796,2,NA,1.32,NA,NA,NA,NA
 190840,1,2022.01,2022,3,15,1,0,litu,1916,15,17.2,25.12,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,28379,28379,NA,164.9,0,722,2,NA,1.3,NA,NA,NA,NA
-190840,1,2022.15,2022,11,9,1,0,litu,1916,15,17.2,49.43,,,alive,Brigit Rooney; Paula,Jessica Shue,28379,28379,NA,164.9,0,722,2,NA,1.3,NA,NA,NA,NA
+190840,1,2022.15,2022,11,9,1,0,litu,1916,15,17.2,49.43,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,28379,28379,NA,164.9,0,722,2,NA,1.3,NA,NA,NA,NA
 192008,1,2022.01,2022,3,15,1,0,qual,1917,12,2,23.89,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,28434,28434,NA,655.8,0,432,2,NA,1.3,NA,NA,NA,NA
-192008,1,2022.15,2022,11,9,1,0,qual,1917,12,2,36.85,RT,192055 has band 144.9,alive,Brigit Rooney; Paula,Jessica Shue,28434,28434,NA,655.8,0,432,2,NA,1.3,NA,NA,NA,NA
+192008,1,2022.15,2022,11,9,1,0,qual,1917,12,2,36.85,RT,192055 has band 144.9,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,28434,28434,NA,655.8,0,432,2,NA,1.3,NA,NA,NA,NA
 192133,1,2022.01,2022,3,15,1,1,caovl,1923,11.7,2.3,30.63,BA,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
 192133,1,2022.02,2022,4,4,1,1,caovl,1923,11.7,2.3,29.53,,,alive,Isabella Dangler,Jen Jordan,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
 192133,1,2022.03,2022,4,20,1,1,caovl,1923,11.7,2.3,29.65,,,alive,Isabella Dangler,Isabella Dangler,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
@@ -2696,7 +2696,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 192133,1,2022.12,2022,9,6,1,1,caovl,1923,11.7,2.3,38.08,NN,replace nail,alive,John Whitmoyer,Jen Jordan,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
 192133,1,2022.13,2022,9,26,1,1,caovl,1923,11.7,2.3,37.21,RT,,alive,John Whitmoyer,Jen Jordan,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
 192133,1,2022.14,2022,10,5,1,1,caovl,1923,11.7,2.3,39.62,RT,,alive,John Whitmoyer,Jen Jordan,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
-192133,1,2022.15,2022,11,9,1,1,caovl,1923,11.7,2.3,37.72,,,alive,Brigit Rooney; Paula,Jessica Shue,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
+192133,1,2022.15,2022,11,9,1,1,caovl,1923,11.7,2.3,37.72,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,28553,28553,NA,565,0,949,2,NA,1.4,NA,NA,NA,NA
 192244,1,2022.01,2022,3,15,1,1,qual,1919,18.1,16.8,47.19,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
 192244,1,2022.02,2022,4,4,1,1,qual,1919,18.1,16.8,47.19,,,alive,Jen Jordan,Jen Jordan,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
 192244,1,2022.03,2022,4,20,1,1,qual,1919,18.1,16.8,49.31,,,alive,Isabella Dangler,Isabella Dangler,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
@@ -2711,7 +2711,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 192244,1,2022.12,2022,9,6,1,1,qual,1919,18.1,16.8,58.16,,,alive,Jen Jordan,Jen Jordan,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
 192244,1,2022.13,2022,9,22,1,1,qual,1919,18.1,16.8,65.69,,I double-checked this measurement - correct,alive,Jen Jordan,Jen Jordan,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
 192244,1,2022.14,2022,10,10,1,1,qual,1919,18.1,16.8,65.29,,I double-checked this measurement - correct,alive,Jen Jordan,Jen Jordan,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
-192244,1,2022.15,2022,11,9,1,1,qual,1919,18.1,16.8,64.79,,,alive,Brigit Rooney; Paula,Jessica Shue,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
+192244,1,2022.15,2022,11,9,1,1,qual,1919,18.1,16.8,64.79,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,28661,28661,NA,443.5,0,780,2,NA,1.3,NA,NA,NA,NA
 192437,1,2022.01,2022,3,15,1,1,litu,1925,17,11.5,20.17,,,alive,Bill McShea,Jessica Shue,28848,28848,NA,436.9,0,853,2,NA,1.3,NA,NA,NA,NA
 192437,1,2022.02,2022,4,4,1,1,litu,1925,17,11.5,19.94,,,alive,Isabella Dangler,Jen Jordan,28848,28848,NA,436.9,0,853,2,NA,1.3,NA,NA,NA,NA
 192437,1,2022.03,2022,4,20,1,1,litu,1925,17,11.5,20.45,,,alive,Isabella Dangler,Isabella Dangler,28848,28848,NA,436.9,0,853,2,NA,1.3,NA,NA,NA,NA
@@ -2897,11 +2897,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 201331,1,2022.01,2022,3,15,1,0,qupr,2015,14.3,9.5,27.01,RT,missing tag,alive,John Whitmoyer,Jessica Shue,30322,30322,NA,432,0,896,2,NA,1.4,NA,NA,NA,NA
 201331,1,2022.15,2022,11,9,1,0,qupr,2015,14.3,9.5,33.89,RT,,alive,John Whitmoyer,Jessica Shue,30322,30322,NA,432,0,896,2,NA,1.4,NA,NA,NA,NA
 201432,1,2022.01,2022,3,15,1,0,quve,2016,0.3,12.5,87.75,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30376,30376,NA,429,0,747,2,NA,1.3,NA,NA,NA,NA
-201432,1,2022.15,2022,11,9,1,0,quve,2016,0.3,12.5,94.31,,,alive,Brigit Rooney; Paula,Jessica Shue,30376,30376,NA,429,0,747,2,NA,1.3,NA,NA,NA,NA
+201432,1,2022.15,2022,11,9,1,0,quve,2016,0.3,12.5,94.31,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30376,30376,NA,429,0,747,2,NA,1.3,NA,NA,NA,NA
 201441,1,2022.01,2022,3,15,1,0,litu,2016,11.8,19.2,33.94,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30385,30385,NA,763,0,781,2,NA,1.3,NA,NA,NA,NA
-201441,1,2022.15,2022,11,9,1,0,litu,2016,11.8,19.2,58.36,,,alive,Brigit Rooney; Paula,Jessica Shue,30385,30385,NA,763,0,781,2,NA,1.3,NA,NA,NA,NA
+201441,1,2022.15,2022,11,9,1,0,litu,2016,11.8,19.2,58.36,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30385,30385,NA,763,0,781,2,NA,1.3,NA,NA,NA,NA
 202050,1,2022.01,2022,3,15,1,0,qual,2019,9.2,14.5,39.33,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30435,30435,NA,480.5,0,694,2,NA,1.3,NA,NA,NA,NA
-202050,1,2022.15,2022,11,9,1,0,qual,2019,9.2,14.5,44.52,,,alive,Brigit Rooney; Paula,Jessica Shue,30435,30435,NA,480.5,0,694,2,NA,1.3,NA,NA,NA,NA
+202050,1,2022.15,2022,11,9,1,0,qual,2019,9.2,14.5,44.52,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30435,30435,NA,480.5,0,694,2,NA,1.3,NA,NA,NA,NA
 202072,1,2022.01,2022,3,15,1,1,qual,2020,2.1,10.8,33.9,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
 202072,1,2022.02,2022,4,4,1,1,qual,2020,2.1,10.8,34.29,,,alive,Jen Jordan,Jen Jordan,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
 202072,1,2022.03,2022,4,20,1,1,qual,2020,2.1,10.8,36.17,,,alive,Isabella Dangler,Isabella Dangler,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
@@ -2916,7 +2916,7 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 202072,1,2022.12,2022,9,6,1,1,qual,2020,2.1,10.8,45.77,NN,replace nail,alive,John Whitmoyer,Jen Jordan,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
 202072,1,2022.13,2022,9,22,1,1,qual,2020,2.1,10.8,45.08,,replace nail,alive,Jen Jordan,Jen Jordan,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
 202072,1,2022.14,2022,10,10,1,1,qual,2020,2.1,10.8,46.55,,replace nail,alive,Jen Jordan,Jen Jordan,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
-202072,1,2022.15,2022,11,9,1,1,qual,2020,2.1,10.8,44.55,,,alive,Brigit Rooney; Paula,Jessica Shue,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
+202072,1,2022.15,2022,11,9,1,1,qual,2020,2.1,10.8,44.55,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
 202201,1,2022.01,2022,3,15,1,1,cato,2017,3.2,1.1,31.92,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
 202201,1,2022.02,2022,4,4,1,1,cato,2017,3.2,1.1,32.45,,,alive,Jen Jordan,Jen Jordan,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
 202201,1,2022.03,2022,4,20,1,1,cato,2017,3.2,1.1,32.97,,,alive,Isabella Dangler,Isabella Dangler,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
@@ -2931,11 +2931,11 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 202201,1,2022.12,2022,9,6,1,1,cato,2017,3.2,1.1,38.3,,,alive,John Whitmoyer,Jen Jordan,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
 202201,1,2022.13,2022,9,22,1,1,cato,2017,3.2,1.1,38,,,alive,Jen Jordan,Jen Jordan,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
 202201,1,2022.14,2022,10,10,1,1,cato,2017,3.2,1.1,38.29,,,alive,Jen Jordan,Jen Jordan,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
-202201,1,2022.15,2022,11,9,1,1,cato,2017,3.2,1.1,37.92,,,alive,Brigit Rooney; Paula,Jessica Shue,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
+202201,1,2022.15,2022,11,9,1,1,cato,2017,3.2,1.1,37.92,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30581,30581,NA,131,0,724,2,NA,1.3,NA,NA,NA,NA
 202203,1,2022.01,2022,3,15,1,0,quru,2017,9.2,1.4,82.9,,tag on ground,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30583,30583,NA,479.9,0,798,2,NA,1.3,NA,NA,NA,NA
-202203,1,2022.15,2022,11,9,1,0,quru,2017,9.2,1.4,105.03,RT,,alive,Brigit Rooney; Paula,Jessica Shue,30583,30583,NA,479.9,0,798,2,NA,1.3,NA,NA,NA,NA
+202203,1,2022.15,2022,11,9,1,0,quru,2017,9.2,1.4,105.03,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30583,30583,NA,479.9,0,798,2,NA,1.3,NA,NA,NA,NA
 202212,1,2022.01,2022,3,15,1,0,quve,2017,4.3,9.5,69.85,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30592,30592,NA,598.7,0,541,2,NA,1.3,NA,NA,NA,NA
-202212,1,2022.15,2022,11,9,1,0,quve,2017,4.3,9.5,83.02,,,alive,Brigit Rooney; Paula,Jessica Shue,30592,30592,NA,598.7,0,541,2,NA,1.3,NA,NA,NA,NA
+202212,1,2022.15,2022,11,9,1,0,quve,2017,4.3,9.5,83.02,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30592,30592,NA,598.7,0,541,2,NA,1.3,NA,NA,NA,NA
 202215,1,2022.01,2022,3,15,1,1,qual,2017,5.5,11.7,106.64,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
 202215,1,2022.02,2022,4,4,1,1,qual,2017,5.5,11.7,105.85,,2022.02: Tag on ground,alive,Jen Jordan,Jen Jordan,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
 202215,1,2022.03,2022,4,20,1,1,qual,2017,5.5,11.7,107.66,,,alive,Isabella Dangler,Isabella Dangler,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
@@ -2950,15 +2950,15 @@ tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measu
 202215,1,2022.12,2022,9,6,1,1,qual,2017,5.5,11.7,113.25,,,alive,John Whitmoyer,Jen Jordan,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
 202215,1,2022.13,2022,9,22,1,1,qual,2017,5.5,11.7,112.79,,,alive,Jen Jordan,Jen Jordan,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
 202215,1,2022.14,2022,10,10,1,1,qual,2017,5.5,11.7,114.34,,,alive,Jen Jordan,Jen Jordan,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
-202215,1,2022.15,2022,11,9,1,1,qual,2017,5.5,11.7,113.07,,,alive,Brigit Rooney; Paula,Jessica Shue,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
+202215,1,2022.15,2022,11,9,1,1,qual,2017,5.5,11.7,113.07,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30595,30595,NA,549.9,0,476,2,NA,1.3,NA,NA,NA,NA
 202276,1,2022.01,2022,3,15,1,0,caovl,2019,7.1,13.8,16.3,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30649,30649,NA,264,1,1112,2,NA,1.4,NA,NA,NA,NA
-202276,1,2022.15,2022,11,9,1,0,caovl,2019,7.1,13.8,16.37,,,alive,Brigit Rooney; Paula,Jessica Shue,30649,30649,NA,264,0,1112,2,NA,1.4,NA,NA,NA,NA
+202276,1,2022.15,2022,11,9,1,0,caovl,2019,7.1,13.8,16.37,,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30649,30649,NA,264,0,1112,2,NA,1.4,NA,NA,NA,NA
 202283,1,2022.01,2022,3,15,1,0,litu,2020,4.5,2.9,38.4,RT,needs tag,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30656,30656,NA,258.1,0,748,2,NA,1.3,NA,NA,NA,NA
 202283,1,2022.15,2022,11,10,1,0,litu,2020,4.5,2.9,NA,RE; RT,band damaged,alive,Jessica Shue,Jessica Shue,30656,30656,NA,258.1,0,748,2,NA,1.3,NA,NA,NA,NA
 202336,1,2022.01,2022,3,15,1,0,cagl,2022,3,10.7,126.56,,,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30709,30709,NA,430,0,655,2,NA,1.3,NA,NA,NA,NA
-202336,1,2022.15,2022,11,9,1,0,cagl,2022,3,10.7,148.56,RE,"Bent, hard to measure",alive,Brigit Rooney; Paula,Jessica Shue,30709,30709,NA,430,0,655,2,NA,1.3,NA,NA,NA,NA
+202336,1,2022.15,2022,11,9,1,0,cagl,2022,3,10.7,148.56,RE,"Bent, hard to measure",alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30709,30709,NA,430,0,655,2,NA,1.3,NA,NA,NA,NA
 202337,1,2022.01,2022,3,15,1,0,cagl,2023,1,0.2,77.13,,tag embedded,alive,"Isabella Dangler, Jen Jordan",Jessica Shue,30710,30710,NA,417.2,0,656,2,NA,1.3,NA,NA,NA,NA
-202337,1,2022.15,2022,11,9,1,0,cagl,2023,1,0.2,86.65,RT,,alive,Brigit Rooney; Paula,Jessica Shue,30710,30710,NA,417.2,0,656,2,NA,1.3,NA,NA,NA,NA
+202337,1,2022.15,2022,11,9,1,0,cagl,2023,1,0.2,86.65,RT,,alive,"Brigit Rooney, Paula Castiblanco",Jessica Shue,30710,30710,NA,417.2,0,656,2,NA,1.3,NA,NA,NA,NA
 202444,1,2022.01,2022,3,15,1,0,litu,2025,0.9,12.5,36.97,,,alive,Bill McShea,Jessica Shue,30813,30813,NA,650,0,624,2,NA,1.3,NA,NA,NA,NA
 202444,1,2022.15,2022,11,9,1,0,litu,2025,0.9,12.5,50.24,,,alive,Jen Jordan,Jessica Shue,30813,30813,NA,650,0,624,2,NA,1.3,NA,NA,NA,NA
 202449,1,2022.01,2022,3,15,1,0,litu,2026,0,1,17.6,,,alive,Bill McShea,Jessica Shue,30818,30818,NA,608.5,0,481,2,NA,1.3,NA,NA,NA,NA
