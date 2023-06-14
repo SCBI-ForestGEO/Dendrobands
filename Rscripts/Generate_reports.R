@@ -1,7 +1,6 @@
 # Script that takes "cleaned" version of data ready for analysis in
 # data/scbi.dendroAll_YEAR.csv and checks for errors that require field
 # fixes listed in testthat/README.md.
-#
 # 
 # Developed by: Albert Y. Kim - albert.ys.kim@gmail.com
 # R version 4.0.3 - First created in 2021
