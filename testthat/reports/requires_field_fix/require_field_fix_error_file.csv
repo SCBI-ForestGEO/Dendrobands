@@ -1,0 +1,2 @@
+alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
+measure_not_recorded,62114,1,2023.02,2023,5,4,1,1,quve,619,13.4,7.3,NA,RT,NA,dead,John Whitmoyer,Jen Jordan,7567,7567,NA,292.3,0,586,2,NA,1.5,NA,NA,NA,NA

@@ -221,3 +221,4 @@ new_measure_too_different_from_previous,62224,1,2022.12,2022,9,6,1,1,litu,622,3.
 new_measure_too_different_from_previous,171348,1,2022.15,2022,11,9,1,1,ceca,1714,19.4,2.4,10.84,NA,old band removed; outgrown,alive,John Whitmoyer,Jessica Shue,25171,25171,NA,155.4,1,381,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous_biannual,171348,1,2022.15,2022,11,9,1,1,ceca,1714,19.4,2.4,10.84,NA,old band removed; outgrown,alive,John Whitmoyer,Jessica Shue,25171,25171,NA,155.4,1,381,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous_biannual,200551,1,2022.15,2022,11,9,1,1,litu,2005,1,5.3,9.72,NA,new band installed,alive,John Whitmoyer,Jessica Shue,29610,29610,NA,576,1,457,2,NA,1.4,NA,NA,NA,NA
+measure_not_recorded,62114,1,2023.02,2023,5,4,1,1,quve,619,13.4,7.3,NA,RT,NA,dead,John Whitmoyer,Jen Jordan,7567,7567,NA,292.3,0,586,2,NA,1.5,NA,NA,NA,NA
