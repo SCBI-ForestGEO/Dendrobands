@@ -31,7 +31,7 @@ for(i in 1:length(master_data_filenames)){
   dendroband_measurements_all_years <- 
     bind_rows(
       dendroband_measurements_all_years,
-      read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double()), measure = col_double())
+      read_csv(master_data_filenames[i], col_types = cols(dbh = col_double(), dendDiam = col_double(), measure = col_double()))
     )
 }
 
