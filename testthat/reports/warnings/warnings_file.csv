@@ -1,2 +1,0 @@
-alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
-dendroband_needs_fixing_or_replacing,70519,1,2023.06,2023,7,7,1,1,qual,711,1.7,18.6,10101.41,NA,NA,dead,Jen Jordan,Jen Jordan,8497,8497,NA,79,0,954,2,NA,1.4,NA,NA,NA,NA
