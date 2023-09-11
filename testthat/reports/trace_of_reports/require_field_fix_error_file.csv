@@ -237,3 +237,10 @@ code_not_defined,62181,1,2023.07,2023,7,27,1,0,quve,621,8,0.8,144.38,NB,NA,dead,
 new_measure_too_different_from_previous,70579,1,2023.07,2023,7,24,1,1,caco,714,11.9,7.4,58.6,NA,NA,dead,Jen Jordan,Jen Jordan,8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
 new_measure_too_different_from_previous,70581,1,2023.07,2023,7,24,1,1,quru,714,19.2,4.3,6,NA,NA,dead,Jen Jordan,Jen Jordan,8578,8578,NA,236.1,0,67,2,NA,1.33,NA,NA,NA,NA
 code_not_defined,72357,1,2023.07,2023,7,27,1,1,quru,728,12,15.1,NA,NB,RT; Can't measure due to band,dead,Chris Pate/ John Whitmoyer,Jen Jordan,8988,8988,NA,971,0,930,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,70579,1,2023.08,2023,8,22,1,1,caco,714,11.9,7.4,48.11,NA,NA,dead,Jen Jordan,Jen Jordan,8537,8537,NA,599,0,929,2,NA,1.4,NA,NA,NA,NA
+measure_not_recorded,112136,1,2023.08,2023,8,22,1,0,pist,1120,17.2,18.3,NA,RT,NA,dead,Jen Jordan,Jen Jordan,14857,14857,NA,147.8,0,608,2,NA,1.35,NA,NA,NA,NA
+measure_not_recorded,172202,1,2023.08,2023,8,22,1,0,quru,1717,19.5,1.2,NA,RT,NA,dead,Jen Jordan,Jen Jordan,25503,25503,NA,68,0,913,2,NA,1.4,NA,NA,NA,NA
+measure_not_recorded,181030,1,2023.08,2023,8,22,1,0,qual,1816,1.5,6.7,NA,RT,NA,dead,Jen Jordan,Jen Jordan,26779,26779,NA,936.2,0,229,2,NA,1.3,NA,NA,NA,NA
+measure_not_recorded,192133,1,2023.08,2023,8,22,1,0,caovl,1923,12,2,NA,RT,NA,dead,Jen Jordan,Jen Jordan,28434,28434,NA,655.8,0,432,2,NA,1.3,NA,NA,NA,NA
+measure_not_recorded,202201,1,2023.08,2023,8,22,1,1,cato,2017,2.1,10.8,NA,NN,NA,dead,Jen Jordan,Jen Jordan,30457,30457,NA,710.1,0,848,2,NA,1.3,NA,NA,NA,NA
+measure_not_recorded,202072,1,2023.08,2023,8,22,1,0,qual,2020,9.2,14.5,NA,RT,NA,dead,Jen Jordan,Jen Jordan,30435,30435,NA,480.5,0,694,2,NA,1.3,NA,NA,NA,NA
