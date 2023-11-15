@@ -89,7 +89,11 @@ fall_biannual <-
            "ly",
            "area",
            "location",
-           "spring_measure"))
+           "spring_measure")) %>% 
+  arrange(.,
+          area,
+          tag,
+          stemtag)
 
 # Add blank columns
 
@@ -99,13 +103,15 @@ fall_biannual$measure.verified = ""
 fall_biannual$notes = ""
 fall_biannual$field.recorders = ""
 fall_biannual$data.enter = ""
-fall_biannual$survey.ID = ""
+fall_biannual$survey.ID = 2023.11
 fall_biannual$year = 2023
 fall_biannual$month = 11
 fall_biannual$day = ""
 fall_biannual$new.band = ""
 
 
+
+write_csv(fall_biannual, "C:/Users/jessh/Documents/GitHub/Dendrobands/resources/raw_data/2023/data_entry_biannual_fall2023_BLANK.csv")
 
 # Bands to replace --------------------------------------------------------
 
