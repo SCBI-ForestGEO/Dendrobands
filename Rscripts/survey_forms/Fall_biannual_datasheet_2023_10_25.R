@@ -21,16 +21,34 @@ table(current_year_data$survey.ID)
 
 prev_measure <- 
   current_year_data %>% 
-  filter(survey.ID == 2023.08,
-         biannual == 1)
+  filter(survey.ID == 2023.1,
+         biannual == 1) %>% 
+  select(c(
+    "quadrat",
+    "tag",
+    "stemtag",
+    "survey.ID",
+    "measure",
+    "codes",
+    "notes",
+    "status"))
+
+colnames(prev_measure)[5] <- "measure_intra"
+colnames(prev_measure)[6] <- "codes_intra"
+colnames(prev_measure)[7] <- "notes_intra"
+colnames(prev_measure)[8] <- "status_intra"
 
 # Subset all data to the spring biannual measurement 
 
 data_biannual <- 
   current_year_data %>%
   filter(survey.ID == 2023.01,
-         biannual == 1)
+         biannual == 1) %>% 
+  left_join(prev_measure,
+            by = c("tag", "stemtag", "quadrat", "survey.ID"))
 
+
+                
 # Check for dead trees
 
 table(data_biannual$status)
@@ -95,7 +113,11 @@ fall_biannual$new.band = ""
 
 RE <- 
   current_year_data %>% 
-  filter(codes == "RE")
+  filter(codes == "RE") 
+
+RE <- RE[!duplicated(RE[1:2]), ]
+
+
 
 table(RE$notes)
 
@@ -103,7 +125,14 @@ table(RE$notes)
 
 table(RE$status)
 
-# check notes
+# check notes in case a tree needs a new band but 'RE' was not recorded
 table(current_year_data$notes)
 
-# 
+# Check for large gaps - again, in case 'RE' wasn't recorded
+current_year_data$measure <- as.numeric(as.character(current_year_data$measure))
+
+large_gaps <- 
+  current_year_data %>% 
+  filter(measure > 120) %>% 
+  .[!duplicated(.[1:2]), ] %>% 
+  filter(codes != "RE")
