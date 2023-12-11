@@ -53,7 +53,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 132539,1,litu,604.5,1331,15,15.9,8,North,66.81,66.3,,,RT,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
 142521,1,pist,452,1422,6.4,11.1,5,North,136.03,139.7,,,,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
 142380,1,qual,593,1425,6.8,13.1,8,North,65.92,65.66,,,RT,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
-142708,1,juni,423.1,1429,4.3,6.2,8,North,,13.26,,,,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
+142708,1,juni,423.1,1429,4.3,6.2,8,North,,31.26,,,,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
 142729,1,litu,474,1431,4.7,14.7,8,North,71.05,70.6,,,RT,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
 162024,1,quve,294,1618,9.7,9.7,6,North,,13.26,,,,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
 162543,1,qual,890,1627,7.5,16.6,9,North,88.08,86,,,,,2023.09,2023,9,13,John Whitmoyer,Jen Jordan
@@ -132,7 +132,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 91486,1,cagl,570.9,908,17.5,9.2,2,South,75.6,77.06,,,,,2023.09,2023,9,19,Jen Jordan,Jen Jordan
 91477,1,litu,210,908,19.3,3.5,2,South,58.5,59. 04,,,,,2023.09,2023,9,19,Jen Jordan,Jen Jordan
 90660,1,quru,988,913,4.9,7.9,2,South,61.61,63.42,,,,,2023.09,2023,9,19,Jen Jordan,Jen Jordan
-100771,1,quru,968,1005,8.5,17,2,South,123.4,128.51,,,RE,Band loose/ adjusted,2023.09,2023,9,19,Jen Jordan,Jen Jordan
+100771,1,quru,968,1005,8.5,17,2,South,123.4,136.51,,,RE,Band loose/ adjusted,2023.09,2023,9,19,Jen Jordan,Jen Jordan
 101008,1,tiam,177,1006,4.2,11.6,2,South,19.66,20.95,,,,,2023.09,2023,9,19,Jen Jordan,Jen Jordan
 100905,1,litu,680,1008,10,1.6,2,South,49.57,50.87,,,,,2023.09,2023,9,19,Jen Jordan,Jen Jordan
 101244,1,quve,815.3,1014,9,9.2,3,South,NA,NA,,,DS,"dead, no tag",2023.09,2023,9,19,Jen Jordan,Jen Jordan
