@@ -63,9 +63,9 @@ variables_to_reset <- c(
 )
 new_year_data[, variables_to_reset] <- ""
 
-# Write to CSV
-write.csv(x = new_year_data, file = current_year_data_filename, row.names=FALSE)
 
+# Write to CSV for data folder
+write.csv(x = new_year_data, file = current_year_data_filename, row.names=FALSE)
 
 ## Load location and area of all stems ----
 # Code taken from Rscripts/survey_forms/biannual_survey.R on 2022/2/3
@@ -84,7 +84,7 @@ stem_locations <-
     area = case_when(
       quadrat %in% c(1301:1303, 1401:1404, 1501:1515, 1601:1615, 1701:1715, 1801:1815, 1901:1915, 2001:2015) ~ 1,
       quadrat %in% c(404:405, 504:507, 603:609, 703:712, 803:813, 901:913, 1003:1012, 1101:1112, 1201:1212, 1304:1311, 1405:1411) ~ 2,
-      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
+      quadrat %in% c(101:115, 201:215, 301:315, 401:403, 406:415, 502, 512:515, 610,611,614,615,701,702,713,715,801,915,1001,1013,1014,1215,1313,1314,1315,1413,1415) ~ 3,
       quadrat %in% c(116:132, 216:232, 316:332, 416:432, 516:532, 616:624, 716:724, 816:824) ~ 4,
       quadrat %in% c(916:924, 1016:1024, 1116:1124, 1216:1224, 1316:1324, 1416:1418,1420:1424) ~ 5,
       quadrat %in% c(1419, 1516:1524, 1616:1624, 1716:1724, 1816:1824, 1916:1924, 2016:2024) ~ 6,
@@ -102,11 +102,28 @@ stem_locations <-
   distinct()
 
 
+# merge stem_locations to new_year_data along with fall biannual measurement
+
+spring_biannual_area <- merge(new_year_data, 
+                       stem_locations, 
+                       by = c("tag", "stemtag", "quadrat"))
+
+fall_measurement <- 
+  read_csv(last_year_fall_biannual_filename, show_col_types = FALSE) %>% 
+  select(tag,
+         stemtag,
+         measure) %>% 
+  rename(previous_measure = measure)
+
+spring_biannual <- merge(spring_biannual_area, 
+                         fall_measurement,
+                         by = c("tag", "stemtag"),
+                         all.x = TRUE)
+  
 
 
-
-
-
+# Write to CSV for spring biannual
+write.csv(x = spring_biannual, file = current_year_spring_biannual_filename, row.names=FALSE)
 
 
 
