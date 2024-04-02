@@ -1,41 +1,41 @@
 tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.verified,codes,new.band,notes,field.recorders,data.enter,survey.ID,year,month,day
-130348,1,litu,578.3,1302,19.9,1.9,1,South,63.46,,,,,,John Whitmoyer,,2024.01,2024,3,12
-140609,1,litu,1081.9,1403,4.3,3.6,1,South,52.23,,,,,,John Whitmoyer,,2024.01,2024,3,12
-150781,1,ulru,126,1504,1.2,18.5,1,South,7.26,,,,,,John Whitmoyer,,2024.01,2024,3,12
-160713,1,litu,838,1603,10.4,13.7,1,South,106.33,,,,,,John Whitmoyer,,2024.01,2024,3,12
-160742,1,litu,860,1605,19.3,6.6,1,South,11.21,,,,1,,John Whitmoyer,,2024.01,2024,3,12
+130348,1,litu,578.3,1302,19.9,1.9,1,South,63.46,66.27,,,,,Rachel Hoffman,,2024.01,2024,3,13
+140609,1,litu,1081.9,1403,4.3,3.6,1,South,52.23,56.8,56.8,,,,Rachel Hoffman,,2024.01,2024,3,13
+150781,1,ulru,126,1504,1.2,18.5,1,South,7.26,7.35,,,,,Rachel Hoffman,,2024.01,2024,3,13
+160713,1,litu,838,1603,10.4,13.7,1,South,106.33,105.92,,,,,Rachel Hoffman,,2024.01,2024,3,13
+160742,1,litu,860,1605,19.3,6.6,1,South,11.21,8.06,8.06,,1,,Rachel Hoffman,,2024.01,2024,3,13
 160814,1,cato,441,1611,14.3,5.7,1,South,15.05,13.06,,,,,John Whitmoyer,,2024.01,2024,3,12
 160862,1,ploc,834,1614,12.4,15.2,1,South,119.8,120.15,,,,,John Whitmoyer,,2024.01,2024,3,12
-160910,1,litu,996,1607,8.6,1.1,1,South,43.14,,,,,,John Whitmoyer,,2024.01,2024,3,12
-170175,1,litu,885,1702,4.7,1.6,1,South,NA,,,,1,,John Whitmoyer,,2024.01,2024,3,12
-170992,1,litu,686.7,1704,12.2,15.2,1,South,10.75,,,,1,,John Whitmoyer,,2024.01,2024,3,12
-170994,1,litu,555.9,1704,18.4,16.1,1,South,47.09,,,,,,John Whitmoyer,,2024.01,2024,3,12
-171127,1,litu,737.2,1705,9.3,1.8,1,South,75.25,,,,,,John Whitmoyer,,2024.01,2024,3,12
-171245,1,ulru,133,1707,17.3,8.8,1,South,NA,,,,1,,John Whitmoyer,,2024.01,2024,3,12
-171254,1,litu,765,1708,15.3,3.4,1,South,124.41,,,,,,John Whitmoyer,,2024.01,2024,3,12
-171257,1,litu,621,1708,12.2,4.5,1,South,107.05,,,,,,John Whitmoyer,,2024.01,2024,3,12
-171262,1,litu,616.9,1708,15.9,8.2,1,South,42.59,,,,,,John Whitmoyer,,2024.01,2024,3,12
+160910,1,litu,996,1607,8.6,1.1,1,South,43.14,46.83,46.83,,,,Rachel Hoffman,,2024.01,2024,3,13
+170175,1,litu,885,1702,4.7,1.6,1,South,NA,11.36,,,1,,Rachel Hoffman,,2024.01,2024,3,13
+170992,1,litu,686.7,1704,12.2,15.2,1,South,10.75,8.23,8.23,,1,,Rachel Hoffman,,2024.01,2024,3,13
+170994,1,litu,555.9,1704,18.4,16.1,1,South,47.09,47.65,,,,,Rachel Hoffman,,2024.01,2024,3,13
+171127,1,litu,737.2,1705,9.3,1.8,1,South,75.25,76.29,,,,,Rachel Hoffman,,2024.01,2024,3,13
+171245,1,ulru,133,1707,17.3,8.8,1,South,NA,NA,DS,,1,,Jessica Shue,,2024.01,2024,3,13
+171254,1,litu,765,1708,15.3,3.4,1,South,124.41,123.99,,,,,Rachel Hoffman,,2024.01,2024,3,13
+171257,1,litu,621,1708,12.2,4.5,1,South,107.05,107.86,,,,,Rachel Hoffman,,2024.01,2024,3,13
+171262,1,litu,616.9,1708,15.9,8.2,1,South,42.59,87.02,87.01,RE,,band is overstretched,Rachel Hoffman,,2024.01,2024,3,13
 171348,1,ceca,155.4,1714,19.4,2.4,1,South,11.55,11.72,,,,,John Whitmoyer,,2024.01,2024,3,12
 171454,1,caco,118,1714,1.6,13.8,1,South,26.84,26.6,,,,,John Whitmoyer,,2024.01,2024,3,12
 171456,1,acru,715,1714,0.8,13.4,1,South,72.71,77.98,,,,,John Whitmoyer,,2024.01,2024,3,12
 171462,1,qual,845,1715,7.9,7.5,1,South,77.31,78.69,,,,,John Whitmoyer,,2024.01,2024,3,12
-180235,1,litu,1064,1802,11,4.6,1,South,35.74,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180648,1,juni,299,1804,7.5,10.9,1,South,3.19,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180654,1,litu,332.2,1805,6,0.3,1,South,67.57,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180691,1,litu,716,1807,6.2,17.3,1,South,102.26,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180728,1,litu,409,1804,3.1,12.7,1,South,55.45,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180903,1,litu,327,1808,4.8,2.3,1,South,27.12,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180904,1,litu,372.2,1808,2.8,6.5,1,South,77.43,,,,,,John Whitmoyer,,2024.01,2024,3,12
-180948,1,qupr,134,1811,1,9.5,1,South,NA,,,,1,,John Whitmoyer,,2024.01,2024,3,12
+180235,1,litu,1064,1802,11,4.6,1,South,35.74,34.13,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180648,1,juni,299,1804,7.5,10.9,1,South,3.19,3,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180654,1,litu,332.2,1805,6,0.3,1,South,67.57,66.53,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180691,1,litu,716,1807,6.2,17.3,1,South,102.26,102.38,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180728,1,litu,409,1804,3.1,12.7,1,South,55.45,55.55,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180903,1,litu,327,1808,4.8,2.3,1,South,27.12,27.46,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180904,1,litu,372.2,1808,2.8,6.5,1,South,77.43,77.46,,,,,Rachel Hoffman,,2024.01,2024,3,13
+180948,1,qupr,134,1811,1,9.5,1,South,NA,13.42,,,1,,Jessica Shue,,2024.01,2024,3,13
 180984,1,litu,923.5,1813,4,11.8,1,South,103.25,104.74,,,,,John Whitmoyer,,2024.01,2024,3,12
 180991,1,ploc,936.2,1814,1.5,6.7,1,South,36.7,37.33,,,,,John Whitmoyer,,2024.01,2024,3,12
-190065,1,litu,539,1902,18.8,0.4,1,South,35.11,,,,,,John Whitmoyer,,2024.01,2024,3,12
-190067,1,litu,739,1902,19,2.2,1,South,75.37,,,,,,John Whitmoyer,,2024.01,2024,3,12
-190071,1,litu,211.6,1902,20,4.3,1,South,34.36,,,,,,John Whitmoyer,,2024.01,2024,3,12
-190115,1,litu,923.5,1902,4.8,18.6,1,South,28.13,,,,,,John Whitmoyer,,2024.01,2024,3,12
-190413,1,litu,1001.6,1904,14.7,5.6,1,South,17.74,,,,1,,John Whitmoyer,,2024.01,2024,3,12
-190426,1,litu,1016.2,1904,11,16,1,South,122.09,,,,,,John Whitmoyer,,2024.01,2024,3,12
-190429,1,litu,724.9,1904,12.5,19.1,1,South,11.9,,,,1,,John Whitmoyer,,2024.01,2024,3,12
+190065,1,litu,539,1902,18.8,0.4,1,South,35.11,35.91,,,,,Rachel Hoffman,,2024.01,2024,3,13
+190067,1,litu,739,1902,19,2.2,1,South,75.37,74.96,,,,,Rachel Hoffman,,2024.01,2024,3,13
+190071,1,litu,211.6,1902,20,4.3,1,South,34.36,34.94,,,,,Rachel Hoffman,,2024.01,2024,3,13
+190115,1,litu,923.5,1902,4.8,18.6,1,South,28.13,29.33,,,,,Rachel Hoffman,,2024.01,2024,3,13
+190413,1,litu,1001.6,1904,14.7,5.6,1,South,17.74,16.53,16.53,,1,,Rachel Hoffman,,2024.01,2024,3,13
+190426,1,litu,1016.2,1904,11,16,1,South,122.09,120.7,,,,,Rachel Hoffman,,2024.01,2024,3,13
+190429,1,litu,724.9,1904,12.5,19.1,1,South,11.9,13.13,,,1,,Rachel Hoffman,,2024.01,2024,3,13
 190568,1,juni,903,1912,2.6,18.8,1,South,69.47,69.64,,,,,John Whitmoyer,,2024.01,2024,3,12
 190655,1,litu,545.6,1907,12.9,16.1,1,South,80.59,83.54,,,,,John Whitmoyer,,2024.01,2024,3,12
 190658,1,litu,473.2,1907,10.6,16.7,1,South,62.86,63.7,,,,,John Whitmoyer,,2024.01,2024,3,12
@@ -45,11 +45,11 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 190793,1,litu,601,1914,12.2,1.3,1,South,33.73,35.41,,,,,John Whitmoyer,,2024.01,2024,3,12
 190794,1,quru,639.8,1914,10.6,1.4,1,South,54.43,54.76,,,,,John Whitmoyer,,2024.01,2024,3,12
 190798,1,cagl,269.3,1914,12.5,8.4,1,South,19.04,18.64,,,,,John Whitmoyer,,2024.01,2024,3,12
-200142,1,litu,604,2002,1.3,3.5,1,South,45.23,,,,,,John Whitmoyer,,2024.01,2024,3,12
-200151,1,litu,669.3,2002,6.9,4,1,South,95.22,,,,,,John Whitmoyer,,2024.01,2024,3,12
-200547,1,litu,654,2005,2.6,1.1,1,South,28.9,,,,,,John Whitmoyer,,2024.01,2024,3,12
+200142,1,litu,604,2002,1.3,3.5,1,South,45.23,45.03,,,,,Rachel Hoffman,,2024.01,2024,3,13
+200151,1,litu,669.3,2002,6.9,4,1,South,95.22,96.64,,,,,Rachel Hoffman,,2024.01,2024,3,13
+200547,1,litu,654,2005,2.6,1.1,1,South,28.9,29.44,,,,,Rachel Hoffman,,2024.01,2024,3,13
 200551,1,litu,576,2005,1,5.3,1,South,14.67,15.54,,,,,John Whitmoyer,,2024.01,2024,3,12
-200577,1,juni,548,2007,6.1,9.6,1,South,NA,NA,,,1,Window too small,John Whitmoyer,,2024.01,2024,3,12
+200577,1,juni,548,2007,6.1,9.6,1,South,NA,7.7,,,1,,Jessica Shue,,2024.01,2024,3,13
 200586,1,juni,453,2007,2,13.9,1,South,24,23.36,,,,,John Whitmoyer,,2024.01,2024,3,12
 200676,1,litu,869.1,2008,12.2,6.9,1,South,31.75,32.88,,,,,John Whitmoyer,,2024.01,2024,3,12
 200812,1,juni,548,2008,8,1.2,1,South,48.59,48.88,,,,,John Whitmoyer,,2024.01,2024,3,12
@@ -65,9 +65,9 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 201279,1,quru,475,2014,1.9,13,1,South,31.72,32.06,,,,,John Whitmoyer,,2024.01,2024,3,12
 201331,1,qupr,432,2015,14.3,9.5,1,South,38.65,38.67,,,,,John Whitmoyer,,2024.01,2024,3,12
 40465,1,qupr,451,404,8.2,12.5,2,South,91.3,92.25,,RT,,,Brigit Rooney,,2024.01,2024,3,12
-50364,1,qual,661.9,507,4.2,18.1,2,South,28.66,62.38,63.15,"BA, RE",,Fixed band as much as possible to get measurement,Brigit Rooney,,2024.01,2024,3,12
+50364,1,qual,661.9,507,4.2,18.1,2,South,28.66,28.99,,,,,Jessica Shue,,2024.01,2024,3,13
 60266,1,cato,496,604,5.5,9.2,2,South,24.51,24.03,,,,,Brigit Rooney,,2024.01,2024,3,12
-70096,1,quru,893,704,3.3,12.7,2,South,NA,,,,1,,Brigit Rooney,,2024.01,2024,3,12
+70096,1,quru,893,704,3.3,12.7,2,South,NA,14.43,,,1,,Jessica Shue,,2024.01,2024,3,13
 70126,1,quru,821,705,9.3,12.5,2,South,145.68,147.28,,"RE, RT",,,Brigit Rooney,,2024.01,2024,3,12
 70146,1,quve,662,706,8.8,7.2,2,South,24.98,26.22,,,,,Brigit Rooney,,2024.01,2024,3,12
 70278,1,qupr,679.8,704,15.6,15.4,2,South,83,83.95,,,,,Brigit Rooney,,2024.01,2024,3,12
@@ -90,9 +90,9 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 90236,1,ulru,155,902,14.4,2.5,2,South,9.25,9.93,,,,,Brigit Rooney,,2024.01,2024,3,12
 90311,1,cagl,167.8,904,17.5,15.8,2,South,25.04,24.47,,,,,Brigit Rooney,,2024.01,2024,3,12
 90354,1,litu,670.9,905,10.6,5,2,South,38.11,39.71,,,,,Brigit Rooney,,2024.01,2024,3,12
-90544,1,qupr,199,911,18.5,15.4,2,South,NA,,,,1,,Brigit Rooney,,2024.01,2024,3,12
+90544,1,qupr,199,911,18.5,15.4,2,South,NA,6.16,,,1,,Jessica Shue,,2024.01,2024,3,13
 90612,1,quru,552,910,10.7,14,2,South,42.88,43.81,,RT,,,Brigit Rooney,,2024.01,2024,3,12
-90631,1,quve,180,911,1.5,13.9,2,South,NA,,,,1,,Brigit Rooney,,2024.01,2024,3,12
+90631,1,quve,180,911,1.5,13.9,2,South,NA,10.11,,,1,,Jessica Shue,,2024.01,2024,3,13
 90660,1,quru,988,913,4.9,7.9,2,South,63.29,64.5,,,,,Brigit Rooney,,2024.01,2024,3,12
 91451,1,litu,555.1,907,18.7,17.6,2,South,66.27,68,,RT,,,Brigit Rooney,,2024.01,2024,3,12
 91474,1,litu,438.2,908,14.5,4.7,2,South,88.11,89.16,,,,,Brigit Rooney,,2024.01,2024,3,12
@@ -111,7 +111,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 100960,1,quru,563.5,1010,13.8,10.5,2,South,6.81,7.93,,,1,,Brigit Rooney,,2024.01,2024,3,12
 100963,1,caovl,204,1010,11.1,14.7,2,South,22.33,21.75,,,,,Brigit Rooney,,2024.01,2024,3,12
 101008,1,tiam,177,1006,4.2,11.6,2,South,21.23,21,,,,,Brigit Rooney,,2024.01,2024,3,12
-101075,1,qupr,373,1008,3,13.1,2,South,NA,,,,1,,Brigit Rooney,,2024.01,2024,3,12
+101075,1,qupr,373,1008,3,13.1,2,South,NA,11.16,,,1,,Jessica Shue,,2024.01,2024,3,13
 101111,1,litu,96.2,1011,0.1,1.3,2,South,40.04,40.69,,,,,Brigit Rooney,,2024.01,2024,3,12
 101118,1,litu,190.7,1011,0.3,3,2,South,46.6,48.08,,,,,Brigit Rooney,,2024.01,2024,3,12
 110061,1,litu,1205,1101,17,10,2,South,36.09,37.3,,,,,Brigit Rooney,,2024.01,2024,3,12
@@ -140,17 +140,17 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 121301,1,caovl,241.3,1211,1.2,2.5,2,South,19.06,18.67,,,,,Brigit Rooney,,2024.01,2024,3,12
 121305,1,quru,753.8,1211,1.1,11.2,2,South,34.42,35.89,,,,,Brigit Rooney,,2024.01,2024,3,12
 130838,1,litu,652.4,1305,12.2,1,2,South,73.41,75.21,,,,,Brigit Rooney,,2024.01,2024,3,12
-131009,1,quve,757.6,1308,13.9,0.7,2,South,83.92,85.37,,"NN, RT",,"No identifying number, guessed based on previous measurement",Brigit Rooney,,2024.01,2024,3,12
+131009,1,quve,757.6,1308,13.9,0.7,2,South,83.92,85.37,,"NN, RT",,,Brigit Rooney,,2024.01,2024,3,12
 131087,1,quru,665,1310,17.3,17.8,2,South,104.02,104.57,,RT,,,Brigit Rooney,,2024.01,2024,3,12
 131092,1,litu,472.9,1311,13.1,2.7,2,South,103.48,104.19,,,,,Brigit Rooney,,2024.01,2024,3,12
 131096,1,litu,280.8,1311,19,4.7,2,South,19.5,20.12,,,,,Brigit Rooney,,2024.01,2024,3,12
-140646,1,litu,716.8,1405,1,8.3,2,South,122.79,124.2,,"NN, RT",,"No identifying number, guessed based on previous measurement",Brigit Rooney,,2024.01,2024,3,12
+140646,1,litu,716.8,1405,1,8.3,2,South,122.79,124.2,,"NN, RE, RT",,,Brigit Rooney,,2024.01,2024,3,12
 140751,1,quve,NA,1408,9.9,1.5,2,South,74.26,75.5,,,,,Brigit Rooney,,2024.01,2024,3,12
-140813,1,litu,700.6,1410,8.3,11.2,2,South,10.68,9.36,,BA,1,,Brigit Rooney,,2024.01,2024,3,12
+140813,1,litu,700.6,1410,8.3,11.2,2,South,10.68,8.3,,BA,1,,Jessica Shue,,2024.01,2024,3,13
 140821,1,litu,531.4,1411,4.6,0.4,2,South,85.16,86.78,,,,,Brigit Rooney,,2024.01,2024,3,12
 140825,1,litu,523,1411,8,5.9,2,South,66.2,67.7,,"NN, RT",,,Brigit Rooney,,2024.01,2024,3,12
 140829,1,litu,642,1411,0.6,4.9,2,South,74.71,75.65,,,,,Brigit Rooney,,2024.01,2024,3,12
-140833,1,litu,561.3,1411,5.6,9.5,2,South,35.83,36.61,,"NN, RT",,"No identifying number, guessed based on previous measurement",Brigit Rooney,,2024.01,2024,3,12
+140833,1,litu,561.3,1411,5.6,9.5,2,South,35.83,36.61,,"NN, RT",,,Brigit Rooney,,2024.01,2024,3,12
 10469,1,litu,838.8,109,9.7,1,3,South,110.38,112.4,,,,,Rachel Hoffman,,2024.01,2024,3,12
 10587,1,litu,985,113,2.6,13,3,South,103.61,105.92,,,,,Rachel Hoffman,,2024.01,2024,3,12
 10609,1,cagl,439,111,19.5,2.9,3,South,NA,9.36,,,1,,Jessica Shue,,2024.01,2024,3,12
@@ -237,9 +237,9 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 22004,1,litu,896.2,217,8.6,1.7,4,North,92.76,92.29,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 22041,1,litu,817,217,1.8,19,4,North,83.17,85.75,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 22141,1,tiam,142,221,1.9,1.2,4,North,12.6,12.87,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
-22170,1,litu,1128,221,7.9,13.8,4,North,51.24,53.82,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
+22170,1,litu,1128,221,7.9,13.8,4,North,51.24,51.35,,,,band around two stems; not replaced,Jessica Shue,,2024.01,2024,3,13
 22186,1,tiam,370,222,17,7.5,4,North,15.01,15.28,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
-22198,2,tiam,160,222,16.1,10.9,4,North,16.65,16.2,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
+22198,2,tiam,160,222,16.1,10.9,4,North,16.65,16.2,,DS,,,Krystal Bagnaschi,,2024.01,2024,3,12
 22315,1,caco,550,225,11,4,4,North,25.48,25.55,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 22489,1,cato,137,229,16.1,1.8,4,North,11.96,11.24,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 22601,1,juni,197,231,17.8,10,4,North,11.64,10.53,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
@@ -247,9 +247,9 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 32097,1,litu,651,320,17.9,3,4,North,57.59,58.37,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 32126,1,litu,995.5,321,9.6,5,4,North,21.05,21.32,,,1,,Krystal Bagnaschi,,2024.01,2024,3,12
 32157,1,tiam,382,322,7.5,4,4,North,14.63,14.83,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
-32180,2,tiam,183,322,6.4,12.3,4,North,17.3,16.82,,,,Window at difficult to measure spot - should be adjusted,Krystal Bagnaschi,,2024.01,2024,3,12
+32180,2,tiam,183,322,6.4,12.3,4,North,17.3,16.58,,,,,Jessica Shue,,2024.01,2024,3,13
 32381,1,qupr,834,327,4.6,12.8,4,North,15.63,15.45,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
-32423,1,litu,914,329,17.6,13.1,4,North,130.33,131.69,,RE,,,Krystal Bagnaschi,,2024.01,2024,3,12
+32423,1,litu,914,329,17.6,13.1,4,North,130.33,131.69,,RE,,band around two stems; not replaced,Krystal Bagnaschi,,2024.01,2024,3,12
 42009,1,ploc,576.8,417,19.5,3.7,4,North,19.12,17.38,Y,,1,,Krystal Bagnaschi,,2024.01,2024,3,12
 52087,1,quru,1451,519,1.1,11.1,4,North,51.08,50.96,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 52190,1,quru,968.5,522,16.4,3.4,4,North,82.92,85.96,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
@@ -258,12 +258,12 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 62114,1,quve,306,619,18.7,12.6,4,North,63.76,64.23,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 62121,1,cato,114,619,5.1,12.8,4,North,14.29,13.93,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 62128,1,quru,NA,620,8,0.8,4,North,17.22,17.96,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
-62181,1,quve,1118.5,621,8.8,13.5,4,North,12.08,86.6,,,1,,Krystal Bagnaschi,,2024.01,2024,3,12
+62181,1,quve,1118.5,621,8.8,13.5,4,North,12.08,7.14,7.16,,1,,Jessica Shue,,2024.01,2024,3,13
 62224,1,litu,1040.5,622,3.2,17.3,4,North,60.58,63.06,,NN,,,Krystal Bagnaschi,,2024.01,2024,3,12
 62241,1,litu,928.5,623,13.9,0.7,4,North,45.78,48.24,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 72024,1,quve,482.3,717,20,9.6,4,North,71.36,71.78,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 72104,1,qual,260,718,6.2,17.8,4,North,29.17,29.39,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
-72107,1,fagr,441,719,8,1.2,4,North,NA,,,,1,,Krystal Bagnaschi,,2024.01,2024,3,12
+72107,1,fagr,441,719,8,1.2,4,North,NA,16.12,,,1,,Jessica Shue,,2024.01,2024,3,13
 72115,1,litu,479.9,719,11.2,10.7,4,North,120.83,121.69,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 72116,1,litu,502,719,14.4,10.8,4,North,67.39,68.54,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 72122,1,caca,81,719,19.9,19,4,North,11.18,11.33,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
@@ -282,7 +282,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 82223,1,litu,427,822,0.5,17.7,4,North,72.75,73.74,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 82226,1,litu,253.3,823,2,4,4,North,70.72,71.02,,,,,Krystal Bagnaschi,,2024.01,2024,3,12
 90752,1,qual,510.1,916,12.4,7.4,5,North,117.38,118.39,,,,,Iris Kennedy,,2024.01,2024,3,12
-92018,1,acru,519.5,917,16.2,5.6,5,North,14.16,134.58,,,1,,Iris Kennedy,,2024.01,2024,3,12
+92018,1,acru,519.5,917,16.2,5.6,5,North,14.16,11.03,,,1,,Jessica Shue,,2024.01,2024,3,13
 92112,1,litu,489.1,919,14.4,18.8,5,North,56.77,57.8,,,,,Iris Kennedy,,2024.01,2024,3,12
 92115,1,acru,153,919,10.1,19.3,5,North,12.79,13.56,,,,,Iris Kennedy,,2024.01,2024,3,12
 92140,1,cato,60,920,18.7,0.7,5,North,14.49,14.59,,,,,Iris Kennedy,,2024.01,2024,3,12
@@ -307,10 +307,10 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 112136,1,pist,274.1,1120,13.9,2.5,5,North,72.91,73.99,,,,,Iris Kennedy,,2024.01,2024,3,12
 112137,1,qual,572,1120,13.4,3.9,5,North,79.59,80.42,,,,,Iris Kennedy,,2024.01,2024,3,12
 112142,1,qual,385.6,1120,16,3.5,5,North,50.46,51.08,,,,,Iris Kennedy,,2024.01,2024,3,12
-112192,1,quve,345,1121,9.1,13.1,5,North,NA,NA,,,1,,Iris Kennedy,,2024.01,2024,3,12
-112250,1,pist,436,1122,10.8,18.4,5,North,92.13,114.56,114.62,,,bark sticking out,Iris Kennedy,,2024.01,2024,3,12
+112192,1,quve,345,1121,9.1,13.1,5,North,NA,10.03,,,1,,Jessica Shue,,2024.01,2024,3,13
+112250,1,pist,436,1122,10.8,18.4,5,North,92.13,112.98,112.81,,,,Jessica Shue,,2024.01,2024,3,13
 112252,1,litu,451,1122,13.6,19.4,5,North,20.33,18.47,18.56,,1,,Iris Kennedy,,2024.01,2024,3,12
-112262,1,quru,133,1123,17.5,1.5,5,North,7.18,7.74,,,,,Iris Kennedy,,2024.01,2024,3,12
+112262,1,quru,133,1123,17.5,1.5,5,North,7.18,7.58,,,,living; disease/pathogen,Jessica Shue,,2024.01,2024,3,13
 121367,1,nysy,255.6,1216,4.6,10.8,5,North,90.03,90.35,,,,,Iris Kennedy,,2024.01,2024,3,12
 121374,1,juni,310.4,1216,0.7,18.5,5,North,11.49,11.72,,,,,Iris Kennedy,,2024.01,2024,3,12
 122006,1,acru,395.9,1217,9.9,8.3,5,North,17.38,17.51,,,,,Iris Kennedy,,2024.01,2024,3,12
@@ -330,7 +330,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 132077,1,qual,592.4,1319,9.9,15.9,5,North,11,10.71,,,1,,Iris Kennedy,,2024.01,2024,3,12
 132171,1,litu,522.3,1320,13.7,6.7,5,North,94.37,94.51,,,,,Iris Kennedy,,2024.01,2024,3,12
 132280,1,fram,112,1324,6.1,18.2,5,North,13.2,12.9,,,,,Iris Kennedy,,2024.01,2024,3,12
-132302,1,quru,951,1321,13,14.4,5,North,84.73,113.75,113.5,,,"irregular, massive hole/wound",Iris Kennedy,,2024.01,2024,3,12
+132302,1,quru,951,1321,13,14.4,5,North,84.73,76.52,76.39,BA,,"irregular, massive hole/wound",Jessica Shue,,2024.01,2024,3,13
 132311,1,qual,536.5,1322,12.9,14.2,5,North,39.37,40.15,,,,,Iris Kennedy,,2024.01,2024,3,12
 132321,1,quru,628.9,1323,17.6,1,5,North,13.3,15.14,14.64,,,,Iris Kennedy,,2024.01,2024,3,12
 142113,1,cagl,477.2,1417,3,5,5,North,51.94,52.39,,,,,Iris Kennedy,,2024.01,2024,3,12
@@ -481,7 +481,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 182681,1,litu,590.1,1829,13,1,9,North,52.65,53.1,,RT,,,Jessica Shue,,2024.01,2024,3,12
 182693,1,litu,680,1830,15.3,13.2,9,North,76.32,77.84,,,,band over two stems,Jessica Shue,,2024.01,2024,3,12
 192437,1,litu,436.9,1925,17,11.5,9,North,33.25,33.45,,,,,Jessica Shue,,2024.01,2024,3,12
-192466,1,quru,864,1926,13.3,1.7,9,North,134.69,23.54,,,,previously installed ,Jessica Shue,,2024.01,2024,3,12
+192466,1,quru,864,1926,13.3,1.7,9,North,22.78,23.54,,,,previously installed ,Jessica Shue,,2024.01,2024,3,12
 192484,1,quru,422.5,1926,17.4,11.2,9,North,88.13,88.73,,,,,Jessica Shue,,2024.01,2024,3,12
 192527,1,litu,503.9,1928,11.9,5,9,North,106.89,107.29,,,,,Jessica Shue,,2024.01,2024,3,12
 192528,1,litu,569.5,1928,12.4,9.7,9,North,49.61,49.58,,,,,Jessica Shue,,2024.01,2024,3,12
@@ -491,7 +491,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 192543,1,litu,445.5,1929,14.9,4.4,9,North,69.32,69.87,,,,,Jessica Shue,,2024.01,2024,3,12
 192544,1,litu,349,1929,14.4,1.8,9,North,16.17,16.53,,,,,Jessica Shue,,2024.01,2024,3,12
 192546,1,litu,533.5,1929,17.4,7.3,9,North,115.01,117.15,,,,,Jessica Shue,,2024.01,2024,3,12
-192548,1,litu,467,1929,15.3,11.3,9,North,139.39,22.1,,,,previously installed ,Jessica Shue,,2024.01,2024,3,12
+192548,1,litu,467,1929,15.3,11.3,9,North,17.37,22.1,,,,previously installed ,Jessica Shue,,2024.01,2024,3,12
 192560,1,qual,933.1,1930,12.9,19.5,9,North,37.76,38.35,,,,,Jessica Shue,,2024.01,2024,3,12
 192619,1,quru,787,1926,12.6,8.5,9,North,112.58,113.02,,,,,Jessica Shue,,2024.01,2024,3,12
 202444,1,litu,650,2025,0.9,12.5,9,North,62.58,63.19,,,,,Jessica Shue,,2024.01,2024,3,12
