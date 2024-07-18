@@ -45,7 +45,9 @@ current_year_fall_biannual_filename <-
 current_year_data_filename <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
   here()
 
-
+last_year_fall_biannual_filename <- 
+  str_c("resources/raw_data/", current_year - 1, "/data_entry_biannual_fall", current_year - 1, ".csv") %>% 
+  here()
 
 ## Create current year's blank master data csv ----
 # Code taken from Rscripts/survey_forms/new_scbidendroAll_[YEAR].R
