@@ -132,7 +132,7 @@ These data are licensed under the [Creative Commons Attribution 4.0 Internationa
 ### Data from 2021 - present
 These data are covered by a custom data use agreement. 
 Please refer to the [data_use_agreement.md](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data_use_agreement.md) file for details.
-*Data use requests may be denied if they compete with our planned publications or fail to adhere to high standards of scientific integrity and rigour.*
+*Data use requests may be denied if they compete with planned publications (particularly those led by early-career researchers) or fail to adhere to acceptable standards of scientific integrity and rigour.*
 We strongly advise contacting PI [Kristina Anderson-Texeira](teixeirak@si.edu) prior to beginning analysis of these data.
 
 
