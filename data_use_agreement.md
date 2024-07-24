@@ -1,4 +1,4 @@
-By accessing or using the data specified in [SCBI-ForestGEO/Dendrobands/README.md](https://github.com/SCBI-ForestGEO/Dendrobands/README.md), you agree to the following terms and conditions:
+By accessing or using the data specified in [SCBI-ForestGEO/Dendrobands/README.md]([https://github.com/SCBI-ForestGEO/Dendrobands/README.md)](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/README.md), you agree to the following terms and conditions:
 
 1. **Data use request**: Anyone interested in using these data should contact the PI (Kristina Anderson-Teixeira, GitHub user [teixeirak](https://github.com/teixeirak)) prior to beginning analyses. *Data use requests may be denied if they compete with planned publications (particularly those led by early-career researchers) or fail to adhere to acceptable standards of scientific integrity and rigour.*
    
