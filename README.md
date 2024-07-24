@@ -124,7 +124,7 @@ Dendro repository](https://github.com/forestgeo/dendro).
 
 Data are published to this reposity immediately upon collection.
 We require that the (mostly early-career) members of our team who contributed to data collection be given the opportunity to contribute as coauthors (with full opportunity to comment on analysis plans and draft manuscripts) to the first scientific publication using the data.
-Data usage agreements thefore depend upon collection date, currently deliniaged as specified below.
+Data usage agreements thefore depend upon collection date, currently deliniated as specified below.
 
 ### Data from 2011-2021
 These data are licensed under the [Creative Commons Attribution 4.0 International](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/license.txt) license.
