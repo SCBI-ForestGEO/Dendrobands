@@ -23,7 +23,7 @@
 22,50562,1,quru,695,514,6.9,12.5,3,South,70.51,74.27,73.86,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 23,50650,1,litu,184.3,514,19.5,14.9,3,South,28.49,28.61,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 24,52190,1,quru,968.5,522,16.4,3.4,4,North,90.31,92.91,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
-25,60266,1,cato,496,604,5.5,9.2,2,South,25.98,N/A,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
+25,60266,1,cato,496,604,5.5,9.2,2,South,25.98,NA,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 26,60458,1,fagr,269.5,615,1.9,0,3,South,69.31,71.73,73.61,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 27,60459,1,fagr,99.7,615,2,3,3,South,30.88,31.73,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 28,60462,1,fagr,209.5,615,5.6,7.6,3,South,13.55,15.66,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
@@ -39,16 +39,16 @@
 38,62181,1,quve,1118.5,621,8.8,13.5,4,North,10.02,11.01,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 39,62224,1,litu,1040.5,622,3.2,17.3,4,North,57.05,62.12,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 40,70096,1,quru,893,704,3.3,12.7,2,South,19.27,20.02,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
-41,70216,1,quve,930.2,701,18.7,11.6,3,South,27.14,N/A,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
-42,70220,1,qual,557,702,18.3,0.8,3,South,83.72,N/A,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
+41,70216,1,quve,930.2,701,18.7,11.6,3,South,27.14,NA,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
+42,70220,1,qual,557,702,18.3,0.8,3,South,83.72,NA,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 43,70278,1,qupr,679.8,704,15.6,15.4,2,South,88.4,92.25,90.92,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 44,70492,1,nysy,198.6,714,0.1,11.2,3,South,48.42,49.85,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
-45,70494,2,caca,60,714,0.4,15.7,3,South,7.38,N/A,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
+45,70494,2,caca,60,714,0.4,15.7,3,South,7.38,NA,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 46,70495,1,caca,79,714,1.7,18.6,3,South,15.99,18.37,18.18,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 47,70519,1,qual,544.8,711,15.5,3.3,2,South,101.93,102.04,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 48,70536,1,qual,599,711,11.9,7.4,2,South,48.2,50.42,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 49,70579,1,caovl,236.1,714,19.2,4.3,2,South,49.68,49.72,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
-50,70581,1,quru,614.5,714,13.7,1.2,3,South,45.45,N/A,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
+50,70581,1,quru,614.5,714,13.7,1.2,3,South,45.45,NA,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 51,72024,1,quve,482.3,717,20,9.6,4,North,74.37,74.76,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 52,72116,1,litu,502,719,14.4,10.8,4,North,68.79,71.54,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 53,72124,1,quru,747.2,719,12.5,19.4,4,North,96.99,100.99,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
@@ -59,7 +59,7 @@
 58,72348,1,quru,971,727,12,15.1,7,North,73.65,74.68,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 59,72357,1,quru,938,728,1.7,2,7,North,22.39,25.94,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 60,80180,1,cagl,1015,804,15.9,5.3,2,South,54.6,56.21,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
-61,80401,1,caco,469,807,7.4,19.6,2,South,53.61,N/A,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
+61,80401,1,caco,469,807,7.4,19.6,2,South,53.61,NA,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 62,80559,1,nysy,434.6,813,8.9,17.8,2,South,6.37,6.31,,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 63,82203,1,litu,654,822,8,9.4,4,North,79.03,82.16,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 64,82360,1,litu,604.5,829,2.3,0.7,7,North,70.59,73.23,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
@@ -82,7 +82,7 @@
 81,112136,1,pist,274.1,1120,13.9,2.5,5,North,82,83.33,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 82,112250,1,pist,436,1122,10.8,18.4,5,North,112.22,124.68,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 83,112262,1,quru,133,1123,17.5,1.5,5,North,7.57,7.56,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
-84,112336,1,qual,516,1125,17,13.8,8,North,N/A,N/A,,,,No band,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
+84,112336,1,qual,516,1125,17,13.8,8,North,NA,NA,,,,No band,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 85,112482,1,litu,263.2,1131,17.8,15.9,8,North,18.74,18.98,,,,,2024.06,2024,6,6,Rachel Hoffman,Rachel Hoffman
 86,120781,1,litu,605.9,1205,3,2.2,2,South,14.17,17.9,18.21,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman
 87,121195,1,quru,914.7,1211,12.4,0.4,2,South,15.02,17.35,17.1,,,,2024.06,2024,6,6,Emily Scott and Freya Christensen,Rachel Hoffman

@@ -1,20 +1,20 @@
 tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,survey.ID,year,month,day,field.recorders,data.enter
 10671,1,quru,851,114,6.2,14.5,3,South,12.63,15.83,15.65,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-22186,1,tiam,370,222,17,7.5,4,North,15.28,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-22315,1,caco,550,225,11,4,4,North,25.55,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-22601,1,juni,197,231,17.8,10,4,North,10.53,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+22186,1,tiam,370,222,17,7.5,4,North,15.28,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+22315,1,caco,550,225,11,4,4,North,25.55,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+22601,1,juni,197,231,17.8,10,4,North,10.53,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30233,1,fagr,1072,306,15.6,16.2,3,South,100.46,97.56,97.85,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30234,1,fagr,81,306,15.3,18.5,3,South,21.05,21.06,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30331,1,cagl,231,306,8.3,19.5,3,South,26.95,27.80,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30333,1,fagr,222,306,14,19.3,3,South,105.93,107.12,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30339,1,litu,153.1,307,8.6,4.1,3,South,15.68,14.20,14.25,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-30339,2,litu,153.1,307,8.6,4.1,3,South,12.69,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-30339,3,litu,153.1,307,8.6,4.1,3,South,54.27,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+30339,2,litu,153.1,307,8.6,4.1,3,South,12.69,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+30339,3,litu,153.1,307,8.6,4.1,3,South,54.27,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30467,1,litu,608,314,17.3,3,3,South,5.74,4.68,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30512,1,quru,845.5,313,2.9,14.3,3,South,91.4,90.22,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 30584,1,quve,873.5,316,2.2,14.4,4,North,6.76,8.80,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-32126,1,litu,995.5,321,9.6,5,4,North,21.32,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-32381,1,qupr,834,327,4.6,12.8,4,North,15.45,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+32126,1,litu,995.5,321,9.6,5,4,North,21.32,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+32381,1,qupr,834,327,4.6,12.8,4,North,15.45,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 40562,1,fagr,86,406,6.3,16.2,3,South,8.88,8.69,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 40563,1,fagr,365,406,3.6,17.8,3,South,117.44,116.94,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 40564,1,fagr,69,406,2.4,12.4,3,South,13.1,12.20,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
@@ -43,16 +43,16 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 62181,1,quve,1118.5,621,8.8,13.5,4,North,7.14,8.04,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 62224,1,litu,1040.5,622,3.2,17.3,4,North,63.06,56.13,56.11,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70096,1,quru,893,704,3.3,12.7,2,South,14.43,16.36,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-70216,1,quve,930.2,701,18.7,11.6,3,South,28.17,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-70220,1,qual,557,702,18.3,0.8,3,South,78.08,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+70216,1,quve,930.2,701,18.7,11.6,3,South,28.17,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+70220,1,qual,557,702,18.3,0.8,3,South,78.08,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70278,1,qupr,679.8,704,15.6,15.4,2,South,83.95,86.00,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-70492,1,nysy,198.6,714,0.1,11.2,3,South,46.6,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+70492,1,nysy,198.6,714,0.1,11.2,3,South,46.6,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70494,2,caca,60,714,0.4,15.7,3,South,7.46,7.44,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70495,1,caca,79,714,1.7,18.6,3,South,15.52,15.81,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70519,1,qual,544.8,711,15.5,3.3,2,South,101.61,101.34,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70536,1,qual,599,711,11.9,7.4,2,South,45.27,46.44,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 70579,1,caovl,236.1,714,19.2,4.3,2,South,47.7,48.50,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-70581,1,quru,614.5,714,13.7,1.2,3,South,45.27,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+70581,1,quru,614.5,714,13.7,1.2,3,South,45.27,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 72024,1,quve,482.3,717,20,9.6,4,North,71.78,72.80,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 72116,1,litu,502,719,14.4,10.8,4,North,68.54,66.70,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 72124,1,quru,747.2,719,12.5,19.4,4,North,88.28,92.35,92.58,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
@@ -92,7 +92,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 112136,1,pist,274.1,1120,13.9,2.5,5,North,73.99,77.83,77.89,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 112250,1,pist,436,1122,10.8,18.4,5,North,112.98,117.26,117.51,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 112262,1,quru,133,1123,17.5,1.5,5,North,7.58,7.54,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-112336,1,qual,516,1125,17,13.8,8,North,13.09,N/A,,,,No band,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+112336,1,qual,516,1125,17,13.8,8,North,13.09,NA,,,,No band,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 112482,1,litu,263.2,1131,17.8,15.9,8,North,18.49,18.43,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 120781,1,litu,605.9,1205,3,2.2,2,South,15.5,12.09,11.87,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 121195,1,quru,914.7,1211,12.4,0.4,2,South,10.1,12.43,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
@@ -112,7 +112,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 122482,1,litu,562.4,1228,14.5,2.4,8,North,7.53,5.77,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 130838,1,litu,652.4,1305,12.2,1,2,South,75.21,72.98,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 131087,1,quru,665,1310,17.3,17.8,2,South,104.57,107.69,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
-131239,1,quru,587.1,1314,19.5,5.7,3,South,79.71,N/A,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
+131239,1,quru,587.1,1314,19.5,5.7,3,South,79.71,NA,,,,Not recorded,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 131364,1,acru,460,1316,12,12.9,5,North,89.23,89.11,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 132077,1,qual,592.4,1319,9.9,15.9,5,North,10.71,12.13,12.24,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
 132539,1,litu,604.5,1331,15,15.9,8,North,69.14,68.6,,,,,2024.03,2024,4,24,"Rachel Hoffman, Wryn Schain",Rachel Hoffman
