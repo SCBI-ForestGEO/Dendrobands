@@ -55,11 +55,11 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 200812,1,juni,548,2008,8,1.2,1,South,46.97,48.59,,,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 200818,1,litu,344.5,2008,4.4,3.9,1,South,17.05,19.07,,,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 200822,1,litu,820,2008,8.7,10.3,1,South,9.34,26,,,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
-201171,1,ceca,116,2011,8.7,9.4,1,South,12.01,13.58,,BA,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
+201171,1,ceca,116,2011,8.7,9.4,1,South,12.01,13.58,,BA; NT,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 201180,1,caco,125,2011,10.5,14.6,1,South,14.98,23.55,,RT,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
-201207,1,litu,1310.5,2012,10,17.3,1,South,9.98,28.64,,"BA, RT",,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
+201207,1,litu,1310.5,2012,10,17.3,1,South,9.98,28.64,,"BA, RT, NT",,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 201261,1,juni,492,2013,0.3,17.3,1,South,37.62,46.74,,,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
-201264,1,litu,419.1,2014,0.3,6.8,1,South,80.45,87.66,,BA,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
+201264,1,litu,419.1,2014,0.3,6.8,1,South,80.45,87.66,,"BA, NT",,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 201274,1,litu,606.8,2014,5.3,8.9,1,South,21.59,26.86,,,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 201278,1,litu,641.8,2014,2.2,11.8,1,South,30.28,36.4,,,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
 201279,1,quru,446.3,2014,1.9,13,1,South,13.86,31.72,,RT,,,John Whitmoyer,Jessica Shue,2023.11,2023,11,16
@@ -68,7 +68,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 50288,1,quru,877.7,505,10.8,10.6,2,South,57.56,59.21,,DS,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 50364,1,qual,661.9,507,4.2,18.1,2,South,21.69,28.66,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 60266,1,cato,496,604,5.5,9.2,2,South,20.22,24.51,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
-60161,1,qupr,867,608,17.5,14.1,2,South,109.15,107.25,,DS?,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
+60161,1,qupr,867,608,17.5,14.1,2,South,109.15,107.25,,DS,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 70096,1,quru,893,704,3.3,12.7,2,South,62.05,NA,,RE,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 70278,1,qupr,679.8,704,15.6,15.4,2,South,71.64,83,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 70126,1,quru,821,705,9.3,12.5,2,South,125.04,145.68,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
@@ -81,7 +81,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 70519,1,qual,544.8,711,15.5,3.3,2,South,98.66,101.03,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 70579,1,caco,236.1,714,19.2,4.3,2,South,44.21,48.69,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 80100,1,litu,582,804,3.4,12.6,2,South,70.26,81.1,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
-80180,1,cato,1015,804,11.6,5.6,2,South,48.7,55.06,,BA,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
+80180,1,cato,1015,804,11.6,5.6,2,South,48.7,55.06,,"BA, NT",,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 80401,1,caco,469,807,7.4,19.4,2,South,44.99,49.65,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 80615,1,litu,653.2,810,4.4,16.8,2,South,71.14,80.44,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 80631,1,litu,521.4,811,0.2,6.1,2,South,34.08,43.83,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
@@ -91,7 +91,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 90236,1,ulru,155,902,14.4,2.5,2,South,7.24,9.25,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 90162,1,litu,655.9,904,16.9,11.1,2,South,117.35,124.78,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 90311,1,cagl,167.8,904,17.5,15.8,2,South,21.98,25.04,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
-90354,1,litu,670.9,905,10.6,5,2,South,27.51,38.11,,BA,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
+90354,1,litu,670.9,905,10.6,5,2,South,27.51,38.11,,"BA, NT",,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 91451,1,litu,555.1,907,18.7,17.6,2,South,53.56,66.27,,RT,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 91474,1,litu,438.2,908,14.5,4.7,2,South,79.61,88.11,,RT,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 91486,1,cagl,570.9,908,17.5,9.2,2,South,64.68,76.56,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
@@ -152,7 +152,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 140825,1,litu,523,1411,8,5.9,2,South,55.51,66.2,,,,,Jen Jordan,Jessica Shue,2023.11,2023,11,16
 10469,1,litu,838.8,109,9.7,1,3,South,96.01,110.38,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 10587,1,litu,985,113,2.6,13,3,South,93.26,103.61,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-10609,1,cagl,439,111,19.5,2.9,3,South,100.48,NA,,,,>107.66. Reband ,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+10609,1,cagl,439,111,19.5,2.9,3,South,100.48,NA,,NT,,>107.66. Reband,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 10671,1,quru,851,114,6.2,14.5,3,South,112.33,132.22,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 20587,1,litu,1207.3,208,14.8,1.3,3,South,53.31,70.97,,,,Big tree ( 2 stems),Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 20617,1,litu,851,209,6.9,7.6,3,South,71.85,77.8,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
@@ -163,24 +163,24 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 30234,1,fagr,81,306,15.3,18.5,3,South,18.68,19.95,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 30331,1,cagl,231,306,8.3,19.5,3,South,20.41,28.08,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 30333,1,fagr,222,306,14,19.3,3,South,95.11,105.48,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-30339,1,litu,153.1,307,8.6,4.1,3,South,116.96,127.45,,,,Tree stems merged at band height. Inaccurate reading.Reposition band (move up),Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-30339,2,litu,153.1,307,8.6,4.1,3,South,132.79,132.73,,,,Tree stems merged at band height. Inaccurate reading.Reposition band (move up),Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+30339,1,litu,153.1,307,8.6,4.1,3,South,116.96,127.45,,NT,,Tree stems merged at band height. Inaccurate reading.Reposition band (move up),Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+30339,2,litu,153.1,307,8.6,4.1,3,South,132.79,132.73,,NT,,Tree stems merged at band height. Inaccurate reading.Reposition band (move up),Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 30339,3,litu,153.1,307,8.6,4.1,3,South,51.48,53.36,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 30462,1,litu,492,313,16.2,19,3,South,21.59,27.92,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 30467,1,litu,608,314,17.3,3,3,South,129.15,136.92,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 30512,1,quru,845.5,313,2.9,14.3,3,South,73.26,90.31,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-40562,1,fagr,86,406,6.3,16.2,3,South,12.41,NA,,,,Band missing,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+40562,1,fagr,86,406,6.3,16.2,3,South,12.41,NA,,NT,,Band missing,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40563,1,fagr,365,406,3.6,17.8,3,South,98.88,117.25,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40564,1,fagr,69,406,2.4,12.4,3,South,9.12,12.02,,,,Retag,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-40565,1,cagl,184,406,1.9,10.1,3,South,NA,NA,,,,Band missing spring,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+40565,1,cagl,184,406,1.9,10.1,3,South,NA,NA,,NT,,Band missing spring,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40566,1,cagl,270.2,406,1.1,9.4,3,South,37.55,46.24,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40567,1,fagr,93.3,406,1.6,7.2,3,South,26.05,30.37,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40568,1,fagr,206,406,0.1,5.2,3,South,59.65,71.54,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-40569,1,litu,280,407,5.6,1.7,3,South,134.8,147,,,,Replace band,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+40569,1,litu,280,407,5.6,1.7,3,South,134.8,147,,NT,,Replace band,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40635,1,cagl,258.7,408,18.7,1,3,South,58.43,66.55,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40941,1,litu,653,414,6,15.4,3,South,33.48,42.2,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 40942,1,acru,395.9,414,2.2,2,3,South,121.98,124.82,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-40972,1,litu,847,415,7.2,9.6,3,South,68.43,83.83,,,,Band adjusted prior to measurement. Reading shouldn’t be far off,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+40972,1,litu,847,415,7.2,9.6,3,South,68.43,83.83,,NT,,Band adjusted prior to measurement. Reading shouldnâ€™t be far off,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 50525,1,qual,514,512,8.3,7.4,3,South,50.75,61.71,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 50562,1,quru,695,514,6.9,12.5,3,South,52.64,64.46,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 50622,1,qual,650,513,16.8,9.4,3,South,35.7,42.92,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
@@ -201,7 +201,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 60573,1,tiam,258.5,614,8.5,16.3,3,South,59.3,69.05,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 60576,1,caca,95.1,615,17.1,1,3,South,27.37,29.62,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 60577,1,litu,546.2,615,12.7,1.4,3,South,53.54,59.65,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
-60578,1,caca,78.5,615,13.2,9.9,3,South,30.97,33.84,,,,Reband,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
+60578,1,caca,78.5,615,13.2,9.9,3,South,30.97,33.84,,NT,,Reband,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 60581,1,litu,685.1,615,19.8,9.3,3,South,45.4,51.45,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 60582,1,quru,285.1,615,20,10.2,3,South,10.33,13.32,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
 60586,1,caca,62.5,615,16.2,9.3,3,South,13.2,14.29,,,,,Kristina Anderson-Teixeira,Jessica Shue,2023.11,2023,11,16
@@ -237,25 +237,25 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 22198,2,tiam,160,222,16.1,10.9,4,North,12.69,16.65,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 22315,1,caco,550,225,11,4,4,North,18.49,25.48,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 22489,1,cato,137,229,6.1,1.8,4,North,8.56,11.96,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-22601,1,juni,197,231,17.8,10,4,North,NA,11.64,,,1,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-30584,1,quve,873.5,316,2.2,14.4,4,North,114.54,134.07,,,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
+22601,1,juni,197,231,17.8,10,4,North,NA,11.64,,NT,1,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
+30584,1,quve,873.5,316,2.2,14.4,4,North,114.54,134.07,,NT,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 32097,1,litu,651,320,17.9,3,4,North,49.61,57.59,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-32126,1,litu,995.5,321,9.6,5,4,North,136.99,148.76,,,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
+32126,1,litu,995.5,321,9.6,5,4,North,136.99,148.76,,NT,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 32157,1,tiam,382,322,7.5,4,4,North,1.67,14.63,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 32180,2,tiam,183,322,6.4,12.3,4,North,15.9,17.3,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 32381,1,qupr,834,327,4.6,12.8,4,North,112.01,120.32,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 32423,1,litu,914,329,17.6,13.1,4,North,118.03,130.33,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 32540,1,qupr,841.8,332,19.9,15.6,4,North,114.67,108.32,,DS,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-42009,1,ploc,576.8,417,4.1,19.2,4,North,133.02,137.58,,,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-42397,1,quru,1531,428,10.4,5.5,4,North,140.86,NA,,,,"band broken; multistemmed irregular tree, not reinstalled",Jessica Shue,Jessica Shue,2023.11,2023,11,16
-52087,1,quru,1451,519,1.1,11.1,4,North,44.1,51.08,,,,"old band removed; tree has two stems above 1.3, second stem is dead",Jessica Shue,Jessica Shue,2023.11,2023,11,16
+42009,1,ploc,576.8,417,4.1,19.2,4,North,133.02,137.58,,NT,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
+42397,1,quru,1531,428,10.4,5.5,4,North,140.86,NA,,NT,,"band broken; multistemmed irregular tree, not reinstalled",Jessica Shue,Jessica Shue,2023.11,2023,11,16
+52087,1,quru,1451,519,1.1,11.1,4,North,44.1,51.08,,NT,,"old band removed; tree has two stems above 1.3, second stem is dead",Jessica Shue,Jessica Shue,2023.11,2023,11,16
 52190,1,quru,968.5,522,16.4,3.4,4,North,70.03,82.92,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 52344,1,cagl,269,528,14.3,5.9,4,North,8.34,11.23,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 52384,1,caovl,121,529,1.2,13.1,4,North,7.28,9.23,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 62114,1,quve,306,619,18.7,12.6,4,North,47.97,63.76,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 62121,1,cato,114,619,5.1,2.8,4,North,13,14.29,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 62128,1,quru,114,620,8,0.8,4,North,12.88,17.22,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-62181,1,quve,1118.5,621,8.8,13.5,4,North,141.45,149.35,,,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
+62181,1,quve,1118.5,621,8.8,13.5,4,North,141.45,149.35,,NT,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 62224,1,litu,1040.5,622,3.2,17.3,4,North,44.16,60.58,,NN,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 62241,1,litu,928.5,623,13.9,0.7,4,North,39.68,45.78,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 72024,1,quve,482.3,717,20,9.6,4,North,67.09,71.36,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
@@ -267,7 +267,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 72149,1,litu,554.1,720,13.8,0.7,4,North,52.36,60.74,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 72173,1,qual,450,720,6,10.2,4,North,27.16,34.56,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 72210,1,qual,872,721,5.2,11.5,4,North,39.4,47.2,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
-72232,1,qual,728.5,722,14.5,12.6,4,North,133.53,140.9,,,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
+72232,1,qual,728.5,722,14.5,12.6,4,North,133.53,140.9,,NT,,band removed; new installed,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 72248,1,caco,313.2,723,15,0.3,4,North,75.51,83.22,,RE,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 82091,1,caovl,193,819,3.5,1.3,4,North,2.71,4.05,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
 82117,1,cato,155,819,11.6,14.3,4,North,13.16,13.44,,,,,Jessica Shue,Jessica Shue,2023.11,2023,11,16
@@ -329,7 +329,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.
 132311,1,qual,536.5,1322,12.9,14.2,5,North,31.17,39.37,,,,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
 132321,1,quru,628.9,1323,17.6,1,5,North,121.08,129.36,,,,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
 142113,1,cagl,477.2,1417,3,5,5,North,47.47,51.94,,,,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
-142521,1,pist,452,1422,6.4,11.1,5,North,125.45,11.11,,,1,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
+142521,1,pist,452,1422,6.4,11.1,5,North,125.45,11.11,,NT,1,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
 142527,1,cagl,159.8,1422,1.9,18.4,5,North,38.6,41.65,,,,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
 142548,1,qual,613,1424,4,4.7,5,North,35.18,39.2,,,,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
 152153,1,ploc,961.6,1520,6.8,0.3,6,North,117.24,129.84,,,,,Romain Thierry,Jessica Shue,2023.11,2023,11,16
