@@ -1,7 +1,7 @@
 tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.illum,codes,notes,field.recorders,data.enter,area
 130348,1,litu,1302,2020.16,2020,11,5,NA, , ,RE,window too large,Cameron Dow,Cameron Dow,1
 140467,1,quve,1404,2020.16,2020,11,5,NA, , ,,,Cameron Dow,Cameron Dow,1
-140609,1,litu,1403,2020.16,2020,11,5,56.2, , ,,band slightly damaged,Cameron Dow,Cameron Dow,1
+140609,1,litu,1403,2020.16,2020,11,5,56.2, , ,NT,band slightly damaged,Cameron Dow,Cameron Dow,1
 150756,1,prse,1503,2020.16,2020,11,5,NA, , ,,,Cameron Dow,Cameron Dow,1
 160713,1,litu,1603,2020.16,2020,11,5,NA, , ,RE,band broken,Cameron Dow,Cameron Dow,1
 160742,1,litu,1605,2020.16,2020,11,5,93.4, , ,,,Cameron Dow,Cameron Dow,1
@@ -139,14 +139,14 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 120777,1,litu,1205,2020.16,2020,11,5,116.95, , ,,,Ellie Grant,Cameron Dow,2
 120781,1,litu,1205,2020.16,2020,11,5,106.89, , ,,,Ellie Grant,Cameron Dow,2
 120790,1,litu,1205,2020.16,2020,11,5,108.91, , ,,,Ellie Grant,Cameron Dow,2
-121195,1,quru,1211,2020.16,2020,11,5,97.49, , ,,band adjusted;hit by coarse woody debris,Ellie Grant,Cameron Dow,2
+121195,1,quru,1211,2020.16,2020,11,5,97.49, , ,NT,band adjusted;hit by coarse woody debris,Ellie Grant,Cameron Dow,2
 121212,1,litu,1207,2020.16,2020,11,5,112.82, , ,,,Ellie Grant,Cameron Dow,2
 121221,1,litu,1207,2020.16,2020,11,5,7.65, , ,,,Ellie Grant,Cameron Dow,2
 121275,1,qupr,1209,2020.16,2020,11,5,25.81, , ,,,Ellie Grant,Cameron Dow,2
 121291,1,qupr,1210,2020.16,2020,11,5,110.2, , ,,,Ellie Grant,Cameron Dow,2
 121301,1,caovl,1211,2020.16,2020,11,5,115.47, , ,,,Ellie Grant,Cameron Dow,2
 121305,1,quru,1211,2020.16,2020,11,5,130.19, , ,,,Ellie Grant,Cameron Dow,2
-130718,1,litu,1306,2020.16,2020,11,5,37.35, , ,,band adjusted,Ellie Grant,Cameron Dow,2
+130718,1,litu,1306,2020.16,2020,11,5,37.35, , ,NT,band adjusted,Ellie Grant,Cameron Dow,2
 130838,1,litu,1305,2020.16,2020,11,5,37.37, , ,,,Ellie Grant,Cameron Dow,2
 131009,1,quve,1308,2020.16,2020,11,5,57.16, , ,,,Ellie Grant,Cameron Dow,2
 131086,1,quru,1310,2020.16,2020,11,5,77.71, , ,,,Ellie Grant,Cameron Dow,2
@@ -215,8 +215,8 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 60563,1,caca,614,2020.16,2020,11,5,21.08, , ,,,Cameron Dow,Cameron Dow,3
 60566,1,fagr,614,2020.16,2020,11,5,105.44, , ,,,Cameron Dow,Cameron Dow,3
 60567,1,litu,614,2020.16,2020,11,5,71, , ,,,Cameron Dow,Cameron Dow,3
-60568,1,caca,614,2020.16,2020,11,5,3.65, , ,,double-checked; seeds; new band?,Cameron Dow,Cameron Dow,3
-60569,1,caca,614,2020.16,2020,11,5,1.98, , ,,double-checked; seeds; new band?,Cameron Dow,Cameron Dow,3
+60568,1,caca,614,2020.16,2020,11,5,3.65, , ,NT,double-checked; seeds; new band?,Cameron Dow,Cameron Dow,3
+60569,1,caca,614,2020.16,2020,11,5,1.98, , ,NT,double-checked; seeds; new band?,Cameron Dow,Cameron Dow,3
 60571,1,caca,614,2020.16,2020,11,5,24.22, , ,,,Cameron Dow,Cameron Dow,3
 60573,1,tiam,614,2020.16,2020,11,5,37.7, , ,,,Cameron Dow,Cameron Dow,3
 60576,1,caca,615,2020.16,2020,11,5,20.55, , ,,,Cameron Dow,Cameron Dow,3
@@ -233,7 +233,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 70493,1,litu,714,2020.16,2020,11,5,19.98, , ,,,Cameron Dow,Cameron Dow,3
 70494,1,caca,714,2020.16,2020,11,5,32.11, , ,,,Cameron Dow,Cameron Dow,3
 70494,2,caca,714,2020.16,2020,11,5,16.71, , ,,,Cameron Dow,Cameron Dow,3
-70495,1,caca,714,2020.16,2020,11,5,4.11, , ,,double-checked; seeds; new band?,Cameron Dow,Cameron Dow,3
+70495,1,caca,714,2020.16,2020,11,5,4.11, , ,NT,double-checked; seeds; new band?,Cameron Dow,Cameron Dow,3
 70581,1,quru,714,2020.16,2020,11,5,31.98, , ,,,Cameron Dow,Cameron Dow,3
 80005,1,fram,801,2020.16,2020,11,5,22.15, , ,DS,,Cameron Dow,Cameron Dow,3
 80121,1,quve,801,2020.16,2020,11,5,8.23, , ,,,Cameron Dow,Cameron Dow,3
@@ -254,7 +254,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 12259,1,litu,125,2020.16,2020,11,5,50.23, , ,RE,"new spring, out of place",Jessica Shue,Cameron Dow,4
 12270,1,tiam,125,2020.16,2020,11,5,61.92, , ,,woodpecker damage,Jessica Shue,Cameron Dow,4
 12416,1,cato,129,2020.16,2020,11,5,10.64, , ,,,Jessica Shue,Cameron Dow,4
-12508,1,litu,131,2020.16,2020,11,5,35.71, , ,,band adjusted,Jessica Shue,Cameron Dow,4
+12508,1,litu,131,2020.16,2020,11,5,35.71, , ,NT,band adjusted,Jessica Shue,Cameron Dow,4
 22004,1,litu,217,2020.16,2020,11,5,41.18, , ,,double-checked,Jessica Shue,Cameron Dow,4
 22041,1,litu,217,2020.16,2020,11,5,55.64, , ,,,Jessica Shue,Cameron Dow,4
 22170,1,litu,221,2020.16,2020,11,5,37.86, , ,,,Jessica Shue,Cameron Dow,4
@@ -347,7 +347,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 132077,1,qual,1319,2020.16,2020,11,5,78.35, , ,,,Jessica Shue,Cameron Dow,5
 132171,1,litu,1320,2020.16,2020,11,5,67.86, , ,,,Jessica Shue,Cameron Dow,5
 132280,1,fram,1324,2020.16,2020,11,5,15.23, , ,,,Jessica Shue,Cameron Dow,5
-132302,1,quru,1321,2020.16,2020,11,5,27.38, , ,,band adjusted,Jessica Shue,Cameron Dow,5
+132302,1,quru,1321,2020.16,2020,11,5,27.38, , ,NT,band adjusted,Jessica Shue,Cameron Dow,5
 132311,1,qual,1322,2020.16,2020,11,5,130.37, , ,RE,,Jessica Shue,Cameron Dow,5
 132321,1,quru,1323,2020.16,2020,11,5,107.25, , ,,,Jessica Shue,Cameron Dow,5
 141146,1,caco,1416,2020.16,2020,11,5,24.27, , ,DS;X,,Jessica Shue,Cameron Dow,5
@@ -391,7 +391,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 201441,1,litu,2016,2020.16,2020,11,5,148.85, , ,RE,double-checked,Jessica Shue,Cameron Dow,6
 202050,1,qual,2019,2020.16,2020,11,5,34.51, , ,,,Jessica Shue,Cameron Dow,6
 202072,1,qual,2020,2020.16,2020,11,5,26.44, , ,,new tag,Jessica Shue,Cameron Dow,6
-202118,1,quve,2023,2020.16,2020,11,5,119.68, , ,,band adjusted; band was stuck under nail,Jessica Shue,Cameron Dow,6
+202118,1,quve,2023,2020.16,2020,11,5,119.68, , ,NT,band adjusted; band was stuck under nail,Jessica Shue,Cameron Dow,6
 202201,1,cato,2017,2020.16,2020,11,5,27.42, , ,,,Jessica Shue,Cameron Dow,6
 202203,1,quru,2017,2020.16,2020,11,5,62.31, , ,,double-checked,Jessica Shue,Cameron Dow,6
 202212,1,quve,2017,2020.16,2020,11,5,63.25, , ,,,Jessica Shue,Cameron Dow,6
@@ -541,7 +541,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 202444,1,litu,2025,2020.16,2020,11,5,NA, , ,RE,too large to measure,Ellie Grant,Cameron Dow,9
 202449,1,litu,2026,2020.16,2020,11,5,NA, , ,RE,broken,Ellie Grant,Cameron Dow,9
 202536,1,fram,2028,2020.16,2020,11,5,110.23, , ,,,Ellie Grant,Cameron Dow,9
-202541,1,fram,2028,2020.16,2020,11,5,NA, , ,,gap closed,Ellie Grant,Cameron Dow,9
+202541,1,fram,2028,2020.16,2020,11,5,NA, , ,NT,gap closed,Ellie Grant,Cameron Dow,9
 202543,1,litu,2028,2020.16,2020,11,5,28.27, , ,,,Ellie Grant,Cameron Dow,9
 202545,1,litu,2029,2020.16,2020,11,5,57.05, , ,,"double-checked;Fraxinus dying, released",Ellie Grant,Cameron Dow,9
 202550,1,litu,2029,2020.16,2020,11,5,138.74, , ,,,Ellie Grant,Cameron Dow,9
