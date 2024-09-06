@@ -20,6 +20,7 @@ S,secondary stem
 X,stem broken below 1.3m
 RT,replace tag
 NN,new nail or wire
+NT,not trusted (reason should be expained in comments)
 ,
 "*  If current measurement varies by more than 3mm from the last survey, ",
 "please double check and write ""double-checked"" in this column.",
