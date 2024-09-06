@@ -1,156 +1,155 @@
 ,tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,survey.ID,year,month,day,field.recorders,data.enter
-,* Only a portion of the dendrobands were measured for this survey ,,,,,,,,,,,,,,,,,,,,
-1,10671,1,quru,851,114,6.2,14.5,3,South,17.92,,,,,,2024.02,2024,,,,
-2,22315,1,caco,550,225,11,4,4,North,30.37,,,,,,2024.02,2024,,,,
-3,30233,1,fagr,1072,306,15.6,16.2,3,South,100.82,102.63,,,,,2024.05,2024,5,28,Jen Jordan ,
-4,30234,1,fagr,81,306,15.3,18.5,3,South,20.42,20.5,,,,,2024.05,2024,5,28,Jen Jordan ,
-5,30333,1,fagr,222,306,14,19.3,3,South,105.43,107.2,,,,,2024.05,2024,5,28,Jen Jordan ,
-6,30339,1,litu,153.1,307,8.6,4.1,3,South,14.27,15.24,,,,,2024.05,2024,5,28,Jen Jordan ,
-7,30339,2,litu,153.1,307,8.6,4.1,3,South,14.27,10.63,Rechecked ,,,,2024.05,2024,5,28,Jen Jordan ,
-8,30339,3,litu,153.1,307,8.6,4.1,3,South,14.27,54.14,Rechecked ,,,,2024.05,2024,5,28,Jen Jordan ,
-9,30467,1,litu,608,314,17.3,3,3,South,6.35,,,,,,2024.05,2024,5,28,Jen Jordan ,
-10,30512,1,quru,845.5,313,2.9,14.3,3,South,95.58,,,,,,2024.05,2024,5,28,Jen Jordan ,
-11,30584,1,quve,873.5,316,2.2,14.4,4,North,6.95,,,,,,2024.02,2024,,,,
-12,32126,1,litu,995.5,321,9.6,5,4,North,22.83,,,,,,2024.02,2024,,,,
-13,32381,1,qupr,834,327,4.6,12.8,4,North,22.35,,,,,,2024.02,2024,,,,
-14,40562,1,fagr,86,406,6.3,16.2,3,South,7.91,8.53,,,,,2024.05,2024,5,28,Jen Jordan ,
-15,40563,1,fagr,365,406,3.6,17.8,3,South,119.01,121.9,,,,,2024.05,2024,5,28,Jen Jordan ,
-16,40566,1,cagl,270.2,406,1.1,9.4,3,South,49,50.7,,,,,2024.05,2024,5,28,Jen Jordan ,
-17,40567,1,fagr,93.3,406,1.6,7.2,3,South,30.68,31.5,,,,,2024.05,2024,5,28,Jen Jordan ,
-18,40568,1,fagr,206,406,0.1,5.2,3,South,72.25,75.02,,,,,2024.05,2024,5,28,Jen Jordan ,
-19,40635,1,cato,258.7,408,18.7,1,3,South,68.8,70.15,,,,,2024.05,2024,5,28,Jen Jordan ,
-20,40942,1,acru,395.9,414,2.2,2,3,South,12.7,,,,,,2024.05,2024,5,28,Jen Jordan ,
-21,50364,1,qual,661.9,507,4.2,18.1,2,South,32.34,33.78,,,,,2024.05,2024,5,28,Jen Jordan ,
-22,50562,1,quru,695,514,6.9,12.5,3,South,70.51,,,,,,2024.05,2024,5,28,Jen Jordan ,
-23,50650,1,litu,184.3,514,19.5,14.9,3,South,28.49,,,,,,2024.05,2024,5,28,Jen Jordan ,
-24,52190,1,quru,968.5,522,16.4,3.4,4,North,90.31,,,,,,2024.02,2024,,,,
-25,60266,1,cato,496,604,5.5,9.2,2,South,25.98,27.13,Rechecked ,,,,2024.05,2024,5,28,Jen Jordan ,
-26,60458,1,fagr,269.5,615,1.9,0,3,South,69.31,,,,,,2024.05,2024,5,28,Jen Jordan ,
-27,60459,1,fagr,99.7,615,2,3,3,South,30.88,,,,,,2024.05,2024,5,28,Jen Jordan ,
-28,60462,1,fagr,209.5,615,5.6,7.6,3,South,13.55,,,,,,2024.05,2024,5,28,Jen Jordan ,
-29,60463,1,juni,468,615,7.2,8,3,South,96.72,,,,,,2024.05,2024,5,28,Jen Jordan ,
-30,60469,1,cofl,70,615,6.8,9.8,3,South,10.57,,,,,,2024.05,2024,5,28,Jen Jordan ,
-31,60566,1,fagr,194.2,614,10,11,3,South,27.07,,,,,,2024.05,2024,5,28,Jen Jordan ,
-32,60573,1,tiam,258.5,614,8.5,16.3,3,South,69.55,,,,,,2024.05,2024,5,28,Jen Jordan ,
-33,60582,1,quru,285.1,615,20,10.2,3,South,15.12,,,,,,2024.05,2024,5,28,Jen Jordan ,
-34,60586,1,caca,62.5,615,16.2,9.3,3,South,14.2,,,,,,2024.05,2024,5,28,Jen Jordan ,
-35,60587,1,caca,81,615,14,9.8,3,South,24.84,,,,,,2024.05,2024,5,28,Jen Jordan ,
-36,60588,1,caco,292.3,615,13.4,7.3,3,South,64.02,,,,,,2024.05,2024,5,28,Jen Jordan ,
-37,62114,1,quve,306,619,18.7,12.6,4,North,69.28,,,,,,2024.02,2024,,,,
-38,62181,1,quve,1118.5,621,8.8,13.5,4,North,10.02,,,,,,2024.02,2024,,,,
-39,62224,1,litu,1040.5,622,3.2,17.3,4,North,57.05,,,,,,2024.02,2024,,,,
-40,70096,1,quru,893,704,3.3,12.7,2,South,19.27,19.76,,,,,2024.05,2024,5,28,Jen Jordan ,
-41,70216,1,quve,930.2,701,18.7,11.6,3,South,27.14,27.27,,,,,2024.05,2024,5,28,Jen Jordan ,
-42,70220,1,qual,557,702,18.3,0.8,3,South,83.72,86.73,,,,,2024.05,2024,5,28,Jen Jordan ,
-43,70278,1,qupr,679.8,704,15.6,15.4,2,South,88.4,90.79,,,,,2024.05,2024,5,28,Jen Jordan ,
-44,70492,1,nysy,198.6,714,0.1,11.2,3,South,48.42,,,,,,2024.05,2024,5,28,Jen Jordan ,
-45,70494,2,caca,60,714,0.4,15.7,3,South,7.38,,,,,,2024.05,2024,5,28,Jen Jordan ,
-46,70495,1,caca,79,714,1.7,18.6,3,South,15.99,,,,,,2024.05,2024,5,28,Jen Jordan ,
-47,70519,1,qual,544.8,711,15.5,3.3,2,South,101.93,102.7,,,,,2024.05,2024,5,28,Jen Jordan ,
-48,70536,1,qual,599,711,11.9,7.4,2,South,48.2,50.01,,,,,2024.05,2024,5,28,Jen Jordan ,
-49,70579,1,caovl,236.1,714,19.2,4.3,2,South,49.68,50.37,,,,,2024.05,2024,5,28,Jen Jordan ,
-50,70581,1,quru,614.5,714,13.7,1.2,3,South,45.45,45.78,,,,,2024.05,2024,5,28,Jen Jordan ,
-51,72024,1,quve,482.3,717,20,9.6,4,North,74.37,,,,,,2024.02,2024,,,,
-52,72116,1,litu,502,719,14.4,10.8,4,North,68.79,,,,,,2024.02,2024,,,,
-53,72124,1,quru,747.2,719,12.5,19.4,4,North,96.99,,,,,,2024.02,2024,,,,
-54,72210,1,qual,872,721,5.2,11.5,4,North,50.34,,,,,,2024.02,2024,,,,
-55,72308,1,qual,654.2,725,15.2,13.3,7,North,79.35,,,,,,2024.02,2024,,,,
-56,72324,1,litu,667.2,726,14.4,6.6,7,North,90.63,,,,,,2024.02,2024,,,,
-57,72337,1,quru,905.8,727,7.9,2.6,7,North,89.48,,,,,,2024.02,2024,,,,
-58,72348,1,quru,971,727,12,15.1,7,North,73.65,,,,,,2024.02,2024,,,,
-59,72357,1,quru,938,728,1.7,2,7,North,22.39,,,,,,2024.02,2024,,,,
-60,80180,1,cagl,1015,804,15.9,5.3,2,South,54.6,56.11,,,,,2024.05,2024,5,28,Jen Jordan ,
-61,80401,1,caco,469,807,7.4,19.6,2,South,53.61,54.47,,,,,2024.05,2024,5,28,Jen Jordan ,
-62,80559,1,nysy,434.6,813,8.9,17.8,2,South,6.37,6.38,,,,,2024.05,2024,5,28,Jen Jordan ,
-63,82203,1,litu,654,822,8,9.4,4,North,79.03,,,,,,2024.02,2024,,,,
-64,82360,1,litu,604.5,829,2.3,0.7,7,North,70.59,,,,,,2024.02,2024,,,,
-65,82365,1,qual,438.1,829,4.9,4.7,7,North,71.79,,,,,,2024.02,2024,,,,
-66,82422,1,litu,546.5,831,6.9,19.5,7,North,103.96,,,,,,2024.02,2024,,,,
-67,90752,1,qual,510.1,916,12.4,7.4,5,North,121.2,,,,,,2024.02,2024,,,,
-68,91477,1,litu,210,908,19.3,3.5,2,South,60.03,60.36,,,,,2024.05,2024,5,28,Jen Jordan ,
-69,91486,1,cagl,570.9,908,17.5,9.2,2,South,78.46,79.52,,,,,2024.05,2024,5,28,Jen Jordan ,
-70,92237,1,nysy,218.1,922,14.7,19.5,5,North,19.01,,,,,,2024.02,2024,,,,
-71,92393,1,cagl,617,925,19.8,7.7,7,North,14.59,,,,,,2024.02,2024,,,,
-72,100771,1,quru,968,1005,8.5,17,2,South,30.61,33.63,,,,,2024.05,2024,5,28,Jen Jordan ,
-73,100905,1,litu,680,1008,10,1.6,2,South,51.12,53.16,,,,,2024.05,2024,5,28,Jen Jordan ,
-74,102148,1,cato,251.2,1019,2,15.4,5,North,27.73,,,,,,2024.02,2024,,,,
-75,102264,1,qual,464.4,1022,1.5,14.2,5,North,64.77,,,,,,2024.02,2024,,,,
-76,102348,1,qual,888,1025,16.5,11.5,7,North,64.2,,,,,,2024.02,2024,,,,
-77,110061,1,litu,1205,1101,17,10,2,South,44.87,42.88,,,,,2024.05,2024,5,28,Jen Jordan ,
-78,110791,1,litu,660,1104,11.3,10,2,South,29.12,29.97,,,,,2024.05,2024,5,28,Jen Jordan ,
-79,110901,1,litu,524.1,1105,20,4.1,2,South,118.76,120.68,,,,,2024.05,2024,5,28,Jen Jordan ,
-80,111030,1,litu,600.5,1107,15.1,19.9,2,South,118.3,119.7,,,,,2024.05,2024,5,28,Jen Jordan ,
-81,112136,1,pist,274.1,1120,13.9,2.5,5,North,82,,,,,,2024.02,2024,,,,
-82,112250,1,pist,436,1122,10.8,18.4,5,North,112.22,,,,,,2024.02,2024,,,,
-83,112262,1,quru,133,1123,17.5,1.5,5,North,7.57,,,,,,2024.02,2024,,,,
-84,112336,1,qual,516,1125,17,13.8,8,North,N/A,,,,,No band,2024.02,2024,,,,
-85,112482,1,litu,263.2,1131,17.8,15.9,8,North,18.74,,,,,,2024.02,2024,,,,
-86,120781,1,litu,605.9,1205,3,2.2,2,South,14.17,16.95,,,,,2024.05,2024,5,28,Jen Jordan ,
-87,121195,1,quru,914.7,1211,12.4,0.4,2,South,15.02,16.89,,,,,2024.05,2024,5,28,Jen Jordan ,
-88,121221,1,litu,117.2,1207,1.7,19.3,2,South,10.85,10.75,,,,,2024.05,2024,5,28,Jen Jordan ,
-89,121275,1,qupr,256,1209,1.7,16.9,2,South,31.65,31.83,,,,,2024.05,2024,5,28,Jen Jordan ,
-90,121301,1,caovl,241.3,1211,1.2,2.5,2,South,20.76,21.64,,,,,2024.05,2024,5,28,Jen Jordan ,
-91,121305,1,quru,753.8,1211,1.1,11.2,2,South,37.83,38.14,,,,,2024.05,2024,5,28,Jen Jordan ,
-92,121374,1,juni,310.4,1216,0.7,18.5,5,North,11.75,,,,,,2024.02,2024,,,,
-93,122006,1,acru,395.9,1217,9.9,8.3,5,North,18.43,,,,,,2024.02,2024,,,,
-94,122009,1,acru,277,1217,1.2,4.1,5,North,38.8,,,,,,2024.02,2024,,,,
-95,122136,1,quru,587.7,1220,5.5,7.6,5,North,25.85,,,,,,2024.02,2024,,,,
-96,122184,1,pist,217.8,1222,2.9,13.9,5,North,22.84,,,,,,2024.02,2024,,,,
-97,122189,1,qual,665.1,1222,5.5,19.5,5,North,11.07,,,,,,2024.02,2024,,,,
-98,122303,1,qual,624.3,1223,1.9,8.5,5,North,115.3,,,,,,2024.02,2024,,,,
-99,122427,1,qual,832.7,1227,17,15.6,8,North,79.84,,,,,,2024.02,2024,,,,
-100,122482,1,litu,562.4,1228,14.5,2.4,8,North,9.56,,,,,,2024.02,2024,,,,
-101,130838,1,litu,652.4,1305,12.2,1,2,South,75.48,79.33,,,,,2024.05,2024,5,28,Jen Jordan ,
-102,131087,1,quru,665,1310,17.3,17.8,2,South,110.17,111.27,,,,,2024.05,2024,5,28,Jen Jordan ,
-103,131239,1,quru,587.1,1314,19.5,5.7,3,South,87.33,90.47,,,,,2024.05,2024,5,28,Jen Jordan ,
-104,131364,1,acru,460,1316,12,12.9,5,North,89.51,,,,,,2024.02,2024,,,,
-105,132077,1,qual,592.4,1319,9.9,15.9,5,North,14.61,,,,,,2024.02,2024,,,,
-106,132539,1,litu,604.5,1331,15,15.9,8,North,69.49,,,,,,2024.02,2024,,,,
-107,140825,1,litu,523,1411,8,5.9,2,South,67.41,70.71,,,,,2024.05,2024,5,28,Jen Jordan ,
-108,142380,1,qual,593,1425,6.8,13.1,8,North,74.04,,,,,,2024.02,2024,,,,
-109,142521,1,pist,452,1422,6.4,11.1,5,North,16.87,,,,,,2024.02,2024,,,,
-110,142708,1,juni,423.1,1429,4.3,6.2,8,North,34.25,,,,,,2024.02,2024,,,,
-111,142729,1,litu,474,1431,4.7,14.7,8,North,72.71,,,,,,2024.02,2024,,,,
-112,162439,1,quru,832.5,1627,16.3,0.3,9,North,84.6,,,,,,2024.02,2024,,,,
-113,162543,1,qual,890,1627,7.5,16.6,9,North,90,,,,,,2024.02,2024,,,,
-114,171348,1,ceca,155.4,1714,19.4,2.4,1,South,11.76,11.91,,,,,2024.05,2024,5,28,Jen Jordan ,
-115,171454,1,caco,118,1714,1.6,13.8,1,South,28.77,29.46,,,,,2024.05,2024,5,28,Jen Jordan ,
-116,172202,1,quru,555.1,1717,17.1,1.8,6,North,107.47,,,,,,2024.02,2024,,,,
-117,172203,1,qual,368.5,1717,15.5,0.3,6,North,31.61,,,,,,2024.02,2024,,,,
-118,172248,1,cato,274.2,1719,19.2,19.3,6,North,37.52,,,,,,2024.02,2024,,,,
-119,172417,1,nysy,98.8,1725,20,18.4,9,North,19.9,,,,,,2024.02,2024,,,,
-120,172470,1,quru,710,1728,11.1,12,9,North,116.68,,,,,,2024.02,2024,,,,
-121,172499,1,qual,1056,1730,17,3.1,9,North,80.49,,,,,,2024.02,2024,,,,
-122,181030,1,qual,779,1816,5.4,10.6,6,North,46.26,,,,,,2024.02,2024,,,,
-123,190067,1,litu,739,1902,19,2.2,1,South,75.64,78.67,,,,,2024.05,2024,5,28,Jen Jordan ,
-124,190413,1,litu,1001.6,1904,14.7,5.6,1,South,16.16,18.74,,,,,2024.05,2024,5,28,Jen Jordan ,
-125,190568,1,juni,903,1912,2.6,18.8,1,South,69.58,72.58,,,,,2024.05,2024,5,28,Jen Jordan ,
-126,190694,1,quru,1265.5,1909,18.2,14.7,1,South,38.97,41.31,,,,,2024.05,2024,5,28,Jen Jordan ,
-127,192133,1,caovl,565,1923,11.7,2.3,6,North,46.93,,,,,,2024.02,2024,,,,
-128,192244,1,qual,443.5,1919,18.1,16.8,6,North,75.46,,,,,,2024.02,2024,,,,
-129,192437,1,litu,436.9,1925,17,11.5,9,North,31.01,,,,,,2024.02,2024,,,,
-130,192466,1,quru,864,1926,13.3,1.7,9,North,30.05,,,,,,2024.02,2024,,,,
-131,192484,1,quru,422.5,1926,17.4,11.2,9,North,94.47,,,,,,2024.02,2024,,,,
-132,192542,1,litu,326,1929,18.9,3.8,9,North,31.81,,,,,,2024.02,2024,,,,
-133,192544,1,litu,349,1929,14.4,1.8,9,North,16.17,,,,,,2024.02,2024,,,,
-134,192560,1,qual,933.1,1930,12.9,19.5,9,North,44.52,,,,,,2024.02,2024,,,,
-135,192619,1,quru,787,1926,12.6,8.5,9,North,119.93,,,,,,2024.02,2024,,,,
-136,200142,1,litu,604,2002,1.3,3.5,1,South,45.17,46.41,,,,,2024.05,2024,5,28,Jen Jordan ,
-137,200551,1,litu,576,2005,1,5.3,1,South,15.62,17.65,,,,,2024.05,2024,5,28,Jen Jordan ,
-138,202072,1,qual,710.1,2020,2.1,10.8,6,North,57.3,,,,,,2024.02,2024,,,,
-139,202201,1,cato,131,2017,3.2,1.1,6,North,45.94,,,,,,2024.02,2024,,,,
-140,202215,1,qual,549.9,2017,5.5,11.7,6,North,122.19,,,,,,2024.02,2024,,,,
-141,101008,1,tiam,177,1006,4.2,11.6,2,South,21.75,22.22,,,,,2024.05,2024,5,28,Jen Jordan ,
-142,22186,1,tiam,370,222,17,7.5,4,North,14.91,,,,,,2024.02,2024,,,,
-143,82219,1,ceca,87,822,14.7,18.8,4,North,18.67,,,,,,2024.02,2024,,,,
-144,182471,1,ceca,78,1829,2.6,19,9,North,21.99,,,,,,2024.02,2024,,,,
-145,102364,1,qual,649,1025,2.1,18,7,North,16.5,,,,,,2024.02,2024,,,,
-146,110788,1,litu,656,1104,19.9,11.7,2,South,31.95,34.67,,,,,2024.05,2024,5,28,Jen Jordan ,
-147,122343,1,qual,638,1225,10.7,14.4,8,North,41.45,,,,,,2024.02,2024,,,,
-148,30331,1,cagl,231,306,8.3,19.5,3,South,29.36,30.7,,,,,2024.05,2024,5,28,Jen Jordan ,Jen Jordan
-149,40564,1,fagr,69,406,2.4,12.4,3,South,12.38,13.12,,,,,2024.05,2024,5,28,Jen Jordan ,
-150,80554,1,caovl,529,813,6.9,11.2,2,South,55.5,59.55,,,,,2024.05,2024,5,28,Jen Jordan ,
-151,90660,1,quru,988,913,4.9,7.9,2,South,73.06,76.00,,,,,2024.05,2024,5,28,Jen Jordan ,
-152,160910,1,litu,996,1607,8.6,1.1,1,South,46.63,50.69,,,,,2024.05,2024,5,28,Jen Jordan ,
-153,22601,1,juni,197,231,17.8,10,4,North,11.13,,,,,,2024.02,2024,,,,
-154,162024,1,quve,294,1618,9.7,9.7,6,North,14.32,,,,,,2024.02,2024,,,,
+1,10671,1,quru,851,114,6.2,14.5,3,South,17.92,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+2,22315,1,caco,550,225,11,4,4,North,30.37,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+3,30233,1,fagr,1072,306,15.6,16.2,3,South,100.82,102.63,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+4,30234,1,fagr,81,306,15.3,18.5,3,South,20.42,20.5,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+5,30333,1,fagr,222,306,14,19.3,3,South,105.43,107.2,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+6,30339,1,litu,153.1,307,8.6,4.1,3,South,14.27,15.24,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+7,30339,2,litu,153.1,307,8.6,4.1,3,South,14.27,10.63,Rechecked ,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+8,30339,3,litu,153.1,307,8.6,4.1,3,South,14.27,54.14,Rechecked ,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+9,30467,1,litu,608,314,17.3,3,3,South,6.35,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+10,30512,1,quru,845.5,313,2.9,14.3,3,South,95.58,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+11,30584,1,quve,873.5,316,2.2,14.4,4,North,6.95,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+12,32126,1,litu,995.5,321,9.6,5,4,North,22.83,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+13,32381,1,qupr,834,327,4.6,12.8,4,North,22.35,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+14,40562,1,fagr,86,406,6.3,16.2,3,South,7.91,8.53,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+15,40563,1,fagr,365,406,3.6,17.8,3,South,119.01,121.9,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+16,40566,1,cagl,270.2,406,1.1,9.4,3,South,49,50.7,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+17,40567,1,fagr,93.3,406,1.6,7.2,3,South,30.68,31.5,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+18,40568,1,fagr,206,406,0.1,5.2,3,South,72.25,75.02,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+19,40635,1,cato,258.7,408,18.7,1,3,South,68.8,70.15,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+20,40942,1,acru,395.9,414,2.2,2,3,South,12.7,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+21,50364,1,qual,661.9,507,4.2,18.1,2,South,32.34,33.78,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+22,50562,1,quru,695,514,6.9,12.5,3,South,70.51,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+23,50650,1,litu,184.3,514,19.5,14.9,3,South,28.49,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+24,52190,1,quru,968.5,522,16.4,3.4,4,North,90.31,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+25,60266,1,cato,496,604,5.5,9.2,2,South,25.98,27.13,Rechecked ,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+26,60458,1,fagr,269.5,615,1.9,0,3,South,69.31,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+27,60459,1,fagr,99.7,615,2,3,3,South,30.88,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+28,60462,1,fagr,209.5,615,5.6,7.6,3,South,13.55,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+29,60463,1,juni,468,615,7.2,8,3,South,96.72,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+30,60469,1,cofl,70,615,6.8,9.8,3,South,10.57,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+31,60566,1,fagr,194.2,614,10,11,3,South,27.07,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+32,60573,1,tiam,258.5,614,8.5,16.3,3,South,69.55,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+33,60582,1,quru,285.1,615,20,10.2,3,South,15.12,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+34,60586,1,caca,62.5,615,16.2,9.3,3,South,14.2,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+35,60587,1,caca,81,615,14,9.8,3,South,24.84,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+36,60588,1,caco,292.3,615,13.4,7.3,3,South,64.02,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+37,62114,1,quve,306,619,18.7,12.6,4,North,69.28,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+38,62181,1,quve,1118.5,621,8.8,13.5,4,North,10.02,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+39,62224,1,litu,1040.5,622,3.2,17.3,4,North,57.05,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+40,70096,1,quru,893,704,3.3,12.7,2,South,19.27,19.76,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+41,70216,1,quve,930.2,701,18.7,11.6,3,South,27.14,27.27,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+42,70220,1,qual,557,702,18.3,0.8,3,South,83.72,86.73,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+43,70278,1,qupr,679.8,704,15.6,15.4,2,South,88.4,90.79,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+44,70492,1,nysy,198.6,714,0.1,11.2,3,South,48.42,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+45,70494,2,caca,60,714,0.4,15.7,3,South,7.38,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+46,70495,1,caca,79,714,1.7,18.6,3,South,15.99,,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+47,70519,1,qual,544.8,711,15.5,3.3,2,South,101.93,102.7,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+48,70536,1,qual,599,711,11.9,7.4,2,South,48.2,50.01,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+49,70579,1,caovl,236.1,714,19.2,4.3,2,South,49.68,50.37,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+50,70581,1,quru,614.5,714,13.7,1.2,3,South,45.45,45.78,,,,Not recorded - incomplete survey,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+51,72024,1,quve,482.3,717,20,9.6,4,North,74.37,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+52,72116,1,litu,502,719,14.4,10.8,4,North,68.79,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+53,72124,1,quru,747.2,719,12.5,19.4,4,North,96.99,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+54,72210,1,qual,872,721,5.2,11.5,4,North,50.34,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+55,72308,1,qual,654.2,725,15.2,13.3,7,North,79.35,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+56,72324,1,litu,667.2,726,14.4,6.6,7,North,90.63,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+57,72337,1,quru,905.8,727,7.9,2.6,7,North,89.48,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+58,72348,1,quru,971,727,12,15.1,7,North,73.65,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+59,72357,1,quru,938,728,1.7,2,7,North,22.39,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+60,80180,1,cagl,1015,804,15.9,5.3,2,South,54.6,56.11,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+61,80401,1,caco,469,807,7.4,19.6,2,South,53.61,54.47,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+62,80559,1,nysy,434.6,813,8.9,17.8,2,South,6.37,6.38,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+63,82203,1,litu,654,822,8,9.4,4,North,79.03,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+64,82360,1,litu,604.5,829,2.3,0.7,7,North,70.59,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+65,82365,1,qual,438.1,829,4.9,4.7,7,North,71.79,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+66,82422,1,litu,546.5,831,6.9,19.5,7,North,103.96,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+67,90752,1,qual,510.1,916,12.4,7.4,5,North,121.2,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+68,91477,1,litu,210,908,19.3,3.5,2,South,60.03,60.36,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+69,91486,1,cagl,570.9,908,17.5,9.2,2,South,78.46,79.52,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+70,92237,1,nysy,218.1,922,14.7,19.5,5,North,19.01,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+71,92393,1,cagl,617,925,19.8,7.7,7,North,14.59,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+72,100771,1,quru,968,1005,8.5,17,2,South,30.61,33.63,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+73,100905,1,litu,680,1008,10,1.6,2,South,51.12,53.16,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+74,102148,1,cato,251.2,1019,2,15.4,5,North,27.73,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+75,102264,1,qual,464.4,1022,1.5,14.2,5,North,64.77,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+76,102348,1,qual,888,1025,16.5,11.5,7,North,64.2,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+77,110061,1,litu,1205,1101,17,10,2,South,44.87,42.88,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+78,110791,1,litu,660,1104,11.3,10,2,South,29.12,29.97,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+79,110901,1,litu,524.1,1105,20,4.1,2,South,118.76,120.68,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+80,111030,1,litu,600.5,1107,15.1,19.9,2,South,118.3,119.7,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+81,112136,1,pist,274.1,1120,13.9,2.5,5,North,82,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+82,112250,1,pist,436,1122,10.8,18.4,5,North,112.22,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+83,112262,1,quru,133,1123,17.5,1.5,5,North,7.57,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+84,112336,1,qual,516,1125,17,13.8,8,North,NA,,,,,No band,2024.05,2024,,,,Rachel Hoffman
+85,112482,1,litu,263.2,1131,17.8,15.9,8,North,18.74,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+86,120781,1,litu,605.9,1205,3,2.2,2,South,14.17,16.95,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+87,121195,1,quru,914.7,1211,12.4,0.4,2,South,15.02,16.89,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+88,121221,1,litu,117.2,1207,1.7,19.3,2,South,10.85,10.75,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+89,121275,1,qupr,256,1209,1.7,16.9,2,South,31.65,31.83,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+90,121301,1,caovl,241.3,1211,1.2,2.5,2,South,20.76,21.64,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+91,121305,1,quru,753.8,1211,1.1,11.2,2,South,37.83,38.14,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+92,121374,1,juni,310.4,1216,0.7,18.5,5,North,11.75,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+93,122006,1,acru,395.9,1217,9.9,8.3,5,North,18.43,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+94,122009,1,acru,277,1217,1.2,4.1,5,North,38.8,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+95,122136,1,quru,587.7,1220,5.5,7.6,5,North,25.85,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+96,122184,1,pist,217.8,1222,2.9,13.9,5,North,22.84,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+97,122189,1,qual,665.1,1222,5.5,19.5,5,North,11.07,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+98,122303,1,qual,624.3,1223,1.9,8.5,5,North,115.3,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+99,122427,1,qual,832.7,1227,17,15.6,8,North,79.84,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+100,122482,1,litu,562.4,1228,14.5,2.4,8,North,9.56,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+101,130838,1,litu,652.4,1305,12.2,1,2,South,75.48,79.33,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+102,131087,1,quru,665,1310,17.3,17.8,2,South,110.17,111.27,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+103,131239,1,quru,587.1,1314,19.5,5.7,3,South,87.33,90.47,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+104,131364,1,acru,460,1316,12,12.9,5,North,89.51,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+105,132077,1,qual,592.4,1319,9.9,15.9,5,North,14.61,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+106,132539,1,litu,604.5,1331,15,15.9,8,North,69.49,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+107,140825,1,litu,523,1411,8,5.9,2,South,67.41,70.71,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+108,142380,1,qual,593,1425,6.8,13.1,8,North,74.04,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+109,142521,1,pist,452,1422,6.4,11.1,5,North,16.87,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+110,142708,1,juni,423.1,1429,4.3,6.2,8,North,34.25,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+111,142729,1,litu,474,1431,4.7,14.7,8,North,72.71,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+112,162439,1,quru,832.5,1627,16.3,0.3,9,North,84.6,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+113,162543,1,qual,890,1627,7.5,16.6,9,North,90,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+114,171348,1,ceca,155.4,1714,19.4,2.4,1,South,11.76,11.91,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+115,171454,1,caco,118,1714,1.6,13.8,1,South,28.77,29.46,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+116,172202,1,quru,555.1,1717,17.1,1.8,6,North,107.47,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+117,172203,1,qual,368.5,1717,15.5,0.3,6,North,31.61,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+118,172248,1,cato,274.2,1719,19.2,19.3,6,North,37.52,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+119,172417,1,nysy,98.8,1725,20,18.4,9,North,19.9,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+120,172470,1,quru,710,1728,11.1,12,9,North,116.68,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+121,172499,1,qual,1056,1730,17,3.1,9,North,80.49,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+122,181030,1,qual,779,1816,5.4,10.6,6,North,46.26,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+123,190067,1,litu,739,1902,19,2.2,1,South,75.64,78.67,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+124,190413,1,litu,1001.6,1904,14.7,5.6,1,South,16.16,18.74,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+125,190568,1,juni,903,1912,2.6,18.8,1,South,69.58,72.58,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+126,190694,1,quru,1265.5,1909,18.2,14.7,1,South,38.97,41.31,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+127,192133,1,caovl,565,1923,11.7,2.3,6,North,46.93,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+128,192244,1,qual,443.5,1919,18.1,16.8,6,North,75.46,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+129,192437,1,litu,436.9,1925,17,11.5,9,North,31.01,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+130,192466,1,quru,864,1926,13.3,1.7,9,North,30.05,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+131,192484,1,quru,422.5,1926,17.4,11.2,9,North,94.47,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+132,192542,1,litu,326,1929,18.9,3.8,9,North,31.81,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+133,192544,1,litu,349,1929,14.4,1.8,9,North,16.17,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+134,192560,1,qual,933.1,1930,12.9,19.5,9,North,44.52,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+135,192619,1,quru,787,1926,12.6,8.5,9,North,119.93,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+136,200142,1,litu,604,2002,1.3,3.5,1,South,45.17,46.41,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+137,200551,1,litu,576,2005,1,5.3,1,South,15.62,17.65,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+138,202072,1,qual,710.1,2020,2.1,10.8,6,North,57.3,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+139,202201,1,cato,131,2017,3.2,1.1,6,North,45.94,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+140,202215,1,qual,549.9,2017,5.5,11.7,6,North,122.19,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+141,101008,1,tiam,177,1006,4.2,11.6,2,South,21.75,22.22,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+142,22186,1,tiam,370,222,17,7.5,4,North,14.91,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+143,82219,1,ceca,87,822,14.7,18.8,4,North,18.67,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+144,182471,1,ceca,78,1829,2.6,19,9,North,21.99,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+145,102364,1,qual,649,1025,2.1,18,7,North,16.5,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+146,110788,1,litu,656,1104,19.9,11.7,2,South,31.95,34.67,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+147,122343,1,qual,638,1225,10.7,14.4,8,North,41.45,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+148,30331,1,cagl,231,306,8.3,19.5,3,South,29.36,30.7,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+149,40564,1,fagr,69,406,2.4,12.4,3,South,12.38,13.12,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+150,80554,1,caovl,529,813,6.9,11.2,2,South,55.5,59.55,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+151,90660,1,quru,988,913,4.9,7.9,2,South,73.06,76.00,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+152,160910,1,litu,996,1607,8.6,1.1,1,South,46.63,50.69,,,,,2024.05,2024,5,28,Jen Jordan ,Rachel Hoffman
+153,22601,1,juni,197,231,17.8,10,4,North,11.13,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
+154,162024,1,quve,294,1618,9.7,9.7,6,North,14.32,,,,,Not recorded - incomplete survey,2024.05,2024,,,,Rachel Hoffman
