@@ -11,7 +11,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 20587,1,litu,208,2021.11,2021,11,15,39.54,,,,"Originally on 10-26-21, the recorded measure was 41.48",Joe Lepak,Jen Jordan,3
 20603,1,fram,208,2021.11,2021,10,26,123.43,,,DS,,Jen Jordan,Jen Jordan,3
 20617,1,litu,209,2021.11,2021,10,26,62.43,,,,,Jen Jordan,Jen Jordan,3
-20712,1,litu,212,2021.11,2021,10,26,86.62,,,,"No tag, right tree?",Jen Jordan,Jen Jordan,3
+20712,1,litu,212,2021.11,2021,10,26,86.62,,,NT,"No tag, right tree?",Jen Jordan,Jen Jordan,3
 22004,1,litu,217,2021.11,2021,10,26,57.5,,,,,Jen Jordan,Jen Jordan,4
 22041,1,litu,217,2021.11,2021,10,26,66.04,,,,,Jen Jordan,Jen Jordan,4
 22170,1,litu,221,2021.11,2021,10,26,46.49,,,,,Jen Jordan,Jen Jordan,4
@@ -23,7 +23,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 30331,1,cagl,306,2021.11,2021,10,26,52.27,,,,,Jen Jordan,Jen Jordan,3
 30333,1,fagr,306,2021.11,2021,10,26,79.94,,,,,Jen Jordan,Jen Jordan,3
 30339,1,litu,307,2021.11,2021,10,26,108.94,,,,,Jen Jordan,Jen Jordan,3
-30339,2,litu,307,2021.11,2021,11,10,116.12,TRUE,,,"Originally on 10-26-21, the recorded measure was 115.82. ",Jen Jordan,Jen Jordan,3
+30339,2,litu,307,2021.11,2021,11,10,116.12,TRUE,,,"Originally on 10-26-21, the recorded measure was 115.82.",Jen Jordan,Jen Jordan,3
 30339,3,litu,307,2021.11,2021,10,26,48.59,,,,,Jen Jordan,Jen Jordan,3
 30462,1,litu,313,2021.11,2021,10,26,13.04,TRUE,,,,Jen Jordan,Jen Jordan,3
 30467,1,litu,314,2021.11,2021,10,27,117.25,,,,"Originally on 10-26-21, the recorded measure was 47.25. transcription error",Jen Jordan,Jen Jordan,3
@@ -113,7 +113,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 70433,1,litu,710,2021.11,2021,10,26,20.76,,,,,Nate Looker,Jen Jordan,2
 70492,1,nysy,714,2021.11,2021,10,26,22.32,TRUE,,,,Jen Jordan,Jen Jordan,3
 70493,1,litu,714,2021.11,2021,10,26,26.20,,,,,Jen Jordan,Jen Jordan,3
-70494,1,caca,714,2021.11,2021,11,10,38.98,,,,"Originally on 10-26-21, the recorded measure was 43.00. New band is needed.",Jen Jordan,Jen Jordan,3
+70494,1,caca,714,2021.11,2021,11,10,38.98,,,NT,"Originally on 10-26-21, the recorded measure was 43.00. New band is needed.",Jen Jordan,Jen Jordan,3
 70494,2,caca,714,2021.11,2021,10,26,22.89,,,,,Jen Jordan,Jen Jordan,3
 70495,1,caca,714,2021.11,2021,10,26,14.51,TRUE,,,,Jen Jordan,Jen Jordan,3
 70519,1,qual,711,2021.11,2021,10,26,95.90,,,,,Nate Looker,Jen Jordan,2
@@ -128,7 +128,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 72124,1,quru,719,2021.11,2021,10,26,43.35,TRUE,,,,Jen Jordan,Jen Jordan,4
 72149,1,litu,720,2021.11,2021,10,26,41.44,,,,,Jen Jordan,Jen Jordan,4
 72173,1,qual,720,2021.11,2021,10,26,21.56,,,,,Jen Jordan,Jen Jordan,4
-72210,1,qual,721,2021.11,2021,10,26,31.39,,,,Readjusted band,Jen Jordan,Jen Jordan,4
+72210,1,qual,721,2021.11,2021,10,26,31.39,,,NT,Readjusted band,Jen Jordan,Jen Jordan,4
 72232,1,qual,722,2021.11,2021,10,26,124.3,,,,,Jen Jordan,Jen Jordan,4
 72248,1,caovl,723,2021.11,2021,10,26,70.29,TRUE,,,,Jen Jordan,Jen Jordan,4
 72308,1,qual,725,2021.11,2021,10,27,67.43,,,,,Nate Looker,Jen Jordan,7
@@ -145,7 +145,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 80005,1,fram,801,2021.11,2021,10,26,21.14,,,DS,,Jen Jordan,Jen Jordan,3
 80100,1,litu,804,2021.11,2021,10,26,55.42,,,,,Nate Looker,Jen Jordan,2
 80121,1,quve,801,2021.11,2021,10,26,10.96,,,,,Jen Jordan,Jen Jordan,3
-80180,1,cagl,804,2021.11,2021,11,15,46.67,,,,"Originally on 10-26-21, the recorded measure was 64.64. Band irregular. Loose tag",Joe Lepak,Jen Jordan,2
+80180,1,cagl,804,2021.11,2021,11,15,46.67,,,NT,"Originally on 10-26-21, the recorded measure was 64.64. Band irregular. Loose tag",Joe Lepak,Jen Jordan,2
 80398,1,caco,807,2021.11,2021,10,26,NA,,,DC,,Nate Looker,Jen Jordan,2
 80401,1,caco,807,2021.11,2021,10,26,39.99,,,,,Nate Looker,Jen Jordan,2
 80554,1,caovl,813,2021.11,2021,10,26,130.96,TRUE,,RE,Needs new tag,Nate Looker,Jen Jordan,2
@@ -205,7 +205,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 100011,1,fram,1001,2021.11,2021,10,26,96.73,,,DS,,Jen Jordan,Jen Jordan,3
 100516,1,litu,1004,2021.11,2021,10,26,96.02,,,,,Nate Looker,Jen Jordan,2
 100562,1,litu,1004,2021.11,2021,10,26,24.11,,,,,Nate Looker,Jen Jordan,2
-100612,1,litu,1003,2021.11,2021,10,26,31.33,,,,Band irregular & didn’t adjust/ measurement error likely. Tag missing. RIght tree?,Nate Looker,Jen Jordan,2
+100612,1,litu,1003,2021.11,2021,10,26,31.33,,,NT,Band irregular & didn’t adjust/ measurement error likely. Tag missing. RIght tree?,Nate Looker,Jen Jordan,2
 100754,1,quru,1005,2021.11,2021,10,26,43.83,,,,,Nate Looker,Jen Jordan,2
 100771,1,quru,1005,2021.11,2021,10,26,76.31,,,RE,Retroactively set to RE on 2022/3/7 because of double springs,Nate Looker,Jen Jordan,2
 100905,1,litu,1008,2021.11,2021,10,26,31.56,,,,,Nate Looker,Jen Jordan,2
@@ -229,7 +229,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 102262,1,qual,1022,2021.11,2021,10,26,100.06,,,,,Jen Jordan,Jen Jordan,5
 102264,1,qual,1022,2021.11,2021,10,26,49.53,,,,,Jen Jordan,Jen Jordan,5
 102303,1,quve,1024,2021.11,2021,10,26,57.85,,,,,Jen Jordan,Jen Jordan,5
-102348,1,qual,1025,2021.11,2021,10,27,37.21,,,,Band irregular & didn’t adjust/ measurement error likely. Determined by Jess Shue to be OK on 2022-03-02,Nate Looker,Jen Jordan,7
+102348,1,qual,1025,2021.11,2021,10,27,37.21,,,NT,Band irregular & didn’t adjust/ measurement error likely. Determined by Jess Shue to be OK on 2022-03-02,Nate Looker,Jen Jordan,7
 102364,1,qual,1025,2021.11,2021,10,27,115.04,,,,,Nate Looker,Jen Jordan,7
 102365,1,litu,1025,2021.11,2021,10,27,73.05,,,RE,,Nate Looker,Jen Jordan,7
 102371,1,qual,1026,2021.11,2021,10,27,92.39,,,,,Nate Looker,Jen Jordan,7
@@ -246,7 +246,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 102501,1,litu,1031,2021.11,2021,10,27,10.76,TRUE,,,,Jen Jordan,Jen Jordan,7
 102502,1,ulru,1031,2021.11,2021,10,27,61,TRUE,,,,Jen Jordan,Jen Jordan,7
 102509,1,quve,1032,2021.11,2021,10,27,118.67,,,,,Jen Jordan,Jen Jordan,7
-110061,1,litu,1101,2021.11,2021,11,10,28.94,,,,"Originally on 10-26-21, the recorded measure was 45.21. Band was adjusted 11-10-21.",Nate Looker,Jen Jordan,2
+110061,1,litu,1101,2021.11,2021,11,10,28.94,,,NT,"Originally on 10-26-21, the recorded measure was 45.21. Band was adjusted 11-10-21.",Nate Looker,Jen Jordan,2
 110680,1,litu,1104,2021.11,2021,10,26,23.12,,,,,Nate Looker,Jen Jordan,2
 110788,1,litu,1104,2021.11,2021,10,26,132.6,,,,,Nate Looker,Jen Jordan,2
 110791,1,litu,1104,2021.11,2021,10,26,20.31,,,,,Nate Looker,Jen Jordan,2
@@ -325,7 +325,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 122492,1,litu,1229,2021.11,2021,10,27,43.05,,,,,Jen Jordan,Jen Jordan,8
 122522,1,litu,1232,2021.11,2021,10,27,95.33,,,,,Jen Jordan,Jen Jordan,8
 122561,1,litu,1231,2021.11,2021,10,27,28.51,,,,,Jen Jordan,Jen Jordan,8
-130348,1,litu,1302,2021.11,2021,10,26,35.65,,,,Caliper error?,Bill McShea,Jen Jordan,1
+130348,1,litu,1302,2021.11,2021,10,26,35.65,,,NT,Caliper error?,Bill McShea,Jen Jordan,1
 130718,1,litu,1306,2021.11,2021,10,27,53.21,,,RE,Band irregular & didn’t adjust/ measurement error likely. Nail impeding,Nate Looker,Jen Jordan,2
 130838,1,litu,1305,2021.11,2021,10,27,51.3,,,,,Nate Looker,Jen Jordan,2
 131009,1,quve,1308,2021.11,2021,10,27,67.55,,,,,Nate Looker,Jen Jordan,2
@@ -345,10 +345,10 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 132077,1,qual,1319,2021.11,2021,10,26,97.01,TRUE,,,,Jen Jordan,Jen Jordan,5
 132171,1,litu,1320,2021.11,2021,10,26,77.73,,,,,Jen Jordan,Jen Jordan,5
 132280,1,fram,1324,2021.11,2021,10,26,17.81,,,,Ash - alive!,Jen Jordan,Jen Jordan,5
-132302,1,quru,1321,2021.11,2021,10,26,42.75,,,,Readjusted band,Jen Jordan,Jen Jordan,5
+132302,1,quru,1321,2021.11,2021,10,26,42.75,,,NT,Readjusted band,Jen Jordan,Jen Jordan,5
 132311,1,qual,1322,2021.11,2021,10,26,21.94,,,,,Jen Jordan,Jen Jordan,5
 132321,1,quru,1323,2021.11,2021,10,26,114.68,,,,,Jen Jordan,Jen Jordan,5
-132371,1,quru,1325,2021.11,2021,10,27,82.11,,,,Needs new tag. Tag embedded. Right tree?,Jen Jordan,Jen Jordan,8
+132371,1,quru,1325,2021.11,2021,10,27,82.11,,,NT,Needs new tag. Tag embedded. Right tree?,Jen Jordan,Jen Jordan,8
 132508,1,quve,1328,2021.11,2021,10,27,93.71,,,RE,Nail distorting band,Jen Jordan,Jen Jordan,8
 132524,1,litu,1329,2021.11,2021,10,27,NA,,,DC,,Jen Jordan,Jen Jordan,8
 132525,1,fram,1329,2021.11,2021,10,27,NA,,,DC,,Jen Jordan,Jen Jordan,8
@@ -357,17 +357,17 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 132542,1,quve,1332,2021.11,2021,10,27,18.92,TRUE,,,,Jen Jordan,Jen Jordan,8
 132545,1,litu,1332,2021.11,2021,10,27,20.65,,,,,Jen Jordan,Jen Jordan,8
 140467,1,quve,1404,2021.11,2021,10,26,NA,,,DS,,Bill McShea,Jen Jordan,1
-140609,1,litu,1403,2021.11,2021,10,26,25.64,,,,Caliper error?,Bill McShea,Jen Jordan,1
+140609,1,litu,1403,2021.11,2021,10,26,25.64,,,NT,Caliper error?,Bill McShea,Jen Jordan,1
 140646,1,litu,1405,2021.11,2021,10,27,95.78,,,,,Nate Looker,Jen Jordan,2
 140736,1,quve,1407,2021.11,2021,10,27,73.17,,,RE,,Nate Looker,Jen Jordan,2
 140751,1,quru,1408,2021.11,2021,10,27,102.45,,,,,Nate Looker,Jen Jordan,2
 140756,1,quve,1408,2021.11,2021,10,27,NA,,,DC,,Nate Looker,Jen Jordan,2
-140813,1,litu,1410,2021.11,2021,10,27,112.53,,,,"No tag, right tree?",Nate Looker,Jen Jordan,2
+140813,1,litu,1410,2021.11,2021,10,27,112.53,,,NT,"No tag, right tree?",Nate Looker,Jen Jordan,2
 140818,1,litu,1410,2021.11,2021,10,27,86.53,,,RE,replace tag,Nate Looker,Jen Jordan,2
 140819,1,litu,1411,2021.11,2021,10,27,1.69,TRUE,,DS,,Nate Looker,Jen Jordan,2
 140821,1,litu,1411,2021.11,2021,10,27,63.11,,,,,Nate Looker,Jen Jordan,2
 140825,1,litu,1411,2021.11,2021,10,27,43.85,,,,,Nate Looker,Jen Jordan,2
-140829,1,litu,1411,2021.11,2021,10,27,50.25,,,,"No tag, right tree?",Nate Looker,Jen Jordan,2
+140829,1,litu,1411,2021.11,2021,10,27,50.25,,,NT,"No tag, right tree?",Nate Looker,Jen Jordan,2
 140833,1,litu,1411,2021.11,2021,10,27,15.72,,,,,Nate Looker,Jen Jordan,2
 140872,1,litu,1413,2021.11,2021,10,26,63.36,,,,,Jen Jordan,Jen Jordan,3
 141088,1,fram,1415,2021.11,2021,10,26,NA,,,DC,,Jen Jordan,Jen Jordan,3
@@ -376,7 +376,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 142113,1,cagl,1417,2021.11,2021,10,26,44.76,,,,,Jen Jordan,Jen Jordan,5
 142206,1,fram,1419,2021.11,2021,10,26,NA,,,DS,,Bill McShea,Jen Jordan,6
 142380,1,qual,1425,2021.11,2021,10,27,41,,,,Tag on ground,Jen Jordan,Jen Jordan,8
-142399,1,qual,1427,2021.11,2021,10,27,33.55,,,,Readjusted band,Jen Jordan,Jen Jordan,8
+142399,1,qual,1427,2021.11,2021,10,27,33.55,,,NT,Readjusted band,Jen Jordan,Jen Jordan,8
 142521,1,pist,1422,2021.11,2021,10,26,106.31,,,,,Jen Jordan,Jen Jordan,5
 142527,1,cagl,1422,2021.11,2021,10,26,37.43,,,,,Jen Jordan,Jen Jordan,5
 142548,1,qual,1424,2021.11,2021,10,26,23.59,,,,,Jen Jordan,Jen Jordan,5
@@ -396,7 +396,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 152513,1,qupr,1525,2021.11,2021,10,27,18.06,,,,,Bill McShea,Jen Jordan,9
 152673,1,litu,1530,2021.11,2021,10,27,95.32,,,,,Bill McShea,Jen Jordan,9
 152701,1,litu,1531,2021.11,2021,10,27,61.25,,,,,Bill McShea,Jen Jordan,9
-160713,1,litu,1603,2021.11,2021,10,26,48.62,TRUE,,,Caliper error?,Bill McShea,Jen Jordan,1
+160713,1,litu,1603,2021.11,2021,10,26,48.62,TRUE,,NT,Caliper error?,Bill McShea,Jen Jordan,1
 160742,1,litu,1605,2021.11,2021,10,26,111.46,,,,,Bill McShea,Jen Jordan,1
 160814,1,cato,1611,2021.11,2021,10,26,14.08,,,,,Bill McShea,Jen Jordan,1
 160862,1,ploc,1614,2021.11,2021,10,26,79.47,,,,,Bill McShea,Jen Jordan,1
@@ -445,7 +445,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,measure_verified,crown.i
 180654,1,litu,1805,2021.11,2021,10,26,30.35,,,,,Bill McShea,Jen Jordan,1
 180691,1,litu,1807,2021.11,2021,10,26,67.75,,,,,Bill McShea,Jen Jordan,1
 180728,1,litu,1804,2021.11,2021,10,26,48.47,,,,,Bill McShea,Jen Jordan,1
-180791,1,cagl,1811,2021.11,2021,10,26,0.0,TRUE,,,No gap in band,Bill McShea,Jen Jordan,1
+180791,1,cagl,1811,2021.11,2021,10,26,0.0,TRUE,,NT,No gap in band,Bill McShea,Jen Jordan,1
 180903,1,litu,1808,2021.11,2021,10,26,21.56,,,,,Bill McShea,Jen Jordan,1
 180904,1,litu,1808,2021.11,2021,10,26,60.71,,,,,Bill McShea,Jen Jordan,1
 180984,1,litu,1813,2021.11,2021,10,26,78.07,,,,,Bill McShea,Jen Jordan,1
