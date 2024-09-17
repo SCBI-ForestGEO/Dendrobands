@@ -79,7 +79,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 70278,1,qupr,704,2020.16,2020,11,5,51.82, , ,,,Ellie Grant,Cameron Dow,2
 70292,1,cagl,705,2020.16,2020,11,5,72.49, , ,,,Ellie Grant,Cameron Dow,2
 70352,1,litu,707,2020.16,2020,11,5,102.34, , ,,,Ellie Grant,Cameron Dow,2
-70357,1,cagl,708,2020.16,2020,11,5,11.08, , ,,downed,Ellie Grant,Cameron Dow,2
+70357,1,cagl,708,2020.16,2020,11,5,11.08, , ,DC,downed,Ellie Grant,Cameron Dow,2
 70358,1,litu,708,2020.16,2020,11,5,110.34, , ,,,Ellie Grant,Cameron Dow,2
 70433,1,litu,710,2020.16,2020,11,5,133.35, , ,,,Ellie Grant,Cameron Dow,2
 70519,1,qual,711,2020.16,2020,11,5,92.39, , ,,,Ellie Grant,Cameron Dow,2
@@ -95,7 +95,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 80628,1,quru,811,2020.16,2020,11,5,49.04, , ,,,Ellie Grant,Cameron Dow,2
 80631,1,litu,811,2020.16,2020,11,5,133.45, , ,,,Ellie Grant,Cameron Dow,2
 90043,1,quve,901,2020.16,2020,11,5,75.72, , ,F,double-checked; new tag,Ellie Grant,Cameron Dow,2
-90084,1,quve,902,2020.16,2020,11,5,72.18, , ,,band adjusted,Ellie Grant,Cameron Dow,2
+90084,1,quve,902,2020.16,2020,11,5,72.18, , ,RE,band adjusted,Ellie Grant,Cameron Dow,2
 90162,1,litu,904,2020.16,2020,11,5,98.18, , ,,,Jessica Shue,Cameron Dow,2
 90311,1,cagl,904,2020.16,2020,11,5,19.89, , ,,,Jessica Shue,Cameron Dow,2
 90354,1,litu,905,2020.16,2020,11,5,NA, , ,RE,,Jessica Shue,Cameron Dow,2
