@@ -319,7 +319,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 112014,1,cagl,1117,2020.16,2020,11,5,87.98, , ,,,Jessica Shue,Cameron Dow,5
 112057,1,acru,1117,2020.16,2020,11,5,90.01, , ,,double-checked,Jessica Shue,Cameron Dow,5
 112060,1,fram,1117,2020.16,2020,11,5,94.63, , ,DS,,Jessica Shue,Cameron Dow,5
-112118,1,quru,1119,2020.16,2020,11,5,64.97, , ,DS;L,L SW,Jessica Shue,Cameron Dow,5
+112118,1,quru,1119,2020.16,2020,11,5,64.97, , ,DS ; L,L SW,Jessica Shue,Cameron Dow,5
 112130,1,qual,1119,2020.16,2020,11,5,11.14, , ,,,Jessica Shue,Cameron Dow,5
 112136,1,pist,1120,2020.16,2020,11,5,33.98, , ,,double-checked,Jessica Shue,Cameron Dow,5
 112137,1,qual,1120,2020.16,2020,11,5,38.38, , ,,,Jessica Shue,Cameron Dow,5
@@ -350,7 +350,7 @@ tag,stemtag,sp,quadrat,survey.ID,year,month,day,measure,crown.condition,crown.il
 132302,1,quru,1321,2020.16,2020,11,5,27.38, , ,NT,band adjusted,Jessica Shue,Cameron Dow,5
 132311,1,qual,1322,2020.16,2020,11,5,130.37, , ,RE,,Jessica Shue,Cameron Dow,5
 132321,1,quru,1323,2020.16,2020,11,5,107.25, , ,,,Jessica Shue,Cameron Dow,5
-141146,1,caco,1416,2020.16,2020,11,5,24.27, , ,DS;X,,Jessica Shue,Cameron Dow,5
+141146,1,caco,1416,2020.16,2020,11,5,24.27, , ,DS ; X,,Jessica Shue,Cameron Dow,5
 142113,1,cagl,1417,2020.16,2020,11,5,41.45, , ,,,Jessica Shue,Cameron Dow,5
 142521,1,pist,1422,2020.16,2020,11,5,87.04, , ,,double-checked,Jessica Shue,Cameron Dow,5
 142527,1,cagl,1422,2020.16,2020,11,5,36.52, , ,,,Jessica Shue,Cameron Dow,5
