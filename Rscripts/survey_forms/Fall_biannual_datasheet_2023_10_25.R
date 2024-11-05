@@ -15,13 +15,15 @@
 
 ## Keep last intrannual measurement and spring biannual measurement for comparison
 
+
 table(current_year_data$survey.ID)
 
 # subset the previous intraannual measurement for reference
 
 prev_measure <- 
   current_year_data %>% 
-  filter(survey.ID == 2023.1,
+  filter(survey.ID == 2024.02,
+         month == 9,
          biannual == 1) %>% 
   select(c(
     "quadrat",
@@ -42,8 +44,9 @@ colnames(prev_measure)[8] <- "status_intra"
 
 data_biannual <- 
   current_year_data %>%
-  filter(survey.ID == 2023.01,
+  filter(survey.ID == 2024.01,
          biannual == 1) %>% 
+  .[!duplicated(.[1:2]), ] %>% 
   left_join(prev_measure,
             by = c("tag", "stemtag", "quadrat", "survey.ID"))
 
@@ -89,7 +92,15 @@ fall_biannual <-
            "ly",
            "area",
            "location",
-           "spring_measure")) %>% 
+           "spring_measure",
+           "measure",
+           "measure.verified",
+           "codes",
+           "new.band",
+           "notes",
+           "field.recorders",
+           "data.enter",
+           "survey.ID":"day")) %>% 
   arrange(.,
           area,
           tag,
@@ -103,15 +114,15 @@ fall_biannual$measure.verified = ""
 fall_biannual$notes = ""
 fall_biannual$field.recorders = ""
 fall_biannual$data.enter = ""
-fall_biannual$survey.ID = 2023.11
-fall_biannual$year = 2023
+fall_biannual$survey.ID = 2024.12
+fall_biannual$year = 2024
 fall_biannual$month = 11
 fall_biannual$day = ""
 fall_biannual$new.band = ""
 
 
 
-write_csv(fall_biannual, "C:/Users/jessh/Documents/GitHub/Dendrobands/resources/raw_data/2023/data_entry_biannual_fall2023_BLANK.csv")
+write_csv(fall_biannual, "C:/Users/shuej/OneDrive - Smithsonian Institution/Documents/GitHub/Dendrobands/resources/raw_data/2024/data_entry_biannual_fall2024_BLANK.csv")
 
 # Bands to replace --------------------------------------------------------
 
@@ -142,3 +153,24 @@ large_gaps <-
   filter(measure > 120) %>% 
   .[!duplicated(.[1:2]), ] %>% 
   filter(codes != "RE")
+  
+
+bands_to_build <- rbind(RE, large_gaps)
+
+bands_to_build <-  bands_to_build %>%  
+  left_join(stem_locations,
+            by = c("tag", "stemtag", "quadrat")) %>% 
+  select(c("tag",
+           "stemtag",
+           "dbh",
+           "quadrat",
+           "area",
+           "lx",
+           "ly",
+           "year",
+           "month",
+           "day"))
+
+bands_to_build <- bands_to_build[!duplicated(bands_to_build[1:2]), ]
+
+write_csv(bands_to_build,"C:/Users/shuej/Smithsonian Dropbox/Jessica Shue/Field_Form_Data_Entry/SCBI/dendro/2024/repairs_fall_2024.csv")
