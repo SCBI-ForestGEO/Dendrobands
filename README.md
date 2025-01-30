@@ -1,6 +1,6 @@
 SCBI Dendrometer bands
 ================
-# Data Dashboard 
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![DOI](https://zenodo.org/badge/150600455.svg)](https://zenodo.org/badge/latestdoi/150600455)
@@ -22,8 +22,6 @@ should be reviewed.*
 ### Anomalous measurement report
 
 ![](testthat/reports/measurement_anomalies.png)<!-- -->
--------------- 
-# Data Description
 
 ## Overview
 
@@ -46,7 +44,8 @@ This data exists in two forms:
     in the `scbi.dendroAll_YEAR.csv` files. This is the data to be used
     for analysis.
 
-Whenever raw data is pushed to GitHub, GitHub Actions continuous integration follows the steps in
+Whenever raw data is pushed to GitHub, GitHub Actions continuous
+integration follows the steps in
 [`.github/workflows/QA_QC_checks.yaml`](https://github.com/SCBI-ForestGEO/Dendrobands/tree/master/.github/workflows/QA_QC_checks.yaml),
 which automatically 1) takes the raw data and produces the
 post-processed data and 2) performs data QA/QC
@@ -70,7 +69,7 @@ plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biol
     protocol](https://forestgeo.si.edu/sites/default/files/metal_band_dendrometer_protocol_done_1.pdf);
     [latest
     protocol](https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit)).
-2.  *Intra-annual dendrometer bands* - Since 2011, \~155 stems of DBH
+2.  *Intra-annual dendrometer bands* - Since 2011, ~155 stems of DBH
     ranging from 6-148 cm are monitored biweekly during the growing
     season each year.
 
@@ -116,27 +115,23 @@ Some relevant data on dendrometer banded trees (geographic location,
 date started/end, mortalitity year, etc) is available here
 [dendro_trees.csv](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv).
 
+## Data Management
+
+Collection of these data is a collaboration between the
+Anderson-Teixeira and McShea labs. These data formerly lived on the
+McShea V: drive (V:/SIGEO/DENDROMETRY/Dendrobands), and are now managed
+in this GitHub repository by the Anderson-Teixeira lab. Access is
+provided to any McShea lab member via SCBI-ForestGEO-guest, the password
+for which is stored in the V: drive.
+
+## Data use
+
+Contact [Kristina Anderson-Texeira](teixeirak@si.edu)
 
 Note: Also relevant (for code, cross-site integration) is the [ForestGEO
 Dendro repository](https://github.com/forestgeo/dendro).
 
-# Terms of use
-
-Data are published to this reposity immediately upon collection.
-We require that the (mostly early-career) members of our team who contributed to data collection be given the opportunity to contribute as coauthors (with full opportunity to comment on analysis plans and draft manuscripts) to the first scientific publication using the data.
-Data usage agreements thefore depend upon collection date, currently deliniated as specified below.
-
-### Data from 2011-2021
-These data are licensed under the [Creative Commons Attribution 4.0 International](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/license.txt) license.
-
-### Data from 2021 - present
-These data are covered by a custom data use agreement. 
-Please refer to the [data_use_agreement.md](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data_use_agreement.md) file for details.
-*Data use requests may be denied if they compete with planned publications (particularly those led by early-career researchers) or fail to adhere to acceptable standards of scientific integrity and rigour.*
-We strongly advise contacting PI [Kristina Anderson-Texeira](teixeirak@si.edu) prior to beginning analysis of these data.
-
-
-# Contributors
+## Contributors
 
 | name                       | GitHub ID    | position\*                          | role                                              |
 |----------------------------|--------------|-------------------------------------|---------------------------------------------------|
@@ -150,9 +145,8 @@ We strongly advise contacting PI [Kristina Anderson-Texeira](teixeirak@si.edu) p
 | Cameron Dow                | camerondow35 | research assistant, SCBI            | data collection, data organization, coding        |
 | Albert Y. Kim              | rudeboybert  | research associate, SCBI            | data organization, coding, continuous integration |
 | Jess Shue                  | jess-shue    | biological science technician, SERC | data collection, data organization, coding        |
-| Jennifer A. Jordan         | jenajordan   | intern, SCBI ; PhD student, GMU     | data collection, data organization                |
+| Jennifer A. Jordan         | jenajordan   | intern, SCBI                        | data collection, data organization                |
 | Erin L. MacMonigle         |              | intern, SCBI                        | data collection, data organization                |
-| Rachel Hoffmann            |              | intern, SCBI                        | data collection, data organization                |
 
 \*refers to position at time of main contribution to this repository
 
@@ -165,5 +159,5 @@ ForestGEO
 
 ## Contact
 
-Contact [Kristina Anderson-Texeira](teixeirak@si.edu) or Jessica Shue for any inquiry on
+Contact Erika Gonzalez-Akre or Albert Y. Kim for any inquiry on
 dendroband data collection at SCBI.
