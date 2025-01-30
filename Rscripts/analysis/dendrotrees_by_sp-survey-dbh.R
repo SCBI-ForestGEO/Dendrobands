@@ -99,4 +99,3 @@ for(year in c(2010:max_year)){
   
   write.csv(data_merged, output_csv_file, row.names = FALSE)
 }
-

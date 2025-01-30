@@ -39,7 +39,7 @@ jobs:
       # Housekeeping: Use various GA tools, install R, install pandoc
       # (to be able to use RMarkdown)
       - uses: actions/checkout@v3
-      - uses: r-lib/actions/setup-r@v3
+      - uses: r-lib/actions/setup-r@v2
       - uses: r-lib/actions/setup-pandoc@v2
            
       
