@@ -15,10 +15,10 @@
 rm(list = ls())
 
 # Load libraries 
-library(here)
+# library(here)
 
 # Load existing warnings
-warning_file_path <- file.path(here("testthat"), "reports/warnings/warnings_file.csv")
+warning_file_path <- file.path("testthat", "reports/warnings/warnings_file.csv")
 if(file.exists(warning_file_path)) {
   warning_file <- read.csv(warning_file_path)
 }
@@ -37,7 +37,7 @@ if(file.exists(warning_file_path)){
 }
 
 
-filename <- file.path(here("testthat"), "reports/warnings.png")
+filename <- file.path("testthat", "reports/warnings.png")
 if(length(all_warns) == 0)
   file.remove(filename)
 
