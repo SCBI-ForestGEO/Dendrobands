@@ -15,7 +15,7 @@
 rm(list = ls())
 
 # load libraries
-library(here)
+# library(here)
 library(dplyr)
 library(readr)
 library(stringr)
@@ -24,7 +24,8 @@ library(ggplot2)
 library(lubridate)
 
 ## Load all master data files into a single data frame 
-master_data_filenames <- dir(path = here("data"), pattern = "scbi.dendroAll*", full.names = TRUE)
+master_data_filenames <- dir(path = "data", pattern = "scbi.dendroAll*", full.names = TRUE)
+master_data_filenames <- master_data_filenames[!grepl("BLANK", master_data_filenames)]
 
 dendroband_measurements_all_years <- NULL
 for(i in 1:length(master_data_filenames)){
@@ -36,7 +37,7 @@ for(i in 1:length(master_data_filenames)){
 }
 
 # Set years
-current_year <- Sys.Date() %>% year()
+current_year <- max(dendroband_measurements_all_years$year) # Sys.Date() %>% year()
 previous_year <- current_year - 1
 
 # Get variable names (needed to write csv's consisting of only original variables)
@@ -51,11 +52,11 @@ dendroband_measurements <- dendroband_measurements_all_years %>%
   filter(date > ymd(str_c(current_year, "-01-01")))
 
 # Assign biannual survey ID's
-spring_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") %>% 
-  here()
+spring_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") 
+# %>% here()
 spring_biannual_survey_ID <- ifelse(file.exists(spring_biannual_survey), min(dendroband_measurements$survey.ID), NA)
-fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
-  here()
+fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") 
+# %>%  here()
 fall_biannual_survey_ID <- ifelse(file.exists(fall_biannual_survey), max(dendroband_measurements$survey.ID), NA)
 
 
@@ -167,7 +168,7 @@ require_field_fix_error_file <- stems_to_alert %>%
 alert_name <- "code_not_defined"
 
 # Load codes table
-codes <- here("data/metadata/codes_metadata.csv") %>% 
+codes <- "data/metadata/codes_metadata.csv" %>% 
   read_csv(show_col_types = FALSE) %>% 
   # Delete rows that don't correspond to actual codes
   filter(!is.na(Description))
@@ -277,8 +278,8 @@ if(!is.na(fall_biannual_survey_ID)){
   verified_measures <- 
     fall_biannual_survey %>% 
     read_csv(show_col_types = FALSE) %>% 
-    filter(measure_verified) %>% 
-    select(tag, stemtag, sp, survey.ID, measure_verified) 
+    filter(!is.na(measure.verified)) %>% 
+    select(tag, stemtag, sp, survey.ID, measure.verified) 
   
   # Get all stems to alert  
   stems_to_alert <- dendroband_measurements %>% 
@@ -294,8 +295,8 @@ if(!is.na(fall_biannual_survey_ID)){
     filter(!measure_is_reasonable) %>% 
     # See if measure was verified, if so drop
     left_join(verified_measures, by = c("tag", "stemtag", "sp", "survey.ID")) %>% 
-    mutate(measure_verified = ifelse(is.na(measure_verified), FALSE, measure_verified)) %>% 
-    filter(!measure_verified)
+    mutate(measure.verified = ifelse(is.na(measure.verified), FALSE, measure.verified)) %>% 
+    filter(!measure.verified)
   
   # Append to report
   require_field_fix_error_file <- stems_to_alert %>% 
@@ -379,7 +380,7 @@ if(nrow(stems_to_alert) > 0) {
 }
 
 # Display anomalies (if any) in README
-anomaly_plot_filename <- here("testthat/reports/measurement_anomalies.png")
+anomaly_plot_filename <- "testthat/reports/measurement_anomalies.png"
 
 anamoly_dendroband_measurements <- dendroband_measurements %>% 
   filter(!is.na(measure) & tag %in% stems_to_alert$tag) %>% 
@@ -441,8 +442,8 @@ warning_file <- stems_to_alert %>%
 
 # Clean and save files ----
 ## Field fix errors ----
-report_filepath <- here("testthat/reports/requires_field_fix/require_field_fix_error_file.csv")
-trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/require_field_fix_error_file.csv")
+report_filepath <- "testthat/reports/requires_field_fix/require_field_fix_error_file.csv"
+trace_of_reports_filepath <- "testthat/reports/trace_of_reports/require_field_fix_error_file.csv"
 
 if(nrow(require_field_fix_error_file) != 0){
   # If any field fix errors exist:
@@ -476,8 +477,8 @@ if(nrow(require_field_fix_error_file) != 0){
 }
 
 ## Warnings ----
-report_filepath <- here("testthat/reports/warnings/warnings_file.csv")
-trace_of_reports_filepath <- here("testthat/reports/trace_of_reports/warnings_file.csv")
+report_filepath <- "testthat/reports/warnings/warnings_file.csv"
+trace_of_reports_filepath <- "testthat/reports/trace_of_reports/warnings_file.csv"
 
 if(nrow(warning_file) != 0){
   # If any warnings exist:
@@ -509,11 +510,4 @@ if(nrow(warning_file) != 0){
     file.remove(report_filepath)
   }
 }
-
-
-
-
-
-
-
 

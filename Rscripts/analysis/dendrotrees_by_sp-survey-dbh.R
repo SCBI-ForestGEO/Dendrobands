@@ -13,7 +13,7 @@
 library(dplyr)
 library(stringr)
 library(lubridate)
-library(here)
+# library(here)
 library(data.table)
 library(purrr)
 
@@ -23,8 +23,8 @@ current_year <- Sys.Date() %>%
 
 # If fall biannual survey has been conducted for current year, create
 # summary CSV for current year, otherwise don't
-fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
-  here()
+fall_biannual_survey <- str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv")
+# %>% here()
 if(file.exists(fall_biannual_survey)){
   max_year <- current_year
 } else {
@@ -43,7 +43,7 @@ for(year in c(2010:max_year)){
     max() %>% 
     as.character()
   output_csv_file <- "results/dendro_trees_dbhcount/" %>% 
-    here() %>% 
+    # here() %>% 
     str_c("dendro_trees_sp_", year, "_min_max_mean_dbh.csv")
   
   
