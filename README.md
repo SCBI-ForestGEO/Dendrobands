@@ -21,7 +21,7 @@ should be reviewed.*
 
 ### Anomalous measurement report
 
-![](testthat/reports/measurement_anomalies.png)<!-- -->
+    ## [1] "No anomalous measurements at the moment."
 
 ## Overview
 
