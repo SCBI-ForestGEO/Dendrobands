@@ -1,0 +1,156 @@
+tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,survey.ID,year,month,day,field.recorders,data.enter
+100771,1,quru,1020,1005,8.5,17,2,South,50.66,53.6,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+100905,1,litu,693,1008,10,1.6,2,South,56.82,55.74,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+101008,1,tiam,190,1006,4.2,11.6,2,South,27.52,27.49,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+102148,1,cato,253,1019,2,15.4,5,North,27.11,27.12,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+102264,1,qual,404,1022,1.5,14.2,5,North,67.71,68.2,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+102348,1,qual,900,1025,16.5,11.5,7,North,75.23,77.21,77.23,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+102364,1,qual,658,1025,2.1,18,7,North,20.81,20.4,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+10671,1,quru,930,0114,6.2,14.5,3,South,32.98,37.76,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+110061,1,litu,1213,1101,17,10,2,South,43.97,44.26,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+110788,1,litu,670,1104,19.9,11.7,2,South,37.04,36.15,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+110791,1,litu,666,1104,11.3,10,2,South,32.08,31.32,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+110901,1,litu,562,1105,20,4.1,2,South,11.3,10.59,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+111030,1,litu,623,1107,15.1,19.9,2,South,13.85,13.6,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+112136,1,pist,315,1120,13.9,2.5,5,North,88.64,90.73,90.75,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+112250,1,pist,470,1122,10.8,18.4,5,North,10.14,12.27,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+112262,1,quru,134,1123,17.5,1.5,5,North,0,0,NA,0,DC,NA,3,NA,NA,NA,JS,Jessica Shue
+112482,1,litu,271,1131,17.8,15.9,8,North,21.02,20.8,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+120781,1,litu,637,1205,3,2.2,2,South,19.88,18.89,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+121195,1,quru,974,1211,12.4,0.4,2,South,25.07,26.93,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+121221,1,litu,120,1207,1.7,19.3,2,South,10.81,10.87,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+121275,1,qupr,260,1209,1.7,16.9,2,South,32.68,32.62,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+121301,1,caovl,257,1211,1.2,2.5,2,South,22.03,22.27,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+121305,1,quru,793,1211,1.1,11.2,2,South,43.19,43.2,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+121374,1,juni,378,1216,0.7,18.5,5,North,15.14,15.08,NA,0,,leaf out jus started,3,NA,NA,NA,JS,Jessica Shue
+122006,1,acru,452,1217,9.9,8.3,5,North,26.04,25.75,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122009,1,acru,303,1217,1.2,4.1,5,North,41.06,40.99,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122136,1,quru,666,1220,5.5,7.6,5,North,35.21,35.48,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122184,1,pist,246,1222,2.9,13.9,5,North,24.86,24.9,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122189,1,qual,708,1222,5.5,19.5,5,North,15.89,16.54,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122303,1,qual,664,1223,1.9,8.5,5,North,16.49,17.22,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122343,1,qual,660,1225,10.7,14.4,8,North,49.66,49.98,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122427,1,qual,875,1227,17,15.6,8,North,92.95,94.48,94.47,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+122482,1,litu,596,1228,14.5,2.4,8,North,14.96,13.91,13.91,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+130838,1,litu,693,1305,12.2,1,2,South,84.76,83.49,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+131087,1,quru,712,1310,17.3,17.8,2,South,120.14,121.49,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+131239,1,quru,651,1314,19.5,5.7,3,South,106.28,109.44,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+131364,1,acru,487,1316,12,12.9,5,North,94.9,94.49,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+132077,1,qual,649,1319,9.9,15.9,5,North,28.47,30.55,30.57,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+132539,1,litu,640,1331,15,15.9,8,North,78.65,78.25,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+140825,1,litu,542,1411,8,5.9,2,South,76.55,76.05,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+142380,1,qual,611,1425,6.8,13.1,8,North,84.45,85.08,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+142521,1,pist,508,1422,6.4,11.1,5,North,26.21,27.62,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+142708,1,juni,428,1429,4.3,6.2,8,North,1.56,0.99,0.99,0,,leaf out just started,3,NA,NA,NA,JS,Jessica Shue
+142729,1,litu,487,1431,4.7,14.7,8,North,75.11,74.44,74.37,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+160910,1,litu,1039,1607,8.6,1.1,1,South,58.34,56.31,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+162024,1,quve,297,1618,9.7,9.7,6,North,14.77,14.97,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+162439,1,quru,874,1627,16.3,0.3,9,North,91.85,92.39,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+162543,1,qual,904,1627,7.5,16.6,9,North,92.86,92.6,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+171348,1,ceca,164,1714,19.4,2.4,1,South,11.76,11.4,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+171454,1,caco,124,1714,1.6,13.8,1,South,30.3,30.73,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+172202,1,quru,589,1717,17.1,1.8,6,North,116,116.72,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+172203,1,qual,378,1717,15.5,0.3,6,North,33.58,33.9,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+172248,1,cato,280,1719,19.2,19.3,6,North,36.38,35.84,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+172417,1,nysy,98,1725,20,18.4,9,North,20.19,20.16,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+172470,1,quru,800,1728,11.1,12,9,North,NA,NA,NA,0,,new band to be installed,1,2025,3,18,Jessica Shue,Jessica Shue
+172499,1,qual,1077,1730,17,3.1,9,North,93.29,94.56,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+180931,1,quve,822,1809,8.2,19.4,1,South,13.92,NA,NA,1,,new band installed,3,2025,5,1,Jessica Shue,Jessica Shue
+181030,1,qual,795,1816,5.4,10.6,6,North,51.74,52.73,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+182471,1,ceca,91,1829,2.6,19,9,North,31.16,31.23,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+190067,1,litu,760,1902,19,2.2,1,South,84.74,84.04,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+190413,1,litu,1046,1904,14.7,5.6,1,South,26.4,25.1,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+190568,1,juni,955,1912,2.6,18.8,1,South,78.68,78.19,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+190694,1,quru,1353,1909,18.2,14.7,1,South,54.2,56.31,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+192133,1,caovl,579,1923,11.7,2.3,6,North,50.47,50.24,50.25,0,,leaf out just started,3,NA,NA,NA,JS,Jessica Shue
+192244,1,qual,478,1919,18.1,16.8,6,North,83.34,83.68,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+192437,1,litu,463,1925,17,11.5,9,North,38.44,38.02,38.02,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+192466,1,quru,869,1926,13.3,1.7,9,North,41.39,44.48,44.34,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+192484,1,quru,457,1926,17.4,11.2,9,North,103.17,104.37,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+192542,1,litu,335,1929,18.9,3.8,9,North,41.26,40.42,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+192544,1,litu,353,1929,14.4,1.8,9,North,16.95,16.88,NA,0,DS,topped; replace tree,3,NA,NA,NA,JS,Jessica Shue
+192560,1,qual,970,1930,12.9,19.5,9,North,56.64,57.96,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+192619,1,quru,845,1926,12.6,8.5,9,North,15.25,16.95,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+200142,1,litu,635,2002,1.3,3.5,1,South,52.06,51.3,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+200551,1,litu,602,2005,1,5.3,1,South,20.89,20.13,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+202072,1,qual,741,2020,2.1,10.8,6,North,65.12,65.53,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+202201,1,cato,151,2017,3.2,1.1,6,North,48.05,48.5,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+202215,1,qual,570,2017,5.5,11.7,6,North,9.6,9.96,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+22186,1,tiam,380,0222,17,7.5,4,North,19.09,18.92,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+22315,1,caco,575,0225,11,4,4,North,30.65,29.96,29.94,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+22601,1,juni,140,0231,17.8,10,4,North,11.35,11.45,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+30233,1,fagr,1109,0306,15.6,16.2,3,South,111.24,111.52,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30234,1,fagr,84,0306,15.3,18.5,3,South,21.51,21.31,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30331,1,cagl,239,0306,8.3,19.5,3,South,33.34,33.51,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30333,1,fagr,266,0306,14,19.3,3,South,113.9,114.03,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30339,1,litu,620,0307,8.6,4.1,3,South,17.56,16.8,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30339,2,litu,557,0307,8.6,4.1,3,South,13.46,12.34,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30339,3,litu,162,0307,8.6,4.1,3,South,55.5,54.46,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30467,1,litu,638,0314,17.3,3,3,South,11.74,13.48,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30512,1,quru,900,0313,2.9,14.3,3,South,107.94,110.85,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+30584,1,quve,955,0316,2.2,14.4,4,North,29.19,31.42,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+32126,1,litu,1058,0321,9.6,5,4,North,31.51,30.08,30.21,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+32251,1,tiam,175,0323,10.3,10.3,4,North,8.15,7.95,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+32381,1,qupr,889,0327,4.6,12.8,4,North,23.2,22.88,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+40562,1,fagr,88,0406,6.3,16.2,3,South,8.4,8.38,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40563,1,fagr,440,0406,3.6,17.8,3,South,13.94,13.92,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40564,1,fagr,72,0406,2.4,12.4,3,South,16.67,16.58,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40566,1,cagl,301,0406,1.1,9.4,3,South,50.97,51.8,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40567,1,fagr,112,0406,1.6,7.2,3,South,34.72,34.62,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40568,1,fagr,229,0406,0.1,5.2,3,South,82.1,81.92,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40635,1,cato,274,0408,18.7,1,3,South,71.48,71.42,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+40942,1,acru,428,0414,2.2,2,3,South,15.95,15.67,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+50364,1,qual,700,0507,4.2,18.1,2,South,37.36,38.14,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+50562,1,quru,715,0514,6.9,12.5,3,South,80.27,81.92,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+50650,1,litu,194,0514,19.5,14.9,3,South,29.51,29.26,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+52190,1,quru,1045,0522,16.4,3.4,4,North,99.39,100.15,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+60266,1,cato,511,0604,5.5,9.2,2,South,27.19,27.26,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60458,1,fagr,313,0615,1.9,0,3,South,75.73,75.11,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60459,1,fagr,126,0615,2,3,3,South,33.68,33.74,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60462,1,fagr,256,0615,5.6,7.6,3,South,22.88,22.43,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60463,1,juni,510,0615,7.2,8,3,South,102.6,101.72,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60469,1,cofl,74,0615,6.8,9.8,3,South,10.6,10.55,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60566,1,fagr,235,0614,10,11,3,South,32.38,32.39,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60573,1,tiam,284,0614,8.5,16.3,3,South,76.98,76.78,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60582,1,quru,304,0615,20,10.2,3,South,19.07,20.16,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60586,1,caca,78,0615,16.2,9.3,3,South,15.63,15.09,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60587,1,caca,84,0615,14,9.8,3,South,0,NA,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+60588,1,caco,311,0615,13.4,7.3,3,South,67.42,66.67,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+62114,1,quve,324,0619,18.7,12.6,4,North,81.6,83.54,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+62181,1,quve,1150,0621,8.8,13.5,4,North,16.78,16.33,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+62224,1,litu,1080,0622,3.2,17.3,4,North,64.21,62.17,62.25,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+70096,1,quru,946,0704,3.3,12.7,2,South,28.42,30.24,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70216,1,quve,961,0701,18.7,11.6,3,South,17.18,19.28,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70220,1,qual,578,0702,18.3,0.8,3,South,100.96,103.35,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70278,1,qupr,715,0704,15.6,15.4,2,South,98.39,99.2,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70492,1,nysy,227,0714,0.1,11.2,3,South,58.63,59.14,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70494,2,caca,74,0714,0.4,15.7,3,South,8.68,8.62,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70495,1,caca,92,0714,1.7,18.6,3,South,20.58,20.65,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70519,1,qual,562,0711,15.5,3.3,2,South,103.29,102.19,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70536,1,qual,625,0711,11.9,7.4,2,South,56.85,57.88,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70579,1,caovl,245,0714,19.2,4.3,2,South,51.3,50.98,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+70581,1,quru,650,0714,13.7,1.2,3,South,44.15,43.67,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+72024,1,quve,516,0717,20,9.6,4,North,76.02,76.11,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72116,1,litu,517,0719,14.4,10.8,4,North,77.42,76.51,76.56,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72124,1,quru,828,0719,12.5,19.4,4,North,110.24,111.91,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72210,1,qual,881,0721,5.2,11.5,4,North,56.86,57.71,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72308,1,qual,670,0725,15.2,13.3,7,North,84.51,83.86,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72324,1,litu,720,0726,14.4,6.6,7,North,102.5,101.53,101.57,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72337,1,quru,955,0727,7.9,2.6,7,North,93.13,93.52,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72348,1,quru,987,0727,12,15.1,7,North,82.57,83.89,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+72357,1,quru,957,0728,1.7,2,7,North,42.23,45.46,45.42,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+80180,1,cagl,1028,0804,15.9,5.3,2,South,56.56,57.63,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+80401,1,caco,480,0807,7.4,19.6,2,South,55.62,56.03,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+80554,1,caovl,551,0813,6.9,11.2,2,South,63.68,66,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+80559,1,nysy,439,0813,8.9,17.8,2,South,6.16,6.13,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+82203,1,litu,668,0822,8,9.4,4,North,89.82,89.69,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+82219,1,ceca,96,0822,14.7,18.8,4,North,20.74,20.02,NA,0,,some dieback,3,NA,NA,NA,JS,Jessica Shue
+82360,1,litu,640,0829,2.3,0.7,7,North,79.01,78.7,78.52,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+82365,1,qual,450,0829,4.9,4.7,7,North,73.34,73.51,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+82422,1,litu,563,0831,6.9,19.5,7,North,106.3,105.48,105.51,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+90660,1,quru,1034,0913,4.9,7.9,2,South,94.91,97.74,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+90752,1,qual,558,0916,12.4,7.4,5,North,2.76,3.23,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+91477,1,litu,225,0908,19.3,3.5,2,South,62.35,62.29,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+91486,1,cagl,600,0908,17.5,9.2,2,South,83.55,83.68,NA,NA,,NA,3,2025,5,1,Jennifer Jordan,Jessica Shue
+92237,1,nysy,220,0922,14.7,19.5,5,North,19.01,18.74,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
+92393,1,cagl,652,0925,19.8,7.7,7,North,22.53,22.33,NA,0,,NA,3,NA,NA,NA,JS,Jessica Shue
