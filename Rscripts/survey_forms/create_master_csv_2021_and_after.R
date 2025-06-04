@@ -20,7 +20,7 @@ library(stringr)
 library(lubridate)
 library(zoo)
 library(readr)
-# library(here)
+library(here)
 
 ## Establish years and filenames ----
 # Get current year
@@ -30,26 +30,24 @@ current_year <- Sys.Date() %>%
 # Establish filenames of this year's spring biannual, all intraannual,
 # and fall biannual survey raw data
 current_year_spring_biannual_filename <- 
-  str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") 
-# %>% here()
-current_year_spring_biannual_filename_BLANK <- gsub(".csv", "_BLANK.csv", current_year_spring_biannual_filename)
-
+  str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") %>% 
+  here()
 current_year_intraannual_filename_list <- 
   str_c("resources/raw_data/", current_year) %>% 
-  # here() %>% 
+  here() %>% 
   # Ignore _BLANK .csv files
   dir(path = ., pattern = "data_entry_intraannual_[0-9]+-[0-9]+\\.csv", full.names = TRUE)
 current_year_fall_biannual_filename <- 
-  str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") 
-# %>% here()
+  str_c("resources/raw_data/", current_year, "/data_entry_biannual_fall", current_year, ".csv") %>% 
+  here()
 
 # Establish filenames of previous year and current year finalized data
-current_year_data_filename <- str_c("data/scbi.dendroAll_", current_year, ".csv")
-# %>% here()
+current_year_data_filename <- str_c("data/scbi.dendroAll_", current_year, ".csv") %>%
+  here()
 
 last_year_fall_biannual_filename <- 
-  str_c("resources/raw_data/", current_year - 1, "/data_entry_biannual_fall", current_year - 1, ".csv")
-# %>% here()
+  str_c("resources/raw_data/", current_year - 1, "/data_entry_biannual_fall", current_year - 1, ".csv") %>% 
+  here()
 
 ## Create current year's blank master data csv ----
 # Code taken from Rscripts/survey_forms/new_scbidendroAll_[YEAR].R
@@ -68,8 +66,8 @@ variables_to_reset <- c(
 new_year_data[, variables_to_reset] <- ""
 
 
-# # Write to CSV for data folder #Valentine commented this out as she thinks it is unnecessary
-# write.csv(x = new_year_data, file = current_year_data_filename, row.names=FALSE)
+# Write to CSV for data folder
+write.csv(x = new_year_data, file = current_year_data_filename, row.names=FALSE)
 
 ## Load location and area of all stems ----
 # Code taken from Rscripts/survey_forms/biannual_survey.R on 2022/2/3
@@ -78,10 +76,11 @@ stem_locations <-
   # read_csv("data/dendro_trees.csv", show_col_types = FALSE) %>% 
   # select(tag, stemtag, quadrat, location) %>% 
   # For now do this manually, remove later
- 
-  scbi.dendroAll_BLANK %>% 
-  mutate(location = ifelse(quadrat %% 100 <= 15, "South", "North")) %>% 
-  select(tag, stemtag, quadrat, location) %>% 
+  bind_rows(
+    scbi.dendroAll_BLANK %>% 
+      mutate(location = ifelse(quadrat %% 100 <= 15, "South", "North")) %>% 
+      select(tag, stemtag, quadrat, location)
+  ) %>% 
   mutate(
     # Assign areas based on quadrats
     area = case_when(
@@ -124,14 +123,9 @@ spring_biannual <- merge(spring_biannual_area,
                          all.x = TRUE)
   
 
-spring_biannual <- spring_biannual %>% mutate(
-  survey.ID = ifelse(survey.ID %in% c(NA, ""), paste(current_year, "01", sep = "."), survey.ID), # pre-fillsurvey IDs
-  measure.verified = ""
-)
 
-
-# Write to CSV for spring biannual BLANK
-if(!file.exists(current_year_spring_biannual_filename_BLANK)) write.csv(x = spring_biannual %>% select(tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.verified,codes,new.band,notes,field.recorders,data.enter,survey.ID,year,month,day), file = current_year_spring_biannual_filename_BLANK, row.names=FALSE)  # Valentine this to the "BLANK" filename WE SHOULD NOT OVERWRITE RAW DATA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Write to CSV for spring biannual
+write.csv(x = spring_biannual, file = current_year_spring_biannual_filename, row.names=FALSE)
 
 
 
@@ -139,29 +133,24 @@ if(!file.exists(current_year_spring_biannual_filename_BLANK)) write.csv(x = spri
 # Code taken from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_spring_biannual_filename)){
   ## 2.a) Merge data_entry form spring biannual with the year's master file ----
-  # current_year_data <- read.csv(current_year_data_filename)
-  current_year_data <- new_year_data [, apply(new_year_data, 2, function(x) !all(x %in% c("", NA)))] # added by Valentine. this is so that now current year data will just be merged in
+  current_year_data <- read.csv(current_year_data_filename)
+  data_biannual <- read.csv(current_year_spring_biannual_filename)
   
-  data_biannual <- read.csv(current_year_spring_biannual_filename) %>% 
-    mutate(biannual = 1)
-
-  # names_current_year <- c(colnames(current_year_data))
-  # namesbi <- c(colnames(data_biannual))
-  # 
-  # # find the names that are in current_year_data but not in data_biannual
-  # ## add these missed names to data_biannual in order to combine to the master
-  # missing_vars <- setdiff(names_current_year, namesbi)
-  # data_biannual[missing_vars] <- NA
-  # 
-  # # if need be, do the opposite
-  # # these variables are only relevant for field
-  # drop_vars <- setdiff(namesbi, names_current_year)
-  # data_biannual <- data_biannual %>% 
-  #   select(-all_of(drop_vars))
-  # 
-  # test <- rbind(current_year_data, data_biannual)
+  names_current_year <- c(colnames(current_year_data))
+  namesbi <- c(colnames(data_biannual))
   
-  test <- merge(data_biannual,current_year_data ) 
+  # find the names that are in current_year_data but not in data_biannual
+  ## add these missed names to data_biannual in order to combine to the master
+  missing_vars <- setdiff(names_current_year, namesbi)
+  data_biannual[missing_vars] <- NA
+  
+  # if need be, do the opposite
+  # these variables are only relevant for field
+  drop_vars <- setdiff(namesbi, names_current_year)
+  data_biannual <- data_biannual %>% 
+    select(-all_of(drop_vars))
+  
+  test <- rbind(current_year_data, data_biannual)
   
   # order by tag, then stemtag, then survey.ID (IMPORTANT for multistem plants):
   test <- test[order(test$tag, test$stemtag, test$survey.ID, na.last=FALSE), ] 
@@ -193,12 +182,6 @@ if(file.exists(current_year_spring_biannual_filename)){
   test$notes <- as.character(test$notes)
   test$notes <- ifelse(is.na(test$notes), "", test$notes)
   
-  
-  test <- test[, c("tag", "stemtag", "survey.ID", "year", "month", "day", "biannual", 
-                   "intraannual", "sp", "quadrat", "lx", "ly", "measure", "codes", 
-                   "notes", "status", "field.recorders", "data.enter", "stemID", 
-                   "treeID", "dendDiam", "dbh", "new.band", "dendroID", "type", 
-                   "dendHt")]
   # Write to CSV
   write.csv(x = test, file = current_year_data_filename, row.names=FALSE)
   
@@ -206,8 +189,6 @@ if(file.exists(current_year_spring_biannual_filename)){
   
   ## 2.b) Create field form for first biweekly (if it hasn't taken place yet)----
   if(length(current_year_intraannual_filename_list) == 0){
-    
-    stop("Check code makes sense")
     new_survey_ID <- "02"
     
     blank_form <- scbi.dendroAll_BLANK %>% 
@@ -246,7 +227,7 @@ if(file.exists(current_year_spring_biannual_filename)){
         survey.ID = str_c(year, ".", new_survey_ID)
       )
     
-    str_c("/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-", new_survey_ID, "-BLANK.csv") %>% 
+    str_c(here(), "/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-", new_survey_ID, "-BLANK.csv") %>% 
       write_csv(x = blank_form, file = .)
   }
   
@@ -260,13 +241,9 @@ if(file.exists(current_year_spring_biannual_filename)){
 # Code taken from Rscripts/survey_forms/intraannual.R
 
 if(length(current_year_intraannual_filename_list) > 0){
-  
-  current_year_data <- read.csv(current_year_data_filename)
-  
   ## 3.a) Merge data_entry forms for all biweekly surveys with the year's master file ----
-  
   for(i in 1:length(current_year_intraannual_filename_list)){
-   
+    current_year_data <- read.csv(current_year_data_filename)
     
     # Change for the appropriate surveyID file
     data_intra <- current_year_intraannual_filename_list[i] %>% 
@@ -282,48 +259,43 @@ if(length(current_year_intraannual_filename_list) > 0){
     # data_intra$codes <- ifelse(is.na(data_intra$codes), "", data_intra$codes)
     # data_intra$notes <- ifelse(is.na(data_intra$notes), "", data_intra$notes)
     
+    names_current_year <- c(colnames(current_year_data))
+    namesintra <- c(colnames(data_intra))
     
-    tree_info <- new_year_data[, apply(new_year_data, 2, function(x) !all(x %in% c("", NA)))] # added by Valentine. this is so that now current year data will just be merged in
-
-    data_intra <- merge(data_intra, tree_info)
+    ## find the names that are in data_2018 but not in data_biannual
+    missing <- setdiff(names_current_year, namesintra)
     
-    # names_current_year <- c(colnames(current_year_data))
-    # namesintra <- c(colnames(data_intra))
-    # 
-    # ## find the names that are in data_2018 but not in data_biannual
-    # missing <- setdiff(names_current_year, namesintra)
-    # 
-    # ## if need be, do the opposite
-    # # missing <- setdiff(namesintra, names_current_year)
-    # 
-    # ## add these missed names to data_intra in order to combine to the master
-    # data_intra[missing] <- NA
-    # data_intra$area <- NULL #this column is only relevant for field
-    # data_intra$location <- NULL #only for when merging data pre-2018
+    ## if need be, do the opposite
+    # missing <- setdiff(namesintra, names_current_year)
     
-    test <- bind_rows(current_year_data, data_intra) %>% as.data.frame
+    ## add these missed names to data_intra in order to combine to the master
+    data_intra[missing] <- NA
+    data_intra$area <- NULL #this column is only relevant for field
+    data_intra$location <- NULL #only for when merging data pre-2018
     
-    # test <- test[order(test[,"tag"], test[,"stemtag"], test[,"survey.ID"]),] #order by tag and survey.ID
-    # 
-    # ## these values are constant from the previous survey.ID
-    # test$biannual <- na.locf(test$biannual)
-    # test$intraannual <- na.locf(test$intraannual)
-    # test$lx <- na.locf(test$lx)
-    # test$ly <- na.locf(test$ly)
-    # test$stemID <- na.locf(test$stemID)
-    # test$treeID <- na.locf(test$treeID)
-    # test$dbh <- na.locf(test$dbh)
-    # 
-    # 
-    # ## these should be constant from previous survey, but obviously are updated whenever a new dendroband is installed
-    # test$dendroID <- na.locf(test$dendroID)
-    # test$dendHt <- na.locf(test$dendHt)
-    # test$type <- na.locf(test$type)
-    # 
-    # ## these values are not always constant
-    # test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
-    # test$status <- as.character(test$status)
-    # test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
+    test <- rbind(current_year_data, data_intra)
+    
+    test <- test[order(test[,"tag"], test[,"stemtag"], test[,"survey.ID"]),] #order by tag and survey.ID
+    
+    ## these values are constant from the previous survey.ID
+    test$biannual <- na.locf(test$biannual)
+    test$intraannual <- na.locf(test$intraannual)
+    test$lx <- na.locf(test$lx)
+    test$ly <- na.locf(test$ly)
+    test$stemID <- na.locf(test$stemID)
+    test$treeID <- na.locf(test$treeID)
+    test$dbh <- na.locf(test$dbh)
+    
+    
+    ## these should be constant from previous survey, but obviously are updated whenever a new dendroband is installed
+    test$dendroID <- na.locf(test$dendroID)
+    test$dendHt <- na.locf(test$dendHt)
+    test$type <- na.locf(test$type)
+    
+    ## these values are not always constant
+    test$new.band <- ifelse(is.na(test$new.band), 0, test$new.band)
+    test$status <- as.character(test$status)
+    test$status <- ifelse((is.na(test$status))&(grepl("D", test$codes)), "dead", na.locf(test$status))
     
     #DENDROID
     ##1. if any bands were given a note of "band adjusted" in the intraannual survey, give it a new.band = 1 and update the dendroID in the scbi.dendroAll_YEAR.csv manually
@@ -376,7 +348,7 @@ if(length(current_year_intraannual_filename_list) > 0){
       survey.ID = str_c(year, ".", new_survey_ID)
     )
   
-  str_c("/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-", new_survey_ID, "-BLANK.csv") %>% 
+  str_c(here(), "/resources/raw_data/", current_year, "/data_entry_intraannual_", current_year,"-", new_survey_ID, "-BLANK.csv") %>% 
     write_csv(x = blank_form, file = .)
   
   
@@ -396,7 +368,6 @@ if(length(current_year_intraannual_filename_list) > 0){
 # 4. Process fall biannual field form -----
 # Code taken from Rscripts/survey_forms/biannual_survey.R
 if(file.exists(current_year_fall_biannual_filename)){
-  stop("CHECK CODE HERE ! probably need to merge instead of rbind")
   ## 4.a) Merge data_entry form spring biannual with the year's master file ----
   current_year_data <- read.csv(current_year_data_filename)
   data_biannual <- read.csv(current_year_fall_biannual_filename)
