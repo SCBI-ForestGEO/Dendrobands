@@ -1,0 +1,491 @@
+tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.verified,new.band,codes,notes,field.recorders,data.enter,survey.ID,year,month,day
+100498,1,caco,163,1003,16.7,14.2,2,South,29.51,40.84,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100516,1,litu,1089,1004,17.9,2.3,2,South,13.44,25.8,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100562,1,litu,669,1004,9.1,19.2,2,South,51,57.49,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100612,1,litu,1276,1003,12,4.4,2,South,78.04,97.93,97.6,0,BA,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100754,1,quru,461,1005,3.8,6.8,2,South,71.01,86.64,86.65,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100771,1,quru,1020,1005,8.5,17,2,South,48.03,96.52,95.46,0,BA,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100905,1,litu,693,1008,10,1.6,2,South,57.27,64.57,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100906,1,litu,506,1008,9.3,1.1,2,South,40.4,44.55,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100955,1,quru,314,1010,16.7,6.8,2,South,27.25,33.17,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100960,1,quru,650,1010,13.8,10.5,2,South,29.22,53.05,52.99,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+100963,1,caovl,208,1010,11.1,14.7,2,South,23.08,28.79,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+101008,1,tiam,190,1006,4.2,11.6,2,South,27.13,37.22,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+101075,1,qupr,373,1008,3,13.1,2,South,11.47,19.62,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+101111,1,litu,106,1011,0.1,1.3,2,South,42.13,45.72,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+101118,1,litu,236,1011,0.3,3,2,South,58.63,68.72,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+101223,1,qupr,694,1013,9.4,17.8,3,South,78.61,94.77,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+102148,1,cato,253,1019,2,15.4,5,North,26.43,28.28,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102149,1,cagl,72,1020,1.4,0.2,5,North,8.56,10.04,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102150,1,qual,506,1020,4.3,2.1,5,North,9.55,15.97,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102154,1,qual,517,1020,5.4,8.5,5,North,21.07,27.28,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102163,1,cato,103,1020,14.3,14.8,5,North,10.23,13.76,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102177,1,qual,735,1020,3.4,11.7,5,North,31.35,35.44,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102199,1,cagl,487,1021,1.3,8,5,North,6.38,31.12,31.09,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102258,1,qual,435,1022,10.3,17.4,5,North,22.56,26.38,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102261,1,qual,687,1022,5.3,20,5,North,69.5,83.09,83.11,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102262,1,qual,543,1022,1.8,20,5,North,113.58,119.76,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102264,1,qual,404,1022,1.5,14.2,5,North,66.39,71.52,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102303,1,quve,924,1024,8.2,0.9,5,North,30.94,52.27,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+102348,1,qual,900,1025,16.5,11.5,7,North,72.06,87.83,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102364,1,qual,658,1025,2.1,18,7,North,19.04,23.76,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102371,1,qual,808,1026,1.6,6.6,7,North,,0,,0,,new band to be installed,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102438,1,litu,473,1028,8.5,16.6,7,North,111.57,122.88,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102438,2,litu,476,1028,8.5,16.6,7,North,9.36,0,,0,,replace spring,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102439,1,litu,224,1028,4.3,19.6,7,North,22.57,24.63,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102441,1,litu,520,1029,1.3,3,7,North,109.91,117.8,,0,RE,two springs,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102443,1,litu,518,1029,4.1,7,7,North,85.38,88.44,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102444,1,litu,685,1029,4.3,5.3,7,North,120.32,136.36,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102446,1,litu,501,1029,0.5,3.7,7,North,79.53,89.34,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102446,2,litu,273,1029,0.5,3.7,7,North,33.98,35.91,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102475,1,litu,855,1030,20,14.3,8,North,52.26,62.58,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102501,1,litu,657,1031,9.8,17.3,7,North,28.79,36.13,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102502,1,ulru,140,1031,0.1,18.6,7,North,6.4,7.54,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+102509,1,quve,924,1032,9.6,0.9,7,North,24.28,43.61,42.96,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+10469,1,litu,931,0109,9.7,1,3,South,124.72,0,,0,RE,outgrown,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+10587,1,litu,1002,0113,2.6,13,3,South,114.99,129.01,128.77,0,BA,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+10609,1,cagl,444,0111,19.5,2.9,3,South,14.52,28.58,28.57,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+10643,1,fagr,693,0112,0.6,13,3,South,39.28,41.41,,0,BA,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+10669,1,cagl,811,0114,6.1,12.3,3,South,7.92,28.65,28.88,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+10671,1,quru,930,0114,6.2,14.5,3,South,28.91,54.44,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+110061,1,litu,1213,1101,17,10,2,South,45.49,59.01,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+110526,1,ceca,153,1103,15.1,3,2,South,28.35,33.02,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+110680,1,litu,715,1104,2,6.5,2,South,62.84,78.41,78.42,0,BA,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+110788,1,litu,670,1104,19.9,11.7,2,South,37.68,45.73,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+110791,1,litu,666,1104,11.3,10,2,South,32.64,37.07,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+110798,1,litu,750,1104,16,15.5,2,South,84.98,90.55,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+110901,1,litu,562,1105,20,4.1,2,South,12.52,19.96,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111014,1,litu,698,1107,13.9,12.2,2,South,39.67,46.75,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111030,1,litu,623,1107,15.1,19.9,2,South,14.38,18.29,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111032,1,litu,622,1107,10.3,19,2,South,86.49,91.7,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111032,2,litu,440,1107,10.3,19,2,South,76.68,79.75,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111039,1,litu,473,1108,19.7,4.1,2,South,37.64,42.43,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111092,1,litu,599,1110,18.3,17.7,2,South,86.17,97.45,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111093,1,litu,510,1110,13.4,16.4,2,South,12.08,23.95,,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+111305,1,caovl,234,1113,4.7,19.3,3,South,2.75,4.54,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+112014,1,cagl,515,1117,18,11.2,5,North,13.68,18.28,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112057,1,acru,728,1117,8.8,4.2,5,North,9.12,18.02,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112130,1,qual,149,1119,17.2,18.3,5,North,12.86,13.11,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112136,1,pist,315,1120,13.9,2.5,5,North,86.62,101.81,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112137,1,qual,607,1120,13.4,3.9,5,North,90.72,105.33,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112142,1,qual,418,1120,16,3.5,5,North,8.88,14.85,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112192,1,quve,345,1121,9.1,13.1,5,North,9.86,11.33,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112250,1,pist,470,1122,10.8,18.4,5,North,7.59,37.02,37.05,0,BA,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112252,1,litu,495,1122,13.6,19.4,5,North,26.95,42.99,43.07,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+112316,1,quve,855,1125,8.7,1,8,North,,0,,0,DC,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112342,1,nysy,199,1125,14.2,16.7,8,North,9.24,9.25,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112350,1,cagl,621,1126,11.7,5.6,8,North,97.88,110.66,110.78,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112466,1,cato,240,1129,17.5,7.1,8,North,29.67,31.87,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112467,1,litu,484,1129,19.6,12.5,8,North,95.51,98.18,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112480,1,litu,625,1131,14.4,10.9,8,North,100.64,105.32,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112481,1,litu,468,1131,14.9,14.4,8,North,84.7,88.45,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112482,1,litu,271,1131,17.8,15.9,8,North,21.31,24.39,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+112698,1,ulru,114,1128,17.9,18.2,8,North,43.5,47.22,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+12025,1,quru,941,0117,5,16.3,4,North,31.51,64.06,64.56,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+120278,1,litu,892,1201,5,8.6,2,South,71.08,89.49,,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+120755,1,litu,705,1204,6.8,10,2,South,49.16,59.16,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+120777,1,litu,553,1205,3.8,0.2,2,South,16.18,22.92,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+120781,1,litu,637,1205,3,2.2,2,South,20.71,28.46,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+120790,1,litu,478,1205,0.4,6.2,2,South,49.31,55.72,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121195,1,quru,974,1211,12.4,0.4,2,South,21.85,39.93,,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121221,1,litu,120,1207,1.7,19.3,2,South,10.83,11.81,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121275,1,qupr,260,1209,1.7,16.9,2,South,32.23,36.17,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121291,1,qupr,479,1210,2.8,9.4,2,South,43.84,60.33,60.39,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121301,1,caovl,257,1211,1.2,2.5,2,South,21.24,28.13,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121305,1,quru,793,1211,1.1,11.2,2,South,41.44,51.16,,0,BA,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+121367,1,nysy,282,1216,4.6,10.8,5,North,94.12,101.64,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+121374,1,juni,378,1216,0.7,18.5,5,North,15.15,19.37,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+121438,1,caco,404,1215,19.1,6.5,3,South,53.58,66.84,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+122006,1,acru,452,1217,9.9,8.3,5,North,25.78,43.97,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122009,1,acru,303,1217,1.2,4.1,5,North,40.88,46.93,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122120,1,qual,342,1220,2.6,0.6,5,North,41.35,47.68,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122121,1,pist,318,1220,1.6,2.3,5,North,60.76,74.21,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,5
+122136,1,quru,666,1220,5.5,7.6,5,North,32.47,52.77,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122150,1,pist,342,1221,0.8,0.7,5,North,11.53,13.36,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122154,1,pist,148,1221,5.8,5.2,5,North,3.59,4.56,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122184,1,pist,246,1222,2.9,13.9,5,North,23.99,28.01,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122185,1,pist,162,1222,5.6,14.9,5,North,5.98,6.04,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122189,1,qual,708,1222,5.5,19.5,5,North,13.23,22.43,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122248,1,qual,598,1222,10.5,13.1,5,North,90.11,100.87,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122303,1,qual,664,1223,1.9,8.5,5,North,15.7,23.39,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+122343,1,qual,660,1225,10.7,14.4,8,North,47.45,62.48,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122427,1,qual,875,1227,17,15.6,8,North,89.64,104.66,104.67,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122439,1,cagl,182,1228,12.6,13,8,North,37.33,38.74,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122450,1,ulru,268,1225,3,19.1,8,North,49.22,56.05,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122458,1,cagl,238,1226,4.6,4.9,8,North,24.51,29.4,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122482,1,litu,596,1228,14.5,2.4,8,North,15.3,22.59,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122486,1,litu,661,1228,2.7,17,8,North,53.22,64.64,,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122489,1,cagl,290,1229,2.8,4.3,8,North,75.35,80.35,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122492,1,litu,560,1229,2.5,11.5,8,North,83.52,93.35,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122522,1,litu,442,1232,3.4,17.4,8,North,12.69,17.03,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+122561,1,litu,710,1231,0,10.5,8,North,67.61,81.01,81,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+12259,1,litu,1045,0125,16.3,1.5,4,North,35.06,20.97,21.5,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+12416,1,cato,131,0129,17.1,16.1,4,North,18.92,23.43,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+12508,1,litu,925,0131,10.7,10.4,4,North,85.75,92.15,,0,RT,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+130348,1,litu,626,1302,19.9,1.9,1,South,74.07,86.13,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+130838,1,litu,693,1305,12.2,1,2,South,85.18,100.21,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+131009,1,quve,806,1308,13.9,0.7,2,South,89.51,94.27,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+131087,1,quru,712,1310,17.3,17.8,2,South,117.69,131.93,,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+131092,1,litu,515,1311,13.1,2.7,2,South,117.27,126.26,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+131096,1,litu,289,1311,19,4.7,2,South,19.85,21.5,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+131188,1,litu,635,1313,10,15.3,3,South,104.54,117.38,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+131233,1,litu,317,1313,18.3,19.6,3,South,98.91,104.68,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+131239,1,quru,651,1314,19.5,5.7,3,South,103.05,131.97,,0,RE,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+131364,1,acru,487,1316,12,12.9,5,North,94.75,112.98,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+131422,1,caco,163,1316,13.4,9.6,5,North,35.12,46.09,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+132077,1,qual,649,1319,9.9,15.9,5,North,27.29,44.1,,0,RT,No tag,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+132171,1,litu,568,1320,13.7,6.7,5,North,103.06,111.77,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+132280,1,fram,114,1324,6.1,18.2,5,North,15.42,20.06,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+132311,1,qual,568,1322,12.9,14.2,5,North,49.39,59.41,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+132321,1,quru,659,1323,17.6,1,5,North,20.83,29.89,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+132371,1,quru,792,1325,19.9,12.9,8,North,38.08,74.33,74.39,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+132529,1,litu,936,1329,16.6,13.2,8,North,93.83,112.42,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+132539,1,litu,640,1331,15,15.9,8,North,78.2,87.31,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+132542,1,quve,751,1332,15.4,2.9,8,North,42.56,52.86,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+132545,1,litu,466,1332,9.5,11.2,8,North,40.01,45.2,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+140609,1,litu,1134,1403,4.3,3.6,1,South,67.54,85.07,85.03,0,,double stems replace tree,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+140646,1,litu,763,1405,1,8.3,2,South,14.99,29.79,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140751,1,quve,740,1408,9.9,1.5,2,South,88.96,109.33,109.43,0,BA,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140813,1,litu,751,1410,8.3,11.2,2,South,16.85,25.69,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140821,1,litu,574,1411,4.6,0.4,2,South,94.54,101.22,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140825,1,litu,542,1411,8,5.9,2,South,77.41,86.07,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140829,1,litu,662,1411,0.6,4.9,2,South,85.43,95.71,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140833,1,litu,597,1411,5.6,9.5,2,South,45.14,52.61,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+140872,1,litu,661,1413,6.1,14.9,3,South,110.46,126.03,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+141216,1,caco,163,1415,2.1,6.2,3,South,50.44,57.13,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+142113,1,cagl,488,1417,3,5,5,North,55.17,56.85,,0,RT,No tag,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+142380,1,qual,611,1425,6.8,13.1,8,North,81.67,92.54,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142399,1,qual,650,1427,14.4,0.5,8,North,62.68,75.92,76.08,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142521,1,pist,508,1422,6.4,11.1,5,North,24.69,39.61,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+142527,1,cagl,170,1422,1.9,18.4,5,North,42.25,45.72,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+142548,1,qual,625,1424,4,4.7,5,North,48.04,58.29,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+142575,1,quve,552,1426,1.8,6.4,8,North,20.55,43.86,43.87,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142650,1,ceca,118,1430,17.4,5.7,8,North,18.91,22.32,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142656,1,litu,440,1431,12.4,12.8,8,North,85.9,91.5,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142708,1,juni,428,1429,4.3,6.2,8,North,1.84,6.77,6.71,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142727,1,litu,958,1431,1.7,8.2,8,North,29.66,35.9,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142729,1,litu,487,1431,4.7,14.7,8,North,75.85,81.24,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142730,1,litu,718,1431,9.9,14.7,8,North,111.54,126.45,126.29,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142731,1,litu,540,1432,8.2,2.3,8,North,75.42,79.55,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142732,1,cagl,229,1432,1.6,1.2,8,North,51.73,56.59,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+142733,1,litu,653,1432,0.5,5.4,8,North,94.08,107.68,107.72,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+143707,1,cagl,150,1426,0.9,1.6,8,North,24.37,27.28,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+150781,1,ulru,133,1504,1.2,18.5,1,South,9.85,14.39,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+152153,1,ploc,1014,1520,6.8,0.3,6,North,6.62,34.95,34.97,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+152513,1,qupr,625,1525,4.6,19.2,9,North,32.64,38.09,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+152561,1,quve,809,1527,11.9,3.1,9,North,,0,,0,,new band to be installed,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+152673,1,litu,961,1530,3.6,18.8,9,North,131.52,140.05,,0,,two stems; replace tree,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+152701,1,litu,971,1531,11.3,15.7,9,North,91.91,98.82,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+160713,1,litu,940,1603,10.4,13.7,1,South,13.66,38.84,38.58,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+160742,1,litu,919,1605,19.3,6.6,1,South,21.67,36.62,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+160805,1,quve,621,1610,17.8,9.9,1,South,9.93,13.91,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+160814,1,cato,447,1611,14.3,5.7,1,South,10.45,15.68,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+160862,1,ploc,889,1614,12.4,15.2,1,South,12,38.13,38.1,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+160910,1,litu,1039,1607,8.6,1.1,1,South,59.6,71.21,71.16,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+161578,1,qual,239,1616,5.6,14.7,6,North,42.62,50.24,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+162024,1,quve,297,1618,9.7,9.7,6,North,14.69,18.98,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+162293,1,qual,896,1623,3,9.4,6,North,10.16,18.86,,0,,"two stems, replace tree",Jessica Shue,Jessica Shue,2025.13,2025,12,4
+162439,1,quru,874,1627,16.3,0.3,9,North,90.32,105.3,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+162446,1,quru,822,1630,14.1,2.9,9,North,74.1,90.11,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+162541,1,qupr,414,1627,3.4,15.4,9,North,25.33,34.28,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+162543,1,qual,904,1627,7.5,16.6,9,North,92.44,97.7,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+170175,1,litu,984,1702,4.7,1.6,1,South,31.26,57.35,57.35,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+170992,1,litu,740,1704,12.2,15.2,1,South,20.56,31.96,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+170994,1,litu,594,1704,18.4,16.1,1,South,55.6,66.29,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171127,1,litu,802,1705,9.3,1.8,1,South,94.43,109.33,109.51,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171254,1,litu,799,1708,15.3,3.4,1,South,19.03,26.86,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171257,1,litu,647,1708,12.2,4.5,1,South,113.23,118.62,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171262,1,litu,663,1708,15.9,8.2,1,South,52.06,59.38,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171348,1,ceca,164,1714,19.4,2.4,1,South,11.69,12.43,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171454,1,caco,124,1714,1.6,13.8,1,South,30.41,33.6,33.56,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171456,1,acru,768,1714,0.8,13.4,1,South,72.82,86.21,,0,,"old wound; tree irregular, replace",Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171462,1,qual,870,1715,7.9,7.5,1,South,94.06,112.95,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171505,1,litu,491,1716,14.1,12.4,6,North,15.21,16.41,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+171506,1,litu,536,1716,12,12.9,6,North,78.57,89.96,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172201,1,cagl,68,1717,19.5,1.2,6,North,44.83,45.39,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172202,1,quru,589,1717,17.1,1.8,6,North,113.61,128.95,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172203,1,qual,378,1717,15.5,0.3,6,North,33.17,37.3,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172205,1,qual,512,1717,16.1,3.5,6,North,29.8,35.89,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172248,1,cato,280,1719,19.2,19.3,6,North,34.34,37.51,37.54,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172382,1,juni,478,1723,18.2,14.9,6,North,9.04,13.27,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+172416,1,nysy,204,1725,19.9,15.6,9,North,9.81,12.02,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172417,1,nysy,98,1725,20,18.4,9,North,20.12,20.18,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172418,1,nysy,295,1725,20,19.5,9,North,31.02,31.13,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172421,1,cagl,260,1725,14.7,20,9,North,45.19,53.16,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172423,1,litu,406,1726,18.4,1.6,9,North,127.93,140.42,140.46,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172499,1,qual,1077,1730,17,3.1,9,North,91.32,108.73,,0,,two stems; replace tree,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172556,1,litu,887,1729,5.1,3.9,9,North,22.05,36.25,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+172624,1,litu,499,1731,17.1,14.5,9,North,84.55,92.39,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+180235,1,litu,1072,1802,11,4.6,1,South,56.03,74.89,74.9,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180648,1,juni,301,1804,7.5,10.9,1,South,2.38,3.33,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180654,1,litu,394,1805,6,0.3,1,South,78.93,96.62,96.63,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180691,1,litu,790,1807,6.2,17.3,1,South,113.54,125.02,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180728,1,litu,422,1804,3.1,12.7,1,South,60.68,70.04,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180903,1,litu,331,1808,4.8,2.3,1,South,29.61,33.87,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180904,1,litu,400,1808,2.8,6.5,1,South,84.87,96.1,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180931,1,quve,822,1809,8.2,19.4,1,South,14.38,30.21,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180948,1,qupr,134,1811,1,9.5,1,South,12.48,14.75,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180984,1,litu,985,1813,4,11.8,1,South,112.02,120.23,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+180991,1,ploc,963,1814,1.5,6.7,1,South,46.19,56.78,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+181030,1,qual,795,1816,5.4,10.6,6,North,50.01,15.25,15.25,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+181033,1,litu,573,1816,3.4,18.6,6,North,71.86,84.29,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+182207,1,qual,560,1817,5.6,11.2,6,North,5.55,13.41,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+182208,1,quru,559,1817,4,10.1,6,North,24,40.51,40.52,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+182376,1,ploc,702,1823,2.9,12.6,6,North,57.55,87.53,87.46,0,RE,fast growth; needs larger window,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+182398,1,ceca,114,1825,0.6,5.5,9,North,23.26,25.12,,0,,tree is injured,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+182471,1,ceca,91,1829,2.6,19,9,North,30.94,46.88,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+182491,1,litu,440,1831,7.6,7.9,9,North,117.72,123.56,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+182570,1,juni,568,1823,10.5,1,6,North,15.23,26.77,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+182681,1,litu,635,1829,13,1,9,North,63.29,76,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+182693,1,litu,894,1830,15.3,13.2,9,North,88.31,105.79,,0,,two stems; replace tree,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+190065,1,litu,569,1902,18.8,0.4,1,South,43.02,52.86,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190067,1,litu,760,1902,19,2.2,1,South,85.52,97.19,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190071,1,litu,228,1902,20,4.3,1,South,41.13,49.36,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190115,1,litu,982,1902,4.8,18.6,1,South,42.83,57.81,57.82,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190413,1,litu,1046,1904,14.7,5.6,1,South,27.28,41.24,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190426,1,litu,1080,1904,11,16,1,South,49.95,65.39,65.38,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190429,1,litu,745,1904,12.5,19.1,1,South,14.49,21.49,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190568,1,juni,955,1912,2.6,18.8,1,South,81.47,99.07,99.02,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190655,1,litu,583,1907,12.9,16.1,1,South,90.36,98.24,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190658,1,litu,488,1907,10.6,16.7,1,South,70.25,76.18,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190670,1,litu,577,1908,8,3.2,1,South,44.32,49.79,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190694,1,quru,1353,1909,18.2,14.7,1,South,50.36,66.79,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190704,1,caco,222,1910,15.2,4.3,1,South,28.63,39.92,39.91,0,,"released, DC FRAXINUS next door",Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190793,1,litu,639,1914,12.2,1.3,1,South,38.86,45.95,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190794,1,quru,692,1914,10.6,1.4,1,South,69.15,92.62,92.61,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+190798,1,cagl,284,1914,12.5,8.4,1,South,20.96,24.08,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+192008,1,qual,719,1917,12,2,6,North,80.29,111.38,111.59,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+192133,1,caovl,579,1923,11.7,2.3,6,North,48.71,58.09,58.07,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+192244,1,qual,478,1919,18.1,16.8,6,North,82.72,90.37,90.37,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+192437,1,litu,463,1925,17,11.5,9,North,39.17,50.67,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192466,1,quru,869,1926,13.3,1.7,9,North,38.41,60.56,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192484,1,quru,457,1926,17.4,11.2,9,North,100,117.43,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192527,1,litu,529,1928,11.9,5,9,North,113.23,120.29,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192528,1,litu,605,1928,12.4,9.7,9,North,58.69,69.13,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192533,1,litu,429,1928,18.4,17.2,9,North,14.25,23.08,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192534,1,litu,583,1928,13.3,17.4,9,North,20.66,28.7,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192542,1,litu,335,1929,18.9,3.8,9,North,41.76,59.78,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192543,1,litu,459,1929,14.9,4.4,9,North,75.31,82.04,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192546,1,litu,555,1929,17.4,7.3,9,North,124.66,135.03,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192548,1,litu,494,1929,15.3,11.3,9,North,26.64,35.11,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192560,1,qual,970,1930,12.9,19.5,9,North,53.26,74.91,,0,,two stems; replace tree,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+192619,1,quru,845,1926,12.6,8.5,9,North,12,39.86,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+200142,1,litu,635,2002,1.3,3.5,1,South,52.44,61.67,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200151,1,litu,723,2002,6.9,4,1,South,111.12,124.35,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200547,1,litu,690,2005,2.6,1.1,1,South,36.82,41.95,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200551,1,litu,602,2005,1,5.3,1,South,22.04,26.4,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200577,1,juni,544,2007,6.1,9.6,1,South,5.69,5.11,5.12,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200586,1,juni,451,2007,2,13.9,1,South,26.18,32.51,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200676,1,litu,905,2008,12.2,6.9,1,South,40.08,49.83,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200812,1,juni,559,2008,8,1.2,1,South,48.47,50.33,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200818,1,litu,351,2008,4.4,3.9,1,South,19.86,23.76,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+200822,1,litu,882,2008,5.6,10.3,1,South,38.86,51.13,51.06,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201171,1,ceca,115,2011,8.7,9.4,1,South,11.15,11.54,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201180,1,caco,137,2011,10.5,14.6,1,South,28.88,38.38,,0,,replace spring,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201207,1,litu,1354,2012,10,17.3,1,South,36.48,0,,0,,multiple stems; band previously removed,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201261,1,juni,500,2013,0.3,17.3,1,South,55.56,72.98,72.92,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201264,1,litu,451,2014,0.3,6.8,1,South,92.89,99.52,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201274,1,litu,630,2014,5.3,8.9,1,South,31.58,37.29,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201278,1,litu,681,2014,2.2,11.8,1,South,41.81,45.33,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201279,1,quru,511,2014,1.9,13,1,South,53.14,80.91,80.92,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201331,1,qupr,447,2015,14.3,9.5,1,South,43.54,49.32,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201432,1,quve,457,2016,0.3,12.5,6,North,114.67,128.58,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+201441,1,litu,834,2016,11.8,19.2,6,North,92.07,107.66,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202050,1,qual,501,2019,9.2,14.5,6,North,55.73,61.11,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202072,1,qual,741,2020,2.1,10.8,6,North,63.57,72.99,73.03,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202201,1,cato,151,2017,3.2,1.1,6,North,47.34,55.84,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202203,1,quru,537,2017,9.2,1.4,6,North,10.31,37.69,37.77,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202212,1,quve,632,2017,4.3,9.5,6,North,23.51,34.19,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202215,1,qual,570,2017,5.5,11.7,6,North,9.11,16.36,16.28,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202276,1,caovl,265,2019,7.1,13.8,6,North,16.39,18.53,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202283,1,litu,334,2020,4.5,2.9,6,North,41.74,55.83,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202336,1,cagl,473,2022,3,10.7,6,North,30.7,44.61,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202337,1,cagl,461,2023,1,0.2,6,North,117.98,133.55,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,4
+202444,1,litu,713,2025,0.9,12.5,9,North,72.16,85.69,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+202449,1,litu,641,2026,0,1,9,North,43.95,50.69,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+202543,1,litu,253,2028,0.5,15.6,9,North,8.88,24.52,24.46,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+202550,1,litu,603,2029,2.1,10.7,9,North,51.54,62.63,,0,BA,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+202686,1,ulru,142,2025,7.2,16.2,9,North,,0,,0,,new band to be installed,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+20587,1,litu,1310,0208,14.8,1.3,3,South,78.23,96.08,,0,,replace tree,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+20617,1,litu,901,0209,6.9,7.6,3,South,84.14,93.96,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+20712,1,litu,949,0212,1.5,8.3,3,South,119.89,133.39,,0,"BA, RE",,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+20737,1,tiam,189,0213,12.6,3.8,3,South,20,26.64,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+22004,1,litu,861,0217,8.6,1.7,4,North,101.51,119.18,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22041,1,litu,868,0217,1.8,19,4,North,93.16,95.26,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22141,1,tiam,147,0221,1.9,1.2,4,North,18.16,22.57,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22170,1,litu,1151,0221,7.9,13.8,4,North,56.8,61.66,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22186,1,tiam,380,0222,17,7.5,4,North,19.48,26.49,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22315,1,caco,575,0225,11,4,4,North,28.25,32.74,33.11,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22489,1,cato,143,0229,16.1,1.8,4,North,12.39,18.78,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+22601,1,juni,140,0231,17.8,10,4,North,11.19,11.61,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+30225,1,qual,275,0306,20,3.1,3,South,40.62,43.86,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30233,1,fagr,1109,0306,15.6,16.2,3,South,113.04,131.97,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30234,1,fagr,84,0306,15.3,18.5,3,South,21.57,26.48,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30262,1,cagl,354,0311,1.7,12,3,South,13.41,20.29,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30273,1,fagr,490,0311,9.6,4.1,3,South,21.85,24.17,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30331,1,cagl,239,0306,8.3,19.5,3,South,31.63,44.54,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30333,1,fagr,266,0306,14,19.3,3,South,113.86,133,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30339,1,litu,620,0307,8.6,4.1,3,South,17.55,24.98,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30339,2,litu,557,0307,8.6,4.1,3,South,14.51,25.59,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30339,3,litu,162,0307,8.6,4.1,3,South,55.55,59.42,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30462,1,litu,524,0313,16.2,19,3,South,33.4,39.19,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30467,1,litu,638,0314,17.3,3,3,South,12.87,19.6,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30512,1,quru,900,0313,2.9,14.3,3,South,106.28,128.86,,0,RE,almost outgrown,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+30584,1,quve,955,0316,2.2,14.4,4,North,25.75,56.79,,0,,Band needs repare,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32097,1,litu,661,0320,17.9,3,4,North,66.79,69.31,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32126,1,litu,1058,0321,9.6,5,4,North,31.66,42.75,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32157,1,tiam,392,0322,7.5,4,4,North,,0,,0,,Tree is missing,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32167,1,cagl,163,0322,12.8,3.8,4,North,8.07,12.88,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32180,2,tiam,192,0322,6.4,12.3,4,North,19.82,24.77,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32251,1,tiam,175,0323,10.3,10.3,4,North,7.3,19.7,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32381,1,qupr,889,0327,4.6,12.8,4,North,20.52,35.89,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+32423,1,litu,969,0329,17.6,13.1,4,North,10.63,18.99,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+40465,1,qupr,473,0404,8.2,12.5,2,South,109,132.15,132.19,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+40562,1,fagr,88,0406,6.3,16.2,3,South,8.36,9.44,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40563,1,fagr,440,0406,3.6,17.8,3,South,13.94,34.59,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40564,1,fagr,72,0406,2.4,12.4,3,South,16.6,0,,0,,Broken band,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,6,27
+40566,1,cagl,301,0406,1.1,9.4,3,South,50.04,60.27,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40567,1,fagr,112,0406,1.6,7.2,3,South,34.66,12.72,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40568,1,fagr,229,0406,0.1,5.2,3,South,82,101.74,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40569,1,litu,345,0407,5.6,1.7,3,South,14.15,20.91,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40635,1,cato,274,0408,18.7,1,3,South,68.2,77.3,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40941,1,litu,650,0413,6,15.4,3,South,52.34,67.06,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40942,1,acru,428,0414,2.2,2,3,South,16.17,20.13,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+40972,1,litu,871,0415,7.2,9.6,3,South,90.29,101.11,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+42009,1,ploc,611,0417,19.5,3.7,4,North,23.3,32.67,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+50364,1,qual,700,0507,4.2,18.1,2,South,61.14,57.67,,0,"BA, RT",,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+50525,1,qual,529,0512,8.3,7.4,3,South,73.77,87.14,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+50562,1,quru,715,0514,6.9,12.5,3,South,78.18,95.12,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+50622,1,qual,660,0513,16.8,9.4,3,South,49.81,58.37,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+50646,1,quru,368,0514,19.6,9.4,3,South,66.83,78.74,78.63,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+50650,1,litu,194,0514,19.5,14.9,3,South,29.48,28.54,28.57,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+50654,1,litu,751,0514,17.2,19.1,3,South,99.01,106,106.02,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+52190,1,quru,1045,0522,16.4,3.4,4,North,96.6,113.01,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+52344,1,cagl,272,0528,14.3,5.9,4,North,11.99,16.31,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+52384,1,caovl,125,0529,1.2,13.1,4,North,10.19,14.32,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+60266,1,cato,511,0604,5.5,9.2,2,South,26.14,31.66,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+60456,1,caca,50,0614,5.3,15,3,South,10.95,11.55,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60457,1,caca,106,0614,4,15.2,3,South,17.9,0,,0,DC,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60458,1,fagr,313,0615,1.9,0,3,South,75.17,84.96,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60459,1,fagr,126,0615,2,3,3,South,33.76,37.28,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60462,1,fagr,256,0615,5.6,7.6,3,South,22.74,44,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60463,1,juni,510,0615,7.2,8,3,South,103.16,114.13,113.97,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60468,1,caca,76,0615,5.4,9.6,3,South,14.85,16.23,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60469,1,cofl,74,0615,6.8,9.8,3,South,10.54,11.03,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60566,1,fagr,235,0614,10,11,3,South,32.41,43.73,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60567,1,litu,567,0614,11.6,11.2,3,South,90.72,95.01,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60568,1,caca,104,0614,15.5,15.6,3,South,25.38,36.67,,0,RE,almost outgrown,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60573,1,tiam,284,0614,8.5,16.3,3,South,76.87,88.89,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60576,1,caca,109,0615,17.1,1,3,South,12.46,13.54,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60577,1,litu,584,0615,12.7,1.4,3,South,67.42,73.66,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60578,1,caca,86,0615,13.2,9.9,3,South,11.06,17.85,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60581,1,litu,707,0615,19.8,9.3,3,South,56.26,61.57,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60582,1,quru,304,0615,20,10.2,3,South,18.11,25.45,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60586,1,caca,78,0615,16.2,9.3,3,South,15.23,20.81,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+60588,1,caco,311,0615,13.4,7.3,3,South,64.28,75.28,75.27,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+62114,1,quve,324,0619,18.7,12.6,4,North,79.57,96.84,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+62121,1,cato,115,0619,5.1,12.8,4,North,13.16,14.8,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+62128,1,quve,865,0620,8,0.8,4,North,25.22,0,,0,RE,Band broken and fallen off,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+62181,1,quve,1150,0621,8.8,13.5,4,North,14.63,27.08,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+62224,1,litu,1080,0622,3.2,17.3,4,North,66.92,70.3,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+62241,1,litu,967,0623,13.9,0.7,4,North,53.52,60.48,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+62285,1,quru,745,0625,4.8,2,7,North,113.57,132.4,132.49,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+62300,1,quve,426,0625,13.8,17.5,7,North,76.51,92.47,92.46,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+62312,1,cato,130,0626,14.3,0.4,7,North,4.86,5.23,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+62449,1,qual,915,0632,18.7,3.9,7,North,36.4,45.73,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+70096,1,quru,946,0704,3.3,12.7,2,South,25.05,40.96,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70126,1,quru,880,0705,9.3,12.5,2,South,33.38,54.64,,0,RT,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70146,1,quve,669,0706,8.8,7.2,2,South,29.29,34.33,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70220,1,qual,578,0702,18.3,0.8,3,South,99.41,121.49,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+70278,1,qupr,715,0704,15.6,15.4,2,South,95.2,110.72,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70292,1,cagl,470,0705,14.6,2.1,2,South,90.39,102.05,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70352,1,litu,775,0707,18.5,11,2,South,10.64,14.83,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70358,1,litu,394,0708,18.4,2,2,South,39.42,47.94,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70433,1,litu,743,0710,11.4,13.8,2,South,58.02,70.36,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70492,1,nysy,227,0714,0.1,11.2,3,South,58.93,74.68,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+70493,1,litu,567,0714,0.3,15.2,3,South,44.01,48.73,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+70494,2,caca,74,0714,0.4,15.7,3,South,8.7,15.13,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+70495,1,caca,92,0714,1.7,18.6,3,South,20.6,30.15,,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+70519,1,qual,562,0711,15.5,3.3,2,South,102.32,105.53,105.58,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70536,1,qual,625,0711,11.9,7.4,2,South,55.66,65.54,65.57,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70579,1,caovl,245,0714,19.2,4.3,2,South,49.08,55.61,55.83,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+70581,1,quru,650,0714,13.7,1.2,3,South,44.33,0,,0,,DS,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,7,24
+72024,1,quve,516,0717,20,9.6,4,North,75.6,76.53,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72104,1,qual,267,0718,6.2,17.8,4,North,36.68,44.33,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72107,1,fagr,441,0719,8,1.2,4,North,24.71,37.08,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72115,1,litu,505,0719,11.2,10.7,4,North,10.14,16.45,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72116,1,litu,517,0719,14.4,10.8,4,North,77.79,86.39,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72122,1,caca,83,0719,19.9,19,4,North,11.22,11.16,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72124,1,quru,828,0719,12.5,19.4,4,North,107.64,132.63,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72149,1,litu,586,0720,13.8,0.7,4,North,69.52,76.9,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72173,1,qual,461,0720,6,10.2,4,North,40.27,47.68,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72210,1,qual,881,0721,5.2,11.5,4,North,54.86,66.91,,0,RT,Tag is loose,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72232,1,qual,757,0722,14.5,12.6,4,North,24.52,34.98,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72248,1,caovl,335,0723,15,0.3,4,North,86.97,86.44,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+72308,1,qual,670,0725,15.2,13.3,7,North,84.66,86.11,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72322,1,litu,256,0726,18.1,0.3,7,North,39.98,44.13,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72324,1,litu,720,0726,14.4,6.6,7,North,103.7,116.78,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72337,1,quru,955,0727,7.9,2.6,7,North,91.39,99.21,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72348,1,quru,987,0727,12,15.1,7,North,79.91,94.26,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72357,1,quru,957,0728,1.7,2,7,North,38.67,72.75,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72375,1,litu,700,0728,13.7,17.1,7,North,126.24,0,,0,RE,outgrown,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72377,1,litu,796,0728,10.6,16.1,7,North,89.71,99.95,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72447,1,litu,640,0732,14.9,4.1,7,North,11.04,20.68,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+72448,1,litu,509,0732,18.9,4.7,7,North,86.74,101.12,101.27,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+80100,1,litu,603,0804,2.4,10.8,2,South,91.48,107.62,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+80121,1,quve,120,0801,8.8,19.2,3,South,21.16,0,,0,RE,band gone,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+80401,1,caco,480,0807,7.4,19.6,2,South,54.63,61.62,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+80554,1,caovl,551,0813,6.9,11.2,2,South,59.68,86.1,86.09,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+80559,1,nysy,439,0813,8.9,17.8,2,South,6.32,6.4,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+80615,1,litu,699,0810,4.4,16.8,2,South,87.94,100.2,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+80628,1,quve,553,0811,7.5,3,2,South,59.95,63.47,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+80631,1,litu,556,0811,0.2,6.1,2,South,54.25,63.35,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+82091,1,caovl,194,0819,3.5,1.3,4,North,2.93,5.05,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82117,1,cato,155,0819,11.6,14.3,4,North,13.23,14,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82125,1,cagl,150,0819,1.6,14.3,4,North,35.98,37.33,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82138,1,quru,714,0820,1.1,2.7,4,North,20.72,49.35,49.06,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82203,1,litu,668,0822,8,9.4,4,North,90.24,101.33,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82219,1,ceca,96,0822,14.7,18.8,4,North,20.64,22.97,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82223,1,litu,445,0822,0.5,17.7,4,North,83.13,91.9,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82226,1,litu,270,0823,2,4,4,North,75.18,79.13,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+82292,1,litu,519,0826,1.8,0.4,7,North,66.85,75.25,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82298,1,litu,609,0826,0.3,5.1,7,North,104.95,116.08,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82326,1,quve,870,0827,14.6,8.3,7,North,38.25,41.73,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82357,1,litu,567,0828,4,13.8,7,North,98.09,111.06,,0,RE,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82360,1,litu,640,0829,2.3,0.7,7,North,79.49,89.4,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82365,1,qual,450,0829,4.9,4.7,7,North,72.87,76.51,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82368,1,litu,1014,0829,16.8,3.4,7,North,17.54,24.2,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82419,1,litu,847,0831,3.3,10,7,North,88.89,97.78,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82421,1,litu,595,0831,5.6,14.7,7,North,42.37,52.09,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82422,1,litu,563,0831,6.9,19.5,7,North,106.21,11098,110.89,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+82434,1,quve,864,0832,6,15.6,7,North,58.75,72.22,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+90162,1,litu,687,0904,16.9,11.1,2,South,13.51,20.98,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90236,1,ulru,160,0902,14.4,2.5,2,South,13.11,16.72,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90311,1,cagl,172,0904,17.5,15.8,2,South,26.11,32.08,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90354,1,litu,697,0905,10.6,5,2,South,41.1,47.4,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90544,1,qupr,199,0911,18.5,15.4,2,South,9.5,14.09,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90612,1,quru,596,0910,10.7,14,2,South,54.65,68.61,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90631,1,quve,180,0911,1.5,13.9,2,South,5.14,5.25,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90660,1,quru,1034,0913,4.9,7.9,2,South,90.54,129.45,,0,BA,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+90684,1,ploc,474,0915,9.1,6.2,3,South,55.69,70.73,70.72,0,,,"Jessica Shue, Katherine Harpenau",Jessica Shue,2025.13,2025,12,4
+90752,1,qual,558,0916,12.4,7.4,5,North,1.68,10.23,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+91451,1,litu,605,0907,18.7,17.6,2,South,75.84,84.02,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+91474,1,litu,470,0908,14.5,4.7,2,South,96.47,103.61,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+91476,1,litu,516,0908,18.4,2.4,2,South,113.28,114.65,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+91477,1,litu,225,0908,19.3,3.5,2,South,62.62,66.92,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+91486,1,cagl,600,0908,17.5,9.2,2,South,80.22,92.18,,0,,,"Brigit Rooney, Anya Le",Jessica Shue,2025.13,2025,12,4
+92018,1,acru,559,0917,16.2,5.6,5,North,17.83,26.42,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+92112,1,litu,547,0919,14.4,18.8,5,North,67.96,77.27,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+92115,1,acru,162,0919,10.1,19.3,5,North,14.39,17.09,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,5
+92140,1,cato,62,0920,18.7,0.7,5,North,16.39,18.31,,0,RT,No tag,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+92141,1,cagl,97,0920,19.4,4.7,5,North,13.99,17.65,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+92237,1,nysy,220,0922,14.7,19.5,5,North,18.94,19.36,,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+92280,1,quve,701,0923,15,6.9,5,North,62.81,82.59,82.57,0,,,"Bill McShea, Catherine Keim",Jessica Shue,2025.13,2025,12,4
+92393,1,cagl,652,0925,19.8,7.7,7,North,19.66,30.86,30.86,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+92414,1,litu,448,0926,11.2,0.9,7,North,38.46,44.59,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+92466,1,litu,879,0927,0.6,16.3,7,North,83.04,96.02,,0,,two stems; replace tree,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+92488,1,litu,737,0928,12.7,13.5,7,North,30.37,47.91,47.92,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+92545,1,litu,598,0931,15.3,15.6,7,North,93.73,97.35,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+92546,1,litu,676,0931,16.5,16.7,7,North,93.47,100.17,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+92547,1,litu,654,0931,11.7,13.9,7,North,113.32,118.57,,0,,,Jessica Shue,Jessica Shue,2025.13,2025,12,5
+132302,1,quru,951,1321,13,14.4,5,North,84.71,,,,,tree is partially hollow,Jessica Shue,Jessica Shue,2025.13,2025,12,4
