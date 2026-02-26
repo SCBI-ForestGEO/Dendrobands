@@ -6,7 +6,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 102264,1,qual,404,1022,1.5,14.2,5,North,70.39,60.13,,0,,,2025.04,2025,5,30,Ella Raymond,Jessica Shue
 102348,1,qual,900,1025,16.5,11.5,7,North,81.68,82.54,,0,,,2025.04,2025,5,30,Ella Raymond,Jessica Shue
 102364,1,qual,658,1025,2.1,18,7,North,23.4,23.34,,0,,,2025.04,2025,5,30,Ella Raymond,Jessica Shue
-10669,1,cagl,811,114,6.1,12.3,3,South,,54.07,,0,,,2025.04,2025,5,29,Ella Raymond,Jessica Shue
+10669,1,cagl,811,114,6.1,12.3,3,South,,54.07,,1,,,2025.04,2025,5,29,Ella Raymond,Jessica Shue
 10671,1,quru,930,114,6.2,14.5,3,South,40,41.35,,0,,,2025.04,2025,5,29,Ella Raymond,Jessica Shue
 110061,1,litu,1213,1101,17,10,2,South,47.99,45.59,,0,,,2025.04,2025,5,29,Ella Raymond,Jessica Shue
 110788,1,litu,670,1104,19.9,11.7,2,South,37.04,41.3,,0,,,2025.04,2025,5,29,Ella Raymond,Jessica Shue
