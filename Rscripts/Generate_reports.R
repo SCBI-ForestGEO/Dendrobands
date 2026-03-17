@@ -32,7 +32,9 @@ for(i in 1:length(master_data_filenames)){
   dendroband_measurements_all_years <- 
     bind_rows(
       dendroband_measurements_all_years,
-      read_csv(master_data_filenames[i], col_types = cols(tag = col_character(), stemtag = col_character(),dbh = col_double(), dendDiam = col_double(), measure = col_double()))
+      read_csv(master_data_filenames[i], col_types = cols(sp = col_character(), codes = col_character(), notes = col_character(), status = col_character(), field.recorders = col_character(), data.enter = col_character(),
+                                                          dir = col_logical(), lianas= col_logical(), measureID= col_logical(),
+                                                          .default = col_double()))
     )
 }
 
