@@ -63,7 +63,7 @@ variables_to_reset <- c(
   "status", "field.recorders", "data.enter", "new.band", 
   "crown.condition", "crown.illum"
 )
-new_year_data[, variables_to_reset] <- ""
+new_year_data[, variables_to_reset] <- NA
 
 
 # Write to CSV for data folder
