@@ -58,7 +58,7 @@ tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_
 162024,1,quve,294,1618,9.7,9.7,6,North,14.4,14.39,,,,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
 162543,1,qual,890,1627,7.5,16.6,9,North,87.47,87.02,,,,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
 162439,1,quru,832.5,1627,16.3,0.3,9,North,69.66,72.04,,,,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
-162581,1,ceca,93,1629,15.4,3.9,9,North,N/A,NA,,,DC,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
+162581,1,ceca,93,1629,15.4,3.9,9,North,,NA,,,DC,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
 172203,1,qual,368.5,1717,15.5,0.3,6,North,28.2,28.21,,,,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
 172202,1,quru,555.1,1717,17.1,1.8,6,North,98.52,98.85,,,RT,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
 172248,1,cato,274.2,1719,19.2,19.3,6,North,35.49,35.47,,,,,2023.04,2023,6,8,Chris Pate ,Jen Jordan
