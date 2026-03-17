@@ -365,7 +365,7 @@ if(nrow(stems_to_alert) > 0) {
     stems_to_alert$verified[i] <- anomaly_raw_data_file %>% 
       read_csv(show_col_types = FALSE) %>% 
       filter(tag == anomaly_tag & stemtag == anomaly_stemtag) %>% 
-      pull(measure_verified) 
+      pull(intersect(c("measure.verified", "measure_verified"), names(.))) 
   }
   
   # Remove if measurement has been verified
