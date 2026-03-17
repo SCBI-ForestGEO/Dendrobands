@@ -1,0 +1,117 @@
+alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
+new_measure_too_different_from_previous_biannual,10469,1,2025.13,2025,12,4,1,0,litu,109,9.7,1,0,RE,outgrown,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,1419,1419,NA,931,0,632,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,10669,1,2025.07,2025,7,10,1,1,cagl,114,6.1,12.3,34.1,NA,spring replaced,alive,Jessica Shue,Jessica Shue,1608,1608,NA,811,0,1222,2,NA,1.39,NA,NA,NA,NA
+survey_ID_increment_wrong,10669,1,2025.04,2025,5,29,1,1,cagl,114,6.1,12.3,54.07,NA,NA,alive,Ella Raymond,Jessica Shue,1608,1608,NA,811,0,1222,2,NA,1.39,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,20587,1,2025.13,2025,12,4,1,0,litu,208,14.8,1.3,96.08,NA,replace tree,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,2778,2778,NA,1310,0,634,2,NA,1.33,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,20712,1,2025.13,2025,12,4,1,0,litu,212,1.5,8.3,133.39,"BA, RE",NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,2897,2897,NA,949,0,725,2,NA,1.45,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,20737,1,2025.13,2025,12,4,1,0,tiam,213,12.6,3.8,26.64,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,2922,2922,NA,189,0,1113,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,22004,1,2025.13,2025,12,4,1,0,litu,217,8.6,1.7,119.18,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,3037,3037,NA,861,0,725,2,NA,1.45,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,22186,1,2025.13,2025,12,4,1,1,tiam,222,17,7.5,26.49,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,3212,3212,NA,380,0,1092,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,22489,1,2025.13,2025,12,4,1,0,cato,229,16.1,1.8,18.78,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,3507,3507,NA,143,0,1139,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,30233,1,2025.13,2025,12,4,1,1,fagr,306,15.6,16.2,131.97,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,3874,3874,NA,1109,0,898,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,30331,1,2025.13,2025,12,4,1,1,cagl,306,8.3,19.5,44.54,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,3967,3967,NA,239,0,1114,2,NA,1.34,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,30333,1,2025.13,2025,12,4,1,1,fagr,306,14,19.3,133,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,3969,3969,NA,266,0,726,2,NA,1.52,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,30584,1,2025.13,2025,12,4,1,1,quve,316,2.2,14.4,56.79,NA,Band needs repare,alive,"Bill McShea, Catherine Keim",Jessica Shue,4207,4207,NA,955,0,688,2,NA,1.32,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,32251,1,2025.13,2025,12,4,1,1,tiam,323,10.3,10.3,19.7,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,4478,4478,NA,175,0,1262,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,32381,1,2025.13,2025,12,4,1,1,qupr,327,4.6,12.8,35.89,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,4606,4606,NA,889,0,754,2,NA,1.34,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40563,1,2025.13,2025,12,4,1,1,fagr,406,3.6,17.8,34.59,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5040,5040,NA,440,0,832,2,NA,1.44,NA,NA,NA,NA
+new_measure_too_different_from_previous,40564,1,2025.06,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,Ella Raymond,Jessica Shue,5041,5041,NA,69,0,1115,2,NA,1.38,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40564,1,2025.13,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5041,5041,NA,72,0,1115,2,NA,1.38,NA,NA,NA,NA
+survey_ID_increment_wrong,40564,1,2025.07,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,Ella Raymond,Jessica Shue,5041,5041,NA,69,0,1115,2,NA,1.38,NA,NA,NA,NA
+survey_ID_increment_wrong,40564,1,2025.13,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5041,5041,NA,72,0,1115,2,NA,1.38,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40566,1,2025.13,2025,12,4,1,1,cagl,406,1.1,9.4,60.27,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5043,5043,NA,301,0,833,2,NA,1.41,NA,NA,NA,NA
+survey_ID_increment_wrong,40566,1,2025.06,2025,6,27,1,1,cagl,406,1.1,9.4,58.91,NA,NA,alive,Ella Raymond,Jessica Shue,5043,5043,NA,270.2,0,833,2,NA,1.41,NA,NA,NA,NA
+new_measure_too_different_from_previous,40567,1,2025.07,2025,7,10,1,1,fagr,406,1.6,7.2,12.67,RE,outgrown; old band removed; bdbh 10.8; dbh 11.6; BHOM 1.46,alive,Jessica Shue,Jessica Shue,5044,5044,NA,93.3,0,801,2,NA,1.43,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40567,1,2025.13,2025,12,4,1,1,fagr,406,1.6,7.2,12.72,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5044,5044,NA,112,0,801,2,NA,1.43,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40568,1,2025.13,2025,12,4,1,1,fagr,406,0.1,5.2,101.74,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5045,5045,NA,229,0,975,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40635,1,2025.13,2025,12,4,1,1,cato,408,18.7,1,77.3,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5109,5109,NA,274,0,31,2,NA,1.22,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,40941,1,2025.13,2025,12,4,1,0,litu,413,6,15.4,67.06,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5402,5402,NA,650,0,982,2,NA,0.7,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,42009,1,2025.13,2025,12,4,1,0,ploc,417,19.5,3.7,32.67,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,5499,5499,NA,611,0,35,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,50364,1,2025.13,2025,12,4,1,1,qual,507,4.2,18.1,57.67,"BA, RT",NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,6249,6249,NA,700,0,41,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,50364,1,2025.13,2025,12,4,1,1,qual,507,4.2,18.1,57.67,"BA, RT",NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,6249,6249,NA,700,0,41,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60457,1,2025.13,2025,12,4,1,0,caca,614,4,15.2,0,DC,NA,dead,"Jessica Shue, Katherine Harpenau",Jessica Shue,7442,7442,NA,106,0,562,2,NA,1.43,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60568,1,2025.13,2025,12,4,1,0,caca,614,15.5,15.6,36.67,RE,almost outgrown,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,7547,7547,NA,104,0,953,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60573,1,2025.13,2025,12,4,1,1,tiam,614,8.5,16.3,88.89,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,7552,7552,NA,284,0,708,2,NA,1.45,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60462,1,2025.13,2025,12,4,1,1,fagr,615,5.6,7.6,44,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,7447,7447,NA,256,0,704,2,NA,1.43,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60469,1,2025.13,2025,12,4,1,1,cofl,615,6.8,9.8,11.03,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,7454,7454,NA,74,0,568,2,NA,1.43,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60578,1,2025.13,2025,12,4,1,0,caca,615,13.2,9.9,17.85,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,7557,7557,NA,86,0,1242,2,NA,1.22,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,60586,1,2025.13,2025,12,4,1,1,caca,615,16.2,9.3,20.81,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,7565,7565,NA,78,0,992,2,NA,1.38,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,62114,1,2025.13,2025,12,4,1,1,quve,619,18.7,12.6,96.84,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,7692,7692,NA,324,0,872,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,62128,1,2025.13,2025,12,4,1,0,quve,620,8,0.8,0,RE,Band broken and fallen off,alive,"Bill McShea, Catherine Keim",Jessica Shue,7706,7706,NA,865,0,1097,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70278,1,2025.13,2025,12,4,1,1,qupr,704,15.6,15.4,110.72,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,8293,8293,NA,715,0,803,2,NA,1.23,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70292,1,2025.13,2025,12,4,1,0,cagl,705,14.6,2.1,102.05,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,8303,8303,NA,470,0,59,2,NA,1.2,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70433,1,2025.13,2025,12,4,1,0,litu,710,11.4,13.8,70.36,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,8436,8436,NA,743,0,64,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70492,1,2025.13,2025,12,4,1,1,nysy,714,0.1,11.2,74.68,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,8495,8495,NA,227,0,836,2,NA,1.44,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70494,2,2025.13,2025,12,4,1,1,caca,714,0.4,15.7,15.13,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,31371,181,NA,74,0,838,2,NA,1.42,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,70495,1,2025.13,2025,12,4,1,1,caca,714,1.7,18.6,30.15,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,8497,8497,NA,92,0,954,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,70581,1,2025.08,2025,7,24,1,1,quru,714,13.7,1.2,0,NA,DS,alive,Ella Raymond,Jessica Shue,8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
+survey_ID_increment_wrong,70581,1,2025.13,2025,7,24,1,1,quru,714,13.7,1.2,0,NA,DS,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,8580,8580,NA,650,0,839,2,NA,1.45,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,72248,1,2025.13,2025,12,4,1,0,caovl,723,15,0.3,86.44,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,8890,8890,NA,335,0,78,2,NA,1.39,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,72324,1,2025.13,2025,12,5,1,1,litu,726,14.4,6.6,116.78,NA,NA,alive,Jessica Shue,Jessica Shue,8964,8964,NA,720,0,840,2,NA,1.31,NA,NA,NA,NA
+new_measure_too_different_from_previous,72357,1,2025.04,2025,5,30,1,1,quru,728,1.7,2,55.65,NA,NA,alive,Ella Raymond,Jessica Shue,8997,8997,NA,938,0,977,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,72357,1,2025.13,2025,12,5,1,1,quru,728,1.7,2,72.75,NA,NA,alive,Jessica Shue,Jessica Shue,8997,8997,NA,957,0,977,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,72375,1,2025.13,2025,12,5,1,0,litu,728,13.7,17.1,0,RE,outgrown,alive,Jessica Shue,Jessica Shue,9015,9015,NA,700,0,85,2,NA,1.28,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,80121,1,2025.13,2025,12,4,1,0,quve,801,8.8,19.2,0,RE,band gone,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,9215,9215,NA,120,0,878,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,80100,1,2025.13,2025,12,4,1,0,litu,804,2.4,10.8,107.62,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,9197,9197,NA,603,0,903,2,NA,1.4,NA,NA,NA,NA
+survey_ID_increment_wrong,80401,1,2025.08,2025,7,24,1,1,caco,807,7.4,19.6,64.6,NA,NA,alive,Ella Raymond,Jessica Shue,9477,9477,NA,469,0,933,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,80615,1,2025.13,2025,12,4,1,0,litu,810,4.4,16.8,100.2,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,9687,9687,NA,699,0,785,2,NA,1.18,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,82357,1,2025.13,2025,12,5,1,0,litu,828,4,13.8,111.06,RE,NA,alive,Jessica Shue,Jessica Shue,10196,10196,NA,567,0,806,2,NA,1.37,NA,NA,NA,NA
+measure_not_possible,82422,1,2025.13,2025,12,5,1,1,litu,831,6.9,19.5,11098,NA,NA,alive,Jessica Shue,Jessica Shue,10260,10260,NA,563,0,119,2,NA,1.24,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,90236,1,2025.13,2025,12,4,1,0,ulru,902,14.4,2.5,16.72,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,10496,10496,NA,160,0,1136,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,91486,1,2025.13,2025,12,4,1,1,cagl,908,17.5,9.2,92.18,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,11152,11152,NA,600,0,711,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,90660,1,2025.13,2025,12,4,1,1,quru,913,4.9,7.9,129.45,BA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,10904,10904,NA,1034,0,1117,2,NA,1.55,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,92466,1,2025.13,2025,12,5,1,0,litu,927,0.6,16.3,96.02,NA,two stems; replace tree,alive,Jessica Shue,Jessica Shue,11610,11610,NA,879,0,124,2,NA,1.38,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,100498,1,2025.13,2025,12,4,1,0,caco,1003,16.7,14.2,40.84,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,12165,12165,NA,163,0,1119,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,100516,1,2025.13,2025,12,4,1,0,litu,1004,17.9,2.3,25.8,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,12180,12180,NA,1089,0,638,2,NA,1.42,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,101008,1,2025.13,2025,12,4,1,1,tiam,1006,4.2,11.6,37.22,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,12628,12628,NA,190,0,1120,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,101223,1,2025.13,2025,12,4,1,0,qupr,1013,9.4,17.8,94.77,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,12841,12841,NA,694,0,881,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102303,1,2025.13,2025,12,4,1,0,quve,1024,8.2,0.9,52.27,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,13239,13239,NA,924,0,1152,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102444,1,2025.13,2025,12,5,1,0,litu,1029,4.3,5.3,136.36,RE,NA,alive,Jessica Shue,Jessica Shue,13380,13380,NA,685,0,808,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,102502,1,2025.13,2025,12,5,1,0,ulru,1031,0.1,18.6,7.54,NA,NA,alive,Jessica Shue,Jessica Shue,13438,13438,NA,140,0,305,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,110061,1,2025.13,2025,12,4,1,1,litu,1101,17,10,59.01,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,13507,13507,NA,1213,0,905,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,112057,1,2025.13,2025,12,4,1,0,acru,1117,8.8,4.2,18.02,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,14787,14787,NA,728,0,320,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,112136,1,2025.13,2025,12,4,1,1,pist,1120,13.9,2.5,101.81,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,14862,14862,NA,315,0,809,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,112698,1,2025.13,2025,12,5,1,0,ulru,1128,17.9,18.2,47.22,NA,NA,alive,Jessica Shue,Jessica Shue,15205,15205,NA,114,0,340,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,120278,1,2025.13,2025,12,4,1,0,litu,1201,5,8.6,89.49,RT,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,15464,15464,NA,892,0,671,2,NA,1.25,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,121438,1,2025.13,2025,12,4,1,0,caco,1215,19.1,6.5,66.84,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,16509,16509,NA,404,0,989,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,122006,1,2025.13,2025,12,4,1,1,acru,1217,9.9,8.3,43.97,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,16543,16543,NA,452,0,352,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,122450,1,2025.13,2025,12,5,1,0,ulru,1225,3,19.1,56.05,NA,NA,alive,Jessica Shue,Jessica Shue,44444,31862,NA,268,0,542,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,130348,1,2025.13,2025,12,4,1,0,litu,1302,19.9,1.9,86.13,NA,NA,alive,Jessica Shue,Jessica Shue,17329,17329,NA,626,0,640,2,NA,1.45,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,130838,1,2025.13,2025,12,4,1,1,litu,1305,12.2,1,100.21,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,17779,17779,NA,693,0,845,2,NA,1.36,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,131188,1,2025.13,2025,12,4,1,0,litu,1313,10,15.3,117.38,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,18113,18113,NA,635,0,814,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,131239,1,2025.13,2025,12,4,1,1,quru,1314,19.5,5.7,131.97,RE,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,18164,18164,NA,651,0,735,2,NA,1.47,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,131364,1,2025.13,2025,12,4,1,1,acru,1316,12,12.9,112.98,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,18286,18286,NA,487,0,943,2,NA,1.5,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,131422,1,2025.13,2025,12,4,1,0,caco,1316,13.4,9.6,46.09,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,18325,18325,NA,163,0,1108,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,132280,1,2025.13,2025,12,4,1,0,fram,1324,6.1,18.2,20.06,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,18603,18603,NA,114,0,1166,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,132529,1,2025.13,2025,12,5,1,0,litu,1329,16.6,13.2,112.42,NA,NA,alive,Jessica Shue,Jessica Shue,18822,18822,NA,936,0,718,2,NA,1.29,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,140646,1,2025.13,2025,12,4,1,0,litu,1405,1,8.3,29.79,NA,NA,alive,"Brigit Rooney, Anya Le",Jessica Shue,19443,19443,NA,763,0,719,2,NA,1.32,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,140872,1,2025.13,2025,12,4,1,0,litu,1413,6.1,14.9,126.03,NA,NA,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,19659,19659,NA,661,0,788,2,NA,1.44,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,142521,1,2025.13,2025,12,4,1,1,pist,1422,6.4,11.1,39.61,NA,NA,alive,"Bill McShea, Catherine Keim",Jessica Shue,20457,20457,NA,508,0,739,2,NA,1.42,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,150781,1,2025.13,2025,12,4,1,0,ulru,1504,1.2,18.5,14.39,NA,NA,alive,Jessica Shue,Jessica Shue,21327,21327,NA,133,0,1157,2,NA,1.4,NA,NA,NA,NA
+code_not_defined,160713,1,2025.01,2025,3,18,1,0,litu,1603,10.4,13.7,13.66,"NB,RT",new band installed,alive,"John Whitmoyer, Phoung Thao",Jessica Shue,23030,23030,NA,838,1,673,2,NA,1.5,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,160742,1,2025.13,2025,12,4,1,0,litu,1605,19.3,6.6,36.62,NA,NA,alive,Jessica Shue,Jessica Shue,23054,23054,NA,919,0,720,2,NA,1.34,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,171456,1,2025.13,2025,12,4,1,0,acru,1714,0.8,13.4,86.21,NA,"old wound; tree irregular, replace",alive,Jessica Shue,Jessica Shue,25273,25273,NA,768,0,617,2,NA,1.35,NA,NA,NA,NA
+survey_ID_increment_wrong,172470,1,2025.02,2025,3,18,1,0,quru,1728,11.1,12,NA,NA,new band to be installed,alive,Jessica Shue,Jessica Shue,25714,25714,NA,710,0,946,2,NA,1.2,NA,NA,NA,NA
+survey_ID_increment_wrong,172470,1,2025.06,2025,3,18,1,0,quru,1728,11.1,12,NA,NA,new band to be installed,alive,Jessica Shue,Jessica Shue,25714,25714,NA,710,0,946,2,NA,1.2,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,172556,1,2025.13,2025,12,5,1,0,litu,1729,5.1,3.9,36.25,NA,NA,alive,Jessica Shue,Jessica Shue,25837,25837,NA,887,0,819,2,NA,1.2,NA,NA,NA,NA
+survey_ID_increment_wrong,172499,1,2025.01,2025,3,18,1,1,qual,1730,17,3.1,91.32,NA,NA,alive,Jessica Shue,Jessica Shue,25783,25783,NA,1056,1,957,2,NA,1.35,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,180931,1,2025.13,2025,12,4,1,1,quve,1809,8.2,19.4,30.21,NA,NA,alive,Jessica Shue,Jessica Shue,23117,23117,NA,822,0,1270,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,180991,1,2025.13,2025,12,4,1,0,ploc,1814,1.5,6.7,56.78,NA,NA,alive,Jessica Shue,Jessica Shue,26779,26779,NA,963,0,229,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous,181030,1,2025.06,2025,5,15,1,1,qual,1816,5.4,10.6,0,RE,Band is broken,alive,LM,Jessica Shue,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous,181030,1,2025.07,2025,7,10,1,1,qual,1816,5.4,10.6,17.65,NA,BDBH 78.8; DBH 80.2; BHOM 1.4,alive,Jessica Shue,Jessica Shue,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
+survey_ID_increment_wrong,181030,1,2025.06,2025,5,15,1,1,qual,1816,5.4,10.6,0,RE,Band is broken,alive,LM,Jessica Shue,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,181033,1,2025.13,2025,12,4,1,0,litu,1816,3.4,18.6,84.29,NA,NA,alive,Jessica Shue,Jessica Shue,26820,26820,NA,573,0,410,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,182570,1,2025.13,2025,12,4,1,0,juni,1823,10.5,1,26.77,NA,NA,alive,Jessica Shue,Jessica Shue,27471,27471,NA,568,0,509,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,182471,1,2025.13,2025,12,5,1,1,ceca,1829,2.6,19,46.88,NA,NA,alive,Jessica Shue,Jessica Shue,27378,27378,NA,91,0,1135,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,182681,1,2025.13,2025,12,5,1,0,litu,1829,13,1,76,NA,NA,alive,Jessica Shue,Jessica Shue,27575,27575,NA,635,0,418,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,182693,1,2025.13,2025,12,5,1,0,litu,1830,15.3,13.2,105.79,NA,two stems; replace tree,alive,Jessica Shue,Jessica Shue,27584,27584,NA,894,0,972,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,190413,1,2025.13,2025,12,4,1,1,litu,1904,14.7,5.6,41.24,NA,NA,alive,Jessica Shue,Jessica Shue,28001,28001,NA,1046,0,681,2,NA,1.2,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,192542,1,2025.13,2025,12,5,1,1,litu,1929,18.9,3.8,59.78,NA,NA,alive,Jessica Shue,Jessica Shue,28948,28948,NA,335,0,963,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,200151,1,2025.13,2025,12,4,1,0,litu,2002,6.9,4,124.35,RE,NA,alive,Jessica Shue,Jessica Shue,29250,29250,NA,723,0,826,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,201180,1,2025.13,2025,12,4,1,0,caco,2011,10.5,14.6,38.38,NA,replace spring,alive,Jessica Shue,Jessica Shue,30201,30201,NA,137,0,1131,2,NA,1.2,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,201441,1,2025.13,2025,12,4,1,0,litu,2016,11.8,19.2,107.66,NA,NA,alive,Jessica Shue,Jessica Shue,30385,30385,NA,834,0,781,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,202201,1,2025.13,2025,12,4,1,1,cato,2017,3.2,1.1,55.84,NA,NA,alive,Jessica Shue,Jessica Shue,30581,30581,NA,151,0,724,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,202283,1,2025.13,2025,12,4,1,0,litu,2020,4.5,2.9,55.83,NA,NA,alive,Jessica Shue,Jessica Shue,30656,30656,NA,334,0,1169,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,202336,1,2025.13,2025,12,4,1,0,cagl,2022,3,10.7,44.61,NA,NA,alive,Jessica Shue,Jessica Shue,30709,30709,NA,473,0,1170,2,NA,1.4,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,202337,1,2025.13,2025,12,4,1,0,cagl,2023,1,0.2,133.55,RE,NA,alive,Jessica Shue,Jessica Shue,30710,30710,NA,461,0,656,2,NA,1.3,NA,NA,NA,NA
+new_measure_too_different_from_previous_biannual,202444,1,2025.13,2025,12,5,1,0,litu,2025,0.9,12.5,85.69,NA,NA,alive,Jessica Shue,Jessica Shue,30813,30813,NA,713,0,624,2,NA,1.3,NA,NA,NA,NA

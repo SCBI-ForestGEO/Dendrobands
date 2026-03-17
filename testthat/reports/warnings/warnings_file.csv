@@ -1,0 +1,40 @@
+alert_name,tag,stemtag,survey.ID,year,month,day,biannual,intraannual,sp,quadrat,lx,ly,measure,codes,notes,status,field.recorders,data.enter,stemID,treeID,dendDiam,dbh,new.band,dendroID,type,dir,dendHt,crown.condition,crown.illum,lianas,measureID
+dendroband_needs_fixing_or_replacing,10469,1,2025.13,2025,12,4,1,0,litu,109,9.7,1,0,RE,outgrown,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,1419,1419,NA,931,0,632,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,10669,1,2025.06,2025,6,27,1,1,cagl,114,6.1,12.3,0,NA,Band loose,alive,Ella Raymond,Jessica Shue,1608,1608,NA,811,0,1222,2,NA,1.39,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,32157,1,2025.13,2025,12,4,1,0,tiam,322,7.5,4,0,NA,Tree is missing,alive,"Bill McShea, Catherine Keim",Jessica Shue,4384,4384,NA,392,0,1094,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,40564,1,2025.06,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,Ella Raymond,Jessica Shue,5041,5041,NA,69,0,1115,2,NA,1.38,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,40564,1,2025.07,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,Ella Raymond,Jessica Shue,5041,5041,NA,69,0,1115,2,NA,1.38,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,40564,1,2025.13,2025,6,27,1,1,fagr,406,2.4,12.4,0,NA,Broken band,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,5041,5041,NA,72,0,1115,2,NA,1.38,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,60457,1,2025.13,2025,12,4,1,0,caca,614,4,15.2,0,DC,NA,dead,"Jessica Shue, Katherine Harpenau",Jessica Shue,7442,7442,NA,106,0,562,2,NA,1.43,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,60587,1,2025.02,2025,4,17,1,1,caca,615,14,9.8,0,DC,NA,dead,Luca Morreale,Jessica Shue,7565,7565,NA,81,0,992,2,NA,1.38,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,60587,1,2025.06,2025,6,27,1,1,caca,615,14,9.8,0,NA,Dead and down,alive,Ella Raymond,Jessica Shue,7565,7565,NA,81,0,992,2,NA,1.38,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,62128,1,2025.13,2025,12,4,1,0,quve,620,8,0.8,0,RE,Band broken and fallen off,alive,"Bill McShea, Catherine Keim",Jessica Shue,7706,7706,NA,865,0,1097,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,70216,1,2025.07,2025,7,10,1,0,quve,701,18.7,11.6,0,DS,confirmed DS; don’t measure,dead,Jessica Shue,Jessica Shue,8166,8166,NA,930.2,0,876,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,70581,1,2025.08,2025,7,24,1,1,quru,714,13.7,1.2,0,NA,DS,alive,Ella Raymond,Jessica Shue,8580,8580,NA,614.5,0,839,2,NA,1.45,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,70581,1,2025.13,2025,7,24,1,1,quru,714,13.7,1.2,0,NA,DS,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,8580,8580,NA,650,0,839,2,NA,1.45,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,72375,1,2025.13,2025,12,5,1,0,litu,728,13.7,17.1,0,RE,outgrown,alive,Jessica Shue,Jessica Shue,9015,9015,NA,700,0,85,2,NA,1.28,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,80121,1,2025.13,2025,12,4,1,0,quve,801,8.8,19.2,0,RE,band gone,alive,"Jessica Shue, Katherine Harpenau",Jessica Shue,9215,9215,NA,120,0,878,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,80180,1,2025.06,2025,6,27,1,0,cagl,804,15.9,5.3,0,NA,Dead and down,alive,Ella Raymond,Jessica Shue,9215,9215,NA,1015,0,878,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,82091,1,2025.01,2025,3,18,1,0,caovl,819,3.5,1.3,2.93,NA,NA,alive,"Bill McShea, Chengcheng Zhang",Jessica Shue,9938,9938,NA,193,1,1098,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,82422,1,2025.13,2025,12,5,1,1,litu,831,6.9,19.5,11098,NA,NA,alive,Jessica Shue,Jessica Shue,10260,10260,NA,563,0,119,2,NA,1.24,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,90752,1,2025.01,2025,3,18,1,1,qual,916,12.4,7.4,1.68,NA,previously installed,alive,Jessica Shue,Jessica Shue,10963,10963,NA,565,1,1244,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,90752,1,2025.02,2025,4,17,1,1,qual,916,12.4,7.4,2.76,NA,NA,alive,Luca Morreale,Jessica Shue,10963,10963,NA,565,0,1244,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,102371,1,2025.13,2025,12,5,1,0,qual,1026,1.6,6.6,0,NA,new band to be installed,alive,Jessica Shue,Jessica Shue,13307,13307,NA,808,0,296,2,NA,1.3,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,102438,2,2025.13,2025,12,5,1,0,litu,1028,8.5,16.6,0,NA,replace spring,alive,Jessica Shue,Jessica Shue,33848,13374,NA,476,0,601,2,NA,1.34,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,111305,1,2025.01,2025,3,18,1,0,caovl,1113,4.7,19.3,2.75,NA,NA,alive,Jessica Shue,Jessica Shue,14647,14647,NA,229,1,1124,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,112262,1,2025.02,2025,4,17,1,0,quru,1123,17.5,1.5,0,DC,NA,dead,Luca Morreale,Jessica Shue,14969,14969,NA,133,0,988,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,112262,1,2025.03,2025,5,1,1,0,quru,1123,17.5,1.5,0,DC,NA,dead,Jessica Shue,Jessica Shue,14969,14969,NA,133,0,988,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,112262,1,2025.06,2025,6,27,1,0,quru,1123,17.5,1.5,0,NA,Dead and down,alive,Ella Raymond,Jessica Shue,14969,14969,NA,133,0,988,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,112316,1,2025.13,2025,12,5,1,0,quve,1125,8.7,1,0,DC,NA,dead,Jessica Shue,Jessica Shue,15032,15032,NA,855,0,137,2,NA,1.45,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,142708,1,2025.01,2025,3,18,1,1,juni,1429,4.3,6.2,1.84,NA,previously installed,alive,Jessica Shue,Jessica Shue,20599,20599,NA,428,1,1249,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,142708,1,2025.02,2025,4,17,1,1,juni,1429,4.3,6.2,1.56,NA,NA,alive,Luca Morreale,Jessica Shue,20599,20599,NA,428,0,1249,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,142708,1,2025.03,2025,5,1,1,1,juni,1429,4.3,6.2,0.99,NA,leaf out just started,alive,Jessica Shue,Jessica Shue,20599,20599,NA,428,0,1249,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,142708,1,2025.04,2025,5,30,1,1,juni,1429,4.3,6.2,1.1,NA,NA,alive,Ella Raymond,Jessica Shue,20599,20599,NA,428,0,1249,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,142708,1,2025.05,2025,6,13,1,1,juni,1429,4.3,6.2,0.95,NA,NA,alive,Ella Raymond,Jessica Shue,20599,20599,NA,428,0,1249,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,142708,1,2025.06,2025,6,27,1,1,juni,1429,4.3,6.2,2.56,NA,NA,alive,Ella Raymond,Jessica Shue,20599,20599,NA,428,0,1249,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,152561,1,2025.13,2025,12,5,1,0,quve,1527,11.9,3.1,0,NA,new band to be installed,alive,Jessica Shue,Jessica Shue,22291,22291,NA,809,0,1281,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,180648,1,2025.01,2025,3,18,1,0,juni,1804,7.5,10.9,2.38,NA,NA,alive,"John Whitmoyer, Phoung Thao",Jessica Shue,26480,26480,NA,299,1,1137,2,NA,1.2,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,181030,1,2025.06,2025,5,15,1,1,qual,1816,5.4,10.6,0,RE,Band is broken,alive,LM,Jessica Shue,26817,26817,NA,779,0,962,2,NA,1.4,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,192544,1,2025.06,2025,6,27,1,0,litu,1929,14.4,1.8,0,NA,Dead standing,alive,Ella Raymond,Jessica Shue,28949,28949,NA,349,0,746,2,NA,1.3,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,201207,1,2025.13,2025,12,4,1,0,litu,2012,10,17.3,0,NA,multiple stems; band previously removed,alive,Jessica Shue,Jessica Shue,30211,30211,NA,1354,0,1146,2,NA,1.35,NA,NA,NA,NA
+dendroband_needs_fixing_or_replacing,202686,1,2025.13,2025,12,5,1,0,ulru,2025,7.2,16.2,0,NA,new band to be installed,alive,Jessica Shue,Jessica Shue,31039,31039,NA,142,0,1282,2,NA,1.3,NA,NA,NA,NA
