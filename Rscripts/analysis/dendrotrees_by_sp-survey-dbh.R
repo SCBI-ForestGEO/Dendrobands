@@ -33,6 +33,8 @@ if(file.exists(fall_biannual_survey)){
 
 
 for(year in c(2010:max_year)){
+  print(year)
+  
   year_data <-
     str_c("data/scbi.dendroAll_", year, ".csv") %>% 
     read.csv()
