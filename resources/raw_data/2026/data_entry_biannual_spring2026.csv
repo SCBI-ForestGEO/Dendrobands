@@ -1,0 +1,490 @@
+tag,StemTag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure.verified,new.band,codes,notes,field.recorders,data.enter,survey.ID,year,month,day
+100498,1,caco,163,1003,16.7,14.2,2,South,40.84,40.6,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100516,1,litu,1089,1004,17.9,2.3,2,South,25.8,25.74,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100562,1,litu,669,1004,9.1,19.2,2,South,57.49,59.13,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100612,1,litu,1276,1003,12,4.4,2,South,97.93,100.91,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100754,1,quru,461,1005,3.8,6.8,2,South,86.64,87.11,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100771,1,quru,1020,1005,8.5,17,2,South,96.52,90.06,89.77,,,JS verified,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100905,1,litu,693,1008,10,1.6,2,South,64.57,65.74,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100906,1,litu,506,1008,9.3,1.1,2,South,44.55,45.02,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100955,1,quru,314,1010,16.7,6.8,2,South,33.17,33.07,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100960,1,quru,650,1010,13.8,10.5,2,South,53.05,53.9,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+100963,1,caovl,208,1010,11.1,14.7,2,South,28.79,27.92,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+101008,1,tiam,190,1006,4.2,11.6,2,South,37.22,37.29,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+101075,1,qupr,373,1008,3,13.1,2,South,19.62,18.81,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+101111,1,litu,106,1011,0.1,1.3,2,South,45.72,45.87,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+101118,1,litu,236,1011,0.3,3,2,South,68.72,69.1,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+101223,1,qupr,694,1013,9.4,17.8,3,South,94.77,94.79,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+102148,1,cato,253,1019,2,15.4,5,North,28.28,27.4,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102149,1,cagl,72,1020,1.4,0.2,5,North,10.04,9.78,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102150,1,qual,506,1020,4.3,2.1,5,North,15.97,16.34,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102154,1,qual,517,1020,5.4,8.5,5,North,27.28,24.53,,,"BA, RE",,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102163,1,cato,103,1020,14.3,14.8,5,North,13.76,11.88,11.82,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102177,1,qual,735,1020,3.4,11.7,5,North,35.44,36.36,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102199,1,cagl,487,1021,1.3,8,5,North,31.12,31.97,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102258,1,qual,435,1022,10.3,17.4,5,North,26.38,26.87,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102261,1,qual,687,1022,5.3,20,5,North,83.09,83.66,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102262,1,qual,543,1022,1.8,20,5,North,119.76,120.14,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102264,1,qual,404,1022,1.5,14.2,5,North,71.52,72.06,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102303,1,quve,924,1024,8.2,0.9,5,North,52.27,54.28,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+102348,1,qual,900,1025,16.5,11.5,7,North,87.83,87.2,87.24,,RE,two springs,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+102364,1,qual,658,1025,2.1,18,7,North,23.76,24.75,,,,fungus on trunk,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+102371,1,qual,808,1026,1.6,6.6,7,North,0,14.33,,1,,"82.1, 81.5, 1.45","Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+102438,1,litu,473,1028,8.5,16.6,7,North,122.88,123.7,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102438,2,litu,476,1028,8.5,16.6,7,North,0,23.76,,1,,new spring installed,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+102441,1,litu,520,1029,1.3,3,7,North,117.8,118.18,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102443,1,litu,518,1029,4.1,7,7,North,88.44,89.75,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102444,1,litu,685,1029,4.3,5.3,7,North,136.36,138.02,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102446,1,litu,501,1029,0.5,3.7,7,North,89.34,96.06,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102446,2,litu,273,1029,0.5,3.7,7,North,35.91,36.56,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102501,1,litu,657,1031,9.8,17.3,7,North,36.13,38.15,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102502,1,ulru,140,1031,0.1,18.6,7,North,7.54,7.39,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102509,1,quve,924,1032,9.6,0.9,7,North,43.61,44.08,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+10469,1,litu,931,109,9.7,1,3,South,0,15.1,,1,,"94.4, 93.0, 1.5 from paint",Jen Jordan,Jessica Shue,2026.01,2026,3,18
+10587,1,litu,1002,113,2.6,13,3,South,129.01,126.67,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+10609,1,cagl,444,111,19.5,2.9,3,South,28.58,31.64,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+10643,1,fagr,693,112,0.6,13,3,South,41.41,35.63,35.67,,,accidentally moved point,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+10669,1,cagl,811,114,6.1,12.3,3,South,28.65,26.89,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+10671,1,quru,930,114,6.2,14.5,3,South,54.44,52.83,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+110061,1,litu,1213,1101,17,10,2,South,59.01,59.95,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+110526,1,ceca,153,1103,15.1,3,2,South,33.02,33.48,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+110680,1,litu,715,1104,2,6.5,2,South,78.41,77.46,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+110788,1,litu,670,1104,19.9,11.7,2,South,45.73,46.91,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+110791,1,litu,666,1104,11.3,10,2,South,37.07,37.59,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+110798,1,litu,750,1104,16,15.5,2,South,90.55,91.59,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+110901,1,litu,562,1105,20,4.1,2,South,19.96,20.09,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111014,1,litu,698,1107,13.9,12.2,2,South,46.75,47.97,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111030,1,litu,623,1107,15.1,19.9,2,South,18.29,17.98,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111032,1,litu,622,1107,10.3,19,2,South,91.7,93.36,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111032,2,litu,440,1107,10.3,19,2,South,79.75,81.05,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111039,1,litu,473,1108,19.7,4.1,2,South,42.43,42.81,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111092,1,litu,599,1110,18.3,17.7,2,South,97.45,98.28,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111093,1,litu,510,1110,13.4,16.4,2,South,23.95,25.35,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+111305,1,caovl,234,1113,4.7,19.3,3,South,4.54,3.28,3.32,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+112014,1,cagl,515,1117,18,11.2,5,North,18.28,15.81,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112057,1,acru,728,1117,8.8,4.2,5,North,18.02,17.79,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112130,1,qual,149,1119,17.2,18.3,5,North,13.11,13.49,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112136,1,pist,315,1120,13.9,2.5,5,North,101.81,102.15,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112137,1,qual,607,1120,13.4,3.9,5,North,105.33,105.75,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112142,1,qual,418,1120,16,3.5,5,North,14.85,14.92,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112192,1,quve,345,1121,9.1,13.1,5,North,11.33,10.71,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112250,1,pist,470,1122,10.8,18.4,5,North,37.02,35.79,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112252,1,litu,495,1122,13.6,19.4,5,North,42.99,44.09,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+112342,1,nysy,199,1125,14.2,16.7,8,North,9.25,8.89,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112350,1,cagl,621,1126,11.7,5.6,8,North,110.66,110.42,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112466,1,cato,240,1129,17.5,7.1,8,North,31.87,30.56,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112467,1,litu,484,1129,19.6,12.5,8,North,98.18,98.86,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112480,1,litu,625,1131,14.4,10.9,8,North,105.32,106.76,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112481,1,litu,468,1131,14.9,14.4,8,North,88.45,89.52,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112482,1,litu,271,1131,17.8,15.9,8,North,24.39,25.21,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112698,1,ulru,114,1128,17.9,18.2,8,North,47.22,46.95,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+12025,1,quru,941,117,5,16.3,4,North,64.06,62.97,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+120278,1,litu,892,1201,5,8.6,2,South,89.49,90.24,,,RT,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+120755,1,litu,705,1204,6.8,10,2,South,59.16,60.04,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+120777,1,litu,553,1205,3.8,0.2,2,South,22.92,24.17,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+120781,1,litu,637,1205,3,2.2,2,South,28.46,29.55,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+120790,1,litu,478,1205,0.4,6.2,2,South,55.72,55.84,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121195,1,quru,974,1211,12.4,0.4,2,South,39.93,38.68,,,RT,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121221,1,litu,120,1207,1.7,19.3,2,South,11.81,12.05,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121275,1,qupr,260,1209,1.7,16.9,2,South,36.17,36.1,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121291,1,qupr,479,1210,2.8,9.4,2,South,60.33,61.2,,,RT,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121301,1,caovl,257,1211,1.2,2.5,2,South,28.13,27.68,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121305,1,quru,793,1211,1.1,11.2,2,South,51.16,50.31,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+121367,1,nysy,282,1216,4.6,10.8,5,North,101.64,102.48,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+121374,1,juni,378,1216,0.7,18.5,5,North,19.37,22.17,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+121438,1,caco,404,1215,19.1,6.5,3,North,66.84,66.79,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+122006,1,acru,452,1217,9.9,8.3,5,North,43.97,46.28,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122009,1,acru,303,1217,1.2,4.1,5,North,46.93,47.38,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122120,1,qual,342,1220,2.6,0.6,5,North,47.68,47.09,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122121,1,pist,318,1220,1.6,2.3,5,North,74.21,74.85,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122136,1,quru,666,1220,5.5,7.6,5,North,52.77,51.1,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122150,1,pist,342,1221,0.8,0.7,5,North,13.36,14.01,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122154,1,pist,148,1221,5.8,5.2,5,North,4.56,4.3,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122184,1,pist,246,1222,2.9,13.9,5,North,28.01,28.38,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122185,1,pist,162,1222,5.6,14.9,5,North,6.04,5.8,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122189,1,qual,708,1222,5.5,19.5,5,North,22.43,23.02,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122248,1,qual,598,1222,10.5,13.1,5,North,100.87,102.06,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122303,1,qual,664,1223,1.9,8.5,5,North,23.39,24.36,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+122343,1,qual,660,1225,10.7,14.4,8,North,62.48,63.16,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122427,1,qual,875,1227,17,15.6,8,North,104.66,105.73,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122439,1,cagl,182,1228,12.6,13,8,North,38.74,38.91,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122450,1,ulru,268,1225,3,19.1,8,North,56.05,56.84,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122458,1,cagl,238,1226,4.6,4.9,8,North,29.4,28.67,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122482,1,litu,596,1228,14.5,2.4,8,North,22.59,23.71,,,,mapped incorrectly; SW of 122486,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122486,1,litu,661,1228,2.7,17,8,North,64.64,64.77,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122489,1,cagl,290,1229,2.8,4.3,8,North,80.35,80.36,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122492,1,litu,560,1229,2.5,11.5,8,North,93.35,94.4,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122522,1,litu,442,1232,3.4,17.4,8,North,17.03,18,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+122561,1,litu,710,1231,0,10.5,8,North,81.01,82.23,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+12259,1,litu,1045,125,16.3,1.5,4,North,20.97,20.51,,,,Band loose,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+12416,1,cato,131,129,17.1,16.1,4,North,23.43,22.54,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+12508,1,litu,925,131,10.7,10.4,4,North,92.15,101.69,,,,"last measurement, band removed; replace tree","Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+130348,1,litu,626,1302,19.9,1.9,1,South,86.13,87.1,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+130838,1,litu,693,1305,12.2,1,2,South,100.21,101.34,,,RT,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+131009,1,quve,806,1308,13.9,0.7,2,South,94.27,93.55,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+131087,1,quru,712,1310,17.3,17.8,2,South,131.93,132.25,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+131092,1,litu,515,1311,13.1,2.7,2,South,126.26,127.83,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+131096,1,litu,289,1311,19,4.7,2,South,21.5,22.56,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+131188,1,litu,635,1313,10,15.3,3,South,117.38,118.27,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+131364,1,acru,487,1316,12,12.9,5,North,112.98,113.72,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+131422,1,caco,163,1316,13.4,9.6,5,North,46.09,44.97,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+132077,1,qual,649,1319,9.9,15.9,5,North,44.1,45.05,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+132171,1,litu,568,1320,13.7,6.7,5,North,111.77,112.23,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+132280,1,fram,114,1324,6.1,18.2,5,North,20.06,20.73,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+132302,1,quru,951,1321,13,14.4,5,North,84.71,92.79,,,,last measurement; band removed,Jen Jordan,Jessica Shue,2026.01,2026,3,19
+132311,1,qual,568,1322,12.9,14.2,5,North,59.41,59.91,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+132321,1,quru,659,1323,17.6,1,5,North,29.89,28.89,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+132371,1,quru,792,1325,19.9,12.9,8,North,74.33,75.58,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+132529,1,litu,936,1329,16.6,13.2,8,North,112.42,113.51,,,RE,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+132539,1,litu,640,1331,15,15.9,8,North,87.31,88.91,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+132542,1,quve,751,1332,15.4,2.9,8,North,52.86,54.62,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+132545,1,litu,466,1332,9.5,11.2,8,North,45.2,45.6,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+140609,1,litu,1134,1403,4.3,3.6,1,South,85.07,84.64,,,,band removed; around two stems,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+140646,1,litu,763,1405,1,8.3,2,South,29.79,30.9,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+140751,1,quve,740,1408,9.9,1.5,2,South,109.33,108.5,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+140813,1,litu,751,1410,8.3,11.2,2,South,25.69,27.11,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+140821,1,litu,574,1411,4.6,0.4,2,South,101.22,102.9,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+140825,1,litu,542,1411,8,5.9,2,South,86.07,87.74,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+140829,1,litu,662,1411,0.6,4.9,2,South,95.71,97.22,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+140833,1,litu,597,1411,5.6,9.5,2,South,52.61,53.28,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+141216,1,caco,163,1415,2.1,6.2,3,South,57.13,56.61,56.42,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+142113,1,cagl,488,1417,3,5,5,North,56.85,55.36,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+142380,1,qual,611,1425,6.8,13.1,8,North,92.54,93.38,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142399,1,qual,650,1427,14.4,0.5,8,North,75.92,75.39,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142521,1,pist,508,1422,6.4,11.1,5,North,39.61,40.47,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+142527,1,cagl,170,1422,1.9,18.4,5,North,45.72,43.85,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+142548,1,qual,625,1424,4,4.7,5,North,58.29,58.98,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+142575,1,quve,552,1426,1.8,6.4,8,North,43.86,44.99,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142650,1,ceca,118,1430,17.4,5.7,8,North,22.32,22.23,,,,ready to flower,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142656,1,litu,440,1431,12.4,12.8,8,North,91.5,92.6,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142708,1,juni,428,1429,4.3,6.2,8,North,6.77,7.99,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142727,1,litu,958,1431,1.7,8.2,8,North,35.9,34.69,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142729,1,litu,487,1431,4.7,14.7,8,North,81.24,83.01,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142730,1,litu,718,1431,9.9,14.7,8,North,126.45,126.87,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142731,1,litu,540,1432,8.2,2.3,8,North,79.55,80.52,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142732,1,cagl,229,1432,1.6,1.2,8,North,56.59,56.06,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+142733,1,litu,653,1432,0.5,5.4,8,North,107.68,108.42,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+143707,1,cagl,150,1426,0.9,1.6,8,North,27.28,26.29,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+150781,1,ulru,133,1504,1.2,18.5,1,South,14.39,14.5,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+152153,1,ploc,1014,1520,6.8,0.3,6,North,34.95,30.22,30.24,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+152513,1,qupr,625,1525,4.6,19.2,9,North,38.09,38.56,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+152673,1,litu,961,1530,3.6,18.8,9,North,140.05,141.82,,,,last measurement; band removed,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+152701,1,litu,971,1531,11.3,15.7,9,North,98.82,100.91,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+160713,1,litu,940,1603,10.4,13.7,1,South,38.84,39.05,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+160742,1,litu,919,1605,19.3,6.6,1,South,36.62,36.82,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+160805,1,quve,621,1610,17.8,9.9,1,South,13.91,14.29,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+160814,1,cato,447,1611,14.3,5.7,1,South,15.68,13.92,14.04,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+160862,1,ploc,889,1614,12.4,15.2,1,South,38.13,38.13,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+160910,1,litu,1039,1607,8.6,1.1,1,South,71.21,73.11,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+161578,1,qual,239,1616,5.6,14.7,6,North,50.24,50.54,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+162024,1,quve,297,1618,9.7,9.7,6,North,18.98,19.59,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+162293,1,qual,896,1623,3,9.4,6,North,18.86,18.97,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+162439,1,quru,874,1627,16.3,0.3,9,North,105.3,105.89,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+162446,1,quru,822,1630,14.1,2.9,9,North,90.11,91.82,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+162541,1,qupr,414,1627,3.4,15.4,9,North,34.28,34.45,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+162543,1,qual,904,1627,7.5,16.6,9,North,97.7,98.17,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+170175,1,litu,984,1702,4.7,1.6,1,South,57.35,57.55,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+170992,1,litu,740,1704,12.2,15.2,1,South,31.96,33.02,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+170994,1,litu,594,1704,18.4,16.1,1,South,66.29,67.39,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+171127,1,litu,802,1705,9.3,1.8,1,South,109.33,111.39,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+171254,1,litu,799,1708,15.3,3.4,1,South,26.86,28.1,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+171257,1,litu,647,1708,12.2,4.5,1,South,118.62,119.86,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+171262,1,litu,663,1708,15.9,8.2,1,South,59.38,60.65,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+171348,1,ceca,164,1714,19.4,2.4,1,South,12.43,12.99,,,,injured; top partially dead,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+171454,1,caco,124,1714,1.6,13.8,1,South,33.6,33.1,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+171456,1,acru,768,1714,0.8,13.4,1,South,86.21,83.52,,,BA,last measurement; band removed,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+171505,1,litu,491,1716,14.1,12.4,6,North,16.41,17.24,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+171506,1,litu,536,1716,12,12.9,6,North,89.96,91.47,,,RT,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172201,1,cagl,68,1717,19.5,1.2,6,North,45.39,44.37,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172203,1,qual,378,1717,15.5,0.3,6,North,37.3,37.89,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172205,1,qual,512,1717,16.1,3.5,6,North,35.89,37.78,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172248,1,cato,280,1719,19.2,19.3,6,North,37.51,37.7,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172382,1,juni,478,1723,18.2,14.9,6,North,13.27,14.42,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172416,1,nysy,204,1725,19.9,15.6,9,North,12.02,12.1,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172417,1,nysy,98,1725,20,18.4,9,North,20.18,19.71,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172418,1,nysy,295,1725,20,19.5,9,North,31.13,31.55,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172421,1,cagl,260,1725,14.7,20,9,North,53.16,52.61,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172423,1,litu,406,1726,18.4,1.6,9,North,140.42,141.28,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172556,1,litu,887,1729,5.1,3.9,9,North,36.25,37.23,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+172624,1,litu,499,1731,17.1,14.5,9,North,92.3,93.61,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+180235,1,litu,1072,1802,11,4.6,1,South,74.89,75.71,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180648,1,juni,301,1804,7.5,10.9,1,South,3.33,2.95,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180654,1,litu,394,1805,6,0.3,1,South,96.62,96.77,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180691,1,litu,790,1807,6.2,17.3,1,South,125.02,NA,,,,band removed,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180728,1,litu,422,1804,3.1,12.7,1,South,70.04,70.48,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180903,1,litu,331,1808,4.8,2.3,1,South,33.87,34.82,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180904,1,litu,400,1808,2.8,6.5,1,South,96.1,96.57,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180931,1,quve,822,1809,8.2,19.4,1,South,30.21,31.41,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180948,1,qupr,134,1811,1,9.5,1,South,14.75,14.65,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+180984,1,litu,985,1813,4,11.8,1,South,120.23,122.18,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+180991,1,ploc,963,1814,1.5,6.7,1,South,56.78,57.63,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+181030,1,qual,795,1816,5.4,10.6,6,North,15.25,15.39,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+181033,1,litu,573,1816,3.4,18.6,6,North,84.29,85.85,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182207,1,qual,560,1817,5.6,11.2,6,North,13.41,12.24,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182208,1,quru,559,1817,4,10.1,6,North,40.51,40.97,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182376,1,ploc,702,1823,2.9,12.6,6,North,87.53,88.29,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182398,1,ceca,114,1825,0.6,5.5,9,North,25.12,24.71,,,,las measurement; injured; band removed,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182471,1,ceca,91,1829,2.6,19,9,North,46.88,47.46,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182491,1,litu,440,1831,7.6,7.9,9,North,123.56,124.58,,,RE,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182570,1,juni,568,1823,10.5,1,6,North,26.77,28.3,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182681,1,litu,635,1829,13,1,9,North,76,80.16,,,BA,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+182693,1,litu,894,1830,15.3,13.2,9,North,105.79,106.38,,,,last measurement; band removed,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+190065,1,litu,569,1902,18.8,0.4,1,South,52.86,54.6,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190067,1,litu,760,1902,19,2.2,1,South,97.19,97.9,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190071,1,litu,228,1902,20,4.3,1,South,49.36,49.52,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190115,1,litu,982,1902,4.8,18.6,1,South,57.81,56.76,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190413,1,litu,1046,1904,14.7,5.6,1,South,41.24,41.06,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190426,1,litu,1080,1904,11,16,1,South,65.39,66.21,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190429,1,litu,745,1904,12.5,19.1,1,South,21.49,22.69,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190568,1,juni,955,1912,2.6,18.8,1,South,99.07,98.28,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+190655,1,litu,583,1907,12.9,16.1,1,South,98.24,101.35,,,RE,two springs,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190658,1,litu,488,1907,10.6,16.7,1,South,76.18,77.14,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190670,1,litu,577,1908,8,3.2,1,South,49.79,50.66,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190694,1,quru,1353,1909,18.2,14.7,1,South,66.79,66.67,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190704,1,caco,222,1910,15.2,4.3,1,South,39.92,36.99,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+190793,1,litu,639,1914,12.2,1.3,1,South,45.95,47.92,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+190794,1,quru,692,1914,10.6,1.4,1,South,92.62,92.86,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+190798,1,cagl,284,1914,12.5,8.4,1,South,24.08,23.26,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192008,1,qual,719,1917,12,2,6,North,111.38,110.67,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192133,1,caovl,579,1923,11.7,2.3,6,North,58.09,58.32,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192244,1,qual,478,1919,18.1,16.8,6,North,90.37,90.23,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192437,1,litu,463,1925,17,11.5,9,North,50.67,50.39,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192466,1,quru,869,1926,13.3,1.7,9,North,60.56,60.52,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192484,1,quru,457,1926,17.4,11.2,9,North,117.43,117.91,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192527,1,litu,529,1928,11.9,5,9,North,120.29,121.32,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192528,1,litu,605,1928,12.4,9.7,9,North,69.13,69.57,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192533,1,litu,429,1928,18.4,17.2,9,North,23.08,24.08,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192534,1,litu,583,1928,13.3,17.4,9,North,28.7,29.46,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192542,1,litu,335,1929,18.9,3.8,9,North,59.78,60.16,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192543,1,litu,459,1929,14.9,4.4,9,North,82.04,82.36,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192546,1,litu,555,1929,17.4,7.3,9,North,135.03,135.49,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192548,1,litu,494,1929,15.3,11.3,9,North,35.11,35.59,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192560,1,qual,970,1930,12.9,19.5,9,North,74.91,72.08,72.06,,,keep band; TOMST tree,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+192619,1,quru,845,1926,12.6,8.5,9,North,39.86,40.41,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+200142,1,litu,635,2002,1.3,3.5,1,South,61.67,62.49,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200151,1,litu,723,2002,6.9,4,1,South,124.35,125.32,,,RE,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200547,1,litu,690,2005,2.6,1.1,1,South,41.95,42.62,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200551,1,litu,602,2005,1,5.3,1,South,26.4,27.26,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200577,1,juni,544,2007,6.1,9.6,1,South,5.11,4.9,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200586,1,juni,451,2007,2,13.9,1,South,32.51,32.55,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200676,1,litu,905,2008,12.2,6.9,1,South,49.83,49.52,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200812,1,juni,559,2008,8,1.2,1,South,50.33,51.57,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200818,1,litu,351,2008,4.4,3.9,1,South,23.76,24.17,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+200822,1,litu,882,2008,5.6,10.3,1,South,51.13,52.91,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,17
+201171,1,ceca,115,2011,8.7,9.4,1,South,11.54,11.32,,,,injured; VITIS,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201180,1,caco,137,2011,10.5,14.6,1,South,38.38,38.88,,,,new spring installed,Jessica Shue,Jessica Shue,2026.01,2026,3,19
+201207,1,litu,1354,2012,10,17.3,1,South,0,NA,,,,replace tree,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201261,1,juni,500,2013,0.3,17.3,1,South,72.98,70.62,,,,orange fungus on trunk,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201264,1,litu,451,2014,0.3,6.8,1,South,99.52,99.43,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201274,1,litu,630,2014,5.3,8.9,1,South,37.29,37.95,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201278,1,litu,681,2014,2.2,11.8,1,South,45.33,48.02,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201279,1,quru,511,2014,1.9,13,1,South,80.91,81.24,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201331,1,qupr,447,2015,14.3,9.5,1,South,49.32,49.49,,,RT,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201432,1,quve,457,2016,0.3,12.5,6,North,128.58,128.22,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+201441,1,litu,834,2016,11.8,19.2,6,North,107.66,108.07,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202050,1,qual,501,2019,9.2,14.5,6,North,61.11,62.07,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202072,1,qual,741,2020,2.1,10.8,6,North,72.99,74.24,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202201,1,cato,151,2017,3.2,1.1,6,North,55.84,54.33,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202203,1,quru,537,2017,9.2,1.4,6,North,37.69,38.2,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202212,1,quve,632,2017,4.3,9.5,6,North,34.19,35.53,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202215,1,qual,570,2017,5.5,11.7,6,North,16.36,17.19,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202276,1,caovl,265,2019,7.1,13.8,6,North,18.53,17.31,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202283,1,litu,334,2020,4.5,2.9,6,North,55.83,56.74,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202336,1,cagl,473,2022,3,10.7,6,North,44.61,45.82,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202337,1,cagl,461,2023,1,0.2,6,North,133.55,134.21,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202444,1,litu,713,2025,0.9,12.5,9,North,85.69,86.5,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202449,1,litu,641,2026,0,1,9,North,50.69,51.69,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202543,1,litu,253,2028,0.5,15.6,9,North,24.52,24.65,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+202550,1,litu,603,2029,2.1,10.7,9,North,62.63,61.51,61.51,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+20587,1,litu,1310,208,14.8,1.3,3,South,96.08,97.57,,,,last measurement; band removed,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+20617,1,litu,901,209,6.9,7.6,3,South,93.96,95.22,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+20712,1,litu,949,212,1.5,8.3,3,South,133.39,133.51,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+20737,1,tiam,189,213,12.6,3.8,3,South,26.64,25.97,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+22041,1,litu,868,217,1.8,19,4,North,95.26,98.28,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22070,1,cato,75.8,218,2.3,11.4,4,North,0,NA,,,,Not found,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22141,1,tiam,147,221,1.9,1.2,4,North,22.57,23.43,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22170,1,litu,1151,221,7.9,13.8,4,North,61.66,62.59,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22186,1,tiam,380,222,17,7.5,4,North,26.49,27.2,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22315,1,caco,575,225,11,4,4,North,32.74,33.71,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22489,1,cato,143,229,16.1,1.8,4,North,18.78,16.2,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+22601,1,juni,140,231,17.8,10,4,North,11.61,11.88,,,,TOMST tree,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+30225,1,qual,275,306,20,3.1,3,South,43.86,43.71,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30233,1,fagr,1109,306,15.6,16.2,3,South,131.97,132.92,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30234,1,fagr,84,306,15.3,18.5,3,South,26.48,25.89,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30262,1,cagl,354,311,1.7,12,3,South,20.29,22.04,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30273,1,fagr,490,311,9.6,4.1,3,South,24.17,24.19,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30331,1,cagl,239,306,8.3,19.5,3,South,44.54,41.8,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30333,1,fagr,266,306,14,19.3,3,South,133,132.07,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30339,1,litu,620,307,8.6,4.1,3,South,24.98,26.21,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30339,2,litu,557,307,8.6,4.1,3,South,25.59,26.62,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30339,3,litu,162,307,8.6,4.1,3,South,59.42,59.94,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30462,1,litu,524,313,16.2,19,3,South,39.19,38.53,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30467,1,litu,638,314,17.3,3,3,South,19.6,19.32,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+30584,1,quve,955,316,2.2,14.4,4,North,56.79,53.89,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32097,1,litu,661,320,17.9,3,4,North,69.31,69.26,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32126,1,litu,1058,321,9.6,5,4,North,42.75,41.97,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32157,1,tiam,392,322,7.5,4,4,North,0,NA,,,,Band missing,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32167,1,cagl,163,322,12.8,3.8,4,North,12.88,11.31,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32180,2,tiam,192,322,6.4,12.3,4,North,24.77,24.03,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32251,1,tiam,175,323,10.3,10.3,4,North,19.7,19.33,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32381,1,qupr,889,327,4.6,12.8,4,North,35.89,35.87,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+32423,1,litu,969,329,17.6,13.1,4,North,18.99,18.58,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+40465,1,qupr,473,404,8.2,12.5,2,South,132.15,132.04,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+40562,1,fagr,88,406,6.3,16.2,3,South,9.44,8.55,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40563,1,fagr,440,406,3.6,17.8,3,South,34.59,34.52,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40564,1,fagr,72,406,2.4,12.4,3,South,0,12.45,,1,,"7.6, 7.6, 1.5",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+40566,1,cagl,301,406,1.1,9.4,3,South,60.27,59.95,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40567,1,fagr,112,406,1.6,7.2,3,South,12.72,12.48,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40568,1,fagr,229,406,0.1,5.2,3,South,101.74,101.17,,,,new tag,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40569,1,litu,345,407,5.6,1.7,3,South,20.91,20.35,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40635,1,cato,274,408,18.7,1,3,South,77.3,75.68,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40941,1,litu,650,413,6,15.4,3,South,67.06,66.93,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40942,1,acru,428,414,2.2,2,3,South,20.13,20.35,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+40972,1,litu,871,415,7.2,9.6,3,South,101.11,100.64,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+42009,1,ploc,611,417,19.5,3.7,4,North,32.67,33.1,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+50364,1,qual,700,507,4.2,18.1,2,South,57.67,43.67,43.84,,,JS verified,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+50525,1,qual,529,512,8.3,7.4,3,South,87.14,87.78,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+50562,1,quru,715,514,6.9,12.5,3,South,95.12,95.19,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+50622,1,qual,660,513,16.8,9.4,3,South,58.37,58.9,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+50646,1,quru,368,514,19.6,9.4,3,South,78.74,78.58,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+50650,1,litu,194,514,19.5,14.9,3,South,28.54,25.88,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+50654,1,litu,751,514,17.2,19.1,3,South,106,105.07,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+52190,1,quru,1045,522,16.4,3.4,4,North,113.01,116.07,,,,Band is loose,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+52344,1,cagl,272,528,14.3,5.9,4,North,16.31,15.31,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+52384,1,caovl,125,529,1.2,13.1,4,North,14.32,12.88,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+60266,1,cato,511,604,5.5,9.2,2,South,31.66,30.84,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+60456,1,caca,50,614,5.3,15,3,South,11.55,11.9087,,,,injured,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60457,1,caca,106,614,4,15.2,3,South,0,NA,,,DC,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60459,1,fagr,126,615,2,3,3,South,37.28,37.51,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60462,1,fagr,256,615,5.6,7.6,3,South,44,43.98,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60463,1,juni,510,615,7.2,8,3,South,114.13,116.11,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60468,1,caca,76,615,5.4,9.6,3,South,16.23,16.23,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60469,1,cofl,74,615,6.8,9.8,3,South,11.03,11.63,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60566,1,fagr,235,614,10,11,3,South,43.73,43.56,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60567,1,litu,567,614,11.6,11.2,3,South,95.01,95.51,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60568,1,caca,104,614,15.5,15.6,3,South,36.67,36.23,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60573,1,tiam,284,614,8.5,16.3,3,South,88.89,90.03,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60576,1,caca,109,615,17.1,1,3,South,13.54,13.58,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60577,1,litu,584,615,12.7,1.4,3,South,73.66,74.96,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60578,1,caca,86,615,13.2,9.9,3,South,17.85,17.94,,,,mapped wrong; just North of 60577,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60581,1,litu,707,615,19.8,9.3,3,South,61.57,61.55,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60582,1,quru,304,615,20,10.2,3,South,25.45,25.66,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60586,1,caca,78,615,16.2,9.3,3,South,20.81,20.15,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+60588,1,caco,311,615,13.4,7.3,3,South,75.28,72.91,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+62114,1,quve,324,619,18.7,12.6,4,North,96.84,97.56,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62121,1,cato,115,619,5.1,12.8,4,North,14.8,13.76,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62181,1,quve,1150,621,8.8,13.5,4,North,27.08,27.88,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62224,1,litu,1080,622,3.2,17.3,4,North,70.3,68.56,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62241,1,litu,967,623,13.9,0.7,4,North,60.48,62.04,62.02,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+62285,1,quru,745,625,4.8,2,7,North,132.4,132.57,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62300,1,quve,426,625,13.8,17.5,7,North,92.47,93.82,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62312,1,cato,130,626,14.3,0.4,7,North,5.23,4.84,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+62449,1,qual,915,632,18.7,3.9,7,North,45.73,46.93,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+70096,1,quru,946,704,3.3,12.7,2,South,40.96,41.18,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70126,1,quru,880,705,9.3,12.5,2,South,54.64,55.01,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70146,1,quve,669,706,8.8,7.2,2,South,34.33,35.19,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70278,1,qupr,715,704,15.6,15.4,2,South,110.72,111.23,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70292,1,cagl,470,705,14.6,2.1,2,South,102.05,101.38,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70352,1,litu,775,707,18.5,11,2,South,14.83,15.35,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70358,1,litu,394,708,18.4,2,2,South,47.94,49.11,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70433,1,litu,743,710,11.4,13.8,2,South,70.36,71.67,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70492,1,nysy,227,714,0.1,11.2,3,South,74.68,75.2,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+70493,1,litu,567,714,0.3,15.2,3,South,48.73,48.82,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+70495,1,caca,92,714,1.7,18.6,3,South,30.15,29.96,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+70519,1,qual,562,711,15.5,3.3,2,South,105.53,105.35,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70536,1,qual,625,711,11.9,7.4,2,South,65.54,66.22,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+70579,1,caovl,245,714,19.2,4.3,2,South,55.61,54.83,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+72024,1,quve,516,717,20,9.6,4,North,76.53,78.32,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72104,1,qual,267,718,6.2,17.8,4,North,44.33,43.8,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72107,1,fagr,441,719,8,1.2,4,North,37.08,37.29,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72115,1,litu,505,719,11.2,10.7,4,North,16.45,16.96,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72116,1,litu,517,719,14.4,10.8,4,North,86.39,86.15,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72122,1,caca,83,719,19.9,19,4,North,11.16,11.16,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72124,1,quru,828,719,12.5,19.4,4,North,132.63,141.31,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72149,1,litu,586,720,13.8,0.7,4,North,76.9,77.47,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72173,1,qual,461,720,6,10.2,4,North,47.68,47.68,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72210,1,qual,881,721,5.2,11.5,4,North,66.91,67.31,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72232,1,qual,757,722,14.5,12.6,4,North,34.98,40.32,40.37,,"BA, RT",,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+72248,1,caovl,335,723,15,0.3,4,North,86.44,86.92,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72308,1,qual,670,725,15.2,13.3,7,North,86.11,87.01,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72322,1,litu,256,726,18.1,0.3,7,North,44.13,43.81,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72324,1,litu,720,726,14.4,6.6,7,North,116.78,117.94,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72337,1,quru,955,727,7.9,2.6,7,North,99.21,99.23,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72348,1,quru,987,727,12,15.1,7,North,94.26,94.15,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72357,1,quru,957,728,1.7,2,7,North,72.75,74.66,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72375,1,litu,700,728,13.7,17.1,7,North,0,130.24,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72377,1,litu,796,728,10.6,16.1,7,North,99.95,101.44,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72447,1,litu,640,732,14.9,4.1,7,North,20.68,20.61,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+72448,1,litu,509,732,18.9,4.7,7,North,101.12,101,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+80100,1,litu,603,804,2.4,10.8,2,South,107.62,113.9,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+80121,1,quve,120,801,8.8,19.2,3,South,0,5.06,,1,,"12.5, 12.2, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,18
+80401,1,caco,480,807,7.4,19.6,2,South,61.62,63.7,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+80554,1,caovl,551,813,6.9,11.2,2,South,86.1,86.16,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+80559,1,nysy,439,813,8.9,17.8,2,South,6.4,6.95,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+80615,1,litu,699,810,4.4,16.8,2,South,100.2,101.8,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+80628,1,quve,553,811,7.5,3,2,South,63.47,65.21,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+80631,1,litu,556,811,0.2,6.1,2,South,63.35,65.15,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+82091,1,caovl,194,819,3.5,1.3,4,North,5.05,3.66,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82117,1,cato,155,819,11.6,14.3,4,North,14,13.95,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82125,1,cagl,150,819,1.6,14.3,4,North,37.33,36.02,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82138,1,quru,714,820,1.1,2.7,4,North,49.35,48.74,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82203,1,litu,668,822,8,9.4,4,North,101.33,102.47,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82219,1,ceca,96,822,14.7,18.8,4,North,22.97,21.41,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82223,1,litu,445,822,0.5,17.7,4,North,91.9,92.98,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82226,1,litu,270,823,2,4,4,North,79.13,80.14,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82292,1,litu,519,826,1.8,0.4,7,North,75.25,76.72,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82298,1,litu,609,826,0.3,5.1,7,North,116.08,116.71,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82326,1,quve,870,827,14.6,8.3,7,North,41.73,41.94,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82357,1,litu,567,828,4,13.8,7,North,111.06,110.78,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82360,1,litu,640,829,2.3,0.7,7,North,89.4,91.07,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82365,1,qual,450,829,4.9,4.7,7,North,76.51,77.38,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82368,1,litu,1014,829,16.8,3.4,7,North,24.2,23.06,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82419,1,litu,847,831,3.3,10,7,North,97.78,99.01,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82421,1,litu,595,831,5.6,14.7,7,North,52.09,53.07,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82422,1,litu,563,831,6.9,19.5,7,North,110.89,111.22,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+82434,1,quve,864,832,6,15.6,7,North,72.22,73.59,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+90162,1,litu,687,904,16.9,11.1,2,South,20.98,21.35,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90236,1,ulru,160,902,14.4,2.5,2,South,16.72,17.32,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90311,1,cagl,172,904,17.5,15.8,2,South,32.08,31.29,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90354,1,litu,697,905,10.6,5,2,South,47.4,48.27,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90544,1,qupr,199,911,18.5,15.4,2,South,14.09,14.03,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90612,1,quru,596,910,10.7,14,2,South,68.61,69.16,,,RT,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90631,1,quve,180,911,1.5,13.9,2,South,5.25,5.24,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90660,1,quru,1034,913,4.9,7.9,2,South,129.45,124.87,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+90684,1,ploc,474,915,9.1,6.2,3,South,70.73,70.77,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,17
+90752,1,qual,558,916,12.4,7.4,5,North,10.23,10.19,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+91451,1,litu,605,907,18.7,17.6,2,South,84.02,85.36,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+91474,1,litu,470,908,14.5,4.7,2,South,103.61,104.64,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+91476,1,litu,516,908,18.4,2.4,2,South,114.65,115.19,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+91477,1,litu,225,908,19.3,3.5,2,South,66.92,68.04,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+91486,1,cagl,600,908,17.5,9.2,2,South,92.18,91.25,,,,,Brigit Rooney,Jessica Shue,2026.01,2026,3,18
+92018,1,acru,559,917,16.2,5.6,5,North,26.42,26.51,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92112,1,litu,547,919,14.4,18.8,5,North,77.27,78.2,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92115,1,acru,162,919,10.1,19.3,5,North,17.09,17.21,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92140,1,cato,62,920,18.7,0.7,5,North,18.31,18.8,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92141,1,cagl,97,920,19.4,4.7,5,North,17.65,17.1,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92237,1,nysy,220,922,14.7,19.5,5,North,19.36,19.6,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92280,1,quve,701,923,15,6.9,5,North,82.59,83.46,,,,,Jen Jordan,Jessica Shue,2026.01,2026,3,18
+92393,1,cagl,652,925,19.8,7.7,7,North,30.86,31.75,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+92466,1,litu,879,927,0.6,16.3,7,North,96.02,98.21,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+92488,1,litu,737,928,12.7,13.5,7,North,47.91,48.12,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+92545,1,litu,598,931,15.3,15.6,7,North,97.35,100.81,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+92546,1,litu,676,931,16.5,16.7,7,North,100.17,101.72,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+92547,1,litu,654,931,11.7,13.9,7,North,118.57,121.91,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102439,1,litu,224,1028,4.3,19.6,7,North,24.78,24.78,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+102475,1,litu,855,1030,20,14.3,8,North,62.58,64.84,,,,,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+112316,1,quve,855,1125,8.7,1,8,North,0,NA,,,DC,band removed,Jessica Shue,Jessica Shue,2026.01,2026,3,18
+131233,1,litu,317,1313,18.3,19.6,3,South,105.45,11.2,,1,,"32.1, 31.9, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+131239,1,quru,651,1314,19.5,5.7,3,South,132.22,12.3,,1,,"67.1, 65.9, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+140872,1,litu,661,1413,6.1,14.9,3,South,127.03,12.83,,1,,"66.4, 65.9, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+172202,1,quru,589,1717,17.1,1.8,6,North,128.64,8.68,,1,,"59.6, 58.7, 1.4",Jessica Shue,Jessica Shue,2026.01,2026,3,19
+22004,1,litu,861,217,8.6,1.7,4,North,120.86,120.86,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+30512,1,quru,900,313,2.9,14.3,3,South,128.27,14.81,,1,,"91.5, 89.8, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,18
+60458,1,fagr,313,615,1.9,0,3,South,84.15,11.05,,1,,"32.1, 31.6, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+62128,1,quve,865,620,8,0.8,4,North,0,3.93,,1,,"86.9, 84.8, 1.7; bark and acorn caps more like quru","Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,19
+70220,1,qual,578,702,18.3,0.8,3,South,122.67,14.59,,1,,"59.3, 58.7, 1.4",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+70494,2,caca,74,714,0.4,15.7,3,South,15.59,10.13,,1,,"7.7, 7.6, 1.5",Jen Jordan,Jessica Shue,2026.01,2026,3,19
+92414,1,litu,448,926,11.2,0.9,7,North,45.17,45.97,,,,,"Bill McShea, Claire Watson",Jessica Shue,2026.01,2026,3,18
+152561,1,quve,809,1527,11.9,3.1,9,North,0,NA,NA,NA,RE,band to be installed,Jessica Shue,Jessica Shue,2026.01,2026,3,19
+171462,1,qual,870,1715,7.9,7.5,1,South,112.95,NA,NA,NA,RE,band to be installed,Jessica Shue,Jessica Shue,2026.01,2026,3,19
+202686,1,ulru,142,2025,7.2,16.2,9,North,0,NA,NA,NA,RE,band to be installed,Jessica Shue,Jessica Shue,2026.01,2026,3,19
