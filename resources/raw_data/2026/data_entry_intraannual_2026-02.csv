@@ -1,4 +1,4 @@
-tag,StemTag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,field.recorders,data.enter,survey.ID,year,month,day
+tag,stemtag,sp,dbh,quadrat,lx,ly,area,location,previous_measure,measure,measure_verified,new.band,codes,notes,field.recorders,data.enter,survey.ID,year,month,day
 100771,1,quru,1020,1005,8.5,17,2,South,90.06,96.57,9.69,,BA,,Jessica Shue,Jessica Shue,2026.02,2026,5,1
 100905,1,litu,693,1008,10,1.6,2,South,65.74,63.89,63.85,,,,Jessica Shue,Jessica Shue,2026.02,2026,5,1
 101008,1,tiam,190,1006,4.2,11.6,2,South,37.29,37.34,,,,,Jessica Shue,Jessica Shue,2026.02,2026,5,1
