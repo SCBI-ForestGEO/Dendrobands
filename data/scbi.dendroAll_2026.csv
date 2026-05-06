@@ -1,1 +1,490 @@
 "tag","stemtag","survey.ID","year","month","day","biannual","intraannual","sp","quadrat","lx","ly","measure","codes","notes","status","field.recorders","data.enter","stemID","treeID","dendDiam","dbh","new.band","dendroID","type","dir","dendHt","crown.condition","crown.illum","lianas","measureID"
+10469,NA,2026.01,2026,3,18,NA,NA,"litu",109,9.7,1,15.1,"","94.4, 93.0, 1.5 from paint","alive","Jen Jordan","Jessica Shue",NA,NA,NA,931,1,NA,NA,NA,NA,NA,NA,NA,NA
+10587,NA,2026.01,2026,3,18,NA,NA,"litu",113,2.6,13,126.67,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,1002,0,NA,NA,NA,NA,NA,NA,NA,NA
+10609,NA,2026.01,2026,3,18,NA,NA,"cagl",111,19.5,2.9,31.64,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,444,0,NA,NA,NA,NA,NA,NA,NA,NA
+10643,NA,2026.01,2026,3,18,NA,NA,"fagr",112,0.6,13,35.63,"","accidentally moved point","alive","Jen Jordan","Jessica Shue",NA,NA,NA,693,0,NA,NA,NA,NA,NA,NA,NA,NA
+10669,NA,2026.01,2026,3,18,NA,NA,"cagl",114,6.1,12.3,26.89,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,811,0,NA,NA,NA,NA,NA,NA,NA,NA
+10671,NA,2026.01,2026,3,18,NA,NA,"quru",114,6.2,14.5,52.83,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,930,0,NA,NA,NA,NA,NA,NA,NA,NA
+12025,NA,2026.01,2026,3,18,NA,NA,"quru",117,5,16.3,62.97,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,941,0,NA,NA,NA,NA,NA,NA,NA,NA
+12259,NA,2026.01,2026,3,18,NA,NA,"litu",125,16.3,1.5,20.51,"","Band loose","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1045,0,NA,NA,NA,NA,NA,NA,NA,NA
+12416,NA,2026.01,2026,3,18,NA,NA,"cato",129,17.1,16.1,22.54,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,131,0,NA,NA,NA,NA,NA,NA,NA,NA
+12508,NA,2026.01,2026,3,19,NA,NA,"litu",131,10.7,10.4,101.69,"","last measurement, band removed; replace tree","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,925,0,NA,NA,NA,NA,NA,NA,NA,NA
+20587,NA,2026.01,2026,3,18,NA,NA,"litu",208,14.8,1.3,97.57,"","last measurement; band removed","alive","Jen Jordan","Jessica Shue",NA,NA,NA,1310,0,NA,NA,NA,NA,NA,NA,NA,NA
+20617,NA,2026.01,2026,3,18,NA,NA,"litu",209,6.9,7.6,95.22,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,901,0,NA,NA,NA,NA,NA,NA,NA,NA
+20712,NA,2026.01,2026,3,18,NA,NA,"litu",212,1.5,8.3,133.51,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,949,0,NA,NA,NA,NA,NA,NA,NA,NA
+20737,NA,2026.01,2026,3,18,NA,NA,"tiam",213,12.6,3.8,25.97,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,189,0,NA,NA,NA,NA,NA,NA,NA,NA
+22004,NA,2026.01,2026,3,18,NA,NA,"litu",217,8.6,1.7,120.86,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,861,0,NA,NA,NA,NA,NA,NA,NA,NA
+22041,NA,2026.01,2026,3,18,NA,NA,"litu",217,1.8,19,98.28,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,868,0,NA,NA,NA,NA,NA,NA,NA,NA
+22070,NA,2026.01,2026,3,18,NA,NA,"cato",218,2.3,11.4,NA,"","Not found","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,75.8,0,NA,NA,NA,NA,NA,NA,NA,NA
+22141,NA,2026.01,2026,3,18,NA,NA,"tiam",221,1.9,1.2,23.43,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,147,0,NA,NA,NA,NA,NA,NA,NA,NA
+22170,NA,2026.01,2026,3,18,NA,NA,"litu",221,7.9,13.8,62.59,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1151,0,NA,NA,NA,NA,NA,NA,NA,NA
+22186,NA,2026.01,2026,3,18,NA,NA,"tiam",222,17,7.5,27.2,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,380,0,NA,NA,NA,NA,NA,NA,NA,NA
+22315,NA,2026.01,2026,3,18,NA,NA,"caco",225,11,4,33.71,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,575,0,NA,NA,NA,NA,NA,NA,NA,NA
+22489,NA,2026.01,2026,3,18,NA,NA,"cato",229,16.1,1.8,16.2,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,143,0,NA,NA,NA,NA,NA,NA,NA,NA
+22601,NA,2026.01,2026,3,18,NA,NA,"juni",231,17.8,10,11.88,"","TOMST tree","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,140,0,NA,NA,NA,NA,NA,NA,NA,NA
+30225,NA,2026.01,2026,3,18,NA,NA,"qual",306,20,3.1,43.71,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,275,0,NA,NA,NA,NA,NA,NA,NA,NA
+30233,NA,2026.01,2026,3,18,NA,NA,"fagr",306,15.6,16.2,132.92,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,1109,0,NA,NA,NA,NA,NA,NA,NA,NA
+30234,NA,2026.01,2026,3,18,NA,NA,"fagr",306,15.3,18.5,25.89,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,84,0,NA,NA,NA,NA,NA,NA,NA,NA
+30262,NA,2026.01,2026,3,18,NA,NA,"cagl",311,1.7,12,22.04,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,354,0,NA,NA,NA,NA,NA,NA,NA,NA
+30273,NA,2026.01,2026,3,18,NA,NA,"fagr",311,9.6,4.1,24.19,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,490,0,NA,NA,NA,NA,NA,NA,NA,NA
+30331,NA,2026.01,2026,3,18,NA,NA,"cagl",306,8.3,19.5,41.8,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,239,0,NA,NA,NA,NA,NA,NA,NA,NA
+30333,NA,2026.01,2026,3,18,NA,NA,"fagr",306,14,19.3,132.07,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,266,0,NA,NA,NA,NA,NA,NA,NA,NA
+30339,NA,2026.01,2026,3,18,NA,NA,"litu",307,8.6,4.1,26.21,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,620,0,NA,NA,NA,NA,NA,NA,NA,NA
+30339,NA,2026.01,2026,3,18,1,1,"litu",307,8.6,4.1,26.62,"","","alive","Jen Jordan","Jessica Shue",3969,3969,NA,557,1,726,2,NA,1.52,NA,NA,NA,NA
+30339,NA,2026.01,2026,3,18,1,1,"litu",307,8.6,4.1,59.94,"","","alive","Jen Jordan","Jessica Shue",3975,3975,NA,162,1,1181,2,NA,1.4,NA,NA,NA,NA
+30462,NA,2026.01,2026,3,18,NA,NA,"litu",313,16.2,19,38.53,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,524,0,NA,NA,NA,NA,NA,NA,NA,NA
+30467,NA,2026.01,2026,3,18,NA,NA,"litu",314,17.3,3,19.32,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,638,0,NA,NA,NA,NA,NA,NA,NA,NA
+30512,NA,2026.01,2026,3,18,NA,NA,"quru",313,2.9,14.3,14.81,"","91.5, 89.8, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,900,1,NA,NA,NA,NA,NA,NA,NA,NA
+30584,NA,2026.01,2026,3,18,NA,NA,"quve",316,2.2,14.4,53.89,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,955,0,NA,NA,NA,NA,NA,NA,NA,NA
+32097,NA,2026.01,2026,3,18,NA,NA,"litu",320,17.9,3,69.26,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,661,0,NA,NA,NA,NA,NA,NA,NA,NA
+32126,NA,2026.01,2026,3,18,NA,NA,"litu",321,9.6,5,41.97,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1058,0,NA,NA,NA,NA,NA,NA,NA,NA
+32157,NA,2026.01,2026,3,18,NA,NA,"tiam",322,7.5,4,NA,"","Band missing","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,392,0,NA,NA,NA,NA,NA,NA,NA,NA
+32167,NA,2026.01,2026,3,18,NA,NA,"cagl",322,12.8,3.8,11.31,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,163,0,NA,NA,NA,NA,NA,NA,NA,NA
+32180,NA,2026.01,2026,3,18,NA,NA,"tiam",322,6.4,12.3,24.03,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,192,0,NA,NA,NA,NA,NA,NA,NA,NA
+32251,NA,2026.01,2026,3,18,NA,NA,"tiam",323,10.3,10.3,19.33,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,175,0,NA,NA,NA,NA,NA,NA,NA,NA
+32381,NA,2026.01,2026,3,18,NA,NA,"qupr",327,4.6,12.8,35.87,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,889,0,NA,NA,NA,NA,NA,NA,NA,NA
+32423,NA,2026.01,2026,3,18,NA,NA,"litu",329,17.6,13.1,18.58,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,969,0,NA,NA,NA,NA,NA,NA,NA,NA
+40465,NA,2026.01,2026,3,18,NA,NA,"qupr",404,8.2,12.5,132.04,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,473,0,NA,NA,NA,NA,NA,NA,NA,NA
+40562,NA,2026.01,2026,3,18,NA,NA,"fagr",406,6.3,16.2,8.55,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,88,0,NA,NA,NA,NA,NA,NA,NA,NA
+40563,NA,2026.01,2026,3,18,NA,NA,"fagr",406,3.6,17.8,34.52,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,440,0,NA,NA,NA,NA,NA,NA,NA,NA
+40564,NA,2026.01,2026,3,19,NA,NA,"fagr",406,2.4,12.4,12.45,"","7.6, 7.6, 1.5","alive","Jen Jordan","Jessica Shue",NA,NA,NA,72,1,NA,NA,NA,NA,NA,NA,NA,NA
+40566,NA,2026.01,2026,3,18,NA,NA,"cagl",406,1.1,9.4,59.95,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,301,0,NA,NA,NA,NA,NA,NA,NA,NA
+40567,NA,2026.01,2026,3,18,NA,NA,"fagr",406,1.6,7.2,12.48,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,112,0,NA,NA,NA,NA,NA,NA,NA,NA
+40568,NA,2026.01,2026,3,18,NA,NA,"fagr",406,0.1,5.2,101.17,"","new tag","alive","Jen Jordan","Jessica Shue",NA,NA,NA,229,0,NA,NA,NA,NA,NA,NA,NA,NA
+40569,NA,2026.01,2026,3,18,NA,NA,"litu",407,5.6,1.7,20.35,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,345,0,NA,NA,NA,NA,NA,NA,NA,NA
+40635,NA,2026.01,2026,3,18,NA,NA,"cato",408,18.7,1,75.68,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,274,0,NA,NA,NA,NA,NA,NA,NA,NA
+40941,NA,2026.01,2026,3,18,NA,NA,"litu",413,6,15.4,66.93,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,650,0,NA,NA,NA,NA,NA,NA,NA,NA
+40942,NA,2026.01,2026,3,18,NA,NA,"acru",414,2.2,2,20.35,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,428,0,NA,NA,NA,NA,NA,NA,NA,NA
+40972,NA,2026.01,2026,3,18,NA,NA,"litu",415,7.2,9.6,100.64,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,871,0,NA,NA,NA,NA,NA,NA,NA,NA
+42009,NA,2026.01,2026,3,18,NA,NA,"ploc",417,19.5,3.7,33.1,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,611,0,NA,NA,NA,NA,NA,NA,NA,NA
+50364,NA,2026.01,2026,3,18,NA,NA,"qual",507,4.2,18.1,43.67,"","JS verified","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,700,0,NA,NA,NA,NA,NA,NA,NA,NA
+50525,NA,2026.01,2026,3,17,NA,NA,"qual",512,8.3,7.4,87.78,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,529,0,NA,NA,NA,NA,NA,NA,NA,NA
+50562,NA,2026.01,2026,3,17,NA,NA,"quru",514,6.9,12.5,95.19,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,715,0,NA,NA,NA,NA,NA,NA,NA,NA
+50622,NA,2026.01,2026,3,17,NA,NA,"qual",513,16.8,9.4,58.9,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,660,0,NA,NA,NA,NA,NA,NA,NA,NA
+50646,NA,2026.01,2026,3,17,NA,NA,"quru",514,19.6,9.4,78.58,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,368,0,NA,NA,NA,NA,NA,NA,NA,NA
+50650,NA,2026.01,2026,3,17,NA,NA,"litu",514,19.5,14.9,25.88,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,194,0,NA,NA,NA,NA,NA,NA,NA,NA
+50654,NA,2026.01,2026,3,17,NA,NA,"litu",514,17.2,19.1,105.07,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,751,0,NA,NA,NA,NA,NA,NA,NA,NA
+52190,NA,2026.01,2026,3,18,NA,NA,"quru",522,16.4,3.4,116.07,"","Band is loose","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1045,0,NA,NA,NA,NA,NA,NA,NA,NA
+52344,NA,2026.01,2026,3,18,NA,NA,"cagl",528,14.3,5.9,15.31,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,272,0,NA,NA,NA,NA,NA,NA,NA,NA
+52384,NA,2026.01,2026,3,18,NA,NA,"caovl",529,1.2,13.1,12.88,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,125,0,NA,NA,NA,NA,NA,NA,NA,NA
+60266,NA,2026.01,2026,3,18,NA,NA,"cato",604,5.5,9.2,30.84,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,511,0,NA,NA,NA,NA,NA,NA,NA,NA
+60456,NA,2026.01,2026,3,17,NA,NA,"caca",614,5.3,15,11.9087,"","injured","alive","Jen Jordan","Jessica Shue",NA,NA,NA,50,0,NA,NA,NA,NA,NA,NA,NA,NA
+60457,NA,2026.01,2026,3,17,NA,NA,"caca",614,4,15.2,NA,"DC","","dead","Jen Jordan","Jessica Shue",NA,NA,NA,106,0,NA,NA,NA,NA,NA,NA,NA,NA
+60458,NA,2026.01,2026,3,19,NA,NA,"fagr",615,1.9,0,11.05,"","32.1, 31.6, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,313,1,NA,NA,NA,NA,NA,NA,NA,NA
+60459,NA,2026.01,2026,3,17,NA,NA,"fagr",615,2,3,37.51,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,126,0,NA,NA,NA,NA,NA,NA,NA,NA
+60462,NA,2026.01,2026,3,17,NA,NA,"fagr",615,5.6,7.6,43.98,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,256,0,NA,NA,NA,NA,NA,NA,NA,NA
+60463,NA,2026.01,2026,3,17,NA,NA,"juni",615,7.2,8,116.11,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,510,0,NA,NA,NA,NA,NA,NA,NA,NA
+60468,NA,2026.01,2026,3,17,NA,NA,"caca",615,5.4,9.6,16.23,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,76,0,NA,NA,NA,NA,NA,NA,NA,NA
+60469,NA,2026.01,2026,3,17,NA,NA,"cofl",615,6.8,9.8,11.63,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,74,0,NA,NA,NA,NA,NA,NA,NA,NA
+60566,NA,2026.01,2026,3,17,NA,NA,"fagr",614,10,11,43.56,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,235,0,NA,NA,NA,NA,NA,NA,NA,NA
+60567,NA,2026.01,2026,3,17,NA,NA,"litu",614,11.6,11.2,95.51,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,567,0,NA,NA,NA,NA,NA,NA,NA,NA
+60568,NA,2026.01,2026,3,17,NA,NA,"caca",614,15.5,15.6,36.23,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,104,0,NA,NA,NA,NA,NA,NA,NA,NA
+60573,NA,2026.01,2026,3,17,NA,NA,"tiam",614,8.5,16.3,90.03,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,284,0,NA,NA,NA,NA,NA,NA,NA,NA
+60576,NA,2026.01,2026,3,17,NA,NA,"caca",615,17.1,1,13.58,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,109,0,NA,NA,NA,NA,NA,NA,NA,NA
+60577,NA,2026.01,2026,3,17,NA,NA,"litu",615,12.7,1.4,74.96,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,584,0,NA,NA,NA,NA,NA,NA,NA,NA
+60578,NA,2026.01,2026,3,17,NA,NA,"caca",615,13.2,9.9,17.94,"","mapped wrong; just North of 60577","alive","Jen Jordan","Jessica Shue",NA,NA,NA,86,0,NA,NA,NA,NA,NA,NA,NA,NA
+60581,NA,2026.01,2026,3,17,NA,NA,"litu",615,19.8,9.3,61.55,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,707,0,NA,NA,NA,NA,NA,NA,NA,NA
+60582,NA,2026.01,2026,3,17,NA,NA,"quru",615,20,10.2,25.66,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,304,0,NA,NA,NA,NA,NA,NA,NA,NA
+60586,NA,2026.01,2026,3,17,NA,NA,"caca",615,16.2,9.3,20.15,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,78,0,NA,NA,NA,NA,NA,NA,NA,NA
+60588,NA,2026.01,2026,3,17,NA,NA,"caco",615,13.4,7.3,72.91,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,311,0,NA,NA,NA,NA,NA,NA,NA,NA
+62114,NA,2026.01,2026,3,18,NA,NA,"quve",619,18.7,12.6,97.56,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,324,0,NA,NA,NA,NA,NA,NA,NA,NA
+62121,NA,2026.01,2026,3,18,NA,NA,"cato",619,5.1,12.8,13.76,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,115,0,NA,NA,NA,NA,NA,NA,NA,NA
+62128,NA,2026.01,2026,3,19,NA,NA,"quve",620,8,0.8,3.93,"","86.9, 84.8, 1.7; bark and acorn caps more like quru","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,865,1,NA,NA,NA,NA,NA,NA,NA,NA
+62181,NA,2026.01,2026,3,18,NA,NA,"quve",621,8.8,13.5,27.88,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1150,0,NA,NA,NA,NA,NA,NA,NA,NA
+62224,NA,2026.01,2026,3,18,NA,NA,"litu",622,3.2,17.3,68.56,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1080,0,NA,NA,NA,NA,NA,NA,NA,NA
+62241,NA,2026.01,2026,3,19,NA,NA,"litu",623,13.9,0.7,62.04,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,967,0,NA,NA,NA,NA,NA,NA,NA,NA
+62285,NA,2026.01,2026,3,18,NA,NA,"quru",625,4.8,2,132.57,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,745,0,NA,NA,NA,NA,NA,NA,NA,NA
+62300,NA,2026.01,2026,3,18,NA,NA,"quve",625,13.8,17.5,93.82,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,426,0,NA,NA,NA,NA,NA,NA,NA,NA
+62312,NA,2026.01,2026,3,18,NA,NA,"cato",626,14.3,0.4,4.84,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,130,0,NA,NA,NA,NA,NA,NA,NA,NA
+62449,NA,2026.01,2026,3,18,NA,NA,"qual",632,18.7,3.9,46.93,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,915,0,NA,NA,NA,NA,NA,NA,NA,NA
+70096,NA,2026.01,2026,3,18,NA,NA,"quru",704,3.3,12.7,41.18,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,946,0,NA,NA,NA,NA,NA,NA,NA,NA
+70126,NA,2026.01,2026,3,18,NA,NA,"quru",705,9.3,12.5,55.01,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,880,0,NA,NA,NA,NA,NA,NA,NA,NA
+70146,NA,2026.01,2026,3,18,NA,NA,"quve",706,8.8,7.2,35.19,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,669,0,NA,NA,NA,NA,NA,NA,NA,NA
+70220,NA,2026.01,2026,3,19,NA,NA,"qual",702,18.3,0.8,14.59,"","59.3, 58.7, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,578,1,NA,NA,NA,NA,NA,NA,NA,NA
+70278,NA,2026.01,2026,3,18,NA,NA,"qupr",704,15.6,15.4,111.23,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,715,0,NA,NA,NA,NA,NA,NA,NA,NA
+70292,NA,2026.01,2026,3,18,NA,NA,"cagl",705,14.6,2.1,101.38,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,470,0,NA,NA,NA,NA,NA,NA,NA,NA
+70352,NA,2026.01,2026,3,18,NA,NA,"litu",707,18.5,11,15.35,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,775,0,NA,NA,NA,NA,NA,NA,NA,NA
+70358,NA,2026.01,2026,3,18,NA,NA,"litu",708,18.4,2,49.11,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,394,0,NA,NA,NA,NA,NA,NA,NA,NA
+70433,NA,2026.01,2026,3,18,NA,NA,"litu",710,11.4,13.8,71.67,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,743,0,NA,NA,NA,NA,NA,NA,NA,NA
+70492,NA,2026.01,2026,3,17,NA,NA,"nysy",714,0.1,11.2,75.2,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,227,0,NA,NA,NA,NA,NA,NA,NA,NA
+70493,NA,2026.01,2026,3,17,NA,NA,"litu",714,0.3,15.2,48.82,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,567,0,NA,NA,NA,NA,NA,NA,NA,NA
+70494,NA,2026.01,2026,3,19,NA,NA,"caca",714,0.4,15.7,10.13,"","7.7, 7.6, 1.5","alive","Jen Jordan","Jessica Shue",NA,NA,NA,74,1,NA,NA,NA,NA,NA,NA,NA,NA
+70495,NA,2026.01,2026,3,17,NA,NA,"caca",714,1.7,18.6,29.96,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,92,0,NA,NA,NA,NA,NA,NA,NA,NA
+70519,NA,2026.01,2026,3,18,NA,NA,"qual",711,15.5,3.3,105.35,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,562,0,NA,NA,NA,NA,NA,NA,NA,NA
+70536,NA,2026.01,2026,3,18,NA,NA,"qual",711,11.9,7.4,66.22,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,625,0,NA,NA,NA,NA,NA,NA,NA,NA
+70579,NA,2026.01,2026,3,18,NA,NA,"caovl",714,19.2,4.3,54.83,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,245,0,NA,NA,NA,NA,NA,NA,NA,NA
+72024,NA,2026.01,2026,3,18,NA,NA,"quve",717,20,9.6,78.32,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,516,0,NA,NA,NA,NA,NA,NA,NA,NA
+72104,NA,2026.01,2026,3,18,NA,NA,"qual",718,6.2,17.8,43.8,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,267,0,NA,NA,NA,NA,NA,NA,NA,NA
+72107,NA,2026.01,2026,3,18,NA,NA,"fagr",719,8,1.2,37.29,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,441,0,NA,NA,NA,NA,NA,NA,NA,NA
+72115,NA,2026.01,2026,3,18,NA,NA,"litu",719,11.2,10.7,16.96,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,505,0,NA,NA,NA,NA,NA,NA,NA,NA
+72116,NA,2026.01,2026,3,18,NA,NA,"litu",719,14.4,10.8,86.15,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,517,0,NA,NA,NA,NA,NA,NA,NA,NA
+72122,NA,2026.01,2026,3,18,NA,NA,"caca",719,19.9,19,11.16,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,83,0,NA,NA,NA,NA,NA,NA,NA,NA
+72124,NA,2026.01,2026,3,18,NA,NA,"quru",719,12.5,19.4,141.31,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,828,0,NA,NA,NA,NA,NA,NA,NA,NA
+72149,NA,2026.01,2026,3,18,NA,NA,"litu",720,13.8,0.7,77.47,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,586,0,NA,NA,NA,NA,NA,NA,NA,NA
+72173,NA,2026.01,2026,3,18,NA,NA,"qual",720,6,10.2,47.68,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,461,0,NA,NA,NA,NA,NA,NA,NA,NA
+72210,NA,2026.01,2026,3,18,NA,NA,"qual",721,5.2,11.5,67.31,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,881,0,NA,NA,NA,NA,NA,NA,NA,NA
+72232,NA,2026.01,2026,3,19,NA,NA,"qual",722,14.5,12.6,40.32,"BA, RT","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,757,0,NA,NA,NA,NA,NA,NA,NA,NA
+72248,NA,2026.01,2026,3,18,NA,NA,"caovl",723,15,0.3,86.92,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,335,0,NA,NA,NA,NA,NA,NA,NA,NA
+72308,NA,2026.01,2026,3,18,NA,NA,"qual",725,15.2,13.3,87.01,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,670,0,NA,NA,NA,NA,NA,NA,NA,NA
+72322,NA,2026.01,2026,3,18,NA,NA,"litu",726,18.1,0.3,43.81,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,256,0,NA,NA,NA,NA,NA,NA,NA,NA
+72324,NA,2026.01,2026,3,18,NA,NA,"litu",726,14.4,6.6,117.94,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,720,0,NA,NA,NA,NA,NA,NA,NA,NA
+72337,NA,2026.01,2026,3,18,NA,NA,"quru",727,7.9,2.6,99.23,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,955,0,NA,NA,NA,NA,NA,NA,NA,NA
+72348,NA,2026.01,2026,3,18,NA,NA,"quru",727,12,15.1,94.15,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,987,0,NA,NA,NA,NA,NA,NA,NA,NA
+72357,NA,2026.01,2026,3,18,NA,NA,"quru",728,1.7,2,74.66,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,957,0,NA,NA,NA,NA,NA,NA,NA,NA
+72375,NA,2026.01,2026,3,18,NA,NA,"litu",728,13.7,17.1,130.24,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,700,0,NA,NA,NA,NA,NA,NA,NA,NA
+72377,NA,2026.01,2026,3,18,NA,NA,"litu",728,10.6,16.1,101.44,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,796,0,NA,NA,NA,NA,NA,NA,NA,NA
+72447,NA,2026.01,2026,3,18,NA,NA,"litu",732,14.9,4.1,20.61,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,640,0,NA,NA,NA,NA,NA,NA,NA,NA
+72448,NA,2026.01,2026,3,18,NA,NA,"litu",732,18.9,4.7,101,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,509,0,NA,NA,NA,NA,NA,NA,NA,NA
+80100,NA,2026.01,2026,3,18,NA,NA,"litu",804,2.4,10.8,113.9,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,603,0,NA,NA,NA,NA,NA,NA,NA,NA
+80121,NA,2026.01,2026,3,18,NA,NA,"quve",801,8.8,19.2,5.06,"","12.5, 12.2, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,120,1,NA,NA,NA,NA,NA,NA,NA,NA
+80401,NA,2026.01,2026,3,18,NA,NA,"caco",807,7.4,19.6,63.7,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,480,0,NA,NA,NA,NA,NA,NA,NA,NA
+80554,NA,2026.01,2026,3,18,NA,NA,"caovl",813,6.9,11.2,86.16,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,551,0,NA,NA,NA,NA,NA,NA,NA,NA
+80559,NA,2026.01,2026,3,18,NA,NA,"nysy",813,8.9,17.8,6.95,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,439,0,NA,NA,NA,NA,NA,NA,NA,NA
+80615,NA,2026.01,2026,3,18,NA,NA,"litu",810,4.4,16.8,101.8,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,699,0,NA,NA,NA,NA,NA,NA,NA,NA
+80628,NA,2026.01,2026,3,18,NA,NA,"quve",811,7.5,3,65.21,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,553,0,NA,NA,NA,NA,NA,NA,NA,NA
+80631,NA,2026.01,2026,3,18,NA,NA,"litu",811,0.2,6.1,65.15,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,556,0,NA,NA,NA,NA,NA,NA,NA,NA
+82091,NA,2026.01,2026,3,18,NA,NA,"caovl",819,3.5,1.3,3.66,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,194,0,NA,NA,NA,NA,NA,NA,NA,NA
+82117,NA,2026.01,2026,3,18,NA,NA,"cato",819,11.6,14.3,13.95,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,155,0,NA,NA,NA,NA,NA,NA,NA,NA
+82125,NA,2026.01,2026,3,18,NA,NA,"cagl",819,1.6,14.3,36.02,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,150,0,NA,NA,NA,NA,NA,NA,NA,NA
+82138,NA,2026.01,2026,3,18,NA,NA,"quru",820,1.1,2.7,48.74,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,714,0,NA,NA,NA,NA,NA,NA,NA,NA
+82203,NA,2026.01,2026,3,18,NA,NA,"litu",822,8,9.4,102.47,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,668,0,NA,NA,NA,NA,NA,NA,NA,NA
+82219,NA,2026.01,2026,3,18,NA,NA,"ceca",822,14.7,18.8,21.41,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,96,0,NA,NA,NA,NA,NA,NA,NA,NA
+82223,NA,2026.01,2026,3,18,NA,NA,"litu",822,0.5,17.7,92.98,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,445,0,NA,NA,NA,NA,NA,NA,NA,NA
+82226,NA,2026.01,2026,3,18,NA,NA,"litu",823,2,4,80.14,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,270,0,NA,NA,NA,NA,NA,NA,NA,NA
+82292,NA,2026.01,2026,3,18,NA,NA,"litu",826,1.8,0.4,76.72,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,519,0,NA,NA,NA,NA,NA,NA,NA,NA
+82298,NA,2026.01,2026,3,18,NA,NA,"litu",826,0.3,5.1,116.71,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,609,0,NA,NA,NA,NA,NA,NA,NA,NA
+82326,NA,2026.01,2026,3,18,NA,NA,"quve",827,14.6,8.3,41.94,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,870,0,NA,NA,NA,NA,NA,NA,NA,NA
+82357,NA,2026.01,2026,3,18,NA,NA,"litu",828,4,13.8,110.78,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,567,0,NA,NA,NA,NA,NA,NA,NA,NA
+82360,NA,2026.01,2026,3,18,NA,NA,"litu",829,2.3,0.7,91.07,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,640,0,NA,NA,NA,NA,NA,NA,NA,NA
+82365,NA,2026.01,2026,3,18,NA,NA,"qual",829,4.9,4.7,77.38,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,450,0,NA,NA,NA,NA,NA,NA,NA,NA
+82368,NA,2026.01,2026,3,18,NA,NA,"litu",829,16.8,3.4,23.06,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,1014,0,NA,NA,NA,NA,NA,NA,NA,NA
+82419,NA,2026.01,2026,3,18,NA,NA,"litu",831,3.3,10,99.01,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,847,0,NA,NA,NA,NA,NA,NA,NA,NA
+82421,NA,2026.01,2026,3,18,NA,NA,"litu",831,5.6,14.7,53.07,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,595,0,NA,NA,NA,NA,NA,NA,NA,NA
+82422,NA,2026.01,2026,3,18,NA,NA,"litu",831,6.9,19.5,111.22,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,563,0,NA,NA,NA,NA,NA,NA,NA,NA
+82434,NA,2026.01,2026,3,18,NA,NA,"quve",832,6,15.6,73.59,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,864,0,NA,NA,NA,NA,NA,NA,NA,NA
+90162,NA,2026.01,2026,3,18,NA,NA,"litu",904,16.9,11.1,21.35,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,687,0,NA,NA,NA,NA,NA,NA,NA,NA
+90236,NA,2026.01,2026,3,18,NA,NA,"ulru",902,14.4,2.5,17.32,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,160,0,NA,NA,NA,NA,NA,NA,NA,NA
+90311,NA,2026.01,2026,3,18,NA,NA,"cagl",904,17.5,15.8,31.29,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,172,0,NA,NA,NA,NA,NA,NA,NA,NA
+90354,NA,2026.01,2026,3,18,NA,NA,"litu",905,10.6,5,48.27,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,697,0,NA,NA,NA,NA,NA,NA,NA,NA
+90544,NA,2026.01,2026,3,18,NA,NA,"qupr",911,18.5,15.4,14.03,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,199,0,NA,NA,NA,NA,NA,NA,NA,NA
+90612,NA,2026.01,2026,3,18,NA,NA,"quru",910,10.7,14,69.16,"RT","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,596,0,NA,NA,NA,NA,NA,NA,NA,NA
+90631,NA,2026.01,2026,3,18,NA,NA,"quve",911,1.5,13.9,5.24,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,180,0,NA,NA,NA,NA,NA,NA,NA,NA
+90660,NA,2026.01,2026,3,18,NA,NA,"quru",913,4.9,7.9,124.87,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,1034,0,NA,NA,NA,NA,NA,NA,NA,NA
+90684,NA,2026.01,2026,3,17,NA,NA,"ploc",915,9.1,6.2,70.77,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,474,0,NA,NA,NA,NA,NA,NA,NA,NA
+90752,NA,2026.01,2026,3,18,NA,NA,"qual",916,12.4,7.4,10.19,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,558,0,NA,NA,NA,NA,NA,NA,NA,NA
+91451,NA,2026.01,2026,3,18,NA,NA,"litu",907,18.7,17.6,85.36,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,605,0,NA,NA,NA,NA,NA,NA,NA,NA
+91474,NA,2026.01,2026,3,18,NA,NA,"litu",908,14.5,4.7,104.64,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,470,0,NA,NA,NA,NA,NA,NA,NA,NA
+91476,NA,2026.01,2026,3,18,NA,NA,"litu",908,18.4,2.4,115.19,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,516,0,NA,NA,NA,NA,NA,NA,NA,NA
+91477,NA,2026.01,2026,3,18,NA,NA,"litu",908,19.3,3.5,68.04,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,225,0,NA,NA,NA,NA,NA,NA,NA,NA
+91486,NA,2026.01,2026,3,18,NA,NA,"cagl",908,17.5,9.2,91.25,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,600,0,NA,NA,NA,NA,NA,NA,NA,NA
+92018,NA,2026.01,2026,3,18,NA,NA,"acru",917,16.2,5.6,26.51,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,559,0,NA,NA,NA,NA,NA,NA,NA,NA
+92112,NA,2026.01,2026,3,18,NA,NA,"litu",919,14.4,18.8,78.2,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,547,0,NA,NA,NA,NA,NA,NA,NA,NA
+92115,NA,2026.01,2026,3,18,NA,NA,"acru",919,10.1,19.3,17.21,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,162,0,NA,NA,NA,NA,NA,NA,NA,NA
+92140,NA,2026.01,2026,3,18,NA,NA,"cato",920,18.7,0.7,18.8,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,62,0,NA,NA,NA,NA,NA,NA,NA,NA
+92141,NA,2026.01,2026,3,18,NA,NA,"cagl",920,19.4,4.7,17.1,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,97,0,NA,NA,NA,NA,NA,NA,NA,NA
+92237,NA,2026.01,2026,3,18,NA,NA,"nysy",922,14.7,19.5,19.6,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,220,0,NA,NA,NA,NA,NA,NA,NA,NA
+92280,NA,2026.01,2026,3,18,NA,NA,"quve",923,15,6.9,83.46,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,701,0,NA,NA,NA,NA,NA,NA,NA,NA
+92393,NA,2026.01,2026,3,18,NA,NA,"cagl",925,19.8,7.7,31.75,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,652,0,NA,NA,NA,NA,NA,NA,NA,NA
+92414,NA,2026.01,2026,3,18,NA,NA,"litu",926,11.2,0.9,45.97,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,448,0,NA,NA,NA,NA,NA,NA,NA,NA
+92466,NA,2026.01,2026,3,18,NA,NA,"litu",927,0.6,16.3,98.21,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,879,0,NA,NA,NA,NA,NA,NA,NA,NA
+92488,NA,2026.01,2026,3,18,NA,NA,"litu",928,12.7,13.5,48.12,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,737,0,NA,NA,NA,NA,NA,NA,NA,NA
+92545,NA,2026.01,2026,3,18,NA,NA,"litu",931,15.3,15.6,100.81,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,598,0,NA,NA,NA,NA,NA,NA,NA,NA
+92546,NA,2026.01,2026,3,18,NA,NA,"litu",931,16.5,16.7,101.72,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,676,0,NA,NA,NA,NA,NA,NA,NA,NA
+92547,NA,2026.01,2026,3,18,NA,NA,"litu",931,11.7,13.9,121.91,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,654,0,NA,NA,NA,NA,NA,NA,NA,NA
+100498,NA,2026.01,2026,3,18,NA,NA,"caco",1003,16.7,14.2,40.6,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,163,0,NA,NA,NA,NA,NA,NA,NA,NA
+100516,NA,2026.01,2026,3,18,NA,NA,"litu",1004,17.9,2.3,25.74,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,1089,0,NA,NA,NA,NA,NA,NA,NA,NA
+100562,NA,2026.01,2026,3,18,NA,NA,"litu",1004,9.1,19.2,59.13,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,669,0,NA,NA,NA,NA,NA,NA,NA,NA
+100612,NA,2026.01,2026,3,18,NA,NA,"litu",1003,12,4.4,100.91,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,1276,0,NA,NA,NA,NA,NA,NA,NA,NA
+100754,NA,2026.01,2026,3,18,NA,NA,"quru",1005,3.8,6.8,87.11,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,461,0,NA,NA,NA,NA,NA,NA,NA,NA
+100771,NA,2026.01,2026,3,18,NA,NA,"quru",1005,8.5,17,90.06,"","JS verified","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,1020,0,NA,NA,NA,NA,NA,NA,NA,NA
+100905,NA,2026.01,2026,3,18,NA,NA,"litu",1008,10,1.6,65.74,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,693,0,NA,NA,NA,NA,NA,NA,NA,NA
+100906,NA,2026.01,2026,3,18,NA,NA,"litu",1008,9.3,1.1,45.02,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,506,0,NA,NA,NA,NA,NA,NA,NA,NA
+100955,NA,2026.01,2026,3,18,NA,NA,"quru",1010,16.7,6.8,33.07,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,314,0,NA,NA,NA,NA,NA,NA,NA,NA
+100960,NA,2026.01,2026,3,18,NA,NA,"quru",1010,13.8,10.5,53.9,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,650,0,NA,NA,NA,NA,NA,NA,NA,NA
+100963,NA,2026.01,2026,3,18,NA,NA,"caovl",1010,11.1,14.7,27.92,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,208,0,NA,NA,NA,NA,NA,NA,NA,NA
+101008,NA,2026.01,2026,3,18,NA,NA,"tiam",1006,4.2,11.6,37.29,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,190,0,NA,NA,NA,NA,NA,NA,NA,NA
+101075,NA,2026.01,2026,3,18,NA,NA,"qupr",1008,3,13.1,18.81,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,373,0,NA,NA,NA,NA,NA,NA,NA,NA
+101111,NA,2026.01,2026,3,18,NA,NA,"litu",1011,0.1,1.3,45.87,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,106,0,NA,NA,NA,NA,NA,NA,NA,NA
+101118,NA,2026.01,2026,3,18,NA,NA,"litu",1011,0.3,3,69.1,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,236,0,NA,NA,NA,NA,NA,NA,NA,NA
+101223,NA,2026.01,2026,3,17,NA,NA,"qupr",1013,9.4,17.8,94.79,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,694,0,NA,NA,NA,NA,NA,NA,NA,NA
+102148,NA,2026.01,2026,3,18,NA,NA,"cato",1019,2,15.4,27.4,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,253,0,NA,NA,NA,NA,NA,NA,NA,NA
+102149,NA,2026.01,2026,3,18,NA,NA,"cagl",1020,1.4,0.2,9.78,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,72,0,NA,NA,NA,NA,NA,NA,NA,NA
+102150,NA,2026.01,2026,3,18,NA,NA,"qual",1020,4.3,2.1,16.34,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,506,0,NA,NA,NA,NA,NA,NA,NA,NA
+102154,NA,2026.01,2026,3,18,NA,NA,"qual",1020,5.4,8.5,24.53,"BA, RE","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,517,0,NA,NA,NA,NA,NA,NA,NA,NA
+102163,NA,2026.01,2026,3,18,NA,NA,"cato",1020,14.3,14.8,11.88,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,103,0,NA,NA,NA,NA,NA,NA,NA,NA
+102177,NA,2026.01,2026,3,18,NA,NA,"qual",1020,3.4,11.7,36.36,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,735,0,NA,NA,NA,NA,NA,NA,NA,NA
+102199,NA,2026.01,2026,3,18,NA,NA,"cagl",1021,1.3,8,31.97,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,487,0,NA,NA,NA,NA,NA,NA,NA,NA
+102258,NA,2026.01,2026,3,18,NA,NA,"qual",1022,10.3,17.4,26.87,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,435,0,NA,NA,NA,NA,NA,NA,NA,NA
+102261,NA,2026.01,2026,3,18,NA,NA,"qual",1022,5.3,20,83.66,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,687,0,NA,NA,NA,NA,NA,NA,NA,NA
+102262,NA,2026.01,2026,3,18,NA,NA,"qual",1022,1.8,20,120.14,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,543,0,NA,NA,NA,NA,NA,NA,NA,NA
+102264,NA,2026.01,2026,3,18,NA,NA,"qual",1022,1.5,14.2,72.06,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,404,0,NA,NA,NA,NA,NA,NA,NA,NA
+102303,NA,2026.01,2026,3,18,NA,NA,"quve",1024,8.2,0.9,54.28,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,924,0,NA,NA,NA,NA,NA,NA,NA,NA
+102348,NA,2026.01,2026,3,19,NA,NA,"qual",1025,16.5,11.5,87.2,"RE","two springs","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,900,0,NA,NA,NA,NA,NA,NA,NA,NA
+102364,NA,2026.01,2026,3,19,NA,NA,"qual",1025,2.1,18,24.75,"","fungus on trunk","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,658,0,NA,NA,NA,NA,NA,NA,NA,NA
+102371,NA,2026.01,2026,3,19,NA,NA,"qual",1026,1.6,6.6,14.33,"","82.1, 81.5, 1.45","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,808,1,NA,NA,NA,NA,NA,NA,NA,NA
+102438,NA,2026.01,2026,3,18,NA,NA,"litu",1028,8.5,16.6,123.7,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,473,0,NA,NA,NA,NA,NA,NA,NA,NA
+102438,NA,2026.01,2026,3,19,1,0,"litu",1028,8.5,16.6,23.76,"","new spring installed","alive","Bill McShea, Claire Watson","Jessica Shue",13374,13374,NA,476,1,600,2,NA,1.34,NA,NA,NA,NA
+102439,NA,2026.01,2026,3,18,NA,NA,"litu",1028,4.3,19.6,24.78,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,224,0,NA,NA,NA,NA,NA,NA,NA,NA
+102441,NA,2026.01,2026,3,18,NA,NA,"litu",1029,1.3,3,118.18,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,520,0,NA,NA,NA,NA,NA,NA,NA,NA
+102443,NA,2026.01,2026,3,18,NA,NA,"litu",1029,4.1,7,89.75,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,518,0,NA,NA,NA,NA,NA,NA,NA,NA
+102444,NA,2026.01,2026,3,18,NA,NA,"litu",1029,4.3,5.3,138.02,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,685,0,NA,NA,NA,NA,NA,NA,NA,NA
+102446,NA,2026.01,2026,3,18,NA,NA,"litu",1029,0.5,3.7,96.06,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,501,0,NA,NA,NA,NA,NA,NA,NA,NA
+102446,NA,2026.01,2026,3,18,1,0,"litu",1029,0.5,3.7,36.56,"","","alive","Bill McShea, Claire Watson","Jessica Shue",13382,13382,NA,273,1,602,2,NA,1.3,NA,NA,NA,NA
+102475,NA,2026.01,2026,3,18,NA,NA,"litu",1030,20,14.3,64.84,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,855,0,NA,NA,NA,NA,NA,NA,NA,NA
+102501,NA,2026.01,2026,3,18,NA,NA,"litu",1031,9.8,17.3,38.15,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,657,0,NA,NA,NA,NA,NA,NA,NA,NA
+102502,NA,2026.01,2026,3,18,NA,NA,"ulru",1031,0.1,18.6,7.39,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,140,0,NA,NA,NA,NA,NA,NA,NA,NA
+102509,NA,2026.01,2026,3,18,NA,NA,"quve",1032,9.6,0.9,44.08,"","","alive","Bill McShea, Claire Watson","Jessica Shue",NA,NA,NA,924,0,NA,NA,NA,NA,NA,NA,NA,NA
+110061,NA,2026.01,2026,3,18,NA,NA,"litu",1101,17,10,59.95,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,1213,0,NA,NA,NA,NA,NA,NA,NA,NA
+110526,NA,2026.01,2026,3,18,NA,NA,"ceca",1103,15.1,3,33.48,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,153,0,NA,NA,NA,NA,NA,NA,NA,NA
+110680,NA,2026.01,2026,3,18,NA,NA,"litu",1104,2,6.5,77.46,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,715,0,NA,NA,NA,NA,NA,NA,NA,NA
+110788,NA,2026.01,2026,3,18,NA,NA,"litu",1104,19.9,11.7,46.91,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,670,0,NA,NA,NA,NA,NA,NA,NA,NA
+110791,NA,2026.01,2026,3,18,NA,NA,"litu",1104,11.3,10,37.59,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,666,0,NA,NA,NA,NA,NA,NA,NA,NA
+110798,NA,2026.01,2026,3,18,NA,NA,"litu",1104,16,15.5,91.59,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,750,0,NA,NA,NA,NA,NA,NA,NA,NA
+110901,NA,2026.01,2026,3,18,NA,NA,"litu",1105,20,4.1,20.09,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,562,0,NA,NA,NA,NA,NA,NA,NA,NA
+111014,NA,2026.01,2026,3,18,NA,NA,"litu",1107,13.9,12.2,47.97,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,698,0,NA,NA,NA,NA,NA,NA,NA,NA
+111030,NA,2026.01,2026,3,18,NA,NA,"litu",1107,15.1,19.9,17.98,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,623,0,NA,NA,NA,NA,NA,NA,NA,NA
+111032,NA,2026.01,2026,3,18,NA,NA,"litu",1107,10.3,19,93.36,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,622,0,NA,NA,NA,NA,NA,NA,NA,NA
+111032,NA,2026.01,2026,3,18,1,0,"litu",1107,10.3,19,81.05,"","","alive","Brigit Rooney","Jessica Shue",14382,14382,NA,440,1,605,2,NA,1.3,NA,NA,NA,NA
+111039,NA,2026.01,2026,3,18,NA,NA,"litu",1108,19.7,4.1,42.81,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,473,0,NA,NA,NA,NA,NA,NA,NA,NA
+111092,NA,2026.01,2026,3,18,NA,NA,"litu",1110,18.3,17.7,98.28,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,599,0,NA,NA,NA,NA,NA,NA,NA,NA
+111093,NA,2026.01,2026,3,18,NA,NA,"litu",1110,13.4,16.4,25.35,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,510,0,NA,NA,NA,NA,NA,NA,NA,NA
+111305,NA,2026.01,2026,3,17,NA,NA,"caovl",1113,4.7,19.3,3.28,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,234,0,NA,NA,NA,NA,NA,NA,NA,NA
+112014,NA,2026.01,2026,3,18,NA,NA,"cagl",1117,18,11.2,15.81,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,515,0,NA,NA,NA,NA,NA,NA,NA,NA
+112057,NA,2026.01,2026,3,18,NA,NA,"acru",1117,8.8,4.2,17.79,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,728,0,NA,NA,NA,NA,NA,NA,NA,NA
+112130,NA,2026.01,2026,3,18,NA,NA,"qual",1119,17.2,18.3,13.49,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,149,0,NA,NA,NA,NA,NA,NA,NA,NA
+112136,NA,2026.01,2026,3,18,NA,NA,"pist",1120,13.9,2.5,102.15,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,315,0,NA,NA,NA,NA,NA,NA,NA,NA
+112137,NA,2026.01,2026,3,18,NA,NA,"qual",1120,13.4,3.9,105.75,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,607,0,NA,NA,NA,NA,NA,NA,NA,NA
+112142,NA,2026.01,2026,3,18,NA,NA,"qual",1120,16,3.5,14.92,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,418,0,NA,NA,NA,NA,NA,NA,NA,NA
+112192,NA,2026.01,2026,3,18,NA,NA,"quve",1121,9.1,13.1,10.71,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,345,0,NA,NA,NA,NA,NA,NA,NA,NA
+112250,NA,2026.01,2026,3,18,NA,NA,"pist",1122,10.8,18.4,35.79,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,470,0,NA,NA,NA,NA,NA,NA,NA,NA
+112252,NA,2026.01,2026,3,18,NA,NA,"litu",1122,13.6,19.4,44.09,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,495,0,NA,NA,NA,NA,NA,NA,NA,NA
+112316,NA,2026.01,2026,3,18,NA,NA,"quve",1125,8.7,1,NA,"DC","band removed","dead","Jessica Shue","Jessica Shue",NA,NA,NA,855,0,NA,NA,NA,NA,NA,NA,NA,NA
+112342,NA,2026.01,2026,3,18,NA,NA,"nysy",1125,14.2,16.7,8.89,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,199,0,NA,NA,NA,NA,NA,NA,NA,NA
+112350,NA,2026.01,2026,3,18,NA,NA,"cagl",1126,11.7,5.6,110.42,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,621,0,NA,NA,NA,NA,NA,NA,NA,NA
+112466,NA,2026.01,2026,3,18,NA,NA,"cato",1129,17.5,7.1,30.56,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,240,0,NA,NA,NA,NA,NA,NA,NA,NA
+112467,NA,2026.01,2026,3,18,NA,NA,"litu",1129,19.6,12.5,98.86,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,484,0,NA,NA,NA,NA,NA,NA,NA,NA
+112480,NA,2026.01,2026,3,18,NA,NA,"litu",1131,14.4,10.9,106.76,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,625,0,NA,NA,NA,NA,NA,NA,NA,NA
+112481,NA,2026.01,2026,3,18,NA,NA,"litu",1131,14.9,14.4,89.52,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,468,0,NA,NA,NA,NA,NA,NA,NA,NA
+112482,NA,2026.01,2026,3,18,NA,NA,"litu",1131,17.8,15.9,25.21,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,271,0,NA,NA,NA,NA,NA,NA,NA,NA
+112698,NA,2026.01,2026,3,18,NA,NA,"ulru",1128,17.9,18.2,46.95,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,114,0,NA,NA,NA,NA,NA,NA,NA,NA
+120278,NA,2026.01,2026,3,18,NA,NA,"litu",1201,5,8.6,90.24,"RT","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,892,0,NA,NA,NA,NA,NA,NA,NA,NA
+120755,NA,2026.01,2026,3,18,NA,NA,"litu",1204,6.8,10,60.04,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,705,0,NA,NA,NA,NA,NA,NA,NA,NA
+120777,NA,2026.01,2026,3,18,NA,NA,"litu",1205,3.8,0.2,24.17,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,553,0,NA,NA,NA,NA,NA,NA,NA,NA
+120781,NA,2026.01,2026,3,18,NA,NA,"litu",1205,3,2.2,29.55,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,637,0,NA,NA,NA,NA,NA,NA,NA,NA
+120790,NA,2026.01,2026,3,18,NA,NA,"litu",1205,0.4,6.2,55.84,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,478,0,NA,NA,NA,NA,NA,NA,NA,NA
+121195,NA,2026.01,2026,3,18,NA,NA,"quru",1211,12.4,0.4,38.68,"RT","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,974,0,NA,NA,NA,NA,NA,NA,NA,NA
+121221,NA,2026.01,2026,3,18,NA,NA,"litu",1207,1.7,19.3,12.05,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,120,0,NA,NA,NA,NA,NA,NA,NA,NA
+121275,NA,2026.01,2026,3,18,NA,NA,"qupr",1209,1.7,16.9,36.1,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,260,0,NA,NA,NA,NA,NA,NA,NA,NA
+121291,NA,2026.01,2026,3,18,NA,NA,"qupr",1210,2.8,9.4,61.2,"RT","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,479,0,NA,NA,NA,NA,NA,NA,NA,NA
+121301,NA,2026.01,2026,3,18,NA,NA,"caovl",1211,1.2,2.5,27.68,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,257,0,NA,NA,NA,NA,NA,NA,NA,NA
+121305,NA,2026.01,2026,3,18,NA,NA,"quru",1211,1.1,11.2,50.31,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,793,0,NA,NA,NA,NA,NA,NA,NA,NA
+121367,NA,2026.01,2026,3,18,NA,NA,"nysy",1216,4.6,10.8,102.48,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,282,0,NA,NA,NA,NA,NA,NA,NA,NA
+121374,NA,2026.01,2026,3,18,NA,NA,"juni",1216,0.7,18.5,22.17,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,378,0,NA,NA,NA,NA,NA,NA,NA,NA
+121438,NA,2026.01,2026,3,17,NA,NA,"caco",1215,19.1,6.5,66.79,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,404,0,NA,NA,NA,NA,NA,NA,NA,NA
+122006,NA,2026.01,2026,3,18,NA,NA,"acru",1217,9.9,8.3,46.28,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,452,0,NA,NA,NA,NA,NA,NA,NA,NA
+122009,NA,2026.01,2026,3,18,NA,NA,"acru",1217,1.2,4.1,47.38,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,303,0,NA,NA,NA,NA,NA,NA,NA,NA
+122120,NA,2026.01,2026,3,18,NA,NA,"qual",1220,2.6,0.6,47.09,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,342,0,NA,NA,NA,NA,NA,NA,NA,NA
+122121,NA,2026.01,2026,3,18,NA,NA,"pist",1220,1.6,2.3,74.85,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,318,0,NA,NA,NA,NA,NA,NA,NA,NA
+122136,NA,2026.01,2026,3,18,NA,NA,"quru",1220,5.5,7.6,51.1,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,666,0,NA,NA,NA,NA,NA,NA,NA,NA
+122150,NA,2026.01,2026,3,18,NA,NA,"pist",1221,0.8,0.7,14.01,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,342,0,NA,NA,NA,NA,NA,NA,NA,NA
+122154,NA,2026.01,2026,3,18,NA,NA,"pist",1221,5.8,5.2,4.3,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,148,0,NA,NA,NA,NA,NA,NA,NA,NA
+122184,NA,2026.01,2026,3,18,NA,NA,"pist",1222,2.9,13.9,28.38,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,246,0,NA,NA,NA,NA,NA,NA,NA,NA
+122185,NA,2026.01,2026,3,18,NA,NA,"pist",1222,5.6,14.9,5.8,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,162,0,NA,NA,NA,NA,NA,NA,NA,NA
+122189,NA,2026.01,2026,3,18,NA,NA,"qual",1222,5.5,19.5,23.02,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,708,0,NA,NA,NA,NA,NA,NA,NA,NA
+122248,NA,2026.01,2026,3,18,NA,NA,"qual",1222,10.5,13.1,102.06,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,598,0,NA,NA,NA,NA,NA,NA,NA,NA
+122303,NA,2026.01,2026,3,18,NA,NA,"qual",1223,1.9,8.5,24.36,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,664,0,NA,NA,NA,NA,NA,NA,NA,NA
+122343,NA,2026.01,2026,3,18,NA,NA,"qual",1225,10.7,14.4,63.16,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,660,0,NA,NA,NA,NA,NA,NA,NA,NA
+122427,NA,2026.01,2026,3,18,NA,NA,"qual",1227,17,15.6,105.73,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,875,0,NA,NA,NA,NA,NA,NA,NA,NA
+122439,NA,2026.01,2026,3,18,NA,NA,"cagl",1228,12.6,13,38.91,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,182,0,NA,NA,NA,NA,NA,NA,NA,NA
+122450,NA,2026.01,2026,3,18,NA,NA,"ulru",1225,3,19.1,56.84,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,268,0,NA,NA,NA,NA,NA,NA,NA,NA
+122458,NA,2026.01,2026,3,18,NA,NA,"cagl",1226,4.6,4.9,28.67,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,238,0,NA,NA,NA,NA,NA,NA,NA,NA
+122482,NA,2026.01,2026,3,18,NA,NA,"litu",1228,14.5,2.4,23.71,"","mapped incorrectly; SW of 122486","alive","Jessica Shue","Jessica Shue",NA,NA,NA,596,0,NA,NA,NA,NA,NA,NA,NA,NA
+122486,NA,2026.01,2026,3,18,NA,NA,"litu",1228,2.7,17,64.77,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,661,0,NA,NA,NA,NA,NA,NA,NA,NA
+122489,NA,2026.01,2026,3,18,NA,NA,"cagl",1229,2.8,4.3,80.36,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,290,0,NA,NA,NA,NA,NA,NA,NA,NA
+122492,NA,2026.01,2026,3,18,NA,NA,"litu",1229,2.5,11.5,94.4,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,560,0,NA,NA,NA,NA,NA,NA,NA,NA
+122522,NA,2026.01,2026,3,18,NA,NA,"litu",1232,3.4,17.4,18,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,442,0,NA,NA,NA,NA,NA,NA,NA,NA
+122561,NA,2026.01,2026,3,18,NA,NA,"litu",1231,0,10.5,82.23,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,710,0,NA,NA,NA,NA,NA,NA,NA,NA
+130348,NA,2026.01,2026,3,17,NA,NA,"litu",1302,19.9,1.9,87.1,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,626,0,NA,NA,NA,NA,NA,NA,NA,NA
+130838,NA,2026.01,2026,3,18,NA,NA,"litu",1305,12.2,1,101.34,"RT","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,693,0,NA,NA,NA,NA,NA,NA,NA,NA
+131009,NA,2026.01,2026,3,18,NA,NA,"quve",1308,13.9,0.7,93.55,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,806,0,NA,NA,NA,NA,NA,NA,NA,NA
+131087,NA,2026.01,2026,3,18,NA,NA,"quru",1310,17.3,17.8,132.25,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,712,0,NA,NA,NA,NA,NA,NA,NA,NA
+131092,NA,2026.01,2026,3,18,NA,NA,"litu",1311,13.1,2.7,127.83,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,515,0,NA,NA,NA,NA,NA,NA,NA,NA
+131096,NA,2026.01,2026,3,18,NA,NA,"litu",1311,19,4.7,22.56,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,289,0,NA,NA,NA,NA,NA,NA,NA,NA
+131188,NA,2026.01,2026,3,17,NA,NA,"litu",1313,10,15.3,118.27,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,635,0,NA,NA,NA,NA,NA,NA,NA,NA
+131233,NA,2026.01,2026,3,19,NA,NA,"litu",1313,18.3,19.6,11.2,"","32.1, 31.9, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,317,1,NA,NA,NA,NA,NA,NA,NA,NA
+131239,NA,2026.01,2026,3,19,NA,NA,"quru",1314,19.5,5.7,12.3,"","67.1, 65.9, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,651,1,NA,NA,NA,NA,NA,NA,NA,NA
+131364,NA,2026.01,2026,3,18,NA,NA,"acru",1316,12,12.9,113.72,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,487,0,NA,NA,NA,NA,NA,NA,NA,NA
+131422,NA,2026.01,2026,3,18,NA,NA,"caco",1316,13.4,9.6,44.97,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,163,0,NA,NA,NA,NA,NA,NA,NA,NA
+132077,NA,2026.01,2026,3,18,NA,NA,"qual",1319,9.9,15.9,45.05,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,649,0,NA,NA,NA,NA,NA,NA,NA,NA
+132171,NA,2026.01,2026,3,18,NA,NA,"litu",1320,13.7,6.7,112.23,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,568,0,NA,NA,NA,NA,NA,NA,NA,NA
+132280,NA,2026.01,2026,3,18,NA,NA,"fram",1324,6.1,18.2,20.73,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,114,0,NA,NA,NA,NA,NA,NA,NA,NA
+132302,NA,2026.01,2026,3,19,NA,NA,"quru",1321,13,14.4,92.79,"","last measurement; band removed","alive","Jen Jordan","Jessica Shue",NA,NA,NA,951,0,NA,NA,NA,NA,NA,NA,NA,NA
+132311,NA,2026.01,2026,3,18,NA,NA,"qual",1322,12.9,14.2,59.91,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,568,0,NA,NA,NA,NA,NA,NA,NA,NA
+132321,NA,2026.01,2026,3,18,NA,NA,"quru",1323,17.6,1,28.89,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,659,0,NA,NA,NA,NA,NA,NA,NA,NA
+132371,NA,2026.01,2026,3,18,NA,NA,"quru",1325,19.9,12.9,75.58,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,792,0,NA,NA,NA,NA,NA,NA,NA,NA
+132529,NA,2026.01,2026,3,18,NA,NA,"litu",1329,16.6,13.2,113.51,"RE","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,936,0,NA,NA,NA,NA,NA,NA,NA,NA
+132539,NA,2026.01,2026,3,18,NA,NA,"litu",1331,15,15.9,88.91,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,640,0,NA,NA,NA,NA,NA,NA,NA,NA
+132542,NA,2026.01,2026,3,18,NA,NA,"quve",1332,15.4,2.9,54.62,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,751,0,NA,NA,NA,NA,NA,NA,NA,NA
+132545,NA,2026.01,2026,3,18,NA,NA,"litu",1332,9.5,11.2,45.6,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,466,0,NA,NA,NA,NA,NA,NA,NA,NA
+140609,NA,2026.01,2026,3,17,NA,NA,"litu",1403,4.3,3.6,84.64,"","band removed; around two stems","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1134,0,NA,NA,NA,NA,NA,NA,NA,NA
+140646,NA,2026.01,2026,3,18,NA,NA,"litu",1405,1,8.3,30.9,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,763,0,NA,NA,NA,NA,NA,NA,NA,NA
+140751,NA,2026.01,2026,3,18,NA,NA,"quve",1408,9.9,1.5,108.5,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,740,0,NA,NA,NA,NA,NA,NA,NA,NA
+140813,NA,2026.01,2026,3,18,NA,NA,"litu",1410,8.3,11.2,27.11,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,751,0,NA,NA,NA,NA,NA,NA,NA,NA
+140821,NA,2026.01,2026,3,18,NA,NA,"litu",1411,4.6,0.4,102.9,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,574,0,NA,NA,NA,NA,NA,NA,NA,NA
+140825,NA,2026.01,2026,3,18,NA,NA,"litu",1411,8,5.9,87.74,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,542,0,NA,NA,NA,NA,NA,NA,NA,NA
+140829,NA,2026.01,2026,3,18,NA,NA,"litu",1411,0.6,4.9,97.22,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,662,0,NA,NA,NA,NA,NA,NA,NA,NA
+140833,NA,2026.01,2026,3,18,NA,NA,"litu",1411,5.6,9.5,53.28,"","","alive","Brigit Rooney","Jessica Shue",NA,NA,NA,597,0,NA,NA,NA,NA,NA,NA,NA,NA
+140872,NA,2026.01,2026,3,19,NA,NA,"litu",1413,6.1,14.9,12.83,"","66.4, 65.9, 1.4","alive","Jen Jordan","Jessica Shue",NA,NA,NA,661,1,NA,NA,NA,NA,NA,NA,NA,NA
+141216,NA,2026.01,2026,3,17,NA,NA,"caco",1415,2.1,6.2,56.61,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,163,0,NA,NA,NA,NA,NA,NA,NA,NA
+142113,NA,2026.01,2026,3,18,NA,NA,"cagl",1417,3,5,55.36,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,488,0,NA,NA,NA,NA,NA,NA,NA,NA
+142380,NA,2026.01,2026,3,18,NA,NA,"qual",1425,6.8,13.1,93.38,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,611,0,NA,NA,NA,NA,NA,NA,NA,NA
+142399,NA,2026.01,2026,3,18,NA,NA,"qual",1427,14.4,0.5,75.39,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,650,0,NA,NA,NA,NA,NA,NA,NA,NA
+142521,NA,2026.01,2026,3,18,NA,NA,"pist",1422,6.4,11.1,40.47,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,508,0,NA,NA,NA,NA,NA,NA,NA,NA
+142527,NA,2026.01,2026,3,18,NA,NA,"cagl",1422,1.9,18.4,43.85,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,170,0,NA,NA,NA,NA,NA,NA,NA,NA
+142548,NA,2026.01,2026,3,18,NA,NA,"qual",1424,4,4.7,58.98,"","","alive","Jen Jordan","Jessica Shue",NA,NA,NA,625,0,NA,NA,NA,NA,NA,NA,NA,NA
+142575,NA,2026.01,2026,3,18,NA,NA,"quve",1426,1.8,6.4,44.99,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,552,0,NA,NA,NA,NA,NA,NA,NA,NA
+142650,NA,2026.01,2026,3,18,NA,NA,"ceca",1430,17.4,5.7,22.23,"","ready to flower","alive","Jessica Shue","Jessica Shue",NA,NA,NA,118,0,NA,NA,NA,NA,NA,NA,NA,NA
+142656,NA,2026.01,2026,3,18,NA,NA,"litu",1431,12.4,12.8,92.6,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,440,0,NA,NA,NA,NA,NA,NA,NA,NA
+142708,NA,2026.01,2026,3,18,NA,NA,"juni",1429,4.3,6.2,7.99,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,428,0,NA,NA,NA,NA,NA,NA,NA,NA
+142727,NA,2026.01,2026,3,18,NA,NA,"litu",1431,1.7,8.2,34.69,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,958,0,NA,NA,NA,NA,NA,NA,NA,NA
+142729,NA,2026.01,2026,3,18,NA,NA,"litu",1431,4.7,14.7,83.01,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,487,0,NA,NA,NA,NA,NA,NA,NA,NA
+142730,NA,2026.01,2026,3,18,NA,NA,"litu",1431,9.9,14.7,126.87,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,718,0,NA,NA,NA,NA,NA,NA,NA,NA
+142731,NA,2026.01,2026,3,18,NA,NA,"litu",1432,8.2,2.3,80.52,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,540,0,NA,NA,NA,NA,NA,NA,NA,NA
+142732,NA,2026.01,2026,3,18,NA,NA,"cagl",1432,1.6,1.2,56.06,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,229,0,NA,NA,NA,NA,NA,NA,NA,NA
+142733,NA,2026.01,2026,3,18,NA,NA,"litu",1432,0.5,5.4,108.42,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,653,0,NA,NA,NA,NA,NA,NA,NA,NA
+143707,NA,2026.01,2026,3,18,NA,NA,"cagl",1426,0.9,1.6,26.29,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,150,0,NA,NA,NA,NA,NA,NA,NA,NA
+150781,NA,2026.01,2026,3,17,NA,NA,"ulru",1504,1.2,18.5,14.5,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,133,0,NA,NA,NA,NA,NA,NA,NA,NA
+152153,NA,2026.01,2026,3,18,NA,NA,"ploc",1520,6.8,0.3,30.22,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1014,0,NA,NA,NA,NA,NA,NA,NA,NA
+152513,NA,2026.01,2026,3,18,NA,NA,"qupr",1525,4.6,19.2,38.56,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,625,0,NA,NA,NA,NA,NA,NA,NA,NA
+152561,NA,2026.01,2026,3,19,NA,NA,"quve",1527,11.9,3.1,NA,"RE","band to be installed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,809,0,NA,NA,NA,NA,NA,NA,NA,NA
+152673,NA,2026.01,2026,3,18,NA,NA,"litu",1530,3.6,18.8,141.82,"","last measurement; band removed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,961,0,NA,NA,NA,NA,NA,NA,NA,NA
+152701,NA,2026.01,2026,3,18,NA,NA,"litu",1531,11.3,15.7,100.91,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,971,0,NA,NA,NA,NA,NA,NA,NA,NA
+160713,NA,2026.01,2026,3,17,NA,NA,"litu",1603,10.4,13.7,39.05,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,940,0,NA,NA,NA,NA,NA,NA,NA,NA
+160742,NA,2026.01,2026,3,17,NA,NA,"litu",1605,19.3,6.6,36.82,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,919,0,NA,NA,NA,NA,NA,NA,NA,NA
+160805,NA,2026.01,2026,3,17,NA,NA,"quve",1610,17.8,9.9,14.29,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,621,0,NA,NA,NA,NA,NA,NA,NA,NA
+160814,NA,2026.01,2026,3,17,NA,NA,"cato",1611,14.3,5.7,13.92,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,447,0,NA,NA,NA,NA,NA,NA,NA,NA
+160862,NA,2026.01,2026,3,18,NA,NA,"ploc",1614,12.4,15.2,38.13,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,889,0,NA,NA,NA,NA,NA,NA,NA,NA
+160910,NA,2026.01,2026,3,17,NA,NA,"litu",1607,8.6,1.1,73.11,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1039,0,NA,NA,NA,NA,NA,NA,NA,NA
+161578,NA,2026.01,2026,3,18,NA,NA,"qual",1616,5.6,14.7,50.54,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,239,0,NA,NA,NA,NA,NA,NA,NA,NA
+162024,NA,2026.01,2026,3,18,NA,NA,"quve",1618,9.7,9.7,19.59,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,297,0,NA,NA,NA,NA,NA,NA,NA,NA
+162293,NA,2026.01,2026,3,18,NA,NA,"qual",1623,3,9.4,18.97,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,896,0,NA,NA,NA,NA,NA,NA,NA,NA
+162439,NA,2026.01,2026,3,18,NA,NA,"quru",1627,16.3,0.3,105.89,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,874,0,NA,NA,NA,NA,NA,NA,NA,NA
+162446,NA,2026.01,2026,3,18,NA,NA,"quru",1630,14.1,2.9,91.82,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,822,0,NA,NA,NA,NA,NA,NA,NA,NA
+162541,NA,2026.01,2026,3,18,NA,NA,"qupr",1627,3.4,15.4,34.45,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,414,0,NA,NA,NA,NA,NA,NA,NA,NA
+162543,NA,2026.01,2026,3,18,NA,NA,"qual",1627,7.5,16.6,98.17,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,904,0,NA,NA,NA,NA,NA,NA,NA,NA
+170175,NA,2026.01,2026,3,17,NA,NA,"litu",1702,4.7,1.6,57.55,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,984,0,NA,NA,NA,NA,NA,NA,NA,NA
+170992,NA,2026.01,2026,3,17,NA,NA,"litu",1704,12.2,15.2,33.02,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,740,0,NA,NA,NA,NA,NA,NA,NA,NA
+170994,NA,2026.01,2026,3,17,NA,NA,"litu",1704,18.4,16.1,67.39,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,594,0,NA,NA,NA,NA,NA,NA,NA,NA
+171127,NA,2026.01,2026,3,17,NA,NA,"litu",1705,9.3,1.8,111.39,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,802,0,NA,NA,NA,NA,NA,NA,NA,NA
+171254,NA,2026.01,2026,3,17,NA,NA,"litu",1708,15.3,3.4,28.1,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,799,0,NA,NA,NA,NA,NA,NA,NA,NA
+171257,NA,2026.01,2026,3,17,NA,NA,"litu",1708,12.2,4.5,119.86,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,647,0,NA,NA,NA,NA,NA,NA,NA,NA
+171262,NA,2026.01,2026,3,17,NA,NA,"litu",1708,15.9,8.2,60.65,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,663,0,NA,NA,NA,NA,NA,NA,NA,NA
+171348,NA,2026.01,2026,3,18,NA,NA,"ceca",1714,19.4,2.4,12.99,"","injured; top partially dead","alive","Jessica Shue","Jessica Shue",NA,NA,NA,164,0,NA,NA,NA,NA,NA,NA,NA,NA
+171454,NA,2026.01,2026,3,18,NA,NA,"caco",1714,1.6,13.8,33.1,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,124,0,NA,NA,NA,NA,NA,NA,NA,NA
+171456,NA,2026.01,2026,3,18,NA,NA,"acru",1714,0.8,13.4,83.52,"BA","last measurement; band removed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,768,0,NA,NA,NA,NA,NA,NA,NA,NA
+171462,NA,2026.01,2026,3,19,NA,NA,"qual",1715,7.9,7.5,NA,"RE","band to be installed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,870,0,NA,NA,NA,NA,NA,NA,NA,NA
+171505,NA,2026.01,2026,3,18,NA,NA,"litu",1716,14.1,12.4,17.24,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,491,0,NA,NA,NA,NA,NA,NA,NA,NA
+171506,NA,2026.01,2026,3,18,NA,NA,"litu",1716,12,12.9,91.47,"RT","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,536,0,NA,NA,NA,NA,NA,NA,NA,NA
+172201,NA,2026.01,2026,3,18,NA,NA,"cagl",1717,19.5,1.2,44.37,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,68,0,NA,NA,NA,NA,NA,NA,NA,NA
+172202,NA,2026.01,2026,3,19,NA,NA,"quru",1717,17.1,1.8,8.68,"","59.6, 58.7, 1.4","alive","Jessica Shue","Jessica Shue",NA,NA,NA,589,1,NA,NA,NA,NA,NA,NA,NA,NA
+172203,NA,2026.01,2026,3,18,NA,NA,"qual",1717,15.5,0.3,37.89,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,378,0,NA,NA,NA,NA,NA,NA,NA,NA
+172205,NA,2026.01,2026,3,18,NA,NA,"qual",1717,16.1,3.5,37.78,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,512,0,NA,NA,NA,NA,NA,NA,NA,NA
+172248,NA,2026.01,2026,3,18,NA,NA,"cato",1719,19.2,19.3,37.7,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,280,0,NA,NA,NA,NA,NA,NA,NA,NA
+172382,NA,2026.01,2026,3,18,NA,NA,"juni",1723,18.2,14.9,14.42,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,478,0,NA,NA,NA,NA,NA,NA,NA,NA
+172416,NA,2026.01,2026,3,18,NA,NA,"nysy",1725,19.9,15.6,12.1,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,204,0,NA,NA,NA,NA,NA,NA,NA,NA
+172417,NA,2026.01,2026,3,18,NA,NA,"nysy",1725,20,18.4,19.71,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,98,0,NA,NA,NA,NA,NA,NA,NA,NA
+172418,NA,2026.01,2026,3,18,NA,NA,"nysy",1725,20,19.5,31.55,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,295,0,NA,NA,NA,NA,NA,NA,NA,NA
+172421,NA,2026.01,2026,3,18,NA,NA,"cagl",1725,14.7,20,52.61,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,260,0,NA,NA,NA,NA,NA,NA,NA,NA
+172423,NA,2026.01,2026,3,18,NA,NA,"litu",1726,18.4,1.6,141.28,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,406,0,NA,NA,NA,NA,NA,NA,NA,NA
+172556,NA,2026.01,2026,3,18,NA,NA,"litu",1729,5.1,3.9,37.23,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,887,0,NA,NA,NA,NA,NA,NA,NA,NA
+172624,NA,2026.01,2026,3,18,NA,NA,"litu",1731,17.1,14.5,93.61,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,499,0,NA,NA,NA,NA,NA,NA,NA,NA
+180235,NA,2026.01,2026,3,17,NA,NA,"litu",1802,11,4.6,75.71,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1072,0,NA,NA,NA,NA,NA,NA,NA,NA
+180648,NA,2026.01,2026,3,17,NA,NA,"juni",1804,7.5,10.9,2.95,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,301,0,NA,NA,NA,NA,NA,NA,NA,NA
+180654,NA,2026.01,2026,3,17,NA,NA,"litu",1805,6,0.3,96.77,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,394,0,NA,NA,NA,NA,NA,NA,NA,NA
+180691,NA,2026.01,2026,3,17,NA,NA,"litu",1807,6.2,17.3,NA,"","band removed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,790,0,NA,NA,NA,NA,NA,NA,NA,NA
+180728,NA,2026.01,2026,3,17,NA,NA,"litu",1804,3.1,12.7,70.48,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,422,0,NA,NA,NA,NA,NA,NA,NA,NA
+180903,NA,2026.01,2026,3,17,NA,NA,"litu",1808,4.8,2.3,34.82,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,331,0,NA,NA,NA,NA,NA,NA,NA,NA
+180904,NA,2026.01,2026,3,17,NA,NA,"litu",1808,2.8,6.5,96.57,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,400,0,NA,NA,NA,NA,NA,NA,NA,NA
+180931,NA,2026.01,2026,3,17,NA,NA,"quve",1809,8.2,19.4,31.41,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,822,0,NA,NA,NA,NA,NA,NA,NA,NA
+180948,NA,2026.01,2026,3,17,NA,NA,"qupr",1811,1,9.5,14.65,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,134,0,NA,NA,NA,NA,NA,NA,NA,NA
+180984,NA,2026.01,2026,3,18,NA,NA,"litu",1813,4,11.8,122.18,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,985,0,NA,NA,NA,NA,NA,NA,NA,NA
+180991,NA,2026.01,2026,3,18,NA,NA,"ploc",1814,1.5,6.7,57.63,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,963,0,NA,NA,NA,NA,NA,NA,NA,NA
+181030,NA,2026.01,2026,3,18,NA,NA,"qual",1816,5.4,10.6,15.39,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,795,0,NA,NA,NA,NA,NA,NA,NA,NA
+181033,NA,2026.01,2026,3,18,NA,NA,"litu",1816,3.4,18.6,85.85,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,573,0,NA,NA,NA,NA,NA,NA,NA,NA
+182207,NA,2026.01,2026,3,18,NA,NA,"qual",1817,5.6,11.2,12.24,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,560,0,NA,NA,NA,NA,NA,NA,NA,NA
+182208,NA,2026.01,2026,3,18,NA,NA,"quru",1817,4,10.1,40.97,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,559,0,NA,NA,NA,NA,NA,NA,NA,NA
+182376,NA,2026.01,2026,3,18,NA,NA,"ploc",1823,2.9,12.6,88.29,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,702,0,NA,NA,NA,NA,NA,NA,NA,NA
+182398,NA,2026.01,2026,3,18,NA,NA,"ceca",1825,0.6,5.5,24.71,"","las measurement; injured; band removed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,114,0,NA,NA,NA,NA,NA,NA,NA,NA
+182471,NA,2026.01,2026,3,18,NA,NA,"ceca",1829,2.6,19,47.46,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,91,0,NA,NA,NA,NA,NA,NA,NA,NA
+182491,NA,2026.01,2026,3,18,NA,NA,"litu",1831,7.6,7.9,124.58,"RE","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,440,0,NA,NA,NA,NA,NA,NA,NA,NA
+182570,NA,2026.01,2026,3,18,NA,NA,"juni",1823,10.5,1,28.3,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,568,0,NA,NA,NA,NA,NA,NA,NA,NA
+182681,NA,2026.01,2026,3,18,NA,NA,"litu",1829,13,1,80.16,"BA","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,635,0,NA,NA,NA,NA,NA,NA,NA,NA
+182693,NA,2026.01,2026,3,18,NA,NA,"litu",1830,15.3,13.2,106.38,"","last measurement; band removed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,894,0,NA,NA,NA,NA,NA,NA,NA,NA
+190065,NA,2026.01,2026,3,17,NA,NA,"litu",1902,18.8,0.4,54.6,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,569,0,NA,NA,NA,NA,NA,NA,NA,NA
+190067,NA,2026.01,2026,3,17,NA,NA,"litu",1902,19,2.2,97.9,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,760,0,NA,NA,NA,NA,NA,NA,NA,NA
+190071,NA,2026.01,2026,3,17,NA,NA,"litu",1902,20,4.3,49.52,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,228,0,NA,NA,NA,NA,NA,NA,NA,NA
+190115,NA,2026.01,2026,3,17,NA,NA,"litu",1902,4.8,18.6,56.76,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,982,0,NA,NA,NA,NA,NA,NA,NA,NA
+190413,NA,2026.01,2026,3,17,NA,NA,"litu",1904,14.7,5.6,41.06,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1046,0,NA,NA,NA,NA,NA,NA,NA,NA
+190426,NA,2026.01,2026,3,17,NA,NA,"litu",1904,11,16,66.21,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1080,0,NA,NA,NA,NA,NA,NA,NA,NA
+190429,NA,2026.01,2026,3,17,NA,NA,"litu",1904,12.5,19.1,22.69,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,745,0,NA,NA,NA,NA,NA,NA,NA,NA
+190568,NA,2026.01,2026,3,18,NA,NA,"juni",1912,2.6,18.8,98.28,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,955,0,NA,NA,NA,NA,NA,NA,NA,NA
+190655,NA,2026.01,2026,3,17,NA,NA,"litu",1907,12.9,16.1,101.35,"RE","two springs","alive","Jessica Shue","Jessica Shue",NA,NA,NA,583,0,NA,NA,NA,NA,NA,NA,NA,NA
+190658,NA,2026.01,2026,3,17,NA,NA,"litu",1907,10.6,16.7,77.14,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,488,0,NA,NA,NA,NA,NA,NA,NA,NA
+190670,NA,2026.01,2026,3,17,NA,NA,"litu",1908,8,3.2,50.66,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,577,0,NA,NA,NA,NA,NA,NA,NA,NA
+190694,NA,2026.01,2026,3,17,NA,NA,"quru",1909,18.2,14.7,66.67,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1353,0,NA,NA,NA,NA,NA,NA,NA,NA
+190704,NA,2026.01,2026,3,17,NA,NA,"caco",1910,15.2,4.3,36.99,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,222,0,NA,NA,NA,NA,NA,NA,NA,NA
+190793,NA,2026.01,2026,3,18,NA,NA,"litu",1914,12.2,1.3,47.92,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,639,0,NA,NA,NA,NA,NA,NA,NA,NA
+190794,NA,2026.01,2026,3,18,NA,NA,"quru",1914,10.6,1.4,92.86,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,692,0,NA,NA,NA,NA,NA,NA,NA,NA
+190798,NA,2026.01,2026,3,18,NA,NA,"cagl",1914,12.5,8.4,23.26,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,284,0,NA,NA,NA,NA,NA,NA,NA,NA
+192008,NA,2026.01,2026,3,18,NA,NA,"qual",1917,12,2,110.67,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,719,0,NA,NA,NA,NA,NA,NA,NA,NA
+192133,NA,2026.01,2026,3,18,NA,NA,"caovl",1923,11.7,2.3,58.32,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,579,0,NA,NA,NA,NA,NA,NA,NA,NA
+192244,NA,2026.01,2026,3,18,NA,NA,"qual",1919,18.1,16.8,90.23,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,478,0,NA,NA,NA,NA,NA,NA,NA,NA
+192437,NA,2026.01,2026,3,18,NA,NA,"litu",1925,17,11.5,50.39,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,463,0,NA,NA,NA,NA,NA,NA,NA,NA
+192466,NA,2026.01,2026,3,18,NA,NA,"quru",1926,13.3,1.7,60.52,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,869,0,NA,NA,NA,NA,NA,NA,NA,NA
+192484,NA,2026.01,2026,3,18,NA,NA,"quru",1926,17.4,11.2,117.91,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,457,0,NA,NA,NA,NA,NA,NA,NA,NA
+192527,NA,2026.01,2026,3,18,NA,NA,"litu",1928,11.9,5,121.32,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,529,0,NA,NA,NA,NA,NA,NA,NA,NA
+192528,NA,2026.01,2026,3,18,NA,NA,"litu",1928,12.4,9.7,69.57,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,605,0,NA,NA,NA,NA,NA,NA,NA,NA
+192533,NA,2026.01,2026,3,18,NA,NA,"litu",1928,18.4,17.2,24.08,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,429,0,NA,NA,NA,NA,NA,NA,NA,NA
+192534,NA,2026.01,2026,3,18,NA,NA,"litu",1928,13.3,17.4,29.46,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,583,0,NA,NA,NA,NA,NA,NA,NA,NA
+192542,NA,2026.01,2026,3,18,NA,NA,"litu",1929,18.9,3.8,60.16,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,335,0,NA,NA,NA,NA,NA,NA,NA,NA
+192543,NA,2026.01,2026,3,18,NA,NA,"litu",1929,14.9,4.4,82.36,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,459,0,NA,NA,NA,NA,NA,NA,NA,NA
+192546,NA,2026.01,2026,3,18,NA,NA,"litu",1929,17.4,7.3,135.49,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,555,0,NA,NA,NA,NA,NA,NA,NA,NA
+192548,NA,2026.01,2026,3,18,NA,NA,"litu",1929,15.3,11.3,35.59,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,494,0,NA,NA,NA,NA,NA,NA,NA,NA
+192560,NA,2026.01,2026,3,18,NA,NA,"qual",1930,12.9,19.5,72.08,"","keep band; TOMST tree","alive","Jessica Shue","Jessica Shue",NA,NA,NA,970,0,NA,NA,NA,NA,NA,NA,NA,NA
+192619,NA,2026.01,2026,3,18,NA,NA,"quru",1926,12.6,8.5,40.41,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,845,0,NA,NA,NA,NA,NA,NA,NA,NA
+200142,NA,2026.01,2026,3,17,NA,NA,"litu",2002,1.3,3.5,62.49,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,635,0,NA,NA,NA,NA,NA,NA,NA,NA
+200151,NA,2026.01,2026,3,17,NA,NA,"litu",2002,6.9,4,125.32,"RE","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,723,0,NA,NA,NA,NA,NA,NA,NA,NA
+200547,NA,2026.01,2026,3,17,NA,NA,"litu",2005,2.6,1.1,42.62,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,690,0,NA,NA,NA,NA,NA,NA,NA,NA
+200551,NA,2026.01,2026,3,17,NA,NA,"litu",2005,1,5.3,27.26,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,602,0,NA,NA,NA,NA,NA,NA,NA,NA
+200577,NA,2026.01,2026,3,17,NA,NA,"juni",2007,6.1,9.6,4.9,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,544,0,NA,NA,NA,NA,NA,NA,NA,NA
+200586,NA,2026.01,2026,3,17,NA,NA,"juni",2007,2,13.9,32.55,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,451,0,NA,NA,NA,NA,NA,NA,NA,NA
+200676,NA,2026.01,2026,3,17,NA,NA,"litu",2008,12.2,6.9,49.52,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,905,0,NA,NA,NA,NA,NA,NA,NA,NA
+200812,NA,2026.01,2026,3,17,NA,NA,"juni",2008,8,1.2,51.57,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,559,0,NA,NA,NA,NA,NA,NA,NA,NA
+200818,NA,2026.01,2026,3,17,NA,NA,"litu",2008,4.4,3.9,24.17,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,351,0,NA,NA,NA,NA,NA,NA,NA,NA
+200822,NA,2026.01,2026,3,17,NA,NA,"litu",2008,5.6,10.3,52.91,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,882,0,NA,NA,NA,NA,NA,NA,NA,NA
+201171,NA,2026.01,2026,3,18,NA,NA,"ceca",2011,8.7,9.4,11.32,"","injured; VITIS","alive","Jessica Shue","Jessica Shue",NA,NA,NA,115,0,NA,NA,NA,NA,NA,NA,NA,NA
+201180,NA,2026.01,2026,3,19,NA,NA,"caco",2011,10.5,14.6,38.88,"","new spring installed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,137,0,NA,NA,NA,NA,NA,NA,NA,NA
+201207,NA,2026.01,2026,3,18,NA,NA,"litu",2012,10,17.3,NA,"","replace tree","alive","Jessica Shue","Jessica Shue",NA,NA,NA,1354,0,NA,NA,NA,NA,NA,NA,NA,NA
+201261,NA,2026.01,2026,3,18,NA,NA,"juni",2013,0.3,17.3,70.62,"","orange fungus on trunk","alive","Jessica Shue","Jessica Shue",NA,NA,NA,500,0,NA,NA,NA,NA,NA,NA,NA,NA
+201264,NA,2026.01,2026,3,18,NA,NA,"litu",2014,0.3,6.8,99.43,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,451,0,NA,NA,NA,NA,NA,NA,NA,NA
+201274,NA,2026.01,2026,3,18,NA,NA,"litu",2014,5.3,8.9,37.95,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,630,0,NA,NA,NA,NA,NA,NA,NA,NA
+201278,NA,2026.01,2026,3,18,NA,NA,"litu",2014,2.2,11.8,48.02,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,681,0,NA,NA,NA,NA,NA,NA,NA,NA
+201279,NA,2026.01,2026,3,18,NA,NA,"quru",2014,1.9,13,81.24,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,511,0,NA,NA,NA,NA,NA,NA,NA,NA
+201331,NA,2026.01,2026,3,18,NA,NA,"qupr",2015,14.3,9.5,49.49,"RT","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,447,0,NA,NA,NA,NA,NA,NA,NA,NA
+201432,NA,2026.01,2026,3,18,NA,NA,"quve",2016,0.3,12.5,128.22,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,457,0,NA,NA,NA,NA,NA,NA,NA,NA
+201441,NA,2026.01,2026,3,18,NA,NA,"litu",2016,11.8,19.2,108.07,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,834,0,NA,NA,NA,NA,NA,NA,NA,NA
+202050,NA,2026.01,2026,3,18,NA,NA,"qual",2019,9.2,14.5,62.07,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,501,0,NA,NA,NA,NA,NA,NA,NA,NA
+202072,NA,2026.01,2026,3,18,NA,NA,"qual",2020,2.1,10.8,74.24,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,741,0,NA,NA,NA,NA,NA,NA,NA,NA
+202201,NA,2026.01,2026,3,18,NA,NA,"cato",2017,3.2,1.1,54.33,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,151,0,NA,NA,NA,NA,NA,NA,NA,NA
+202203,NA,2026.01,2026,3,18,NA,NA,"quru",2017,9.2,1.4,38.2,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,537,0,NA,NA,NA,NA,NA,NA,NA,NA
+202212,NA,2026.01,2026,3,18,NA,NA,"quve",2017,4.3,9.5,35.53,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,632,0,NA,NA,NA,NA,NA,NA,NA,NA
+202215,NA,2026.01,2026,3,18,NA,NA,"qual",2017,5.5,11.7,17.19,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,570,0,NA,NA,NA,NA,NA,NA,NA,NA
+202276,NA,2026.01,2026,3,18,NA,NA,"caovl",2019,7.1,13.8,17.31,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,265,0,NA,NA,NA,NA,NA,NA,NA,NA
+202283,NA,2026.01,2026,3,18,NA,NA,"litu",2020,4.5,2.9,56.74,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,334,0,NA,NA,NA,NA,NA,NA,NA,NA
+202336,NA,2026.01,2026,3,18,NA,NA,"cagl",2022,3,10.7,45.82,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,473,0,NA,NA,NA,NA,NA,NA,NA,NA
+202337,NA,2026.01,2026,3,18,NA,NA,"cagl",2023,1,0.2,134.21,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,461,0,NA,NA,NA,NA,NA,NA,NA,NA
+202444,NA,2026.01,2026,3,18,NA,NA,"litu",2025,0.9,12.5,86.5,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,713,0,NA,NA,NA,NA,NA,NA,NA,NA
+202449,NA,2026.01,2026,3,18,NA,NA,"litu",2026,0,1,51.69,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,641,0,NA,NA,NA,NA,NA,NA,NA,NA
+202543,NA,2026.01,2026,3,18,NA,NA,"litu",2028,0.5,15.6,24.65,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,253,0,NA,NA,NA,NA,NA,NA,NA,NA
+202550,NA,2026.01,2026,3,18,NA,NA,"litu",2029,2.1,10.7,61.51,"","","alive","Jessica Shue","Jessica Shue",NA,NA,NA,603,0,NA,NA,NA,NA,NA,NA,NA,NA
+202686,NA,2026.01,2026,3,19,NA,NA,"ulru",2025,7.2,16.2,NA,"RE","band to be installed","alive","Jessica Shue","Jessica Shue",NA,NA,NA,142,0,NA,NA,NA,NA,NA,NA,NA,NA

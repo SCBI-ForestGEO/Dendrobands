@@ -30,7 +30,7 @@ current_year <- Sys.Date() %>%
 # Establish filenames of this year's spring biannual, all intraannual,
 # and fall biannual survey raw data
 current_year_spring_biannual_filename <- 
-  str_c("resources/raw_data/", current_year, "/data_entry_biannual_spr", current_year, ".csv") %>% 
+  str_c("resources/raw_data/", current_year, "/data_entry_biannual_spring", current_year, ".csv") %>% 
   here()
 current_year_intraannual_filename_list <- 
   str_c("resources/raw_data/", current_year) %>% 
