@@ -21,7 +21,7 @@ should be reviewed.*
 
 ### Anomalous measurement report
 
-![](testthat/reports/measurement_anomalies.png)<!-- -->
+    ## [1] "No anomalous measurements at the moment."
 
 ## Overview
 
@@ -133,20 +133,20 @@ Dendro repository](https://github.com/forestgeo/dendro).
 
 ## Contributors
 
-| name                       | GitHub ID    | position\*                          | role                                              |
-|----------------------------|--------------|-------------------------------------|---------------------------------------------------|
-| Kristina Anderson-Teixeira | teixeirak    | staff scientist, SCBI & STRI        | plot PI                                           |
-| William McShea             |              | staff scientist, SCBI               | plot PI                                           |
-| Erika Gonzalez-Akre        | gonzalezeb   | lab manager, SCBI                   | oversight of data collection                      |
-| Victoria Meakem            |              | research assistant, SCBI            | data collection                                   |
-| Ryan Helcoski              | RHelcoski    | research assistant, SCBI            | data collection                                   |
-| Ian McGregor               | mcgregorian1 | research assistant, SCBI            | data collection, data organization, coding        |
-| Alyssa Terrell             | terrella3    | research assistant, SCBI            | data collection, data organization, coding        |
-| Cameron Dow                | camerondow35 | research assistant, SCBI            | data collection, data organization, coding        |
-| Albert Y. Kim              | rudeboybert  | research associate, SCBI            | data organization, coding, continuous integration |
-| Jess Shue                  | jess-shue    | biological science technician, SERC | data collection, data organization, coding        |
-| Jennifer A. Jordan         | jenajordan   | intern, SCBI                        | data collection, data organization                |
-| Erin L. MacMonigle         |              | intern, SCBI                        | data collection, data organization                |
+| name | GitHub ID | position\* | role |
+|----|----|----|----|
+| Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | plot PI |
+| William McShea |  | staff scientist, SCBI | plot PI |
+| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | oversight of data collection |
+| Victoria Meakem |  | research assistant, SCBI | data collection |
+| Ryan Helcoski | RHelcoski | research assistant, SCBI | data collection |
+| Ian McGregor | mcgregorian1 | research assistant, SCBI | data collection, data organization, coding |
+| Alyssa Terrell | terrella3 | research assistant, SCBI | data collection, data organization, coding |
+| Cameron Dow | camerondow35 | research assistant, SCBI | data collection, data organization, coding |
+| Albert Y. Kim | rudeboybert | research associate, SCBI | data organization, coding, continuous integration |
+| Jess Shue | jess-shue | biological science technician, SERC | data collection, data organization, coding |
+| Jennifer A. Jordan | jenajordan | intern, SCBI | data collection, data organization |
+| Erin L. MacMonigle |  | intern, SCBI | data collection, data organization |
 
 \*refers to position at time of main contribution to this repository
 
