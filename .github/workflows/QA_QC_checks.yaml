@@ -9,14 +9,12 @@ on:
   push:
     paths:
       - 'resources/raw_data/**'
-      - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
       - 'README.Rmd'
   pull_request:
     paths:
       - 'resources/raw_data/**'
-      - 'Rscripts/survey_forms/create_master_csv_2021_and_after.R'
       - 'Rscripts/Generate_reports.R'
       - 'Rscripts/Generate_warnings.R'
       - 'README.Rmd'
@@ -57,14 +55,7 @@ jobs:
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
       
-      # Create data/scbi.dendroAll_YEAR.csv from resources/raw_data/YEAR/
-      # csv's
-      - name: Create current year's master data csv
-        id: create_master_csv
-        run: |
-          source("Rscripts/survey_forms/create_master_csv_2021_and_after.R")
-        shell: Rscript {0}     
-        
+
       # Test for data collection errors that require field fixes, outputs
       # saved in testthat/reports/
       - name: Generate error reports
