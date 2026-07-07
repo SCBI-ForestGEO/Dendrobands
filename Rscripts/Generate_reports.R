@@ -438,10 +438,6 @@ warning_file <- stems_to_alert %>%
 
 
 
-
-
-
-
 # Clean and save files ----
 ## Field fix errors ----
 report_filepath <- "testthat/reports/requires_field_fix/require_field_fix_error_file.csv"
