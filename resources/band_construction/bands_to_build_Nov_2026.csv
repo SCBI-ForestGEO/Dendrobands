@@ -1,0 +1,16 @@
+"","tag","StemTag","sp","dbh","quadrat","lx","ly","area","location","previous_measure","measure","measure_verified","new.band","codes","notes","year"
+"1",200551,1,"litu",602,2005,1,5.3,1,"South",0,NA,NA,NA,"RE","band damaged by CWD",2026
+"2",202201,1,"cato",151,2017,3.2,1.1,6,"North",0,NA,NA,NA,"RE",NA,2026
+"3",30333,1,"fagr",266,306,14,19.3,3,"South",147.05,147.82,NA,NA,"RE","About to outgrow band",2026
+"4",40568,1,"fagr",229,406,0.1,5.2,3,"South",116.58,116.73,NA,NA,"RE","About to outgrow band",2026
+"5",50562,1,"quru",715,514,6.9,12.5,3,"South",113.48,114.26,NA,NA,"RE",NA,2026
+"6",52190,1,"quru",1045,522,16.4,3.4,4,"North",127.53,129.09,NA,NA,"RE","About to outgrow band",2026
+"7",60588,1,"caco",311,615,13.4,7.3,3,"South",83.72,84.37,NA,NA,"RE","About to outgrow band",2026
+"8",62114,1,"quve",324,619,18.7,12.6,4,"North",108.58,NA,0,NA,"RE","Outgrew band",2026
+"9",62224,1,"litu",1080,622,3.2,17.3,4,"North",77.29,NA,0,NA,"RE","Band fell off",2026
+"10",70492,1,"nysy",227,714,0.1,11.2,3,"South",85.58,NA,NA,NA,"RE","outgrown",2026
+"11",72124,1,"quru",828,719,12.5,19.4,4,"North",133.94,NA,0,NA,"RE","Outgrew band",2026
+"12",80554,1,"caovl",551,813,6.9,11.2,2,"South",114.48,119.42,119.45,NA,"BA, RE",NA,2026
+"13",131364,1,"acru",487,1316,12,12.9,5,"North",0,NA,0,NA,"RE",NA,2026
+"14",182471,1,"ceca",91,1829,2.6,19,9,"North",0,NA,0,NA,"RE","outgrown",2026
+"15",192484,1,"quru",457,1926,17.4,11.2,9,"North",0,NA,0,NA,"RE",NA,2026
